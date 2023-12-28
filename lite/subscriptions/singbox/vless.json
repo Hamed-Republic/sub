@@ -124,7 +124,7 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 14",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 11",
-                "🇩🇪DE | vless | @V2raysFree | 15",
+                "🇩🇪DE | vless | @V2raysFree | 13",
                 "🇩🇪DE | vless | @v2logy | 21",
                 "🇮🇷IR | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
@@ -146,16 +146,17 @@
                 "🏳️XX | vless | @proxystore11 | 20",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 38",
-                "🇩🇪DE | vless | @Outlinev2rayNG | 13",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 13",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 8",
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇨🇦CA | vless | @Capoit | 6",
-                "🇨🇦CA | vless | @forwardv2ray | 1",
+                "🇨🇦CA | vless | @forwardv2ray | 9",
                 "🇺🇸US | vless | @mehrosaboran | 10",
                 "🇸🇪SE | vless | @kiava | 14",
-                "🇮🇷IR | vless | @proxy_mtm | 0",
+                "🇮🇷IR | vless | @proxy_mtm | 15",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🏳️XX | vless | @kingofilter | 19",
+                "🇩🇪DE | vless | @GozargahVPN | 17",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇳🇴NO | vless | @Good_V2rayy | 2",
                 "🇺🇸US | vless | @FoXrayIran | 7"
@@ -183,7 +184,7 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 14",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 11",
-                "🇩🇪DE | vless | @V2raysFree | 15",
+                "🇩🇪DE | vless | @V2raysFree | 13",
                 "🇩🇪DE | vless | @v2logy | 21",
                 "🇮🇷IR | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
@@ -205,16 +206,17 @@
                 "🏳️XX | vless | @proxystore11 | 20",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 38",
-                "🇩🇪DE | vless | @Outlinev2rayNG | 13",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 13",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 8",
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇨🇦CA | vless | @Capoit | 6",
-                "🇨🇦CA | vless | @forwardv2ray | 1",
+                "🇨🇦CA | vless | @forwardv2ray | 9",
                 "🇺🇸US | vless | @mehrosaboran | 10",
                 "🇸🇪SE | vless | @kiava | 14",
-                "🇮🇷IR | vless | @proxy_mtm | 0",
+                "🇮🇷IR | vless | @proxy_mtm | 15",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🏳️XX | vless | @kingofilter | 19",
+                "🇩🇪DE | vless | @GozargahVPN | 17",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇳🇴NO | vless | @Good_V2rayy | 2",
                 "🇺🇸US | vless | @FoXrayIran | 7"
@@ -774,11 +776,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @V2raysFree | 15",
+            "tag": "🇩🇪DE | vless | @V2raysFree | 13",
             "type": "vless",
-            "server": "159.89.1.24",
-            "server_port": 11003,
-            "uuid": "c5247247-ddda-4650-9270-4fd41b14f88a",
+            "server": "46.101.208.161",
+            "server_port": 43690,
+            "uuid": "f2b9bbfb-7c92-4723-a60f-453d2c474258",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1351,31 +1353,23 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @Outlinev2rayNG | 13",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 13",
             "type": "vless",
-            "server": "49.13.170.43",
-            "server_port": 443,
-            "uuid": "f43af21b-ba73-43ed-8fbd-7c107b526b4e",
-            "flow": "xtls-rprx-vision",
+            "server": "bia-to1.unlimiteddev.shop",
+            "server_port": 80,
+            "uuid": "2c5f22ea-ed92-45bc-8931-9023724bd20d",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "MasEq.2Aeo112_ajwue.O.botguard.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "yZLmOQmwfjK5X06qeBNAMMQE4SDImJ95FCQ1MMBalWo",
-                    "short_id": ""
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "bia-to1.unlimiteddev.shop"
                 }
             }
         },
@@ -1468,11 +1462,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 1",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 9",
             "type": "vless",
-            "server": "104.31.16.242",
-            "server_port": 443,
-            "uuid": "63d95d73-6306-47f7-af83-3bf0f17bf6f4",
+            "server": "tel.antiV2ray.sbs",
+            "server_port": 2096,
+            "uuid": "322fc97c-216f-4515-8b7a-ccbc177b11cf",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1482,7 +1476,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "bolbolvpn-join-us-10.rising-from-ashes.sbs",
+                "server_name": "tm.AntiV2ray.space",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1492,9 +1486,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/@AntiFilterChV2,@AntiFilterChV2,@AntiFilterChV2",
                 "headers": {
-                    "Host": "bolbolvpn-join-us-10.rising-from-ashes.sbs"
+                    "Host": "tm.AntiV2ray.space"
                 }
             }
         },
@@ -1559,7 +1553,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @proxy_mtm | 0",
+            "tag": "🇮🇷IR | vless | @proxy_mtm | 15",
             "type": "vless",
             "server": "31.47.45.196",
             "server_port": 2053,
@@ -1637,6 +1631,42 @@
                 "headers": {
                     "Host": "lmn59.sbs"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @GozargahVPN | 17",
+            "type": "vless",
+            "server": "91.107.190.232",
+            "server_port": 443,
+            "uuid": "--GozargahVPN--",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "greenpepper.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "eyEzTEq5-PyuEs59iiWaNdyz57B4MYPVYZEm35svMh0",
+                    "short_id": "f321"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
