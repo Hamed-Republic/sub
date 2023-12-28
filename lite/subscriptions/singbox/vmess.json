@@ -109,11 +109,10 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇹🇼TW | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 9",
-                "🏳️XX | vmess | @ConfigsHUB | 17",
+                "🏳️XX | vmess | @yaney_01 | 10",
                 "🇨🇷CR | vmess | @Hope_Net | 16",
                 "🇮🇷IR | vmess | @MrV2Ray | 3",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🇰🇷KR | vmess | @forwardv2ray | 9",
                 "🇳🇱NL | vmess | @eliya_chiter0 | 0"
             ]
         },
@@ -124,11 +123,10 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇹🇼TW | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 9",
-                "🏳️XX | vmess | @ConfigsHUB | 17",
+                "🏳️XX | vmess | @yaney_01 | 10",
                 "🇨🇷CR | vmess | @Hope_Net | 16",
                 "🇮🇷IR | vmess | @MrV2Ray | 3",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🇰🇷KR | vmess | @forwardv2ray | 9",
                 "🇳🇱NL | vmess | @eliya_chiter0 | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -220,11 +218,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @ConfigsHUB | 17",
+            "tag": "🏳️XX | vmess | @yaney_01 | 10",
             "type": "vmess",
-            "server": null,
-            "server_port": 0,
-            "uuid": null,
+            "server": "mehdi2.forwardv2raytelegramchannel.fun",
+            "server_port": 443,
+            "uuid": "c2cb6d93-316f-48de-b36f-fd61e6f4ed47",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -234,6 +232,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mehdi2.forwardv2raytelegramchannel.fun",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@FORWARDV2RAY",
+                "headers": {
+                    "Host": "mehdi2.forwardv2raytelegramchannel.fun"
+                }
             }
         },
         {
@@ -313,30 +328,6 @@
             "transport": {
                 "type": "ws",
                 "path": "\/racevpn",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇰🇷KR | vmess | @forwardv2ray | 9",
-            "type": "vmess",
-            "server": "muran-kr.qrfly.me",
-            "server_port": 20254,
-            "uuid": "007be9ad-8db6-4164-fc49-49989bbcba96",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
                 "headers": {
                     "Host": ""
                 }
