@@ -113,7 +113,6 @@
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 14",
                 "🇩🇪DE | vless | @customv2ray | 11",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 6",
-                "🇸🇪SE | vless | @DailyV2RY | 38",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 13",
                 "🇩🇪DE | vless | @Capital_NET | 56",
@@ -137,7 +136,6 @@
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 14",
                 "🇩🇪DE | vless | @customv2ray | 11",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 6",
-                "🇸🇪SE | vless | @DailyV2RY | 38",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 13",
                 "🇩🇪DE | vless | @Capital_NET | 56",
@@ -403,35 +401,6 @@
                 "reality": {
                     "enabled": true,
                     "public_key": "imMc9JMOdHsxpSZZXVawNr50W_fweMC7_6W0RtjG_R0",
-                    "short_id": "fe"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @DailyV2RY | 38",
-            "type": "vless",
-            "server": "13.53.141.198",
-            "server_port": 8443,
-            "uuid": "f553d0ca-701d-4f95-90e9-2851d055291e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "coinmarketcap.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "eD-dZclnspJMXtLdNL865lMA6penluAz0vTjom4Bpys",
                     "short_id": "fe"
                 }
             }
