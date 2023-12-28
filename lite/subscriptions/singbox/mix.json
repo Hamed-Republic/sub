@@ -115,7 +115,7 @@
                 "🇨🇦CA | vless | @ARv2ray | 14",
                 "🇺🇸US | vless | @Lockey_vpn | 12",
                 "🇮🇷IR | vless | @free_v2rayyy | 10",
-                "🇨🇷CR | vless | @lightning6 | 19",
+                "🇺🇸US | vless | @lightning6 | 19",
                 "🇮🇷IR | vless | @V2rayNGmat | 0",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 14",
@@ -152,7 +152,7 @@
                 "🇨🇦CA | vless | @SafeNet_Server | 7",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇸🇪SE | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🏳️XX | vless | @proxystore11 | 20",
                 "🇰🇷KR | trojan | @yaney_01 | 11",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -166,8 +166,8 @@
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @Capoit | 11",
                 "🇹🇷TR | vless | @IRN_VPN | 3",
-                "🇬🇧GB | ss | @forwardv2ray | 13",
-                "🇨🇦CA | vless | @FAKEOFTVC | 3",
+                "🏳️XX | vmess | @forwardv2ray | 14",
+                "🇺🇸US | vless | @FAKEOFTVC | 3",
                 "🇺🇸US | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇫🇮FI | vless | @proxy_mtm | 9",
@@ -194,7 +194,7 @@
                 "🇨🇦CA | vless | @ARv2ray | 14",
                 "🇺🇸US | vless | @Lockey_vpn | 12",
                 "🇮🇷IR | vless | @free_v2rayyy | 10",
-                "🇨🇷CR | vless | @lightning6 | 19",
+                "🇺🇸US | vless | @lightning6 | 19",
                 "🇮🇷IR | vless | @V2rayNGmat | 0",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 14",
@@ -231,7 +231,7 @@
                 "🇨🇦CA | vless | @SafeNet_Server | 7",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇸🇪SE | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🏳️XX | vless | @proxystore11 | 20",
                 "🇰🇷KR | trojan | @yaney_01 | 11",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -245,8 +245,8 @@
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @Capoit | 11",
                 "🇹🇷TR | vless | @IRN_VPN | 3",
-                "🇬🇧GB | ss | @forwardv2ray | 13",
-                "🇨🇦CA | vless | @FAKEOFTVC | 3",
+                "🏳️XX | vmess | @forwardv2ray | 14",
+                "🇺🇸US | vless | @FAKEOFTVC | 3",
                 "🇺🇸US | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇫🇮FI | vless | @proxy_mtm | 9",
@@ -554,7 +554,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @lightning6 | 19",
+            "tag": "🇺🇸US | vless | @lightning6 | 19",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.mamd.sbs",
             "server_port": 2083,
@@ -1520,11 +1520,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 17",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "13.48.231.204",
-            "server_port": 22222,
-            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+            "server": "104.16.31.197",
+            "server_port": 2096,
+            "uuid": "530d7da6-6279-40a8-b523-3193bf034c3a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1534,7 +1534,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "telegram-channel-vlessconfig.sohala.uk",
+                "server_name": "helix-5.mahoraga.space",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1543,11 +1543,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/telegram-channel-vlessconfig-ws",
-                "headers": {
-                    "Host": "telegram-channel-vlessconfig.sohala.uk"
-                }
+                "type": "grpc",
+                "service_name": "Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1925,17 +1925,41 @@
             }
         },
         {
-            "tag": "🇬🇧GB | ss | @forwardv2ray | 13",
-            "type": "shadowsocks",
-            "server": "series-a2.samanehha.co",
+            "tag": "🏳️XX | vmess | @forwardv2ray | 14",
+            "type": "vmess",
+            "server": "mci.mosi.mosipro.ml",
             "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "mps3FwmDjLrWaOVg",
-            "plugin": "",
-            "plugin_opts": ""
+            "uuid": "C1C5514A-3613-4DA8-9042-10CEDC3DD0F8",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Dusseldorf.kotick.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/speedtest",
+                "headers": {
+                    "Host": "Dusseldorf.kotick.site"
+                }
+            }
         },
         {
-            "tag": "🇨🇦CA | vless | @FAKEOFTVC | 3",
+            "tag": "🇺🇸US | vless | @FAKEOFTVC | 3",
             "type": "vless",
             "server": "104.21.28.62",
             "server_port": 443,
