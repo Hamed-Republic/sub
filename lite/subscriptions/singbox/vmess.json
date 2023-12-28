@@ -113,7 +113,6 @@
                 "🇮🇷IR | vmess | @customv2ray | 13",
                 "🇺🇸US | vmess | @ShadowProxy66 | 71",
                 "🇳🇱NL | vmess | @DailyV2RY | 14",
-                "🇯🇵JP | vmess | @ConfigsHUB | 18",
                 "🏳️XX | vmess | @yaney_01 | 10",
                 "🇨🇷CR | vmess | @Hope_Net | 16",
                 "🇮🇷IR | vmess | @MrV2Ray | 1",
@@ -132,7 +131,6 @@
                 "🇮🇷IR | vmess | @customv2ray | 13",
                 "🇺🇸US | vmess | @ShadowProxy66 | 71",
                 "🇳🇱NL | vmess | @DailyV2RY | 14",
-                "🇯🇵JP | vmess | @ConfigsHUB | 18",
                 "🏳️XX | vmess | @yaney_01 | 10",
                 "🇨🇷CR | vmess | @Hope_Net | 16",
                 "🇮🇷IR | vmess | @MrV2Ray | 1",
@@ -306,30 +304,6 @@
                 "path": "\/0ece175a",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇯🇵JP | vmess | @ConfigsHUB | 18",
-            "type": "vmess",
-            "server": "jp3.36routes.online",
-            "server_port": 80,
-            "uuid": "8efc7e9d-716e-440c-8573-5c52e8c503e3",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "jp3.36routes.online"
                 }
             }
         },
