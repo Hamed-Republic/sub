@@ -155,17 +155,16 @@
                 "🇨🇦CA | vless | @MehradLearn | 8",
                 "🇨🇦CA | vless | @SafeNet_Server | 9",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 18",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇨🇷CR | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 19",
                 "🏳️XX | vmess | @yaney_01 | 10",
-                "🇨🇦CA | vmess | @Hope_Net | 3",
+                "🇸🇬SG | vmess | @Hope_Net | 2",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 41",
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇩🇪DE | vless | @Capoit | 6",
                 "🇩🇪DE | vless | @flyv2ray | 13",
-                "🇮🇷IR | vless | @forwardv2ray | 11",
                 "🇸🇪SE | ss | @FAKEOFTVC | 6",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇦CA | vless | @mehrosaboran | 17",
@@ -233,17 +232,16 @@
                 "🇨🇦CA | vless | @MehradLearn | 8",
                 "🇨🇦CA | vless | @SafeNet_Server | 9",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 18",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇨🇷CR | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 19",
                 "🏳️XX | vmess | @yaney_01 | 10",
-                "🇨🇦CA | vmess | @Hope_Net | 3",
+                "🇸🇬SG | vmess | @Hope_Net | 2",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 41",
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇩🇪DE | vless | @Capoit | 6",
                 "🇩🇪DE | vless | @flyv2ray | 13",
-                "🇮🇷IR | vless | @forwardv2ray | 11",
                 "🇸🇪SE | ss | @FAKEOFTVC | 6",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇦CA | vless | @mehrosaboran | 17",
@@ -876,9 +874,9 @@
         {
             "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 14",
             "type": "vless",
-            "server": "file.fontyab.info",
-            "server_port": 443,
-            "uuid": "db9ad0ce-438c-4444-c454-a92692da2e84",
+            "server": "m1002.s25id.buzz",
+            "server_port": 8443,
+            "uuid": "706a9e3e-89a6-4ebe-baba-3f348aa635b1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -888,7 +886,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "fontyab.info",
+                "server_name": "zoro.zerozoro.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -898,9 +896,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/sitemap.xml",
+                "path": "\/",
                 "headers": {
-                    "Host": "fontyab.info"
+                    "Host": "zoro.zerozoro.cfd"
                 }
             }
         },
@@ -1605,12 +1603,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇷CR | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "13.50.226.20",
-            "server_port": 3074,
-            "uuid": "f553d0ca-701d-4f95-90e9-2851d055291e",
-            "flow": "xtls-rprx-vision",
+            "server": "190.93.247.155",
+            "server_port": 2096,
+            "uuid": "d57cb801-7a36-469e-9e05-66f2dbd4f928",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1619,18 +1617,20 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "coinmarketcap.com",
+                "server_name": "190.93.247.155",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ya70El1k3p3BTjdSnk3UlZxJOUfzreB2Q64034CE92c",
-                    "short_id": "fe"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@Digiv2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1699,11 +1699,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 3",
+            "tag": "🇸🇬SG | vmess | @Hope_Net | 2",
             "type": "vmess",
-            "server": "172.67.189.60",
-            "server_port": 80,
-            "uuid": "892ebb75-7055-3007-8d16-356e65c6a49a",
+            "server": "8.219.59.63",
+            "server_port": 12681,
+            "uuid": "cc58cbdc-c36f-42f4-9254-8f4fc564246b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1713,13 +1713,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/skincare",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
@@ -1929,30 +1922,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vless | @forwardv2ray | 11",
-            "type": "vless",
-            "server": "dari.news-liqgroup1278.site",
-            "server_port": 39621,
-            "uuid": "b85080f1-dee0-4d21-baa4-9d54f273751c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "milan.news-liqgroup1278.site",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             }
         },
         {
