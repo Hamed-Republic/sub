@@ -112,7 +112,8 @@
                 "🇩🇪DE | vless | @v2logy | 21",
                 "🇹🇷TR | vless | @V2rayCollector | 1",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 4",
-                "🇩🇪DE | vless | @VmessProtocol | 18",
+                "🇫🇮FI | vless | @v2ray1_ng | 4",
+                "🇸🇪SE | vless | @DailyV2RY | 40",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -131,7 +132,8 @@
                 "🇩🇪DE | vless | @v2logy | 21",
                 "🇹🇷TR | vless | @V2rayCollector | 1",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 4",
-                "🇩🇪DE | vless | @VmessProtocol | 18",
+                "🇫🇮FI | vless | @v2ray1_ng | 4",
+                "🇸🇪SE | vless | @DailyV2RY | 40",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -362,11 +364,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @VmessProtocol | 18",
+            "tag": "🇫🇮FI | vless | @v2ray1_ng | 4",
             "type": "vless",
-            "server": "maketheworldbetter.faraelm.fun",
-            "server_port": 45163,
-            "uuid": "7507d12d-1b60-48b8-8fc5-7bb878078aee",
+            "server": "95.216.190.225",
+            "server_port": 443,
+            "uuid": "a0562dec-26ac-43d4-ba1d-785c334e644f",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -376,18 +378,61 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "Snifinder.faraelm.fun",
+                "server_name": "greenpepper.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "u_LpzVFLwn4F4CQrM_jN1dwDwvYxkj7LSMxq75KxyxY",
-                    "short_id": "e701d69c"
+                    "public_key": "LYJKYSuEuF7h-klyUZUiExZIJk6LNGHeMqxKnB_gjRs",
+                    "short_id": "fada4f5f"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @DailyV2RY | 40",
+            "type": "vless",
+            "server": "eu.eecdn.r-yu.me",
+            "server_port": 23333,
+            "uuid": "6fd4ce3d-e8ef-4a0a-8113-289945b15b43",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.lovelive-anime.jp",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "qq"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YGpm4nnzh-ZF9aBk2F4OnBGDfTx08_CzUaeBk8UILho",
+                    "short_id": "b1522635"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "JAVAService",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
