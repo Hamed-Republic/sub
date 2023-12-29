@@ -119,13 +119,12 @@
                 "🇺🇸US | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @rxv2ray | 17",
                 "🇮🇷IR | vless | @free_v2rayyy | 10",
-                "🇨🇷CR | vless | @lightning6 | 18",
+                "🇺🇸US | vless | @lightning6 | 18",
                 "🇮🇷IR | vless | @V2rayNGmat | 0",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 13",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 11",
                 "🇩🇪DE | vless | @v2logy | 21",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 21",
                 "🇨🇦CA | vless | @UnlimitedDev | 8",
@@ -143,7 +142,6 @@
                 "🇨🇷CR | vless | @V2RayTz | 16",
                 "🇩🇪DE | vless | @VmessProtocol | 18",
                 "🇨🇦CA | vless | @SafeNet_Server | 8",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🏳️XX | vless | @proxystore11 | 20",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 35",
@@ -151,6 +149,7 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 10",
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇨🇦CA | vless | @Capoit | 6",
+                "🇹🇷TR | vless | @forwardv2ray | 18",
                 "🇳🇱NL | vless | @FAKEOFTVC | 5",
                 "🇺🇸US | vless | @mehrosaboran | 9",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -179,13 +178,12 @@
                 "🇺🇸US | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @rxv2ray | 17",
                 "🇮🇷IR | vless | @free_v2rayyy | 10",
-                "🇨🇷CR | vless | @lightning6 | 18",
+                "🇺🇸US | vless | @lightning6 | 18",
                 "🇮🇷IR | vless | @V2rayNGmat | 0",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 13",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 11",
                 "🇩🇪DE | vless | @v2logy | 21",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 21",
                 "🇨🇦CA | vless | @UnlimitedDev | 8",
@@ -203,7 +201,6 @@
                 "🇨🇷CR | vless | @V2RayTz | 16",
                 "🇩🇪DE | vless | @VmessProtocol | 18",
                 "🇨🇦CA | vless | @SafeNet_Server | 8",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🏳️XX | vless | @proxystore11 | 20",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 35",
@@ -211,6 +208,7 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 10",
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇨🇦CA | vless | @Capoit | 6",
+                "🇹🇷TR | vless | @forwardv2ray | 18",
                 "🇳🇱NL | vless | @FAKEOFTVC | 5",
                 "🇺🇸US | vless | @mehrosaboran | 9",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -633,7 +631,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @lightning6 | 18",
+            "tag": "🇺🇸US | vless | @lightning6 | 18",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.mamd.sbs",
             "server_port": 2083,
@@ -809,37 +807,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-            "type": "vless",
-            "server": "w3.sylarsun.eu.org",
-            "server_port": 443,
-            "uuid": "89420825-e589-4735-bee1-6dc636fca343",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "w3.sylarsun.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "w3.sylarsun.eu.org"
-                }
             }
         },
         {
@@ -1292,27 +1259,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "bia_to3.vmessorg.shop",
-            "server_port": 80,
-            "uuid": "2e4dfd24-5397-4f38-8eee-111c51eab3b6",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "bia_to3.vmessorg.shop"
-                }
-            }
-        },
-        {
             "tag": "🏳️XX | vless | @proxystore11 | 20",
             "type": "vless",
             "server": "proxystore11.ddns.net",
@@ -1527,6 +1473,42 @@
                 "headers": {
                     "Host": "cdn.cheshmsabz.top"
                 }
+            }
+        },
+        {
+            "tag": "🇹🇷TR | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "188.132.232.167",
+            "server_port": 58320,
+            "uuid": "a38f9f15-e7cf-44ec-afc6-2a4c0e948dc8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "zula.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Hwat9kk0rMHVXGG8BOXuMLKVs38aUUkxjEFb2hl_eAY",
+                    "short_id": "e5e3e61e"
+                }
+            },
+            "transport": {
+                "type": "http",
+                "host": [
+                    "zula.ir"
+                ],
+                "path": "\/"
             }
         },
         {
