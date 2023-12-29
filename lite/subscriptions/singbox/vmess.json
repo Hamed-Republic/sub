@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇹🇼TW | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🇮🇷IR | vmess | @prrofile_purple | 179",
                 "🇮🇷IR | vmess | @customv2ray | 13",
                 "🇺🇸US | vmess | @ShadowProxy66 | 71",
@@ -125,7 +125,7 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇹🇼TW | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🇮🇷IR | vmess | @prrofile_purple | 179",
                 "🇮🇷IR | vmess | @customv2ray | 13",
                 "🇺🇸US | vmess | @ShadowProxy66 | 71",
@@ -207,11 +207,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
             "type": "vmess",
-            "server": "japan.com",
-            "server_port": 443,
-            "uuid": "ee525c8e-0f65-4e00-877f-cd69e6554555",
+            "server": "104.27.102.105",
+            "server_port": 8080,
+            "uuid": "Telegram-V2ray_alpha",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -222,21 +222,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "accused-dump-technology-chem.trycloudflare.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/juzi8186-vm",
+                "path": "\/",
                 "headers": {
-                    "Host": "accused-dump-technology-chem.trycloudflare.com"
+                    "Host": ""
                 }
             }
         },
