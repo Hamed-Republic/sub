@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇨🇦CA | vless | @v2_team | 18",
                 "🇩🇪DE | vless | @NIM_VPN_ir | 0",
-                "🇨🇦CA | vless | @XsV2ray | 15",
+                "🇨🇷CR | vless | @XsV2ray | 15",
                 "🇸🇪SE | vless | @reality_daily | 7",
                 "🇫🇷FR | vless | @VlessConfig | 15",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
@@ -119,12 +119,11 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 10",
                 "🇨🇦CA | vless | @rxv2ray | 17",
                 "🇨🇦CA | vless | @free_v2rayyy | 10",
-                "🇨🇷CR | vless | @lightning6 | 18",
+                "🇺🇸US | vless | @lightning6 | 18",
                 "🇮🇷IR | vless | @V2rayNGmat | 0",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 15",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 14",
-                "🇨🇦CA | vless | @v2logy | 20",
                 "🇹🇷TR | vless | @V2rayCollector | 2",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 16",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
@@ -148,8 +147,9 @@
                 "🇨🇦CA | vless | @DailyV2RY | 50",
                 "🇨🇦CA | vless | @MehradLearn | 8",
                 "🇨🇦CA | vless | @SafeNet_Server | 10",
-                "🇨🇦CA | vless | @ConfigsHUB | 7",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🏳️XX | vless | @proxystore11 | 19",
+                "🇺🇸US | vless | @VPNCLOP | 0",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 44",
                 "🏳️XX | vless | @Capital_NET | 54",
@@ -172,7 +172,7 @@
             "outbounds": [
                 "🇨🇦CA | vless | @v2_team | 18",
                 "🇩🇪DE | vless | @NIM_VPN_ir | 0",
-                "🇨🇦CA | vless | @XsV2ray | 15",
+                "🇨🇷CR | vless | @XsV2ray | 15",
                 "🇸🇪SE | vless | @reality_daily | 7",
                 "🇫🇷FR | vless | @VlessConfig | 15",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
@@ -183,12 +183,11 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 10",
                 "🇨🇦CA | vless | @rxv2ray | 17",
                 "🇨🇦CA | vless | @free_v2rayyy | 10",
-                "🇨🇷CR | vless | @lightning6 | 18",
+                "🇺🇸US | vless | @lightning6 | 18",
                 "🇮🇷IR | vless | @V2rayNGmat | 0",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 15",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 14",
-                "🇨🇦CA | vless | @v2logy | 20",
                 "🇹🇷TR | vless | @V2rayCollector | 2",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 16",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
@@ -212,8 +211,9 @@
                 "🇨🇦CA | vless | @DailyV2RY | 50",
                 "🇨🇦CA | vless | @MehradLearn | 8",
                 "🇨🇦CA | vless | @SafeNet_Server | 10",
-                "🇨🇦CA | vless | @ConfigsHUB | 7",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🏳️XX | vless | @proxystore11 | 19",
+                "🇺🇸US | vless | @VPNCLOP | 0",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 44",
                 "🏳️XX | vless | @Capital_NET | 54",
@@ -312,7 +312,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @XsV2ray | 15",
+            "tag": "🇨🇷CR | vless | @XsV2ray | 15",
             "type": "vless",
             "server": "all.vipxali.cfd",
             "server_port": 2083,
@@ -646,7 +646,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @lightning6 | 18",
+            "tag": "🇺🇸US | vless | @lightning6 | 18",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.mamd.sbs",
             "server_port": 2083,
@@ -785,27 +785,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "3k.pureboy.eu.org"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @v2logy | 20",
-            "type": "vless",
-            "server": "cufe.turk.coffee",
-            "server_port": 80,
-            "uuid": "a1b395ea-5cf8-482e-a290-41ee5ea5b476",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/,Turk",
-                "headers": {
-                    "Host": "cufe.turk.coffee"
                 }
             }
         },
@@ -1452,7 +1431,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 7",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
             "type": "vless",
             "server": "xio.vpnxw.eu.org",
             "server_port": 2095,
@@ -1498,6 +1477,37 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@proxystore11-",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @VPNCLOP | 0",
+            "type": "vless",
+            "server": "173.245.58.100",
+            "server_port": 443,
+            "uuid": "d1675afb-440c-42a4-9a0b-69fa1ce7899a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "FreeV2rayng.VPNCUSTOMIZE.online",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "‌@VPNCUSTOMIZE",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
