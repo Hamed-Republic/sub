@@ -108,7 +108,6 @@
                 "URL-TEST",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @frev2ray | 11",
-                "🇯🇵JP | vless | @free_v2rayyy | 11",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇹🇷TR | vless | @V2rayCollector | 2",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 12",
@@ -120,6 +119,7 @@
                 "🇩🇪DE | vless | @Capoit | 10",
                 "🇩🇪DE | vless | @FreakConfig | 10",
                 "🇩🇪DE | vless | @flyv2ray | 14",
+                "🇩🇪DE | vless | @forwardv2ray | 8",
                 "🇸🇪SE | vless | @kiava | 15",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇳🇴NO | vless | @Good_V2rayy | 2",
@@ -132,7 +132,6 @@
             "outbounds": [
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @frev2ray | 11",
-                "🇯🇵JP | vless | @free_v2rayyy | 11",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇹🇷TR | vless | @V2rayCollector | 2",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 12",
@@ -144,6 +143,7 @@
                 "🇩🇪DE | vless | @Capoit | 10",
                 "🇩🇪DE | vless | @FreakConfig | 10",
                 "🇩🇪DE | vless | @flyv2ray | 14",
+                "🇩🇪DE | vless | @forwardv2ray | 8",
                 "🇸🇪SE | vless | @kiava | 15",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇳🇴NO | vless | @Good_V2rayy | 2",
@@ -239,35 +239,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇯🇵JP | vless | @free_v2rayyy | 11",
-            "type": "vless",
-            "server": "20.78.121.179",
-            "server_port": 44444,
-            "uuid": "79432dc9-370a-4e28-bd24-8d5877e63271",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "zula.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "6dvNuGDle8Ut5zNigsdP0mgl5dY7YG5xWF-wTu2KbT8",
-                    "short_id": "e754ef13"
-                }
             }
         },
         {
@@ -640,6 +611,42 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@flyv2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 8",
+            "type": "vless",
+            "server": "49.12.223.215",
+            "server_port": 8081,
+            "uuid": "f2fa89fa-e5b4-4369-b628-ba66bd43f3f0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "greenpepper.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "zLAawYpEmWeTqvz1Avaa2le82sDOjBEN2J9dBVTuxgI",
+                    "short_id": "2a88fab6"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "----------telegram:funza----------telegram:funza----------telegram:funza----------telegram:funza----------telegram:funza----------telegram:funza----------telegram:funza",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
