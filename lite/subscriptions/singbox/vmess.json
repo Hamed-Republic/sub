@@ -110,11 +110,12 @@
                 "🇷🇺RU | vmess | @mftizi | 18",
                 "🇮🇸IS | vmess | @oneclickvpnkeys | 10",
                 "🇬🇧GB | vmess | @ShadowProxy66 | 79",
-                "🏳️XX | vmess | @ConfigsHUB | 17",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇯🇵JP | vmess | @yaney_01 | 10",
                 "🇮🇷IR | vmess | @Hope_Net | 11",
                 "🇮🇷IR | vmess | @MrV2Ray | 2",
                 "🇺🇸US | vmess | @v2Line | 9",
+                "🇨🇳CN | vmess | @forwardv2ray | 18",
                 "🇺🇸US | vmess | @eliya_chiter0 | 2"
             ]
         },
@@ -126,11 +127,12 @@
                 "🇷🇺RU | vmess | @mftizi | 18",
                 "🇮🇸IS | vmess | @oneclickvpnkeys | 10",
                 "🇬🇧GB | vmess | @ShadowProxy66 | 79",
-                "🏳️XX | vmess | @ConfigsHUB | 17",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇯🇵JP | vmess | @yaney_01 | 10",
                 "🇮🇷IR | vmess | @Hope_Net | 11",
                 "🇮🇷IR | vmess | @MrV2Ray | 2",
                 "🇺🇸US | vmess | @v2Line | 9",
+                "🇨🇳CN | vmess | @forwardv2ray | 18",
                 "🇺🇸US | vmess | @eliya_chiter0 | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -253,11 +255,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @ConfigsHUB | 17",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
             "type": "vmess",
-            "server": null,
-            "server_port": 0,
-            "uuid": null,
+            "server": "v4.cfnode.eu.org",
+            "server_port": 8080,
+            "uuid": "cef51002-47b0-4e48-9d91-850e15ff95e8",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -267,6 +269,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "v4.cfnode.eu.org"
+                }
             }
         },
         {
@@ -366,6 +375,23 @@
                 "headers": {
                     "Host": ""
                 }
+            }
+        },
+        {
+            "tag": "🇨🇳CN | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "cm-03.zhuanfa.link",
+            "server_port": 28820,
+            "uuid": "65d79be3-7327-45f8-86fc-bd7f27948eec",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
