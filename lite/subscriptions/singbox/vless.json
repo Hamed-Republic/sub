@@ -155,12 +155,12 @@
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇩🇪DE | vless | @FreakConfig | 11",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇺🇸US | vless | @forwardv2ray | 19",
+                "🏳️XX | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 15",
                 "🇺🇸US | vless | @nofiltering2 | 16",
-                "🇨🇦CA | vless | @proxy_mtm | 9",
+                "🇺🇸US | vless | @proxy_mtm | 9",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vless | @kingofilter | 18",
                 "🏳️XX | vless | @GozargahVPN | 16",
@@ -222,12 +222,12 @@
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇩🇪DE | vless | @FreakConfig | 11",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇺🇸US | vless | @forwardv2ray | 19",
+                "🏳️XX | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 15",
                 "🇺🇸US | vless | @nofiltering2 | 16",
-                "🇨🇦CA | vless | @proxy_mtm | 9",
+                "🇺🇸US | vless | @proxy_mtm | 9",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vless | @kingofilter | 18",
                 "🏳️XX | vless | @GozargahVPN | 16",
@@ -1713,11 +1713,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @forwardv2ray | 19",
+            "tag": "🏳️XX | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "All.SHHPROXY.monster",
-            "server_port": 443,
-            "uuid": "fe0f9fdc-d69e-41d2-98ba-dea934c0266c",
+            "server": "join-----telegram-----channel.U_CONFINGVPN.cloud",
+            "server_port": 2087,
+            "uuid": "884f9b2c-f0c5-44dd-a68e-3e39ce93bb39",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1727,7 +1727,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "shhV2ray.DIGTALCITY.xyz",
+                "server_name": "cf-wkrs-pages-vless-aoy.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1736,11 +1736,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "@Shh_Proxy,@Shh_Proxy",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/https:\/\/www.udomain.hk\/sc\/customer\/case-study?_gl=1*1hsw0bx*_ga*mtewmje1mze2mc4xnjkyotixntu2*_ga_4n38ns1xjw*mty5ndi0mzgxmi40ljaumty5ndi0mzgxmi4wljauma..&_ga=2.87081816.1167400509.1694209387-1102153160.1692921556",
+                "headers": {
+                    "Host": "cf-wkrs-pages-vless-aoy.pages.dev"
+                }
             }
         },
         {
@@ -1856,7 +1856,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxy_mtm | 9",
+            "tag": "🇺🇸US | vless | @proxy_mtm | 9",
             "type": "vless",
             "server": "104.21.59.125",
             "server_port": 80,
