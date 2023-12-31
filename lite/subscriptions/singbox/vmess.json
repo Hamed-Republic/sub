@@ -110,11 +110,11 @@
                 "🇷🇺RU | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
                 "🇮🇷IR | vmess | @customv2ray | 15",
+                "🇮🇷IR | vmess | @ConfigsHUB | 15",
                 "🏳️XX | vmess | @yaney_01 | 10",
                 "🇵🇭PH | vmess | @Hope_Net | 8",
                 "🇮🇷IR | vmess | @MrV2Ray | 2",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🇩🇪DE | vmess | @forwardv2ray | 16",
                 "🇳🇱NL | vmess | @eliya_chiter0 | 0"
             ]
         },
@@ -126,11 +126,11 @@
                 "🇷🇺RU | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
                 "🇮🇷IR | vmess | @customv2ray | 15",
+                "🇮🇷IR | vmess | @ConfigsHUB | 15",
                 "🏳️XX | vmess | @yaney_01 | 10",
                 "🇵🇭PH | vmess | @Hope_Net | 8",
                 "🇮🇷IR | vmess | @MrV2Ray | 2",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🇩🇪DE | vmess | @forwardv2ray | 16",
                 "🇳🇱NL | vmess | @eliya_chiter0 | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -226,6 +226,30 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vmess | @ConfigsHUB | 15",
+            "type": "vmess",
+            "server": "46.245.92.89",
+            "server_port": 80,
+            "uuid": "25965ec0-c38d-4ae7-83b1-57af42d824f8",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/connect\/de\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -341,33 +365,6 @@
                 "path": "\/racevpn",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vmess | @forwardv2ray | 16",
-            "type": "vmess",
-            "server": "141.95.75.148",
-            "server_port": 443,
-            "uuid": "ce76d32e-3bc7-4a4f-bf2c-abddb893bed7",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         },
