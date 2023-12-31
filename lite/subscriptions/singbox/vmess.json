@@ -110,11 +110,11 @@
                 "🇷🇺RU | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
                 "🇮🇷IR | vmess | @customv2ray | 15",
-                "🇮🇷IR | vmess | @ConfigsHUB | 15",
                 "🏳️XX | vmess | @yaney_01 | 10",
-                "🇵🇭PH | vmess | @Hope_Net | 8",
+                "🇵🇭PH | vmess | @Hope_Net | 10",
                 "🇮🇷IR | vmess | @MrV2Ray | 2",
                 "🇺🇸US | vmess | @v2Line | 9",
+                "🇩🇪DE | vmess | @forwardv2ray | 19",
                 "🇳🇱NL | vmess | @eliya_chiter0 | 0"
             ]
         },
@@ -126,11 +126,11 @@
                 "🇷🇺RU | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
                 "🇮🇷IR | vmess | @customv2ray | 15",
-                "🇮🇷IR | vmess | @ConfigsHUB | 15",
                 "🏳️XX | vmess | @yaney_01 | 10",
-                "🇵🇭PH | vmess | @Hope_Net | 8",
+                "🇵🇭PH | vmess | @Hope_Net | 10",
                 "🇮🇷IR | vmess | @MrV2Ray | 2",
                 "🇺🇸US | vmess | @v2Line | 9",
+                "🇩🇪DE | vmess | @forwardv2ray | 19",
                 "🇳🇱NL | vmess | @eliya_chiter0 | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -229,30 +229,6 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @ConfigsHUB | 15",
-            "type": "vmess",
-            "server": "46.245.92.89",
-            "server_port": 80,
-            "uuid": "25965ec0-c38d-4ae7-83b1-57af42d824f8",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/connect\/de\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
             "tag": "🏳️XX | vmess | @yaney_01 | 10",
             "type": "vmess",
             "server": "mehdi2.forwardv2raytelegramchannel.fun",
@@ -287,7 +263,7 @@
             }
         },
         {
-            "tag": "🇵🇭PH | vmess | @Hope_Net | 8",
+            "tag": "🇵🇭PH | vmess | @Hope_Net | 10",
             "type": "vmess",
             "server": "38.54.36.181",
             "server_port": 50674,
@@ -365,6 +341,40 @@
                 "path": "\/racevpn",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "de3-full.privateip.net",
+            "server_port": 443,
+            "uuid": "cd5b6eaf-7649-4b9a-b113-da6ae0527521",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "de3-full.privateip.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/racevpn",
+                "headers": {
+                    "Host": "de3-full.privateip.net"
                 }
             }
         },
