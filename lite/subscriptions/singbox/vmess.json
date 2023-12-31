@@ -110,7 +110,7 @@
                 "🇷🇺RU | vmess | @mftizi | 18",
                 "🇮🇸IS | vmess | @oneclickvpnkeys | 10",
                 "🇮🇷IR | vmess | @customv2ray | 15",
-                "🏳️XX | vmess | @ConfigsHUB | 17",
+                "🇬🇧GB | vmess | @ShadowProxy66 | 79",
                 "🇯🇵JP | vmess | @yaney_01 | 10",
                 "🇨🇦CA | vmess | @Hope_Net | 16",
                 "🇮🇷IR | vmess | @MrV2Ray | 2",
@@ -126,7 +126,7 @@
                 "🇷🇺RU | vmess | @mftizi | 18",
                 "🇮🇸IS | vmess | @oneclickvpnkeys | 10",
                 "🇮🇷IR | vmess | @customv2ray | 15",
-                "🏳️XX | vmess | @ConfigsHUB | 17",
+                "🇬🇧GB | vmess | @ShadowProxy66 | 79",
                 "🇯🇵JP | vmess | @yaney_01 | 10",
                 "🇨🇦CA | vmess | @Hope_Net | 16",
                 "🇮🇷IR | vmess | @MrV2Ray | 2",
@@ -236,11 +236,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @ConfigsHUB | 17",
+            "tag": "🇬🇧GB | vmess | @ShadowProxy66 | 79",
             "type": "vmess",
-            "server": null,
-            "server_port": 0,
-            "uuid": null,
+            "server": "172.99.190.109",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -250,6 +250,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
