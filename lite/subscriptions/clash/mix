@@ -127,7 +127,6 @@ proxies:
   - {"name":"🇯🇵JP | vmess | @yaney_01 | 10","type":"vmess","server":"154.92.9.122","port":"80","cipher":"auto","uuid":"023c9d68-d3bc-4a5d-9568-0edb64fcddea","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/023c9d68","headers":{"host":"buyvm.nagisa.cyou"}}}
   - {"name":"🇮🇷IR | vmess | @MrV2Ray | 2","type":"vmess","server":"85.9.106.117","port":"57721","cipher":"auto","uuid":"0b3143e1-c24d-42f5-8562-f4041d7b7360","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
   - {"name":"🇺🇸US | vmess | @v2Line | 9","type":"vmess","server":"v2line.telegram.channel.1371.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":"443","cipher":"auto","uuid":"540bfb2c-2b26-4154-b5be-55d08bf40add","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/racevpn","headers":{"host":""}}}
-  - {"name":"🇳🇱NL | ss | @forwardv2ray | 19","type":"ss","server":"amsterdam.telegavpn.org","port":59531,"password":"3YYOirIrMapkHriAnoPPBI","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -143,7 +142,6 @@ proxy-groups:
       - '🇯🇵JP | vmess | @yaney_01 | 10'
       - '🇮🇷IR | vmess | @MrV2Ray | 2'
       - '🇺🇸US | vmess | @v2Line | 9'
-      - '🇳🇱NL | ss | @forwardv2ray | 19'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -159,7 +157,6 @@ proxy-groups:
       - '🇯🇵JP | vmess | @yaney_01 | 10'
       - '🇮🇷IR | vmess | @MrV2Ray | 2'
       - '🇺🇸US | vmess | @v2Line | 9'
-      - '🇳🇱NL | ss | @forwardv2ray | 19'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -174,7 +171,6 @@ proxy-groups:
       - '🇯🇵JP | vmess | @yaney_01 | 10'
       - '🇮🇷IR | vmess | @MrV2Ray | 2'
       - '🇺🇸US | vmess | @v2Line | 9'
-      - '🇳🇱NL | ss | @forwardv2ray | 19'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
