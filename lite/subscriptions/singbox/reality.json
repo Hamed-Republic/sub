@@ -113,7 +113,6 @@
                 "🇯🇵JP | vless | @free_v2rayyy | 12",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 12",
-                "🇸🇪SE | vless | @V2RayTz | 18",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇩🇪DE | vless | @flyv2ray | 18",
@@ -134,7 +133,6 @@
                 "🇯🇵JP | vless | @free_v2rayyy | 12",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 12",
-                "🇸🇪SE | vless | @V2RayTz | 18",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇩🇪DE | vless | @flyv2ray | 18",
@@ -391,35 +389,6 @@
                     "enabled": true,
                     "public_key": "t7VXZ_6nOQ6OZliDyuikmqswlv1M3uQ0obL8PFOgUXY",
                     "short_id": "ed8a"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @V2RayTz | 18",
-            "type": "vless",
-            "server": "13.50.249.178",
-            "server_port": 5222,
-            "uuid": "f553d0ca-701d-4f95-90e9-2851d055291e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "coinmarketcap.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "7PL2uiKHrm9EhLoiJqhX2Cxhv2JX4qsq9txIxr0usCc",
-                    "short_id": "1db3"
                 }
             }
         },
