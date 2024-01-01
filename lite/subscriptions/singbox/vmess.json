@@ -110,10 +110,10 @@
                 "🇷🇺RU | vmess | @mftizi | 18",
                 "🇮🇸IS | vmess | @oneclickvpnkeys | 10",
                 "🇬🇧GB | vmess | @ShadowProxy66 | 79",
-                "🇨🇳CN | vmess | @Hope_Net | 12",
+                "🏳️XX | vmess | @ConfigsHUB | 10",
+                "🇳🇱NL | vmess | @Hope_Net | 10",
                 "🇮🇷IR | vmess | @MrV2Ray | 2",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🏳️XX | vmess | @forwardv2ray | 18",
                 "🇺🇸US | vmess | @eliya_chiter0 | 2"
             ]
         },
@@ -125,10 +125,10 @@
                 "🇷🇺RU | vmess | @mftizi | 18",
                 "🇮🇸IS | vmess | @oneclickvpnkeys | 10",
                 "🇬🇧GB | vmess | @ShadowProxy66 | 79",
-                "🇨🇳CN | vmess | @Hope_Net | 12",
+                "🏳️XX | vmess | @ConfigsHUB | 10",
+                "🇳🇱NL | vmess | @Hope_Net | 10",
                 "🇮🇷IR | vmess | @MrV2Ray | 2",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🏳️XX | vmess | @forwardv2ray | 18",
                 "🇺🇸US | vmess | @eliya_chiter0 | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -251,11 +251,11 @@
             }
         },
         {
-            "tag": "🇨🇳CN | vmess | @Hope_Net | 12",
+            "tag": "🏳️XX | vmess | @ConfigsHUB | 10",
             "type": "vmess",
-            "server": "cm-03.zhuanfa.link",
-            "server_port": 45826,
-            "uuid": "65d79be3-7327-45f8-86fc-bd7f27948eec",
+            "server": null,
+            "server_port": 0,
+            "uuid": null,
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -265,6 +265,40 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vmess | @Hope_Net | 10",
+            "type": "vmess",
+            "server": "188.114.96.58",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 1,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ophelia.mom",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "ophelia.mom"
+                }
             }
         },
         {
@@ -323,23 +357,6 @@
                 "headers": {
                     "Host": ""
                 }
-            }
-        },
-        {
-            "tag": "🏳️XX | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": null,
-            "server_port": 0,
-            "uuid": null,
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
