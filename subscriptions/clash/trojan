@@ -149,8 +149,8 @@ proxies:
   - {"name":"🇩🇪DE | trojan | @DirectVPN | 14","type":"trojan","server":"3.68.4.210","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
   - {"name":"🇩🇪DE | trojan | @DirectVPN | 15","type":"trojan","server":"3.78.42.117","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
   - {"name":"🇸🇪SE | trojan | @DirectVPN | 16","type":"trojan","server":"13.51.232.201","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
-  - {"name":"🇫🇷FR | trojan | @ConfigsHUB | 5","type":"trojan","server":"13.37.174.12","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
   - {"name":"🇩🇪DE | trojan | @yaney_01 | 5","type":"trojan","server":"www.casperco.online","port":993,"udp":false,"password":"74811f39-8f69-4334-9e0f-a8a25d7413c1","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"🇺🇸US | trojan | @forwardv2ray | 0","type":"trojan","server":"ironone.libertasiran.cloud","port":443,"udp":false,"password":"xaafTz903F","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"ironone.libertasiran.cloud"}
   - {"name":"🇯🇵JP | trojan | @kingofilter | 16","type":"trojan","server":"54.168.244.142","port":3306,"udp":false,"password":"d07a02a06191c99f","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"n2.gladns.com"}
 proxy-groups:
   - name: MANUAL
@@ -189,8 +189,8 @@ proxy-groups:
       - '🇩🇪DE | trojan | @DirectVPN | 14'
       - '🇩🇪DE | trojan | @DirectVPN | 15'
       - '🇸🇪SE | trojan | @DirectVPN | 16'
-      - '🇫🇷FR | trojan | @ConfigsHUB | 5'
       - '🇩🇪DE | trojan | @yaney_01 | 5'
+      - '🇺🇸US | trojan | @forwardv2ray | 0'
       - '🇯🇵JP | trojan | @kingofilter | 16'
   - name: URL-TEST
     type: url-test
@@ -229,8 +229,8 @@ proxy-groups:
       - '🇩🇪DE | trojan | @DirectVPN | 14'
       - '🇩🇪DE | trojan | @DirectVPN | 15'
       - '🇸🇪SE | trojan | @DirectVPN | 16'
-      - '🇫🇷FR | trojan | @ConfigsHUB | 5'
       - '🇩🇪DE | trojan | @yaney_01 | 5'
+      - '🇺🇸US | trojan | @forwardv2ray | 0'
       - '🇯🇵JP | trojan | @kingofilter | 16'
   - name: FALLBACK
     type: fallback
@@ -268,8 +268,8 @@ proxy-groups:
       - '🇩🇪DE | trojan | @DirectVPN | 14'
       - '🇩🇪DE | trojan | @DirectVPN | 15'
       - '🇸🇪SE | trojan | @DirectVPN | 16'
-      - '🇫🇷FR | trojan | @ConfigsHUB | 5'
       - '🇩🇪DE | trojan | @yaney_01 | 5'
+      - '🇺🇸US | trojan | @forwardv2ray | 0'
       - '🇯🇵JP | trojan | @kingofilter | 16'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
