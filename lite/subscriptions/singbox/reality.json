@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇷FR | vless | @EliV2ray | 12",
+                "🇫🇷FR | vless | @EliV2ray | 14",
                 "🇹🇷TR | vless | @reality_daily | 0",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @frev2ray | 11",
@@ -114,10 +114,9 @@
                 "🇩🇪DE | vless | @DailyV2RY | 27",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🏳️XX | vless | @Capital_NET | 54",
-                "🇩🇪DE | vless | @forwardv2ray | 13",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇫🇮FI | vless | @proxy_mtm | 8",
-                "🇺🇸US | vless | @vpn_go67 | 23",
+                "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @FoXrayIran | 6"
             ]
         },
@@ -125,7 +124,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇷FR | vless | @EliV2ray | 12",
+                "🇫🇷FR | vless | @EliV2ray | 14",
                 "🇹🇷TR | vless | @reality_daily | 0",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @frev2ray | 11",
@@ -133,10 +132,9 @@
                 "🇩🇪DE | vless | @DailyV2RY | 27",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🏳️XX | vless | @Capital_NET | 54",
-                "🇩🇪DE | vless | @forwardv2ray | 13",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇫🇮FI | vless | @proxy_mtm | 8",
-                "🇺🇸US | vless | @vpn_go67 | 23",
+                "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @FoXrayIran | 6"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -160,7 +158,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇫🇷FR | vless | @EliV2ray | 12",
+            "tag": "🇫🇷FR | vless | @EliV2ray | 14",
             "type": "vless",
             "server": "98.66.160.227",
             "server_port": 29494,
@@ -434,42 +432,6 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 13",
-            "type": "vless",
-            "server": "116.203.184.23",
-            "server_port": 2096,
-            "uuid": "c76903f0-bc18-42e8-b026-20fd8fddb777",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sourceforge.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "zN9DTHpP4CCxpOw4abbvFkQTSIir7Fr9Dl1Uxd3j1BM",
-                    "short_id": "27e75589"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "ZEDODEON",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
             "tag": "🇸🇪SE | vless | @kiava | 14",
             "type": "vless",
             "server": "16.170.168.4",
@@ -535,7 +497,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @vpn_go67 | 23",
+            "tag": "🇨🇦CA | vless | @vpn_go67 | 23",
             "type": "vless",
             "server": "public.alpanel.top",
             "server_port": 1403,
