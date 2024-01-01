@@ -111,7 +111,7 @@
                 "🇨🇦CA | vless | @XsV2ray | 15",
                 "🇹🇷TR | vless | @reality_daily | 0",
                 "🇫🇷FR | vless | @VlessConfig | 15",
-                "🇨🇷CR | vless | @VPNCUSTOMIZE | 21",
+                "🇨🇷CR | vless | @VPNCUSTOMIZE | 22",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 5",
                 "🇨🇦CA | vless | @V2pedia | 5",
@@ -120,7 +120,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 8",
                 "🇨🇦CA | vless | @rxv2ray | 23",
                 "🇨🇦CA | vless | @free_v2rayyy | 10",
-                "🇨🇷CR | vless | @lightning6 | 19",
+                "🇺🇸US | vless | @lightning6 | 19",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 16",
                 "🇨🇦CA | vless | @v2logy | 18",
@@ -150,7 +150,6 @@
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FAKEOFTVC | 4",
-                "🇺🇸US | vless | @mehrosaboran | 10",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇨🇦CA | vless | @nofiltering2 | 15",
                 "🇫🇮FI | vless | @proxy_mtm | 8",
@@ -169,7 +168,7 @@
                 "🇨🇦CA | vless | @XsV2ray | 15",
                 "🇹🇷TR | vless | @reality_daily | 0",
                 "🇫🇷FR | vless | @VlessConfig | 15",
-                "🇨🇷CR | vless | @VPNCUSTOMIZE | 21",
+                "🇨🇷CR | vless | @VPNCUSTOMIZE | 22",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 5",
                 "🇨🇦CA | vless | @V2pedia | 5",
@@ -178,7 +177,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 8",
                 "🇨🇦CA | vless | @rxv2ray | 23",
                 "🇨🇦CA | vless | @free_v2rayyy | 10",
-                "🇨🇷CR | vless | @lightning6 | 19",
+                "🇺🇸US | vless | @lightning6 | 19",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 16",
                 "🇨🇦CA | vless | @v2logy | 18",
@@ -208,7 +207,6 @@
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FAKEOFTVC | 4",
-                "🇺🇸US | vless | @mehrosaboran | 10",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇨🇦CA | vless | @nofiltering2 | 15",
                 "🇫🇮FI | vless | @proxy_mtm | 8",
@@ -396,7 +394,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @VPNCUSTOMIZE | 21",
+            "tag": "🇨🇷CR | vless | @VPNCUSTOMIZE | 22",
             "type": "vless",
             "server": "all.vpncustomize.cam",
             "server_port": 443,
@@ -685,7 +683,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @lightning6 | 19",
+            "tag": "🇺🇸US | vless | @lightning6 | 19",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.mamd.sbs",
             "server_port": 2083,
@@ -1521,37 +1519,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @mehrosaboran | 10",
-            "type": "vless",
-            "server": "173.245.58.31",
-            "server_port": 443,
-            "uuid": "30c6a5ec-3de5-4eec-afe6-e9a13e1a30cb",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "dash.zedmodeon.fun",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "TELEGRAM:@ZEDMODEON-TELEGRAM:@ZEDMODEON-TELEGRAM:@ZEDMODEON,TELEGRAM:@ZEDMODEON",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
