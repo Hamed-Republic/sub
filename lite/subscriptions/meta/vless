@@ -165,7 +165,7 @@ proxies:
   - {"name":"🇨🇦CA | vless | @nofiltering2 | 15","type":"vless","server":"cdn.monfared.xyz","port":443,"udp":false,"uuid":"a3762900-c5e9-4493-98b1-4923ada6c4ef","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"barobachclubgng.yonesalipoor021.workers.dev","ws-opts":{"path":"/","headers":{"host":"barobachclubgng.yonesalipoor021.workers.dev"}}}
   - {"name":"🇫🇮FI | vless | @proxy_mtm | 8","type":"vless","server":"65.109.227.210","port":443,"udp":true,"uuid":"cf2ce827-129a-4d6f-ab9b-123b117e482d","tls":true,"network":"grpc","client-fingerprint":"firefox","servername":"mihanyas.ir","grpc-opts":{"grpc-service-name":"@ipV2Ray"},"reality-opts":{"public-key":"6j5k_vKt1k_M9i3RJ-ycX5e2HAQHbtkVMhOPz2Hm4AA","short-id":"1b27a6b1"}}
   - {"name":"🇬🇧GB | vless | @freeconfigv2 | 14","type":"vless","server":"51.89.156.132","port":42440,"udp":false,"uuid":"ee1a886f-05ba-4407-bdd1-efdb4daac2f6","tls":false,"network":"tcp","client-fingerprint":"chrome","flow":"xtls-rprx-vision"}
-  - {"name":"🇨🇦CA | vless | @SvnTeam | 8","type":"vless","server":"mtn.vpnprosec.com","port":2087,"udp":false,"uuid":"bcd5e2c6-4d1f-40e0-91cc-b13fadeda9b3","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"nbss-bts-gay-cos-kirs.sportskala.shop","grpc-opts":{"grpc-service-name":""}}
+  - {"name":"🇺🇸US | vless | @SvnTeam | 8","type":"vless","server":"mtn.vpnprosec.com","port":2087,"udp":false,"uuid":"bcd5e2c6-4d1f-40e0-91cc-b13fadeda9b3","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"nbss-bts-gay-cos-kirs.sportskala.shop","grpc-opts":{"grpc-service-name":""}}
   - {"name":"🇨🇦CA | vless | @V2FETCH | 0","type":"vless","server":"ip.whiterose.monster","port":8443,"udp":false,"uuid":"f1dfc86f-b836-42b5-a1af-a0d8df7d6ebc","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"you.whiterose.monster","ws-opts":{"path":"/","headers":{"host":"you.whiterose.monster"}}}
 proxy-groups:
   - name: MANUAL
@@ -218,7 +218,7 @@ proxy-groups:
       - '🇨🇦CA | vless | @nofiltering2 | 15'
       - '🇫🇮FI | vless | @proxy_mtm | 8'
       - '🇬🇧GB | vless | @freeconfigv2 | 14'
-      - '🇨🇦CA | vless | @SvnTeam | 8'
+      - '🇺🇸US | vless | @SvnTeam | 8'
       - '🇨🇦CA | vless | @V2FETCH | 0'
   - name: URL-TEST
     type: url-test
@@ -271,7 +271,7 @@ proxy-groups:
       - '🇨🇦CA | vless | @nofiltering2 | 15'
       - '🇫🇮FI | vless | @proxy_mtm | 8'
       - '🇬🇧GB | vless | @freeconfigv2 | 14'
-      - '🇨🇦CA | vless | @SvnTeam | 8'
+      - '🇺🇸US | vless | @SvnTeam | 8'
       - '🇨🇦CA | vless | @V2FETCH | 0'
   - name: FALLBACK
     type: fallback
@@ -323,7 +323,7 @@ proxy-groups:
       - '🇨🇦CA | vless | @nofiltering2 | 15'
       - '🇫🇮FI | vless | @proxy_mtm | 8'
       - '🇬🇧GB | vless | @freeconfigv2 | 14'
-      - '🇨🇦CA | vless | @SvnTeam | 8'
+      - '🇺🇸US | vless | @SvnTeam | 8'
       - '🇨🇦CA | vless | @V2FETCH | 0'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
