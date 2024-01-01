@@ -115,7 +115,6 @@
                 "🇹🇷TR | vmess | @Hope_Net | 15",
                 "🇮🇷IR | vmess | @MrV2Ray | 2",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🏳️XX | vmess | @forwardv2ray | 19",
                 "🇮🇷IR | vmess | @FAKEOFTVC | 4",
                 "🇺🇸US | vmess | @eliya_chiter0 | 6"
             ]
@@ -133,7 +132,6 @@
                 "🇹🇷TR | vmess | @Hope_Net | 15",
                 "🇮🇷IR | vmess | @MrV2Ray | 2",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🏳️XX | vmess | @forwardv2ray | 19",
                 "🇮🇷IR | vmess | @FAKEOFTVC | 4",
                 "🇺🇸US | vmess | @eliya_chiter0 | 6"
             ],
@@ -369,40 +367,6 @@
                 "path": "\/racevpn",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🏳️XX | vmess | @forwardv2ray | 19",
-            "type": "vmess",
-            "server": "vip.sheyson.ir",
-            "server_port": 443,
-            "uuid": "6fd14b51-0fe9-4e88-9987-85bc82768f00",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "vip.sheyson.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/lSYdFiRj5oJbMoMLI8excVv",
-                "headers": {
-                    "Host": "vip.sheyson.ir"
                 }
             }
         },
