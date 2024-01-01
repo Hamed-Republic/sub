@@ -108,7 +108,8 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇷🇺RU | vmess | @mftizi | 18",
-                "🇩🇪DE | vmess | @oneclickvpnkeys | 8",
+                "🇸🇪SE | vmess | @oneclickvpnkeys | 7",
+                "🏳️XX | vmess | @ConfigsHUB | 18",
                 "🇳🇱NL | vmess | @Hope_Net | 14",
                 "🇮🇷IR | vmess | @MrV2Ray | 2",
                 "🇺🇸US | vmess | @v2Line | 9",
@@ -121,7 +122,8 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇷🇺RU | vmess | @mftizi | 18",
-                "🇩🇪DE | vmess | @oneclickvpnkeys | 8",
+                "🇸🇪SE | vmess | @oneclickvpnkeys | 7",
+                "🏳️XX | vmess | @ConfigsHUB | 18",
                 "🇳🇱NL | vmess | @Hope_Net | 14",
                 "🇮🇷IR | vmess | @MrV2Ray | 2",
                 "🇺🇸US | vmess | @v2Line | 9",
@@ -189,11 +191,45 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @oneclickvpnkeys | 8",
+            "tag": "🇸🇪SE | vmess | @oneclickvpnkeys | 7",
             "type": "vmess",
-            "server": "165.227.143.205",
-            "server_port": 18942,
-            "uuid": "226731fe-50cf-4b7e-8350-b4533cc3c138",
+            "server": "hdfy7d1.jahangirkh.eu.org",
+            "server_port": 443,
+            "uuid": "01596265-168b-46a7-bcb7-25662c7a9546",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hdfy7d1.jahangirkh.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/mrX5XBSsE4fQALebvMmvby47",
+                "headers": {
+                    "Host": "hdfy7d1.jahangirkh.eu.org"
+                }
+            }
+        },
+        {
+            "tag": "🏳️XX | vmess | @ConfigsHUB | 18",
+            "type": "vmess",
+            "server": null,
+            "server_port": 0,
+            "uuid": null,
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -208,11 +244,11 @@
         {
             "tag": "🇳🇱NL | vmess | @Hope_Net | 14",
             "type": "vmess",
-            "server": "45.58.145.200",
-            "server_port": 30000,
-            "uuid": "55545f9e-a561-454a-8dc0-8bc110e6b1c9",
+            "server": "nl-full.privateip.net",
+            "server_port": 443,
+            "uuid": "6930f7e2-0649-4cd0-b5e8-d533472ca478",
             "security": "auto",
-            "alter_id": 64,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -223,7 +259,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.51652109.xyz",
+                "server_name": "nl-full.privateip.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -233,9 +269,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/path\/1702301098557",
+                "path": "\/racevpn",
                 "headers": {
-                    "Host": "www.51652109.xyz"
+                    "Host": "nl-full.privateip.net"
                 }
             }
         },
