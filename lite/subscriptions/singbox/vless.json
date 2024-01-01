@@ -133,11 +133,11 @@
                 "🇨🇷CR | vless | @V2rayNGn | 25",
                 "🇨🇦CA | vless | @UnlimitedDev | 7",
                 "🇨🇦CA | vless | @vmessorg | 23",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 11",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 10",
                 "🇨🇦CA | vless | @v2rayngvpn | 9",
                 "🏳️XX | vless | @FalconPolV2rayNG | 4",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇺🇸US | vless | @proxyymeliii | 19",
+                "🇺🇸US | vless | @proxyymeliii | 18",
                 "🇨🇦CA | vless | @MsV2ray | 9",
                 "🇨🇦CA | vless | @v2ray1_ng | 2",
                 "🇮🇷IR | vless | @vless_vmess | 5",
@@ -146,6 +146,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 41",
                 "🇨🇦CA | vless | @SafeNet_Server | 10",
                 "🇨🇦CA | vless | @lrnbymaa | 10",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 18",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 44",
@@ -196,11 +197,11 @@
                 "🇨🇷CR | vless | @V2rayNGn | 25",
                 "🇨🇦CA | vless | @UnlimitedDev | 7",
                 "🇨🇦CA | vless | @vmessorg | 23",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 11",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 10",
                 "🇨🇦CA | vless | @v2rayngvpn | 9",
                 "🏳️XX | vless | @FalconPolV2rayNG | 4",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇺🇸US | vless | @proxyymeliii | 19",
+                "🇺🇸US | vless | @proxyymeliii | 18",
                 "🇨🇦CA | vless | @MsV2ray | 9",
                 "🇨🇦CA | vless | @v2ray1_ng | 2",
                 "🇮🇷IR | vless | @vless_vmess | 5",
@@ -209,6 +210,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 41",
                 "🇨🇦CA | vless | @SafeNet_Server | 10",
                 "🇨🇦CA | vless | @lrnbymaa | 10",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 18",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 44",
@@ -1058,11 +1060,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 11",
+            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 10",
             "type": "vless",
-            "server": "3k.pureboy.eu.org",
-            "server_port": 2082,
-            "uuid": "biiaTelegram-V2ray_alpha",
+            "server": "104.21.229.0",
+            "server_port": 80,
+            "uuid": "c6ea407d-9f3f-4625-9dda-401837f0f68f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1074,7 +1076,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "3k.pureboy.eu.org"
+                    "Host": "104.21.229.0"
                 }
             }
         },
@@ -1155,7 +1157,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxyymeliii | 19",
+            "tag": "🇺🇸US | vless | @proxyymeliii | 18",
             "type": "vless",
             "server": "All.SHHPROXY.monster",
             "server_port": 443,
@@ -1393,6 +1395,37 @@
                 "path": "\/",
                 "headers": {
                     "Host": "104.24.255.191"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "172.67.216.162",
+            "server_port": 443,
+            "uuid": "376b9861-2fc6-4647-959c-18185cd9c95a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "lmn59.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/fflsws",
+                "headers": {
+                    "Host": "lmn59.sbs"
                 }
             }
         },
