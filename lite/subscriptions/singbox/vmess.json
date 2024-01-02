@@ -111,9 +111,10 @@
                 "🇻🇳VN | vmess | @oneclickvpnkeys | 10",
                 "🇮🇷IR | vmess | @customv2ray | 15",
                 "🇭🇰HK | vmess | @yaney_01 | 10",
-                "🇭🇰HK | vmess | @Hope_Net | 14",
+                "🇭🇰HK | vmess | @Hope_Net | 16",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 9",
+                "🏳️XX | vmess | @forwardv2ray | 3",
                 "🇮🇳IN | vmess | @eliya_chiter0 | 7"
             ]
         },
@@ -126,9 +127,10 @@
                 "🇻🇳VN | vmess | @oneclickvpnkeys | 10",
                 "🇮🇷IR | vmess | @customv2ray | 15",
                 "🇭🇰HK | vmess | @yaney_01 | 10",
-                "🇭🇰HK | vmess | @Hope_Net | 14",
+                "🇭🇰HK | vmess | @Hope_Net | 16",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 9",
+                "🏳️XX | vmess | @forwardv2ray | 3",
                 "🇮🇳IN | vmess | @eliya_chiter0 | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -261,7 +263,7 @@
             }
         },
         {
-            "tag": "🇭🇰HK | vmess | @Hope_Net | 14",
+            "tag": "🇭🇰HK | vmess | @Hope_Net | 16",
             "type": "vmess",
             "server": "8.210.203.189",
             "server_port": 37309,
@@ -339,6 +341,40 @@
                 "path": "\/racevpn",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🏳️XX | vmess | @forwardv2ray | 3",
+            "type": "vmess",
+            "server": "mci.mosi.mosipro.ml",
+            "server_port": 443,
+            "uuid": "EAB72C37-EC7A-425F-9858-86F4A59AEA0E",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Dusseldorf.kotick.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/speedtest",
+                "headers": {
+                    "Host": "Dusseldorf.kotick.site"
                 }
             }
         },
