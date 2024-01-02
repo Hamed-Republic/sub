@@ -111,9 +111,10 @@
                 "🇺🇸US | vmess | @oneclickvpnkeys | 10",
                 "🇮🇷IR | vmess | @customv2ray | 15",
                 "🇭🇰HK | vmess | @yaney_01 | 10",
-                "🇭🇰HK | vmess | @Hope_Net | 13",
+                "🇳🇱NL | vmess | @Hope_Net | 11",
                 "🇮🇷IR | vmess | @MrV2Ray | 2",
                 "🇺🇸US | vmess | @v2Line | 9",
+                "🇺🇸US | vmess | @forwardv2ray | 14",
                 "🇫🇮FI | vmess | @FAKEOFTVC | 4"
             ]
         },
@@ -126,9 +127,10 @@
                 "🇺🇸US | vmess | @oneclickvpnkeys | 10",
                 "🇮🇷IR | vmess | @customv2ray | 15",
                 "🇭🇰HK | vmess | @yaney_01 | 10",
-                "🇭🇰HK | vmess | @Hope_Net | 13",
+                "🇳🇱NL | vmess | @Hope_Net | 11",
                 "🇮🇷IR | vmess | @MrV2Ray | 2",
                 "🇺🇸US | vmess | @v2Line | 9",
+                "🇺🇸US | vmess | @forwardv2ray | 14",
                 "🇫🇮FI | vmess | @FAKEOFTVC | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -261,11 +263,11 @@
             }
         },
         {
-            "tag": "🇭🇰HK | vmess | @Hope_Net | 13",
+            "tag": "🇳🇱NL | vmess | @Hope_Net | 11",
             "type": "vmess",
-            "server": "47.242.56.3",
-            "server_port": 37064,
-            "uuid": "d2a10a17-6191-472c-896b-782331f49fb9",
+            "server": "kom645yj.sbs",
+            "server_port": 35189,
+            "uuid": "52ef45f6-88b1-48ea-8e44-69814e11e6e4",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -277,11 +279,11 @@
                 "max_streams": 32
             },
             "transport": {
-                "type": "http",
-                "host": [
-                    "47.242.56.3"
-                ],
-                "path": "\/"
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -340,6 +342,40 @@
                 "headers": {
                     "Host": ""
                 }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @forwardv2ray | 14",
+            "type": "vmess",
+            "server": "198.41.202.5",
+            "server_port": 443,
+            "uuid": "227ff4c3-a975-4826-957b-3024a2480000",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mm.boredhot.cloud",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "mm.boredhot.cloud",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
