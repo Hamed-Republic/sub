@@ -111,8 +111,8 @@
                 "🇺🇸US | vmess | @oneclickvpnkeys | 12",
                 "🇨🇦CA | vmess | @prrofile_purple | 178",
                 "🇮🇷IR | vmess | @customv2ray | 15",
-                "🏳️XX | vmess | @ConfigsHUB | 19",
-                "🇭🇰HK | vmess | @Hope_Net | 17",
+                "🏳️XX | vmess | @ConfigsHUB | 3",
+                "🇳🇱NL | vmess | @Hope_Net | 15",
                 "🇮🇷IR | vmess | @MrV2Ray | 2",
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇺🇸US | vmess | @eliya_chiter0 | 6"
@@ -127,8 +127,8 @@
                 "🇺🇸US | vmess | @oneclickvpnkeys | 12",
                 "🇨🇦CA | vmess | @prrofile_purple | 178",
                 "🇮🇷IR | vmess | @customv2ray | 15",
-                "🏳️XX | vmess | @ConfigsHUB | 19",
-                "🇭🇰HK | vmess | @Hope_Net | 17",
+                "🏳️XX | vmess | @ConfigsHUB | 3",
+                "🇳🇱NL | vmess | @Hope_Net | 15",
                 "🇮🇷IR | vmess | @MrV2Ray | 2",
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇺🇸US | vmess | @eliya_chiter0 | 6"
@@ -260,7 +260,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @ConfigsHUB | 19",
+            "tag": "🏳️XX | vmess | @ConfigsHUB | 3",
             "type": "vmess",
             "server": null,
             "server_port": 0,
@@ -277,13 +277,13 @@
             }
         },
         {
-            "tag": "🇭🇰HK | vmess | @Hope_Net | 17",
+            "tag": "🇳🇱NL | vmess | @Hope_Net | 15",
             "type": "vmess",
-            "server": "hkcn2.s2fjeyeeyafe.bond",
-            "server_port": 80,
-            "uuid": "65d79be3-7327-45f8-86fc-bd7f27948eec",
+            "server": "188.114.96.58",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 1,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -294,7 +294,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "hkcn2.s2fjeyeeyafe.bond",
+                "server_name": "ophelia.mom",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -304,9 +304,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/zh-cn",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": "hkcn2.s2fjeyeeyafe.bond"
+                    "Host": "ophelia.mom"
                 }
             }
         },
