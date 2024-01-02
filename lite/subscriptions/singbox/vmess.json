@@ -340,9 +340,9 @@
         {
             "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
             "type": "vmess",
-            "server": "2bbiozh7wbc.servecounterstrike.com",
-            "server_port": 2083,
-            "uuid": "9e9b80f1-5555-4f7d-a209-d23b9d9dc047",
+            "server": "142.93.144.99",
+            "server_port": 3389,
+            "uuid": "9c050a86-d612-48f1-ec32-e573df08a1b7",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -352,23 +352,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "SnsksKaa.mookomeilz.homes",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/snsk",
-                "headers": {
-                    "Host": "SnsksKaa.mookomeilz.homes"
-                }
             }
         },
         {
