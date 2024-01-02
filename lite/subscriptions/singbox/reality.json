@@ -116,9 +116,7 @@
                 "🇸🇪SE | vless | @SafeNet_Server | 9",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🏳️XX | vless | @Capital_NET | 54",
-                "🇩🇪DE | vless | @forwardv2ray | 4",
                 "🇸🇪SE | vless | @kiava | 14",
-                "🇫🇮FI | vless | @nofiltering2 | 15",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @FoXrayIran | 6"
             ]
@@ -137,9 +135,7 @@
                 "🇸🇪SE | vless | @SafeNet_Server | 9",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🏳️XX | vless | @Capital_NET | 54",
-                "🇩🇪DE | vless | @forwardv2ray | 4",
                 "🇸🇪SE | vless | @kiava | 14",
-                "🇫🇮FI | vless | @nofiltering2 | 15",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @FoXrayIran | 6"
             ],
@@ -503,35 +499,6 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 4",
-            "type": "vless",
-            "server": "49.13.11.249",
-            "server_port": 443,
-            "uuid": "96bbbba8-eac5-4bf7-916d-52c34ed5117c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "time.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "zC5dRSgRznzVgsc8qyb6NR-KZ0LShVCjU6kWJ2TgdyI",
-                    "short_id": "55e25a2b"
-                }
-            }
-        },
-        {
             "tag": "🇸🇪SE | vless | @kiava | 14",
             "type": "vless",
             "server": "16.170.40.168",
@@ -558,42 +525,6 @@
                     "public_key": "dnpn5fETMfKuYviGyeS4ab6lfHIAagZuYzwEePaFsAg",
                     "short_id": "3c"
                 }
-            }
-        },
-        {
-            "tag": "🇫🇮FI | vless | @nofiltering2 | 15",
-            "type": "vless",
-            "server": "65.108.58.248",
-            "server_port": 443,
-            "uuid": "b0107817-029c-432c-ad4d-bd1e9e1c3471",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "greenpepper.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "RL6RJY-vbjYIUpDulvSJ8LHI9zCsJ0ICWWY5I-coWwE",
-                    "short_id": "cac59972"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@VPNwedbaz--@vpnwedbaz",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
