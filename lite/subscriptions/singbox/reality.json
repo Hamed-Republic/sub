@@ -106,15 +106,17 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇷FR | vless | @EliV2ray | 14",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @frev2ray | 11",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇩🇪DE | vless | @v2logy | 18",
                 "🏳️XX | vless | @MTConfig | 21",
                 "🇮🇷IR | vless | @DailyV2RY | 21",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🏳️XX | vless | @Capital_NET | 54",
+                "🇩🇪DE | vless | @flyv2ray | 20",
+                "🇸🇪SE | vless | @forwardv2ray | 18",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇫🇮FI | vless | @nofiltering2 | 15",
                 "🇫🇮FI | vless | @proxy_mtm | 8",
@@ -126,15 +128,17 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇷FR | vless | @EliV2ray | 14",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @frev2ray | 11",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇩🇪DE | vless | @v2logy | 18",
                 "🏳️XX | vless | @MTConfig | 21",
                 "🇮🇷IR | vless | @DailyV2RY | 21",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🏳️XX | vless | @Capital_NET | 54",
+                "🇩🇪DE | vless | @flyv2ray | 20",
+                "🇸🇪SE | vless | @forwardv2ray | 18",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇫🇮FI | vless | @nofiltering2 | 15",
                 "🇫🇮FI | vless | @proxy_mtm | 8",
@@ -160,42 +164,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇫🇷FR | vless | @EliV2ray | 14",
-            "type": "vless",
-            "server": "98.66.160.227",
-            "server_port": 29494,
-            "uuid": "f89dfd86-7994-46ed-8846-6ea38f76a4dd",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "dnschecker.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "NSzxLt7w8kfyxl7C4kjH3Mg7mxW1UZKiTNI_3SsddBU",
-                    "short_id": "86ee9777"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@enani5",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
         },
         {
             "tag": "🇩🇪DE | vless | @ipV2Ray | 19",
@@ -407,6 +375,35 @@
             }
         },
         {
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "16.16.96.19",
+            "server_port": 443,
+            "uuid": "2c59ff33-916d-459b-a4c0-8b7432c4c3bb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "coinmarketcap.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "xHQGMkNV3eT4Zia5lWuEiSX1N-4cY4MByjneuuB9b24",
+                    "short_id": "1db3"
+                }
+            }
+        },
+        {
             "tag": "🏳️XX | vless | @fnet00 | 10",
             "type": "vless",
             "server": "kamyarservers.ddns.net",
@@ -476,6 +473,71 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @flyv2ray | 20",
+            "type": "vless",
+            "server": "49.13.124.151",
+            "server_port": 443,
+            "uuid": "c084e53f-c642-4339-b163-0f972a2893b7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "dnschecker.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "X1Gl3O9WLISBaisIPXJke8QXmwVN1yOJ4keD6X6Ydj8",
+                    "short_id": "b1f54cff"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "13.48.124.142",
+            "server_port": 443,
+            "uuid": "2c59ff33-916d-459b-a4c0-8b7432c4c3bb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "coinmarketcap.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "A5VaxQIvY1vOqv2RNs-xoOH1jnMmz6029N3pV4kTfEs",
+                    "short_id": "1db3"
+                }
             }
         },
         {
