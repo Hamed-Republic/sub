@@ -121,9 +121,10 @@
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 18",
-                "🇩🇪DE | ss | @forwardv2ray | 10",
+                "🇹🇼TW | ss | @forwardv2ray | 12",
                 "🇬🇧GB | ss | @kingofilter | 5",
-                "🇬🇧GB | ss | @kingofilter | 15"
+                "🇬🇧GB | ss | @kingofilter | 15",
+                "🇩🇪DE | ss | @kingofilter | 16"
             ]
         },
         {
@@ -145,9 +146,10 @@
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 18",
-                "🇩🇪DE | ss | @forwardv2ray | 10",
+                "🇹🇼TW | ss | @forwardv2ray | 12",
                 "🇬🇧GB | ss | @kingofilter | 5",
-                "🇬🇧GB | ss | @kingofilter | 15"
+                "🇬🇧GB | ss | @kingofilter | 15",
+                "🇩🇪DE | ss | @kingofilter | 16"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -320,12 +322,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇩🇪DE | ss | @forwardv2ray | 10",
+            "tag": "🇹🇼TW | ss | @forwardv2ray | 12",
             "type": "shadowsocks",
-            "server": "passconf.xyz",
-            "server_port": 8080,
+            "server": "118.167.76.130",
+            "server_port": 7773,
             "method": "chacha20-ietf-poly1305",
-            "password": "qGjmI8WQlF0tfhDbkLqGdN",
+            "password": "4c698ff1-ab96-4ce3-8c3a-e23ced87b441",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -346,6 +348,16 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "W74XFALLLuw6m5IA",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇩🇪DE | ss | @kingofilter | 16",
+            "type": "shadowsocks",
+            "server": "passconf.xyz",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "qGjmI8WQlF0tfhDbkLqGdN",
             "plugin": "",
             "plugin_opts": ""
         }
