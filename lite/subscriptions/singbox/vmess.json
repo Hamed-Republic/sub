@@ -110,11 +110,11 @@
                 "🇹🇼TW | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 8",
                 "🇨🇦CA | vmess | @v2ray1_ng | 4",
-                "🇨🇦CA | vmess | @ConfigsHUB | 19",
+                "🇺🇸US | vmess | @ConfigsHUB | 19",
                 "🇭🇰HK | vmess | @yaney_01 | 10",
                 "🇮🇷IR | vmess | @Hope_Net | 14",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🇨🇦CA | vmess | @forwardv2ray | 6",
+                "🇺🇸US | vmess | @forwardv2ray | 18",
                 "🇳🇱NL | vmess | @nofiltering2 | 12",
                 "🇮🇳IN | vmess | @eliya_chiter0 | 8"
             ]
@@ -127,11 +127,11 @@
                 "🇹🇼TW | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 8",
                 "🇨🇦CA | vmess | @v2ray1_ng | 4",
-                "🇨🇦CA | vmess | @ConfigsHUB | 19",
+                "🇺🇸US | vmess | @ConfigsHUB | 19",
                 "🇭🇰HK | vmess | @yaney_01 | 10",
                 "🇮🇷IR | vmess | @Hope_Net | 14",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🇨🇦CA | vmess | @forwardv2ray | 6",
+                "🇺🇸US | vmess | @forwardv2ray | 18",
                 "🇳🇱NL | vmess | @nofiltering2 | 12",
                 "🇮🇳IN | vmess | @eliya_chiter0 | 8"
             ],
@@ -248,11 +248,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 19",
             "type": "vmess",
-            "server": "172.67.187.30",
-            "server_port": 8443,
-            "uuid": "865897ad-8d07-4021-b7c3-d8eb4a29ee8d",
+            "server": "89.116.70.189",
+            "server_port": 21223,
+            "uuid": "6d905c36-1ee0-4355-f096-9ed1c290af69",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -262,23 +262,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "brcf.duaaoped.xyz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/xtsmol",
-                "headers": {
-                    "Host": "brcf.duaaoped.xyz"
-                }
             }
         },
         {
@@ -350,11 +333,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 6",
+            "tag": "🇺🇸US | vmess | @forwardv2ray | 18",
             "type": "vmess",
-            "server": "172.67.204.84",
-            "server_port": 8880,
-            "uuid": "dc24ff42-30af-4dc4-8a7e-69d59e09d533",
+            "server": "205.185.116.20",
+            "server_port": 8080,
+            "uuid": "ff2e1bc0-f6b0-5457-93a0-bab28599d4be",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -364,13 +347,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "172.67.204.84"
-                }
             }
         },
         {
