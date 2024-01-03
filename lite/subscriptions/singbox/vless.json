@@ -122,7 +122,7 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 16",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 17",
-                "TVCkbnztdkjjb",
+                "TVCllmpgexthl",
                 "🇮🇷IR | vless | @V2raysFree | 12",
                 "🇩🇪DE | vless | @v2logy | 18",
                 "🇳🇱NL | vless | @servermomo | 14",
@@ -157,8 +157,8 @@
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇨🇦CA | vless | @Capoit | 3",
                 "🇨🇷CR | vless | @FreakConfig | 11",
-                "🇹🇷TR | vless | @flyv2ray | 20",
-                "🇨🇦CA | vless | @forwardv2ray | 12",
+                "🇹🇷TR | vless | @flyv2ray | 21",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 20",
@@ -190,7 +190,7 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 16",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 17",
-                "TVCkbnztdkjjb",
+                "TVCllmpgexthl",
                 "🇮🇷IR | vless | @V2raysFree | 12",
                 "🇩🇪DE | vless | @v2logy | 18",
                 "🇳🇱NL | vless | @servermomo | 14",
@@ -225,8 +225,8 @@
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇨🇦CA | vless | @Capoit | 3",
                 "🇨🇷CR | vless | @FreakConfig | 11",
-                "🇹🇷TR | vless | @flyv2ray | 20",
-                "🇨🇦CA | vless | @forwardv2ray | 12",
+                "🇹🇷TR | vless | @flyv2ray | 21",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 20",
@@ -762,7 +762,7 @@
             }
         },
         {
-            "tag": "TVCkbnztdkjjb",
+            "tag": "TVCllmpgexthl",
             "type": "vless",
             "server": "",
             "server_port": 0,
@@ -1725,7 +1725,7 @@
             }
         },
         {
-            "tag": "🇹🇷TR | vless | @flyv2ray | 20",
+            "tag": "🇹🇷TR | vless | @flyv2ray | 21",
             "type": "vless",
             "server": "tk.dwv2ray.site",
             "server_port": 443,
@@ -1761,11 +1761,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 12",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2082,
-            "uuid": "5a91e724-9fff-4dd2-ca9f-3955bd19f424",
+            "server": "104.31.16.36",
+            "server_port": 443,
+            "uuid": "376b9861-2fc6-4647-959c-18185cd9c95a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1773,11 +1773,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "lmn39.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@vpnserverrr",
+                "path": "\/fflsws",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "lmn39.sbs"
                 }
             }
         },
