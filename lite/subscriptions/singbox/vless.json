@@ -122,7 +122,7 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 16",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 17",
-                "TVCqoqjqfxrlg",
+                "TVCqefeceupav",
                 "🇮🇷IR | vless | @V2raysFree | 12",
                 "🇩🇪DE | vless | @v2logy | 18",
                 "🇳🇱NL | vless | @servermomo | 14",
@@ -148,7 +148,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 16",
                 "🇨🇦CA | vless | @MehradLearn | 10",
                 "🇸🇪SE | vless | @SafeNet_Server | 8",
-                "🇺🇸US | vless | @lrnbymaa | 11",
+                "🇨🇦CA | vless | @lrnbymaa | 11",
                 "🏳️XX | vless | @proxystore11 | 17",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 41",
@@ -158,6 +158,7 @@
                 "🇨🇦CA | vless | @Capoit | 4",
                 "🇨🇷CR | vless | @FreakConfig | 11",
                 "🇹🇷TR | vless | @flyv2ray | 20",
+                "🏳️XX | vless | @forwardv2ray | 15",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 20",
@@ -189,7 +190,7 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 16",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 17",
-                "TVCqoqjqfxrlg",
+                "TVCqefeceupav",
                 "🇮🇷IR | vless | @V2raysFree | 12",
                 "🇩🇪DE | vless | @v2logy | 18",
                 "🇳🇱NL | vless | @servermomo | 14",
@@ -215,7 +216,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 16",
                 "🇨🇦CA | vless | @MehradLearn | 10",
                 "🇸🇪SE | vless | @SafeNet_Server | 8",
-                "🇺🇸US | vless | @lrnbymaa | 11",
+                "🇨🇦CA | vless | @lrnbymaa | 11",
                 "🏳️XX | vless | @proxystore11 | 17",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 41",
@@ -225,6 +226,7 @@
                 "🇨🇦CA | vless | @Capoit | 4",
                 "🇨🇷CR | vless | @FreakConfig | 11",
                 "🇹🇷TR | vless | @flyv2ray | 20",
+                "🏳️XX | vless | @forwardv2ray | 15",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 20",
@@ -760,7 +762,7 @@
             }
         },
         {
-            "tag": "TVCqoqjqfxrlg",
+            "tag": "TVCqefeceupav",
             "type": "vless",
             "server": "",
             "server_port": 0,
@@ -1464,7 +1466,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lrnbymaa | 11",
+            "tag": "🇨🇦CA | vless | @lrnbymaa | 11",
             "type": "vless",
             "server": "104.23.139.0",
             "server_port": 80,
@@ -1746,6 +1748,27 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🏳️XX | vless | @forwardv2ray | 15",
+            "type": "vless",
+            "server": "U_CONFINGVPN",
+            "server_port": 2082,
+            "uuid": "a79030da-cbcb-41fd-917d-8318f1fc7f3b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@vpnserverrr-@vpnserverrr-@vpnserverrr",
+                "headers": {
+                    "Host": "U_CONFINGVPN"
+                }
             }
         },
         {
