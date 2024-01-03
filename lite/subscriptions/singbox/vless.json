@@ -106,7 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | vless | @NIM_VPN_ir | 0",
                 "🇨🇦CA | vless | @XsV2ray | 15",
                 "🇹🇷TR | vless | @reality_daily | 0",
                 "🇸🇪SE | vless | @VlessConfig | 16",
@@ -123,7 +122,7 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 16",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 20",
-                "TVCamqrwxmjzi",
+                "TVCzchjbxtzhd",
                 "🇮🇷IR | vless | @V2raysFree | 12",
                 "🇩🇪DE | vless | @v2logy | 18",
                 "🇳🇱NL | vless | @servermomo | 14",
@@ -141,7 +140,7 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 20",
                 "🇨🇦CA | vless | @ServerNett | 14",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇨🇦CA | vless | @proxyymeliii | 6",
+                "🇨🇦CA | vless | @proxyymeliii | 7",
                 "🇨🇦CA | vless | @MsV2ray | 9",
                 "🇮🇷IR | vless | @vless_vmess | 3",
                 "🏳️XX | vless | @MTConfig | 21",
@@ -174,7 +173,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | vless | @NIM_VPN_ir | 0",
                 "🇨🇦CA | vless | @XsV2ray | 15",
                 "🇹🇷TR | vless | @reality_daily | 0",
                 "🇸🇪SE | vless | @VlessConfig | 16",
@@ -191,7 +189,7 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 16",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 20",
-                "TVCamqrwxmjzi",
+                "TVCzchjbxtzhd",
                 "🇮🇷IR | vless | @V2raysFree | 12",
                 "🇩🇪DE | vless | @v2logy | 18",
                 "🇳🇱NL | vless | @servermomo | 14",
@@ -209,7 +207,7 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 20",
                 "🇨🇦CA | vless | @ServerNett | 14",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇨🇦CA | vless | @proxyymeliii | 6",
+                "🇨🇦CA | vless | @proxyymeliii | 7",
                 "🇨🇦CA | vless | @MsV2ray | 9",
                 "🇮🇷IR | vless | @vless_vmess | 3",
                 "🏳️XX | vless | @MTConfig | 21",
@@ -256,37 +254,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇩🇪DE | vless | @NIM_VPN_ir | 0",
-            "type": "vless",
-            "server": "49.13.126.13",
-            "server_port": 443,
-            "uuid": "06ee951c-80bd-4665-9122-6b28b2d70b90",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "chh.cheetahmh45.shop",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/NIM_VPN_ir",
-                "headers": {
-                    "Host": "chh.cheetahmh45.shop"
-                }
-            }
         },
         {
             "tag": "🇨🇦CA | vless | @XsV2ray | 15",
@@ -791,7 +758,7 @@
             }
         },
         {
-            "tag": "TVCamqrwxmjzi",
+            "tag": "TVCzchjbxtzhd",
             "type": "vless",
             "server": "",
             "server_port": 0,
@@ -1261,11 +1228,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxyymeliii | 6",
+            "tag": "🇨🇦CA | vless | @proxyymeliii | 7",
             "type": "vless",
-            "server": "104.21.28.62",
-            "server_port": 443,
-            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+            "server": "cdn3.v2rayvpn.store",
+            "server_port": 2052,
+            "uuid": "e33b318a-dd91-4ca8-9d38-534b6ceda86b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1273,21 +1240,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "3k.pureboy.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/net?ed=2050",
                 "headers": {
-                    "Host": "3k.pureboy.eu.org"
+                    "Host": "cdn3.v2rayvpn.store"
                 }
             }
         },
