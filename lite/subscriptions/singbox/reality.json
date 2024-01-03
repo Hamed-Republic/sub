@@ -116,8 +116,9 @@
                 "🏳️XX | vless | @fnet00 | 10",
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇹🇷TR | vless | @flyv2ray | 20",
-                "🇩🇪DE | vless | @forwardv2ray | 15",
+                "🇸🇪SE | vless | @forwardv2ray | 15",
                 "🇸🇪SE | vless | @kiava | 14",
+                "🇳🇱NL | vless | @nofiltering2 | 13",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @FoXrayIran | 6"
             ]
@@ -136,8 +137,9 @@
                 "🏳️XX | vless | @fnet00 | 10",
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇹🇷TR | vless | @flyv2ray | 20",
-                "🇩🇪DE | vless | @forwardv2ray | 15",
+                "🇸🇪SE | vless | @forwardv2ray | 15",
                 "🇸🇪SE | vless | @kiava | 14",
+                "🇳🇱NL | vless | @nofiltering2 | 13",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @FoXrayIran | 6"
             ],
@@ -501,11 +503,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 15",
+            "tag": "🇸🇪SE | vless | @forwardv2ray | 15",
             "type": "vless",
-            "server": "moftinet.eryhoihuuu.sbs",
+            "server": "13.48.124.142",
             "server_port": 443,
-            "uuid": "578c5ab2-fde6-4949-b1fc-37ba31d9b33c",
+            "uuid": "2c59ff33-916d-459b-a4c0-8b7432c4c3bb",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -515,7 +517,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "greenpepper.ir",
+                "server_name": "coinmarketcap.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -524,16 +526,9 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "36mhDE4VbNovmhh-wU0nxz-g2KBOmqk6Yyf-87uxGTU",
-                    "short_id": "4457d5d0"
+                    "public_key": "A5VaxQIvY1vOqv2RNs-xoOH1jnMmz6029N3pV4kTfEs",
+                    "short_id": "1db3"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@Moftinet  @Moftinet  @Moftinet @Moftinet",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
@@ -562,6 +557,35 @@
                     "enabled": true,
                     "public_key": "dnpn5fETMfKuYviGyeS4ab6lfHIAagZuYzwEePaFsAg",
                     "short_id": "3c"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vless | @nofiltering2 | 13",
+            "type": "vless",
+            "server": "2.58.56.60",
+            "server_port": 443,
+            "uuid": "803c8c9b-b7e0-41d3-a3af-39ab14b22e4b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "faraweb.shop",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "HGi2C1cq7av7I2Ny8h-GBHHx2adhrWA0vGP3iV142gg",
+                    "short_id": "fe2a9218"
                 }
             }
         },
