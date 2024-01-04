@@ -145,7 +145,6 @@
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇨🇦CA | vless | @lrnbymaa | 12",
                 "🇨🇦CA | vless | @v2ray_vpn_ir | 0",
-                "🇨🇷CR | vless | @ConfigsHUB | 19",
                 "🇨🇷CR | vless | @proxystore11 | 14",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 38",
@@ -153,7 +152,7 @@
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @Capoit | 3",
                 "🇸🇬SG | vless | @flyv2ray | 16",
-                "🇨🇷CR | vless | @forwardv2ray | 18",
+                "🇺🇸US | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 9",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -208,7 +207,6 @@
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇨🇦CA | vless | @lrnbymaa | 12",
                 "🇨🇦CA | vless | @v2ray_vpn_ir | 0",
-                "🇨🇷CR | vless | @ConfigsHUB | 19",
                 "🇨🇷CR | vless | @proxystore11 | 14",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 38",
@@ -216,7 +214,7 @@
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @Capoit | 3",
                 "🇸🇬SG | vless | @flyv2ray | 16",
-                "🇨🇷CR | vless | @forwardv2ray | 18",
+                "🇺🇸US | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 9",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -1379,37 +1377,6 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "190.93.247.155",
-            "server_port": 443,
-            "uuid": "885b1815-0bcc-446f-a3f1-fbd3bf16278d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "190.93.247.155",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "‌",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
             "tag": "🇨🇷CR | vless | @proxystore11 | 14",
             "type": "vless",
             "server": "proxystore11.kodaksho.eu.org",
@@ -1640,12 +1607,12 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @forwardv2ray | 18",
+            "tag": "🇺🇸US | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "V2ray.motorcycles",
-            "server_port": 2087,
-            "uuid": "292064a5-40aa-43cc-8d62-6cb1e94d15ca",
-            "flow": "",
+            "server": "104.168.107.230",
+            "server_port": 10050,
+            "uuid": "1c90e045-8b09-47e2-99a9-173d9bfcaa9e",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1654,19 +1621,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "SHHPROXY.snappfoodd.site",
+                "server_name": "blogs.windows.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "SHHPROXY.snappfoodd.site"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "WV6Zrt7C9aS99om1JA3inJE-BKFFudaiaY5-YbZLjkU",
+                    "short_id": "3e5d75a390dc5bad"
                 }
             }
         },
