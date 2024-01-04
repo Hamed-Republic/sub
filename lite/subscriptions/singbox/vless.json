@@ -114,7 +114,7 @@
                 "🇨🇦CA | vless | @V2pedia | 7",
                 "🇩🇪DE | vless | @ARv2ray | 13",
                 "🇸🇪SE | vless | @Lockey_vpn | 5",
-                "🇺🇸US | vless | @lightning6 | 14",
+                "🇨🇷CR | vless | @lightning6 | 14",
                 "🇨🇷CR | vless | @V2rayNGmat | 1",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 15",
@@ -156,7 +156,7 @@
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @Capoit | 3",
                 "🇨🇦CA | vless | @flyv2ray | 20",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🏳️XX | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇳🇱NL | vless | @mehrosaboran | 6",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -179,7 +179,7 @@
                 "🇨🇦CA | vless | @V2pedia | 7",
                 "🇩🇪DE | vless | @ARv2ray | 13",
                 "🇸🇪SE | vless | @Lockey_vpn | 5",
-                "🇺🇸US | vless | @lightning6 | 14",
+                "🇨🇷CR | vless | @lightning6 | 14",
                 "🇨🇷CR | vless | @V2rayNGmat | 1",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 15",
@@ -221,7 +221,7 @@
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @Capoit | 3",
                 "🇨🇦CA | vless | @flyv2ray | 20",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🏳️XX | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇳🇱NL | vless | @mehrosaboran | 6",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -503,7 +503,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 14",
+            "tag": "🇨🇷CR | vless | @lightning6 | 14",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1673,24 +1673,39 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "tag": "🏳️XX | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "322.outline-vpn.cloud",
-            "server_port": 8080,
-            "uuid": "a57f3fbc-221a-4f9b-89b6-7757c23e328b",
-            "flow": "",
+            "server": "v2logy.ddns.net",
+            "server_port": 443,
+            "uuid": "72859c41-15ac-4621-bfdf-ac4c3ac33ad4",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/backup",
-                "headers": {
-                    "Host": "322.outline-vpn.cloud"
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "k6gu1t73hTdYK3PKNUwOqy2B7ZP-sek-dW2_-aGf9i4",
+                    "short_id": ""
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
