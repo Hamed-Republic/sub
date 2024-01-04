@@ -138,7 +138,6 @@
                 "🇨🇦CA | vless | @ServerNett | 15",
                 "🇨🇦CA | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇨🇦CA | vless | @v2ray_swhil | 11",
                 "🇨🇦CA | vless | @proxyymeliii | 8",
                 "🇨🇦CA | vless | @MsV2ray | 9",
                 "🇮🇷IR | vless | @vless_vmess | 3",
@@ -149,7 +148,6 @@
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇨🇦CA | vless | @SafeNet_Server | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 11",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇷CR | vless | @proxystore11 | 14",
                 "🇸🇪SE | vless | @free1_vpn | 0",
                 "🏳️XX | vless | @fnet00 | 10",
@@ -207,7 +205,6 @@
                 "🇨🇦CA | vless | @ServerNett | 15",
                 "🇨🇦CA | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇨🇦CA | vless | @v2ray_swhil | 11",
                 "🇨🇦CA | vless | @proxyymeliii | 8",
                 "🇨🇦CA | vless | @MsV2ray | 9",
                 "🇮🇷IR | vless | @vless_vmess | 3",
@@ -218,7 +215,6 @@
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇨🇦CA | vless | @SafeNet_Server | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 11",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇷CR | vless | @proxystore11 | 14",
                 "🇸🇪SE | vless | @free1_vpn | 0",
                 "🏳️XX | vless | @fnet00 | 10",
@@ -1208,37 +1204,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray_swhil | 11",
-            "type": "vless",
-            "server": "all.vipxali.cfd",
-            "server_port": 2083,
-            "uuid": "c1cd6daf-67b6-4d55-a6c7-6f9051250f39",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "dm.XsV2ray.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @proxyymeliii | 8",
             "type": "vless",
             "server": "104.21.28.62",
@@ -1455,9 +1420,9 @@
         {
             "tag": "🇨🇦CA | vless | @SafeNet_Server | 9",
             "type": "vless",
-            "server": "Discord.GG",
-            "server_port": 8080,
-            "uuid": "j_jostar",
+            "server": "104.21.59.125",
+            "server_port": 80,
+            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1467,9 +1432,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/speed\/de",
+                "path": "\/",
                 "headers": {
-                    "Host": "Discord.GG"
+                    "Host": "104.21.59.125"
                 }
             }
         },
@@ -1491,37 +1456,6 @@
                 "path": "\/backup",
                 "headers": {
                     "Host": "104.16.29.8"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "vip.cdn2cdn.com",
-            "server_port": 443,
-            "uuid": "c5b7226a-66fb-4135-866c-dec20dca1824",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cdn13.gsmvp.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ocoqws",
-                "headers": {
-                    "Host": "cdn13.gsmvp.com"
                 }
             }
         },
