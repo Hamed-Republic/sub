@@ -157,11 +157,11 @@
                 "🇨🇦CA | vless | @SafeNet_Server | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 11",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
-                "🇺🇸US | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇷CR | vless | @proxystore11 | 12",
                 "🇭🇰HK | vmess | @yaney_01 | 10",
                 "🇸🇪SE | vless | @free1_vpn | 0",
-                "🇨🇦CA | vmess | @Hope_Net | 10",
+                "🇮🇷IR | vmess | @Hope_Net | 9",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 41",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 13",
@@ -171,7 +171,7 @@
                 "🇩🇪DE | vless | @Capoit | 1",
                 "🏳️XX | vless | @FreakConfig | 11",
                 "🇨🇦CA | vless | @flyv2ray | 19",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🇺🇸US | vless | @forwardv2ray | 14",
                 "🇮🇷IR | vmess | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 8",
@@ -241,11 +241,11 @@
                 "🇨🇦CA | vless | @SafeNet_Server | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 11",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
-                "🇺🇸US | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇷CR | vless | @proxystore11 | 12",
                 "🇭🇰HK | vmess | @yaney_01 | 10",
                 "🇸🇪SE | vless | @free1_vpn | 0",
-                "🇨🇦CA | vmess | @Hope_Net | 10",
+                "🇮🇷IR | vmess | @Hope_Net | 9",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 41",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 13",
@@ -255,7 +255,7 @@
                 "🇩🇪DE | vless | @Capoit | 1",
                 "🏳️XX | vless | @FreakConfig | 11",
                 "🇨🇦CA | vless | @flyv2ray | 19",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🇺🇸US | vless | @forwardv2ray | 14",
                 "🇮🇷IR | vmess | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 8",
@@ -1720,11 +1720,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "google.com",
-            "server_port": 443,
-            "uuid": "36e1af76-57c3-4952-8e92-6a5109ee96eb",
+            "server": "tgju.org",
+            "server_port": 80,
+            "uuid": "2c8efaa2-dfa1-44bb-9e14-5ad363dc88f5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1732,22 +1732,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "2182966688.yadakii.store",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "36242761",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "tgju.org"
+                }
             }
         },
         {
@@ -1828,11 +1818,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 10",
+            "tag": "🇮🇷IR | vmess | @Hope_Net | 9",
             "type": "vmess",
-            "server": "nody.ir",
-            "server_port": 2052,
-            "uuid": "f682bf4b-44ca-4b37-87a2-75e448cdfeb4",
+            "server": "81.12.27.7",
+            "server_port": 37975,
+            "uuid": "b3c49b53-2d5d-4d13-d195-76d48aeccd11",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1842,13 +1832,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/public",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
@@ -2125,16 +2108,13 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "172.67.215.202",
+            "tag": "🇺🇸US | vless | @forwardv2ray | 14",
+            "type": "vless",
+            "server": "google.com",
             "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 1,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "uuid": "158dd74e-79da-4449-90d5-625ec91902de",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -2142,7 +2122,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "octavi.cfd",
+                "server_name": "3081606841.yadakii.store",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -2151,11 +2131,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "octavi.cfd"
-                }
+                "type": "grpc",
+                "service_name": "36320171",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
