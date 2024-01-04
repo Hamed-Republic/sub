@@ -110,6 +110,7 @@
                 "🇹🇼TW | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vmess | @v2ray1_ng | 4",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇭🇰HK | vmess | @yaney_01 | 11",
                 "🇷🇺RU | vmess | @Hope_Net | 16",
                 "🇺🇸US | vmess | @v2Line | 7",
@@ -125,6 +126,7 @@
                 "🇹🇼TW | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vmess | @v2ray1_ng | 4",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇭🇰HK | vmess | @yaney_01 | 11",
                 "🇷🇺RU | vmess | @Hope_Net | 16",
                 "🇺🇸US | vmess | @v2Line | 7",
@@ -228,6 +230,40 @@
             "transport": {
                 "type": "ws",
                 "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "chetori.rafalion.ir",
+            "server_port": 8443,
+            "uuid": "48935f81-4529-414e-9291-f1b1627ef934",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/T.me\/RaFaV2ray  |  rafav2ray@gmail.com",
                 "headers": {
                     "Host": ""
                 }
