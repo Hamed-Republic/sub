@@ -108,13 +108,13 @@
                 "URL-TEST",
                 "🇨🇦CA | vless | @v2_team | 18",
                 "🇨🇦CA | vless | @XsV2ray | 14",
-                "🇩🇪DE | vless | @VlessConfig | 18",
+                "🇫🇷FR | vless | @VlessConfig | 18",
                 "🇨🇦CA | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 5",
                 "🇨🇦CA | vless | @V2pedia | 7",
                 "🇩🇪DE | vless | @ARv2ray | 13",
                 "🇸🇪SE | vless | @Lockey_vpn | 5",
-                "🇨🇷CR | vless | @lightning6 | 14",
+                "🇺🇸US | vless | @lightning6 | 14",
                 "🇨🇷CR | vless | @V2rayNGmat | 1",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 15",
@@ -147,7 +147,6 @@
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇨🇦CA | vless | @SafeNet_Server | 10",
                 "🇨🇦CA | vless | @lrnbymaa | 11",
-                "🇨🇦CA | vless | @ConfigsHUB | 13",
                 "🇨🇷CR | vless | @proxystore11 | 14",
                 "🇸🇪SE | vless | @free1_vpn | 0",
                 "🏳️XX | vless | @fnet00 | 10",
@@ -157,6 +156,7 @@
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @Capoit | 3",
                 "🇨🇦CA | vless | @flyv2ray | 20",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇳🇱NL | vless | @mehrosaboran | 6",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -173,13 +173,13 @@
             "outbounds": [
                 "🇨🇦CA | vless | @v2_team | 18",
                 "🇨🇦CA | vless | @XsV2ray | 14",
-                "🇩🇪DE | vless | @VlessConfig | 18",
+                "🇫🇷FR | vless | @VlessConfig | 18",
                 "🇨🇦CA | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 5",
                 "🇨🇦CA | vless | @V2pedia | 7",
                 "🇩🇪DE | vless | @ARv2ray | 13",
                 "🇸🇪SE | vless | @Lockey_vpn | 5",
-                "🇨🇷CR | vless | @lightning6 | 14",
+                "🇺🇸US | vless | @lightning6 | 14",
                 "🇨🇷CR | vless | @V2rayNGmat | 1",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 15",
@@ -212,7 +212,6 @@
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇨🇦CA | vless | @SafeNet_Server | 10",
                 "🇨🇦CA | vless | @lrnbymaa | 11",
-                "🇨🇦CA | vless | @ConfigsHUB | 13",
                 "🇨🇷CR | vless | @proxystore11 | 14",
                 "🇸🇪SE | vless | @free1_vpn | 0",
                 "🏳️XX | vless | @fnet00 | 10",
@@ -222,6 +221,7 @@
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @Capoit | 3",
                 "🇨🇦CA | vless | @flyv2ray | 20",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇳🇱NL | vless | @mehrosaboran | 6",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -314,9 +314,9 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @VlessConfig | 18",
+            "tag": "🇫🇷FR | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "3.66.112.12",
+            "server": "13.38.195.239",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -503,7 +503,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @lightning6 | 14",
+            "tag": "🇺🇸US | vless | @lightning6 | 14",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1393,27 +1393,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 13",
-            "type": "vless",
-            "server": "join.bede3.vmessorg.info",
-            "server_port": 80,
-            "uuid": "73e930f6-5f9f-45f5-a4e1-989bff8d4076",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "join.bede3.vmessorg.info"
-                }
-            }
-        },
-        {
             "tag": "🇨🇷CR | vless | @proxystore11 | 14",
             "type": "vless",
             "server": "proxystore11.kodaksho.eu.org",
@@ -1690,6 +1669,27 @@
                 "path": "\/",
                 "headers": {
                     "Host": "xio.vpnxw.eu.org"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "322.outline-vpn.cloud",
+            "server_port": 8080,
+            "uuid": "a57f3fbc-221a-4f9b-89b6-7757c23e328b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/backup",
+                "headers": {
+                    "Host": "322.outline-vpn.cloud"
                 }
             }
         },
