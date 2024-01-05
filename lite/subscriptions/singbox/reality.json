@@ -106,10 +106,11 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇩🇪DE | vless | @ARv2ray | 14",
                 "🇸🇪SE | vless | @Lockey_vpn | 5",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇩🇪DE | vless | @v2logy | 18",
-                "🇸🇪SE | vless | @v2rayNG_Matsuri | 20",
+                "🇸🇪SE | vless | @v2rayNG_Matsuri | 18",
                 "🇸🇪SE | vless | @v2ray1_ng | 2",
                 "🏳️XX | vless | @MTConfig | 21",
                 "🏳️XX | vless | @fnet00 | 10",
@@ -124,10 +125,11 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇩🇪DE | vless | @ARv2ray | 14",
                 "🇸🇪SE | vless | @Lockey_vpn | 5",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇩🇪DE | vless | @v2logy | 18",
-                "🇸🇪SE | vless | @v2rayNG_Matsuri | 20",
+                "🇸🇪SE | vless | @v2rayNG_Matsuri | 18",
                 "🇸🇪SE | vless | @v2ray1_ng | 2",
                 "🏳️XX | vless | @MTConfig | 21",
                 "🏳️XX | vless | @fnet00 | 10",
@@ -156,6 +158,42 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇩🇪DE | vless | @ARv2ray | 14",
+            "type": "vless",
+            "server": "5.75.220.140",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.mashti.link",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "L1WUGqllbUc0uRpp1mCGBlwL1QQaMFNVWKJ2W6c770w",
+                    "short_id": "49722ed2"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
         },
         {
             "tag": "🇸🇪SE | vless | @Lockey_vpn | 5",
@@ -259,9 +297,9 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @v2rayNG_Matsuri | 20",
+            "tag": "🇸🇪SE | vless | @v2rayNG_Matsuri | 18",
             "type": "vless",
-            "server": "13.48.49.118",
+            "server": "16.16.138.128",
             "server_port": 443,
             "uuid": "2c59ff33-916d-459b-a4c0-8b7432c4c3bb",
             "flow": "xtls-rprx-vision",
@@ -282,7 +320,7 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "xHQGMkNV3eT4Zia5lWuEiSX1N-4cY4MByjneuuB9b24",
+                    "public_key": "s0PYAUNqQjfccblnJ--AXqQN6aqUWr1mHVZUNykroxc",
                     "short_id": "1db3"
                 }
             }
