@@ -12,11 +12,10 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇺🇸US | vmess | @v2Line | 7 = vmess, v2line.telegram.channel.1379.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, 443, username = 7db50a2b-70d8-4b91-a850-8ad577f25ef7, ws = true, tls = 1, vmess-aead = true, ws-path = /racevpn, ws-headers = Host:"", skip-cert-verify = true, tfo = false
-🇬🇧GB | vmess | @forwardv2ray | 9 = vmess, uknws.mainssh.xyz, 80, username = 66d048fb-3458-48e1-96ab-13e0c273c25e, ws = true, tls = , vmess-aead = true, ws-path = /vmess-nonetls, ws-headers = Host:"uknws.mainssh.xyz", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | vmess | @v2Line | 7,🇬🇧GB | vmess | @forwardv2ray | 9
-URL-TEST = url-test,🇺🇸US | vmess | @v2Line | 7,🇬🇧GB | vmess | @forwardv2ray | 9
-FALLBACK = fallback,🇺🇸US | vmess | @v2Line | 7,🇬🇧GB | vmess | @forwardv2ray | 9
+MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | vmess | @v2Line | 7
+URL-TEST = url-test,🇺🇸US | vmess | @v2Line | 7
+FALLBACK = fallback,🇺🇸US | vmess | @v2Line | 7
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

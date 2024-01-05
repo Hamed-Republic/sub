@@ -119,8 +119,8 @@ dns:
 
 proxies:
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇬🇧GB | vmess | @ConfigsHUB | 19","type":"vmess","server":"139.162.215.141","port":"8081","cipher":"auto","uuid":"13c67541-4a42-434d-b158-e4c5730b1d09","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸US | vmess | @v2Line | 7","type":"vmess","server":"v2line.telegram.channel.1379.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":"443","cipher":"auto","uuid":"7db50a2b-70d8-4b91-a850-8ad577f25ef7","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/racevpn","headers":{"host":""}}}
-  - {"name":"🇬🇧GB | vmess | @forwardv2ray | 9","type":"vmess","server":"uknws.mainssh.xyz","port":"80","cipher":"auto","uuid":"66d048fb-3458-48e1-96ab-13e0c273c25e","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess-nonetls","headers":{"host":"uknws.mainssh.xyz"}}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -128,8 +128,8 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
+      - '🇬🇧GB | vmess | @ConfigsHUB | 19'
       - '🇺🇸US | vmess | @v2Line | 7'
-      - '🇬🇧GB | vmess | @forwardv2ray | 9'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -137,16 +137,16 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
+      - '🇬🇧GB | vmess | @ConfigsHUB | 19'
       - '🇺🇸US | vmess | @v2Line | 7'
-      - '🇬🇧GB | vmess | @forwardv2ray | 9'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
+      - '🇬🇧GB | vmess | @ConfigsHUB | 19'
       - '🇺🇸US | vmess | @v2Line | 7'
-      - '🇬🇧GB | vmess | @forwardv2ray | 9'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
