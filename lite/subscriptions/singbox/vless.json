@@ -154,7 +154,7 @@
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇨🇷CR | vless | @Capoit | 2",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🏳️XX | vless | @forwardv2ray | 13",
+                "🇺🇸US | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇦CA | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -216,7 +216,7 @@
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇨🇷CR | vless | @Capoit | 2",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🏳️XX | vless | @forwardv2ray | 13",
+                "🇺🇸US | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇦CA | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -1672,17 +1672,34 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @forwardv2ray | 13",
+            "tag": "🇺🇸US | vless | @forwardv2ray | 17",
             "type": "vless",
-            "server": "VW5k1nJ7RYh33zM1j1EIBcCKRemlVDzEHaswRhnYLIK0t",
-            "server_port": 0,
-            "uuid": "",
+            "server": "all.antiV2ray.sbs",
+            "server_port": 2083,
+            "uuid": "fa248f34-6802-4589-aa44-12b274acaaaf",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ajabbaba.AoV2ray.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@AfV2ray,@AfV2ray,@AfV2ray,@AfV2ray,@AfV2ray,@AfV2ray,@AfV2ray,@AfV2ray,@AfV2ray,@AfV2ray,@AfV2ray,@AfV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1719,9 +1736,9 @@
         {
             "tag": "🇨🇦CA | vless | @mehrosaboran | 11",
             "type": "vless",
-            "server": "104.27.102.105",
-            "server_port": 2053,
-            "uuid": "5febbe48-3b81-44dd-93ce-b81bbb71ee52",
+            "server": "172.66.47.74",
+            "server_port": 2096,
+            "uuid": "c5c2a168-0a42-4796-a484-4bcd69d40c45",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1731,7 +1748,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ghazal.boredhot.cloud",
+                "server_name": "www.zedmodeon1.online",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1740,11 +1757,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "ghazal.boredhot.cloud"
-                }
+                "type": "grpc",
+                "service_name": "TELEGRAM:@ZEDMODEON-TELEGRAM:@ZEDMODEON-TELEGRAM:@ZEDMODEON,TELEGRAM:@ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
