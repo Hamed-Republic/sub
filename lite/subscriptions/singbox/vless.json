@@ -112,7 +112,7 @@
                 "🇫🇷FR | vless | @VlessConfig | 15",
                 "🏳️XX | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 5",
-                "🇨🇷CR | vless | @frev2ray | 6",
+                "🇺🇸US | vless | @frev2ray | 6",
                 "🇩🇪DE | vless | @ARv2ray | 14",
                 "🇸🇪SE | vless | @Lockey_vpn | 5",
                 "🇨🇦CA | vless | @free_v2rayyy | 8",
@@ -121,6 +121,7 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 15",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 20",
+                "🇨🇦CA | vless | @V2raysFree | 15",
                 "🇩🇪DE | vless | @v2logy | 18",
                 "🇨🇦CA | vless | @V2rayCollector | 1",
                 "🇨🇷CR | vless | @azadi_az_inja_migzare | 15",
@@ -151,8 +152,9 @@
                 "🇨🇦CA | vless | @polproxy | 38",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🏳️XX | vless | @Capoit | 3",
-                "🇺🇸US | vless | @FreakConfig | 9",
+                "🇨🇷CR | vless | @FreakConfig | 9",
                 "🇮🇷IR | vless | @flyv2ray | 14",
+                "🏳️XX | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇺🇸US | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -173,7 +175,7 @@
                 "🇫🇷FR | vless | @VlessConfig | 15",
                 "🏳️XX | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 5",
-                "🇨🇷CR | vless | @frev2ray | 6",
+                "🇺🇸US | vless | @frev2ray | 6",
                 "🇩🇪DE | vless | @ARv2ray | 14",
                 "🇸🇪SE | vless | @Lockey_vpn | 5",
                 "🇨🇦CA | vless | @free_v2rayyy | 8",
@@ -182,6 +184,7 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 15",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 20",
+                "🇨🇦CA | vless | @V2raysFree | 15",
                 "🇩🇪DE | vless | @v2logy | 18",
                 "🇨🇦CA | vless | @V2rayCollector | 1",
                 "🇨🇷CR | vless | @azadi_az_inja_migzare | 15",
@@ -212,8 +215,9 @@
                 "🇨🇦CA | vless | @polproxy | 38",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🏳️XX | vless | @Capoit | 3",
-                "🇺🇸US | vless | @FreakConfig | 9",
+                "🇨🇷CR | vless | @FreakConfig | 9",
                 "🇮🇷IR | vless | @flyv2ray | 14",
+                "🏳️XX | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇺🇸US | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -428,7 +432,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @frev2ray | 6",
+            "tag": "🇺🇸US | vless | @frev2ray | 6",
             "type": "vless",
             "server": "all.vpncustomize.cam",
             "server_port": 443,
@@ -701,6 +705,37 @@
                 "path": "\/",
                 "headers": {
                     "Host": "pages.20230619.love"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @V2raysFree | 15",
+            "type": "vless",
+            "server": "zula.ir",
+            "server_port": 443,
+            "uuid": "86e61772-22d0-405c-bbc9-0a9cc3deb0de",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ss1.v2vpnchannel.website",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vless",
+                "headers": {
+                    "Host": "ss1.v2vpnchannel.website"
                 }
             }
         },
@@ -1560,7 +1595,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @FreakConfig | 9",
+            "tag": "🇨🇷CR | vless | @FreakConfig | 9",
             "type": "vless",
             "server": "all.vpncustomize.cam",
             "server_port": 8443,
@@ -1619,6 +1654,37 @@
                 "headers": {
                     "Host": "minecraft.opeta.cfd"
                 }
+            }
+        },
+        {
+            "tag": "🏳️XX | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "tel.ipV2.fun",
+            "server_port": 2087,
+            "uuid": "313f6263-1860-47cf-a72d-7210c416e896",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tm.ipV2.fun",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
