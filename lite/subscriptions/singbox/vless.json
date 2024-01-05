@@ -107,7 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇨🇷CR | vless | @XsV2ray | 13",
-                "🇬🇧GB | vless | @VlessConfig | 15",
+                "🇫🇷FR | vless | @VlessConfig | 18",
                 "🇨🇷CR | vless | @VPNCUSTOMIZE | 25",
                 "🇨🇷CR | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 5",
@@ -134,7 +134,7 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 28",
                 "🇨🇦CA | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇨🇦CA | vless | @v2ray_swhil | 15",
+                "🇨🇦CA | vless | @v2ray_swhil | 16",
                 "🇨🇦CA | vless | @proxyymeliii | 11",
                 "🇨🇦CA | vless | @MsV2ray | 9",
                 "🇨🇦CA | vless | @v2ray1_ng | 3",
@@ -143,11 +143,11 @@
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇨🇦CA | vless | @lrnbymaa | 12",
                 "🇨🇦CA | vless | @v2ray_vpn_ir | 0",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇷CR | vless | @proxystore11 | 14",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 38",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 14",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 15",
                 "🇫🇮FI | vless | @v2rayng_vpnrog | 4",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @Capoit | 3",
@@ -167,7 +167,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇨🇷CR | vless | @XsV2ray | 13",
-                "🇬🇧GB | vless | @VlessConfig | 15",
+                "🇫🇷FR | vless | @VlessConfig | 18",
                 "🇨🇷CR | vless | @VPNCUSTOMIZE | 25",
                 "🇨🇷CR | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 5",
@@ -194,7 +194,7 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 28",
                 "🇨🇦CA | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇨🇦CA | vless | @v2ray_swhil | 15",
+                "🇨🇦CA | vless | @v2ray_swhil | 16",
                 "🇨🇦CA | vless | @proxyymeliii | 11",
                 "🇨🇦CA | vless | @MsV2ray | 9",
                 "🇨🇦CA | vless | @v2ray1_ng | 3",
@@ -203,11 +203,11 @@
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇨🇦CA | vless | @lrnbymaa | 12",
                 "🇨🇦CA | vless | @v2ray_vpn_ir | 0",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇷CR | vless | @proxystore11 | 14",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 38",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 14",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 15",
                 "🇫🇮FI | vless | @v2rayng_vpnrog | 4",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @Capoit | 3",
@@ -273,9 +273,9 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @VlessConfig | 15",
+            "tag": "🇫🇷FR | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "13.43.25.83",
+            "server": "13.38.183.149",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1050,11 +1050,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray_swhil | 15",
+            "tag": "🇨🇦CA | vless | @v2ray_swhil | 16",
             "type": "vless",
-            "server": "www.mrzedmodeon.top",
-            "server_port": 2053,
-            "uuid": "266f480d-ab52-40e1-bf67-65b9ccadcad0",
+            "server": "mmdtitaniom.gogoli.monster",
+            "server_port": 8443,
+            "uuid": "2e5f3822-1056-4797-804c-edc7600fbbe7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1064,7 +1064,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "dash.joinzedmodeon.top",
+                "server_name": "mmdtitaniom.gogoli.monster",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1074,7 +1074,7 @@
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "@ZEDMODEON",
+                "service_name": "@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -1304,11 +1304,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "tgju.org",
+            "server": "104.21.18.98",
             "server_port": 80,
-            "uuid": "da8d0369-0121-4d2b-9fe1-c071833604cf",
+            "uuid": "81555746-da03-4436-b8a5-f1aac9354311",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1320,7 +1320,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "tgju.org"
+                    "Host": "104.21.18.98"
                 }
             }
         },
@@ -1423,11 +1423,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 14",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 15",
             "type": "vless",
-            "server": "104.21.28.62",
-            "server_port": 443,
-            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+            "server": "k---join.outline-vpn.cloud",
+            "server_port": 80,
+            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1435,21 +1435,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "3k.pureboy.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "3k.pureboy.eu.org"
+                    "Host": "k---join.outline-vpn.cloud"
                 }
             }
         },
