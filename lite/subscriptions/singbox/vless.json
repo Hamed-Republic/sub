@@ -113,10 +113,9 @@
                 "🇨🇦CA | vless | @melov2ray | 3",
                 "🇨🇷CR | vless | @frev2ray | 7",
                 "🇩🇪DE | vless | @ARv2ray | 14",
-                "🇨🇷CR | vless | @shh_proxy | 19",
                 "🇸🇪SE | vless | @Lockey_vpn | 5",
                 "🇨🇦CA | vless | @free_v2rayyy | 7",
-                "🇨🇷CR | vless | @lightning6 | 16",
+                "🇺🇸US | vless | @lightning6 | 16",
                 "🇨🇷CR | vless | @V2rayNGmat | 1",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 15",
@@ -126,12 +125,11 @@
                 "🇨🇦CA | vless | @servermomo | 14",
                 "🇮🇷IR | vless | @V2rayCollector | 2",
                 "🇨🇷CR | vless | @azadi_az_inja_migzare | 13",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇷CR | vless | @V2rayNGn | 24",
                 "🇨🇦CA | vless | @customv2ray | 16",
                 "🇨🇦CA | vless | @UnlimitedDev | 6",
                 "🏳️XX | vless | @vmessorg | 23",
-                "🇸🇪SE | vless | @v2rayNG_Matsuri | 18",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 17",
                 "🇳🇱NL | vless | @v2rayngvpn | 8",
                 "🏳️XX | vless | @FalconPolV2rayNG | 5",
                 "🇨🇦CA | vless | @ShadowProxy66 | 38",
@@ -155,6 +153,7 @@
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇨🇷CR | vless | @Capoit | 2",
                 "🏳️XX | vless | @flyv2ray | 14",
+                "🇨🇷CR | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -176,10 +175,9 @@
                 "🇨🇦CA | vless | @melov2ray | 3",
                 "🇨🇷CR | vless | @frev2ray | 7",
                 "🇩🇪DE | vless | @ARv2ray | 14",
-                "🇨🇷CR | vless | @shh_proxy | 19",
                 "🇸🇪SE | vless | @Lockey_vpn | 5",
                 "🇨🇦CA | vless | @free_v2rayyy | 7",
-                "🇨🇷CR | vless | @lightning6 | 16",
+                "🇺🇸US | vless | @lightning6 | 16",
                 "🇨🇷CR | vless | @V2rayNGmat | 1",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 15",
@@ -189,12 +187,11 @@
                 "🇨🇦CA | vless | @servermomo | 14",
                 "🇮🇷IR | vless | @V2rayCollector | 2",
                 "🇨🇷CR | vless | @azadi_az_inja_migzare | 13",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇷CR | vless | @V2rayNGn | 24",
                 "🇨🇦CA | vless | @customv2ray | 16",
                 "🇨🇦CA | vless | @UnlimitedDev | 6",
                 "🏳️XX | vless | @vmessorg | 23",
-                "🇸🇪SE | vless | @v2rayNG_Matsuri | 18",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 17",
                 "🇳🇱NL | vless | @v2rayngvpn | 8",
                 "🏳️XX | vless | @FalconPolV2rayNG | 5",
                 "🇨🇦CA | vless | @ShadowProxy66 | 38",
@@ -218,6 +215,7 @@
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇨🇷CR | vless | @Capoit | 2",
                 "🏳️XX | vless | @flyv2ray | 14",
+                "🇨🇷CR | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -460,37 +458,6 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @shh_proxy | 19",
-            "type": "vless",
-            "server": "V2ray.motorcycles",
-            "server_port": 2087,
-            "uuid": "4d5de5ec-a77e-4e7b-abfa-216446340aac",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "SHHPROXY.snappfoodd.site",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "SHHPROXY.snappfoodd.site"
-                }
-            }
-        },
-        {
             "tag": "🇸🇪SE | vless | @Lockey_vpn | 5",
             "type": "vless",
             "server": "16.16.107.118",
@@ -551,7 +518,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @lightning6 | 16",
+            "tag": "🇺🇸US | vless | @lightning6 | 16",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -861,37 +828,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-            "type": "vless",
-            "server": "172.66.47.74",
-            "server_port": 443,
-            "uuid": "8ca98c98-fb0b-4007-a6e8-c8294e546763",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "s10.xyzquant.cloud",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "6eenmFpWJ6RknrPH6qK9",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
             "tag": "🇨🇷CR | vless | @V2rayNGn | 24",
             "type": "vless",
             "server": "all.vpncustomize.cam",
@@ -996,31 +932,23 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @v2rayNG_Matsuri | 18",
+            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 17",
             "type": "vless",
-            "server": "16.16.138.128",
-            "server_port": 443,
-            "uuid": "2c59ff33-916d-459b-a4c0-8b7432c4c3bb",
-            "flow": "xtls-rprx-vision",
+            "server": "all1.v2raygod.site",
+            "server_port": 80,
+            "uuid": "6ec52bc7-fcd7-4841-ab69-70d6e03a6eda",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "coinmarketcap.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "s0PYAUNqQjfccblnJ--AXqQN6aqUWr1mHVZUNykroxc",
-                    "short_id": "1db3"
+            "transport": {
+                "type": "ws",
+                "path": "\/@V2ray_God",
+                "headers": {
+                    "Host": "all1.v2raygod.site"
                 }
             }
         },
@@ -1676,6 +1604,27 @@
                 "path": "\/opetaTm",
                 "headers": {
                     "Host": "minecraft.opeta.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇷CR | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "telegram.v2rayngcloud.cfd",
+            "server_port": 8880,
+            "uuid": "V2ORG",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "telegram.v2rayngcloud.cfd"
                 }
             }
         },
