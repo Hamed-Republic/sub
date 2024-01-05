@@ -154,7 +154,7 @@
                 "🏳️XX | vmess | @ConfigsHUB | 19",
                 "🇨🇷CR | vless | @proxystore11 | 14",
                 "🇭🇰HK | vmess | @yaney_01 | 11",
-                "🇺🇦UA | vmess | @Hope_Net | 13",
+                "🇨🇦CA | vmess | @Hope_Net | 13",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 38",
                 "🇫🇮FI | vless | @v2rayng_vpnrog | 4",
@@ -162,7 +162,7 @@
                 "🇺🇸US | vmess | @v2Line | 7",
                 "🇩🇪DE | vless | @Capoit | 3",
                 "🇸🇬SG | vless | @flyv2ray | 16",
-                "🇫🇷FR | vmess | @forwardv2ray | 18",
+                "🇬🇧GB | vmess | @forwardv2ray | 9",
                 "🇮🇷IR | vmess | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 9",
@@ -229,7 +229,7 @@
                 "🏳️XX | vmess | @ConfigsHUB | 19",
                 "🇨🇷CR | vless | @proxystore11 | 14",
                 "🇭🇰HK | vmess | @yaney_01 | 11",
-                "🇺🇦UA | vmess | @Hope_Net | 13",
+                "🇨🇦CA | vmess | @Hope_Net | 13",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 38",
                 "🇫🇮FI | vless | @v2rayng_vpnrog | 4",
@@ -237,7 +237,7 @@
                 "🇺🇸US | vmess | @v2Line | 7",
                 "🇩🇪DE | vless | @Capoit | 3",
                 "🇸🇬SG | vless | @flyv2ray | 16",
-                "🇫🇷FR | vmess | @forwardv2ray | 18",
+                "🇬🇧GB | vmess | @forwardv2ray | 9",
                 "🇮🇷IR | vmess | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 9",
@@ -1566,11 +1566,11 @@
             }
         },
         {
-            "tag": "🇺🇦UA | vmess | @Hope_Net | 13",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 13",
             "type": "vmess",
-            "server": "45.87.155.70",
-            "server_port": 8880,
-            "uuid": "88c0a1fb-fc4d-4eab-85c7-4dd84407e9a5",
+            "server": "104.27.102.105",
+            "server_port": 8080,
+            "uuid": "Telegram-V2ray_alpha",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1583,7 +1583,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess",
+                "path": "\/?",
                 "headers": {
                     "Host": ""
                 }
@@ -1823,11 +1823,11 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vmess | @forwardv2ray | 18",
+            "tag": "🇬🇧GB | vmess | @forwardv2ray | 9",
             "type": "vmess",
-            "server": "172.232.44.241",
-            "server_port": 8081,
-            "uuid": "13c67541-4a42-434d-b158-e4c5730b1d09",
+            "server": "uknws.mainssh.xyz",
+            "server_port": 80,
+            "uuid": "66d048fb-3458-48e1-96ab-13e0c273c25e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1837,6 +1837,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess-nonetls",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
