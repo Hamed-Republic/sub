@@ -106,7 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | ss | @V2rayCollectorDonate | 6",
+                "🇫🇷FR | ss | @V2rayCollectorDonate | 6",
+                "🇺🇸US | ss | @V2rayCollectorDonate | 8",
                 "🇺🇸US | ss | @VmessProtocol | 8",
                 "🇭🇰HK | ss | @OutlineVpnOfficial | 3",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 4",
@@ -123,6 +124,7 @@
                 "🇺🇸US | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🇬🇧GB | ss | @forwardv2ray | 3",
                 "🇬🇧GB | ss | @kingofilter | 4"
             ]
         },
@@ -130,7 +132,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | ss | @V2rayCollectorDonate | 6",
+                "🇫🇷FR | ss | @V2rayCollectorDonate | 6",
+                "🇺🇸US | ss | @V2rayCollectorDonate | 8",
                 "🇺🇸US | ss | @VmessProtocol | 8",
                 "🇭🇰HK | ss | @OutlineVpnOfficial | 3",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 4",
@@ -147,6 +150,7 @@
                 "🇺🇸US | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🇬🇧GB | ss | @forwardv2ray | 3",
                 "🇬🇧GB | ss | @kingofilter | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -170,7 +174,17 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸US | ss | @V2rayCollectorDonate | 6",
+            "tag": "🇫🇷FR | ss | @V2rayCollectorDonate | 6",
+            "type": "shadowsocks",
+            "server": "51.158.150.168",
+            "server_port": 4444,
+            "method": "aes-256-gcm",
+            "password": "pKEW8JPByTVTLtM",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇺🇸US | ss | @V2rayCollectorDonate | 8",
             "type": "shadowsocks",
             "server": "us4.doushimeng.com",
             "server_port": 20802,
@@ -336,6 +350,16 @@
             "server_port": 2443,
             "method": "2022-blake3-aes-256-gcm",
             "password": "qmwwqUFja9yfP8OaRyb4h2UJ1VZTPJ3rASjF2Y5paYI=",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇬🇧GB | ss | @forwardv2ray | 3",
+            "type": "shadowsocks",
+            "server": "series-a2-mec.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "u17T3BvpYaaiuW2c",
             "plugin": "",
             "plugin_opts": ""
         },
