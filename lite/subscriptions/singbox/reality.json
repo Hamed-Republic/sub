@@ -113,10 +113,10 @@
                 "🇫🇮FI | vless | @v2logy | 19",
                 "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 8",
+                "🇩🇪DE | vless | @v2ray_swhil | 17",
                 "🏳️XX | vless | @MTConfig | 21",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🏳️XX | vless | @Capital_NET | 52",
-                "🇩🇪DE | vless | @forwardv2ray | 18",
                 "🇸🇪SE | vless | @kiava | 15",
                 "🇫🇮FI | vless | @proxy_mtm | 3",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
@@ -134,10 +134,10 @@
                 "🇫🇮FI | vless | @v2logy | 19",
                 "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 8",
+                "🇩🇪DE | vless | @v2ray_swhil | 17",
                 "🏳️XX | vless | @MTConfig | 21",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🏳️XX | vless | @Capital_NET | 52",
-                "🇩🇪DE | vless | @forwardv2ray | 18",
                 "🇸🇪SE | vless | @kiava | 15",
                 "🇫🇮FI | vless | @proxy_mtm | 3",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
@@ -332,9 +332,9 @@
         {
             "tag": "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
-            "server": "blackmonkey.uk",
-            "server_port": 35517,
-            "uuid": "41bd3b32-3d71-488f-838a-b26813b7e638",
+            "server": "whitepig.uk",
+            "server_port": 41896,
+            "uuid": "8f172083-fb7f-40a4-b509-b0f007d7db4c",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -349,12 +349,12 @@
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "uQj3GQEayrF-EubsrWd89A3g8DBPc1S6R9GLK-ykxDI",
-                    "short_id": "1c3b838d"
+                    "public_key": "7dyMBOW0SokLK4EstrmTezP7Jj0SUe74R5Z6tFlz8TQ",
+                    "short_id": "b1e61a21"
                 }
             }
         },
@@ -384,6 +384,35 @@
                     "enabled": true,
                     "public_key": "EmcJnAmgmizra9H-aY3vS2UpyjJ9CcdpygtVWs2fRVA",
                     "short_id": "e4"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @v2ray_swhil | 17",
+            "type": "vless",
+            "server": "free01.miraclev2ray.online",
+            "server_port": 443,
+            "uuid": "d2c418b1-62ff-4227-9f2b-668bd50524e5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "free-api01.miraclev2ray.online",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "8fQWsJr0l6n5x98oArx-3a1IO3elnrrHOHZorOyFSHw",
+                    "short_id": "4189a3adbea837f0"
                 }
             }
         },
@@ -485,35 +514,6 @@
                     "enabled": true,
                     "public_key": "90WvSEDjTWdVj1U5JPXphB6VZ4ojR42tZN7PuEeRqXM",
                     "short_id": "dc838e556e8a86bd"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "blacktiger.uk",
-            "server_port": 47488,
-            "uuid": "778cc5f0-20b8-4afe-905c-057f0bd6eda6",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "discord.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Re82xVW3zNsAShbzzB-FQF9tb68CeipYH9yrnyHEvRE",
-                    "short_id": "815bfa1f"
                 }
             }
         },
