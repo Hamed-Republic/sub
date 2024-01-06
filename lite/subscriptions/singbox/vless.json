@@ -107,12 +107,11 @@
             "outbounds": [
                 "URL-TEST",
                 "🇨🇦CA | vless | @v2_team | 18",
-                "🇨🇷CR | vless | @XsV2ray | 13",
+                "🇺🇸US | vless | @XsV2ray | 13",
                 "🇫🇷FR | vless | @VlessConfig | 15",
                 "🏳️XX | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 5",
-                "🇺🇸US | vless | @frev2ray | 5",
-                "🇩🇪DE | vless | @ARv2ray | 14",
+                "🇨🇷CR | vless | @frev2ray | 5",
                 "🇸🇪SE | vless | @Lockey_vpn | 5",
                 "🇨🇦CA | vless | @free_v2rayyy | 8",
                 "🇨🇷CR | vless | @lightning6 | 14",
@@ -124,7 +123,6 @@
                 "🇩🇪DE | vless | @v2logy | 19",
                 "🇨🇦CA | vless | @V2rayCollector | 1",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 22",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇺🇸US | vless | @V2rayNGn | 24",
                 "🇸🇪SE | vless | @prrofile_purple | 177",
                 "🇨🇦CA | vless | @customv2ray | 16",
@@ -155,6 +153,7 @@
                 "🏳️XX | vless | @Capoit | 3",
                 "🇺🇸US | vless | @FreakConfig | 12",
                 "🇮🇷IR | vless | @flyv2ray | 14",
+                "🇩🇪DE | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇺🇸US | vless | @mehrosaboran | 14",
@@ -171,12 +170,11 @@
             "type": "urltest",
             "outbounds": [
                 "🇨🇦CA | vless | @v2_team | 18",
-                "🇨🇷CR | vless | @XsV2ray | 13",
+                "🇺🇸US | vless | @XsV2ray | 13",
                 "🇫🇷FR | vless | @VlessConfig | 15",
                 "🏳️XX | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 5",
-                "🇺🇸US | vless | @frev2ray | 5",
-                "🇩🇪DE | vless | @ARv2ray | 14",
+                "🇨🇷CR | vless | @frev2ray | 5",
                 "🇸🇪SE | vless | @Lockey_vpn | 5",
                 "🇨🇦CA | vless | @free_v2rayyy | 8",
                 "🇨🇷CR | vless | @lightning6 | 14",
@@ -188,7 +186,6 @@
                 "🇩🇪DE | vless | @v2logy | 19",
                 "🇨🇦CA | vless | @V2rayCollector | 1",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 22",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇺🇸US | vless | @V2rayNGn | 24",
                 "🇸🇪SE | vless | @prrofile_purple | 177",
                 "🇨🇦CA | vless | @customv2ray | 16",
@@ -219,6 +216,7 @@
                 "🏳️XX | vless | @Capoit | 3",
                 "🇺🇸US | vless | @FreakConfig | 12",
                 "🇮🇷IR | vless | @flyv2ray | 14",
+                "🇩🇪DE | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇺🇸US | vless | @mehrosaboran | 14",
@@ -281,7 +279,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @XsV2ray | 13",
+            "tag": "🇺🇸US | vless | @XsV2ray | 13",
             "type": "vless",
             "server": "all.vipxali.cfd",
             "server_port": 2083,
@@ -405,7 +403,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @frev2ray | 5",
+            "tag": "🇨🇷CR | vless | @frev2ray | 5",
             "type": "vless",
             "server": "all.vpncustomize.cam",
             "server_port": 2095,
@@ -423,42 +421,6 @@
                 "headers": {
                     "Host": "all.vpncustomize.cam"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @ARv2ray | 14",
-            "type": "vless",
-            "server": "5.75.220.140",
-            "server_port": 443,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.mashti.link",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "L1WUGqllbUc0uRpp1mCGBlwL1QQaMFNVWKJ2W6c770w",
-                    "short_id": "49722ed2"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
@@ -798,37 +760,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-            "type": "vless",
-            "server": "w3.sylarsun.eu.org",
-            "server_port": 443,
-            "uuid": "89420825-e589-4735-bee1-6dc636fca343",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "w3.sylarsun.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "w3.sylarsun.eu.org"
-                }
             }
         },
         {
@@ -1379,9 +1310,9 @@
         {
             "tag": "🇨🇦CA | vless | @SafeNet_Server | 13",
             "type": "vless",
-            "server": "tgju.org",
+            "server": "All1.v2raygod.site",
             "server_port": 80,
-            "uuid": "da8d0369-0121-4d2b-9fe1-c071833604cf",
+            "uuid": "6ec52bc7-fcd7-4841-ab69-70d6e03a6eda",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1391,9 +1322,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/@V2ray_God",
                 "headers": {
-                    "Host": "tgju.org"
+                    "Host": "All1.v2raygod.site"
                 }
             }
         },
@@ -1667,6 +1598,42 @@
                 "headers": {
                     "Host": "minecraft.opeta.cfd"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "52.59.55.69",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ftp.debian.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "JoRjk3fFZzW6kbEk5G6s5BwgLvsTvOoTASBmHBNuUWg",
+                    "short_id": "efcbc2ac"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
