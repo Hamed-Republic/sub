@@ -112,6 +112,7 @@
                 "🇨🇳CN | vmess | @yaney_01 | 10",
                 "🇬🇧GB | vmess | @Hope_Net | 8",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇨🇦CA | vmess | @forwardv2ray | 8",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 1"
             ]
         },
@@ -125,6 +126,7 @@
                 "🇨🇳CN | vmess | @yaney_01 | 10",
                 "🇬🇧GB | vmess | @Hope_Net | 8",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇨🇦CA | vmess | @forwardv2ray | 8",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -282,6 +284,30 @@
             "transport": {
                 "type": "ws",
                 "path": "\/racevpn",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 8",
+            "type": "vmess",
+            "server": "jp-01.snangua.com",
+            "server_port": 8880,
+            "uuid": "08fdf1b3-7164-4866-99ea-91e1fdd70bc0",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
                 "headers": {
                     "Host": ""
                 }
