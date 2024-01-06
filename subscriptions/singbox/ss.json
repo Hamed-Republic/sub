@@ -107,7 +107,6 @@
             "outbounds": [
                 "URL-TEST",
                 "🇬🇧GB | ss | @servermomo | 0",
-                "🇺🇸US | ss | @V2rayCollectorDonate | 9",
                 "🇬🇧GB | ss | @VmessProtocol | 8",
                 "🇺🇸US | ss | @VmessProtocol | 12",
                 "🇯🇵JP | ss | @OutlineVpnOfficial | 4",
@@ -125,8 +124,7 @@
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 18",
-                "🇬🇧GB | ss | @forwardv2ray | 16",
-                "🇬🇧GB | ss | @forwardv2ray | 19"
+                "🇬🇧GB | ss | @kingofilter | 4"
             ]
         },
         {
@@ -134,7 +132,6 @@
             "type": "urltest",
             "outbounds": [
                 "🇬🇧GB | ss | @servermomo | 0",
-                "🇺🇸US | ss | @V2rayCollectorDonate | 9",
                 "🇬🇧GB | ss | @VmessProtocol | 8",
                 "🇺🇸US | ss | @VmessProtocol | 12",
                 "🇯🇵JP | ss | @OutlineVpnOfficial | 4",
@@ -152,8 +149,7 @@
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 18",
-                "🇬🇧GB | ss | @forwardv2ray | 16",
-                "🇬🇧GB | ss | @forwardv2ray | 19"
+                "🇬🇧GB | ss | @kingofilter | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -182,16 +178,6 @@
             "server_port": 6961,
             "method": "chacha20-ietf-poly1305",
             "password": "tAoWzuKvNOPrsLc4fAEOno",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇺🇸US | ss | @V2rayCollectorDonate | 9",
-            "type": "shadowsocks",
-            "server": "us4.doushimeng.com",
-            "server_port": 20802,
-            "method": "chacha20-ietf-poly1305",
-            "password": "90e37691-ae15-4ffc-8255-c0ae23c41fba",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -366,17 +352,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | @forwardv2ray | 16",
-            "type": "shadowsocks",
-            "server": "series-a2-mec.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "u17T3BvpYaaiuW2c",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇬🇧GB | ss | @forwardv2ray | 19",
+            "tag": "🇬🇧GB | ss | @kingofilter | 4",
             "type": "shadowsocks",
             "server": "series-a2-me.samanehha.co",
             "server_port": 443,
