@@ -106,9 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | vless | @EliV2ray | 13",
                 "🇨🇦CA | vless | @v2_team | 18",
-                "🇺🇸US | vless | @XsV2ray | 13",
+                "🇨🇷CR | vless | @XsV2ray | 13",
                 "🇫🇷FR | vless | @VlessConfig | 15",
                 "🏳️XX | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 5",
@@ -141,7 +140,7 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 18",
                 "🇨🇦CA | vless | @proxyymeliii | 13",
                 "🇨🇦CA | vless | @MsV2ray | 9",
-                "🇸🇪SE | vless | @v2ray1_ng | 2",
+                "🇨🇦CA | vless | @v2ray1_ng | 1",
                 "🏳️XX | vless | @MTConfig | 21",
                 "🇨🇷CR | vless | @V2RayTz | 19",
                 "🇸🇪SE | vless | @VmessProtocol | 20",
@@ -156,7 +155,6 @@
                 "🏳️XX | vless | @Capoit | 3",
                 "🇺🇸US | vless | @FreakConfig | 12",
                 "🇮🇷IR | vless | @flyv2ray | 14",
-                "🇮🇷IR | vless | @forwardv2ray | 9",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇺🇸US | vless | @mehrosaboran | 14",
@@ -172,9 +170,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | vless | @EliV2ray | 13",
                 "🇨🇦CA | vless | @v2_team | 18",
-                "🇺🇸US | vless | @XsV2ray | 13",
+                "🇨🇷CR | vless | @XsV2ray | 13",
                 "🇫🇷FR | vless | @VlessConfig | 15",
                 "🏳️XX | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 5",
@@ -207,7 +204,7 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 18",
                 "🇨🇦CA | vless | @proxyymeliii | 13",
                 "🇨🇦CA | vless | @MsV2ray | 9",
-                "🇸🇪SE | vless | @v2ray1_ng | 2",
+                "🇨🇦CA | vless | @v2ray1_ng | 1",
                 "🏳️XX | vless | @MTConfig | 21",
                 "🇨🇷CR | vless | @V2RayTz | 19",
                 "🇸🇪SE | vless | @VmessProtocol | 20",
@@ -222,7 +219,6 @@
                 "🏳️XX | vless | @Capoit | 3",
                 "🇺🇸US | vless | @FreakConfig | 12",
                 "🇮🇷IR | vless | @flyv2ray | 14",
-                "🇮🇷IR | vless | @forwardv2ray | 9",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇺🇸US | vless | @mehrosaboran | 14",
@@ -252,35 +248,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇺🇸US | vless | @EliV2ray | 13",
-            "type": "vless",
-            "server": "104.168.107.230",
-            "server_port": 7321,
-            "uuid": "036b3e85-a34d-416e-9023-66bdb260a1c7",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "placehold.it",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "WV6Zrt7C9aS99om1JA3inJE-BKFFudaiaY5-YbZLjkU",
-                    "short_id": "3e5d75a390dc5bad"
-                }
-            }
         },
         {
             "tag": "🇨🇦CA | vless | @v2_team | 18",
@@ -314,7 +281,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @XsV2ray | 13",
+            "tag": "🇨🇷CR | vless | @XsV2ray | 13",
             "type": "vless",
             "server": "all.vipxali.cfd",
             "server_port": 2083,
@@ -1272,31 +1239,23 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @v2ray1_ng | 2",
+            "tag": "🇨🇦CA | vless | @v2ray1_ng | 1",
             "type": "vless",
-            "server": "16.16.160.109",
-            "server_port": 443,
-            "uuid": "2c59ff33-916d-459b-a4c0-8b7432c4c3bb",
-            "flow": "xtls-rprx-vision",
+            "server": "sourceforge.net",
+            "server_port": 2095,
+            "uuid": "de120d60-dc5f-4ae5-857a-0ed36b422766",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "coinmarketcap.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "dukFLeTqOoiFe4NTKH7oYIsTNcPStlbgkFoIhcaIQEU",
-                    "short_id": "1db3"
+            "transport": {
+                "type": "ws",
+                "path": "\/?@V2ray1_Ng-----@V2ray1_Ng------@V2ray1_Ng-----@V2ray1_Ng------@V2ray1_Ng",
+                "headers": {
+                    "Host": "sourceforge.net"
                 }
             }
         },
@@ -1708,20 +1667,6 @@
                 "headers": {
                     "Host": "minecraft.opeta.cfd"
                 }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vless | @forwardv2ray | 9",
-            "type": "vless",
-            "server": "46.148.39.23",
-            "server_port": 2052,
-            "uuid": "802c5557-0058-4f49-80bb-bc8acb3d9711",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
