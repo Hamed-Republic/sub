@@ -112,7 +112,7 @@
                 "🇨🇳CN | vmess | @yaney_01 | 10",
                 "🇨🇦CA | vmess | @Hope_Net | 10",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇳🇱NL | vmess | @forwardv2ray | 15",
+                "🇺🇸US | vmess | @forwardv2ray | 19",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 1"
             ]
         },
@@ -126,7 +126,7 @@
                 "🇨🇳CN | vmess | @yaney_01 | 10",
                 "🇨🇦CA | vmess | @Hope_Net | 10",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇳🇱NL | vmess | @forwardv2ray | 15",
+                "🇺🇸US | vmess | @forwardv2ray | 19",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -307,11 +307,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vmess | @forwardv2ray | 15",
+            "tag": "🇺🇸US | vmess | @forwardv2ray | 19",
             "type": "vmess",
-            "server": "kom645yj.sbs",
-            "server_port": 30870,
-            "uuid": "f8e7c07a-4c32-4fc7-9169-073669416331",
+            "server": "yy.yangjinplus.cn",
+            "server_port": 8443,
+            "uuid": "1512650b-800e-4db2-afee-0e3826ba6182",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -322,11 +322,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "yy.yangjinplus.cn",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/1512650b-800e-4db2-afee-0e3826ba6182-vm",
                 "headers": {
-                    "Host": ""
+                    "Host": "yy.yangjinplus.cn"
                 }
             }
         },
