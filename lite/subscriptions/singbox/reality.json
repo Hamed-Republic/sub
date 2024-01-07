@@ -110,8 +110,6 @@
                 "🇸🇪SE | vless | @Lockey_vpn | 5",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🏳️XX | vless | @proxy_kafee | 0",
-                "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
-                "🇸🇪SE | vless | @v2rayNG_Matsuri | 8",
                 "🇩🇪DE | vless | @MTConfig | 21",
                 "🇩🇪DE | vless | @V2RayTz | 18",
                 "🏳️XX | vless | @fnet00 | 10",
@@ -130,8 +128,6 @@
                 "🇸🇪SE | vless | @Lockey_vpn | 5",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🏳️XX | vless | @proxy_kafee | 0",
-                "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
-                "🇸🇪SE | vless | @v2rayNG_Matsuri | 8",
                 "🇩🇪DE | vless | @MTConfig | 21",
                 "🇩🇪DE | vless | @V2RayTz | 18",
                 "🏳️XX | vless | @fnet00 | 10",
@@ -288,64 +284,6 @@
                     "enabled": true,
                     "public_key": "5HwFpn0nd52NSlRg_vYZw93TFOUIpYpysTqo40uD5xU",
                     "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
-            "type": "vless",
-            "server": "dwarvensniper.uk",
-            "server_port": 26836,
-            "uuid": "664b7dda-d300-42e2-b24c-d85801eead92",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "discord.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "n7G9VwYtUuNPL-31NwVYCpU13wRpJmdIiVw2cA3rZUQ",
-                    "short_id": "27758ade"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @v2rayNG_Matsuri | 8",
-            "type": "vless",
-            "server": "13.53.139.180",
-            "server_port": 443,
-            "uuid": "2c59ff33-916d-459b-a4c0-8b7432c4c3bb",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "lolstatic-a.akamaihd.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "EmcJnAmgmizra9H-aY3vS2UpyjJ9CcdpygtVWs2fRVA",
-                    "short_id": "e4"
                 }
             }
         },
