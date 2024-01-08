@@ -109,12 +109,12 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇱🇹LT | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 7",
-                "🇫🇮FI | vmess | @ConfigsHUB | 19",
+                "🇸🇬SG | vmess | @ConfigsHUB | 18",
                 "🇨🇳CN | vmess | @yaney_01 | 10",
                 "🇫🇷FR | vmess | @Hope_Net | 18",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 7",
-                "🏳️XX | vmess | @forwardv2ray | 19"
+                "🇫🇷FR | vmess | @eliya_chiter0 | 3"
             ]
         },
         {
@@ -124,12 +124,12 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇱🇹LT | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 7",
-                "🇫🇮FI | vmess | @ConfigsHUB | 19",
+                "🇸🇬SG | vmess | @ConfigsHUB | 18",
                 "🇨🇳CN | vmess | @yaney_01 | 10",
                 "🇫🇷FR | vmess | @Hope_Net | 18",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 7",
-                "🏳️XX | vmess | @forwardv2ray | 19"
+                "🇫🇷FR | vmess | @eliya_chiter0 | 3"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -210,11 +210,11 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vmess | @ConfigsHUB | 19",
+            "tag": "🇸🇬SG | vmess | @ConfigsHUB | 18",
             "type": "vmess",
-            "server": "panelv2.mmdv3.site",
-            "server_port": 21022,
-            "uuid": "29eb55d0-b620-43d0-ace0-2ac56ad1b698",
+            "server": "206.238.236.36",
+            "server_port": 443,
+            "uuid": "5f726fe3-d82e-4da5-a711-8af0cbb2b682",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -224,6 +224,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mysan2.jaquay22.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/56c5d2b1-575f-4718-ad37-4cb1fb0d44dc.asoul-ava.top\/azumase.ren",
+                "headers": {
+                    "Host": "mysan2.jaquay22.workers.dev"
+                }
             }
         },
         {
@@ -253,9 +270,9 @@
         {
             "tag": "🇫🇷FR | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "172.232.44.241",
-            "server_port": 8081,
-            "uuid": "13c67541-4a42-434d-b158-e4c5730b1d09",
+            "server": "fr-full.privateip.net",
+            "server_port": 443,
+            "uuid": "04695962-ec9f-4589-b962-263e7b55664c",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -265,6 +282,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "fr-full.privateip.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/RACEVPN",
+                "headers": {
+                    "Host": "fr-full.privateip.net"
+                }
             }
         },
         {
@@ -326,11 +360,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @forwardv2ray | 19",
+            "tag": "🇫🇷FR | vmess | @eliya_chiter0 | 3",
             "type": "vmess",
-            "server": null,
-            "server_port": 0,
-            "uuid": null,
+            "server": "172.232.44.241",
+            "server_port": 8081,
+            "uuid": "13c67541-4a42-434d-b158-e4c5730b1d09",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
