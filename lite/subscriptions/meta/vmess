@@ -122,7 +122,6 @@ dns:
 proxies:
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇱🇹LT | vmess | @mftizi | 18","type":"vmess","server":"94.131.14.177","port":"80","cipher":"auto","uuid":"2c5fee13-f08b-4ba8-86db-27dd51cb9781","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":""}}}
-  - {"name":"🇪🇪EE | vmess | @ConfigsHUB | 17","type":"vmess","server":"ee1.xv2ray.net","port":"80","cipher":"auto","uuid":"83018580-58ce-464f-b75c-2a1331a8f016","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"ee1.xv2ray.net"}}}
   - {"name":"🇨🇳CN | vmess | @yaney_01 | 10","type":"vmess","server":"cm1.awslcn.info","port":"25258","cipher":"auto","uuid":"93ec7261-1c92-4149-848a-26b6fb9fc4ce","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"cm1.awslcn.info"}}}
   - {"name":"🇨🇦CA | vmess | @Hope_Net | 18","type":"vmess","server":"104.21.91.73","port":"443","cipher":"auto","uuid":"45f63e92-f782-4cac-84b8-e61cb5a5bfd0","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"adenc35.fixedlfoat.top"}}}
   - {"name":"🇮🇷IR | vmess | @MrV2Ray | 0","type":"vmess","server":"85.9.106.116","port":"45061","cipher":"auto","uuid":"aec32fcc-4219-48e1-bbf5-7811f46b5fb8","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
@@ -136,7 +135,6 @@ proxy-groups:
       - FALLBACK
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇱🇹LT | vmess | @mftizi | 18'
-      - '🇪🇪EE | vmess | @ConfigsHUB | 17'
       - '🇨🇳CN | vmess | @yaney_01 | 10'
       - '🇨🇦CA | vmess | @Hope_Net | 18'
       - '🇮🇷IR | vmess | @MrV2Ray | 0'
@@ -150,7 +148,6 @@ proxy-groups:
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇱🇹LT | vmess | @mftizi | 18'
-      - '🇪🇪EE | vmess | @ConfigsHUB | 17'
       - '🇨🇳CN | vmess | @yaney_01 | 10'
       - '🇨🇦CA | vmess | @Hope_Net | 18'
       - '🇮🇷IR | vmess | @MrV2Ray | 0'
@@ -163,7 +160,6 @@ proxy-groups:
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇱🇹LT | vmess | @mftizi | 18'
-      - '🇪🇪EE | vmess | @ConfigsHUB | 17'
       - '🇨🇳CN | vmess | @yaney_01 | 10'
       - '🇨🇦CA | vmess | @Hope_Net | 18'
       - '🇮🇷IR | vmess | @MrV2Ray | 0'
