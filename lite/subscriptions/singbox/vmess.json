@@ -109,11 +109,12 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇱🇹LT | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 7",
+                "🇫🇮FI | vmess | @ConfigsHUB | 19",
                 "🇨🇳CN | vmess | @yaney_01 | 10",
                 "🇫🇷FR | vmess | @Hope_Net | 18",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 7",
-                "🏳️XX | vmess | @forwardv2ray | 18"
+                "🏳️XX | vmess | @forwardv2ray | 19"
             ]
         },
         {
@@ -123,11 +124,12 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇱🇹LT | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 7",
+                "🇫🇮FI | vmess | @ConfigsHUB | 19",
                 "🇨🇳CN | vmess | @yaney_01 | 10",
                 "🇫🇷FR | vmess | @Hope_Net | 18",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 7",
-                "🏳️XX | vmess | @forwardv2ray | 18"
+                "🏳️XX | vmess | @forwardv2ray | 19"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -196,6 +198,23 @@
             "server": "49.13.160.61",
             "server_port": 20952,
             "uuid": "5d6894b8-0736-449b-f44c-9ad4dab7e6f9",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇫🇮FI | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "panelv2.mmdv3.site",
+            "server_port": 21022,
+            "uuid": "29eb55d0-b620-43d0-ace0-2ac56ad1b698",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -307,7 +326,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @forwardv2ray | 18",
+            "tag": "🏳️XX | vmess | @forwardv2ray | 19",
             "type": "vmess",
             "server": null,
             "server_port": 0,
