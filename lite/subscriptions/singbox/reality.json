@@ -111,11 +111,10 @@
                 "🇸🇪SE | vless | @Lockey_vpn | 5",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇩🇪DE | vless | @MTConfig | 21",
-                "🇩🇪DE | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @flyv2ray | 13",
-                "🇸🇪SE | vless | @kiava | 11",
+                "🇸🇪SE | vless | @kiava | 10",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @FoXrayIran | 6"
             ]
@@ -129,11 +128,10 @@
                 "🇸🇪SE | vless | @Lockey_vpn | 5",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇩🇪DE | vless | @MTConfig | 21",
-                "🇩🇪DE | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @flyv2ray | 13",
-                "🇸🇪SE | vless | @kiava | 11",
+                "🇸🇪SE | vless | @kiava | 10",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @FoXrayIran | 6"
             ],
@@ -331,35 +329,6 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "tcp.zedmode.shop",
-            "server_port": 25365,
-            "uuid": "3f65488e-f192-41b5-8e55-1e22e65c7222",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.discord.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "S0hhssqUjFwGQ8RV00ldXU1d-K7GJPXmFNMlD9uXbA0",
-                    "short_id": "1fabc99d"
-                }
-            }
-        },
-        {
             "tag": "🏳️XX | vless | @fnet00 | 10",
             "type": "vless",
             "server": "kamyarservers.ddns.net",
@@ -461,9 +430,9 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @kiava | 11",
+            "tag": "🇸🇪SE | vless | @kiava | 10",
             "type": "vless",
-            "server": "13.48.23.199",
+            "server": "16.16.128.237",
             "server_port": 3074,
             "uuid": "f553d0ca-701d-4f95-90e9-2851d055291e",
             "flow": "xtls-rprx-vision",
@@ -484,7 +453,7 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "t0esCqMwItjj_PCFeQNJuPbKFK50PbTp2ODY5IYqEg0",
+                    "public_key": "V6aOj8Lade9JQer_QiBOfyg2VPvCQRidgwt3OQcNX3M",
                     "short_id": "fe"
                 }
             }
