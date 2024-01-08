@@ -109,8 +109,9 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇱🇹LT | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 7",
+                "🇪🇪EE | vmess | @ConfigsHUB | 17",
                 "🇨🇳CN | vmess | @yaney_01 | 10",
-                "🇫🇷FR | vmess | @Hope_Net | 18",
+                "🇨🇦CA | vmess | @Hope_Net | 18",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 7",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 3"
@@ -123,8 +124,9 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇱🇹LT | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 7",
+                "🇪🇪EE | vmess | @ConfigsHUB | 17",
                 "🇨🇳CN | vmess | @yaney_01 | 10",
-                "🇫🇷FR | vmess | @Hope_Net | 18",
+                "🇨🇦CA | vmess | @Hope_Net | 18",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 7",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 3"
@@ -208,6 +210,30 @@
             }
         },
         {
+            "tag": "🇪🇪EE | vmess | @ConfigsHUB | 17",
+            "type": "vmess",
+            "server": "ee1.xv2ray.net",
+            "server_port": 80,
+            "uuid": "83018580-58ce-464f-b75c-2a1331a8f016",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
             "tag": "🇨🇳CN | vmess | @yaney_01 | 10",
             "type": "vmess",
             "server": "cm1.awslcn.info",
@@ -232,11 +258,11 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vmess | @Hope_Net | 18",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "fr-full.privateip.net",
+            "server": "104.21.91.73",
             "server_port": 443,
-            "uuid": "04695962-ec9f-4589-b962-263e7b55664c",
+            "uuid": "45f63e92-f782-4cac-84b8-e61cb5a5bfd0",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -249,7 +275,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "fr-full.privateip.net",
+                "server_name": "adenc35.fixedlfoat.top",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -259,9 +285,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/RACEVPN",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "fr-full.privateip.net"
+                    "Host": "adenc35.fixedlfoat.top"
                 }
             }
         },
