@@ -122,7 +122,9 @@
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇬🇧GB | ss | @forwardv2ray | 9",
+                "🇳🇱NL | ss | @forwardv2ray | 10",
+                "🇬🇧GB | ss | @forwardv2ray | 14",
+                "🇬🇧GB | ss | @forwardv2ray | 15",
                 "🇬🇧GB | ss | @proxy_mtm | 0"
             ]
         },
@@ -146,7 +148,9 @@
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇬🇧GB | ss | @forwardv2ray | 9",
+                "🇳🇱NL | ss | @forwardv2ray | 10",
+                "🇬🇧GB | ss | @forwardv2ray | 14",
+                "🇬🇧GB | ss | @forwardv2ray | 15",
                 "🇬🇧GB | ss | @proxy_mtm | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -330,12 +334,32 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | @forwardv2ray | 9",
+            "tag": "🇳🇱NL | ss | @forwardv2ray | 10",
+            "type": "shadowsocks",
+            "server": "45.87.153.246",
+            "server_port": 6199,
+            "method": "chacha20-ietf-poly1305",
+            "password": "f7EI0dGWQM42T8gwN9CZIj",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇬🇧GB | ss | @forwardv2ray | 14",
             "type": "shadowsocks",
             "server": "series-a2-mec.samanehha.co",
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "u17T3BvpYaaiuW2c",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇬🇧GB | ss | @forwardv2ray | 15",
+            "type": "shadowsocks",
+            "server": "195.85.115.125",
+            "server_port": 55264,
+            "method": "chacha20-ietf-poly1305",
+            "password": "7s8qO6GuKVnE1jy1Z0Kmf7",
             "plugin": "",
             "plugin_opts": ""
         },
