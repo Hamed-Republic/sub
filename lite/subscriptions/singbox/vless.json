@@ -125,9 +125,9 @@
                 "🇩🇪DE | vless | @v2logy | 18",
                 "🇨🇷CR | vless | @servermomo | 15",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 23",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇸🇬SG | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
-                "🇨🇷CR | vless | @V2rayNGn | 23",
+                "🇺🇸US | vless | @V2rayNGn | 23",
                 "🇸🇪SE | vless | @prrofile_purple | 166",
                 "🇺🇸US | vless | @ShadowSocks_s | 3",
                 "🇨🇦CA | vless | @customv2ray | 15",
@@ -157,8 +157,9 @@
                 "🇩🇪DE | vless | @Capoit | 8",
                 "🇨🇦CA | vless | @FreakConfig | 10",
                 "🇫🇮FI | vless | @flyv2ray | 14",
+                "🇨🇦CA | vless | @forwardv2ray | 12",
                 "🏳️XX | vless | @https_config_injector | 14",
-                "🇺🇸US | vless | @mehrosaboran | 13",
+                "🇺🇸US | vless | @mehrosaboran | 14",
                 "🇸🇪SE | vless | @kiava | 10",
                 "🇩🇪DE | vless | @proxy_mtm | 14",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
@@ -190,9 +191,9 @@
                 "🇩🇪DE | vless | @v2logy | 18",
                 "🇨🇷CR | vless | @servermomo | 15",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 23",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇸🇬SG | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
-                "🇨🇷CR | vless | @V2rayNGn | 23",
+                "🇺🇸US | vless | @V2rayNGn | 23",
                 "🇸🇪SE | vless | @prrofile_purple | 166",
                 "🇺🇸US | vless | @ShadowSocks_s | 3",
                 "🇨🇦CA | vless | @customv2ray | 15",
@@ -222,8 +223,9 @@
                 "🇩🇪DE | vless | @Capoit | 8",
                 "🇨🇦CA | vless | @FreakConfig | 10",
                 "🇫🇮FI | vless | @flyv2ray | 14",
+                "🇨🇦CA | vless | @forwardv2ray | 12",
                 "🏳️XX | vless | @https_config_injector | 14",
-                "🇺🇸US | vless | @mehrosaboran | 13",
+                "🇺🇸US | vless | @mehrosaboran | 14",
                 "🇸🇪SE | vless | @kiava | 10",
                 "🇩🇪DE | vless | @proxy_mtm | 14",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
@@ -829,11 +831,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇸🇬SG | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
-            "server": "web.bbv2ry.pics",
-            "server_port": 443,
-            "uuid": "2cc6dcba-19f0-434d-87fa-ca19168c0718",
+            "server": "206.238.236.11",
+            "server_port": 8443,
+            "uuid": "06c912d6-2727-40f5-8f26-f295dfaacf6e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -843,7 +845,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "Skyy.bbv2ry.pics",
+                "server_name": "yalda20230103.freedns.site",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -852,11 +854,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "Skyy.bbv2ry.pics"
-                }
+                "type": "grpc",
+                "service_name": "freevpn",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -891,7 +893,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2rayNGn | 23",
+            "tag": "🇺🇸US | vless | @V2rayNGn | 23",
             "type": "vless",
             "server": "all.vpncustomize.cam",
             "server_port": 443,
@@ -1694,6 +1696,27 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 12",
+            "type": "vless",
+            "server": "104.21.59.125",
+            "server_port": 80,
+            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "104.21.59.125"
+                }
+            }
+        },
+        {
             "tag": "🏳️XX | vless | @https_config_injector | 14",
             "type": "vless",
             "server": "cdn.moeinrayan.xyz",
@@ -1725,7 +1748,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @mehrosaboran | 13",
+            "tag": "🇺🇸US | vless | @mehrosaboran | 14",
             "type": "vless",
             "server": "198.41.202.5",
             "server_port": 2083,
