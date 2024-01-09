@@ -125,7 +125,7 @@
                 "🇨🇷CR | vless | @servermomo | 15",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 24",
                 "🇨🇦CA | vless | @ProxyForOpeta | 4",
-                "🇨🇷CR | vless | @V2rayNGn | 23",
+                "🇺🇸US | vless | @V2rayNGn | 23",
                 "🇸🇪SE | vless | @prrofile_purple | 175",
                 "🇨🇷CR | vless | @ShadowSocks_s | 2",
                 "🇨🇦CA | vless | @UnlimitedDev | 7",
@@ -154,8 +154,8 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 5",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇺🇸US | vless | @Capoit | 4",
-                "🇨🇦CA | vless | @FreakConfig | 9",
                 "🇨🇷CR | vless | @flyv2ray | 14",
+                "🇨🇷CR | vless | @forwardv2ray | 16",
                 "🇺🇸US | vless | @FAKEOFTVC | 4",
                 "🇩🇪DE | vless | @mehrosaboran | 10",
                 "🇸🇪SE | vless | @kiava | 10",
@@ -189,7 +189,7 @@
                 "🇨🇷CR | vless | @servermomo | 15",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 24",
                 "🇨🇦CA | vless | @ProxyForOpeta | 4",
-                "🇨🇷CR | vless | @V2rayNGn | 23",
+                "🇺🇸US | vless | @V2rayNGn | 23",
                 "🇸🇪SE | vless | @prrofile_purple | 175",
                 "🇨🇷CR | vless | @ShadowSocks_s | 2",
                 "🇨🇦CA | vless | @UnlimitedDev | 7",
@@ -218,8 +218,8 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 5",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇺🇸US | vless | @Capoit | 4",
-                "🇨🇦CA | vless | @FreakConfig | 9",
                 "🇨🇷CR | vless | @flyv2ray | 14",
+                "🇨🇷CR | vless | @forwardv2ray | 16",
                 "🇺🇸US | vless | @FAKEOFTVC | 4",
                 "🇩🇪DE | vless | @mehrosaboran | 10",
                 "🇸🇪SE | vless | @kiava | 10",
@@ -852,7 +852,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2rayNGn | 23",
+            "tag": "🇺🇸US | vless | @V2rayNGn | 23",
             "type": "vless",
             "server": "all.vpncustomize.cam",
             "server_port": 443,
@@ -1634,37 +1634,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 9",
-            "type": "vless",
-            "server": "104.26.15.80",
-            "server_port": 8443,
-            "uuid": "215fe998-29ae-4e84-9471-2bdb211b1742",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "free.foxnim.site",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@networknim",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
             "tag": "🇨🇷CR | vless | @flyv2ray | 14",
             "type": "vless",
             "server": "V2ray.motorcycles",
@@ -1693,6 +1662,37 @@
                 "headers": {
                     "Host": "SHHPROXY.snappfoodd.site"
                 }
+            }
+        },
+        {
+            "tag": "🇨🇷CR | vless | @forwardv2ray | 16",
+            "type": "vless",
+            "server": "all.vpncustomize.cam",
+            "server_port": 443,
+            "uuid": "3a06aa7b-d3c0-4635-8155-4887a584edd6",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "FreeV2rayng.VPNCUSTOMIZE.tech",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "‌ @VPNCUSTOMIZE ‌",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
