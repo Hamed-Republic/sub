@@ -111,10 +111,12 @@
                 "🇭🇰HK | vmess | @mftizi | 18",
                 "🇫🇷FR | vmess | @oneclickvpnkeys | 7",
                 "🇮🇷IR | vmess | @ShadowProxy66 | 44",
+                "🇳🇱NL | vmess | @ConfigsHUB | 16",
                 "🇨🇳CN | vmess | @yaney_01 | 10",
-                "🇺🇸US | vmess | @Hope_Net | 14",
+                "🇩🇪DE | vmess | @Hope_Net | 13",
                 "🇮🇷IR | vmess | @MrV2Ray | 1",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇺🇸US | vmess | @eliya_chiter0 | 3"
             ]
         },
@@ -127,10 +129,12 @@
                 "🇭🇰HK | vmess | @mftizi | 18",
                 "🇫🇷FR | vmess | @oneclickvpnkeys | 7",
                 "🇮🇷IR | vmess | @ShadowProxy66 | 44",
+                "🇳🇱NL | vmess | @ConfigsHUB | 16",
                 "🇨🇳CN | vmess | @yaney_01 | 10",
-                "🇺🇸US | vmess | @Hope_Net | 14",
+                "🇩🇪DE | vmess | @Hope_Net | 13",
                 "🇮🇷IR | vmess | @MrV2Ray | 1",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇺🇸US | vmess | @eliya_chiter0 | 3"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -280,6 +284,40 @@
             }
         },
         {
+            "tag": "🇳🇱NL | vmess | @ConfigsHUB | 16",
+            "type": "vmess",
+            "server": "188.114.97.1",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 1,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "odelia.autos",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "odelia.autos"
+                }
+            }
+        },
+        {
             "tag": "🇨🇳CN | vmess | @yaney_01 | 10",
             "type": "vmess",
             "server": "120.233.43.29",
@@ -297,11 +335,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 14",
+            "tag": "🇩🇪DE | vmess | @Hope_Net | 13",
             "type": "vmess",
-            "server": "104.234.11.159",
-            "server_port": 80,
-            "uuid": "48d0d388-ea9d-48f4-929c-e53d7ecb46ba",
+            "server": "217.160.45.31",
+            "server_port": 8880,
+            "uuid": "4e186678-fcca-4325-e4bc-b2916bdf6708",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -314,7 +352,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/48d0d388",
+                "path": "\/",
                 "headers": {
                     "Host": ""
                 }
@@ -365,6 +403,40 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "104.21.75.246",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cf.tonyluk.link",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ophelia.mom:443\/linkvws",
+                "headers": {
+                    "Host": "cf.tonyluk.link"
                 }
             }
         },
