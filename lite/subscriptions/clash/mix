@@ -129,7 +129,7 @@ proxies:
   - {"name":"🇺🇸US | vmess | @Hope_Net | 16","type":"vmess","server":"206.168.190.218","port":2083,"cipher":"auto","uuid":"dadc15c0-3169-11ee-b437-205c6d5f5d78","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/V2RayyNGvpn","headers":{"host":""}}}
   - {"name":"🇮🇷IR | vmess | @MrV2Ray | 0","type":"vmess","server":"85.9.106.116","port":"17623","cipher":"auto","uuid":"f9f58d36-e714-4d3a-8aa0-44dff4181aaf","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
   - {"name":"🇺🇸US | vmess | @v2Line | 6","type":"vmess","server":"v2line.telegram.channel.1390.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":"80","cipher":"auto","uuid":"f61203bd-f386-4d12-9853-cc829d6b7c9d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"ca2.xv2ray.net"}}}
-  - {"name":"🏳️XX | vmess | @forwardv2ray | 18","type":"vmess","server":"[2600:3c0b::f03c:94ff:fed4:cf5]","port":"8080","cipher":"auto","uuid":"f4dfa747-e378-42a7-9331-b7667311f81e","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/@x2rayn_vpn@x2rayn_vpn@x2rayn_vpn","headers":{"host":""}}}
+  - {"name":"🇬🇧GB | ss | @forwardv2ray | 18","type":"ss","server":"series-a2-mec.samanehha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -147,7 +147,7 @@ proxy-groups:
       - '🇺🇸US | vmess | @Hope_Net | 16'
       - '🇮🇷IR | vmess | @MrV2Ray | 0'
       - '🇺🇸US | vmess | @v2Line | 6'
-      - '🏳️XX | vmess | @forwardv2ray | 18'
+      - '🇬🇧GB | ss | @forwardv2ray | 18'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -165,7 +165,7 @@ proxy-groups:
       - '🇺🇸US | vmess | @Hope_Net | 16'
       - '🇮🇷IR | vmess | @MrV2Ray | 0'
       - '🇺🇸US | vmess | @v2Line | 6'
-      - '🏳️XX | vmess | @forwardv2ray | 18'
+      - '🇬🇧GB | ss | @forwardv2ray | 18'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -182,7 +182,7 @@ proxy-groups:
       - '🇺🇸US | vmess | @Hope_Net | 16'
       - '🇮🇷IR | vmess | @MrV2Ray | 0'
       - '🇺🇸US | vmess | @v2Line | 6'
-      - '🏳️XX | vmess | @forwardv2ray | 18'
+      - '🇬🇧GB | ss | @forwardv2ray | 18'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
