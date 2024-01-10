@@ -154,6 +154,8 @@ proxies:
   - {"name":"🇩🇪DE | trojan | @V2RayTz | 8","type":"trojan","server":"348-Join.V2RayTz.sbs","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
   - {"name":"🇸🇪SE | trojan | @V2RayTz | 9","type":"trojan","server":"347-Join.V2RayTz.sbs","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
   - {"name":"🇨🇦CA | trojan | @VmessProtocol | 2","type":"trojan","server":"cdn-13.cdn2cdn.com","port":2083,"udp":false,"password":"qG9K8AGnn9XH5jUqeFu96g","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"cdn13.cdn2cdn.com"}
+  - {"name":"🇩🇪DE | trojan | @ConfigsHUB | 17","type":"trojan","server":"108.61.171.167","port":443,"udp":false,"password":"mainssh-niwrhf87","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"getgrpc.mainssh.xyz"}
+  - {"name":"🇩🇪DE | trojan | @ConfigsHUB | 18","type":"trojan","server":"108.61.170.104","port":443,"udp":false,"password":"mainssh-ddoejfv14","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"frtgrpc.mainssh.xyz"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -194,6 +196,8 @@ proxy-groups:
       - '🇩🇪DE | trojan | @V2RayTz | 8'
       - '🇸🇪SE | trojan | @V2RayTz | 9'
       - '🇨🇦CA | trojan | @VmessProtocol | 2'
+      - '🇩🇪DE | trojan | @ConfigsHUB | 17'
+      - '🇩🇪DE | trojan | @ConfigsHUB | 18'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -234,6 +238,8 @@ proxy-groups:
       - '🇩🇪DE | trojan | @V2RayTz | 8'
       - '🇸🇪SE | trojan | @V2RayTz | 9'
       - '🇨🇦CA | trojan | @VmessProtocol | 2'
+      - '🇩🇪DE | trojan | @ConfigsHUB | 17'
+      - '🇩🇪DE | trojan | @ConfigsHUB | 18'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -273,6 +279,8 @@ proxy-groups:
       - '🇩🇪DE | trojan | @V2RayTz | 8'
       - '🇸🇪SE | trojan | @V2RayTz | 9'
       - '🇨🇦CA | trojan | @VmessProtocol | 2'
+      - '🇩🇪DE | trojan | @ConfigsHUB | 17'
+      - '🇩🇪DE | trojan | @ConfigsHUB | 18'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
