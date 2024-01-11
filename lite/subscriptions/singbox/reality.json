@@ -111,6 +111,7 @@
                 "🇩🇪DE | vless | @azadi_az_inja_migzare | 10",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 8",
                 "🇩🇪DE | vless | @MTConfig | 21",
+                "🇮🇳IN | vless | @ConfigsHUB | 17",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @Capoit | 1",
                 "🇸🇪SE | vless | @kiava | 10",
@@ -127,6 +128,7 @@
                 "🇩🇪DE | vless | @azadi_az_inja_migzare | 10",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 8",
                 "🇩🇪DE | vless | @MTConfig | 21",
+                "🇮🇳IN | vless | @ConfigsHUB | 17",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @Capoit | 1",
                 "🇸🇪SE | vless | @kiava | 10",
@@ -314,6 +316,42 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇮🇳IN | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "104.211.230.244",
+            "server_port": 443,
+            "uuid": "03a632b8-d25f-4b49-a7d4-8bdf39e2dd42",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cn.pjv2ray.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "UX8owpqdpHUo2AaiTsxmgHWyOEDPvXzaoZcRGviYfl0",
+                    "short_id": "f0c6549f"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@SABZ_V2RAY,@SABZ_V2RAY,@SABZ_V2RAY,@SABZ_V2RAY,@SABZ_V2RAY,@SABZ_V2RAY,@SABZ_V2RAY,@SABZ_V2RAY,@SABZ_V2RAY,@SABZ_V2RAY,@SABZ_V2RAY,@SABZ_V2RAY,@SABZ_V2RAY,@SABZ_V2RAY,@SABZ_V2RAY,@SABZ_V2RAY,@SABZ_V2RAY,@SABZ_V2RAY,@SABZ_V2RAY,@SABZ_V2RAY,@SABZ_V2RAY,@SABZ_V2RAY,@SABZ_V2RAY,@SABZ_V2RAY,",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
