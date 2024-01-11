@@ -116,7 +116,7 @@
                 "🇨🇦CA | vmess | @Hope_Net | 12",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🇩🇪DE | vmess | @forwardv2ray | 8",
                 "🇹🇼TW | vmess | @FAKEOFTVC | 4"
             ]
         },
@@ -134,7 +134,7 @@
                 "🇨🇦CA | vmess | @Hope_Net | 12",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🇩🇪DE | vmess | @forwardv2ray | 8",
                 "🇹🇼TW | vmess | @FAKEOFTVC | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -414,11 +414,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
+            "tag": "🇩🇪DE | vmess | @forwardv2ray | 8",
             "type": "vmess",
-            "server": "104.31.16.35",
-            "server_port": 443,
-            "uuid": "1af4ba3d-e60f-4f83-b38b-23fc181f676d",
+            "server": "217.160.45.31",
+            "server_port": 8880,
+            "uuid": "4e186678-fcca-4325-e4bc-b2916bdf6708",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -429,19 +429,9 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/11201",
+                "path": "\/",
                 "headers": {
                     "Host": ""
                 }
