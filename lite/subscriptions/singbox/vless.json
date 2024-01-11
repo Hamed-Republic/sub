@@ -123,7 +123,7 @@
                 "🇨🇦CA | vless | @v2logy | 17",
                 "🇩🇪DE | vless | @azadi_az_inja_migzare | 10",
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
-                "🇺🇸US | vless | @V2rayNGn | 21",
+                "🇨🇷CR | vless | @V2rayNGn | 21",
                 "🇮🇷IR | vless | @prrofile_purple | 177",
                 "🇨🇷CR | vless | @ShadowSocks_s | 4",
                 "🇨🇦CA | vless | @customv2ray | 15",
@@ -132,7 +132,7 @@
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 8",
                 "🇳🇱NL | vless | @v2rayngvpn | 8",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇨🇷CR | vless | @proxyymeliii | 18",
+                "🇺🇸US | vless | @proxyymeliii | 18",
                 "🏳️XX | vless | @MsV2ray | 17",
                 "🇩🇪DE | vless | @v2ray1_ng | 3",
                 "🇮🇷IR | vless | @vless_vmess | 4",
@@ -149,7 +149,7 @@
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @FreakConfig | 7",
-                "🇨🇷CR | vless | @flyv2ray | 14",
+                "🇺🇸US | vless | @flyv2ray | 14",
                 "🏳️XX | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 10",
@@ -179,7 +179,7 @@
                 "🇨🇦CA | vless | @v2logy | 17",
                 "🇩🇪DE | vless | @azadi_az_inja_migzare | 10",
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
-                "🇺🇸US | vless | @V2rayNGn | 21",
+                "🇨🇷CR | vless | @V2rayNGn | 21",
                 "🇮🇷IR | vless | @prrofile_purple | 177",
                 "🇨🇷CR | vless | @ShadowSocks_s | 4",
                 "🇨🇦CA | vless | @customv2ray | 15",
@@ -188,7 +188,7 @@
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 8",
                 "🇳🇱NL | vless | @v2rayngvpn | 8",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇨🇷CR | vless | @proxyymeliii | 18",
+                "🇺🇸US | vless | @proxyymeliii | 18",
                 "🏳️XX | vless | @MsV2ray | 17",
                 "🇩🇪DE | vless | @v2ray1_ng | 3",
                 "🇮🇷IR | vless | @vless_vmess | 4",
@@ -205,7 +205,7 @@
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @FreakConfig | 7",
-                "🇨🇷CR | vless | @flyv2ray | 14",
+                "🇺🇸US | vless | @flyv2ray | 14",
                 "🏳️XX | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 10",
@@ -759,7 +759,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayNGn | 21",
+            "tag": "🇨🇷CR | vless | @V2rayNGn | 21",
             "type": "vless",
             "server": "all.vpncustomize.cam",
             "server_port": 443,
@@ -962,7 +962,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @proxyymeliii | 18",
+            "tag": "🇺🇸US | vless | @proxyymeliii | 18",
             "type": "vless",
             "server": "V2ray.motorcycles",
             "server_port": 2087,
@@ -1225,32 +1225,22 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "172.66.47.74",
-            "server_port": 443,
-            "uuid": "626c8b38-527b-40ec-db9e-cdbec3ab89ae",
-            "flow": "",
+            "server": "ELi.ELiV2.shop",
+            "server_port": 8080,
+            "uuid": "e84104dc-baa4-4d08-a6ce-418113946018",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "config-v2rayng-connectionv2ray4.mazhabi.co",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "ELi.ELiV2.shop"
+                }
             }
         },
         {
@@ -1433,7 +1423,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @flyv2ray | 14",
+            "tag": "🇺🇸US | vless | @flyv2ray | 14",
             "type": "vless",
             "server": "V2ray.motorcycles",
             "server_port": 2087,
