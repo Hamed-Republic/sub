@@ -126,14 +126,14 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
                 "🇺🇸US | vless | @V2rayNGn | 21",
                 "🇮🇷IR | vless | @prrofile_purple | 177",
-                "🇺🇸US | vless | @ShadowSocks_s | 4",
+                "🇨🇷CR | vless | @ShadowSocks_s | 4",
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇨🇦CA | vless | @UnlimitedDev | 7",
                 "🇨🇦CA | vless | @vmessorg | 16",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 8",
                 "🇳🇱NL | vless | @v2rayngvpn | 8",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇺🇸US | vless | @proxyymeliii | 18",
+                "🇨🇷CR | vless | @proxyymeliii | 18",
                 "🏳️XX | vless | @MsV2ray | 17",
                 "🇩🇪DE | vless | @v2ray1_ng | 3",
                 "🇮🇷IR | vless | @vless_vmess | 4",
@@ -143,6 +143,7 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @SafeNet_Server | 17",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 36",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
@@ -182,14 +183,14 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
                 "🇺🇸US | vless | @V2rayNGn | 21",
                 "🇮🇷IR | vless | @prrofile_purple | 177",
-                "🇺🇸US | vless | @ShadowSocks_s | 4",
+                "🇨🇷CR | vless | @ShadowSocks_s | 4",
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇨🇦CA | vless | @UnlimitedDev | 7",
                 "🇨🇦CA | vless | @vmessorg | 16",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 8",
                 "🇳🇱NL | vless | @v2rayngvpn | 8",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇺🇸US | vless | @proxyymeliii | 18",
+                "🇨🇷CR | vless | @proxyymeliii | 18",
                 "🏳️XX | vless | @MsV2ray | 17",
                 "🇩🇪DE | vless | @v2ray1_ng | 3",
                 "🇮🇷IR | vless | @vless_vmess | 4",
@@ -199,6 +200,7 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @SafeNet_Server | 17",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 36",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
@@ -832,7 +834,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @ShadowSocks_s | 4",
+            "tag": "🇨🇷CR | vless | @ShadowSocks_s | 4",
             "type": "vless",
             "server": "all.vpncustomize.cam",
             "server_port": 443,
@@ -983,7 +985,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxyymeliii | 18",
+            "tag": "🇨🇷CR | vless | @proxyymeliii | 18",
             "type": "vless",
             "server": "V2ray.motorcycles",
             "server_port": 2087,
@@ -1240,6 +1242,37 @@
                 "path": "\/backup",
                 "headers": {
                     "Host": "172.67.229.179"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "esz--join.outline-vpn.cloud",
+            "server_port": 2053,
+            "uuid": "e03be1d4-bd9a-45dd-a6cd-4ada8e9be94a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "defcjkodfvgerjifkvsdfcedfcdv78d5f4jijijjh785696.bale.bio",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/backup",
+                "headers": {
+                    "Host": "defcjkodfvgerjifkvsdfcedfcdv78d5f4jijijjh785696.bale.bio"
                 }
             }
         },
