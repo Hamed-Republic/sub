@@ -119,6 +119,7 @@ dns:
 
 proxies:
   - {"name":"🏳️XX | vmess | @azadi_az_inja_migzare | 6","type":"vmess","server":"[2a01:7e00::f03c:94ff:fed4:a98b]","port":"8080","cipher":"auto","uuid":"f4dfa747-e378-42a7-9331-b7667311f81e","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/@x2rayn_vpn@x2rayn_vpn@x2rayn_vpn","headers":{"host":""}}}
+  - {"name":"🇸🇪SE | ss | @V2rayCollectorDonate | 19","type":"ss","server":"172.232.129.44","port":1080,"password":"Di1cc1MFfYdc9aBOYW_W9A","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇫🇷FR | trojan | @PrivateVPNs | 15","type":"trojan","server":"13.39.114.123","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
   - {"name":"🇫🇷FR | trojan | @DirectVPN | 15","type":"trojan","server":"13.39.56.50","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
@@ -130,6 +131,7 @@ proxies:
   - {"name":"🇩🇪DE | vmess | @Hope_Net | 11","type":"vmess","server":"141.95.55.70","port":80,"cipher":"auto","uuid":"2496f711-f6c5-40ee-b9a3-972241fb09d4","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
   - {"name":"🇮🇷IR | vmess | @MrV2Ray | 0","type":"vmess","server":"85.9.106.116","port":"17623","cipher":"auto","uuid":"f9f58d36-e714-4d3a-8aa0-44dff4181aaf","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
   - {"name":"🇺🇸US | vmess | @v2Line | 6","type":"vmess","server":"v2line.telegram.channel.1390.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":"80","cipher":"auto","uuid":"f61203bd-f386-4d12-9853-cc829d6b7c9d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"ca2.xv2ray.net"}}}
+  - {"name":"🇸🇬SG | ss | @forwardv2ray | 19","type":"ss","server":"singapore.telegavpn.org","port":16759,"password":"EYIA8FX1eSG6NcIexLLka6","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -137,6 +139,7 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🏳️XX | vmess | @azadi_az_inja_migzare | 6'
+      - '🇸🇪SE | ss | @V2rayCollectorDonate | 19'
       - '🇫🇷FR | trojan | @PrivateVPNs | 15'
       - '🇫🇷FR | trojan | @DirectVPN | 15'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
@@ -148,6 +151,7 @@ proxy-groups:
       - '🇩🇪DE | vmess | @Hope_Net | 11'
       - '🇮🇷IR | vmess | @MrV2Ray | 0'
       - '🇺🇸US | vmess | @v2Line | 6'
+      - '🇸🇬SG | ss | @forwardv2ray | 19'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -155,6 +159,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🏳️XX | vmess | @azadi_az_inja_migzare | 6'
+      - '🇸🇪SE | ss | @V2rayCollectorDonate | 19'
       - '🇫🇷FR | trojan | @PrivateVPNs | 15'
       - '🇫🇷FR | trojan | @DirectVPN | 15'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
@@ -166,12 +171,14 @@ proxy-groups:
       - '🇩🇪DE | vmess | @Hope_Net | 11'
       - '🇮🇷IR | vmess | @MrV2Ray | 0'
       - '🇺🇸US | vmess | @v2Line | 6'
+      - '🇸🇬SG | ss | @forwardv2ray | 19'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
       - '🏳️XX | vmess | @azadi_az_inja_migzare | 6'
+      - '🇸🇪SE | ss | @V2rayCollectorDonate | 19'
       - '🇫🇷FR | trojan | @PrivateVPNs | 15'
       - '🇫🇷FR | trojan | @DirectVPN | 15'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
@@ -183,6 +190,7 @@ proxy-groups:
       - '🇩🇪DE | vmess | @Hope_Net | 11'
       - '🇮🇷IR | vmess | @MrV2Ray | 0'
       - '🇺🇸US | vmess | @v2Line | 6'
+      - '🇸🇬SG | ss | @forwardv2ray | 19'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
