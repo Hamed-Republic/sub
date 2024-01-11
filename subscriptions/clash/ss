@@ -135,6 +135,11 @@ proxies:
   - {"name":"🇦🇹AT | ss | @OutlineVpnOfficial | 15","type":"ss","server":"212.113.106.243","port":12949,"password":"P2zxXPewlV3BlfqqYiSthvtLc","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸US | ss | @OutlineVpnOfficial | 16","type":"ss","server":"www.outline.network.ak2003.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":2443,"password":"zekdk0MRWVx1zFASC+HAcmCVBA+TljWabwoF57zjIZA=","cipher":"aes-256-gcm"}
   - {"name":"🇺🇸US | ss | @OutlineVpnOfficial | 17","type":"ss","server":"www.outline.network.ak2002.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":2443,"password":"hh4JlBhsJ0JthpDP3vIwxXvJWHknI16AijGx6sbcqWI=","cipher":"aes-256-gcm"}
+  - {"name":"🇵🇱PL | ss | @forwardv2ray | 4","type":"ss","server":"54.36.174.181","port":5003,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸US | ss | @forwardv2ray | 5","type":"ss","server":"38.121.43.65","port":7001,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
+  - {"name":"🇬🇧GB | ss | @forwardv2ray | 6","type":"ss","server":"51.142.158.58","port":63072,"password":"2qgjrMVVbwYdNd3FtvttsL","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇵🇱PL | ss | @forwardv2ray | 9","type":"ss","server":"54.36.174.181","port":6697,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸US | ss | @forwardv2ray | 10","type":"ss","server":"38.121.43.65","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
   - {"name":"🇬🇧GB | ss | @kingofilter | 9","type":"ss","server":"series-a2-me.samanehha.co","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
@@ -159,6 +164,11 @@ proxy-groups:
       - '🇦🇹AT | ss | @OutlineVpnOfficial | 15'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 16'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 17'
+      - '🇵🇱PL | ss | @forwardv2ray | 4'
+      - '🇺🇸US | ss | @forwardv2ray | 5'
+      - '🇬🇧GB | ss | @forwardv2ray | 6'
+      - '🇵🇱PL | ss | @forwardv2ray | 9'
+      - '🇺🇸US | ss | @forwardv2ray | 10'
       - '🇬🇧GB | ss | @kingofilter | 9'
   - name: URL-TEST
     type: url-test
@@ -183,6 +193,11 @@ proxy-groups:
       - '🇦🇹AT | ss | @OutlineVpnOfficial | 15'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 16'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 17'
+      - '🇵🇱PL | ss | @forwardv2ray | 4'
+      - '🇺🇸US | ss | @forwardv2ray | 5'
+      - '🇬🇧GB | ss | @forwardv2ray | 6'
+      - '🇵🇱PL | ss | @forwardv2ray | 9'
+      - '🇺🇸US | ss | @forwardv2ray | 10'
       - '🇬🇧GB | ss | @kingofilter | 9'
   - name: FALLBACK
     type: fallback
@@ -206,6 +221,11 @@ proxy-groups:
       - '🇦🇹AT | ss | @OutlineVpnOfficial | 15'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 16'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 17'
+      - '🇵🇱PL | ss | @forwardv2ray | 4'
+      - '🇺🇸US | ss | @forwardv2ray | 5'
+      - '🇬🇧GB | ss | @forwardv2ray | 6'
+      - '🇵🇱PL | ss | @forwardv2ray | 9'
+      - '🇺🇸US | ss | @forwardv2ray | 10'
       - '🇬🇧GB | ss | @kingofilter | 9'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
