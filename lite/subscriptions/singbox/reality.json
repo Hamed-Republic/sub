@@ -111,7 +111,7 @@
                 "🇸🇪SE | vless | @prrofile_purple | 167",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 9",
                 "🇩🇪DE | vless | @MTConfig | 21",
-                "🏳️XX | vless | @V2RayTz | 17",
+                "🏳️XX | vless | @V2RayTz | 14",
                 "🇳🇱NL | vless | @fnet00 | 5",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @Capoit | 1",
@@ -129,7 +129,7 @@
                 "🇸🇪SE | vless | @prrofile_purple | 167",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 9",
                 "🇩🇪DE | vless | @MTConfig | 21",
-                "🏳️XX | vless | @V2RayTz | 17",
+                "🏳️XX | vless | @V2RayTz | 14",
                 "🇳🇱NL | vless | @fnet00 | 5",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @Capoit | 1",
@@ -324,11 +324,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @V2RayTz | 17",
+            "tag": "🏳️XX | vless | @V2RayTz | 14",
             "type": "vless",
-            "server": "363-Join.V2RayTz.sbs",
+            "server": "370-Join.V2RayTz.sbs",
             "server_port": 443,
-            "uuid": "e25fc003-2b45-46a2-8744-294adce8e377",
+            "uuid": "dde00ef7-df93-4736-a806-4d1ceb55f4c2",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -338,25 +338,18 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "dnschecker.org",
+                "server_name": "2a05-d016-63c-5c02-b8a7-17a7-ed8a-eea1.kiava.fun",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "s0avrTyBoB2nxEtxzFbMEXkvylcAwQN4Px2I5Mu5EhA",
-                    "short_id": "2b8c4500"
+                    "public_key": "dUerNSk9wkTmc4EJQtU9ViIiUq7t7bwbI36q_dG7xhA",
+                    "short_id": "c6"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
