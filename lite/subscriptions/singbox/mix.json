@@ -144,13 +144,13 @@
                 "🇩🇪DE | vless | @v2ray1_ng | 3",
                 "🇮🇷IR | vless | @vless_vmess | 4",
                 "🇩🇪DE | vless | @MTConfig | 21",
-                "🇨🇷CR | vless | @V2RayTz | 16",
+                "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇩🇪DE | vless | @DailyV2RY | 110",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @SafeNet_Server | 17",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🏳️XX | vmess | @ConfigsHUB | 19",
+                "🇺🇸US | vless | @ConfigsHUB | 18",
                 "🇰🇷KR | vmess | @yaney_01 | 9",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇺🇸US | vmess | @Hope_Net | 14",
@@ -214,13 +214,13 @@
                 "🇩🇪DE | vless | @v2ray1_ng | 3",
                 "🇮🇷IR | vless | @vless_vmess | 4",
                 "🇩🇪DE | vless | @MTConfig | 21",
-                "🇨🇷CR | vless | @V2RayTz | 16",
+                "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇩🇪DE | vless | @DailyV2RY | 110",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @SafeNet_Server | 17",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🏳️XX | vmess | @ConfigsHUB | 19",
+                "🇺🇸US | vless | @ConfigsHUB | 18",
                 "🇰🇷KR | vmess | @yaney_01 | 9",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇺🇸US | vmess | @Hope_Net | 14",
@@ -1262,11 +1262,11 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2RayTz | 16",
+            "tag": "🇨🇦CA | vless | @V2RayTz | 18",
             "type": "vless",
-            "server": "340-Join.V2RayTz.sbs",
-            "server_port": 443,
-            "uuid": "31203e62-5d0e-42b7-9c94-40585d23160a",
+            "server": "338-Join.V2RayTz.sbs",
+            "server_port": 8443,
+            "uuid": "4c71ac94-4f11-451e-b344-7a9458d881f7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1276,7 +1276,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "londOn.V2ran.motorcycles",
+                "server_name": "join11.servernet.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1286,7 +1286,7 @@
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "@Shh_Proxy,@Shh_Proxy",
+                "service_name": "@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -1407,20 +1407,34 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🏳️XX | vmess | @ConfigsHUB | 19",
-            "type": "vmess",
-            "server": null,
-            "server_port": 0,
-            "uuid": null,
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇺🇸US | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "LIGHTNING6-joinbede.liV2ray.xyz",
+            "server_port": 2083,
+            "uuid": "13b23118-2b2e-4b0a-87fc-221c2333d6d4",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "lightning6.liV2raYz.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@LIGHTNING6",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
