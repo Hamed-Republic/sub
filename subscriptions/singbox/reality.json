@@ -141,7 +141,6 @@
                 "🇳🇱NL | vless | @MTConfig | 20",
                 "🇩🇪DE | vless | @MTConfig | 21",
                 "🇸🇪SE | vless | @MehradLearn | 8",
-                "🇩🇪DE | vless | @ConfigsHUB | 5",
                 "🇳🇱NL | vless | @fnet00 | 2",
                 "🇩🇪DE | vless | @Capital_NET | 38",
                 "🇳🇱NL | vless | @Capital_NET | 39",
@@ -176,14 +175,14 @@
                 "🇫🇮FI | vless | @vpn_go67 | 9",
                 "🇺🇸US | vless | @vpn_go67 | 10",
                 "🇨🇦CA | vless | @vpn_go67 | 11",
-                "🇺🇸US | vless | @vpn_go67 | 12",
-                "🇺🇸US | vless | @vpn_go67 | 13",
+                "🇨🇦CA | vless | @vpn_go67 | 12",
+                "🇨🇦CA | vless | @vpn_go67 | 13",
                 "🇫🇮FI | vless | @vpn_go67 | 14",
-                "🇺🇸US | vless | @vpn_go67 | 15",
+                "🇨🇦CA | vless | @vpn_go67 | 15",
                 "🇺🇸US | vless | @vpn_go67 | 16",
                 "🇫🇮FI | vless | @vpn_go67 | 17",
                 "🇺🇸US | vless | @vpn_go67 | 18",
-                "🇺🇸US | vless | @vpn_go67 | 19",
+                "🇨🇦CA | vless | @vpn_go67 | 19",
                 "🇨🇦CA | vless | @vpn_go67 | 20",
                 "🇨🇦CA | vless | @vpn_go67 | 21",
                 "🇺🇸US | vless | @vpn_go67 | 22",
@@ -236,7 +235,6 @@
                 "🇳🇱NL | vless | @MTConfig | 20",
                 "🇩🇪DE | vless | @MTConfig | 21",
                 "🇸🇪SE | vless | @MehradLearn | 8",
-                "🇩🇪DE | vless | @ConfigsHUB | 5",
                 "🇳🇱NL | vless | @fnet00 | 2",
                 "🇩🇪DE | vless | @Capital_NET | 38",
                 "🇳🇱NL | vless | @Capital_NET | 39",
@@ -271,14 +269,14 @@
                 "🇫🇮FI | vless | @vpn_go67 | 9",
                 "🇺🇸US | vless | @vpn_go67 | 10",
                 "🇨🇦CA | vless | @vpn_go67 | 11",
-                "🇺🇸US | vless | @vpn_go67 | 12",
-                "🇺🇸US | vless | @vpn_go67 | 13",
+                "🇨🇦CA | vless | @vpn_go67 | 12",
+                "🇨🇦CA | vless | @vpn_go67 | 13",
                 "🇫🇮FI | vless | @vpn_go67 | 14",
-                "🇺🇸US | vless | @vpn_go67 | 15",
+                "🇨🇦CA | vless | @vpn_go67 | 15",
                 "🇺🇸US | vless | @vpn_go67 | 16",
                 "🇫🇮FI | vless | @vpn_go67 | 17",
                 "🇺🇸US | vless | @vpn_go67 | 18",
-                "🇺🇸US | vless | @vpn_go67 | 19",
+                "🇨🇦CA | vless | @vpn_go67 | 19",
                 "🇨🇦CA | vless | @vpn_go67 | 20",
                 "🇨🇦CA | vless | @vpn_go67 | 21",
                 "🇺🇸US | vless | @vpn_go67 | 22",
@@ -1460,42 +1458,6 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 5",
-            "type": "vless",
-            "server": "167.235.79.51",
-            "server_port": 443,
-            "uuid": "e25fc003-2b45-46a2-8744-294adce8e377",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "dnschecker.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "s0avrTyBoB2nxEtxzFbMEXkvylcAwQN4Px2I5Mu5EhA",
-                    "short_id": "2b8c4500"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
             "tag": "🇳🇱NL | vless | @fnet00 | 2",
             "type": "vless",
             "server": "85.192.40.92",
@@ -2594,7 +2556,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @vpn_go67 | 12",
+            "tag": "🇨🇦CA | vless | @vpn_go67 | 12",
             "type": "vless",
             "server": "public.alpanel.top",
             "server_port": 1380,
@@ -2630,7 +2592,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @vpn_go67 | 13",
+            "tag": "🇨🇦CA | vless | @vpn_go67 | 13",
             "type": "vless",
             "server": "public.alpanel.top",
             "server_port": 1403,
@@ -2702,7 +2664,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @vpn_go67 | 15",
+            "tag": "🇨🇦CA | vless | @vpn_go67 | 15",
             "type": "vless",
             "server": "public.alpanel.top",
             "server_port": 1380,
@@ -2846,7 +2808,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @vpn_go67 | 19",
+            "tag": "🇨🇦CA | vless | @vpn_go67 | 19",
             "type": "vless",
             "server": "public.alpanel.top",
             "server_port": 1403,
