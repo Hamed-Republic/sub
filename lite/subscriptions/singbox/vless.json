@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇨🇦CA | vless | @XsV2ray | 4",
                 "🇫🇷FR | vless | @VlessConfig | 15",
-                "🇺🇸US | vless | @VPNCUSTOMIZE | 19",
+                "🇨🇷CR | vless | @VPNCUSTOMIZE | 19",
                 "🏳️XX | vless | @ipV2Ray | 18",
                 "🇨🇦CA | vless | @melov2ray | 5",
                 "🇨🇦CA | vless | @frev2ray | 6",
@@ -137,12 +137,12 @@
                 "🇨🇦CA | vless | @ServerNett | 14",
                 "🇨🇦CA | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇺🇸US | vless | @proxyymeliii | 17",
+                "🇨🇷CR | vless | @proxyymeliii | 16",
                 "🏳️XX | vless | @MsV2ray | 17",
                 "🇮🇷IR | vless | @vless_vmess | 4",
                 "🇩🇪DE | vless | @MTConfig | 21",
                 "🇨🇷CR | vless | @V2RayTz | 15",
-                "🇺🇸US | vless | @DailyV2RY | 114",
+                "🇨🇷CR | vless | @DailyV2RY | 114",
                 "🏳️XX | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @SafeNet_Server | 16",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
@@ -152,7 +152,8 @@
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @Capoit | 2",
-                "🇺🇸US | vless | @flyv2ray | 13",
+                "🇨🇷CR | vless | @flyv2ray | 13",
+                "🇺🇸US | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇸🇪SE | vless | @kiava | 10",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
@@ -166,7 +167,7 @@
             "outbounds": [
                 "🇨🇦CA | vless | @XsV2ray | 4",
                 "🇫🇷FR | vless | @VlessConfig | 15",
-                "🇺🇸US | vless | @VPNCUSTOMIZE | 19",
+                "🇨🇷CR | vless | @VPNCUSTOMIZE | 19",
                 "🏳️XX | vless | @ipV2Ray | 18",
                 "🇨🇦CA | vless | @melov2ray | 5",
                 "🇨🇦CA | vless | @frev2ray | 6",
@@ -195,12 +196,12 @@
                 "🇨🇦CA | vless | @ServerNett | 14",
                 "🇨🇦CA | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇺🇸US | vless | @proxyymeliii | 17",
+                "🇨🇷CR | vless | @proxyymeliii | 16",
                 "🏳️XX | vless | @MsV2ray | 17",
                 "🇮🇷IR | vless | @vless_vmess | 4",
                 "🇩🇪DE | vless | @MTConfig | 21",
                 "🇨🇷CR | vless | @V2RayTz | 15",
-                "🇺🇸US | vless | @DailyV2RY | 114",
+                "🇨🇷CR | vless | @DailyV2RY | 114",
                 "🏳️XX | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @SafeNet_Server | 16",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
@@ -210,7 +211,8 @@
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @Capoit | 2",
-                "🇺🇸US | vless | @flyv2ray | 13",
+                "🇨🇷CR | vless | @flyv2ray | 13",
+                "🇺🇸US | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇸🇪SE | vless | @kiava | 10",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
@@ -300,7 +302,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @VPNCUSTOMIZE | 19",
+            "tag": "🇨🇷CR | vless | @VPNCUSTOMIZE | 19",
             "type": "vless",
             "server": "all.vpncustomize.cam",
             "server_port": 443,
@@ -1131,11 +1133,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxyymeliii | 17",
+            "tag": "🇨🇷CR | vless | @proxyymeliii | 16",
             "type": "vless",
-            "server": "V2ray.motorcycles",
-            "server_port": 2087,
-            "uuid": "292064a5-40aa-43cc-8d62-6cb1e94d15ca",
+            "server": "shhproxy.varzesh3-cnd.site",
+            "server_port": 443,
+            "uuid": "18e7c6fc-7338-4e71-b395-b49089940984",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1145,7 +1147,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "SHHPROXY.snappfoodd.site",
+                "server_name": "SHHV2ray.snappfoodd.site",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1154,11 +1156,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "SHHPROXY.snappfoodd.site"
-                }
+                "type": "grpc",
+                "service_name": "@Shh_Proxy,@Shh_Proxy",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1274,7 +1276,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @DailyV2RY | 114",
+            "tag": "🇨🇷CR | vless | @DailyV2RY | 114",
             "type": "vless",
             "server": "all.aparat.lol",
             "server_port": 443,
@@ -1582,7 +1584,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @flyv2ray | 13",
+            "tag": "🇨🇷CR | vless | @flyv2ray | 13",
             "type": "vless",
             "server": "V2ray.motorcycles",
             "server_port": 2087,
@@ -1609,6 +1611,27 @@
                 "path": "\/",
                 "headers": {
                     "Host": "SHHPROXY.snappfoodd.site"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "173.245.58.31",
+            "server_port": 80,
+            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "173.245.58.31"
                 }
             }
         },
