@@ -142,7 +142,7 @@
                 "🇮🇷IR | vless | @vless_vmess | 4",
                 "🇩🇪DE | vless | @MTConfig | 21",
                 "🇨🇷CR | vless | @V2RayTz | 15",
-                "🇨🇷CR | vless | @DailyV2RY | 114",
+                "🇺🇸US | vless | @DailyV2RY | 114",
                 "🏳️XX | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @SafeNet_Server | 16",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
@@ -152,7 +152,8 @@
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @Capoit | 2",
-                "🇨🇷CR | vless | @flyv2ray | 13",
+                "🇨🇦CA | vless | @FreakConfig | 9",
+                "🇺🇸US | vless | @flyv2ray | 13",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇸🇪SE | vless | @kiava | 10",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
@@ -200,7 +201,7 @@
                 "🇮🇷IR | vless | @vless_vmess | 4",
                 "🇩🇪DE | vless | @MTConfig | 21",
                 "🇨🇷CR | vless | @V2RayTz | 15",
-                "🇨🇷CR | vless | @DailyV2RY | 114",
+                "🇺🇸US | vless | @DailyV2RY | 114",
                 "🏳️XX | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @SafeNet_Server | 16",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
@@ -210,7 +211,8 @@
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @Capoit | 2",
-                "🇨🇷CR | vless | @flyv2ray | 13",
+                "🇨🇦CA | vless | @FreakConfig | 9",
+                "🇺🇸US | vless | @flyv2ray | 13",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇸🇪SE | vless | @kiava | 10",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
@@ -762,9 +764,9 @@
         {
             "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
-            "server": "104.21.64.117",
+            "server": "web.bbv2ry.pics",
             "server_port": 443,
-            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
+            "uuid": "c3d41415-59cb-40eb-b721-ffa87f95e454",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -774,7 +776,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mahi.kosnanatfilterchi.eu.org",
+                "server_name": "Skyy.bbv2ry.pics",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -784,9 +786,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed",
+                "path": "\/",
                 "headers": {
-                    "Host": "mahi.kosnanatfilterchi.eu.org"
+                    "Host": "Skyy.bbv2ry.pics"
                 }
             }
         },
@@ -1274,7 +1276,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @DailyV2RY | 114",
+            "tag": "🇺🇸US | vless | @DailyV2RY | 114",
             "type": "vless",
             "server": "all.aparat.lol",
             "server_port": 443,
@@ -1582,7 +1584,38 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @flyv2ray | 13",
+            "tag": "🇨🇦CA | vless | @FreakConfig | 9",
+            "type": "vless",
+            "server": "104.18.189.219",
+            "server_port": 443,
+            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "3k.pureboy.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "3k.pureboy.eu.org"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @flyv2ray | 13",
             "type": "vless",
             "server": "V2ray.motorcycles",
             "server_port": 2087,
