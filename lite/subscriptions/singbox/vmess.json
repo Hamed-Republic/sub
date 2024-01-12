@@ -108,14 +108,15 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @prrofile_purple | 176",
+                "🇨🇦CA | vmess | @prrofile_purple | 167",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 10",
+                "🇮🇷IR | vmess | @ConfigsHUB | 17",
                 "🇺🇸US | vmess | @yaney_01 | 9",
                 "🇨🇭CH | vmess | @Hope_Net | 15",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇹🇼TW | vmess | @FAKEOFTVC | 6",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 1"
+                "🇨🇦CA | vmess | @eliya_chiter0 | 2"
             ]
         },
         {
@@ -124,14 +125,15 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @prrofile_purple | 176",
+                "🇨🇦CA | vmess | @prrofile_purple | 167",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 10",
+                "🇮🇷IR | vmess | @ConfigsHUB | 17",
                 "🇺🇸US | vmess | @yaney_01 | 9",
                 "🇨🇭CH | vmess | @Hope_Net | 15",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇹🇼TW | vmess | @FAKEOFTVC | 6",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 1"
+                "🇨🇦CA | vmess | @eliya_chiter0 | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -195,10 +197,10 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @prrofile_purple | 176",
+            "tag": "🇨🇦CA | vmess | @prrofile_purple | 167",
             "type": "vmess",
-            "server": "104.18.202.212",
-            "server_port": 80,
+            "server": "104.21.20.148",
+            "server_port": 2086,
             "uuid": "Telegram-V2ray_alpha",
             "security": "auto",
             "alter_id": 0,
@@ -224,6 +226,23 @@
             "server": "94.130.168.175",
             "server_port": 52203,
             "uuid": "0d3766e5-3a61-4a8b-bf34-7e48beab2e88",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vmess | @ConfigsHUB | 17",
+            "type": "vmess",
+            "server": "62.60.131.238",
+            "server_port": 12888,
+            "uuid": "66214d78-b33c-459a-a7b9-e50ab19d16b9",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -359,7 +378,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 1",
+            "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 2",
             "type": "vmess",
             "server": "104.27.102.105",
             "server_port": 8080,
