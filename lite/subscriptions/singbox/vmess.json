@@ -266,9 +266,9 @@
         {
             "tag": "🇨🇦CA | vmess | @ConfigsHUB | 18",
             "type": "vmess",
-            "server": "104.18.202.212",
-            "server_port": 80,
-            "uuid": "Telegram-V2ray_alpha",
+            "server": "discord.com",
+            "server_port": 443,
+            "uuid": "d063f8a1-454e-4e24-90f6-2974edcb397a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -279,11 +279,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "stop-hawk-tucson-responsibilities.trycloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/@x2rayn_vpn",
                 "headers": {
-                    "Host": ""
+                    "Host": "stop-hawk-tucson-responsibilities.trycloudflare.com"
                 }
             }
         },
