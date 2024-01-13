@@ -111,14 +111,12 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 9",
                 "🇺🇸US | vmess | @prrofile_purple | 175",
-                "🇮🇷IR | vmess | @ShadowProxy66 | 23",
+                "🇮🇷IR | vmess | @ShadowProxy66 | 31",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
-                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🇺🇸US | vmess | @yaney_01 | 9",
                 "🇨🇭CH | vmess | @Hope_Net | 15",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 0",
                 "🇨🇦CA | vmess | @SINABIGO | 7"
             ]
@@ -132,14 +130,12 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 9",
                 "🇺🇸US | vmess | @prrofile_purple | 175",
-                "🇮🇷IR | vmess | @ShadowProxy66 | 23",
+                "🇮🇷IR | vmess | @ShadowProxy66 | 31",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
-                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🇺🇸US | vmess | @yaney_01 | 9",
                 "🇨🇭CH | vmess | @Hope_Net | 15",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 0",
                 "🇨🇦CA | vmess | @SINABIGO | 7"
             ],
@@ -273,7 +269,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @ShadowProxy66 | 23",
+            "tag": "🇮🇷IR | vmess | @ShadowProxy66 | 31",
             "type": "vmess",
             "server": "81.12.27.4",
             "server_port": 20512,
@@ -304,30 +300,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 18",
-            "type": "vmess",
-            "server": "mehdi5.mehdimoghaddam.fun",
-            "server_port": 2052,
-            "uuid": "f4b9203b-78df-425b-ab70-5ab006405884",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@forwardv2ray",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
@@ -427,40 +399,6 @@
                 "headers": {
                     "Host": "ca2.xv2ray.net"
                 }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "104.17.4.149",
-            "server_port": 443,
-            "uuid": "dac50700-b222-11ee-9dfb-1239d0255272",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "us1.socifiles.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "vmgrpc",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
