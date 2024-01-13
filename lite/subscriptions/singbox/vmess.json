@@ -111,11 +111,9 @@
                 "🇨🇦CA | vmess | @prrofile_purple | 176",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 34",
                 "🇨🇦CA | vmess | @v2ray1_ng | 5",
-                "🇨🇳CN | vmess | @ConfigsHUB | 19",
                 "🇺🇸US | vmess | @yaney_01 | 9",
                 "🇨🇭CH | vmess | @Hope_Net | 15",
-                "🇺🇸US | vmess | @v2Line | 6",
-                "🇩🇪DE | vmess | @forwardv2ray | 19"
+                "🇺🇸US | vmess | @v2Line | 6"
             ]
         },
         {
@@ -127,11 +125,9 @@
                 "🇨🇦CA | vmess | @prrofile_purple | 176",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 34",
                 "🇨🇦CA | vmess | @v2ray1_ng | 5",
-                "🇨🇳CN | vmess | @ConfigsHUB | 19",
                 "🇺🇸US | vmess | @yaney_01 | 9",
                 "🇨🇭CH | vmess | @Hope_Net | 15",
-                "🇺🇸US | vmess | @v2Line | 6",
-                "🇩🇪DE | vmess | @forwardv2ray | 19"
+                "🇺🇸US | vmess | @v2Line | 6"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -260,30 +256,6 @@
             }
         },
         {
-            "tag": "🇨🇳CN | vmess | @ConfigsHUB | 19",
-            "type": "vmess",
-            "server": "sg.lianjianode.cc",
-            "server_port": 21020,
-            "uuid": "1ed20939-c12c-485f-9ec6-952df57fee1a",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/singapore",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | vmess | @yaney_01 | 9",
             "type": "vmess",
             "server": "goodbooks.gygjggf7654e1.repl.co",
@@ -355,30 +327,6 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vmess | @forwardv2ray | 19",
-            "type": "vmess",
-            "server": "de-1.hajimihajimihajimi.online",
-            "server_port": 80,
-            "uuid": "e9307793-3bdf-4023-808f-09292ce2d170",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
                 }
             }
         }
