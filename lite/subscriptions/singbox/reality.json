@@ -111,7 +111,6 @@
                 "🇫🇮FI | vless | @FalconPolV2rayNG | 4",
                 "🇩🇪DE | vless | @MTConfig | 21",
                 "🇸🇪SE | vless | @MehradLearn | 11",
-                "🇸🇪SE | vless | @ConfigsHUB | 15",
                 "🇳🇱NL | vless | @fnet00 | 4",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇫🇮FI | vless | @flyv2ray | 16",
@@ -129,7 +128,6 @@
                 "🇫🇮FI | vless | @FalconPolV2rayNG | 4",
                 "🇩🇪DE | vless | @MTConfig | 21",
                 "🇸🇪SE | vless | @MehradLearn | 11",
-                "🇸🇪SE | vless | @ConfigsHUB | 15",
                 "🇳🇱NL | vless | @fnet00 | 4",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇫🇮FI | vless | @flyv2ray | 16",
@@ -327,35 +325,6 @@
                     "enabled": true,
                     "public_key": "dukFLeTqOoiFe4NTKH7oYIsTNcPStlbgkFoIhcaIQEU",
                     "short_id": "1db3"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 15",
-            "type": "vless",
-            "server": "13.50.238.81",
-            "server_port": 2083,
-            "uuid": "23758119-cf33-4269-fb50-bc04930d356a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cdn.amazon.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "2CIJi2wiDxmPfUkXZgAPNhRg6kRp9LxLBr7nGwjfC34",
-                    "short_id": "4e8756"
                 }
             }
         },

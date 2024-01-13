@@ -112,10 +112,12 @@
                 "🇺🇸US | vmess | @prrofile_purple | 167",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 34",
                 "🇨🇦CA | vmess | @v2ray1_ng | 5",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇺🇸US | vmess | @yaney_01 | 9",
                 "🇨🇭CH | vmess | @Hope_Net | 15",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
-                "🇺🇸US | vmess | @v2Line | 6"
+                "🇺🇸US | vmess | @v2Line | 6",
+                "🇮🇷IR | vmess | @forwardv2ray | 19"
             ]
         },
         {
@@ -128,10 +130,12 @@
                 "🇺🇸US | vmess | @prrofile_purple | 167",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 34",
                 "🇨🇦CA | vmess | @v2ray1_ng | 5",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇺🇸US | vmess | @yaney_01 | 9",
                 "🇨🇭CH | vmess | @Hope_Net | 15",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
-                "🇺🇸US | vmess | @v2Line | 6"
+                "🇺🇸US | vmess | @v2Line | 6",
+                "🇮🇷IR | vmess | @forwardv2ray | 19"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -270,6 +274,30 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "104.27.102.150",
+            "server_port": 8080,
+            "uuid": "Telegram-V2ray_alpha",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | vmess | @yaney_01 | 9",
             "type": "vmess",
             "server": "goodbooks.gygjggf7654e1.repl.co",
@@ -366,6 +394,23 @@
                 "headers": {
                     "Host": "ca2.xv2ray.net"
                 }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "79.143.84.117",
+            "server_port": 25477,
+            "uuid": "9b788fa7-9e35-4ed5-e0e9-7d788b26ec07",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         }
     ],
