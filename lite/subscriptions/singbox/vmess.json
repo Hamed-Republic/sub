@@ -113,6 +113,7 @@
                 "🇬🇧GB | vmess | @prrofile_purple | 167",
                 "🇮🇷IR | vmess | @ShadowProxy66 | 42",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇺🇸US | vmess | @yaney_01 | 9",
                 "🇨🇭CH | vmess | @Hope_Net | 15",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
@@ -133,6 +134,7 @@
                 "🇬🇧GB | vmess | @prrofile_purple | 167",
                 "🇮🇷IR | vmess | @ShadowProxy66 | 42",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇺🇸US | vmess | @yaney_01 | 9",
                 "🇨🇭CH | vmess | @Hope_Net | 15",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
@@ -292,6 +294,30 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "ips.configforvpn.fun",
+            "server_port": 8880,
+            "uuid": "da28c85e-e71b-4554-a9fc-162bc94c7cb0",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
