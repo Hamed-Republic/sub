@@ -116,7 +116,6 @@
                 "🇨🇭CH | vmess | @Hope_Net | 15",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇳🇱NL | vmess | @forwardv2ray | 18",
                 "🇩🇰DK | vmess | @nofiltering2 | 11",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 0",
                 "🇮🇷IR | vmess | @SINABIGO | 7"
@@ -136,7 +135,6 @@
                 "🇨🇭CH | vmess | @Hope_Net | 15",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇳🇱NL | vmess | @forwardv2ray | 18",
                 "🇩🇰DK | vmess | @nofiltering2 | 11",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 0",
                 "🇮🇷IR | vmess | @SINABIGO | 7"
@@ -367,23 +365,6 @@
                 "headers": {
                     "Host": "ca2.xv2ray.net"
                 }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "free.faranet.space",
-            "server_port": 4524,
-            "uuid": "c120b307-93c5-4c1c-f652-5f86b2139b49",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
