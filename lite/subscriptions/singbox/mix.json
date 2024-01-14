@@ -120,7 +120,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 7",
                 "🇨🇦CA | vless | @rxv2ray | 20",
                 "🇨🇷CR | vless | @lightning6 | 32",
-                "🇨🇷CR | vless | @V2rayNGmat | 3",
+                "🇺🇸US | vless | @V2rayNGmat | 3",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 16",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 20",
@@ -161,7 +161,7 @@
                 "🇨🇦CA | vless | @SafeNet_Server | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
+                "🇺🇸US | vmess | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇺🇸US | vmess | @yaney_01 | 9",
                 "🇨🇭CH | vmess | @Hope_Net | 15",
@@ -175,7 +175,7 @@
                 "🇩🇪DE | vless | @Capoit | 4",
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇩🇪DE | vless | @flyv2ray | 16",
-                "🇩🇪DE | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @FAKEOFTVC | 7",
                 "🇨🇦CA | vless | @https_config_injector | 13",
                 "🇨🇷CR | vless | @mehrosaboran | 7",
@@ -209,7 +209,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 7",
                 "🇨🇦CA | vless | @rxv2ray | 20",
                 "🇨🇷CR | vless | @lightning6 | 32",
-                "🇨🇷CR | vless | @V2rayNGmat | 3",
+                "🇺🇸US | vless | @V2rayNGmat | 3",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 16",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 20",
@@ -250,7 +250,7 @@
                 "🇨🇦CA | vless | @SafeNet_Server | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
+                "🇺🇸US | vmess | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇺🇸US | vmess | @yaney_01 | 9",
                 "🇨🇭CH | vmess | @Hope_Net | 15",
@@ -264,7 +264,7 @@
                 "🇩🇪DE | vless | @Capoit | 4",
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇩🇪DE | vless | @flyv2ray | 16",
-                "🇩🇪DE | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @FAKEOFTVC | 7",
                 "🇨🇦CA | vless | @https_config_injector | 13",
                 "🇨🇷CR | vless | @mehrosaboran | 7",
@@ -722,7 +722,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2rayNGmat | 3",
+            "tag": "🇺🇸US | vless | @V2rayNGmat | 3",
             "type": "vless",
             "server": "V2ray.motorcycles",
             "server_port": 2087,
@@ -1785,13 +1785,16 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
-            "type": "vless",
-            "server": "dol.ayabineshkamazbeemshekam.tech",
-            "server_port": 8443,
-            "uuid": "73f54e37-027d-4444-8b8b-58ddcf800658",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 15",
+            "type": "vmess",
+            "server": "104.224.52.104",
+            "server_port": 38632,
+            "uuid": "4bd467aa-ae27-43cc-b1fa-6666d54b0666",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1799,7 +1802,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ayabineshkamazbeemshekam.tech",
+                "server_name": "testray1.zanylee.uk",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1809,9 +1812,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/4jPzm2QK\/",
                 "headers": {
-                    "Host": "ayabineshkamazbeemshekam.tech"
+                    "Host": "testray1.zanylee.uk"
                 }
             }
         },
@@ -2182,31 +2185,23 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "45.147.7.78",
-            "server_port": 8443,
-            "uuid": "333d9dcc-35bf-4619-b984-6cac6e9672e8",
-            "flow": "xtls-rprx-vision",
+            "server": "104.21.59.100",
+            "server_port": 80,
+            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "speed.cloudflare.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "x2phSq_qvowRKLQVfiJdEuz0cqVftXxtDwQniXsbG2I",
-                    "short_id": "9b5e8374"
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "104.21.59.100"
                 }
             }
         },
