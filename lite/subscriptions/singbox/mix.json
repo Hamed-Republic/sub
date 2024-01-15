@@ -120,7 +120,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 7",
                 "🇨🇦CA | vless | @rxv2ray | 20",
                 "🇺🇸US | vless | @lightning6 | 32",
-                "🇨🇷CR | vless | @V2rayNGmat | 3",
+                "🇺🇸US | vless | @V2rayNGmat | 3",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 16",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 17",
@@ -130,7 +130,7 @@
                 "🇨🇴CO | vless | @servermomo | 14",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 10",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇺🇸US | vless | @V2rayNGn | 15",
+                "🇨🇷CR | vless | @V2rayNGn | 15",
                 "🇫🇷FR | trojan | @PrivateVPNs | 14",
                 "🇬🇧GB | trojan | @DirectVPN | 14",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -174,7 +174,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇩🇪DE | vless | @Capoit | 4",
                 "🇩🇪DE | vless | @flyv2ray | 16",
-                "🇹🇷TR | vless | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vmess | @FAKEOFTVC | 7",
                 "🇨🇦CA | vless | @https_config_injector | 13",
                 "🇨🇷CR | vless | @mehrosaboran | 7",
@@ -208,7 +208,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 7",
                 "🇨🇦CA | vless | @rxv2ray | 20",
                 "🇺🇸US | vless | @lightning6 | 32",
-                "🇨🇷CR | vless | @V2rayNGmat | 3",
+                "🇺🇸US | vless | @V2rayNGmat | 3",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 16",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 17",
@@ -218,7 +218,7 @@
                 "🇨🇴CO | vless | @servermomo | 14",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 10",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇺🇸US | vless | @V2rayNGn | 15",
+                "🇨🇷CR | vless | @V2rayNGn | 15",
                 "🇫🇷FR | trojan | @PrivateVPNs | 14",
                 "🇬🇧GB | trojan | @DirectVPN | 14",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -262,7 +262,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇩🇪DE | vless | @Capoit | 4",
                 "🇩🇪DE | vless | @flyv2ray | 16",
-                "🇹🇷TR | vless | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vmess | @FAKEOFTVC | 7",
                 "🇨🇦CA | vless | @https_config_injector | 13",
                 "🇨🇷CR | vless | @mehrosaboran | 7",
@@ -505,9 +505,9 @@
         {
             "tag": "🇨🇦CA | vless | @melov2ray | 5",
             "type": "vless",
-            "server": "fin.melov2ray.shop",
-            "server_port": 8443,
-            "uuid": "ae78e867-0ff7-4d3e-a847-9ef17728cc5f",
+            "server": "de.melov2ray.shop",
+            "server_port": 443,
+            "uuid": "b4eb9b65-a56e-4d37-9df9-407bef36bc39",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -517,7 +517,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "FIn.Melov2ray.Shop",
+                "server_name": "De.Melov2ray.Shop",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -526,11 +526,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "@melov2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/melov2ray",
+                "headers": {
+                    "Host": "De.Melov2ray.Shop"
+                }
             }
         },
         {
@@ -720,7 +720,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2rayNGmat | 3",
+            "tag": "🇺🇸US | vless | @V2rayNGmat | 3",
             "type": "vless",
             "server": "V2ray.motorcycles",
             "server_port": 2087,
@@ -1005,7 +1005,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayNGn | 15",
+            "tag": "🇨🇷CR | vless | @V2rayNGn | 15",
             "type": "vless",
             "server": "all.vpncustomize.cam",
             "server_port": 443,
@@ -1782,9 +1782,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "104.21.59.100",
-            "server_port": 80,
-            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
+            "server": "star---join.outline-vpn.cloud",
+            "server_port": 443,
+            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1792,11 +1792,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "3k.pureboy.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "104.21.59.100"
+                    "Host": "3k.pureboy.eu.org"
                 }
             }
         },
@@ -2146,17 +2156,34 @@
             }
         },
         {
-            "tag": "🇹🇷TR | vless | @forwardv2ray | 17",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "195.16.74.40",
+            "server": "de.melov2ray.shop",
             "server_port": 443,
-            "uuid": "a9673307-d520-4150-85f5-2f858372c120",
+            "uuid": "cfb13672-eef1-4df0-95db-211e45857ab6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "De.Melov2ray.Shop",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/melov2ray",
+                "headers": {
+                    "Host": "De.Melov2ray.Shop"
+                }
             }
         },
         {
