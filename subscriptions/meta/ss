@@ -137,7 +137,9 @@ proxies:
   - {"name":"🇦🇹AT | ss | @OutlineVpnOfficial | 15","type":"ss","server":"212.113.106.243","port":12949,"password":"P2zxXPewlV3BlfqqYiSthvtLc","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸US | ss | @OutlineVpnOfficial | 16","type":"ss","server":"www.outline.network.ak2003.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":2443,"password":"zekdk0MRWVx1zFASC+HAcmCVBA+TljWabwoF57zjIZA=","cipher":"aes-256-gcm"}
   - {"name":"🇺🇸US | ss | @OutlineVpnOfficial | 17","type":"ss","server":"www.outline.network.ak2002.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":2443,"password":"hh4JlBhsJ0JthpDP3vIwxXvJWHknI16AijGx6sbcqWI=","cipher":"aes-256-gcm"}
-  - {"name":"🇷🇺RU | ss | @forwardv2ray | 10","type":"ss","server":"vpn-ru.wwp.im","port":15174,"password":"1r0LX2cykBVB0UXxei5Xi6","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇹🇼TW | ss | @forwardv2ray | 12","type":"ss","server":"b36.ntbq.dynu.net","port":3877,"password":"2e2a2655-0ac1-4b1d-a777-de98bea4aa0a","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪DE | ss | @forwardv2ray | 13","type":"ss","server":"80.71.157.52","port":7710,"password":"A2RmMQmEDdFNJnq6jSxD2O","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱NL | ss | @forwardv2ray | 17","type":"ss","server":"185.246.153.12","port":51348,"password":"verRi65HGFTh76sGesh","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧GB | ss | @proxy_mtm | 0","type":"ss","server":"series-a2-mec.samanehha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇩🇪DE | ss | @proxy_mtm | 3","type":"ss","server":"212.224.113.4","port":57923,"password":"ZdPx8i6J","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
@@ -163,7 +165,9 @@ proxy-groups:
       - '🇦🇹AT | ss | @OutlineVpnOfficial | 15'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 16'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 17'
-      - '🇷🇺RU | ss | @forwardv2ray | 10'
+      - '🇹🇼TW | ss | @forwardv2ray | 12'
+      - '🇩🇪DE | ss | @forwardv2ray | 13'
+      - '🇳🇱NL | ss | @forwardv2ray | 17'
       - '🇬🇧GB | ss | @proxy_mtm | 0'
       - '🇩🇪DE | ss | @proxy_mtm | 3'
   - name: URL-TEST
@@ -189,7 +193,9 @@ proxy-groups:
       - '🇦🇹AT | ss | @OutlineVpnOfficial | 15'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 16'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 17'
-      - '🇷🇺RU | ss | @forwardv2ray | 10'
+      - '🇹🇼TW | ss | @forwardv2ray | 12'
+      - '🇩🇪DE | ss | @forwardv2ray | 13'
+      - '🇳🇱NL | ss | @forwardv2ray | 17'
       - '🇬🇧GB | ss | @proxy_mtm | 0'
       - '🇩🇪DE | ss | @proxy_mtm | 3'
   - name: FALLBACK
@@ -214,7 +220,9 @@ proxy-groups:
       - '🇦🇹AT | ss | @OutlineVpnOfficial | 15'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 16'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 17'
-      - '🇷🇺RU | ss | @forwardv2ray | 10'
+      - '🇹🇼TW | ss | @forwardv2ray | 12'
+      - '🇩🇪DE | ss | @forwardv2ray | 13'
+      - '🇳🇱NL | ss | @forwardv2ray | 17'
       - '🇬🇧GB | ss | @proxy_mtm | 0'
       - '🇩🇪DE | ss | @proxy_mtm | 3'
 rule-providers:
