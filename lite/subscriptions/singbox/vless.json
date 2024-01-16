@@ -136,7 +136,7 @@
                 "🇺🇸US | vless | @ShadowSocks_s | 3",
                 "🇺🇸US | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 6",
-                "🏳️XX | vless | @vmessorg | 3",
+                "🏳️XX | vless | @vmessorg | 2",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 6",
                 "🇳🇱NL | vless | @v2rayngvpn | 9",
                 "🇨🇦CA | vless | @ShadowProxy66 | 21",
@@ -150,9 +150,7 @@
                 "🇨🇷CR | vless | @V2RayTz | 16",
                 "🇨🇦CA | vless | @VmessProtocol | 14",
                 "🇺🇸US | vless | @DailyV2RY | 165",
-                "🇨🇦CA | vless | @MehradLearn | 11",
                 "🇨🇦CA | vless | @lrnbymaa | 3",
-                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @fnet00 | 9",
                 "🇨🇦CA | vless | @polproxy | 41",
@@ -203,7 +201,7 @@
                 "🇺🇸US | vless | @ShadowSocks_s | 3",
                 "🇺🇸US | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 6",
-                "🏳️XX | vless | @vmessorg | 3",
+                "🏳️XX | vless | @vmessorg | 2",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 6",
                 "🇳🇱NL | vless | @v2rayngvpn | 9",
                 "🇨🇦CA | vless | @ShadowProxy66 | 21",
@@ -217,9 +215,7 @@
                 "🇨🇷CR | vless | @V2RayTz | 16",
                 "🇨🇦CA | vless | @VmessProtocol | 14",
                 "🇺🇸US | vless | @DailyV2RY | 165",
-                "🇨🇦CA | vless | @MehradLearn | 11",
                 "🇨🇦CA | vless | @lrnbymaa | 3",
-                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @fnet00 | 9",
                 "🇨🇦CA | vless | @polproxy | 41",
@@ -1127,7 +1123,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @vmessorg | 3",
+            "tag": "🏳️XX | vless | @vmessorg | 2",
             "type": "vless",
             "server": "join.bede1.vmessorg.info",
             "server_port": 80,
@@ -1472,27 +1468,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @MehradLearn | 11",
-            "type": "vless",
-            "server": "104.21.59.125",
-            "server_port": 80,
-            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "104.21.59.125"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @lrnbymaa | 3",
             "type": "vless",
             "server": "mtnsal.microsofts.download",
@@ -1520,27 +1495,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "dl783.gamefasion.online"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
-            "type": "vless",
-            "server": "edgu.pureboy.eu.org",
-            "server_port": 80,
-            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "edgu.pureboy.eu.org"
                 }
             }
         },

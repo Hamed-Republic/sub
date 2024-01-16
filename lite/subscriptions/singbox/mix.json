@@ -142,7 +142,7 @@
                 "🇺🇸US | vless | @ShadowSocks_s | 3",
                 "🇺🇸US | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 6",
-                "🏳️XX | vless | @vmessorg | 3",
+                "🏳️XX | vless | @vmessorg | 2",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 6",
                 "🇳🇱NL | vless | @v2rayngvpn | 9",
                 "🇨🇦CA | vless | @ShadowProxy66 | 21",
@@ -157,10 +157,9 @@
                 "🇨🇷CR | vless | @V2RayTz | 16",
                 "🇨🇦CA | vless | @VmessProtocol | 14",
                 "🇺🇸US | vless | @DailyV2RY | 165",
-                "🇨🇦CA | vless | @MehradLearn | 11",
                 "🇨🇦CA | vless | @lrnbymaa | 3",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | trojan | @ConfigsHUB | 4",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇺🇸US | vmess | @yaney_01 | 10",
                 "🇨🇭CH | vmess | @Hope_Net | 15",
@@ -171,7 +170,7 @@
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇩🇪DE | vless | @flyv2ray | 17",
-                "🇺🇸US | vmess | @forwardv2ray | 15",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇩🇪DE | trojan | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 12",
@@ -224,7 +223,7 @@
                 "🇺🇸US | vless | @ShadowSocks_s | 3",
                 "🇺🇸US | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 6",
-                "🏳️XX | vless | @vmessorg | 3",
+                "🏳️XX | vless | @vmessorg | 2",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 6",
                 "🇳🇱NL | vless | @v2rayngvpn | 9",
                 "🇨🇦CA | vless | @ShadowProxy66 | 21",
@@ -239,10 +238,9 @@
                 "🇨🇷CR | vless | @V2RayTz | 16",
                 "🇨🇦CA | vless | @VmessProtocol | 14",
                 "🇺🇸US | vless | @DailyV2RY | 165",
-                "🇨🇦CA | vless | @MehradLearn | 11",
                 "🇨🇦CA | vless | @lrnbymaa | 3",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | trojan | @ConfigsHUB | 4",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇺🇸US | vmess | @yaney_01 | 10",
                 "🇨🇭CH | vmess | @Hope_Net | 15",
@@ -253,7 +251,7 @@
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇩🇪DE | vless | @flyv2ray | 17",
-                "🇺🇸US | vmess | @forwardv2ray | 15",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇩🇪DE | trojan | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 12",
@@ -1286,7 +1284,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @vmessorg | 3",
+            "tag": "🏳️XX | vless | @vmessorg | 2",
             "type": "vless",
             "server": "join.bede1.vmessorg.info",
             "server_port": 80,
@@ -1648,27 +1646,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @MehradLearn | 11",
-            "type": "vless",
-            "server": "104.21.59.125",
-            "server_port": 80,
-            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "104.21.59.125"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @lrnbymaa | 3",
             "type": "vless",
             "server": "mtnsal.microsofts.download",
@@ -1710,23 +1687,24 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
-            "type": "vless",
-            "server": "edgu.pureboy.eu.org",
-            "server_port": 80,
-            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | trojan | @ConfigsHUB | 4",
+            "type": "trojan",
+            "server": "frontend.kuangbiaoyun.com",
+            "server_port": 40003,
+            "password": "57edfecf-5694-4a34-8072-54a4f0636a62",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "edgu.pureboy.eu.org"
+            "tls": {
+                "enabled": true,
+                "server_name": "frontend.kuangbiaoyun.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -2016,11 +1994,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @forwardv2ray | 15",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
             "type": "vmess",
-            "server": "38.75.137.27",
-            "server_port": 22324,
-            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+            "server": "us3e-mmnnfr9dop0.v2freevpn.com",
+            "server_port": 80,
+            "uuid": "2a8a10fb-9ca3-367e-a234-cf09f841be4f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -2030,6 +2008,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/v118-fccxmxm35",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
