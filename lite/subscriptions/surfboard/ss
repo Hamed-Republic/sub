@@ -12,11 +12,10 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇦🇹AT | ss | @OutlineVpnOfficial | 15 = ss, 212.113.106.243, 12949, encrypt-method = chacha20-ietf-poly1305, password = P2zxXPewlV3BlfqqYiSthvtLc
-🇸🇬SG | ss | @forwardv2ray | 13 = ss, 91.192.81.21, 8388, encrypt-method = chacha20-ietf-poly1305, password = 1q7RNKaIk2wYO8fEPmEX0vWQ7Va+QRTA
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇦🇹AT | ss | @OutlineVpnOfficial | 15,🇸🇬SG | ss | @forwardv2ray | 13
-URL-TEST = url-test,🇦🇹AT | ss | @OutlineVpnOfficial | 15,🇸🇬SG | ss | @forwardv2ray | 13
-FALLBACK = fallback,🇦🇹AT | ss | @OutlineVpnOfficial | 15,🇸🇬SG | ss | @forwardv2ray | 13
+MANUAL = select,URL-TEST,FALLBACK,🇦🇹AT | ss | @OutlineVpnOfficial | 15
+URL-TEST = url-test,🇦🇹AT | ss | @OutlineVpnOfficial | 15
+FALLBACK = fallback,🇦🇹AT | ss | @OutlineVpnOfficial | 15
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
