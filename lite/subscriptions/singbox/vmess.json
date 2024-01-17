@@ -114,7 +114,7 @@
                 "🇺🇸US | vmess | @yaney_01 | 11",
                 "🇨🇭CH | vmess | @Hope_Net | 15",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 13"
+                "🇨🇦CA | vmess | @kingofilter | 5"
             ]
         },
         {
@@ -129,7 +129,7 @@
                 "🇺🇸US | vmess | @yaney_01 | 11",
                 "🇨🇭CH | vmess | @Hope_Net | 15",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 13"
+                "🇨🇦CA | vmess | @kingofilter | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -326,11 +326,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 13",
+            "tag": "🇨🇦CA | vmess | @kingofilter | 5",
             "type": "vmess",
-            "server": "ra39fa.mygoodfriend.ir",
-            "server_port": 8443,
-            "uuid": "9e661842-6183-40e7-a4b5-af68a7d20fce",
+            "server": "srv1.hamedgeek.sbs",
+            "server_port": 2083,
+            "uuid": "b36e93b8-21b4-4495-ac81-0109f65cb1ad",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -343,7 +343,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "",
+                "server_name": "kingofilter2.hamedgeek.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -355,7 +355,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": ""
+                    "Host": "kingofilter2.hamedgeek.sbs"
                 }
             }
         }
