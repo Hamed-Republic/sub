@@ -120,7 +120,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 5",
                 "🇨🇦CA | vless | @rxv2ray | 20",
                 "🇨🇦CA | vless | @free_v2rayyy | 10",
-                "🇨🇷CR | vless | @lightning6 | 27",
+                "🇺🇸US | vless | @lightning6 | 27",
                 "🇨🇷CR | vless | @V2rayNGmat | 3",
                 "🇬🇧GB | vless | @vpn_xw | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
@@ -145,9 +145,9 @@
                 "🇮🇷IR | vless | @vless_vmess | 8",
                 "🇺🇸US | vless | @V2RayTz | 17",
                 "🇨🇦CA | vless | @VmessProtocol | 14",
-                "🇨🇷CR | vless | @DailyV2RY | 163",
+                "🇺🇸US | vless | @DailyV2RY | 158",
                 "🇮🇷IR | vless | @sinabigo | 7",
-                "🇺🇸US | vless | @MehradLearn | 10",
+                "🇸🇬SG | vless | @MehradLearn | 11",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @fnet00 | 11",
@@ -186,7 +186,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 5",
                 "🇨🇦CA | vless | @rxv2ray | 20",
                 "🇨🇦CA | vless | @free_v2rayyy | 10",
-                "🇨🇷CR | vless | @lightning6 | 27",
+                "🇺🇸US | vless | @lightning6 | 27",
                 "🇨🇷CR | vless | @V2rayNGmat | 3",
                 "🇬🇧GB | vless | @vpn_xw | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
@@ -211,9 +211,9 @@
                 "🇮🇷IR | vless | @vless_vmess | 8",
                 "🇺🇸US | vless | @V2RayTz | 17",
                 "🇨🇦CA | vless | @VmessProtocol | 14",
-                "🇨🇷CR | vless | @DailyV2RY | 163",
+                "🇺🇸US | vless | @DailyV2RY | 158",
                 "🇮🇷IR | vless | @sinabigo | 7",
-                "🇺🇸US | vless | @MehradLearn | 10",
+                "🇸🇬SG | vless | @MehradLearn | 11",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @fnet00 | 11",
@@ -658,7 +658,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @lightning6 | 27",
+            "tag": "🇺🇸US | vless | @lightning6 | 27",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1278,11 +1278,11 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @DailyV2RY | 163",
+            "tag": "🇺🇸US | vless | @DailyV2RY | 158",
             "type": "vless",
-            "server": "shhproxy.varzesh3-cnd.site",
-            "server_port": 2087,
-            "uuid": "022a7fa7-116b-42c8-9a01-5acf7124fb5f",
+            "server": "V2ray.motorcycles",
+            "server_port": 80,
+            "uuid": "-----WS-ipV2Ray-----",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1290,21 +1290,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "shhV2rayba.shhproxyfree.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/ed=2048",
                 "headers": {
-                    "Host": "shhV2rayba.shhproxyfree.com"
+                    "Host": "V2ray.motorcycles"
                 }
             }
         },
@@ -1323,11 +1313,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @MehradLearn | 10",
+            "tag": "🇸🇬SG | vless | @MehradLearn | 11",
             "type": "vless",
-            "server": "iran-011-join.outline-vpn.cloud",
-            "server_port": 443,
-            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+            "server": "206.238.236.36",
+            "server_port": 8443,
+            "uuid": "06c912d6-2727-40f5-8f26-f295dfaacf6e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1337,7 +1327,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "3k.pureboy.eu.org",
+                "server_name": "yalda20230103.freedns.site",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1346,11 +1336,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "3k.pureboy.eu.org"
-                }
+                "type": "grpc",
+                "service_name": "freevpn",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
