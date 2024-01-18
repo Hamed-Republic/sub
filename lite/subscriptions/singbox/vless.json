@@ -109,7 +109,7 @@
                 "🇨🇦CA | vless | @EliV2ray | 15",
                 "🇨🇦CA | vless | @Parsashonam | 5",
                 "🇨🇦CA | vless | @v2_team | 18",
-                "🇺🇸US | vless | @NIM_VPN_ir | 4",
+                "🇨🇷CR | vless | @NIM_VPN_ir | 4",
                 "🇺🇸US | vless | @XsV2ray | 10",
                 "🇫🇷FR | vless | @VlessConfig | 15",
                 "🇩🇪DE | vless | @ipV2Ray | 16",
@@ -126,7 +126,7 @@
                 "🇨🇦CA | vless | @vpn_xw | 1",
                 "🇨🇦CA | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 21",
-                "🇨🇦CA | vless | @DarkTeam_VPN | 20",
+                "🇨🇦CA | vless | @DarkTeam_VPN | 17",
                 "🇨🇦CA | vless | @v2logy | 16",
                 "🇺🇸US | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @servermomo | 14",
@@ -146,8 +146,8 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @proxyymeliii | 19",
                 "🇮🇷IR | vless | @vless_vmess | 8",
-                "🇺🇸US | vless | @V2RayTz | 11",
-                "🇨🇷CR | vless | @DailyV2RY | 137",
+                "🇨🇦CA | vless | @V2RayTz | 6",
+                "🇺🇸US | vless | @DailyV2RY | 137",
                 "🇨🇦CA | vless | @sinabigo | 7",
                 "🇺🇸US | vless | @MehradLearn | 12",
                 "🇨🇦CA | vless | @proxystore11 | 13",
@@ -178,7 +178,7 @@
                 "🇨🇦CA | vless | @EliV2ray | 15",
                 "🇨🇦CA | vless | @Parsashonam | 5",
                 "🇨🇦CA | vless | @v2_team | 18",
-                "🇺🇸US | vless | @NIM_VPN_ir | 4",
+                "🇨🇷CR | vless | @NIM_VPN_ir | 4",
                 "🇺🇸US | vless | @XsV2ray | 10",
                 "🇫🇷FR | vless | @VlessConfig | 15",
                 "🇩🇪DE | vless | @ipV2Ray | 16",
@@ -195,7 +195,7 @@
                 "🇨🇦CA | vless | @vpn_xw | 1",
                 "🇨🇦CA | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 21",
-                "🇨🇦CA | vless | @DarkTeam_VPN | 20",
+                "🇨🇦CA | vless | @DarkTeam_VPN | 17",
                 "🇨🇦CA | vless | @v2logy | 16",
                 "🇺🇸US | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @servermomo | 14",
@@ -215,8 +215,8 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @proxyymeliii | 19",
                 "🇮🇷IR | vless | @vless_vmess | 8",
-                "🇺🇸US | vless | @V2RayTz | 11",
-                "🇨🇷CR | vless | @DailyV2RY | 137",
+                "🇨🇦CA | vless | @V2RayTz | 6",
+                "🇺🇸US | vless | @DailyV2RY | 137",
                 "🇨🇦CA | vless | @sinabigo | 7",
                 "🇺🇸US | vless | @MehradLearn | 12",
                 "🇨🇦CA | vless | @proxystore11 | 13",
@@ -343,7 +343,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @NIM_VPN_ir | 4",
+            "tag": "🇨🇷CR | vless | @NIM_VPN_ir | 4",
             "type": "vless",
             "server": "all.VPNCUSTOMIZE.cam",
             "server_port": 80,
@@ -845,11 +845,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DarkTeam_VPN | 20",
+            "tag": "🇨🇦CA | vless | @DarkTeam_VPN | 17",
             "type": "vless",
-            "server": "104.21.59.125",
-            "server_port": 80,
-            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
+            "server": "www.unpkg.com",
+            "server_port": 443,
+            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -857,11 +857,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "3k.pureboy.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "104.21.59.125"
+                    "Host": "3k.pureboy.eu.org"
                 }
             }
         },
@@ -1342,11 +1352,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2RayTz | 11",
+            "tag": "🇨🇦CA | vless | @V2RayTz | 6",
             "type": "vless",
-            "server": "173.245.58.31",
-            "server_port": 80,
-            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
+            "server": "172.67.200.184",
+            "server_port": 2096,
+            "uuid": "2c7db7b7-2440-405f-8811-919ed59864b6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1354,16 +1364,26 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "173.245.58.31"
+            "tls": {
+                "enabled": true,
+                "server_name": "join2.servernet.fun",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ServerNett,@ServerNett@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @DailyV2RY | 137",
+            "tag": "🇺🇸US | vless | @DailyV2RY | 137",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
