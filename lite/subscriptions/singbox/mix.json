@@ -168,6 +168,7 @@
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇳🇱NL | vless | @FreakConfig | 11",
                 "🇨🇦CA | vless | @flyv2ray | 17",
+                "🇨🇦CA | trojan | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 11",
                 "🇺🇸US | vless | @mehrosaboran | 10",
                 "🇸🇪SE | vless | @kiava | 4",
@@ -247,6 +248,7 @@
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇳🇱NL | vless | @FreakConfig | 11",
                 "🇨🇦CA | vless | @flyv2ray | 17",
+                "🇨🇦CA | trojan | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 11",
                 "🇺🇸US | vless | @mehrosaboran | 10",
                 "🇸🇪SE | vless | @kiava | 4",
@@ -1916,6 +1918,25 @@
                 "path": "\/?ed",
                 "headers": {
                     "Host": "3k.pureboy.eu.org"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | trojan | @forwardv2ray | 18",
+            "type": "trojan",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "password": "1",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "www.speedtest.net"
                 }
             }
         },
