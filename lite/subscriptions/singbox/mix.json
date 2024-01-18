@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @EliV2ray | 16",
+                "🇨🇦CA | vless | @EliV2ray | 17",
                 "🇨🇦CA | vless | @Parsashonam | 6",
                 "🇨🇦CA | vless | @v2_team | 18",
                 "🇨🇷CR | vless | @NIM_VPN_ir | 4",
@@ -120,7 +120,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 5",
                 "🇨🇦CA | vless | @rxv2ray | 20",
                 "🇨🇦CA | vless | @free_v2rayyy | 10",
-                "🇨🇷CR | vless | @lightning6 | 30",
+                "🇺🇸US | vless | @lightning6 | 30",
                 "🇨🇷CR | vless | @V2rayNGmat | 3",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 20",
@@ -168,13 +168,13 @@
                 "🇨🇦CA | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 12",
                 "🇨🇦CA | vless | @flyv2ray | 17",
-                "🇨🇦CA | trojan | @forwardv2ray | 10",
+                "🇬🇧GB | ss | @forwardv2ray | 15",
                 "🇦🇪AE | vless | @FAKEOFTVC | 7",
                 "🇺🇸US | vless | @mehrosaboran | 9",
                 "🇸🇪SE | vless | @kiava | 4",
                 "🇳🇱NL | vless | @nofiltering2 | 12",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
-                "🇬🇧GB | ss | @kingofilter | 15",
+                "🇨🇦CA | vless | @kingofilter | 15",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
@@ -185,7 +185,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @EliV2ray | 16",
+                "🇨🇦CA | vless | @EliV2ray | 17",
                 "🇨🇦CA | vless | @Parsashonam | 6",
                 "🇨🇦CA | vless | @v2_team | 18",
                 "🇨🇷CR | vless | @NIM_VPN_ir | 4",
@@ -199,7 +199,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 5",
                 "🇨🇦CA | vless | @rxv2ray | 20",
                 "🇨🇦CA | vless | @free_v2rayyy | 10",
-                "🇨🇷CR | vless | @lightning6 | 30",
+                "🇺🇸US | vless | @lightning6 | 30",
                 "🇨🇷CR | vless | @V2rayNGmat | 3",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 20",
@@ -247,13 +247,13 @@
                 "🇨🇦CA | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 12",
                 "🇨🇦CA | vless | @flyv2ray | 17",
-                "🇨🇦CA | trojan | @forwardv2ray | 10",
+                "🇬🇧GB | ss | @forwardv2ray | 15",
                 "🇦🇪AE | vless | @FAKEOFTVC | 7",
                 "🇺🇸US | vless | @mehrosaboran | 9",
                 "🇸🇪SE | vless | @kiava | 4",
                 "🇳🇱NL | vless | @nofiltering2 | 12",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
-                "🇬🇧GB | ss | @kingofilter | 15",
+                "🇨🇦CA | vless | @kingofilter | 15",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
@@ -280,7 +280,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | @EliV2ray | 16",
+            "tag": "🇨🇦CA | vless | @EliV2ray | 17",
             "type": "vless",
             "server": "3k.pureboy.eu.org",
             "server_port": 443,
@@ -694,7 +694,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @lightning6 | 30",
+            "tag": "🇺🇸US | vless | @lightning6 | 30",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1892,23 +1892,14 @@
             }
         },
         {
-            "tag": "🇨🇦CA | trojan | @forwardv2ray | 10",
-            "type": "trojan",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "password": "1",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                }
-            }
+            "tag": "🇬🇧GB | ss | @forwardv2ray | 15",
+            "type": "shadowsocks",
+            "server": "series-a2-mec.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "u17T3BvpYaaiuW2c",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇦🇪AE | vless | @FAKEOFTVC | 7",
@@ -2064,14 +2055,35 @@
             }
         },
         {
-            "tag": "🇬🇧GB | ss | @kingofilter | 15",
-            "type": "shadowsocks",
-            "server": "series-a2-me.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "Bog0ELmMM9DSxDdQ",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇨🇦CA | vless | @kingofilter | 15",
+            "type": "vless",
+            "server": "srv1.hamedgeek.sbs",
+            "server_port": 2083,
+            "uuid": "00a7ef02-f88c-45ff-be76-cf50c37d05a6",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "kingofilter.hamedgeek.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "kingofilter.hamedgeek.sbs"
+                }
+            }
         },
         {
             "tag": "🇬🇧GB | vless | @freeconfigv2 | 14",
