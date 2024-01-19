@@ -127,6 +127,7 @@
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🇸🇪SE | ss | @forwardv2ray | 1",
                 "🇬🇧GB | ss | @proxy_mtm | 0"
             ]
         },
@@ -155,6 +156,7 @@
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🇸🇪SE | ss | @forwardv2ray | 1",
                 "🇬🇧GB | ss | @proxy_mtm | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -384,6 +386,16 @@
             "server_port": 2443,
             "method": "aes-256-gcm",
             "password": "hh4JlBhsJ0JthpDP3vIwxXvJWHknI16AijGx6sbcqWI=",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇸🇪SE | ss | @forwardv2ray | 1",
+            "type": "shadowsocks",
+            "server": "13.50.251.228.sslip.io",
+            "server_port": 80,
+            "method": "chacha20-ietf-poly1305",
+            "password": "C1t6teiHyOJ6nSuAKOGa8rVDAQKF0uT3zMOUXtVPlSU=",
             "plugin": "",
             "plugin_opts": ""
         },
