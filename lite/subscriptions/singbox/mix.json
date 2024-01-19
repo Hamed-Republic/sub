@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇨🇦CA | vless | @Parsashonam | 4",
                 "🇨🇦CA | vless | @v2_team | 18",
-                "🇺🇸US | vless | @NIM_VPN_ir | 6",
+                "🇨🇷CR | vless | @NIM_VPN_ir | 6",
                 "🇺🇸US | vless | @XsV2ray | 13",
                 "🇫🇷FR | vless | @VlessConfig | 15",
                 "🇩🇪DE | vless | @ipV2Ray | 15",
@@ -163,7 +163,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇷CR | vless | @Capoit | 2",
                 "🇨🇷CR | vless | @flyv2ray | 15",
-                "🇨🇦CA | vmess | @forwardv2ray | 19",
+                "🇺🇸US | vless | @forwardv2ray | 18",
                 "🇸🇪SE | vless | @FAKEOFTVC | 9",
                 "🇨🇦CA | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -186,7 +186,7 @@
             "outbounds": [
                 "🇨🇦CA | vless | @Parsashonam | 4",
                 "🇨🇦CA | vless | @v2_team | 18",
-                "🇺🇸US | vless | @NIM_VPN_ir | 6",
+                "🇨🇷CR | vless | @NIM_VPN_ir | 6",
                 "🇺🇸US | vless | @XsV2ray | 13",
                 "🇫🇷FR | vless | @VlessConfig | 15",
                 "🇩🇪DE | vless | @ipV2Ray | 15",
@@ -241,7 +241,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇷CR | vless | @Capoit | 2",
                 "🇨🇷CR | vless | @flyv2ray | 15",
-                "🇨🇦CA | vmess | @forwardv2ray | 19",
+                "🇺🇸US | vless | @forwardv2ray | 18",
                 "🇸🇪SE | vless | @FAKEOFTVC | 9",
                 "🇨🇦CA | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -340,7 +340,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @NIM_VPN_ir | 6",
+            "tag": "🇨🇷CR | vless | @NIM_VPN_ir | 6",
             "type": "vless",
             "server": "all.VPNCUSTOMIZE.cam",
             "server_port": 80,
@@ -1786,16 +1786,13 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
-            "type": "vmess",
-            "server": "172.67.194.173",
-            "server_port": 2082,
-            "uuid": "b7e766d7-c908-4c7a-bfab-95b5fe41bbc7",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇺🇸US | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "198.41.202.5",
+            "server_port": 80,
+            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1803,9 +1800,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@forwardv2ray",
+                "path": "\/?ed",
                 "headers": {
-                    "Host": ""
+                    "Host": "198.41.202.5"
                 }
             }
         },
