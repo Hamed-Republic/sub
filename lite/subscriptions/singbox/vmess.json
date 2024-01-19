@@ -112,8 +112,9 @@
                 "🇨🇦CA | vmess | @yaney_01 | 13",
                 "🏳️XX | vmess | @Hope_Net | 18",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇰🇷KR | vmess | @forwardv2ray | 17",
                 "🇨🇷CR | vmess | @kingofilter | 12",
-                "🇹🇷TR | vmess | @eliya_chiter0 | 1"
+                "🇹🇷TR | vmess | @eliya_chiter0 | 2"
             ]
         },
         {
@@ -126,8 +127,9 @@
                 "🇨🇦CA | vmess | @yaney_01 | 13",
                 "🏳️XX | vmess | @Hope_Net | 18",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇰🇷KR | vmess | @forwardv2ray | 17",
                 "🇨🇷CR | vmess | @kingofilter | 12",
-                "🇹🇷TR | vmess | @eliya_chiter0 | 1"
+                "🇹🇷TR | vmess | @eliya_chiter0 | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -253,7 +255,7 @@
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "acaacbb-acba-cbaa-dacb-bccaacabbcba",
+            "uuid": "acabcab-aabc-abca-cdba-cccbbaaaabcb",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -286,6 +288,30 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
+                }
+            }
+        },
+        {
+            "tag": "🇰🇷KR | vmess | @forwardv2ray | 17",
+            "type": "vmess",
+            "server": "43.201.253.222",
+            "server_port": 26540,
+            "uuid": "c841c903-7657-41f7-bf55-b41dd9456179",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/c841c903-7657-41f7-bf55-b41dd9456179",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
@@ -324,7 +350,7 @@
             }
         },
         {
-            "tag": "🇹🇷TR | vmess | @eliya_chiter0 | 1",
+            "tag": "🇹🇷TR | vmess | @eliya_chiter0 | 2",
             "type": "vmess",
             "server": "panelvp.qauuf.com.tr",
             "server_port": 55727,
