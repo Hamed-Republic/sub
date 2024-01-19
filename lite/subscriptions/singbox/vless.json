@@ -153,11 +153,11 @@
                 "🇨🇦CA | vless | @Outlinev2rayNG | 13",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 11",
                 "🏳️XX | vless | @Capital_NET | 52",
-                "🇨🇦CA | vless | @Capoit | 2",
                 "🇨🇦CA | vless | @FreakConfig | 12",
                 "🇸🇪SE | vless | @FAKEOFTVC | 9",
                 "🇿🇦ZA | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 3",
+                "🇮🇷IR | vless | @nofiltering2 | 15",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vless | @kingofilter | 12",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
@@ -217,11 +217,11 @@
                 "🇨🇦CA | vless | @Outlinev2rayNG | 13",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 11",
                 "🏳️XX | vless | @Capital_NET | 52",
-                "🇨🇦CA | vless | @Capoit | 2",
                 "🇨🇦CA | vless | @FreakConfig | 12",
                 "🇸🇪SE | vless | @FAKEOFTVC | 9",
                 "🇿🇦ZA | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 3",
+                "🇮🇷IR | vless | @nofiltering2 | 15",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vless | @kingofilter | 12",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
@@ -254,7 +254,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 443,
-            "uuid": "---Parsashonam--1-",
+            "uuid": "3fcc1c67-7a88-40b8-a10d-320fdf11b0b0",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -264,7 +264,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "applications-viii-bow-barry.trycloudflare.com",
+                "server_name": "notebooks-removed-partner-volleyball.trycloudflare.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -274,9 +274,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/@Parsashonam",
                 "headers": {
-                    "Host": "applications-viii-bow-barry.trycloudflare.com"
+                    "Host": "notebooks-removed-partner-volleyball.trycloudflare.com"
                 }
             }
         },
@@ -1509,27 +1509,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Capoit | 2",
-            "type": "vless",
-            "server": "104.19.241.126",
-            "server_port": 80,
-            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "104.19.241.126"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @FreakConfig | 12",
             "type": "vless",
             "server": "172.67.204.84",
@@ -1636,6 +1615,27 @@
                     "enabled": true,
                     "public_key": "Pfm3gfHLKoAyxOVGgXn6YuOtQak4ncOvUv-Nb4OayS0",
                     "short_id": "1db3"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vless | @nofiltering2 | 15",
+            "type": "vless",
+            "server": "81.12.27.30",
+            "server_port": 19142,
+            "uuid": "c99c85a9-5e25-4e46-8674-7dafd4ccc486",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "81.12.27.30"
                 }
             }
         },
