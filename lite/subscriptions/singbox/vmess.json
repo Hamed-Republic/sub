@@ -113,6 +113,7 @@
                 "🏳️XX | vmess | @Hope_Net | 18",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇨🇦CA | vmess | @forwardv2ray | 15",
                 "🇹🇷TR | vmess | @eliya_chiter0 | 2",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 10"
             ]
@@ -128,6 +129,7 @@
                 "🏳️XX | vmess | @Hope_Net | 18",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇨🇦CA | vmess | @forwardv2ray | 15",
                 "🇹🇷TR | vmess | @eliya_chiter0 | 2",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 10"
             ],
@@ -255,7 +257,7 @@
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "caaabbc-caba-cbaa-dabc-bbacacabcbca",
+            "uuid": "caaabcb-aacb-cbaa-bcad-acabacbcbacb",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -312,6 +314,40 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 15",
+            "type": "vmess",
+            "server": "172.67.162.149",
+            "server_port": 8443,
+            "uuid": "28897a79-adb4-40ca-8db5-abb0c30a2067",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "rafav2bot.rafalion.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@RaFaV2ray",
+                "headers": {
+                    "Host": "rafav2bot.rafalion.ir"
                 }
             }
         },
