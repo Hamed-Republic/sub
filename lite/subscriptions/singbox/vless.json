@@ -1516,9 +1516,9 @@
         {
             "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "199.27.129.100",
-            "server_port": 2053,
-            "uuid": "63c25827-10dd-4dfc-8c63-e15a6e884bac",
+            "server": "edgu.pureboy.eu.org",
+            "server_port": 443,
+            "uuid": "04a93bb8-0a5b-4aa8-ab7f-31fc7adab1c1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1528,7 +1528,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mtntntmeidjiedxcxwssd.dl-onlinedoctor.bio",
+                "server_name": "edgu.pureboy.eu.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1538,9 +1538,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/backup",
+                "path": "\/",
                 "headers": {
-                    "Host": "mtntntmeidjiedxcxwssd.dl-onlinedoctor.bio"
+                    "Host": "edgu.pureboy.eu.org"
                 }
             }
         },
