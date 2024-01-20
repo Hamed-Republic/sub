@@ -119,8 +119,8 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 6",
                 "🇨🇦CA | vless | @rxv2ray | 17",
                 "🇨🇦CA | vless | @free_v2rayyy | 6",
-                "🇺🇸US | vless | @lightning6 | 36",
-                "🇨🇷CR | vless | @V2rayNGmat | 3",
+                "🇨🇷CR | vless | @lightning6 | 36",
+                "🇺🇸US | vless | @V2rayNGmat | 3",
                 "🇨🇦CA | vless | @vpn_xw | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 23",
@@ -152,7 +152,7 @@
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇨🇷CR | vless | @Capoit | 4",
                 "🇨🇷CR | vless | @flyv2ray | 15",
-                "🇨🇦CA | vless | @forwardv2ray | 15",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🇮🇷IR | vless | @nofiltering2 | 15",
@@ -181,8 +181,8 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 6",
                 "🇨🇦CA | vless | @rxv2ray | 17",
                 "🇨🇦CA | vless | @free_v2rayyy | 6",
-                "🇺🇸US | vless | @lightning6 | 36",
-                "🇨🇷CR | vless | @V2rayNGmat | 3",
+                "🇨🇷CR | vless | @lightning6 | 36",
+                "🇺🇸US | vless | @V2rayNGmat | 3",
                 "🇨🇦CA | vless | @vpn_xw | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 23",
@@ -214,7 +214,7 @@
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇨🇷CR | vless | @Capoit | 4",
                 "🇨🇷CR | vless | @flyv2ray | 15",
-                "🇨🇦CA | vless | @forwardv2ray | 15",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🇮🇷IR | vless | @nofiltering2 | 15",
@@ -634,7 +634,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 36",
+            "tag": "🇨🇷CR | vless | @lightning6 | 36",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 8880,
@@ -655,7 +655,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2rayNGmat | 3",
+            "tag": "🇺🇸US | vless | @V2rayNGmat | 3",
             "type": "vless",
             "server": "V2ray.motorcycles",
             "server_port": 2087,
@@ -1514,11 +1514,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 15",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "104.18.202.209",
-            "server_port": 2095,
-            "uuid": "XsV2ray---XsV2ray---XsV2ray",
+            "server": "199.27.129.100",
+            "server_port": 2053,
+            "uuid": "63c25827-10dd-4dfc-8c63-e15a6e884bac",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1526,11 +1526,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "mtntntmeidjiedxcxwssd.dl-onlinedoctor.bio",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/XsV2ray,@XsV2ray,@XsV2ray",
+                "path": "\/backup",
                 "headers": {
-                    "Host": "104.18.202.209"
+                    "Host": "mtntntmeidjiedxcxwssd.dl-onlinedoctor.bio"
                 }
             }
         },
