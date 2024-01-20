@@ -130,7 +130,7 @@
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 22",
                 "🇨🇦CA | trojan | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇨🇷CR | vless | @V2rayNGn | 17",
+                "🇺🇸US | vless | @V2rayNGn | 17",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇫🇷FR | trojan | @DirectVPN | 15",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -163,7 +163,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇷CR | vless | @Capoit | 4",
                 "🇨🇷CR | vless | @flyv2ray | 15",
-                "🏳️XX | vmess | @forwardv2ray | 17",
+                "🇨🇷CR | vless | @forwardv2ray | 4",
                 "🇳🇱NL | vmess | @FAKEOFTVC | 9",
                 "🇨🇦CA | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -208,7 +208,7 @@
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 22",
                 "🇨🇦CA | trojan | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇨🇷CR | vless | @V2rayNGn | 17",
+                "🇺🇸US | vless | @V2rayNGn | 17",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇫🇷FR | trojan | @DirectVPN | 15",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -241,7 +241,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇷CR | vless | @Capoit | 4",
                 "🇨🇷CR | vless | @flyv2ray | 15",
-                "🏳️XX | vmess | @forwardv2ray | 17",
+                "🇨🇷CR | vless | @forwardv2ray | 4",
                 "🇳🇱NL | vmess | @FAKEOFTVC | 9",
                 "🇨🇦CA | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -975,7 +975,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2rayNGn | 17",
+            "tag": "🇺🇸US | vless | @V2rayNGn | 17",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1791,16 +1791,13 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @forwardv2ray | 17",
-            "type": "vmess",
-            "server": "mci.mosi.mosipro.ml",
+            "tag": "🇨🇷CR | vless | @forwardv2ray | 4",
+            "type": "vless",
+            "server": "all.v-2rayngvpn.cfd",
             "server_port": 443,
-            "uuid": "025BDB42-ECA0-41CF-A188-FA8D56B187D3",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "uuid": "9002df31-c3c7-450f-92b4-acfecdd88b8e",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1808,7 +1805,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "Dusseldorf.kotick.site",
+                "server_name": "all.v-2rayngvpn.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1817,11 +1814,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/speedtest",
-                "headers": {
-                    "Host": "Dusseldorf.kotick.site"
-                }
+                "type": "grpc",
+                "service_name": "@v2rayvpn2",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {

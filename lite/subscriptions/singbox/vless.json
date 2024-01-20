@@ -129,7 +129,7 @@
                 "🇺🇸US | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 22",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇨🇷CR | vless | @V2rayNGn | 17",
+                "🇺🇸US | vless | @V2rayNGn | 17",
                 "🇺🇸US | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 3",
                 "🏳️XX | vless | @vmessorg | 0",
@@ -152,6 +152,7 @@
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇨🇷CR | vless | @Capoit | 4",
                 "🇨🇷CR | vless | @flyv2ray | 15",
+                "🇨🇷CR | vless | @forwardv2ray | 4",
                 "🇨🇦CA | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🇮🇷IR | vless | @nofiltering2 | 15",
@@ -190,7 +191,7 @@
                 "🇺🇸US | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 22",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇨🇷CR | vless | @V2rayNGn | 17",
+                "🇺🇸US | vless | @V2rayNGn | 17",
                 "🇺🇸US | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 3",
                 "🏳️XX | vless | @vmessorg | 0",
@@ -213,6 +214,7 @@
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇨🇷CR | vless | @Capoit | 4",
                 "🇨🇷CR | vless | @flyv2ray | 15",
+                "🇨🇷CR | vless | @forwardv2ray | 4",
                 "🇨🇦CA | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🇮🇷IR | vless | @nofiltering2 | 15",
@@ -912,7 +914,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2rayNGn | 17",
+            "tag": "🇺🇸US | vless | @V2rayNGn | 17",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1506,6 +1508,37 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@Shh_Proxy,@Shh_Proxy",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇨🇷CR | vless | @forwardv2ray | 4",
+            "type": "vless",
+            "server": "all.v-2rayngvpn.cfd",
+            "server_port": 443,
+            "uuid": "9002df31-c3c7-450f-92b4-acfecdd88b8e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "all.v-2rayngvpn.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@v2rayvpn2",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
