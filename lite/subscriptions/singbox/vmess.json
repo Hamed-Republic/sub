@@ -112,6 +112,8 @@
                 "🇨🇦CA | vmess | @yaney_01 | 13",
                 "🏳️XX | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇮🇷IR | vmess | @forwardv2ray | 15",
+                "🇳🇱NL | vmess | @FAKEOFTVC | 9",
                 "🇨🇷CR | vmess | @kingofilter | 12",
                 "🇹🇷TR | vmess | @eliya_chiter0 | 2",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 9"
@@ -127,6 +129,8 @@
                 "🇨🇦CA | vmess | @yaney_01 | 13",
                 "🏳️XX | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇮🇷IR | vmess | @forwardv2ray | 15",
+                "🇳🇱NL | vmess | @FAKEOFTVC | 9",
                 "🇨🇷CR | vmess | @kingofilter | 12",
                 "🇹🇷TR | vmess | @eliya_chiter0 | 2",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 9"
@@ -255,7 +259,7 @@
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "aaccbba-cbaa-bcaa-bdac-baacabbbcacc",
+            "uuid": "acbcbaa-bcaa-caab-cadb-bcbbaaccbcaa",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -289,6 +293,40 @@
                 "headers": {
                     "Host": "ca2.xv2ray.net"
                 }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vmess | @forwardv2ray | 15",
+            "type": "vmess",
+            "server": "62.60.212.13",
+            "server_port": 53445,
+            "uuid": "24f5528d-0637-4af9-ff2a-c14d1745c2c4",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vmess | @FAKEOFTVC | 9",
+            "type": "vmess",
+            "server": "178.62.240.213",
+            "server_port": 42104,
+            "uuid": "df6720bb-264c-47d4-9a7f-0209773ba350",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
