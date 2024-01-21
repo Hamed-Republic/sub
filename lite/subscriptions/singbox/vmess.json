@@ -108,14 +108,13 @@
                 "URL-TEST",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🏳️XX | vmess | @oneclickvpnkeys | 6",
-                "🇺🇸US | vmess | @yaney_01 | 13",
+                "🇨🇦CA | vmess | @yaney_01 | 13",
                 "🏳️XX | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇮🇷IR | vmess | @FAKEOFTVC | 5",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 1",
-                "🇺🇸US | vmess | @ROMAX_VPN | 12"
+                "🇨🇦CA | vmess | @ROMAX_VPN | 12"
             ]
         },
         {
@@ -124,14 +123,13 @@
             "outbounds": [
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🏳️XX | vmess | @oneclickvpnkeys | 6",
-                "🇺🇸US | vmess | @yaney_01 | 13",
+                "🇨🇦CA | vmess | @yaney_01 | 13",
                 "🏳️XX | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇮🇷IR | vmess | @FAKEOFTVC | 5",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 1",
-                "🇺🇸US | vmess | @ROMAX_VPN | 12"
+                "🇨🇦CA | vmess | @ROMAX_VPN | 12"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -188,40 +186,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
-            "type": "vmess",
-            "server": "v2ray.ibgfw.top",
-            "server_port": 2053,
-            "uuid": "5a5aadc2-8834-4e7b-895b-74ad155fbf24",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vVNUJOgb\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
             "tag": "🏳️XX | vmess | @oneclickvpnkeys | 6",
             "type": "vmess",
             "server": "world8.freedomisnear.fun",
@@ -246,7 +210,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @yaney_01 | 13",
+            "tag": "🇨🇦CA | vmess | @yaney_01 | 13",
             "type": "vmess",
             "server": "cn.azhz.eu.org",
             "server_port": 443,
@@ -284,7 +248,7 @@
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "ccababa-abca-caba-acbd-abacaacbbccb",
+            "uuid": "baabcac-bcaa-baca-dcba-aabcbcbccbaa",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -372,7 +336,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ROMAX_VPN | 12",
+            "tag": "🇨🇦CA | vmess | @ROMAX_VPN | 12",
             "type": "vmess",
             "server": "discord.gg",
             "server_port": 443,
