@@ -222,9 +222,9 @@
         {
             "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
             "type": "vmess",
-            "server": "obdii.cfd",
+            "server": "linde06.indiavideo.sbs",
             "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -237,7 +237,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "",
+                "server_name": "linde06.indiavideo.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -249,7 +249,7 @@
                 "type": "ws",
                 "path": "\/linkws",
                 "headers": {
-                    "Host": ""
+                    "Host": "linde06.indiavideo.sbs"
                 }
             }
         },
@@ -316,7 +316,7 @@
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "cbacbaa-acba-aabc-dcab-cacbccbbbaaa",
+            "uuid": "acbabac-baca-acab-adbc-cabccbacbaab",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
