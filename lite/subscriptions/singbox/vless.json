@@ -142,8 +142,8 @@
                 "🇺🇸US | vless | @ShadowProxy66 | 20",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇸🇪SE | vless | @v2ray_swhil | 30",
-                "🇨🇷CR | vless | @proxyymeliii | 18",
-                "🇨🇦CA | vless | @MsV2ray | 18",
+                "🇺🇸US | vless | @proxyymeliii | 18",
+                "🇨🇷CR | vless | @MsV2ray | 18",
                 "🇨🇦CA | vless | @v2ray1_ng | 2",
                 "🇮🇷IR | vless | @vless_vmess | 9",
                 "🇨🇷CR | vless | @V2RayTz | 15",
@@ -159,7 +159,7 @@
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇨🇷CR | vless | @Capoit | 11",
                 "🇨🇦CA | vless | @FreakConfig | 11",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @flyv2ray | 15",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇦CA | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 2",
@@ -214,8 +214,8 @@
                 "🇺🇸US | vless | @ShadowProxy66 | 20",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇸🇪SE | vless | @v2ray_swhil | 30",
-                "🇨🇷CR | vless | @proxyymeliii | 18",
-                "🇨🇦CA | vless | @MsV2ray | 18",
+                "🇺🇸US | vless | @proxyymeliii | 18",
+                "🇨🇷CR | vless | @MsV2ray | 18",
                 "🇨🇦CA | vless | @v2ray1_ng | 2",
                 "🇮🇷IR | vless | @vless_vmess | 9",
                 "🇨🇷CR | vless | @V2RayTz | 15",
@@ -231,7 +231,7 @@
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇨🇷CR | vless | @Capoit | 11",
                 "🇨🇦CA | vless | @FreakConfig | 11",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @flyv2ray | 15",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇦CA | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 2",
@@ -1241,7 +1241,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @proxyymeliii | 18",
+            "tag": "🇺🇸US | vless | @proxyymeliii | 18",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1272,7 +1272,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @MsV2ray | 18",
+            "tag": "🇨🇷CR | vless | @MsV2ray | 18",
             "type": "vless",
             "server": "All.MsV2ray.online",
             "server_port": 2087,
@@ -1684,11 +1684,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vless | @flyv2ray | 15",
             "type": "vless",
-            "server": "172.67.73.127",
-            "server_port": 80,
-            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "6acf5f27-09e1-4166-badc-6743e8488e45",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1696,11 +1696,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "join4.golestan-vpn.link",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/goli",
                 "headers": {
-                    "Host": "172.67.73.127"
+                    "Host": "join4.golestan-vpn.link"
                 }
             }
         },
