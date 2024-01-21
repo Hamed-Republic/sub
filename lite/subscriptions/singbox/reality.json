@@ -108,8 +108,7 @@
                 "URL-TEST",
                 "🇩🇪DE | vless | @ipV2Ray | 15",
                 "🇫🇮FI | vless | @FalconPolV2rayNG | 6",
-                "🇸🇪SE | vless | @v2ray_swhil | 30",
-                "🇸🇪SE | vless | @VmessProtocol | 13",
+                "🇸🇪SE | vless | @VmessProtocol | 12",
                 "🏳️XX | vless | @fnet00 | 14",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇸🇪SE | vless | @kiava | 2",
@@ -124,8 +123,7 @@
             "outbounds": [
                 "🇩🇪DE | vless | @ipV2Ray | 15",
                 "🇫🇮FI | vless | @FalconPolV2rayNG | 6",
-                "🇸🇪SE | vless | @v2ray_swhil | 30",
-                "🇸🇪SE | vless | @VmessProtocol | 13",
+                "🇸🇪SE | vless | @VmessProtocol | 12",
                 "🏳️XX | vless | @fnet00 | 14",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇸🇪SE | vless | @kiava | 2",
@@ -226,9 +224,9 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @v2ray_swhil | 30",
+            "tag": "🇸🇪SE | vless | @VmessProtocol | 12",
             "type": "vless",
-            "server": "16.171.195.254",
+            "server": "16.16.121.119",
             "server_port": 2083,
             "uuid": "23758119-cf33-4269-fb50-bc04930d356a",
             "flow": "xtls-rprx-vision",
@@ -249,36 +247,7 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "7EYrZhbGaRjQ3o9X_iJD7h4liQtuhVDZqrtUdKBhbWw",
-                    "short_id": "214229"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @VmessProtocol | 13",
-            "type": "vless",
-            "server": "16.16.70.79",
-            "server_port": 2083,
-            "uuid": "23758119-cf33-4269-fb50-bc04930d356a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cdn.amazon.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "db7scON_ZqrQNXUjTWSygqXDcuih0ukP5c3On4iTj3k",
+                    "public_key": "Mf7xWfNZGkh91owCeaXk7QJBjj3zuxJi5jl0QiM3SC4",
                     "short_id": "214229"
                 }
             }
