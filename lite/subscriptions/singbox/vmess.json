@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇯🇵JP | vmess | @DeamNet_Proxy | 19",
+                "🇻🇳VN | vmess | @DeamNet_Proxy | 19",
                 "🏳️XX | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 13",
                 "🏳️XX | vmess | @Hope_Net | 19",
@@ -124,7 +124,7 @@
             "outbounds": [
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇯🇵JP | vmess | @DeamNet_Proxy | 19",
+                "🇻🇳VN | vmess | @DeamNet_Proxy | 19",
                 "🏳️XX | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 13",
                 "🏳️XX | vmess | @Hope_Net | 19",
@@ -188,11 +188,11 @@
             }
         },
         {
-            "tag": "🇯🇵JP | vmess | @DeamNet_Proxy | 19",
+            "tag": "🇻🇳VN | vmess | @DeamNet_Proxy | 19",
             "type": "vmess",
-            "server": "jp.takeshi.wiki",
+            "server": "bs5.loadingip.com",
             "server_port": 80,
-            "uuid": "a19f357b-c836-4cf6-9e43-72390e6a00df",
+            "uuid": "9e5999ba-870a-46b1-8500-37c640371ec6",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -205,9 +205,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/takeshi.wiki",
+                "path": "\/bs",
                 "headers": {
-                    "Host": "jp.takeshi.wiki"
+                    "Host": "bs5.loadingip.com"
                 }
             }
         },
