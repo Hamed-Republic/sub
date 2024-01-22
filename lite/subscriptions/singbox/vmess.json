@@ -212,9 +212,9 @@
         {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 13",
             "type": "vmess",
-            "server": "cn.azhz.eu.org",
+            "server": "162.159.153.224",
             "server_port": 443,
-            "uuid": "04e9bbe9-ad2f-4d51-bc46-8a46d0b8068a",
+            "uuid": "a8dad411-43a2-4a07-b30b-0d77bf1510f2",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -227,7 +227,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "cn.azhz.eu.org",
+                "server_name": "162.159.153.224",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -237,9 +237,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/juzibaipiao-vm",
+                "path": "\/a8dad411-43a2-4a07-b30b-0d77bf1510f2-vmess",
                 "headers": {
-                    "Host": "cn.azhz.eu.org"
+                    "Host": "162.159.153.224"
                 }
             }
         },
@@ -248,7 +248,7 @@
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "abcacab-cbaa-aabc-acbd-cbbaccbcbaaa",
+            "uuid": "baabacc-abca-abac-bcda-babacbacccba",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
