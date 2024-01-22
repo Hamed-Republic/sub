@@ -158,12 +158,12 @@
                 "🇨🇷CR | vless | @Capoit | 9",
                 "🇺🇸US | vless | @FreakConfig | 7",
                 "🇬🇧GB | vless | @flyv2ray | 19",
-                "🇺🇸US | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 15",
-                "🇨🇷CR | vless | @mehrosaboran | 16",
+                "🇨🇦CA | vless | @mehrosaboran | 15",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
-                "🇺🇸US | vless | @kingofilter | 11",
+                "🇺🇸US | vless | @kingofilter | 13",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
@@ -227,12 +227,12 @@
                 "🇨🇷CR | vless | @Capoit | 9",
                 "🇺🇸US | vless | @FreakConfig | 7",
                 "🇬🇧GB | vless | @flyv2ray | 19",
-                "🇺🇸US | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 15",
-                "🇨🇷CR | vless | @mehrosaboran | 16",
+                "🇨🇦CA | vless | @mehrosaboran | 15",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
-                "🇺🇸US | vless | @kingofilter | 11",
+                "🇺🇸US | vless | @kingofilter | 13",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
@@ -533,7 +533,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 443,
-            "uuid": "c441a8be-bb0b-4fc0-8ad8-26f89f97d244",
+            "uuid": "da67302e-650a-4e5c-a1ac-bdfc949aaf66",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -543,7 +543,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.ArV2ray.online",
+                "server_name": "www.ArV2ray.shop",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1637,11 +1637,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @forwardv2ray | 19",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "173.245.58.31",
-            "server_port": 80,
-            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
+            "server": "moneyforward.com",
+            "server_port": 2052,
+            "uuid": "35c7c7bb-346f-46cd-9905-b4851cb26281",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1651,9 +1651,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/path\/telegram@v2ray_alpha\/",
+                "path": "\/",
                 "headers": {
-                    "Host": "173.245.58.31"
+                    "Host": "moneyforward.com"
                 }
             }
         },
@@ -1689,11 +1689,11 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @mehrosaboran | 16",
+            "tag": "🇨🇦CA | vless | @mehrosaboran | 15",
             "type": "vless",
-            "server": "190.93.247.155",
-            "server_port": 8880,
-            "uuid": "a30753e2-b323-470a-dddd-61c5ce059ae9",
+            "server": "104.17.212.43",
+            "server_port": 2053,
+            "uuid": "8137f482-016c-482a-8b2b-4246471242c9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1701,11 +1701,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "boon.joinbede.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@LIGHTNING6",
+                "path": "\/",
                 "headers": {
-                    "Host": "190.93.247.155"
+                    "Host": "boon.joinbede.sbs"
                 }
             }
         },
@@ -1775,7 +1785,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @kingofilter | 11",
+            "tag": "🇺🇸US | vless | @kingofilter | 13",
             "type": "vless",
             "server": "173.245.58.31",
             "server_port": 80,
