@@ -136,7 +136,7 @@
                 "🇩🇪DE | trojan | @DirectVPN | 16",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇰🇷KR | vmess | @mftizi | 19",
-                "🇭🇰HK | vmess | @oneclickvpnkeys | 9",
+                "🇭🇰HK | vmess | @oneclickvpnkeys | 11",
                 "🇨🇷CR | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 3",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 10",
@@ -152,7 +152,6 @@
                 "🇨🇦CA | vless | @V2RayTz | 14",
                 "🇩🇪DE | vless | @DailyV2RY | 155",
                 "🇮🇷IR | vless | @sinabigo | 6",
-                "🇨🇦CA | vless | @MehradLearn | 10",
                 "🇺🇸US | vless | @lrnbymaa | 8",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @proxystore11 | 20",
@@ -167,6 +166,7 @@
                 "🇨🇷CR | vless | @Capoit | 3",
                 "🇨🇷CR | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @flyv2ray | 19",
+                "🇨🇷CR | vless | @forwardv2ray | 10",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇷CR | vless | @mehrosaboran | 16",
@@ -176,7 +176,6 @@
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @kingofilter | 14",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
-                "🇨🇭CH | vmess | @eliya_chiter0 | 4",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
                 "🇺🇸US | tuic | @TUICity | 36",
@@ -219,7 +218,7 @@
                 "🇩🇪DE | trojan | @DirectVPN | 16",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇰🇷KR | vmess | @mftizi | 19",
-                "🇭🇰HK | vmess | @oneclickvpnkeys | 9",
+                "🇭🇰HK | vmess | @oneclickvpnkeys | 11",
                 "🇨🇷CR | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 3",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 10",
@@ -235,7 +234,6 @@
                 "🇨🇦CA | vless | @V2RayTz | 14",
                 "🇩🇪DE | vless | @DailyV2RY | 155",
                 "🇮🇷IR | vless | @sinabigo | 6",
-                "🇨🇦CA | vless | @MehradLearn | 10",
                 "🇺🇸US | vless | @lrnbymaa | 8",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @proxystore11 | 20",
@@ -250,6 +248,7 @@
                 "🇨🇷CR | vless | @Capoit | 3",
                 "🇨🇷CR | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @flyv2ray | 19",
+                "🇨🇷CR | vless | @forwardv2ray | 10",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇷CR | vless | @mehrosaboran | 16",
@@ -259,7 +258,6 @@
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @kingofilter | 14",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
-                "🇨🇭CH | vmess | @eliya_chiter0 | 4",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
                 "🇺🇸US | tuic | @TUICity | 36",
@@ -1079,7 +1077,7 @@
             }
         },
         {
-            "tag": "🇭🇰HK | vmess | @oneclickvpnkeys | 9",
+            "tag": "🇭🇰HK | vmess | @oneclickvpnkeys | 11",
             "type": "vmess",
             "server": "207.148.45.85",
             "server_port": 39201,
@@ -1492,37 +1490,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @MehradLearn | 10",
-            "type": "vless",
-            "server": "www.unpkg.com",
-            "server_port": 443,
-            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "3k.pureboy.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "3k.pureboy.eu.org"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | vless | @lrnbymaa | 8",
             "type": "vless",
             "server": "173.245.58.133",
@@ -1876,6 +1843,37 @@
             }
         },
         {
+            "tag": "🇨🇷CR | vless | @forwardv2ray | 10",
+            "type": "vless",
+            "server": "tel.VPNCUSTOMIZE.cam",
+            "server_port": 8443,
+            "uuid": "ee9d1723-e14e-417a-8534-0d470e80b142",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "20ns2-V2ray.Vpncustomize.Com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@VPNCUSTOMIZE,@VPNCUSTOMIZE",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @FAKEOFTVC | 0",
             "type": "vless",
             "server": "172.67.204.84",
@@ -2093,23 +2091,6 @@
             "uuid": "ee1a886f-05ba-4407-bdd1-efdb4daac2f6",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇭CH | vmess | @eliya_chiter0 | 4",
-            "type": "vmess",
-            "server": "94.131.99.8",
-            "server_port": 47182,
-            "uuid": "81b2b630-8b6a-404f-b996-b12f13db5786",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
