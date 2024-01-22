@@ -168,6 +168,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇷CR | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 7",
+                "🇨🇦CA | vless | @forwardv2ray | 11",
                 "🇺🇸US | tuic | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇩🇪DE | vless | @mehrosaboran | 16",
@@ -251,6 +252,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇷CR | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 7",
+                "🇨🇦CA | vless | @forwardv2ray | 11",
                 "🇺🇸US | tuic | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇩🇪DE | vless | @mehrosaboran | 16",
@@ -916,9 +918,9 @@
         {
             "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
-            "server": "parspack.com",
-            "server_port": 80,
-            "uuid": "c015b481-ea11-4573-a580-9b90ce13b029",
+            "server": "cTWCT.ARVANCOdE.EU.ORG",
+            "server_port": 2096,
+            "uuid": "f4cec6cc-6177-423c-90f8-2ad9f0dd996b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -926,11 +928,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPNCT.ARVANCODE.EU.ORG",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@OpenworldNetBot",
+                "path": "\/bShq2qgG8GnX8zqm\/",
                 "headers": {
-                    "Host": "parspack.com"
+                    "Host": "vPNCT.ARVANCODE.EU.ORG"
                 }
             }
         },
@@ -1639,7 +1651,7 @@
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "abcbcaa-aacb-acab-dacb-cbbabcbcaaac",
+            "uuid": "abbacca-caba-acba-cdab-cbaacabaccbb",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1882,6 +1894,27 @@
                 "path": "\/",
                 "headers": {
                     "Host": "172.67.73.163"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 11",
+            "type": "vless",
+            "server": "cdnjs.com",
+            "server_port": 2086,
+            "uuid": "58d9858e-36f3-4bbf-bf36-7d4ce83dbb59",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "cdnjs.com"
                 }
             }
         },
