@@ -120,7 +120,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 8",
                 "🇺🇸US | vless | @free_v2rayyy | 2",
                 "🇨🇷CR | vless | @lightning6 | 35",
-                "🇨🇷CR | vless | @V2rayNGmat | 3",
+                "🇺🇸US | vless | @V2rayNGmat | 3",
                 "🇨🇦CA | vless | @vpn_xw | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 20",
@@ -146,7 +146,7 @@
                 "🇨🇷CR | vless | @MTConfig | 18",
                 "🇨🇷CR | vless | @V2RayTz | 17",
                 "🇸🇪SE | vless | @VmessProtocol | 12",
-                "🇨🇦CA | vless | @DailyV2RY | 163",
+                "🇨🇦CA | vless | @DailyV2RY | 150",
                 "🇨🇦CA | vless | @sinabigo | 6",
                 "🇺🇸US | vless | @lrnbymaa | 7",
                 "🇨🇦CA | vless | @proxystore11 | 18",
@@ -158,7 +158,6 @@
                 "🇸🇪SE | vless | @Capital_NET | 51",
                 "🇨🇷CR | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 7",
-                "🇫🇮FI | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇩🇪DE | vless | @mehrosaboran | 16",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -190,7 +189,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 8",
                 "🇺🇸US | vless | @free_v2rayyy | 2",
                 "🇨🇷CR | vless | @lightning6 | 35",
-                "🇨🇷CR | vless | @V2rayNGmat | 3",
+                "🇺🇸US | vless | @V2rayNGmat | 3",
                 "🇨🇦CA | vless | @vpn_xw | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 20",
@@ -216,7 +215,7 @@
                 "🇨🇷CR | vless | @MTConfig | 18",
                 "🇨🇷CR | vless | @V2RayTz | 17",
                 "🇸🇪SE | vless | @VmessProtocol | 12",
-                "🇨🇦CA | vless | @DailyV2RY | 163",
+                "🇨🇦CA | vless | @DailyV2RY | 150",
                 "🇨🇦CA | vless | @sinabigo | 6",
                 "🇺🇸US | vless | @lrnbymaa | 7",
                 "🇨🇦CA | vless | @proxystore11 | 18",
@@ -228,7 +227,6 @@
                 "🇸🇪SE | vless | @Capital_NET | 51",
                 "🇨🇷CR | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 7",
-                "🇫🇮FI | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇩🇪DE | vless | @mehrosaboran | 16",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -646,7 +644,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2rayNGmat | 3",
+            "tag": "🇺🇸US | vless | @V2rayNGmat | 3",
             "type": "vless",
             "server": "V2ray.motorcycles",
             "server_port": 2087,
@@ -1306,11 +1304,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 163",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 150",
             "type": "vless",
-            "server": "www.visa.com",
-            "server_port": 2053,
-            "uuid": "0676ea6b-578e-458d-84f6-b4e705dad84a",
+            "server": "ip.aminivip2023.site",
+            "server_port": 8443,
+            "uuid": "38d1f8b9-50be-4292-b7ba-402145544c45",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1320,7 +1318,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "dash.tozedmodeon1.shop",
+                "server_name": "ri.aminivip2023.site",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1329,11 +1327,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "JOINZEDMODEON,@ZEDMODEON,ZEDMODEON,JOINBEDEZEDMODEON-KOSENANEDODZD-VPNZEDMODEON-BIATOSHZEDMODEON",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/V2zed",
+                "headers": {
+                    "Host": "ri.aminivip2023.site"
+                }
             }
         },
         {
@@ -1658,42 +1656,6 @@
                 "headers": {
                     "Host": "172.67.73.163"
                 }
-            }
-        },
-        {
-            "tag": "🇫🇮FI | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "95.216.170.113",
-            "server_port": 443,
-            "uuid": "691a087a-f23c-4162-99f5-6d3270a08108",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "greenpepper.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "XjP7jAIA1Y0QmNnNMlUGKsQnkP4HpbZtU5yPqesorm8",
-                    "short_id": "54052ca6"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
