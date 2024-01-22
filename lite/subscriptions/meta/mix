@@ -172,8 +172,8 @@ proxies:
   - {"name":"🇺🇸US | vmess | @v2Line | 6","type":"vmess","server":"v2line.telegram.channel.1390.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":"80","cipher":"auto","uuid":"f61203bd-f386-4d12-9853-cc829d6b7c9d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"ca2.xv2ray.net"}}}
   - {"name":"🇨🇷CR | vless | @Capoit | 9","type":"vless","server":"shhproxy.varzesh3-cnd.site","port":443,"udp":false,"uuid":"3e562f76-d465-4898-860b-13b1cd620fb3","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"mamad.farzam.space","grpc-opts":{"grpc-service-name":"@Capoit,@Capoit,@Capoit,@Capoit,@Capoit,@Capoit,@Capoit,@Capoit,@Capoit,@Capoit,@Capoit,@Capoit,@Capoit,@Capoit,@Capoit"}}
   - {"name":"🇺🇸US | vless | @FreakConfig | 7","type":"vless","server":"190.93.245.101","port":8080,"udp":false,"uuid":"d2620727-c71f-41be-b45e-a61700c2f7e4","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/?ed=2048","headers":{"host":"cdn-owmsmsj.mohammad420.sbs"}}}
-  - {"name":"🇨🇷CR | vless | @forwardv2ray | 19","type":"vless","server":"shhproxy.varzesh3-cnd.site","port":80,"udp":false,"uuid":"488568ba-6e2d-44be-8d34-5acc00e41504","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/?ed=2048","headers":{"host":"SHHPROXY-V2ray.斯涅過濾器69.website"}}}
-  - {"name":"🇨🇭CH | vmess | @FAKEOFTVC | 2","type":"vmess","server":"94.131.99.8","port":"47182","cipher":"auto","uuid":"81b2b630-8b6a-404f-b996-b12f13db5786","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇷CR | vless | @forwardv2ray | 18","type":"vless","server":"shhproxy.varzesh3-cnd.site","port":2087,"udp":false,"uuid":"5a9b3af0-31c7-443d-b3fd-4d2d9dad7996","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"gmV2raybo.shhproxyfree.com","ws-opts":{"path":"/","headers":{"host":"gmV2raybo.shhproxyfree.com"}}}
+  - {"name":"🇨🇦CA | vmess | @FAKEOFTVC | 1","type":"vmess","server":"172.67.200.89","port":"2087","cipher":"auto","uuid":"36999a88-c86c-4175-847a-ed046e9b04b0","alterId":"0","tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"","grpc-mode":""}}
   - {"name":"🇨🇦CA | vless | @https_config_injector | 15","type":"vless","server":"104.21.28.62","port":443,"udp":false,"uuid":"b9ad895b-12ac-40fc-a5ac-a5b2a1285001","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"3k.pureboy.eu.org","ws-opts":{"path":"/?ed=2048","headers":{"host":"3k.pureboy.eu.org"}}}
   - {"name":"🇸🇪SE | vless | @kiava | 3","type":"vless","server":"16.16.139.103","port":443,"udp":true,"uuid":"2c59ff33-916d-459b-a4c0-8b7432c4c3bb","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"coinmarketcap.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"rrxaevH9D_L-Pnhfzkp2ZymkrYxtsJjVDRaeNm4PNAc","short-id":"1db3"}}
   - {"name":"🇨🇦CA | vless | @nofiltering2 | 12","type":"vless","server":"mtn.alpha1.skin","port":2087,"udp":false,"uuid":"884b0b35-c883-44f5-8487-26fc94d91049","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"ch-7000.alpha1.skin","grpc-opts":{"grpc-service-name":""}}
@@ -242,8 +242,8 @@ proxy-groups:
       - '🇺🇸US | vmess | @v2Line | 6'
       - '🇨🇷CR | vless | @Capoit | 9'
       - '🇺🇸US | vless | @FreakConfig | 7'
-      - '🇨🇷CR | vless | @forwardv2ray | 19'
-      - '🇨🇭CH | vmess | @FAKEOFTVC | 2'
+      - '🇨🇷CR | vless | @forwardv2ray | 18'
+      - '🇨🇦CA | vmess | @FAKEOFTVC | 1'
       - '🇨🇦CA | vless | @https_config_injector | 15'
       - '🇸🇪SE | vless | @kiava | 3'
       - '🇨🇦CA | vless | @nofiltering2 | 12'
@@ -312,8 +312,8 @@ proxy-groups:
       - '🇺🇸US | vmess | @v2Line | 6'
       - '🇨🇷CR | vless | @Capoit | 9'
       - '🇺🇸US | vless | @FreakConfig | 7'
-      - '🇨🇷CR | vless | @forwardv2ray | 19'
-      - '🇨🇭CH | vmess | @FAKEOFTVC | 2'
+      - '🇨🇷CR | vless | @forwardv2ray | 18'
+      - '🇨🇦CA | vmess | @FAKEOFTVC | 1'
       - '🇨🇦CA | vless | @https_config_injector | 15'
       - '🇸🇪SE | vless | @kiava | 3'
       - '🇨🇦CA | vless | @nofiltering2 | 12'
@@ -381,8 +381,8 @@ proxy-groups:
       - '🇺🇸US | vmess | @v2Line | 6'
       - '🇨🇷CR | vless | @Capoit | 9'
       - '🇺🇸US | vless | @FreakConfig | 7'
-      - '🇨🇷CR | vless | @forwardv2ray | 19'
-      - '🇨🇭CH | vmess | @FAKEOFTVC | 2'
+      - '🇨🇷CR | vless | @forwardv2ray | 18'
+      - '🇨🇦CA | vmess | @FAKEOFTVC | 1'
       - '🇨🇦CA | vless | @https_config_injector | 15'
       - '🇸🇪SE | vless | @kiava | 3'
       - '🇨🇦CA | vless | @nofiltering2 | 12'

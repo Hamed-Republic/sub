@@ -169,8 +169,7 @@
                 "🇨🇷CR | vless | @Capoit | 9",
                 "🇺🇸US | vless | @FreakConfig | 7",
                 "🇬🇧GB | vless | @flyv2ray | 19",
-                "🇨🇷CR | vless | @forwardv2ray | 19",
-                "🇨🇭CH | vmess | @FAKEOFTVC | 2",
+                "🇨🇷CR | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇷CR | vless | @mehrosaboran | 16",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -253,8 +252,7 @@
                 "🇨🇷CR | vless | @Capoit | 9",
                 "🇺🇸US | vless | @FreakConfig | 7",
                 "🇬🇧GB | vless | @flyv2ray | 19",
-                "🇨🇷CR | vless | @forwardv2ray | 19",
-                "🇨🇭CH | vmess | @FAKEOFTVC | 2",
+                "🇨🇷CR | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇷CR | vless | @mehrosaboran | 16",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -1938,11 +1936,11 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @forwardv2ray | 19",
+            "tag": "🇨🇷CR | vless | @forwardv2ray | 18",
             "type": "vless",
             "server": "shhproxy.varzesh3-cnd.site",
-            "server_port": 80,
-            "uuid": "488568ba-6e2d-44be-8d34-5acc00e41504",
+            "server_port": 2087,
+            "uuid": "5a9b3af0-31c7-443d-b3fd-4d2d9dad7996",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1950,29 +1948,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "gmV2raybo.shhproxyfree.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "shhproxy.varzesh3-cnd.site"
+                    "Host": "gmV2raybo.shhproxyfree.com"
                 }
-            }
-        },
-        {
-            "tag": "🇨🇭CH | vmess | @FAKEOFTVC | 2",
-            "type": "vmess",
-            "server": "94.131.99.8",
-            "server_port": 47182,
-            "uuid": "81b2b630-8b6a-404f-b996-b12f13db5786",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
