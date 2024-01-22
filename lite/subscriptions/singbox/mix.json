@@ -120,7 +120,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 8",
                 "🇺🇸US | vless | @free_v2rayyy | 2",
                 "🇺🇸US | vless | @lightning6 | 35",
-                "🇺🇸US | vless | @V2rayNGmat | 3",
+                "🇨🇷CR | vless | @V2rayNGmat | 3",
                 "🇨🇦CA | vless | @vpn_xw | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 20",
@@ -150,7 +150,7 @@
                 "🇺🇸US | vless | @v2ray1_ng | 4",
                 "🇮🇷IR | vless | @vless_vmess | 4",
                 "🇨🇷CR | vless | @MTConfig | 18",
-                "🇺🇸US | vless | @V2RayTz | 19",
+                "🇺🇸US | vless | @V2RayTz | 17",
                 "🇸🇪SE | vless | @VmessProtocol | 12",
                 "🇨🇦CA | vless | @DailyV2RY | 163",
                 "🇨🇦CA | vless | @sinabigo | 6",
@@ -168,11 +168,12 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇷CR | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 7",
+                "🇨🇷CR | vless | @forwardv2ray | 18",
                 "🇺🇸US | tuic | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇩🇪DE | vless | @mehrosaboran | 16",
                 "🇸🇪SE | vless | @kiava | 3",
-                "🇨🇷CR | vless | @proxy_mtm | 13",
+                "🇨🇷CR | vless | @proxy_mtm | 15",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇳🇱NL | vless | @kingofilter | 11",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
@@ -203,7 +204,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 8",
                 "🇺🇸US | vless | @free_v2rayyy | 2",
                 "🇺🇸US | vless | @lightning6 | 35",
-                "🇺🇸US | vless | @V2rayNGmat | 3",
+                "🇨🇷CR | vless | @V2rayNGmat | 3",
                 "🇨🇦CA | vless | @vpn_xw | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 20",
@@ -233,7 +234,7 @@
                 "🇺🇸US | vless | @v2ray1_ng | 4",
                 "🇮🇷IR | vless | @vless_vmess | 4",
                 "🇨🇷CR | vless | @MTConfig | 18",
-                "🇺🇸US | vless | @V2RayTz | 19",
+                "🇺🇸US | vless | @V2RayTz | 17",
                 "🇸🇪SE | vless | @VmessProtocol | 12",
                 "🇨🇦CA | vless | @DailyV2RY | 163",
                 "🇨🇦CA | vless | @sinabigo | 6",
@@ -251,11 +252,12 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇷CR | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 7",
+                "🇨🇷CR | vless | @forwardv2ray | 18",
                 "🇺🇸US | tuic | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇩🇪DE | vless | @mehrosaboran | 16",
                 "🇸🇪SE | vless | @kiava | 3",
-                "🇨🇷CR | vless | @proxy_mtm | 13",
+                "🇨🇷CR | vless | @proxy_mtm | 15",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇳🇱NL | vless | @kingofilter | 11",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
@@ -672,7 +674,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayNGmat | 3",
+            "tag": "🇨🇷CR | vless | @V2rayNGmat | 3",
             "type": "vless",
             "server": "V2ray.motorcycles",
             "server_port": 2087,
@@ -1406,11 +1408,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2RayTz | 19",
+            "tag": "🇺🇸US | vless | @V2RayTz | 17",
             "type": "vless",
             "server": "190.93.244.103",
-            "server_port": 2083,
-            "uuid": "b70c3167-bc42-4d6c-c7c2-87e80776ceff",
+            "server_port": 8880,
+            "uuid": "302ca18a-af8e-449a-e6f9-7ee9d4ad4270",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1418,22 +1420,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "liV2hele.LIGHTNING6.IR",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "@LIGHTNING6",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/@LIGHTNING6",
+                "headers": {
+                    "Host": "190.93.244.103"
+                }
             }
         },
         {
@@ -1659,7 +1651,7 @@
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "ccbaaab-baac-caab-cbda-abacabccbcba",
+            "uuid": "bcaaacb-caba-abac-cbda-ccacabbcbaba",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1906,6 +1898,27 @@
             }
         },
         {
+            "tag": "🇨🇷CR | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "tel.VPNCUSTOMIZE.cam",
+            "server_port": 8080,
+            "uuid": "VPNCUSTOMIZE",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "tel.VPNCUSTOMIZE.cam"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | tuic | @FAKEOFTVC | 3",
             "type": "tuic",
             "server": "64.110.25.10",
@@ -2010,7 +2023,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @proxy_mtm | 13",
+            "tag": "🇨🇷CR | vless | @proxy_mtm | 15",
             "type": "vless",
             "server": "190.93.247.155",
             "server_port": 8080,
