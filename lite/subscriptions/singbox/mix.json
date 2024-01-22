@@ -107,7 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇮🇷IR | vless | @EliV2ray | 10",
-                "🇨🇦CA | vless | @Parsashonam | 6",
+                "🇨🇦CA | vless | @Parsashonam | 4",
                 "🇨🇦CA | vless | @v2_team | 18",
                 "🇺🇸US | vless | @NIM_VPN_ir | 13",
                 "🇨🇦CA | vless | @XsV2ray | 15",
@@ -150,7 +150,7 @@
                 "🇨🇦CA | vless | @proxyymeliii | 18",
                 "🇮🇷IR | vless | @vless_vmess | 4",
                 "🇨🇦CA | vless | @MTConfig | 18",
-                "🇨🇷CR | vless | @V2RayTz | 7",
+                "🇨🇦CA | vless | @V2RayTz | 14",
                 "🇩🇪DE | vless | @DailyV2RY | 155",
                 "🇮🇷IR | vless | @sinabigo | 6",
                 "🇨🇦CA | vless | @MehradLearn | 10",
@@ -169,7 +169,7 @@
                 "🇨🇷CR | vless | @Capoit | 4",
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @flyv2ray | 21",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇳🇱NL | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇷CR | vless | @mehrosaboran | 15",
@@ -192,7 +192,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇮🇷IR | vless | @EliV2ray | 10",
-                "🇨🇦CA | vless | @Parsashonam | 6",
+                "🇨🇦CA | vless | @Parsashonam | 4",
                 "🇨🇦CA | vless | @v2_team | 18",
                 "🇺🇸US | vless | @NIM_VPN_ir | 13",
                 "🇨🇦CA | vless | @XsV2ray | 15",
@@ -235,7 +235,7 @@
                 "🇨🇦CA | vless | @proxyymeliii | 18",
                 "🇮🇷IR | vless | @vless_vmess | 4",
                 "🇨🇦CA | vless | @MTConfig | 18",
-                "🇨🇷CR | vless | @V2RayTz | 7",
+                "🇨🇦CA | vless | @V2RayTz | 14",
                 "🇩🇪DE | vless | @DailyV2RY | 155",
                 "🇮🇷IR | vless | @sinabigo | 6",
                 "🇨🇦CA | vless | @MehradLearn | 10",
@@ -254,7 +254,7 @@
                 "🇨🇷CR | vless | @Capoit | 4",
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @flyv2ray | 21",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇳🇱NL | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇷CR | vless | @mehrosaboran | 15",
@@ -313,7 +313,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Parsashonam | 6",
+            "tag": "🇨🇦CA | vless | @Parsashonam | 4",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 443,
@@ -1075,9 +1075,9 @@
             "tag": "🇵🇱PL | ss | @DeamNet_Proxy | 18",
             "type": "shadowsocks",
             "server": "51.77.53.200",
-            "server_port": 8009,
+            "server_port": 9102,
             "method": "aes-256-gcm",
-            "password": "XKFKl2rULjIp74",
+            "password": "e4FCWrgpkji3QY",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -1404,11 +1404,11 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2RayTz | 7",
+            "tag": "🇨🇦CA | vless | @V2RayTz | 14",
             "type": "vless",
-            "server": "190.93.246.225",
-            "server_port": 8880,
-            "uuid": "9cd3ea0f-c014-417c-f8e6-16a5879f8938",
+            "server": "104.18.203.232",
+            "server_port": 2053,
+            "uuid": "e41c01a7-7be2-40af-a830-49d4c2ee9df8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1416,12 +1416,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/@LIGHTNING6",
-                "headers": {
-                    "Host": "190.93.246.225"
+            "tls": {
+                "enabled": true,
+                "server_name": "vvvvvvvvvvvvvvvvauausjshhsskjshsshjshshsusshhsbshsjsksnsjsksk1.mainv2ray.lol",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@MainV2ry,@MainV2ry,@MainV2ry,@MainV2ry,@MainV2ry,@MainV2ry,@MainV2ry,@MainV2ry,@MainV2ry,@MainV2ry,@MainV2ry,@MainV2ry,@MainV2ry",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1905,11 +1915,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇳🇱NL | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "ubia2-join.outline-vpn.cloud",
-            "server_port": 80,
-            "uuid": "48bd4d22-e42f-4749-af6a-85ecf716c823",
+            "server": "188.114.96.130",
+            "server_port": 2082,
+            "uuid": "939fcfa4-0d30-4f86-a1f7-13cc2dae002b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1921,7 +1931,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "ubia2-join.outline-vpn.cloud"
+                    "Host": "188.114.96.130"
                 }
             }
         },
