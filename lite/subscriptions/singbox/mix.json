@@ -117,10 +117,11 @@
                 "🇨🇦CA | vless | @melov2ray | 7",
                 "🇺🇸US | vless | @frev2ray | 9",
                 "🇨🇦CA | vless | @ARv2ray | 13",
+                "🇨🇷CR | vless | @shh_proxy | 27",
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇺🇸US | vless | @free_v2rayyy | 2",
-                "🇨🇷CR | vless | @lightning6 | 35",
-                "🇨🇷CR | vless | @V2rayNGmat | 3",
+                "🇺🇸US | vless | @lightning6 | 35",
+                "🇺🇸US | vless | @V2rayNGmat | 3",
                 "🇨🇦CA | vless | @vpn_xw | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 20",
@@ -164,9 +165,9 @@
                 "🇸🇪SE | vless | @Capital_NET | 49",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇷CR | vless | @Capoit | 3",
-                "🇮🇷IR | vless | @FreakConfig | 6",
+                "🇮🇷IR | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @flyv2ray | 19",
-                "🇩🇪DE | vless | @forwardv2ray | 16",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇦CA | vless | @mehrosaboran | 17",
@@ -199,10 +200,11 @@
                 "🇨🇦CA | vless | @melov2ray | 7",
                 "🇺🇸US | vless | @frev2ray | 9",
                 "🇨🇦CA | vless | @ARv2ray | 13",
+                "🇨🇷CR | vless | @shh_proxy | 27",
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇺🇸US | vless | @free_v2rayyy | 2",
-                "🇨🇷CR | vless | @lightning6 | 35",
-                "🇨🇷CR | vless | @V2rayNGmat | 3",
+                "🇺🇸US | vless | @lightning6 | 35",
+                "🇺🇸US | vless | @V2rayNGmat | 3",
                 "🇨🇦CA | vless | @vpn_xw | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 20",
@@ -246,9 +248,9 @@
                 "🇸🇪SE | vless | @Capital_NET | 49",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇷CR | vless | @Capoit | 3",
-                "🇮🇷IR | vless | @FreakConfig | 6",
+                "🇮🇷IR | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @flyv2ray | 19",
-                "🇩🇪DE | vless | @forwardv2ray | 16",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇦CA | vless | @mehrosaboran | 17",
@@ -607,6 +609,37 @@
             }
         },
         {
+            "tag": "🇨🇷CR | vless | @shh_proxy | 27",
+            "type": "vless",
+            "server": "shhproxy.varzesh3-cnd.site",
+            "server_port": 2087,
+            "uuid": "58f85c62-7e45-4c56-8a77-3fe5f7bbecdf",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "gmV2raybo.shhproxyfree.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "gmV2raybo.shhproxyfree.com"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @Lockey_vpn | 9",
             "type": "vless",
             "server": "104.21.59.125",
@@ -649,7 +682,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @lightning6 | 35",
+            "tag": "🇺🇸US | vless | @lightning6 | 35",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 8880,
@@ -670,7 +703,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2rayNGmat | 3",
+            "tag": "🇺🇸US | vless | @V2rayNGmat | 3",
             "type": "vless",
             "server": "V2ray.motorcycles",
             "server_port": 2087,
@@ -1781,7 +1814,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @FreakConfig | 6",
+            "tag": "🇮🇷IR | vless | @FreakConfig | 7",
             "type": "vless",
             "server": "31.216.62.112",
             "server_port": 556,
@@ -1816,12 +1849,12 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 16",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "49.12.209.197",
+            "server": "test.starv2ray.cfd",
             "server_port": 443,
-            "uuid": "b79fcb6b-5da4-494b-9ecc-d65d3ebcf7fe",
-            "flow": "xtls-rprx-vision",
+            "uuid": "c511ce75-e649-416a-eaec-d0480f33f66b",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1830,25 +1863,20 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "dnschecker.org",
+                "server_name": "*.starv2ray.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "vxyZGYyn1CSmVCiAmTwYpEqP331l_PSBzaiDXsqrYXc",
-                    "short_id": "961777e2"
+                    "fingerprint": "chrome"
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "*.starv2ray.cfd"
+                }
             }
         },
         {
