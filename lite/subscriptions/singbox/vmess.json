@@ -112,6 +112,7 @@
                 "🇨🇦CA | vmess | @yaney_01 | 13",
                 "🏳️XX | vmess | @Hope_Net | 17",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇯🇵JP | vmess | @forwardv2ray | 17",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 14"
             ]
         },
@@ -125,6 +126,7 @@
                 "🇨🇦CA | vmess | @yaney_01 | 13",
                 "🏳️XX | vmess | @Hope_Net | 17",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇯🇵JP | vmess | @forwardv2ray | 17",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 14"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -244,7 +246,7 @@
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "bcaaacb-abac-caba-cadb-acbbcbaabacc",
+            "uuid": "ccabaab-bcaa-acba-dbca-bcacaaabcbbc",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -278,6 +280,23 @@
                 "headers": {
                     "Host": "ca2.xv2ray.net"
                 }
+            }
+        },
+        {
+            "tag": "🇯🇵JP | vmess | @forwardv2ray | 17",
+            "type": "vmess",
+            "server": "152.69.197.60",
+            "server_port": 1069,
+            "uuid": "ac8e26fe-8150-4b60-ae64-82fc77eba2cf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
