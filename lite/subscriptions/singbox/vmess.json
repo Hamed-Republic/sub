@@ -110,9 +110,10 @@
                 "🇰🇷KR | vmess | @mftizi | 19",
                 "🇭🇰HK | vmess | @oneclickvpnkeys | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 13",
-                "🏳️XX | vmess | @Hope_Net | 16",
+                "🏳️XX | vmess | @Hope_Net | 17",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 4",
+                "🇳🇱NL | vmess | @forwardv2ray | 17",
+                "🇨🇦CA | vmess | @eliya_chiter0 | 5",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 14"
             ]
         },
@@ -124,9 +125,10 @@
                 "🇰🇷KR | vmess | @mftizi | 19",
                 "🇭🇰HK | vmess | @oneclickvpnkeys | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 13",
-                "🏳️XX | vmess | @Hope_Net | 16",
+                "🏳️XX | vmess | @Hope_Net | 17",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 4",
+                "🇳🇱NL | vmess | @forwardv2ray | 17",
+                "🇨🇦CA | vmess | @eliya_chiter0 | 5",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 14"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -242,7 +244,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 16",
+            "tag": "🏳️XX | vmess | @Hope_Net | 17",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
@@ -283,7 +285,41 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 4",
+            "tag": "🇳🇱NL | vmess | @forwardv2ray | 17",
+            "type": "vmess",
+            "server": "188.114.97.7",
+            "server_port": 443,
+            "uuid": "C66A18BC-80D7-41AC-B59F-60990EC9734E",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "kansas.gafn.online",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/speedtest",
+                "headers": {
+                    "Host": "kansas.gafn.online"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 5",
             "type": "vmess",
             "server": "198.41.199.182",
             "server_port": 2086,
