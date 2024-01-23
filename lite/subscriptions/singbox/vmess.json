@@ -108,10 +108,10 @@
                 "URL-TEST",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇭🇰HK | vmess | @oneclickvpnkeys | 11",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇿🇦ZA | vmess | @Hope_Net | 17",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇺🇸US | vmess | @ROMAX_VPN | 14"
+                "🇨🇦CA | vmess | @ROMAX_VPN | 14"
             ]
         },
         {
@@ -120,10 +120,10 @@
             "outbounds": [
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇭🇰HK | vmess | @oneclickvpnkeys | 11",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇿🇦ZA | vmess | @Hope_Net | 17",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇺🇸US | vmess | @ROMAX_VPN | 14"
+                "🇨🇦CA | vmess | @ROMAX_VPN | 14"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -180,11 +180,11 @@
             }
         },
         {
-            "tag": "🇭🇰HK | vmess | @oneclickvpnkeys | 11",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
             "type": "vmess",
-            "server": "207.148.45.85",
-            "server_port": 39201,
-            "uuid": "fd9f5a81-4d40-40b3-eb2f-dfe0a4e7bb2a",
+            "server": "nina.bond",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -194,6 +194,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "nina.bond",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "nina.bond"
+                }
             }
         },
         {
@@ -245,7 +262,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ROMAX_VPN | 14",
+            "tag": "🇨🇦CA | vmess | @ROMAX_VPN | 14",
             "type": "vmess",
             "server": "discord.gg",
             "server_port": 443,
