@@ -138,6 +138,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇵🇱PL | ss | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
+                "🇨🇦CA | vless | @prrofile_purple | 164",
                 "🇨🇷CR | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 4",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 6",
@@ -150,7 +151,7 @@
                 "🇮🇷IR | vless | @vless_vmess | 4",
                 "🇨🇦CA | vless | @MTConfig | 18",
                 "🇺🇸US | vless | @V2RayTz | 16",
-                "🇨🇦CA | vless | @DailyV2RY | 138",
+                "🇨🇦CA | vless | @DailyV2RY | 149",
                 "🇮🇷IR | vless | @sinabigo | 6",
                 "🇨🇦CA | vless | @MehradLearn | 12",
                 "🇺🇸US | vless | @lrnbymaa | 9",
@@ -222,6 +223,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇵🇱PL | ss | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
+                "🇨🇦CA | vless | @prrofile_purple | 164",
                 "🇨🇷CR | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 4",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 6",
@@ -234,7 +236,7 @@
                 "🇮🇷IR | vless | @vless_vmess | 4",
                 "🇨🇦CA | vless | @MTConfig | 18",
                 "🇺🇸US | vless | @V2RayTz | 16",
-                "🇨🇦CA | vless | @DailyV2RY | 138",
+                "🇨🇦CA | vless | @DailyV2RY | 149",
                 "🇮🇷IR | vless | @sinabigo | 6",
                 "🇨🇦CA | vless | @MehradLearn | 12",
                 "🇺🇸US | vless | @lrnbymaa | 9",
@@ -1022,7 +1024,7 @@
         {
             "tag": "🇮🇪IE | trojan | @PrivateVPNs | 18",
             "type": "trojan",
-            "server": "3.254.219.125",
+            "server": "52.51.148.74",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -1138,6 +1140,27 @@
                 "path": "\/linkws",
                 "headers": {
                     "Host": "linde06.indiavideo.sbs"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @prrofile_purple | 164",
+            "type": "vless",
+            "server": "104.21.59.100",
+            "server_port": 80,
+            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "104.21.59.100"
                 }
             }
         },
@@ -1430,7 +1453,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 138",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 149",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
