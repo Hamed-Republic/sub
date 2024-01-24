@@ -113,8 +113,6 @@
                 "🇨🇦CA | vmess | @v2ray1_ng | 4",
                 "🏳️XX | vmess | @Hope_Net | 7",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇭🇰HK | vmess | @forwardv2ray | 9",
-                "🇳🇱NL | vmess | @kingofilter | 15",
                 "🇳🇱NL | vmess | @eliya_chiter0 | 4"
             ]
         },
@@ -129,8 +127,6 @@
                 "🇨🇦CA | vmess | @v2ray1_ng | 4",
                 "🏳️XX | vmess | @Hope_Net | 7",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇭🇰HK | vmess | @forwardv2ray | 9",
-                "🇳🇱NL | vmess | @kingofilter | 15",
                 "🇳🇱NL | vmess | @eliya_chiter0 | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -301,57 +297,6 @@
                 "headers": {
                     "Host": "ca2.xv2ray.net"
                 }
-            }
-        },
-        {
-            "tag": "🇭🇰HK | vmess | @forwardv2ray | 9",
-            "type": "vmess",
-            "server": "74.119.193.64",
-            "server_port": 443,
-            "uuid": "faa2d852-e7a4-40b3-a011-e028b8a21f3b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | vmess | @kingofilter | 15",
-            "type": "vmess",
-            "server": "45.136.51.175",
-            "server_port": 32567,
-            "uuid": "df35304b-1f31-4b0d-9d02-f70256f732f1",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
