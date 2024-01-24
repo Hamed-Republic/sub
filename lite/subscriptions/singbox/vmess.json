@@ -109,9 +109,9 @@
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
+                "🇩🇪DE | vmess | @prrofile_purple | 165",
                 "🇨🇦CA | vmess | @customv2ray | 13",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🏳️XX | vmess | @forwardv2ray | 11",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 4",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 15"
             ]
@@ -123,9 +123,9 @@
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
+                "🇩🇪DE | vmess | @prrofile_purple | 165",
                 "🇨🇦CA | vmess | @customv2ray | 13",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🏳️XX | vmess | @forwardv2ray | 11",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 4",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 15"
             ],
@@ -218,6 +218,23 @@
             }
         },
         {
+            "tag": "🇩🇪DE | vmess | @prrofile_purple | 165",
+            "type": "vmess",
+            "server": "168.119.107.162",
+            "server_port": 31484,
+            "uuid": "943961b8-4e27-4bdf-a048-c2f724f542fb",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇨🇦CA | vmess | @customv2ray | 13",
             "type": "vmess",
             "server": "104.21.34.37",
@@ -272,30 +289,6 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
-                }
-            }
-        },
-        {
-            "tag": "🏳️XX | vmess | @forwardv2ray | 11",
-            "type": "vmess",
-            "server": "food.zhaal.ir",
-            "server_port": 8880,
-            "uuid": "0d1bf26a-ce97-4707-a270-7f4d2ae37334",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
                 }
             }
         },
