@@ -118,8 +118,8 @@
                 "🇨🇦CA | vless | @ARv2ray | 12",
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇺🇸US | vless | @free_v2rayyy | 4",
-                "🇨🇷CR | vless | @lightning6 | 43",
-                "🇺🇸US | vless | @V2rayNGmat | 3",
+                "🇺🇸US | vless | @lightning6 | 43",
+                "🇨🇷CR | vless | @V2rayNGmat | 3",
                 "🇨🇦CA | vless | @vpn_xw | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 18",
@@ -148,6 +148,7 @@
                 "🇮🇷IR | vless | @sinabigo | 6",
                 "🇨🇦CA | vless | @MehradLearn | 12",
                 "🇺🇸US | vless | @lrnbymaa | 8",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @fnet00 | 16",
                 "🇨🇦CA | vless | @polproxy | 38",
                 "🇺🇸US | vless | @Outlinev2rayNG | 11",
@@ -163,6 +164,7 @@
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 4",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 9"
             ]
@@ -183,8 +185,8 @@
                 "🇨🇦CA | vless | @ARv2ray | 12",
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇺🇸US | vless | @free_v2rayyy | 4",
-                "🇨🇷CR | vless | @lightning6 | 43",
-                "🇺🇸US | vless | @V2rayNGmat | 3",
+                "🇺🇸US | vless | @lightning6 | 43",
+                "🇨🇷CR | vless | @V2rayNGmat | 3",
                 "🇨🇦CA | vless | @vpn_xw | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 18",
@@ -213,6 +215,7 @@
                 "🇮🇷IR | vless | @sinabigo | 6",
                 "🇨🇦CA | vless | @MehradLearn | 12",
                 "🇺🇸US | vless | @lrnbymaa | 8",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @fnet00 | 16",
                 "🇨🇦CA | vless | @polproxy | 38",
                 "🇺🇸US | vless | @Outlinev2rayNG | 11",
@@ -228,6 +231,7 @@
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 4",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 9"
             ],
@@ -604,7 +608,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @lightning6 | 43",
+            "tag": "🇺🇸US | vless | @lightning6 | 43",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 8880,
@@ -625,7 +629,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayNGmat | 3",
+            "tag": "🇨🇷CR | vless | @V2rayNGmat | 3",
             "type": "vless",
             "server": "V2ray.motorcycles",
             "server_port": 2087,
@@ -1370,6 +1374,27 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "104.16.67.38",
+            "server_port": 2086,
+            "uuid": "23ca8a29-5605-4dbe-9be3-137772c16aec",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "104.16.67.38"
+                }
+            }
+        },
+        {
             "tag": "🏳️XX | vless | @fnet00 | 16",
             "type": "vless",
             "server": "kamyarservers.camdvr.org",
@@ -1793,6 +1818,27 @@
                     "enabled": true,
                     "public_key": "oSBCQtFYo78mD4BFlVVx6J6ykyXUQRoiOtfLdDnkGzI",
                     "short_id": "289ce33d"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
+            "type": "vless",
+            "server": "172.67.73.163",
+            "server_port": 80,
+            "uuid": "48bd4d22-e42f-4749-af6a-85ecf716c823",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "172.67.73.163"
                 }
             }
         },
