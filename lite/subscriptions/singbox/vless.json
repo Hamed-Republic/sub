@@ -146,6 +146,7 @@
                 "🇫🇷FR | vless | @DailyV2RY | 140",
                 "🇮🇷IR | vless | @sinabigo | 6",
                 "🇺🇸US | vless | @lrnbymaa | 9",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🏳️XX | vless | @fnet00 | 16",
                 "🇨🇦CA | vless | @polproxy | 38",
                 "🇺🇸US | vless | @Outlinev2rayNG | 11",
@@ -210,6 +211,7 @@
                 "🇫🇷FR | vless | @DailyV2RY | 140",
                 "🇮🇷IR | vless | @sinabigo | 6",
                 "🇺🇸US | vless | @lrnbymaa | 9",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🏳️XX | vless | @fnet00 | 16",
                 "🇨🇦CA | vless | @polproxy | 38",
                 "🇺🇸US | vless | @Outlinev2rayNG | 11",
@@ -889,9 +891,9 @@
         {
             "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
-            "server": "104.16.229.153",
-            "server_port": 80,
-            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
+            "server": "172.67.170.103",
+            "server_port": 443,
+            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -899,11 +901,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "3k.pureboy.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/CHANNEL@SINABIGO+Telegram@SINABIGO+-+Telegram+:+@SINABIGO+-+Telegram+:+@SINABIGO+-+Telegram+:+@SINABIGO+-+Telegram+:+@SINABIGO+-+Telegram+:+@SINABIGO+-+Telegram+:+@SINABIGO+-+Telegram+:+@SINABIGO+-+Telegram+:+@SINABIGO+-+Telegram+:+@SINABIGO+-+Telegram+:+@SINABIGO+-+Telegram+:+@SINABIGO+-+Telegram+:+@SINABIGO+-+Telegram+:+@SINABIGO",
                 "headers": {
-                    "Host": "104.16.229.153"
+                    "Host": "3k.pureboy.eu.org"
                 }
             }
         },
@@ -1302,6 +1314,27 @@
                 "path": "\/",
                 "headers": {
                     "Host": "173.245.58.133"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "104.31.16.160",
+            "server_port": 80,
+            "uuid": "e4a52f75-474e-449e-bcd2-05ea177f1403",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "104.31.16.160"
                 }
             }
         },
