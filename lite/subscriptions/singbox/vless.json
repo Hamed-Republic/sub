@@ -138,14 +138,15 @@
                 "🇨🇦CA | vless | @vmessorg | 0",
                 "🇨🇦CA | vless | @v2rayngvpn | 18",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 5",
+                "🇳🇱NL | vless | @ShadowProxy66 | 69",
                 "🇨🇦CA | vless | @ServerNett | 12",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇫🇷FR | vless | @v2ray_swhil | 21",
                 "🇨🇦CA | vless | @proxyymeliii | 19",
-                "🇨🇦CA | vless | @MsV2ray | 17",
+                "🇺🇸US | vless | @MsV2ray | 17",
                 "🇮🇷IR | vless | @vless_vmess | 3",
                 "🇺🇸US | vless | @MTConfig | 18",
-                "🇮🇷IR | vless | @V2RayTz | 17",
+                "🇮🇷IR | vless | @V2RayTz | 12",
                 "🇨🇦CA | vless | @VmessProtocol | 12",
                 "🇨🇦CA | vless | @DailyV2RY | 135",
                 "🇨🇦CA | vless | @sinabigo | 6",
@@ -209,14 +210,15 @@
                 "🇨🇦CA | vless | @vmessorg | 0",
                 "🇨🇦CA | vless | @v2rayngvpn | 18",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 5",
+                "🇳🇱NL | vless | @ShadowProxy66 | 69",
                 "🇨🇦CA | vless | @ServerNett | 12",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇫🇷FR | vless | @v2ray_swhil | 21",
                 "🇨🇦CA | vless | @proxyymeliii | 19",
-                "🇨🇦CA | vless | @MsV2ray | 17",
+                "🇺🇸US | vless | @MsV2ray | 17",
                 "🇮🇷IR | vless | @vless_vmess | 3",
                 "🇺🇸US | vless | @MTConfig | 18",
-                "🇮🇷IR | vless | @V2RayTz | 17",
+                "🇮🇷IR | vless | @V2RayTz | 12",
                 "🇨🇦CA | vless | @VmessProtocol | 12",
                 "🇨🇦CA | vless | @DailyV2RY | 135",
                 "🇨🇦CA | vless | @sinabigo | 6",
@@ -1161,6 +1163,27 @@
             }
         },
         {
+            "tag": "🇳🇱NL | vless | @ShadowProxy66 | 69",
+            "type": "vless",
+            "server": "188.114.96.18",
+            "server_port": 80,
+            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "188.114.96.18"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @ServerNett | 12",
             "type": "vless",
             "server": "join.servernet.fun",
@@ -1258,7 +1281,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @MsV2ray | 17",
+            "tag": "🇺🇸US | vless | @MsV2ray | 17",
             "type": "vless",
             "server": "all.MsV2ray.online",
             "server_port": 2095,
@@ -1324,10 +1347,10 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @V2RayTz | 17",
+            "tag": "🇮🇷IR | vless | @V2RayTz | 12",
             "type": "vless",
             "server": "95.81.90.83",
-            "server_port": 5111,
+            "server_port": 5113,
             "uuid": "3de8c44d-c094-47d2-89dd-36b41a3accb3",
             "flow": "",
             "packet_encoding": "xudp",
