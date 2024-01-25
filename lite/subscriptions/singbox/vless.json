@@ -114,7 +114,7 @@
                 "🇺🇸US | vless | @VPNCUSTOMIZE | 20",
                 "🇫🇮FI | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 7",
-                "🇺🇸US | vless | @V2pedia | 12",
+                "🇨🇦CA | vless | @V2pedia | 12",
                 "🇨🇦CA | vless | @frev2ray | 10",
                 "🇨🇦CA | vless | @ARv2ray | 13",
                 "🇨🇦CA | vless | @Lockey_vpn | 10",
@@ -136,13 +136,13 @@
                 "🇨🇦CA | vless | @vmessorg | 1",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 9",
                 "🇩🇪DE | vless | @v2rayngvpn | 16",
-                "🏳️XX | vless | @FalconPolV2rayNG | 5",
-                "🏳️XX | vless | @ShadowProxy66 | 46",
+                "🇨🇦CA | vless | @FalconPolV2rayNG | 6",
+                "🇨🇦CA | vless | @ShadowProxy66 | 46",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇫🇷FR | vless | @v2ray_swhil | 22",
                 "🇺🇸US | vless | @MsV2ray | 17",
                 "🇮🇷IR | vless | @vless_vmess | 3",
-                "🇺🇸US | vless | @MTConfig | 18",
+                "🇨🇦CA | vless | @MTConfig | 18",
                 "🇺🇸US | vless | @V2RayTz | 16",
                 "🇨🇦CA | vless | @sinabigo | 7",
                 "🇺🇸US | vless | @MehradLearn | 13",
@@ -183,7 +183,7 @@
                 "🇺🇸US | vless | @VPNCUSTOMIZE | 20",
                 "🇫🇮FI | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 7",
-                "🇺🇸US | vless | @V2pedia | 12",
+                "🇨🇦CA | vless | @V2pedia | 12",
                 "🇨🇦CA | vless | @frev2ray | 10",
                 "🇨🇦CA | vless | @ARv2ray | 13",
                 "🇨🇦CA | vless | @Lockey_vpn | 10",
@@ -205,13 +205,13 @@
                 "🇨🇦CA | vless | @vmessorg | 1",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 9",
                 "🇩🇪DE | vless | @v2rayngvpn | 16",
-                "🏳️XX | vless | @FalconPolV2rayNG | 5",
-                "🏳️XX | vless | @ShadowProxy66 | 46",
+                "🇨🇦CA | vless | @FalconPolV2rayNG | 6",
+                "🇨🇦CA | vless | @ShadowProxy66 | 46",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇫🇷FR | vless | @v2ray_swhil | 22",
                 "🇺🇸US | vless | @MsV2ray | 17",
                 "🇮🇷IR | vless | @vless_vmess | 3",
-                "🇺🇸US | vless | @MTConfig | 18",
+                "🇨🇦CA | vless | @MTConfig | 18",
                 "🇺🇸US | vless | @V2RayTz | 16",
                 "🇨🇦CA | vless | @sinabigo | 7",
                 "🇺🇸US | vless | @MehradLearn | 13",
@@ -513,7 +513,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2pedia | 12",
+            "tag": "🇨🇦CA | vless | @V2pedia | 12",
             "type": "vless",
             "server": "cltechip-mci.argha-v2pedia.monster",
             "server_port": 8443,
@@ -1101,11 +1101,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @FalconPolV2rayNG | 5",
+            "tag": "🇨🇦CA | vless | @FalconPolV2rayNG | 6",
             "type": "vless",
-            "server": "www.ipV2Ray.online",
+            "server": "www.unpkg.com",
             "server_port": 443,
-            "uuid": "2e226cd0-9bb5-44c0-ac96-1e4b9f03eedd",
+            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1115,7 +1115,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "Fm.ipV2Ray.store",
+                "server_name": "3k.pureboy.eu.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1124,15 +1124,15 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "3k.pureboy.eu.org"
+                }
             }
         },
         {
-            "tag": "🏳️XX | vless | @ShadowProxy66 | 46",
+            "tag": "🇨🇦CA | vless | @ShadowProxy66 | 46",
             "type": "vless",
             "server": "cafe.zhaal.ir",
             "server_port": 2052,
@@ -1233,7 +1233,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @MTConfig | 18",
+            "tag": "🇨🇦CA | vless | @MTConfig | 18",
             "type": "vless",
             "server": "all.vipxali.cfd",
             "server_port": 2083,
