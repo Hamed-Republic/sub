@@ -150,7 +150,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇫🇷FR | vless | @v2ray_swhil | 21",
                 "🇨🇦CA | vless | @proxyymeliii | 19",
-                "🇺🇸US | vless | @MsV2ray | 17",
+                "🇨🇦CA | vless | @MsV2ray | 17",
                 "🇨🇦CA | trojan | @v2ray1_ng | 5",
                 "🇮🇷IR | vless | @vless_vmess | 3",
                 "🇺🇸US | vless | @MTConfig | 18",
@@ -165,13 +165,13 @@
                 "🏳️XX | vless | @fnet00 | 16",
                 "🇨🇦CA | vless | @polproxy | 36",
                 "🇨🇷CR | vless | @Outlinev2rayNG | 7",
-                "🇺🇸US | vless | @v2rayng_vpnrog | 6",
+                "🇨🇷CR | vless | @v2rayng_vpnrog | 6",
                 "🇫🇮FI | vless | @Capital_NET | 48",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇺🇸US | vless | @Capoit | 3",
                 "🇨🇷CR | vless | @FreakConfig | 10",
                 "🇨🇷CR | vless | @flyv2ray | 26",
-                "🏳️XX | vmess | @forwardv2ray | 14",
+                "🇩🇪DE | vless | @forwardv2ray | 9",
                 "🇨🇦CA | vmess | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 16",
@@ -185,7 +185,7 @@
                 "🇬🇧GB | vless | @FoXrayIran | 4",
                 "🇨🇦CA | vless | @V2FETCH | 4",
                 "🏳️XX | vless | @VpnSkyy | 4",
-                "🇺🇸US | vless | @TIKTOK_PROXY | 7"
+                "🇨🇦CA | vless | @TIKTOK_PROXY | 7"
             ]
         },
         {
@@ -236,7 +236,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇫🇷FR | vless | @v2ray_swhil | 21",
                 "🇨🇦CA | vless | @proxyymeliii | 19",
-                "🇺🇸US | vless | @MsV2ray | 17",
+                "🇨🇦CA | vless | @MsV2ray | 17",
                 "🇨🇦CA | trojan | @v2ray1_ng | 5",
                 "🇮🇷IR | vless | @vless_vmess | 3",
                 "🇺🇸US | vless | @MTConfig | 18",
@@ -251,13 +251,13 @@
                 "🏳️XX | vless | @fnet00 | 16",
                 "🇨🇦CA | vless | @polproxy | 36",
                 "🇨🇷CR | vless | @Outlinev2rayNG | 7",
-                "🇺🇸US | vless | @v2rayng_vpnrog | 6",
+                "🇨🇷CR | vless | @v2rayng_vpnrog | 6",
                 "🇫🇮FI | vless | @Capital_NET | 48",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇺🇸US | vless | @Capoit | 3",
                 "🇨🇷CR | vless | @FreakConfig | 10",
                 "🇨🇷CR | vless | @flyv2ray | 26",
-                "🏳️XX | vmess | @forwardv2ray | 14",
+                "🇩🇪DE | vless | @forwardv2ray | 9",
                 "🇨🇦CA | vmess | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 16",
@@ -271,7 +271,7 @@
                 "🇬🇧GB | vless | @FoXrayIran | 4",
                 "🇨🇦CA | vless | @V2FETCH | 4",
                 "🏳️XX | vless | @VpnSkyy | 4",
-                "🇺🇸US | vless | @TIKTOK_PROXY | 7"
+                "🇨🇦CA | vless | @TIKTOK_PROXY | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -1465,7 +1465,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @MsV2ray | 17",
+            "tag": "🇨🇦CA | vless | @MsV2ray | 17",
             "type": "vless",
             "server": "all.MsV2ray.online",
             "server_port": 2095,
@@ -1841,7 +1841,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @v2rayng_vpnrog | 6",
+            "tag": "🇨🇷CR | vless | @v2rayng_vpnrog | 6",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -2005,16 +2005,13 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @forwardv2ray | 14",
-            "type": "vmess",
-            "server": "mci.mosi.mosipro.ml",
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 9",
+            "type": "vless",
+            "server": "91.107.154.103",
             "server_port": 443,
-            "uuid": "5c6d5265-f2b8-4066-add2-272311408952",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "uuid": "1b74315e-715f-4a1d-a1b8-21324b12d8aa",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -2022,19 +2019,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "Dusseldorf.kotick.site",
+                "server_name": "www.aljazeera.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/speedtest",
-                "headers": {
-                    "Host": "Dusseldorf.kotick.site"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "MNN-kSKdj_9m3nQKP16wiS3P1tv-ClrQ4B1IBgqySCs",
+                    "short_id": "6ba85179e30d4fc2"
                 }
             }
         },
@@ -2359,7 +2354,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @TIKTOK_PROXY | 7",
+            "tag": "🇨🇦CA | vless | @TIKTOK_PROXY | 7",
             "type": "vless",
             "server": "a-ipclf.tabanweb.com",
             "server_port": 443,
