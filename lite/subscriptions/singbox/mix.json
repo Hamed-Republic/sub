@@ -140,7 +140,7 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇨🇦CA | vless | @prrofile_purple | 174",
                 "🇨🇷CR | vless | @ShadowSocks_s | 1",
-                "🇺🇸US | vless | @customv2ray | 11",
+                "🇨🇷CR | vless | @customv2ray | 11",
                 "🇨🇦CA | vless | @UnlimitedDev | 5",
                 "🇨🇦CA | vless | @vmessorg | 0",
                 "🇨🇦CA | vless | @v2rayngvpn | 17",
@@ -150,7 +150,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @v2ray_swhil | 22",
                 "🇺🇸US | vless | @proxyymeliii | 20",
-                "🇺🇸US | vless | @MsV2ray | 17",
+                "🇨🇦CA | vless | @MsV2ray | 17",
                 "🇨🇦CA | vmess | @v2ray1_ng | 4",
                 "🇮🇷IR | vless | @vless_vmess | 3",
                 "🇺🇸US | vless | @MTConfig | 18",
@@ -172,7 +172,7 @@
                 "🇺🇸US | vless | @Capoit | 3",
                 "🇺🇸US | vless | @FreakConfig | 7",
                 "🇨🇷CR | vless | @flyv2ray | 26",
-                "🇬🇧GB | ss | @forwardv2ray | 18",
+                "🇨🇷CR | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vmess | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 16",
@@ -228,7 +228,7 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇨🇦CA | vless | @prrofile_purple | 174",
                 "🇨🇷CR | vless | @ShadowSocks_s | 1",
-                "🇺🇸US | vless | @customv2ray | 11",
+                "🇨🇷CR | vless | @customv2ray | 11",
                 "🇨🇦CA | vless | @UnlimitedDev | 5",
                 "🇨🇦CA | vless | @vmessorg | 0",
                 "🇨🇦CA | vless | @v2rayngvpn | 17",
@@ -238,7 +238,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @v2ray_swhil | 22",
                 "🇺🇸US | vless | @proxyymeliii | 20",
-                "🇺🇸US | vless | @MsV2ray | 17",
+                "🇨🇦CA | vless | @MsV2ray | 17",
                 "🇨🇦CA | vmess | @v2ray1_ng | 4",
                 "🇮🇷IR | vless | @vless_vmess | 3",
                 "🇺🇸US | vless | @MTConfig | 18",
@@ -260,7 +260,7 @@
                 "🇺🇸US | vless | @Capoit | 3",
                 "🇺🇸US | vless | @FreakConfig | 7",
                 "🇨🇷CR | vless | @flyv2ray | 26",
-                "🇬🇧GB | ss | @forwardv2ray | 18",
+                "🇨🇷CR | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vmess | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 16",
@@ -1226,7 +1226,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @customv2ray | 11",
+            "tag": "🇨🇷CR | vless | @customv2ray | 11",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 8880,
@@ -1489,7 +1489,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @MsV2ray | 17",
+            "tag": "🇨🇦CA | vless | @MsV2ray | 17",
             "type": "vless",
             "server": "all.MsV2ray.online",
             "server_port": 2095,
@@ -2028,14 +2028,35 @@
             }
         },
         {
-            "tag": "🇬🇧GB | ss | @forwardv2ray | 18",
-            "type": "shadowsocks",
-            "server": "series-a1.samanehha.co",
+            "tag": "🇨🇷CR | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "all.v-2rayngvpn.cfd",
             "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "W74XFALLLuw6m5IA",
-            "plugin": "",
-            "plugin_opts": ""
+            "uuid": "2e67fe27-ca48-4121-8fff-d91b0a2efd16",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "lol.v2rayvpn2.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@v2rayvpn2 @v2rayvpn2 @v2rayvpn2 @v2rayvpn2 @v2rayvpn2 @v2rayvpn2 @v2rayvpn2 @v2rayvpn2 @v2rayvpn2 @v2rayvpn2 @v2rayvpn2 @v2rayvpn2 @v2rayvpn2 @v2rayvpn2 @v2rayvpn2 @v2rayvpn2 @v2rayvpn2 @v2rayvpn2",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
         },
         {
             "tag": "🇨🇦CA | vmess | @FAKEOFTVC | 4",
