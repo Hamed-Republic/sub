@@ -112,7 +112,8 @@
                 "🇫🇮FI | vless | @ipV2Ray | 13",
                 "🇫🇮FI | vless | @ipV2Ray | 15",
                 "🇫🇮FI | vless | @ipV2Ray | 17",
-                "🇩🇪DE | vless | @ARv2ray | 3",
+                "🇫🇮FI | vless | @ARv2ray | 0",
+                "🇩🇪DE | vless | @ARv2ray | 4",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
@@ -150,17 +151,17 @@
                 "🇸🇪SE | vless | @kiava | 4",
                 "🇸🇪SE | vless | @kiava | 5",
                 "🇫🇮FI | vless | @vpn_go67 | 9",
-                "🇺🇸US | vless | @vpn_go67 | 10",
+                "🇨🇦CA | vless | @vpn_go67 | 10",
                 "🇺🇸US | vless | @vpn_go67 | 11",
-                "🇨🇦CA | vless | @vpn_go67 | 12",
+                "🇺🇸US | vless | @vpn_go67 | 12",
                 "🇨🇦CA | vless | @vpn_go67 | 13",
                 "🇫🇮FI | vless | @vpn_go67 | 14",
                 "🇺🇸US | vless | @vpn_go67 | 15",
                 "🇨🇦CA | vless | @vpn_go67 | 16",
                 "🇫🇮FI | vless | @vpn_go67 | 17",
-                "🇨🇦CA | vless | @vpn_go67 | 18",
-                "🇨🇦CA | vless | @vpn_go67 | 19",
-                "🇨🇦CA | vless | @vpn_go67 | 20",
+                "🇺🇸US | vless | @vpn_go67 | 18",
+                "🇺🇸US | vless | @vpn_go67 | 19",
+                "🇺🇸US | vless | @vpn_go67 | 20",
                 "🇺🇸US | vless | @vpn_go67 | 21",
                 "🇺🇸US | vless | @vpn_go67 | 22",
                 "🇺🇸US | vless | @vpn_go67 | 23",
@@ -184,7 +185,8 @@
                 "🇫🇮FI | vless | @ipV2Ray | 13",
                 "🇫🇮FI | vless | @ipV2Ray | 15",
                 "🇫🇮FI | vless | @ipV2Ray | 17",
-                "🇩🇪DE | vless | @ARv2ray | 3",
+                "🇫🇮FI | vless | @ARv2ray | 0",
+                "🇩🇪DE | vless | @ARv2ray | 4",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
@@ -222,17 +224,17 @@
                 "🇸🇪SE | vless | @kiava | 4",
                 "🇸🇪SE | vless | @kiava | 5",
                 "🇫🇮FI | vless | @vpn_go67 | 9",
-                "🇺🇸US | vless | @vpn_go67 | 10",
+                "🇨🇦CA | vless | @vpn_go67 | 10",
                 "🇺🇸US | vless | @vpn_go67 | 11",
-                "🇨🇦CA | vless | @vpn_go67 | 12",
+                "🇺🇸US | vless | @vpn_go67 | 12",
                 "🇨🇦CA | vless | @vpn_go67 | 13",
                 "🇫🇮FI | vless | @vpn_go67 | 14",
                 "🇺🇸US | vless | @vpn_go67 | 15",
                 "🇨🇦CA | vless | @vpn_go67 | 16",
                 "🇫🇮FI | vless | @vpn_go67 | 17",
-                "🇨🇦CA | vless | @vpn_go67 | 18",
-                "🇨🇦CA | vless | @vpn_go67 | 19",
-                "🇨🇦CA | vless | @vpn_go67 | 20",
+                "🇺🇸US | vless | @vpn_go67 | 18",
+                "🇺🇸US | vless | @vpn_go67 | 19",
+                "🇺🇸US | vless | @vpn_go67 | 20",
                 "🇺🇸US | vless | @vpn_go67 | 21",
                 "🇺🇸US | vless | @vpn_go67 | 22",
                 "🇺🇸US | vless | @vpn_go67 | 23",
@@ -482,7 +484,43 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ARv2ray | 3",
+            "tag": "🇫🇮FI | vless | @ARv2ray | 0",
+            "type": "vless",
+            "server": "65.108.90.29",
+            "server_port": 443,
+            "uuid": "e685702a-a407-4e41-9713-4217da88462c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "i.zeeblog.click",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-ABwAOwzCHyxZXjtKEySZWnr_OdeLNockPjoKnRo-VQ",
+                    "short_id": "a38ad3b0"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @ARv2ray | 4",
             "type": "vless",
             "server": "159.69.47.55",
             "server_port": 443,
@@ -1717,7 +1755,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @vpn_go67 | 10",
+            "tag": "🇨🇦CA | vless | @vpn_go67 | 10",
             "type": "vless",
             "server": "public.alpanel.top",
             "server_port": 1380,
@@ -1789,7 +1827,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vpn_go67 | 12",
+            "tag": "🇺🇸US | vless | @vpn_go67 | 12",
             "type": "vless",
             "server": "public.alpanel.top",
             "server_port": 1380,
@@ -2005,7 +2043,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vpn_go67 | 18",
+            "tag": "🇺🇸US | vless | @vpn_go67 | 18",
             "type": "vless",
             "server": "public.alpanel.top",
             "server_port": 1380,
@@ -2041,7 +2079,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vpn_go67 | 19",
+            "tag": "🇺🇸US | vless | @vpn_go67 | 19",
             "type": "vless",
             "server": "public.alpanel.top",
             "server_port": 1403,
@@ -2077,7 +2115,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vpn_go67 | 20",
+            "tag": "🇺🇸US | vless | @vpn_go67 | 20",
             "type": "vless",
             "server": "public.alpanel.top",
             "server_port": 1380,
