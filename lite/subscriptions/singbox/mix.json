@@ -128,7 +128,7 @@
                 "🇨🇦CA | vless | @DarkTeam_VPN | 14",
                 "🇨🇦CA | vless | @v2logy | 14",
                 "🇺🇸US | vless | @Watashi_VPN | 0",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 16",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
@@ -138,7 +138,7 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇨🇦CA | vless | @prrofile_purple | 172",
                 "🇨🇷CR | vless | @ShadowSocks_s | 10",
-                "🇨🇦CA | vless | @UnlimitedDev | 4",
+                "🇺🇸US | vless | @UnlimitedDev | 4",
                 "🇨🇦CA | vless | @vmessorg | 2",
                 "🇺🇸US | vless | @v2rayNG_Matsuri | 6",
                 "🇨🇷CR | vless | @v2rayngvpn | 14",
@@ -160,7 +160,6 @@
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🏳️XX | vmess | @Hope_Net | 1",
                 "🏳️XX | vless | @fnet00 | 15",
                 "🏳️XX | vless | @polproxy | 18",
                 "🇩🇪DE | vless | @Outlinev2rayNG | 5",
@@ -169,6 +168,7 @@
                 "🇺🇸US | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 18",
+                "🇨🇷CR | vless | @forwardv2ray | 17",
                 "🇬🇧GB | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇦CA | vless | @mehrosaboran | 14",
@@ -214,7 +214,7 @@
                 "🇨🇦CA | vless | @DarkTeam_VPN | 14",
                 "🇨🇦CA | vless | @v2logy | 14",
                 "🇺🇸US | vless | @Watashi_VPN | 0",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 16",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
@@ -224,7 +224,7 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇨🇦CA | vless | @prrofile_purple | 172",
                 "🇨🇷CR | vless | @ShadowSocks_s | 10",
-                "🇨🇦CA | vless | @UnlimitedDev | 4",
+                "🇺🇸US | vless | @UnlimitedDev | 4",
                 "🇨🇦CA | vless | @vmessorg | 2",
                 "🇺🇸US | vless | @v2rayNG_Matsuri | 6",
                 "🇨🇷CR | vless | @v2rayngvpn | 14",
@@ -246,7 +246,6 @@
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🏳️XX | vmess | @Hope_Net | 1",
                 "🏳️XX | vless | @fnet00 | 15",
                 "🏳️XX | vless | @polproxy | 18",
                 "🇩🇪DE | vless | @Outlinev2rayNG | 5",
@@ -255,6 +254,7 @@
                 "🇺🇸US | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 18",
+                "🇨🇷CR | vless | @forwardv2ray | 17",
                 "🇬🇧GB | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇦CA | vless | @mehrosaboran | 14",
@@ -961,11 +961,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
-            "server": "tel.VPNCUSTOMIZE.cam",
-            "server_port": 8443,
-            "uuid": "d062e1c1-233d-4a1b-be05-6ecf74eceebe",
+            "server": "209.38.188.68",
+            "server_port": 8080,
+            "uuid": "Telegram---V2ray_vpn_ir",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -973,22 +973,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "20ns2-V2ray.Vpncustomize.Com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "@VPNCUSTOMIZE,@VPNCUSTOMIZE",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "209.38.188.68"
+                }
             }
         },
         {
@@ -1188,7 +1178,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @UnlimitedDev | 4",
+            "tag": "🇺🇸US | vless | @UnlimitedDev | 4",
             "type": "vless",
             "server": "bia-to1.unlimiteddev.site",
             "server_port": 8880,
@@ -1745,23 +1735,6 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 1",
-            "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 8080,
-            "uuid": "caababc-cbaa-aacb-acbd-abcaabbbaccc",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "🏳️XX | vless | @fnet00 | 15",
             "type": "vless",
             "server": "kamyarserver.camdvr.org",
@@ -1984,6 +1957,27 @@
                 "path": "\/",
                 "headers": {
                     "Host": "172.67.204.84"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇷CR | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "shhproxy.varzesh3-cnd.site",
+            "server_port": 80,
+            "uuid": "28756369-6b62-4956-bcb6-302bf37bbb6f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "shhproxy.varzesh3-cnd.site"
                 }
             }
         },
