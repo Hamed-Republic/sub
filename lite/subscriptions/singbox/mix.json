@@ -155,7 +155,7 @@
                 "🇨🇦CA | vless | @MTConfig | 18",
                 "🇨🇷CR | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @VmessProtocol | 11",
-                "🇨🇦CA | vless | @DailyV2RY | 150",
+                "🇨🇦CA | vless | @DailyV2RY | 146",
                 "🇨🇦CA | vless | @sinabigo | 7",
                 "🇨🇦CA | vless | @lrnbymaa | 7",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
@@ -170,7 +170,7 @@
                 "🇺🇸US | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇳🇱NL | vmess | @forwardv2ray | 18",
+                "🇨🇦CA | vmess | @forwardv2ray | 12",
                 "🇬🇧GB | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇦CA | vless | @mehrosaboran | 13",
@@ -185,7 +185,7 @@
                 "🇮🇷IR | vless | @Good_V2rayy | 8",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
                 "🇺🇸US | tuic | @TUICity | 48",
-                "🇨🇦CA | vless | @V2FETCH | 7",
+                "🇺🇸US | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @ROMAX_VPN | 8"
             ]
@@ -243,7 +243,7 @@
                 "🇨🇦CA | vless | @MTConfig | 18",
                 "🇨🇷CR | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @VmessProtocol | 11",
-                "🇨🇦CA | vless | @DailyV2RY | 150",
+                "🇨🇦CA | vless | @DailyV2RY | 146",
                 "🇨🇦CA | vless | @sinabigo | 7",
                 "🇨🇦CA | vless | @lrnbymaa | 7",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
@@ -258,7 +258,7 @@
                 "🇺🇸US | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇳🇱NL | vmess | @forwardv2ray | 18",
+                "🇨🇦CA | vmess | @forwardv2ray | 12",
                 "🇬🇧GB | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇦CA | vless | @mehrosaboran | 13",
@@ -273,7 +273,7 @@
                 "🇮🇷IR | vless | @Good_V2rayy | 8",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
                 "🇺🇸US | tuic | @TUICity | 48",
-                "🇨🇦CA | vless | @V2FETCH | 7",
+                "🇺🇸US | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @ROMAX_VPN | 8"
             ],
@@ -1587,11 +1587,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 150",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 146",
             "type": "vless",
-            "server": "ip.aminivip2023.site",
-            "server_port": 8443,
-            "uuid": "695b6a42-e044-406e-9f55-9778548fdc15",
+            "server": "172.67.73.163",
+            "server_port": 80,
+            "uuid": "48bd4d22-e42f-4749-af6a-85ecf716c823",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1599,21 +1599,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "ri.aminivip2023.site",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/V2zed",
+                "path": "\/",
                 "headers": {
-                    "Host": "ri.aminivip2023.site"
+                    "Host": "172.67.73.163"
                 }
             }
         },
@@ -1985,11 +1975,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vmess | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 12",
             "type": "vmess",
-            "server": "188.114.97.7",
-            "server_port": 443,
-            "uuid": "25480c6f-9e71-4627-a385-93cae19ccfae",
+            "server": "104.31.16.104",
+            "server_port": 8080,
+            "uuid": "3a6752b4-8353-4172-85b1-32202116714d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -2000,21 +1990,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "kansas.gafn.online",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/speedtest",
+                "path": "\/",
                 "headers": {
-                    "Host": "kansas.gafn.online"
+                    "Host": "104.31.16.104"
                 }
             }
         },
@@ -2385,7 +2365,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2FETCH | 7",
+            "tag": "🇺🇸US | vless | @V2FETCH | 7",
             "type": "vless",
             "server": "172.67.73.163",
             "server_port": 80,
