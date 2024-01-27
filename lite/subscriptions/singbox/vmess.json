@@ -111,9 +111,7 @@
                 "🇫🇷FR | vmess | @oneclickvpnkeys | 12",
                 "🇺🇦UA | vmess | @ShadowProxy66 | 45",
                 "🇨🇦CA | vmess | @v2ray1_ng | 4",
-                "🇮🇷IR | vmess | @ConfigsHUB | 19",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇨🇭CH | vmess | @eliya_chiter0 | 2"
             ]
         },
@@ -126,9 +124,7 @@
                 "🇫🇷FR | vmess | @oneclickvpnkeys | 12",
                 "🇺🇦UA | vmess | @ShadowProxy66 | 45",
                 "🇨🇦CA | vmess | @v2ray1_ng | 4",
-                "🇮🇷IR | vmess | @ConfigsHUB | 19",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇨🇭CH | vmess | @eliya_chiter0 | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -254,23 +250,6 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @ConfigsHUB | 19",
-            "type": "vmess",
-            "server": "81.12.27.108",
-            "server_port": 16767,
-            "uuid": "d30a1c51-d37c-4cb8-bee6-8f5cd746f9d7",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "🇺🇸US | vmess | @v2Line | 6",
             "type": "vmess",
             "server": "v2line.telegram.channel.1390.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
@@ -291,40 +270,6 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
-            "type": "vmess",
-            "server": "172.67.196.112",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "kellie.makeup",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "kellie.makeup"
                 }
             }
         },
