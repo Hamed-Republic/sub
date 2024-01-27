@@ -161,9 +161,10 @@
                 "🇺🇸US | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 18",
+                "🇬🇧GB | vless | @forwardv2ray | 3",
                 "🇬🇧GB | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 12",
-                "🇺🇸US | vless | @mehrosaboran | 14",
+                "🇨🇦CA | vless | @mehrosaboran | 14",
                 "🇸🇪SE | vless | @kiava | 5",
                 "🇨🇦CA | vless | @nofiltering2 | 14",
                 "🇨🇷CR | vless | @proxy_mtm | 7",
@@ -237,9 +238,10 @@
                 "🇺🇸US | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 18",
+                "🇬🇧GB | vless | @forwardv2ray | 3",
                 "🇬🇧GB | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 12",
-                "🇺🇸US | vless | @mehrosaboran | 14",
+                "🇨🇦CA | vless | @mehrosaboran | 14",
                 "🇸🇪SE | vless | @kiava | 5",
                 "🇨🇦CA | vless | @nofiltering2 | 14",
                 "🇨🇷CR | vless | @proxy_mtm | 7",
@@ -1805,6 +1807,20 @@
             }
         },
         {
+            "tag": "🇬🇧GB | vless | @forwardv2ray | 3",
+            "type": "vless",
+            "server": "78.141.193.208",
+            "server_port": 41085,
+            "uuid": "04dc7b3a-1814-4af2-a53a-d08d5b86b345",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇬🇧GB | vless | @FAKEOFTVC | 1",
             "type": "vless",
             "server": "146.19.230.94",
@@ -1867,7 +1883,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @mehrosaboran | 14",
+            "tag": "🇨🇦CA | vless | @mehrosaboran | 14",
             "type": "vless",
             "server": "104.19.54.50",
             "server_port": 2087,
