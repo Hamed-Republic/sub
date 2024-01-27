@@ -124,7 +124,7 @@
                 "🇨🇷CR | vless | @lightning6 | 30",
                 "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
-                "🇨🇷CR | vless | @DigiV2ray | 19",
+                "🇨🇷CR | vless | @DigiV2ray | 20",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 17",
                 "🇨🇦CA | vless | @proxy_kafee | 0",
                 "🇨🇦CA | vless | @v2logy | 14",
@@ -135,6 +135,7 @@
                 "🇸🇪SE | trojan | @DirectVPN | 16",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇫🇷FR | vless | @prrofile_purple | 166",
                 "🇨🇷CR | vless | @ShadowSocks_s | 12",
                 "🇨🇦CA | vless | @customv2ray | 9",
@@ -157,7 +158,7 @@
                 "🇮🇷IR | vless | @sinabigo | 7",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇺🇦UA | vmess | @Hope_Net | 2",
@@ -169,6 +170,7 @@
                 "🇺🇸US | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇨🇷CR | vless | @flyv2ray | 16",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 10",
@@ -207,7 +209,7 @@
                 "🇨🇷CR | vless | @lightning6 | 30",
                 "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
-                "🇨🇷CR | vless | @DigiV2ray | 19",
+                "🇨🇷CR | vless | @DigiV2ray | 20",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 17",
                 "🇨🇦CA | vless | @proxy_kafee | 0",
                 "🇨🇦CA | vless | @v2logy | 14",
@@ -218,6 +220,7 @@
                 "🇸🇪SE | trojan | @DirectVPN | 16",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇫🇷FR | vless | @prrofile_purple | 166",
                 "🇨🇷CR | vless | @ShadowSocks_s | 12",
                 "🇨🇦CA | vless | @customv2ray | 9",
@@ -240,7 +243,7 @@
                 "🇮🇷IR | vless | @sinabigo | 7",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇺🇦UA | vmess | @Hope_Net | 2",
@@ -252,6 +255,7 @@
                 "🇺🇸US | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇨🇷CR | vless | @flyv2ray | 16",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 10",
@@ -821,7 +825,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @DigiV2ray | 19",
+            "tag": "🇨🇷CR | vless | @DigiV2ray | 20",
             "type": "vless",
             "server": "all.digiv2ray.shop",
             "server_port": 443,
@@ -1093,6 +1097,40 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 19",
+            "type": "vmess",
+            "server": "47.254.17.235",
+            "server_port": 443,
+            "uuid": "2caa5a0e-519b-4503-80d4-5363193e5018",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Ogl9djGbo2NTAt3Ovj1NvwjJ",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -1617,11 +1655,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "172.67.153.213",
-            "server_port": 2087,
-            "uuid": "b25d7b73-4e17-4fe9-93b8-cfc90254d47a",
+            "server": "172.64.89.170",
+            "server_port": 443,
+            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1631,7 +1669,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "hu.moienmusic.space",
+                "server_name": "3k.pureboy.eu.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1640,11 +1678,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "3k.pureboy.eu.org"
+                }
             }
         },
         {
@@ -1931,6 +1969,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "104.21.59.125",
+            "server_port": 443,
+            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mahi.kosnanatfilterchi.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "mahi.kosnanatfilterchi.eu.org"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @FAKEOFTVC | 1",
             "type": "vless",
             "server": "vpnctvip.zahedan.eu.org",
@@ -1986,8 +2055,8 @@
             "tag": "🇺🇸US | vless | @mehrosaboran | 10",
             "type": "vless",
             "server": "198.41.202.5",
-            "server_port": 2053,
-            "uuid": "9866efb4-65d3-45bf-9b9a-ec35b83d9a0d",
+            "server_port": 8880,
+            "uuid": "8b47aa53-0c2a-4dab-bf7e-3d75499841b8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1995,21 +2064,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "vpnbigbang-mtn-mci.joinbede.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/@LIGHTNING6",
                 "headers": {
-                    "Host": "vpnbigbang-mtn-mci.joinbede.sbs"
+                    "Host": "198.41.202.5"
                 }
             }
         },
