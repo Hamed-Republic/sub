@@ -113,6 +113,7 @@
                 "🇳🇱NL | vmess | @DailyV2RY | 144",
                 "🏳️XX | vmess | @Hope_Net | 7",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇫🇷FR | vmess | @forwardv2ray | 17",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 6"
             ]
         },
@@ -127,6 +128,7 @@
                 "🇳🇱NL | vmess | @DailyV2RY | 144",
                 "🏳️XX | vmess | @Hope_Net | 7",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇫🇷FR | vmess | @forwardv2ray | 17",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 6"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -299,6 +301,30 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷FR | vmess | @forwardv2ray | 17",
+            "type": "vmess",
+            "server": "173.245.49.1",
+            "server_port": 80,
+            "uuid": "4fd4c27a-2b01-4dd6-94ee-a2c465542177",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/c7z8J4SE3QpsmJZmSRZp3WCDd7QY",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
