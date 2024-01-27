@@ -128,7 +128,7 @@
                 "🇨🇦CA | vless | @DarkTeam_VPN | 18",
                 "🇨🇦CA | vless | @v2logy | 14",
                 "🇺🇸US | vless | @Watashi_VPN | 0",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 16",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
@@ -170,7 +170,7 @@
                 "🇺🇸US | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇨🇦CA | vmess | @forwardv2ray | 12",
+                "🏳️XX | vless | @forwardv2ray | 17",
                 "🇬🇧GB | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇦CA | vless | @mehrosaboran | 13",
@@ -185,7 +185,7 @@
                 "🇮🇷IR | vless | @Good_V2rayy | 8",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
                 "🇺🇸US | tuic | @TUICity | 48",
-                "🇺🇸US | vless | @V2FETCH | 7",
+                "🇨🇦CA | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @ROMAX_VPN | 8"
             ]
@@ -216,7 +216,7 @@
                 "🇨🇦CA | vless | @DarkTeam_VPN | 18",
                 "🇨🇦CA | vless | @v2logy | 14",
                 "🇺🇸US | vless | @Watashi_VPN | 0",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 16",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
@@ -258,7 +258,7 @@
                 "🇺🇸US | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇨🇦CA | vmess | @forwardv2ray | 12",
+                "🏳️XX | vless | @forwardv2ray | 17",
                 "🇬🇧GB | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇦CA | vless | @mehrosaboran | 13",
@@ -273,7 +273,7 @@
                 "🇮🇷IR | vless | @Good_V2rayy | 8",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
                 "🇺🇸US | tuic | @TUICity | 48",
-                "🇺🇸US | vless | @V2FETCH | 7",
+                "🇨🇦CA | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @ROMAX_VPN | 8"
             ],
@@ -965,11 +965,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
-            "server": "mc7.alwaysbeyonder.sbs",
+            "server": "209.38.188.68",
             "server_port": 8080,
-            "uuid": "e60fead8-6900-48a3-b293-5532d600cc5a",
+            "uuid": "Telegram---V2ray_vpn_ir",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -981,7 +981,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "mc7.alwaysbeyonder.sbs"
+                    "Host": "209.38.188.68"
                 }
             }
         },
@@ -1975,26 +1975,33 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 12",
-            "type": "vmess",
-            "server": "104.31.16.104",
-            "server_port": 8080,
-            "uuid": "3a6752b4-8353-4172-85b1-32202116714d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🏳️XX | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "join---------to.U_CONFINGVPN",
+            "server_port": 8443,
+            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "baipiao1.curly-train.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "104.31.16.104"
+                    "Host": "baipiao1.curly-train.pages.dev"
                 }
             }
         },
@@ -2365,7 +2372,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2FETCH | 7",
+            "tag": "🇨🇦CA | vless | @V2FETCH | 7",
             "type": "vless",
             "server": "172.67.73.163",
             "server_port": 80,
