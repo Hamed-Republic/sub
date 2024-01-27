@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇷CR | vless | @EliV2ray | 12",
+                "🇨🇷CR | vless | @EliV2ray | 15",
                 "🇨🇦CA | vless | @Parsashonam | 7",
                 "🇨🇦CA | vless | @v2_team | 18",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 9",
@@ -138,7 +138,7 @@
                 "🏳️XX | vless | @ShadowProxy66 | 73",
                 "🇨🇦CA | vless | @ServerNett | 12",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇫🇷FR | vless | @v2ray_swhil | 24",
+                "🇨🇦CA | vless | @v2ray_swhil | 22",
                 "🇨🇷CR | vless | @proxyymeliii | 19",
                 "🇨🇦CA | vless | @MsV2ray | 17",
                 "🇨🇦CA | vless | @v2ray1_ng | 4",
@@ -158,6 +158,7 @@
                 "🇺🇸US | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 18",
+                "🏳️XX | vless | @forwardv2ray | 13",
                 "🇬🇧GB | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 13",
@@ -178,7 +179,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇷CR | vless | @EliV2ray | 12",
+                "🇨🇷CR | vless | @EliV2ray | 15",
                 "🇨🇦CA | vless | @Parsashonam | 7",
                 "🇨🇦CA | vless | @v2_team | 18",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 9",
@@ -210,7 +211,7 @@
                 "🏳️XX | vless | @ShadowProxy66 | 73",
                 "🇨🇦CA | vless | @ServerNett | 12",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇫🇷FR | vless | @v2ray_swhil | 24",
+                "🇨🇦CA | vless | @v2ray_swhil | 22",
                 "🇨🇷CR | vless | @proxyymeliii | 19",
                 "🇨🇦CA | vless | @MsV2ray | 17",
                 "🇨🇦CA | vless | @v2ray1_ng | 4",
@@ -230,6 +231,7 @@
                 "🇺🇸US | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 18",
+                "🏳️XX | vless | @forwardv2ray | 13",
                 "🇬🇧GB | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 13",
@@ -266,7 +268,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇷CR | vless | @EliV2ray | 12",
+            "tag": "🇨🇷CR | vless | @EliV2ray | 15",
             "type": "vless",
             "server": "190.93.247.247",
             "server_port": 2053,
@@ -894,9 +896,9 @@
         {
             "tag": "🇺🇸US | vless | @V2rayNGn | 14",
             "type": "vless",
-            "server": "tel.VPNCUSTOMIZE.cam",
-            "server_port": 8443,
-            "uuid": "VPNCUSTOMIZE",
+            "server": "LIGHTNING6-joinbede.liV2ray.xyz",
+            "server_port": 8880,
+            "uuid": "c534dfc8-5a79-41aa-af4c-6ef8dfdc0985",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -904,22 +906,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "England-V2ray.vpncustomize.tech",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "@VPNCUSTOMIZE",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/@LIGHTNING6",
+                "headers": {
+                    "Host": "LIGHTNING6-joinbede.liV2ray.xyz"
+                }
             }
         },
         {
@@ -1183,17 +1175,24 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vless | @v2ray_swhil | 24",
+            "tag": "🇨🇦CA | vless | @v2ray_swhil | 22",
             "type": "vless",
-            "server": "141.94.175.90",
-            "server_port": 24201,
-            "uuid": "28ed1f32-43cb-493c-87f1-b4a71c10a528",
+            "server": "speedtest.org",
+            "server_port": 80,
+            "uuid": "seyyed",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "speedtest.org"
+                }
             }
         },
         {
@@ -1682,6 +1681,42 @@
                 "headers": {
                     "Host": "172.67.204.84"
                 }
+            }
+        },
+        {
+            "tag": "🏳️XX | vless | @forwardv2ray | 13",
+            "type": "vless",
+            "server": "v2logy.ddns.net",
+            "server_port": 443,
+            "uuid": "72859c41-15ac-4621-bfdf-ac4c3ac33ad4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "k6gu1t73hTdYK3PKNUwOqy2B7ZP-sek-dW2_-aGf9i4",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
