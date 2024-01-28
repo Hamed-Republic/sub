@@ -113,7 +113,6 @@
                 "🇺🇸US | vmess | @DailyV2RY | 163",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇩🇪DE | vmess | @forwardv2ray | 19",
                 "🇨🇭CH | vmess | @eliya_chiter0 | 3"
             ]
         },
@@ -128,7 +127,6 @@
                 "🇺🇸US | vmess | @DailyV2RY | 163",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇩🇪DE | vmess | @forwardv2ray | 19",
                 "🇨🇭CH | vmess | @eliya_chiter0 | 3"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -281,40 +279,6 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vmess | @forwardv2ray | 19",
-            "type": "vmess",
-            "server": "185.135.9.208",
-            "server_port": 443,
-            "uuid": "06195b5b-3815-4a07-96f7-47eefbb1b143",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "worker-divine-hat-02d6.savofir317.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/urnxewzvh.site\/kwhmvws",
-                "headers": {
-                    "Host": "worker-divine-hat-02d6.savofir317.workers.dev"
                 }
             }
         },
