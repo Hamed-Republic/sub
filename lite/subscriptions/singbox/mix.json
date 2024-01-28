@@ -148,12 +148,13 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 20",
                 "🇮🇷IR | vless | @vless_vmess | 1",
                 "🇺🇸US | vless | @MTConfig | 18",
-                "🇨🇦CA | vless | @V2RayTz | 14",
+                "🇨🇷CR | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 11",
                 "🇺🇸US | vmess | @DailyV2RY | 163",
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇸🇪SE | vless | @lrnbymaa | 10",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🇬🇧GB | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vless | @polproxy | 9",
@@ -164,7 +165,7 @@
                 "🇺🇸US | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇺🇸US | vless | @flyv2ray | 13",
-                "🇬🇧GB | ss | @forwardv2ray | 18",
+                "🇱🇹LT | vmess | @forwardv2ray | 19",
                 "🇺🇸US | tuic | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 15",
@@ -228,12 +229,13 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 20",
                 "🇮🇷IR | vless | @vless_vmess | 1",
                 "🇺🇸US | vless | @MTConfig | 18",
-                "🇨🇦CA | vless | @V2RayTz | 14",
+                "🇨🇷CR | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 11",
                 "🇺🇸US | vmess | @DailyV2RY | 163",
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇸🇪SE | vless | @lrnbymaa | 10",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🇬🇧GB | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vless | @polproxy | 9",
@@ -244,7 +246,7 @@
                 "🇺🇸US | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇺🇸US | vless | @flyv2ray | 13",
-                "🇬🇧GB | ss | @forwardv2ray | 18",
+                "🇱🇹LT | vmess | @forwardv2ray | 19",
                 "🇺🇸US | tuic | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 15",
@@ -1402,11 +1404,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2RayTz | 14",
+            "tag": "🇨🇷CR | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "104.24.185.127",
-            "server_port": 8443,
-            "uuid": "c4c1ab2c-7a30-4e12-a7fb-3eacb5795474",
+            "server": "190.93.246.225",
+            "server_port": 8880,
+            "uuid": "a4c67159-2586-4b09-985a-7e65556c4df9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1414,21 +1416,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "product.diitreal.shop",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/@Speedent_Net,@Speedent_Net,@Speedent_Net,@Speedent_Net",
+                "path": "\/@LIGHTNING6",
                 "headers": {
-                    "Host": "product.diitreal.shop"
+                    "Host": "190.93.246.225"
                 }
             }
         },
@@ -1531,6 +1523,20 @@
             "password": "hh4JlBhsJ0JthpDP3vIwxXvJWHknI16AijGx6sbcqWI=",
             "plugin": "",
             "plugin_opts": ""
+        },
+        {
+            "tag": "🇬🇧GB | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "192.248.151.249",
+            "server_port": 8080,
+            "uuid": "3c41365b-a875-44fc-ab55-6a00a8e13765",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
         },
         {
             "tag": "🇨🇦CA | vless | @proxystore11 | 14",
@@ -1770,14 +1776,28 @@
             }
         },
         {
-            "tag": "🇬🇧GB | ss | @forwardv2ray | 18",
-            "type": "shadowsocks",
-            "server": "51.104.230.134",
-            "server_port": 60156,
-            "method": "chacha20-ietf-poly1305",
-            "password": "cWKqgZ2YrNWTOLhDMtJn2R",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇱🇹LT | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "94.131.13.110",
+            "server_port": 80,
+            "uuid": "d3e40d59-b53c-4f4e-8867-bb598be864d2",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": ""
+                }
+            }
         },
         {
             "tag": "🇺🇸US | tuic | @FAKEOFTVC | 2",
