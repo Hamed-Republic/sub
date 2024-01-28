@@ -121,7 +121,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 11",
                 "🇨🇦CA | vless | @rxv2ray | 14",
                 "🇨🇦CA | vless | @free_v2rayyy | 5",
-                "🇺🇸US | vless | @lightning6 | 30",
+                "🇨🇷CR | vless | @lightning6 | 30",
                 "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 17",
@@ -160,7 +160,6 @@
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 13",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🏳️XX | vless | @fnet00 | 13",
@@ -171,7 +170,7 @@
                 "🇺🇸US | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇨🇷CR | vless | @flyv2ray | 15",
-                "🇨🇷CR | vless | @forwardv2ray | 18",
+                "🇬🇧GB | ss | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 13",
@@ -206,7 +205,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 11",
                 "🇨🇦CA | vless | @rxv2ray | 14",
                 "🇨🇦CA | vless | @free_v2rayyy | 5",
-                "🇺🇸US | vless | @lightning6 | 30",
+                "🇨🇷CR | vless | @lightning6 | 30",
                 "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 17",
@@ -245,7 +244,6 @@
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 13",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🏳️XX | vless | @fnet00 | 13",
@@ -256,7 +254,7 @@
                 "🇺🇸US | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇨🇷CR | vless | @flyv2ray | 15",
-                "🇨🇷CR | vless | @forwardv2ray | 18",
+                "🇬🇧GB | ss | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 13",
@@ -732,7 +730,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 30",
+            "tag": "🇨🇷CR | vless | @lightning6 | 30",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1684,27 +1682,6 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 13",
-            "type": "vless",
-            "server": "104.19.101.129",
-            "server_port": 2052,
-            "uuid": "1d9e8411-2c28-4527-875e-490c2bcc88ef",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "104.19.101.129"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @proxystore11 | 15",
             "type": "vless",
             "server": "104.31.16.160",
@@ -1947,25 +1924,14 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "www.tozedmodeon.store",
-            "server_port": 8080,
-            "uuid": "f370b6f6-0878-46b2-8eae-a703fe704149",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/TELEGRAM-ZEDMODEON-TEL-ZEDMODEON-JOIN-ZEDMODEON-JOIN-ZEDMODEON-JOIN-ZEDMODEON",
-                "headers": {
-                    "Host": "www.tozedmodeon.store"
-                }
-            }
+            "tag": "🇬🇧GB | ss | @forwardv2ray | 19",
+            "type": "shadowsocks",
+            "server": "series-a2.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "mps3FwmDjLrWaOVg",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇨🇦CA | vless | @FAKEOFTVC | 1",
