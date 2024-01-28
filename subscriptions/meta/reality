@@ -154,6 +154,8 @@ proxies:
   - {"name":"🇫🇮FI | vless | @Capital_NET | 45","type":"vless","server":"tel.1lagvpn13.cfd","port":443,"udp":true,"uuid":"9eb0967f-8c35-4aa5-b6be-a2e46f4c2348","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"gsmarena.com","grpc-opts":{"grpc-service-name":"@LAGVPN13"},"reality-opts":{"public-key":"uX1V5lrEbOrtXi-2dQyPNVJ6sf80g19HYujUUWN5nxA","short-id":"464f8607"}}
   - {"name":"🇩🇪DE | vless | @Capital_NET | 46","type":"vless","server":"5.75.210.138","port":443,"udp":true,"uuid":"738c5e99-7faa-4893-81a8-4d6655adde31","tls":true,"network":"grpc","client-fingerprint":"firefox","servername":"www.speedtest.net","grpc-opts":{"grpc-service-name":"@Digiv2ray"},"reality-opts":{"public-key":"e2VGvHwmGudsNxadrgFCv3ENvRLyD_8x9csN6tTMGns","short-id":"ab7b40b2"}}
   - {"name":"🏳️XX | vless | @Capital_NET | 48","type":"vless","server":"download.oapdis.com","port":443,"udp":true,"uuid":"6be7ac76-a575-4d2d-b4c0-62d21467bf60","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"download.oapdis.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"xceYgV2SBE6XSZqe3RCWmpGb3GLEPcc4_IcR3TQ_3Bk","short-id":"316d5439a4ae2184"}}
+  - {"name":"🇩🇪DE | vless | @forwardv2ray | 9","type":"vless","server":"45.76.89.236","port":443,"udp":true,"uuid":"d5ed6cb7-7088-4ebb-9240-e12d241ca81f","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"reversereality.cpionline.us","grpc-opts":{"grpc-service-name":""},"reality-opts":{"public-key":"9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc"}}
+  - {"name":"🇩🇪DE | vless | @forwardv2ray | 12","type":"vless","server":"185.237.15.168","port":2096,"udp":true,"uuid":"72ea5c0d-a669-4dad-b851-7dfee40376f6","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"ilovepdf.com","grpc-opts":{"grpc-service-name":""},"reality-opts":{"public-key":"s89SzOdVwK1EupCJIFvHEsVw0uAfOaFsRvx_Ayqe3UI","short-id":"cdd251af"}}
   - {"name":"🇸🇪SE | vless | @kiava | 2","type":"vless","server":"ec2-51-20-7-239.eu-north-1.compute.amazonaws.com","port":13393,"udp":true,"uuid":"4d310081-0502-488a-a26c-abecb7dc0020","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"s0.awsstatic.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"E17XtBQAZVa_636Qjsbyn8rySgv9ipf8-urCDe2pCk4","short-id":"6ba85179e30d4fc2"}}
   - {"name":"🇸🇪SE | vless | @kiava | 4","type":"vless","server":"13.49.102.150","port":8443,"udp":true,"uuid":"2c59ff33-916d-459b-a4c0-8b7432c4c3bb","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"coinmarketcap.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"aG4GaoEpt529YYeMSMlka3pu6Xh8Je72HHKPdMwnzAY","short-id":"f450be"}}
   - {"name":"🇸🇪SE | vless | @kiava | 5","type":"vless","server":"16.16.139.103","port":443,"udp":true,"uuid":"2c59ff33-916d-459b-a4c0-8b7432c4c3bb","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"coinmarketcap.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"rrxaevH9D_L-Pnhfzkp2ZymkrYxtsJjVDRaeNm4PNAc","short-id":"1db3"}}
@@ -213,6 +215,8 @@ proxy-groups:
       - '🇫🇮FI | vless | @Capital_NET | 45'
       - '🇩🇪DE | vless | @Capital_NET | 46'
       - '🏳️XX | vless | @Capital_NET | 48'
+      - '🇩🇪DE | vless | @forwardv2ray | 9'
+      - '🇩🇪DE | vless | @forwardv2ray | 12'
       - '🇸🇪SE | vless | @kiava | 2'
       - '🇸🇪SE | vless | @kiava | 4'
       - '🇸🇪SE | vless | @kiava | 5'
@@ -272,6 +276,8 @@ proxy-groups:
       - '🇫🇮FI | vless | @Capital_NET | 45'
       - '🇩🇪DE | vless | @Capital_NET | 46'
       - '🏳️XX | vless | @Capital_NET | 48'
+      - '🇩🇪DE | vless | @forwardv2ray | 9'
+      - '🇩🇪DE | vless | @forwardv2ray | 12'
       - '🇸🇪SE | vless | @kiava | 2'
       - '🇸🇪SE | vless | @kiava | 4'
       - '🇸🇪SE | vless | @kiava | 5'
@@ -330,6 +336,8 @@ proxy-groups:
       - '🇫🇮FI | vless | @Capital_NET | 45'
       - '🇩🇪DE | vless | @Capital_NET | 46'
       - '🏳️XX | vless | @Capital_NET | 48'
+      - '🇩🇪DE | vless | @forwardv2ray | 9'
+      - '🇩🇪DE | vless | @forwardv2ray | 12'
       - '🇸🇪SE | vless | @kiava | 2'
       - '🇸🇪SE | vless | @kiava | 4'
       - '🇸🇪SE | vless | @kiava | 5'
