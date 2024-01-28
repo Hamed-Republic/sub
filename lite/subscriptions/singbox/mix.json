@@ -120,7 +120,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 11",
                 "🇨🇦CA | vless | @rxv2ray | 14",
                 "🇨🇦CA | vless | @free_v2rayyy | 5",
-                "🇺🇸US | vless | @lightning6 | 30",
+                "🇨🇷CR | vless | @lightning6 | 30",
                 "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 20",
@@ -159,7 +159,6 @@
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🏳️XX | vless | @lrnbymaa | 9",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 16",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🏳️XX | vless | @fnet00 | 11",
@@ -171,7 +170,7 @@
                 "🇺🇸US | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇷CR | vless | @flyv2ray | 18",
-                "🇮🇪IE | trojan | @forwardv2ray | 18",
+                "🇬🇧GB | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 15",
@@ -183,7 +182,7 @@
                 "🇮🇷IR | vless | @Good_V2rayy | 8",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
                 "🇺🇸US | tuic | @TUICity | 61",
-                "🇨🇦CA | vless | @V2FETCH | 8",
+                "🇺🇸US | vless | @V2FETCH | 8",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 3"
             ]
@@ -206,7 +205,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 11",
                 "🇨🇦CA | vless | @rxv2ray | 14",
                 "🇨🇦CA | vless | @free_v2rayyy | 5",
-                "🇺🇸US | vless | @lightning6 | 30",
+                "🇨🇷CR | vless | @lightning6 | 30",
                 "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 20",
@@ -245,7 +244,6 @@
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🏳️XX | vless | @lrnbymaa | 9",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 16",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🏳️XX | vless | @fnet00 | 11",
@@ -257,7 +255,7 @@
                 "🇺🇸US | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇷CR | vless | @flyv2ray | 18",
-                "🇮🇪IE | trojan | @forwardv2ray | 18",
+                "🇬🇧GB | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 15",
@@ -269,7 +267,7 @@
                 "🇮🇷IR | vless | @Good_V2rayy | 8",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
                 "🇺🇸US | tuic | @TUICity | 61",
-                "🇨🇦CA | vless | @V2FETCH | 8",
+                "🇺🇸US | vless | @V2FETCH | 8",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 3"
             ],
@@ -713,7 +711,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 30",
+            "tag": "🇨🇷CR | vless | @lightning6 | 30",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1694,27 +1692,6 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "90--join.outline-vpn.cloud",
-            "server_port": 80,
-            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "90--join.outline-vpn.cloud"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @proxystore11 | 16",
             "type": "vless",
             "server": "104.31.16.160",
@@ -1978,25 +1955,17 @@
             }
         },
         {
-            "tag": "🇮🇪IE | trojan | @forwardv2ray | 18",
-            "type": "trojan",
-            "server": "52.210.107.173",
-            "server_port": 22222,
-            "password": "telegram-id-directvpn",
+            "tag": "🇬🇧GB | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "192.248.151.249",
+            "server_port": 8080,
+            "uuid": "3c41365b-a875-44fc-ab55-6a00a8e13765",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "trj.rollingnext.co.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             }
         },
         {
@@ -2273,7 +2242,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2FETCH | 8",
+            "tag": "🇺🇸US | vless | @V2FETCH | 8",
             "type": "vless",
             "server": "172.67.73.163",
             "server_port": 80,
