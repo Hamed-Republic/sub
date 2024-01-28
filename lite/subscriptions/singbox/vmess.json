@@ -113,7 +113,8 @@
                 "🇺🇦UA | vmess | @ShadowProxy66 | 45",
                 "🇺🇸US | vmess | @DailyV2RY | 163",
                 "🏳️XX | vmess | @Hope_Net | 4",
-                "🇺🇸US | vmess | @v2Line | 6"
+                "🇺🇸US | vmess | @v2Line | 6",
+                "🇨🇭CH | vmess | @eliya_chiter0 | 2"
             ]
         },
         {
@@ -127,7 +128,8 @@
                 "🇺🇦UA | vmess | @ShadowProxy66 | 45",
                 "🇺🇸US | vmess | @DailyV2RY | 163",
                 "🏳️XX | vmess | @Hope_Net | 4",
-                "🇺🇸US | vmess | @v2Line | 6"
+                "🇺🇸US | vmess | @v2Line | 6",
+                "🇨🇭CH | vmess | @eliya_chiter0 | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -152,9 +154,9 @@
         {
             "tag": "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
             "type": "vmess",
-            "server": "obdii.cfd",
+            "server": "172.67.196.112",
             "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -167,7 +169,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "obdii.cfd",
+                "server_name": "kellie.makeup",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -177,9 +179,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": "obdii.cfd"
+                    "Host": "kellie.makeup"
                 }
             }
         },
@@ -307,6 +309,23 @@
                 "headers": {
                     "Host": "ca2.xv2ray.net"
                 }
+            }
+        },
+        {
+            "tag": "🇨🇭CH | vmess | @eliya_chiter0 | 2",
+            "type": "vmess",
+            "server": "94.131.99.8",
+            "server_port": 47182,
+            "uuid": "81b2b630-8b6a-404f-b996-b12f13db5786",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         }
     ],
