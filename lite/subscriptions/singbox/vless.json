@@ -149,17 +149,17 @@
                 "🇨🇷CR | vless | @V2RayTz | 19",
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇸🇪SE | vless | @lrnbymaa | 10",
-                "🇨🇦CA | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 16",
                 "🏳️XX | vless | @fnet00 | 11",
                 "🇨🇦CA | vless | @polproxy | 9",
-                "🇨🇷CR | vless | @Outlinev2rayNG | 9",
+                "🇨🇷CR | vless | @Outlinev2rayNG | 10",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
                 "🏳️XX | vless | @Capital_NET | 48",
                 "🇺🇸US | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇨🇷CR | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 16",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 15",
@@ -221,17 +221,17 @@
                 "🇨🇷CR | vless | @V2RayTz | 19",
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇸🇪SE | vless | @lrnbymaa | 10",
-                "🇨🇦CA | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 16",
                 "🏳️XX | vless | @fnet00 | 11",
                 "🇨🇦CA | vless | @polproxy | 9",
-                "🇨🇷CR | vless | @Outlinev2rayNG | 9",
+                "🇨🇷CR | vless | @Outlinev2rayNG | 10",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
                 "🏳️XX | vless | @Capital_NET | 48",
                 "🇺🇸US | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇨🇷CR | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 16",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 15",
@@ -1447,11 +1447,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "Tgju.org",
-            "server_port": 2053,
-            "uuid": "f65b972c-72c3-4c33-b9af-2cba8fe9a3b7",
+            "server": "www.speedtest.net",
+            "server_port": 8080,
+            "uuid": "---Parsashonam--6-",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1459,22 +1459,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "1.unique69.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "TelegramHosseinStore_Za",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/Telegram:@Parsashonam,Telegram:@Parsashonam,Telegram:@Parsashonam,Telegram:@Parsashonam,Telegram:@Parsashonam",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
             }
         },
         {
@@ -1556,7 +1546,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @Outlinev2rayNG | 9",
+            "tag": "🇨🇷CR | vless | @Outlinev2rayNG | 10",
             "type": "vless",
             "server": "shhproxy.varzesh3-cnd.site",
             "server_port": 80,
@@ -1700,11 +1690,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 16",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "ubia2-join.outline-vpn.cloud",
+            "server": "mke--join.outline-vpn.cloud",
             "server_port": 80,
-            "uuid": "48bd4d22-e42f-4749-af6a-85ecf716c823",
+            "uuid": "6cc5b6b6-b3d2-4c60-8197-5defdc8d6aa1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1716,7 +1706,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "ubia2-join.outline-vpn.cloud"
+                    "Host": "mke--join.outline-vpn.cloud"
                 }
             }
         },
