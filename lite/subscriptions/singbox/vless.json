@@ -136,17 +136,16 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 5",
                 "🇨🇦CA | vless | @vmessorg | 3",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 7",
-                "🇺🇸US | vless | @v2rayngvpn | 12",
+                "🇨🇦CA | vless | @v2rayngvpn | 12",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 7",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
                 "🇨🇦CA | vless | @v2ray_swhil | 20",
                 "🇮🇷IR | vless | @vless_vmess | 1",
                 "🇺🇸US | vless | @MTConfig | 18",
-                "🇨🇦CA | vless | @V2RayTz | 17",
+                "🇨🇦CA | vless | @V2RayTz | 14",
                 "🇨🇦CA | vless | @VmessProtocol | 11",
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇸🇪SE | vless | @lrnbymaa | 10",
-                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @polproxy | 9",
                 "🇺🇸US | vless | @Outlinev2rayNG | 10",
@@ -202,17 +201,16 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 5",
                 "🇨🇦CA | vless | @vmessorg | 3",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 7",
-                "🇺🇸US | vless | @v2rayngvpn | 12",
+                "🇨🇦CA | vless | @v2rayngvpn | 12",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 7",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
                 "🇨🇦CA | vless | @v2ray_swhil | 20",
                 "🇮🇷IR | vless | @vless_vmess | 1",
                 "🇺🇸US | vless | @MTConfig | 18",
-                "🇨🇦CA | vless | @V2RayTz | 17",
+                "🇨🇦CA | vless | @V2RayTz | 14",
                 "🇨🇦CA | vless | @VmessProtocol | 11",
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇸🇪SE | vless | @lrnbymaa | 10",
-                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @polproxy | 9",
                 "🇺🇸US | vless | @Outlinev2rayNG | 10",
@@ -1089,7 +1087,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @v2rayngvpn | 12",
+            "tag": "🇨🇦CA | vless | @v2rayngvpn | 12",
             "type": "vless",
             "server": "667.lutong.eu.org",
             "server_port": 8443,
@@ -1248,11 +1246,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2RayTz | 17",
+            "tag": "🇨🇦CA | vless | @V2RayTz | 14",
             "type": "vless",
-            "server": "104.22.51.162",
-            "server_port": 80,
-            "uuid": "-----WS-ipV2Ray-----",
+            "server": "104.24.185.127",
+            "server_port": 8443,
+            "uuid": "c4c1ab2c-7a30-4e12-a7fb-3eacb5795474",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1260,11 +1258,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "product.diitreal.shop",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@ipV2Ray,@ipV2Ray",
+                "path": "\/@Speedent_Net,@Speedent_Net,@Speedent_Net,@Speedent_Net",
                 "headers": {
-                    "Host": "104.22.51.162"
+                    "Host": "product.diitreal.shop"
                 }
             }
         },
@@ -1338,37 +1346,6 @@
                 "path": "\/backup",
                 "headers": {
                     "Host": "185.146.173.20"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
-            "type": "vless",
-            "server": "172.67.170.103",
-            "server_port": 443,
-            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "3k.pureboy.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "3k.pureboy.eu.org"
                 }
             }
         },

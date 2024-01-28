@@ -142,20 +142,18 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 5",
                 "🇨🇦CA | vless | @vmessorg | 3",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 7",
-                "🇺🇸US | vless | @v2rayngvpn | 12",
+                "🇨🇦CA | vless | @v2rayngvpn | 12",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 7",
-                "🇨🇦CA | vmess | @ShadowProxy66 | 40",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
                 "🇨🇦CA | vless | @v2ray_swhil | 20",
                 "🇮🇷IR | vless | @vless_vmess | 1",
                 "🇺🇸US | vless | @MTConfig | 18",
-                "🇨🇦CA | vless | @V2RayTz | 17",
+                "🇨🇦CA | vless | @V2RayTz | 14",
                 "🇨🇦CA | vless | @VmessProtocol | 11",
                 "🇺🇸US | vmess | @DailyV2RY | 163",
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇸🇪SE | vless | @lrnbymaa | 10",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vless | @polproxy | 9",
@@ -166,7 +164,7 @@
                 "🇺🇸US | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇺🇸US | vless | @flyv2ray | 13",
-                "🇺🇸US | vmess | @forwardv2ray | 18",
+                "🇬🇧GB | ss | @forwardv2ray | 18",
                 "🇺🇸US | tuic | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 15",
@@ -224,20 +222,18 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 5",
                 "🇨🇦CA | vless | @vmessorg | 3",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 7",
-                "🇺🇸US | vless | @v2rayngvpn | 12",
+                "🇨🇦CA | vless | @v2rayngvpn | 12",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 7",
-                "🇨🇦CA | vmess | @ShadowProxy66 | 40",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
                 "🇨🇦CA | vless | @v2ray_swhil | 20",
                 "🇮🇷IR | vless | @vless_vmess | 1",
                 "🇺🇸US | vless | @MTConfig | 18",
-                "🇨🇦CA | vless | @V2RayTz | 17",
+                "🇨🇦CA | vless | @V2RayTz | 14",
                 "🇨🇦CA | vless | @VmessProtocol | 11",
                 "🇺🇸US | vmess | @DailyV2RY | 163",
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇸🇪SE | vless | @lrnbymaa | 10",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vless | @polproxy | 9",
@@ -248,7 +244,7 @@
                 "🇺🇸US | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇺🇸US | vless | @flyv2ray | 13",
-                "🇺🇸US | vmess | @forwardv2ray | 18",
+                "🇬🇧GB | ss | @forwardv2ray | 18",
                 "🇺🇸US | tuic | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 15",
@@ -1247,7 +1243,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @v2rayngvpn | 12",
+            "tag": "🇨🇦CA | vless | @v2rayngvpn | 12",
             "type": "vless",
             "server": "667.lutong.eu.org",
             "server_port": 8443,
@@ -1305,40 +1301,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "3k.pureboy.eu.org"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 40",
-            "type": "vmess",
-            "server": "172.67.220.64",
-            "server_port": 443,
-            "uuid": "f24bba0f-8656-44f8-b21e-a0e3a190c4c5",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "172.67.220.64",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/df97b21e-3943-4865-af18-b5ea9676b037",
-                "headers": {
-                    "Host": "172.67.220.64"
                 }
             }
         },
@@ -1440,11 +1402,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2RayTz | 17",
+            "tag": "🇨🇦CA | vless | @V2RayTz | 14",
             "type": "vless",
-            "server": "104.22.51.162",
-            "server_port": 80,
-            "uuid": "-----WS-ipV2Ray-----",
+            "server": "104.24.185.127",
+            "server_port": 8443,
+            "uuid": "c4c1ab2c-7a30-4e12-a7fb-3eacb5795474",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1452,11 +1414,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "product.diitreal.shop",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@ipV2Ray,@ipV2Ray",
+                "path": "\/@Speedent_Net,@Speedent_Net,@Speedent_Net,@Speedent_Net",
                 "headers": {
-                    "Host": "104.22.51.162"
+                    "Host": "product.diitreal.shop"
                 }
             }
         },
@@ -1559,37 +1531,6 @@
             "password": "hh4JlBhsJ0JthpDP3vIwxXvJWHknI16AijGx6sbcqWI=",
             "plugin": "",
             "plugin_opts": ""
-        },
-        {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
-            "type": "vless",
-            "server": "172.67.170.103",
-            "server_port": 443,
-            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "3k.pureboy.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "3k.pureboy.eu.org"
-                }
-            }
         },
         {
             "tag": "🇨🇦CA | vless | @proxystore11 | 14",
@@ -1829,21 +1770,14 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "35.87.209.22",
-            "server_port": 13489,
-            "uuid": "61761e55-dff5-4f94-f75f-b0a4718bba98",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
+            "tag": "🇬🇧GB | ss | @forwardv2ray | 18",
+            "type": "shadowsocks",
+            "server": "51.104.230.134",
+            "server_port": 60156,
+            "method": "chacha20-ietf-poly1305",
+            "password": "cWKqgZ2YrNWTOLhDMtJn2R",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇺🇸US | tuic | @FAKEOFTVC | 2",
