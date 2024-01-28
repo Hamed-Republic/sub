@@ -149,18 +149,18 @@
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 6",
                 "🇺🇦UA | vmess | @ShadowProxy66 | 45",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇫🇷FR | vless | @v2ray_swhil | 24",
+                "🇨🇦CA | vless | @v2ray_swhil | 23",
                 "🇨🇦CA | vless | @MsV2ray | 17",
                 "🇺🇸US | vless | @v2ray1_ng | 3",
                 "🇮🇷IR | vless | @vless_vmess | 0",
                 "🇨🇦CA | vless | @MTConfig | 18",
                 "🇺🇸US | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 11",
-                "🇨🇦CA | vless | @DailyV2RY | 159",
+                "🇨🇦CA | vless | @DailyV2RY | 157",
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
-                "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
-                "🇨🇷CR | vless | @ConfigsHUB | 19",
+                "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🏳️XX | vless | @fnet00 | 13",
@@ -235,18 +235,18 @@
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 6",
                 "🇺🇦UA | vmess | @ShadowProxy66 | 45",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇫🇷FR | vless | @v2ray_swhil | 24",
+                "🇨🇦CA | vless | @v2ray_swhil | 23",
                 "🇨🇦CA | vless | @MsV2ray | 17",
                 "🇺🇸US | vless | @v2ray1_ng | 3",
                 "🇮🇷IR | vless | @vless_vmess | 0",
                 "🇨🇦CA | vless | @MTConfig | 18",
                 "🇺🇸US | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 11",
-                "🇨🇦CA | vless | @DailyV2RY | 159",
+                "🇨🇦CA | vless | @DailyV2RY | 157",
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
-                "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
-                "🇨🇷CR | vless | @ConfigsHUB | 19",
+                "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🏳️XX | vless | @fnet00 | 13",
@@ -1430,17 +1430,24 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vless | @v2ray_swhil | 24",
+            "tag": "🇨🇦CA | vless | @v2ray_swhil | 23",
             "type": "vless",
-            "server": "141.94.175.90",
-            "server_port": 24201,
-            "uuid": "28ed1f32-43cb-493c-87f1-b4a71c10a528",
+            "server": "speedtest.org",
+            "server_port": 80,
+            "uuid": "seyyed",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "speedtest.org"
+                }
             }
         },
         {
@@ -1593,7 +1600,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 159",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 157",
             "type": "vless",
             "server": "cxc--join.outline-vpn.cloud",
             "server_port": 443,
@@ -1617,7 +1624,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed",
+                "path": "\/",
                 "headers": {
                     "Host": "always-online1.lp-airdrop.top"
                 }
@@ -1676,23 +1683,26 @@
             }
         },
         {
-            "tag": "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
+            "tag": "🇺🇸US | ss | @OutlineVpnOfficial | 17",
             "type": "shadowsocks",
-            "server": "212.113.106.243",
-            "server_port": 12949,
-            "method": "chacha20-ietf-poly1305",
-            "password": "P2zxXPewlV3BlfqqYiSthvtLc",
+            "server": "www.outline.network.ak2002.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
+            "server_port": 2443,
+            "method": "aes-256-gcm",
+            "password": "hh4JlBhsJ0JthpDP3vIwxXvJWHknI16AijGx6sbcqWI=",
             "plugin": "",
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇷CR | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "www.legendaryking.link",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 18",
+            "type": "vmess",
+            "server": "www.crispyrainbow.online",
             "server_port": 8080,
-            "uuid": "b7f45d38-a69f-474d-ad4d-a9248d9bc15a",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "uuid": "22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1700,9 +1710,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers",
+                "path": "\/",
                 "headers": {
-                    "Host": "www.legendaryking.link"
+                    "Host": ""
                 }
             }
         },
@@ -1961,9 +1971,9 @@
         {
             "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "172.67.204.84",
+            "server": "172.67.178.175",
             "server_port": 80,
-            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
+            "uuid": "e4a52f75-474e-449e-bcd2-05ea177f1403",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1973,9 +1983,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/path\/TELEGRAM-PROXY_MTM",
+                "path": "\/",
                 "headers": {
-                    "Host": "172.67.204.84"
+                    "Host": "172.67.178.175"
                 }
             }
         },
