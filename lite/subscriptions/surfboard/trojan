@@ -11,13 +11,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇫🇷FR | trojan | @PrivateVPNs | 18 = trojan, 15.188.203.182, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
-🇮🇪IE | trojan | @DirectVPN | 18 = trojan, 52.16.73.81, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
-🇯🇵JP | trojan | @forwardv2ray | 18 = trojan, 185.212.56.168, 443, password = share.mjj-home.com, udp-delay = true, skip-cert-verify = false, sni = tw.softbank.mjj-home.com, ws = false
+🇫🇷FR | trojan | @PrivateVPNs | 18 = trojan, 13.36.103.238, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
+🇮🇪IE | trojan | @DirectVPN | 18 = trojan, 52.19.106.253, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | trojan | @PrivateVPNs | 18,🇮🇪IE | trojan | @DirectVPN | 18,🇯🇵JP | trojan | @forwardv2ray | 18
-URL-TEST = url-test,🇫🇷FR | trojan | @PrivateVPNs | 18,🇮🇪IE | trojan | @DirectVPN | 18,🇯🇵JP | trojan | @forwardv2ray | 18
-FALLBACK = fallback,🇫🇷FR | trojan | @PrivateVPNs | 18,🇮🇪IE | trojan | @DirectVPN | 18,🇯🇵JP | trojan | @forwardv2ray | 18
+MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | trojan | @PrivateVPNs | 18,🇮🇪IE | trojan | @DirectVPN | 18
+URL-TEST = url-test,🇫🇷FR | trojan | @PrivateVPNs | 18,🇮🇪IE | trojan | @DirectVPN | 18
+FALLBACK = fallback,🇫🇷FR | trojan | @PrivateVPNs | 18,🇮🇪IE | trojan | @DirectVPN | 18
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
