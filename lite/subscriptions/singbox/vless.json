@@ -148,16 +148,13 @@
                 "🇨🇦CA | vless | @DailyV2RY | 161",
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇸🇪SE | vless | @lrnbymaa | 10",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇷CR | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @polproxy | 10",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 11",
-                "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
+                "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🏳️XX | vless | @Capital_NET | 48",
                 "🇺🇸US | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 11",
-                "🇨🇷CR | vless | @flyv2ray | 12",
-                "🇨🇷CR | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 16",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -217,16 +214,13 @@
                 "🇨🇦CA | vless | @DailyV2RY | 161",
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇸🇪SE | vless | @lrnbymaa | 10",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇷CR | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @polproxy | 10",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 11",
-                "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
+                "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🏳️XX | vless | @Capital_NET | 48",
                 "🇺🇸US | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 11",
-                "🇨🇷CR | vless | @flyv2ray | 12",
-                "🇨🇷CR | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 16",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -1410,20 +1404,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "155.138.136.250",
-            "server_port": 44992,
-            "uuid": "f4f8a6b7-7a20-4d43-a51e-5dbcfb164083",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "🇨🇷CR | vless | @proxystore11 | 15",
             "type": "vless",
             "server": "190.93.247.155",
@@ -1497,7 +1477,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
+            "tag": "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
             "type": "vless",
             "server": "k---join.outline-vpn.cloud",
             "server_port": 80,
@@ -1596,68 +1576,6 @@
                 "headers": {
                     "Host": "104.31.16.250"
                 }
-            }
-        },
-        {
-            "tag": "🇨🇷CR | vless | @flyv2ray | 12",
-            "type": "vless",
-            "server": "shhproxy.varzesh3-cnd.site",
-            "server_port": 2087,
-            "uuid": "51f37887-6d44-40e5-b325-4f91641fb825",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "gmV2raybo.shhproxyfree.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "gmV2raybo.shhproxyfree.com"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇷CR | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "190.93.247.155",
-            "server_port": 2083,
-            "uuid": "787dd2f6-5637-4e1c-b7c3-4d6cc39aca66",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "liV2rayf.xn--mgbg0fka44dhgc.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@LIGHTNING6",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
