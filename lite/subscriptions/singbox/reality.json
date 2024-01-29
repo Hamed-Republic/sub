@@ -108,7 +108,6 @@
                 "URL-TEST",
                 "🇫🇮FI | vless | @ipV2Ray | 17",
                 "🏳️XX | vless | @Capital_NET | 48",
-                "🇸🇪SE | vless | @forwardv2ray | 18",
                 "🇸🇪SE | vless | @kiava | 6",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @FoXrayIran | 4"
@@ -120,7 +119,6 @@
             "outbounds": [
                 "🇫🇮FI | vless | @ipV2Ray | 17",
                 "🏳️XX | vless | @Capital_NET | 48",
-                "🇸🇪SE | vless | @forwardv2ray | 18",
                 "🇸🇪SE | vless | @kiava | 6",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @FoXrayIran | 4"
@@ -208,42 +206,6 @@
                     "public_key": "xceYgV2SBE6XSZqe3RCWmpGb3GLEPcc4_IcR3TQ_3Bk",
                     "short_id": "316d5439a4ae2184"
                 }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "13.53.217.241",
-            "server_port": 8443,
-            "uuid": "89c31658-4aac-4414-b854-c211908b55d4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "*.google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "lCl8V4GXi-C_mkiBrulZnz4Cigt1ioOMHXaMIvW4wTs",
-                    "short_id": "c4"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@kiava",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
