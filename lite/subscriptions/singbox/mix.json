@@ -142,7 +142,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 5",
                 "🇨🇦CA | vless | @vmessorg | 3",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 7",
-                "🇺🇸US | vless | @v2rayngvpn | 12",
+                "🇨🇦CA | vless | @v2rayngvpn | 12",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 7",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
                 "🇺🇸US | vless | @v2ray_swhil | 22",
@@ -155,7 +155,7 @@
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇸🇪SE | vless | @lrnbymaa | 10",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇬🇧GB | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vless | @polproxy | 10",
@@ -171,7 +171,7 @@
                 "🇨🇦CA | vless | @mehrosaboran | 16",
                 "🇸🇪SE | vless | @kiava | 5",
                 "🇨🇷CR | vless | @proxy_mtm | 3",
-                "🇨🇦CA | vless | @vpn_go67 | 23",
+                "🇺🇸US | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇮🇷IR | vmess | @eliya_chiter0 | 2",
                 "🇮🇷IR | vless | @Good_V2rayy | 8",
@@ -223,7 +223,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 5",
                 "🇨🇦CA | vless | @vmessorg | 3",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 7",
-                "🇺🇸US | vless | @v2rayngvpn | 12",
+                "🇨🇦CA | vless | @v2rayngvpn | 12",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 7",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
                 "🇺🇸US | vless | @v2ray_swhil | 22",
@@ -236,7 +236,7 @@
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇸🇪SE | vless | @lrnbymaa | 10",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇬🇧GB | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vless | @polproxy | 10",
@@ -252,7 +252,7 @@
                 "🇨🇦CA | vless | @mehrosaboran | 16",
                 "🇸🇪SE | vless | @kiava | 5",
                 "🇨🇷CR | vless | @proxy_mtm | 3",
-                "🇨🇦CA | vless | @vpn_go67 | 23",
+                "🇺🇸US | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇮🇷IR | vmess | @eliya_chiter0 | 2",
                 "🇮🇷IR | vless | @Good_V2rayy | 8",
@@ -1235,7 +1235,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @v2rayngvpn | 12",
+            "tag": "🇨🇦CA | vless | @v2rayngvpn | 12",
             "type": "vless",
             "server": "667.lutong.eu.org",
             "server_port": 8443,
@@ -1550,17 +1550,34 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "192.248.151.249",
-            "server_port": 8080,
-            "uuid": "3c41365b-a875-44fc-ab55-6a00a8e13765",
+            "server": "3k.pureboy.eu.org",
+            "server_port": 443,
+            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "3k.pureboy.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "3k.pureboy.eu.org"
+                }
             }
         },
         {
@@ -1919,7 +1936,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vpn_go67 | 23",
+            "tag": "🇺🇸US | vless | @vpn_go67 | 23",
             "type": "vless",
             "server": "public.alpanel.top",
             "server_port": 1403,
