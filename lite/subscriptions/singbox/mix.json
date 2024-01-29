@@ -142,7 +142,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 5",
                 "🇨🇦CA | vless | @vmessorg | 3",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 7",
-                "🇺🇸US | vless | @v2rayngvpn | 12",
+                "🇨🇦CA | vless | @v2rayngvpn | 12",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 7",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
                 "🇨🇦CA | vless | @v2ray_swhil | 20",
@@ -154,7 +154,7 @@
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇸🇪SE | vless | @lrnbymaa | 10",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇬🇧GB | vless | @ConfigsHUB | 19",
+                "🇺🇸US | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vless | @polproxy | 10",
@@ -165,12 +165,13 @@
                 "🇺🇸US | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇺🇸US | vless | @flyv2ray | 13",
+                "🇺🇸US | vless | @forwardv2ray | 19",
                 "🇺🇸US | tuic | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 16",
                 "🇸🇪SE | vless | @kiava | 5",
                 "🇨🇷CR | vless | @proxy_mtm | 3",
-                "🇨🇦CA | vless | @vpn_go67 | 23",
+                "🇺🇸US | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇮🇷IR | vmess | @eliya_chiter0 | 2",
                 "🇮🇷IR | vless | @Good_V2rayy | 8",
@@ -222,7 +223,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 5",
                 "🇨🇦CA | vless | @vmessorg | 3",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 7",
-                "🇺🇸US | vless | @v2rayngvpn | 12",
+                "🇨🇦CA | vless | @v2rayngvpn | 12",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 7",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
                 "🇨🇦CA | vless | @v2ray_swhil | 20",
@@ -234,7 +235,7 @@
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇸🇪SE | vless | @lrnbymaa | 10",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇬🇧GB | vless | @ConfigsHUB | 19",
+                "🇺🇸US | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vless | @polproxy | 10",
@@ -245,12 +246,13 @@
                 "🇺🇸US | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇺🇸US | vless | @flyv2ray | 13",
+                "🇺🇸US | vless | @forwardv2ray | 19",
                 "🇺🇸US | tuic | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 16",
                 "🇸🇪SE | vless | @kiava | 5",
                 "🇨🇷CR | vless | @proxy_mtm | 3",
-                "🇨🇦CA | vless | @vpn_go67 | 23",
+                "🇺🇸US | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇮🇷IR | vmess | @eliya_chiter0 | 2",
                 "🇮🇷IR | vless | @Good_V2rayy | 8",
@@ -1233,7 +1235,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @v2rayngvpn | 12",
+            "tag": "🇨🇦CA | vless | @v2rayngvpn | 12",
             "type": "vless",
             "server": "667.lutong.eu.org",
             "server_port": 8443,
@@ -1513,17 +1515,37 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "192.248.151.249",
-            "server_port": 8080,
-            "uuid": "3c41365b-a875-44fc-ab55-6a00a8e13765",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "urnxewzvh.site",
+            "server_port": 443,
+            "uuid": "06195b5b-3815-4a07-96f7-47eefbb1b143",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "urnxewzvh.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/kwhmvws",
+                "headers": {
+                    "Host": "urnxewzvh.site"
+                }
             }
         },
         {
@@ -1774,6 +1796,37 @@
             }
         },
         {
+            "tag": "🇺🇸US | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "tel.powerteam523.site",
+            "server_port": 443,
+            "uuid": "7579d86d-11de-486b-c551-7e2784a73e7c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tel.powerteam523.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "tel.powerteam523.site"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | tuic | @FAKEOFTVC | 2",
             "type": "tuic",
             "server": "107.173.15.52",
@@ -1892,7 +1945,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vpn_go67 | 23",
+            "tag": "🇺🇸US | vless | @vpn_go67 | 23",
             "type": "vless",
             "server": "public.alpanel.top",
             "server_port": 1403,
