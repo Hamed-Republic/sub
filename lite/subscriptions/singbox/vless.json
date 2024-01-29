@@ -118,7 +118,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 11",
                 "🇨🇦CA | vless | @rxv2ray | 14",
                 "🇨🇦CA | vless | @free_v2rayyy | 5",
-                "🇨🇷CR | vless | @lightning6 | 31",
+                "🇺🇸US | vless | @lightning6 | 31",
                 "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 20",
@@ -155,6 +155,7 @@
                 "🏳️XX | vless | @Capital_NET | 48",
                 "🇨🇦CA | vless | @Capoit | 3",
                 "🇨🇦CA | vless | @FreakConfig | 9",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -184,7 +185,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 11",
                 "🇨🇦CA | vless | @rxv2ray | 14",
                 "🇨🇦CA | vless | @free_v2rayyy | 5",
-                "🇨🇷CR | vless | @lightning6 | 31",
+                "🇺🇸US | vless | @lightning6 | 31",
                 "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 20",
@@ -221,6 +222,7 @@
                 "🏳️XX | vless | @Capital_NET | 48",
                 "🇨🇦CA | vless | @Capoit | 3",
                 "🇨🇦CA | vless | @FreakConfig | 9",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -581,7 +583,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @lightning6 | 31",
+            "tag": "🇺🇸US | vless | @lightning6 | 31",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1530,6 +1532,27 @@
                 "path": "\/path\/@FreakConfig",
                 "headers": {
                     "Host": "172.67.73.163"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "f98b21dc-4425-4c72-94cb-a24bc3f54341",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7",
+                "headers": {
+                    "Host": "www.speedtest.net"
                 }
             }
         },
