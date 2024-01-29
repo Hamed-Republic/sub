@@ -134,7 +134,7 @@
                 "🇬🇧GB | trojan | @DirectVPN | 14",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇵🇱PL | ss | @DeamNet_Proxy | 19",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇺🇸US | vless | @prrofile_purple | 176",
                 "🇸🇪SE | vless | @customv2ray | 8",
@@ -156,7 +156,7 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 10",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇺🇸US | vless | @ConfigsHUB | 18",
+                "🇩🇪DE | trojan | @ConfigsHUB | 5",
                 "🇨🇷CR | vless | @proxystore11 | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 11",
                 "🏳️XX | vmess | @Hope_Net | 4",
@@ -167,7 +167,6 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 3",
                 "🇨🇦CA | vless | @FreakConfig | 9",
-                "🇺🇸US | vless | @forwardv2ray | 9",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -216,7 +215,7 @@
                 "🇬🇧GB | trojan | @DirectVPN | 14",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇵🇱PL | ss | @DeamNet_Proxy | 19",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇺🇸US | vless | @prrofile_purple | 176",
                 "🇸🇪SE | vless | @customv2ray | 8",
@@ -238,7 +237,7 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 10",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇺🇸US | vless | @ConfigsHUB | 18",
+                "🇩🇪DE | trojan | @ConfigsHUB | 5",
                 "🇨🇷CR | vless | @proxystore11 | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 11",
                 "🏳️XX | vmess | @Hope_Net | 4",
@@ -249,7 +248,6 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 3",
                 "🇨🇦CA | vless | @FreakConfig | 9",
-                "🇺🇸US | vless | @forwardv2ray | 9",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -1036,14 +1034,21 @@
             }
         },
         {
-            "tag": "🇵🇱PL | ss | @DeamNet_Proxy | 19",
-            "type": "shadowsocks",
-            "server": "54.36.174.181",
-            "server_port": 8118,
-            "method": "aes-256-gcm",
-            "password": "cdBIDV42DCwnfIN",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 19",
+            "type": "vmess",
+            "server": "162.251.62.115",
+            "server_port": 22324,
+            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
         },
         {
             "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
@@ -1542,23 +1547,24 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "tel.VPNCUSTOMIZE.cam",
-            "server_port": 8080,
-            "uuid": "dc9f9344-d123-46e2-8c6d-db02ba121e37",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇩🇪DE | trojan | @ConfigsHUB | 5",
+            "type": "trojan",
+            "server": "18.153.216.178",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "tel.VPNCUSTOMIZE.cam"
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.miwan.co.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -1799,27 +1805,6 @@
                 "path": "\/path\/@FreakConfig",
                 "headers": {
                     "Host": "172.67.73.163"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @forwardv2ray | 9",
-            "type": "vless",
-            "server": "190.93.245.187",
-            "server_port": 2082,
-            "uuid": "80dc148c-3411-46d1-b702-ae50abb01542",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?@Archive_Android---@Archive_Android---@Archive_Android",
-                "headers": {
-                    "Host": "190.93.245.187"
                 }
             }
         },
