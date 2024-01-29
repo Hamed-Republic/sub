@@ -118,7 +118,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 11",
                 "🇨🇦CA | vless | @rxv2ray | 14",
                 "🇨🇦CA | vless | @free_v2rayyy | 5",
-                "🇺🇸US | vless | @lightning6 | 31",
+                "🇨🇷CR | vless | @lightning6 | 31",
                 "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 20",
@@ -148,6 +148,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 159",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 10",
+                "🇨🇷CR | vless | @ConfigsHUB | 15",
                 "🇨🇷CR | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @polproxy | 11",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 11",
@@ -155,7 +156,6 @@
                 "🏳️XX | vless | @Capital_NET | 48",
                 "🇨🇦CA | vless | @Capoit | 3",
                 "🇨🇦CA | vless | @FreakConfig | 9",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -185,7 +185,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 11",
                 "🇨🇦CA | vless | @rxv2ray | 14",
                 "🇨🇦CA | vless | @free_v2rayyy | 5",
-                "🇺🇸US | vless | @lightning6 | 31",
+                "🇨🇷CR | vless | @lightning6 | 31",
                 "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 20",
@@ -215,6 +215,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 159",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 10",
+                "🇨🇷CR | vless | @ConfigsHUB | 15",
                 "🇨🇷CR | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @polproxy | 11",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 11",
@@ -222,7 +223,6 @@
                 "🏳️XX | vless | @Capital_NET | 48",
                 "🇨🇦CA | vless | @Capoit | 3",
                 "🇨🇦CA | vless | @FreakConfig | 9",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -583,7 +583,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 31",
+            "tag": "🇨🇷CR | vless | @lightning6 | 31",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1371,6 +1371,27 @@
             }
         },
         {
+            "tag": "🇨🇷CR | vless | @ConfigsHUB | 15",
+            "type": "vless",
+            "server": "190.93.247.155",
+            "server_port": 2095,
+            "uuid": "7c5638b6-74be-4ab1-b060-9d2abe4651d1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "190.93.247.155"
+                }
+            }
+        },
+        {
             "tag": "🇨🇷CR | vless | @proxystore11 | 15",
             "type": "vless",
             "server": "190.93.247.155",
@@ -1532,27 +1553,6 @@
                 "path": "\/path\/@FreakConfig",
                 "headers": {
                     "Host": "172.67.73.163"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "f98b21dc-4425-4c72-94cb-a24bc3f54341",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7v2rayfast_7",
-                "headers": {
-                    "Host": "www.speedtest.net"
                 }
             }
         },
