@@ -148,16 +148,15 @@
                 "🇨🇦CA | vless | @DailyV2RY | 166",
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇸🇪SE | vless | @lrnbymaa | 10",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 14",
-                "🇺🇸US | vless | @polproxy | 10",
+                "🇨🇦CA | vless | @polproxy | 10",
                 "🇺🇸US | vless | @Outlinev2rayNG | 9",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
                 "🏳️XX | vless | @Capital_NET | 48",
                 "🇺🇸US | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 12",
                 "🇨🇷CR | vless | @flyv2ray | 12",
-                "🇨🇦CA | vless | @forwardv2ray | 16",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 16",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -217,16 +216,15 @@
                 "🇨🇦CA | vless | @DailyV2RY | 166",
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇸🇪SE | vless | @lrnbymaa | 10",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 14",
-                "🇺🇸US | vless | @polproxy | 10",
+                "🇨🇦CA | vless | @polproxy | 10",
                 "🇺🇸US | vless | @Outlinev2rayNG | 9",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
                 "🏳️XX | vless | @Capital_NET | 48",
                 "🇺🇸US | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 12",
                 "🇨🇷CR | vless | @flyv2ray | 12",
-                "🇨🇦CA | vless | @forwardv2ray | 16",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 16",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -324,7 +322,7 @@
         {
             "tag": "🇫🇷FR | vless | @VlessConfig | 15",
             "type": "vless",
-            "server": "15.236.13.95",
+            "server": "15.188.173.52",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1056,9 +1054,9 @@
         {
             "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 7",
             "type": "vless",
-            "server": "iranserver.com",
-            "server_port": 2096,
-            "uuid": "f4cec6cc-6177-423c-90f8-2ad9f0dd996b",
+            "server": "ip.sb",
+            "server_port": 80,
+            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1066,30 +1064,20 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "vpnct.arvancode.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/bShq2qgG8GnX8zqm\/",
+                "path": "\/",
                 "headers": {
-                    "Host": "vpnct.arvancode.eu.org"
+                    "Host": "ip.sb"
                 }
             }
         },
         {
             "tag": "🇨🇦CA | vless | @v2rayngvpn | 12",
             "type": "vless",
-            "server": "667.lutong.eu.org",
-            "server_port": 8443,
-            "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+            "server": "172.67.73.163",
+            "server_port": 443,
+            "uuid": "48bd4d22-e42f-4749-af6a-85ecf716c823",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1099,7 +1087,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "pages.20230619.love",
+                "server_name": "fkhamnei.kosnanatfilterchi.eu.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1109,9 +1097,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram🇨🇳 @wangcai_8 \/",
+                "path": "\/",
                 "headers": {
-                    "Host": "pages.20230619.love"
+                    "Host": "fkhamnei.kosnanatfilterchi.eu.org"
                 }
             }
         },
@@ -1400,11 +1388,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "104.18.202.209",
-            "server_port": 443,
-            "uuid": "6fc70ad6-fd3d-4e48-92cf-f98b391917d0",
+            "server": "mtn.VPNPROSEC.com",
+            "server_port": 2096,
+            "uuid": "SVNTEAMe",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1414,19 +1402,12 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "MdVpnSec-V2rayNg-Free.snappfoodd.site",
+                "server_name": "svnV2rayvip.snappfoodi.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "MdVpnSec-V2rayNg-Free.snappfoodd.site"
                 }
             }
         },
@@ -1452,7 +1433,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @polproxy | 10",
+            "tag": "🇨🇦CA | vless | @polproxy | 10",
             "type": "vless",
             "server": "104.16.245.65",
             "server_port": 2087,
@@ -1643,27 +1624,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "gmV2raybo.shhproxyfree.com"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 16",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "6538c591-403b-4914-af56-6c09716b4754",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@Config_On , @Config_On , @Config_On , @Config_On , @Config_On , @Config_On , @Config_On , @Config_On , @Config_On , @Config_On , @Config_On , @Config_On , @Config_On , @Config_On , @Config_On , @Config_On , @Config_On , @Config_On , @Config_On , @Config_On , @Config_On , @Config_On , @Config_On , @Config_On",
-                "headers": {
-                    "Host": "www.speedtest.net"
                 }
             }
         },
