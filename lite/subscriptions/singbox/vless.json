@@ -147,15 +147,14 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @MehradLearn | 14",
                 "🇨🇦CA | vless | @lrnbymaa | 11",
-                "🇬🇧GB | vless | @ConfigsHUB | 19",
+                "🇩🇪DE | vless | @ConfigsHUB | 10",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @polproxy | 11",
                 "🇺🇸US | vless | @Outlinev2rayNG | 5",
-                "🇨🇷CR | vless | @v2rayng_vpnrog | 7",
+                "🇺🇸US | vless | @v2rayng_vpnrog | 7",
                 "🇫🇮FI | vless | @Capital_NET | 47",
                 "🇨🇦CA | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 6",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -215,15 +214,14 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @MehradLearn | 14",
                 "🇨🇦CA | vless | @lrnbymaa | 11",
-                "🇬🇧GB | vless | @ConfigsHUB | 19",
+                "🇩🇪DE | vless | @ConfigsHUB | 10",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @polproxy | 11",
                 "🇺🇸US | vless | @Outlinev2rayNG | 5",
-                "🇨🇷CR | vless | @v2rayng_vpnrog | 7",
+                "🇺🇸US | vless | @v2rayng_vpnrog | 7",
                 "🇫🇮FI | vless | @Capital_NET | 47",
                 "🇨🇦CA | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 6",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -1385,24 +1383,17 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @ConfigsHUB | 19",
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 10",
             "type": "vless",
-            "server": "87.236.208.38",
-            "server_port": 8880,
-            "uuid": "95e573cb-105c-42e5-a353-8aed544d31a8",
-            "flow": "xtls-rprx-vision",
+            "server": "80.240.16.189",
+            "server_port": 54896,
+            "uuid": "fd551db3-9a96-40a2-a38a-6e19ec9f3645",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "87.236.208.38"
-                }
             }
         },
         {
@@ -1469,7 +1460,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @v2rayng_vpnrog | 7",
+            "tag": "🇺🇸US | vless | @v2rayng_vpnrog | 7",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1584,37 +1575,6 @@
                 "path": "\/@X4Azadi",
                 "headers": {
                     "Host": "www.speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "104.21.14.152",
-            "server_port": 443,
-            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "edgood.king361.cf",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Path\/Telegram@V2ray_alpha\/",
-                "headers": {
-                    "Host": "edgood.king361.cf"
                 }
             }
         },
