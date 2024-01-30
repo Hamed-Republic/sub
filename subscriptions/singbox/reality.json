@@ -126,6 +126,8 @@
                 "🇩🇪DE | vless | @v2ray_swhil | 8",
                 "🇫🇮FI | vless | @v2ray_swhil | 14",
                 "🇩🇪DE | vless | @v2ray1_ng | 0",
+                "🇩🇪DE | vless | @ConfigsHUB | 15",
+                "🇩🇪DE | vless | @ConfigsHUB | 16",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 0",
                 "🏳️XX | vless | @Capital_NET | 34",
                 "🇩🇪DE | vless | @Capital_NET | 35",
@@ -149,10 +151,10 @@
                 "🇨🇦CA | vless | @vpn_go67 | 15",
                 "🇨🇦CA | vless | @vpn_go67 | 16",
                 "🇫🇮FI | vless | @vpn_go67 | 17",
-                "🇨🇦CA | vless | @vpn_go67 | 18",
-                "🇨🇦CA | vless | @vpn_go67 | 19",
-                "🇺🇸US | vless | @vpn_go67 | 20",
-                "🇺🇸US | vless | @vpn_go67 | 21",
+                "🇺🇸US | vless | @vpn_go67 | 18",
+                "🇺🇸US | vless | @vpn_go67 | 19",
+                "🇨🇦CA | vless | @vpn_go67 | 20",
+                "🇨🇦CA | vless | @vpn_go67 | 21",
                 "🇺🇸US | vless | @vpn_go67 | 22",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇸🇪SE | vless | @freeconfigv2 | 1",
@@ -189,6 +191,8 @@
                 "🇩🇪DE | vless | @v2ray_swhil | 8",
                 "🇫🇮FI | vless | @v2ray_swhil | 14",
                 "🇩🇪DE | vless | @v2ray1_ng | 0",
+                "🇩🇪DE | vless | @ConfigsHUB | 15",
+                "🇩🇪DE | vless | @ConfigsHUB | 16",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 0",
                 "🏳️XX | vless | @Capital_NET | 34",
                 "🇩🇪DE | vless | @Capital_NET | 35",
@@ -212,10 +216,10 @@
                 "🇨🇦CA | vless | @vpn_go67 | 15",
                 "🇨🇦CA | vless | @vpn_go67 | 16",
                 "🇫🇮FI | vless | @vpn_go67 | 17",
-                "🇨🇦CA | vless | @vpn_go67 | 18",
-                "🇨🇦CA | vless | @vpn_go67 | 19",
-                "🇺🇸US | vless | @vpn_go67 | 20",
-                "🇺🇸US | vless | @vpn_go67 | 21",
+                "🇺🇸US | vless | @vpn_go67 | 18",
+                "🇺🇸US | vless | @vpn_go67 | 19",
+                "🇨🇦CA | vless | @vpn_go67 | 20",
+                "🇨🇦CA | vless | @vpn_go67 | 21",
                 "🇺🇸US | vless | @vpn_go67 | 22",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇸🇪SE | vless | @freeconfigv2 | 1",
@@ -902,6 +906,64 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 15",
+            "type": "vless",
+            "server": "116.202.99.47",
+            "server_port": 56372,
+            "uuid": "cf052982-23bb-4404-8817-05302c50fcd3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YdveG9_ciK2YgrnXMN6Ncid3h5dK44rI1Rhb29RTDWE",
+                    "short_id": "e7f19002"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "116.202.99.47",
+            "server_port": 49124,
+            "uuid": "0448c6ea-34ce-487a-93be-8e57bd2f2fa8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "dalan-group.de",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "rBdocIQXi2MdXwQYubRsn4fTG1_3XMZiNgtn9u3yzwI",
+                    "short_id": "0bf98883"
+                }
             }
         },
         {
@@ -1663,7 +1725,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vpn_go67 | 18",
+            "tag": "🇺🇸US | vless | @vpn_go67 | 18",
             "type": "vless",
             "server": "public.alpanel.top",
             "server_port": 1380,
@@ -1699,7 +1761,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vpn_go67 | 19",
+            "tag": "🇺🇸US | vless | @vpn_go67 | 19",
             "type": "vless",
             "server": "public.alpanel.top",
             "server_port": 1403,
@@ -1735,7 +1797,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @vpn_go67 | 20",
+            "tag": "🇨🇦CA | vless | @vpn_go67 | 20",
             "type": "vless",
             "server": "public.alpanel.top",
             "server_port": 1380,
@@ -1771,7 +1833,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @vpn_go67 | 21",
+            "tag": "🇨🇦CA | vless | @vpn_go67 | 21",
             "type": "vless",
             "server": "public.alpanel.top",
             "server_port": 1403,
