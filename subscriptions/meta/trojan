@@ -154,7 +154,6 @@ proxies:
   - {"name":"🇫🇷FR | trojan | @DirectVPN | 15","type":"trojan","server":"52.47.166.3","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
   - {"name":"🇺🇸US | trojan | @oneclickvpnkeys | 6","type":"trojan","server":"190.93.245.187","port":2083,"udp":false,"password":"1YcFVMZWx_OiEBEvnEMtrg","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"arv2.aticloud.ir"}
   - {"name":"🇺🇸US | trojan | @VmessProtocol | 1","type":"trojan","server":"190.93.245.187","port":2083,"udp":false,"password":"1YcFVMZWx_OiEBEvnEMtrg","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"arv2.aticloud.ir"}
-  - {"name":"🇨🇦CA | trojan | @ConfigsHUB | 15","type":"trojan","server":"ironone.libertasiran.cloud","port":443,"udp":false,"password":"Libertas*One*E*","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"ironone.libertasiran.cloud"}
   - {"name":"🇨🇳CN | trojan | @yaney_01 | 2","type":"trojan","server":"xibaozi.19890604.day","port":10847,"udp":false,"password":"c1dc3493-2298-44ab-98c1-4abccbc350d1","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"cloudflare.node-ssl.cdn-alibaba.com"}
 proxy-groups:
   - name: MANUAL
@@ -196,7 +195,6 @@ proxy-groups:
       - '🇫🇷FR | trojan | @DirectVPN | 15'
       - '🇺🇸US | trojan | @oneclickvpnkeys | 6'
       - '🇺🇸US | trojan | @VmessProtocol | 1'
-      - '🇨🇦CA | trojan | @ConfigsHUB | 15'
       - '🇨🇳CN | trojan | @yaney_01 | 2'
   - name: URL-TEST
     type: url-test
@@ -238,7 +236,6 @@ proxy-groups:
       - '🇫🇷FR | trojan | @DirectVPN | 15'
       - '🇺🇸US | trojan | @oneclickvpnkeys | 6'
       - '🇺🇸US | trojan | @VmessProtocol | 1'
-      - '🇨🇦CA | trojan | @ConfigsHUB | 15'
       - '🇨🇳CN | trojan | @yaney_01 | 2'
   - name: FALLBACK
     type: fallback
@@ -279,7 +276,6 @@ proxy-groups:
       - '🇫🇷FR | trojan | @DirectVPN | 15'
       - '🇺🇸US | trojan | @oneclickvpnkeys | 6'
       - '🇺🇸US | trojan | @VmessProtocol | 1'
-      - '🇨🇦CA | trojan | @ConfigsHUB | 15'
       - '🇨🇳CN | trojan | @yaney_01 | 2'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
