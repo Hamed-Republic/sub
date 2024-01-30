@@ -113,6 +113,7 @@
                 "🇺🇸US | vless | @VlessConfig | 17",
                 "🇺🇸US | vless | @VPNCUSTOMIZE | 23",
                 "🇫🇮FI | vless | @ipV2Ray | 19",
+                "🇨🇦CA | vless | @melov2ray | 7",
                 "🇨🇦CA | vless | @frev2ray | 8",
                 "🇨🇦CA | vless | @ARv2ray | 15",
                 "🇨🇦CA | vless | @Lockey_vpn | 12",
@@ -150,7 +151,7 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @MehradLearn | 16",
                 "🇨🇦CA | vless | @lrnbymaa | 11",
-                "🇨🇦CA | vless | @ConfigsHUB | 9",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @polproxy | 11",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
@@ -180,6 +181,7 @@
                 "🇺🇸US | vless | @VlessConfig | 17",
                 "🇺🇸US | vless | @VPNCUSTOMIZE | 23",
                 "🇫🇮FI | vless | @ipV2Ray | 19",
+                "🇨🇦CA | vless | @melov2ray | 7",
                 "🇨🇦CA | vless | @frev2ray | 8",
                 "🇨🇦CA | vless | @ARv2ray | 15",
                 "🇨🇦CA | vless | @Lockey_vpn | 12",
@@ -217,7 +219,7 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @MehradLearn | 16",
                 "🇨🇦CA | vless | @lrnbymaa | 11",
-                "🇨🇦CA | vless | @ConfigsHUB | 9",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @polproxy | 11",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
@@ -452,6 +454,37 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @melov2ray | 7",
+            "type": "vless",
+            "server": "fin.melov2ray.shop",
+            "server_port": 443,
+            "uuid": "8f4211ee-290c-4d66-a269-ccf08e3eef3a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "FIn.Melov2ray.Shop",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@melov2ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -1428,11 +1461,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 9",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "eli.ELiV2.top",
-            "server_port": 80,
-            "uuid": "aabc3ef9-6968-4311-81b8-8cd0414c1904",
+            "server": "104.21.43.16",
+            "server_port": 443,
+            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1440,11 +1473,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "3k.pureboy.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/zahedan.eu.org\/",
+                "path": "\/",
                 "headers": {
-                    "Host": "eli.ELiV2.top"
+                    "Host": "3k.pureboy.eu.org"
                 }
             }
         },
