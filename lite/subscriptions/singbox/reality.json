@@ -107,7 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇮FI | vless | @ipV2Ray | 19",
-                "🇩🇪DE | vless | @ConfigsHUB | 18",
+                "🇬🇧GB | vless | @v2logy | 13",
                 "🇫🇮FI | vless | @Capital_NET | 47",
                 "🇸🇪SE | vless | @kiava | 6",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
@@ -119,7 +119,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇮FI | vless | @ipV2Ray | 19",
-                "🇩🇪DE | vless | @ConfigsHUB | 18",
+                "🇬🇧GB | vless | @v2logy | 13",
                 "🇫🇮FI | vless | @Capital_NET | 47",
                 "🇸🇪SE | vless | @kiava | 6",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
@@ -182,11 +182,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 18",
+            "tag": "🇬🇧GB | vless | @v2logy | 13",
             "type": "vless",
-            "server": "116.202.99.47",
-            "server_port": 49124,
-            "uuid": "0448c6ea-34ce-487a-93be-8e57bd2f2fa8",
+            "server": "sv3.venom.servers.rezasnapp.fun",
+            "server_port": 443,
+            "uuid": "VENOMservers",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -196,18 +196,25 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "dalan-group.de",
+                "server_name": "vultr.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "rBdocIQXi2MdXwQYubRsn4fTG1_3XMZiNgtn9u3yzwI",
-                    "short_id": "0bf98883"
+                    "public_key": "yWVYVstxNzhxibELLlg2_C0-7MH0AB8U2ra4Y1q1XVc",
+                    "short_id": "696877e7"
                 }
+            },
+            "transport": {
+                "type": "http",
+                "host": [
+                    "vultr.com"
+                ],
+                "path": "\/pricing"
             }
         },
         {
