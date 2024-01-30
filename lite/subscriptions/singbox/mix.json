@@ -133,7 +133,6 @@
                 "🇬🇧GB | trojan | @DirectVPN | 14",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇺🇸US | ss | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇺🇸US | vless | @prrofile_purple | 176",
                 "🇸🇪SE | vless | @customv2ray | 8",
@@ -165,7 +164,7 @@
                 "🏳️XX | vless | @Capital_NET | 48",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @FreakConfig | 9",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🇭🇰HK | vmess | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -213,7 +212,6 @@
                 "🇬🇧GB | trojan | @DirectVPN | 14",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇺🇸US | ss | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇺🇸US | vless | @prrofile_purple | 176",
                 "🇸🇪SE | vless | @customv2ray | 8",
@@ -245,7 +243,7 @@
                 "🏳️XX | vless | @Capital_NET | 48",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @FreakConfig | 9",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🇭🇰HK | vmess | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -991,16 +989,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | ss | @DeamNet_Proxy | 19",
-            "type": "shadowsocks",
-            "server": "38.75.137.9",
-            "server_port": 2375,
-            "method": "aes-256-gcm",
-            "password": "faBAoD54k87UJG7",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
             "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
             "type": "vmess",
             "server": "us-west-anycast.lnaspiring.com",
@@ -1509,9 +1497,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "104.22.51.162",
-            "server_port": 443,
-            "uuid": "0a253927-0f8b-425b-b40f-5ebaa739974a",
+            "server": "de.melov2ray.shop",
+            "server_port": 2083,
+            "uuid": "4eb68f12-441c-42f9-98c0-e24834d97da7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1521,7 +1509,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "dm.ipV2Ray2.shop",
+                "server_name": "De.Melov2ray.Shop",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1530,11 +1518,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray",
+                "headers": {
+                    "Host": "De.Melov2ray.Shop"
+                }
             }
         },
         {
@@ -1747,11 +1735,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
+            "tag": "🇭🇰HK | vmess | @forwardv2ray | 17",
             "type": "vmess",
-            "server": "104.24.208.37",
-            "server_port": 80,
-            "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+            "server": "47.242.76.125",
+            "server_port": 45631,
+            "uuid": "f17d1a99-5b3a-43da-e59a-ad55cba85c27",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
