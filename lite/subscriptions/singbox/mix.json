@@ -133,6 +133,7 @@
                 "🇬🇧GB | trojan | @DirectVPN | 14",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇰🇷KR | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇺🇸US | vless | @prrofile_purple | 176",
                 "🇸🇪SE | vless | @customv2ray | 8",
@@ -164,8 +165,8 @@
                 "🏳️XX | vless | @Capital_NET | 48",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @FreakConfig | 9",
-                "🇭🇰HK | vmess | @forwardv2ray | 17",
-                "🇨🇦CA | vless | @https_config_injector | 14",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @https_config_injector | 13",
                 "🇺🇸US | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 6",
                 "🇨🇷CR | vless | @proxy_mtm | 19",
@@ -212,6 +213,7 @@
                 "🇬🇧GB | trojan | @DirectVPN | 14",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇰🇷KR | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇺🇸US | vless | @prrofile_purple | 176",
                 "🇸🇪SE | vless | @customv2ray | 8",
@@ -243,8 +245,8 @@
                 "🏳️XX | vless | @Capital_NET | 48",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @FreakConfig | 9",
-                "🇭🇰HK | vmess | @forwardv2ray | 17",
-                "🇨🇦CA | vless | @https_config_injector | 14",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @https_config_injector | 13",
                 "🇺🇸US | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 6",
                 "🇨🇷CR | vless | @proxy_mtm | 19",
@@ -989,6 +991,23 @@
             }
         },
         {
+            "tag": "🇰🇷KR | vmess | @DeamNet_Proxy | 19",
+            "type": "vmess",
+            "server": "144.24.88.101",
+            "server_port": 16833,
+            "uuid": "f5425ccf-3946-4fb4-eb24-5393d78a392f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
             "type": "vmess",
             "server": "us-west-anycast.lnaspiring.com",
@@ -1497,32 +1516,15 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "de.melov2ray.shop",
-            "server_port": 2083,
-            "uuid": "4eb68f12-441c-42f9-98c0-e24834d97da7",
+            "server": "Discord.com",
+            "server_port": 443,
+            "uuid": "HELIX-Servers",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "De.Melov2ray.Shop",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray",
-                "headers": {
-                    "Host": "De.Melov2ray.Shop"
-                }
             }
         },
         {
@@ -1735,16 +1737,13 @@
             }
         },
         {
-            "tag": "🇭🇰HK | vmess | @forwardv2ray | 17",
-            "type": "vmess",
-            "server": "47.242.76.125",
-            "server_port": 45631,
-            "uuid": "f17d1a99-5b3a-43da-e59a-ad55cba85c27",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "104.31.16.160",
+            "server_port": 80,
+            "uuid": "e4a52f75-474e-449e-bcd2-05ea177f1403",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1754,12 +1753,12 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": ""
+                    "Host": "104.31.16.160"
                 }
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @https_config_injector | 14",
+            "tag": "🇨🇦CA | vless | @https_config_injector | 13",
             "type": "vless",
             "server": "104.18.189.219",
             "server_port": 443,
