@@ -129,6 +129,11 @@
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🏳️XX | ss | @forwardv2ray | 4",
+                "🏳️XX | ss | @forwardv2ray | 5",
+                "🇷🇺RU | ss | @forwardv2ray | 10",
+                "🏳️XX | ss | @forwardv2ray | 14",
+                "🏳️XX | ss | @forwardv2ray | 15",
                 "🇬🇧GB | ss | @proxy_mtm | 15",
                 "🇬🇧GB | ss | @ROMAX_VPN | 1",
                 "🇬🇧GB | ss | @ROMAX_VPN | 6"
@@ -161,6 +166,11 @@
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🏳️XX | ss | @forwardv2ray | 4",
+                "🏳️XX | ss | @forwardv2ray | 5",
+                "🇷🇺RU | ss | @forwardv2ray | 10",
+                "🏳️XX | ss | @forwardv2ray | 14",
+                "🏳️XX | ss | @forwardv2ray | 15",
                 "🇬🇧GB | ss | @proxy_mtm | 15",
                 "🇬🇧GB | ss | @ROMAX_VPN | 1",
                 "🇬🇧GB | ss | @ROMAX_VPN | 6"
@@ -412,6 +422,56 @@
             "server_port": 2443,
             "method": "aes-256-gcm",
             "password": "hh4JlBhsJ0JthpDP3vIwxXvJWHknI16AijGx6sbcqWI=",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🏳️XX | ss | @forwardv2ray | 4",
+            "type": "shadowsocks",
+            "server": "[::ffff:12af:6b1]",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "Bog0ELmMM9DSxDdQ",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🏳️XX | ss | @forwardv2ray | 5",
+            "type": "shadowsocks",
+            "server": "[0000:0000:0000:0000:0000:ffff:12af:06b1]",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "Bog0ELmMM9DSxDdQ",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇷🇺RU | ss | @forwardv2ray | 10",
+            "type": "shadowsocks",
+            "server": "vpn-ru.wwp.im",
+            "server_port": 15174,
+            "method": "chacha20-ietf-poly1305",
+            "password": "Bm3ZJpTDRWtBhFkR579cnd",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🏳️XX | ss | @forwardv2ray | 14",
+            "type": "shadowsocks",
+            "server": "[0:0:0:0:0:ffff:1010:4a42]",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "SD\/MYCUQGXCC9TEnlz66Tdu4JDCH36LMMiV4a4VsJiI=",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🏳️XX | ss | @forwardv2ray | 15",
+            "type": "shadowsocks",
+            "server": "[0000:0000:0000:0000:0000:ffff:0d33:fa7d]",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "rjLW4R7C2hmjZbWSeT5ZGiTA+X4kAVCPmS6Omkw7BdQ=",
             "plugin": "",
             "plugin_opts": ""
         },
