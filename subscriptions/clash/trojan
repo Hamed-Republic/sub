@@ -118,7 +118,7 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇨🇦CA | trojan | @V2rayCollectorDonate | 14","type":"trojan","server":"ironone.libertasiran.cloud","port":443,"udp":false,"password":"Libertas*One*V*","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"ironone.libertasiran.cloud"}
+  - {"name":"🇺🇸US | trojan | @V2rayCollectorDonate | 14","type":"trojan","server":"ironone.libertasiran.cloud","port":443,"udp":false,"password":"Libertas*One*V*","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"ironone.libertasiran.cloud"}
   - {"name":"🇩🇪DE | trojan | @PrivateVPNs | 2","type":"trojan","server":"3.78.59.132","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
   - {"name":"🇸🇪SE | trojan | @PrivateVPNs | 3","type":"trojan","server":"13.50.135.84","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
   - {"name":"🇸🇪SE | trojan | @PrivateVPNs | 4","type":"trojan","server":"51.21.84.144","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
@@ -152,14 +152,13 @@ proxies:
   - {"name":"🇸🇬SG | trojan | @oneclickvpnkeys | 2","type":"trojan","server":"157.245.149.232","port":20021,"udp":false,"password":"ee2d164e-ee98-4f0b-ac21-1b5bdca4024f","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"tls.qqwljs.buzz"}
   - {"name":"🇺🇸US | trojan | @VmessProtocol | 4","type":"trojan","server":"190.93.245.187","port":2083,"udp":false,"password":"1YcFVMZWx_OiEBEvnEMtrg","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"arv2.aticloud.ir"}
   - {"name":"🇨🇳CN | trojan | @yaney_01 | 3","type":"trojan","server":"xibaozi.19890604.day","port":10847,"udp":false,"password":"c1dc3493-2298-44ab-98c1-4abccbc350d1","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"cloudflare.node-ssl.cdn-alibaba.com"}
-  - {"name":"🇫🇷FR | trojan | @forwardv2ray | 13","type":"trojan","server":"15.237.91.186","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
 proxy-groups:
   - name: MANUAL
     type: select
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇨🇦CA | trojan | @V2rayCollectorDonate | 14'
+      - '🇺🇸US | trojan | @V2rayCollectorDonate | 14'
       - '🇩🇪DE | trojan | @PrivateVPNs | 2'
       - '🇸🇪SE | trojan | @PrivateVPNs | 3'
       - '🇸🇪SE | trojan | @PrivateVPNs | 4'
@@ -193,14 +192,13 @@ proxy-groups:
       - '🇸🇬SG | trojan | @oneclickvpnkeys | 2'
       - '🇺🇸US | trojan | @VmessProtocol | 4'
       - '🇨🇳CN | trojan | @yaney_01 | 3'
-      - '🇫🇷FR | trojan | @forwardv2ray | 13'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 60
     tolerance: 50
     proxies:
-      - '🇨🇦CA | trojan | @V2rayCollectorDonate | 14'
+      - '🇺🇸US | trojan | @V2rayCollectorDonate | 14'
       - '🇩🇪DE | trojan | @PrivateVPNs | 2'
       - '🇸🇪SE | trojan | @PrivateVPNs | 3'
       - '🇸🇪SE | trojan | @PrivateVPNs | 4'
@@ -234,13 +232,12 @@ proxy-groups:
       - '🇸🇬SG | trojan | @oneclickvpnkeys | 2'
       - '🇺🇸US | trojan | @VmessProtocol | 4'
       - '🇨🇳CN | trojan | @yaney_01 | 3'
-      - '🇫🇷FR | trojan | @forwardv2ray | 13'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇨🇦CA | trojan | @V2rayCollectorDonate | 14'
+      - '🇺🇸US | trojan | @V2rayCollectorDonate | 14'
       - '🇩🇪DE | trojan | @PrivateVPNs | 2'
       - '🇸🇪SE | trojan | @PrivateVPNs | 3'
       - '🇸🇪SE | trojan | @PrivateVPNs | 4'
@@ -274,7 +271,6 @@ proxy-groups:
       - '🇸🇬SG | trojan | @oneclickvpnkeys | 2'
       - '🇺🇸US | trojan | @VmessProtocol | 4'
       - '🇨🇳CN | trojan | @yaney_01 | 3'
-      - '🇫🇷FR | trojan | @forwardv2ray | 13'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
