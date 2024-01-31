@@ -145,7 +145,6 @@
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇨🇷CR | vless | @DailyV2RY | 158",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🇨🇦CA | vless | @MehradLearn | 12",
                 "🇨🇦CA | vless | @lrnbymaa | 12",
                 "🇺🇸US | vless | @ConfigsHUB | 11",
                 "🇨🇦CA | vless | @proxystore11 | 15",
@@ -213,7 +212,6 @@
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇨🇷CR | vless | @DailyV2RY | 158",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🇨🇦CA | vless | @MehradLearn | 12",
                 "🇨🇦CA | vless | @lrnbymaa | 12",
                 "🇺🇸US | vless | @ConfigsHUB | 11",
                 "🇨🇦CA | vless | @proxystore11 | 15",
@@ -1309,37 +1307,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "ELi.ELiV2.top"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @MehradLearn | 12",
-            "type": "vless",
-            "server": "172.64.80.150",
-            "server_port": 443,
-            "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "always-online1.lp-airdrop.top",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "always-online1.lp-airdrop.top"
                 }
             }
         },
