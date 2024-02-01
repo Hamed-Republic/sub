@@ -114,7 +114,7 @@
                 "🇨🇦CA | vless | @V2pedia | 12",
                 "🇨🇦CA | vless | @frev2ray | 6",
                 "🇨🇦CA | vless | @ARv2ray | 13",
-                "🇺🇸US | vless | @Lockey_vpn | 10",
+                "🇨🇦CA | vless | @Lockey_vpn | 11",
                 "🇨🇦CA | vless | @rxv2ray | 14",
                 "🇨🇦CA | vless | @free_v2rayyy | 3",
                 "🇺🇸US | vless | @lightning6 | 28",
@@ -151,7 +151,7 @@
                 "🇨🇦CA | vless | @MTConfig | 18",
                 "🇨🇦CA | vless | @V2RayTz | 17",
                 "🇺🇸US | vless | @VmessProtocol | 18",
-                "🇨🇦CA | vless | @DailyV2RY | 157",
+                "🏳️XX | vless | @DailyV2RY | 157",
                 "🇨🇦CA | vless | @sinabigo | 6",
                 "🇨🇦CA | vless | @lrnbymaa | 14",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
@@ -165,7 +165,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🏳️XX | vless | @FreakConfig | 5",
-                "🇨🇷CR | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇩🇪DE | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 12",
@@ -194,7 +194,7 @@
                 "🇨🇦CA | vless | @V2pedia | 12",
                 "🇨🇦CA | vless | @frev2ray | 6",
                 "🇨🇦CA | vless | @ARv2ray | 13",
-                "🇺🇸US | vless | @Lockey_vpn | 10",
+                "🇨🇦CA | vless | @Lockey_vpn | 11",
                 "🇨🇦CA | vless | @rxv2ray | 14",
                 "🇨🇦CA | vless | @free_v2rayyy | 3",
                 "🇺🇸US | vless | @lightning6 | 28",
@@ -231,7 +231,7 @@
                 "🇨🇦CA | vless | @MTConfig | 18",
                 "🇨🇦CA | vless | @V2RayTz | 17",
                 "🇺🇸US | vless | @VmessProtocol | 18",
-                "🇨🇦CA | vless | @DailyV2RY | 157",
+                "🏳️XX | vless | @DailyV2RY | 157",
                 "🇨🇦CA | vless | @sinabigo | 6",
                 "🇨🇦CA | vless | @lrnbymaa | 14",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
@@ -245,7 +245,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🏳️XX | vless | @FreakConfig | 5",
-                "🇨🇷CR | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇩🇪DE | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 12",
@@ -520,9 +520,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Lockey_vpn | 10",
+            "tag": "🇨🇦CA | vless | @Lockey_vpn | 11",
             "type": "vless",
-            "server": "173.245.58.31",
+            "server": "104.21.59.125",
             "server_port": 80,
             "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
             "flow": "",
@@ -536,7 +536,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "173.245.58.31"
+                    "Host": "104.21.59.125"
                 }
             }
         },
@@ -1458,7 +1458,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 157",
+            "tag": "🏳️XX | vless | @DailyV2RY | 157",
             "type": "vless",
             "server": "chanel2.gold15.ir",
             "server_port": 443,
@@ -1808,11 +1808,11 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "190.93.247.247",
-            "server_port": 80,
-            "uuid": "-----WS-ipV2Ray-----",
+            "server": "104.18.190.52",
+            "server_port": 443,
+            "uuid": "a4faf5d8-b9a8-433e-9518-2d2e21d76f78",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1820,11 +1820,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "nginx.nirevil.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Path\/TelegramV2ray_Alpha\/",
                 "headers": {
-                    "Host": "190.93.247.247"
+                    "Host": "nginx.nirevil.ir"
                 }
             }
         },
