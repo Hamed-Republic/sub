@@ -143,10 +143,10 @@
                 "🇨🇦CA | vless | @MTConfig | 18",
                 "🇺🇸US | vless | @V2RayTz | 18",
                 "🇺🇸US | vless | @VmessProtocol | 17",
-                "🇺🇸US | vless | @DailyV2RY | 166",
+                "🇨🇷CR | vless | @DailyV2RY | 166",
                 "🇨🇦CA | vless | @MehradLearn | 12",
                 "🇨🇦CA | vless | @lrnbymaa | 14",
-                "🇩🇪DE | vless | @proxystore11 | 15",
+                "🇳🇱NL | vless | @proxystore11 | 15",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 12",
@@ -209,10 +209,10 @@
                 "🇨🇦CA | vless | @MTConfig | 18",
                 "🇺🇸US | vless | @V2RayTz | 18",
                 "🇺🇸US | vless | @VmessProtocol | 17",
-                "🇺🇸US | vless | @DailyV2RY | 166",
+                "🇨🇷CR | vless | @DailyV2RY | 166",
                 "🇨🇦CA | vless | @MehradLearn | 12",
                 "🇨🇦CA | vless | @lrnbymaa | 14",
-                "🇩🇪DE | vless | @proxystore11 | 15",
+                "🇳🇱NL | vless | @proxystore11 | 15",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 12",
@@ -308,7 +308,7 @@
         {
             "tag": "🇬🇧GB | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "18.169.121.156",
+            "server": "18.171.83.16",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1249,7 +1249,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @DailyV2RY | 166",
+            "tag": "🇨🇷CR | vless | @DailyV2RY | 166",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1332,17 +1332,24 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @proxystore11 | 15",
+            "tag": "🇳🇱NL | vless | @proxystore11 | 15",
             "type": "vless",
-            "server": "116.203.120.36",
-            "server_port": 3148,
-            "uuid": "8f625e5a-9d12-4734-bd4d-15a4c8842caa",
+            "server": "188.114.96.18",
+            "server_port": 80,
+            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Path\/Telegram@v2ray_alpha\/",
+                "headers": {
+                    "Host": "188.114.96.18"
+                }
             }
         },
         {
