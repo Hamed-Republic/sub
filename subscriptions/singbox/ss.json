@@ -111,9 +111,9 @@
                 "🇺🇸US | ss | @DeamNet_Proxy | 12",
                 "🇦🇹AT | ss | @DeamNet_Proxy | 17",
                 "🇫🇷FR | ss | @DeamNet_Proxy | 19",
-                "🏳️XX | ss | @proxyymeliii | 9",
-                "🇬🇧GB | ss | @proxyymeliii | 18",
+                "🏳️XX | ss | @proxyymeliii | 10",
                 "🇬🇧GB | ss | @proxyymeliii | 19",
+                "🇬🇧GB | ss | @proxyymeliii | 20",
                 "🇦🇹AT | ss | @VmessProtocol | 4",
                 "🇬🇧GB | ss | @VmessProtocol | 10",
                 "🇬🇧GB | ss | @VmessProtocol | 14",
@@ -131,8 +131,9 @@
                 "🇦🇺AU | ss | @OutlineVpnOfficial | 14",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🏳️XX | ss | @forwardv2ray | 17",
-                "🇺🇸US | ss | @ROMAX_VPN | 0",
+                "🇬🇧GB | ss | @forwardv2ray | 5",
+                "🏳️XX | ss | @proxy_mtm | 21",
+                "🇷🇺RU | ss | @ROMAX_VPN | 0",
                 "🇬🇧GB | ss | @ROMAX_VPN | 5"
             ]
         },
@@ -145,9 +146,9 @@
                 "🇺🇸US | ss | @DeamNet_Proxy | 12",
                 "🇦🇹AT | ss | @DeamNet_Proxy | 17",
                 "🇫🇷FR | ss | @DeamNet_Proxy | 19",
-                "🏳️XX | ss | @proxyymeliii | 9",
-                "🇬🇧GB | ss | @proxyymeliii | 18",
+                "🏳️XX | ss | @proxyymeliii | 10",
                 "🇬🇧GB | ss | @proxyymeliii | 19",
+                "🇬🇧GB | ss | @proxyymeliii | 20",
                 "🇦🇹AT | ss | @VmessProtocol | 4",
                 "🇬🇧GB | ss | @VmessProtocol | 10",
                 "🇬🇧GB | ss | @VmessProtocol | 14",
@@ -165,8 +166,9 @@
                 "🇦🇺AU | ss | @OutlineVpnOfficial | 14",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🏳️XX | ss | @forwardv2ray | 17",
-                "🇺🇸US | ss | @ROMAX_VPN | 0",
+                "🇬🇧GB | ss | @forwardv2ray | 5",
+                "🏳️XX | ss | @proxy_mtm | 21",
+                "🇷🇺RU | ss | @ROMAX_VPN | 0",
                 "🇬🇧GB | ss | @ROMAX_VPN | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -240,7 +242,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🏳️XX | ss | @proxyymeliii | 9",
+            "tag": "🏳️XX | ss | @proxyymeliii | 10",
             "type": "shadowsocks",
             "server": "[0:0:0:0:0:ffff:1010:4a42]",
             "server_port": 8080,
@@ -250,7 +252,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | @proxyymeliii | 18",
+            "tag": "🇬🇧GB | ss | @proxyymeliii | 19",
             "type": "shadowsocks",
             "server": "series-a1.samanehha.co",
             "server_port": 443,
@@ -260,7 +262,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | @proxyymeliii | 19",
+            "tag": "🇬🇧GB | ss | @proxyymeliii | 20",
             "type": "shadowsocks",
             "server": "series-a2.samanehha.co",
             "server_port": 443,
@@ -440,7 +442,17 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🏳️XX | ss | @forwardv2ray | 17",
+            "tag": "🇬🇧GB | ss | @forwardv2ray | 5",
+            "type": "shadowsocks",
+            "server": "series-a2-me.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "Bog0ELmMM9DSxDdQ",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🏳️XX | ss | @proxy_mtm | 21",
             "type": "shadowsocks",
             "server": "[0:0:0:0:0:ffff:0d30:2cc1]",
             "server_port": 8080,
@@ -450,7 +462,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | ss | @ROMAX_VPN | 0",
+            "tag": "🇷🇺RU | ss | @ROMAX_VPN | 0",
             "type": "shadowsocks",
             "server": "94.131.121.130",
             "server_port": 49845,
