@@ -115,7 +115,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 11",
                 "🇨🇦CA | vless | @rxv2ray | 14",
                 "🇨🇦CA | vless | @free_v2rayyy | 3",
-                "🇺🇸US | vless | @lightning6 | 28",
+                "🇨🇷CR | vless | @lightning6 | 28",
                 "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 22",
@@ -144,12 +144,12 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
                 "🇫🇮FI | vless | @v2ray_swhil | 21",
                 "🇨🇦CA | vless | @MsV2ray | 17",
-                "🇨🇦CA | vless | @v2ray1_ng | 4",
+                "🇮🇷IR | vless | @v2ray1_ng | 3",
                 "🇮🇷IR | vless | @vless_vmess | 3",
                 "🇨🇦CA | vless | @MTConfig | 18",
                 "🇨🇷CR | vless | @V2RayTz | 18",
                 "🇺🇸US | vless | @VmessProtocol | 16",
-                "🇨🇷CR | vless | @DailyV2RY | 167",
+                "🇺🇸US | vless | @DailyV2RY | 167",
                 "🇨🇦CA | vless | @MehradLearn | 14",
                 "🇨🇦CA | vless | @lrnbymaa | 14",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
@@ -163,7 +163,6 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇩🇪DE | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 5",
-                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇬🇧GB | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 13",
                 "🇨🇷CR | vless | @mehrosaboran | 15",
@@ -195,7 +194,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 11",
                 "🇨🇦CA | vless | @rxv2ray | 14",
                 "🇨🇦CA | vless | @free_v2rayyy | 3",
-                "🇺🇸US | vless | @lightning6 | 28",
+                "🇨🇷CR | vless | @lightning6 | 28",
                 "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 22",
@@ -224,12 +223,12 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
                 "🇫🇮FI | vless | @v2ray_swhil | 21",
                 "🇨🇦CA | vless | @MsV2ray | 17",
-                "🇨🇦CA | vless | @v2ray1_ng | 4",
+                "🇮🇷IR | vless | @v2ray1_ng | 3",
                 "🇮🇷IR | vless | @vless_vmess | 3",
                 "🇨🇦CA | vless | @MTConfig | 18",
                 "🇨🇷CR | vless | @V2RayTz | 18",
                 "🇺🇸US | vless | @VmessProtocol | 16",
-                "🇨🇷CR | vless | @DailyV2RY | 167",
+                "🇺🇸US | vless | @DailyV2RY | 167",
                 "🇨🇦CA | vless | @MehradLearn | 14",
                 "🇨🇦CA | vless | @lrnbymaa | 14",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
@@ -243,7 +242,6 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇩🇪DE | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 5",
-                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇬🇧GB | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 13",
                 "🇨🇷CR | vless | @mehrosaboran | 15",
@@ -531,7 +529,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 28",
+            "tag": "🇨🇷CR | vless | @lightning6 | 28",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1293,11 +1291,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray1_ng | 4",
+            "tag": "🇮🇷IR | vless | @v2ray1_ng | 3",
             "type": "vless",
-            "server": "104.31.16.133",
-            "server_port": 2096,
-            "uuid": "dd777f39-2996-4269-b88f-0b64436d0274",
+            "server": "1vvv.fastv2.com",
+            "server_port": 23531,
+            "uuid": "acf90fd8-cbae-4923-98c4-fb99891b53fc",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1305,21 +1303,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "joinchannel.sameasyou.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "joinchannel.sameasyou.sbs"
+                    "Host": "1vvv.fastv2.com"
                 }
             }
         },
@@ -1431,7 +1419,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @DailyV2RY | 167",
+            "tag": "🇺🇸US | vless | @DailyV2RY | 167",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 8880,
@@ -1744,30 +1732,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
-            "type": "vmess",
-            "server": "104.17.25.1",
-            "server_port": 80,
-            "uuid": "3d668cbe-5464-4a79-aab5-e301b4e0f169",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
