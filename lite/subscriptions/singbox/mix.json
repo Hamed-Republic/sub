@@ -159,8 +159,8 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 7",
-                "🇨🇦CA | vless | @FreakConfig | 6",
-                "🇬🇧GB | vless | @forwardv2ray | 15",
+                "🇨🇦CA | vless | @FreakConfig | 5",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇩🇪DE | vless | @FAKEOFTVC | 6",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 11",
@@ -235,8 +235,8 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 7",
-                "🇨🇦CA | vless | @FreakConfig | 6",
-                "🇬🇧GB | vless | @forwardv2ray | 15",
+                "🇨🇦CA | vless | @FreakConfig | 5",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇩🇪DE | vless | @FAKEOFTVC | 6",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 11",
@@ -392,7 +392,7 @@
             "type": "vless",
             "server": "104.22.51.162",
             "server_port": 443,
-            "uuid": "67b8f25c-e7ff-46b5-8072-e37e1ce49a57",
+            "uuid": "b27072df-282f-4bed-92f8-ba58e209a6a9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -753,9 +753,9 @@
         {
             "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
-            "server": "sourceforge.net",
-            "server_port": 8880,
-            "uuid": "17f1e145-756f-4350-bd94-c97839738e1c",
+            "server": "104.31.16.92",
+            "server_port": 80,
+            "uuid": "ed053a16-ee4b-4d0e-ad83-2e4266e7d974",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -767,7 +767,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "sourceforge.net"
+                    "Host": "104.31.16.92"
                 }
             }
         },
@@ -1621,11 +1621,32 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 6",
+            "tag": "🇨🇦CA | vless | @FreakConfig | 5",
             "type": "vless",
-            "server": "lol.ps",
-            "server_port": 443,
-            "uuid": "44c2580b-5764-4d4c-a4b3-07fba7159c09",
+            "server": "104.24.185.135",
+            "server_port": 8880,
+            "uuid": "X4azadi",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/X4azadi",
+                "headers": {
+                    "Host": "104.24.185.135"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "162.159.136.232",
+            "server_port": 2083,
+            "uuid": "9e322e81-6ed2-4552-b6ed-0b447b8a1e4e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1635,7 +1656,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "m3hd1h03e1n1poxv2.drapico.com",
+                "server_name": "fou1.noupdate.top",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1644,25 +1665,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "@FreakConfig@FreakConfig@FreakConfig@FreakConfig@FreakConfig@FreakConfig",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇬🇧GB | vless | @forwardv2ray | 15",
-            "type": "vless",
-            "server": "45.32.178.8",
-            "server_port": 13742,
-            "uuid": "ec058cc9-e6a8-409d-871b-ed97ded392a5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "fou1.noupdate.top"
+                }
             }
         },
         {
