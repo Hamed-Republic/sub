@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇨🇦CA | vless | @Parsashonam | 9",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 14",
-                "🇩🇪DE | vless | @VlessConfig | 17",
+                "🇫🇷FR | vless | @VlessConfig | 15",
                 "🇨🇷CR | vless | @VPNCUSTOMIZE | 22",
                 "🇨🇦CA | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @V2pedia | 10",
@@ -156,7 +156,7 @@
                 "🇨🇦CA | vless | @Capoit | 8",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇨🇷CR | vless | @flyv2ray | 14",
-                "🇨🇷CR | vless | @forwardv2ray | 6",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇷CR | vless | @mehrosaboran | 15",
                 "🇸🇪SE | vless | @kiava | 5",
@@ -174,7 +174,7 @@
             "outbounds": [
                 "🇨🇦CA | vless | @Parsashonam | 9",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 14",
-                "🇩🇪DE | vless | @VlessConfig | 17",
+                "🇫🇷FR | vless | @VlessConfig | 15",
                 "🇨🇷CR | vless | @VPNCUSTOMIZE | 22",
                 "🇨🇦CA | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @V2pedia | 10",
@@ -222,7 +222,7 @@
                 "🇨🇦CA | vless | @Capoit | 8",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇨🇷CR | vless | @flyv2ray | 14",
-                "🇨🇷CR | vless | @forwardv2ray | 6",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇷CR | vless | @mehrosaboran | 15",
                 "🇸🇪SE | vless | @kiava | 5",
@@ -306,9 +306,9 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @VlessConfig | 17",
+            "tag": "🇫🇷FR | vless | @VlessConfig | 15",
             "type": "vless",
-            "server": "3.74.178.215",
+            "server": "15.188.111.192",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1593,11 +1593,11 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @forwardv2ray | 6",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
             "type": "vless",
-            "server": "190.93.247.155",
-            "server_port": 80,
-            "uuid": "e4a52f75-474e-449e-bcd2-05ea177f1403",
+            "server": "stockx.com",
+            "server_port": 8080,
+            "uuid": "50a11f3e-e9af-4ebe-b469-6793058e0ff2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1607,9 +1607,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/wsworldofthegamedl",
                 "headers": {
-                    "Host": "190.93.247.155"
+                    "Host": "stockx.com"
                 }
             }
         },
