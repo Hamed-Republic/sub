@@ -112,12 +112,13 @@
                 "🇨🇷CR | vless | @VPNCUSTOMIZE | 24",
                 "🇨🇦CA | vless | @ipV2Ray | 18",
                 "🇨🇦CA | vless | @V2pedia | 10",
-                "🇨🇦CA | vless | @frev2ray | 6",
+                "🇨🇦CA | vless | @frev2ray | 5",
                 "🇨🇦CA | vless | @ARv2ray | 14",
                 "🇨🇷CR | vless | @shh_proxy | 23",
                 "🇨🇦CA | vless | @Lockey_vpn | 11",
                 "🇨🇦CA | vless | @rxv2ray | 14",
-                "🇺🇸US | vless | @lightning6 | 28",
+                "🇨🇦CA | vless | @free_v2rayyy | 3",
+                "🇨🇷CR | vless | @lightning6 | 28",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 25",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 12",
@@ -154,6 +155,7 @@
                 "🇳🇱NL | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 15",
+                "🇩🇪DE | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇸🇪SE | vless | @kiava | 5",
                 "🇹🇷TR | vless | @vpn_go67 | 23",
@@ -174,12 +176,13 @@
                 "🇨🇷CR | vless | @VPNCUSTOMIZE | 24",
                 "🇨🇦CA | vless | @ipV2Ray | 18",
                 "🇨🇦CA | vless | @V2pedia | 10",
-                "🇨🇦CA | vless | @frev2ray | 6",
+                "🇨🇦CA | vless | @frev2ray | 5",
                 "🇨🇦CA | vless | @ARv2ray | 14",
                 "🇨🇷CR | vless | @shh_proxy | 23",
                 "🇨🇦CA | vless | @Lockey_vpn | 11",
                 "🇨🇦CA | vless | @rxv2ray | 14",
-                "🇺🇸US | vless | @lightning6 | 28",
+                "🇨🇦CA | vless | @free_v2rayyy | 3",
+                "🇨🇷CR | vless | @lightning6 | 28",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 25",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 12",
@@ -216,6 +219,7 @@
                 "🇳🇱NL | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 15",
+                "🇩🇪DE | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇸🇪SE | vless | @kiava | 5",
                 "🇹🇷TR | vless | @vpn_go67 | 23",
@@ -422,7 +426,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @frev2ray | 6",
+            "tag": "🇨🇦CA | vless | @frev2ray | 5",
             "type": "vless",
             "server": "mlnp2.miox.sbs",
             "server_port": 443,
@@ -567,7 +571,28 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 28",
+            "tag": "🇨🇦CA | vless | @free_v2rayyy | 3",
+            "type": "vless",
+            "server": "104.31.16.160",
+            "server_port": 80,
+            "uuid": "e4a52f75-474e-449e-bcd2-05ea177f1403",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "104.31.16.160"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇷CR | vless | @lightning6 | 28",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1531,6 +1556,27 @@
                 "path": "\/",
                 "headers": {
                     "Host": "3k.pureboy.eu.org"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "161.35.67.177",
+            "server_port": 443,
+            "uuid": "---Telegram-Parsashonam--1-",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@Parsashonam,Telegram:@Parsashonam,Telegram:@Parsashonam,Telegram:@Parsashonam,Telegram:@Parsashonam,Telegram:@Parsashonam,Telegram:@Parsashonam",
+                "headers": {
+                    "Host": "161.35.67.177"
                 }
             }
         },

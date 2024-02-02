@@ -114,7 +114,6 @@
                 "🇨🇦CA | vmess | @v2ray1_ng | 8",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 2",
                 "🇷🇼RW | vmess | @FAKEOFTVC | 6",
                 "🇺🇸US | vmess | @eliya_chiter0 | 10",
                 "🏳️XX | vmess | @SINABIGO | 6"
@@ -132,7 +131,6 @@
                 "🇨🇦CA | vmess | @v2ray1_ng | 8",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 2",
                 "🇷🇼RW | vmess | @FAKEOFTVC | 6",
                 "🇺🇸US | vmess | @eliya_chiter0 | 10",
                 "🏳️XX | vmess | @SINABIGO | 6"
@@ -345,40 +343,6 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 2",
-            "type": "vmess",
-            "server": "rn.seebill.link",
-            "server_port": 8443,
-            "uuid": "88a0c7ed-d7eb-494d-d3e3-4e25e00ad59a",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "rn.seebill.link",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "rn.seebill.link"
                 }
             }
         },
