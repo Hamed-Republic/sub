@@ -107,7 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇮FI | ss | @azadi_az_inja_migzare | 3",
-                "🇳🇱NL | ss | @V2rayCollectorDonate | 6",
+                "🇳🇱NL | ss | @V2rayCollectorDonate | 7",
                 "🇺🇸US | ss | @DeamNet_Proxy | 6",
                 "🇬🇧GB | ss | @DeamNet_Proxy | 7",
                 "🇺🇸US | ss | @DeamNet_Proxy | 8",
@@ -132,8 +132,9 @@
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇬🇧GB | ss | @proxy_mtm | 10",
-                "🇺🇸US | ss | @ROMAX_VPN | 1",
+                "🇬🇧GB | ss | @proxy_mtm | 1",
+                "🇬🇧GB | ss | @proxy_mtm | 11",
+                "🇷🇺RU | ss | @ROMAX_VPN | 1",
                 "🇬🇧GB | ss | @ROMAX_VPN | 6"
             ]
         },
@@ -142,7 +143,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇮FI | ss | @azadi_az_inja_migzare | 3",
-                "🇳🇱NL | ss | @V2rayCollectorDonate | 6",
+                "🇳🇱NL | ss | @V2rayCollectorDonate | 7",
                 "🇺🇸US | ss | @DeamNet_Proxy | 6",
                 "🇬🇧GB | ss | @DeamNet_Proxy | 7",
                 "🇺🇸US | ss | @DeamNet_Proxy | 8",
@@ -167,8 +168,9 @@
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇬🇧GB | ss | @proxy_mtm | 10",
-                "🇺🇸US | ss | @ROMAX_VPN | 1",
+                "🇬🇧GB | ss | @proxy_mtm | 1",
+                "🇬🇧GB | ss | @proxy_mtm | 11",
+                "🇷🇺RU | ss | @ROMAX_VPN | 1",
                 "🇬🇧GB | ss | @ROMAX_VPN | 6"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -202,7 +204,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇳🇱NL | ss | @V2rayCollectorDonate | 6",
+            "tag": "🇳🇱NL | ss | @V2rayCollectorDonate | 7",
             "type": "shadowsocks",
             "server": "77.246.106.242",
             "server_port": 10220,
@@ -452,7 +454,17 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | @proxy_mtm | 10",
+            "tag": "🇬🇧GB | ss | @proxy_mtm | 1",
+            "type": "shadowsocks",
+            "server": "series-a1.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "W74XFALLLuw6m5IA",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇬🇧GB | ss | @proxy_mtm | 11",
             "type": "shadowsocks",
             "server": "series-a2-mec.samanehha.co",
             "server_port": 443,
@@ -462,7 +474,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | ss | @ROMAX_VPN | 1",
+            "tag": "🇷🇺RU | ss | @ROMAX_VPN | 1",
             "type": "shadowsocks",
             "server": "94.131.121.130",
             "server_port": 49845,
