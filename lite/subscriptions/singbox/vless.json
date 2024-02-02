@@ -154,7 +154,7 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🏳️XX | vless | @FreakConfig | 5",
-                "🇩🇪DE | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇩🇪DE | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 12",
@@ -220,7 +220,7 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🏳️XX | vless | @FreakConfig | 5",
-                "🇩🇪DE | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇩🇪DE | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 12",
@@ -1545,12 +1545,12 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "free.mmdtitaniom.com",
-            "server_port": 2053,
-            "uuid": "a1607b53-08c9-4f77-cc45-850e16f9e6c7",
-            "flow": "xtls-rprx-vision",
+            "server": "3k.pureboy.eu.org",
+            "server_port": 443,
+            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1559,25 +1559,20 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "sourceforge.net",
+                "server_name": "3k.pureboy.eu.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "-FArfVyUNqBnbsHtWC4MvDcUpW6MjplITOJjVoGhRCA",
-                    "short_id": "888746"
+                    "fingerprint": "chrome"
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/path\/telegram@v2ray_alpha\/?ed",
+                "headers": {
+                    "Host": "3k.pureboy.eu.org"
+                }
             }
         },
         {
@@ -1643,9 +1638,9 @@
         {
             "tag": "🇺🇸US | vless | @mehrosaboran | 12",
             "type": "vless",
-            "server": "141.101.114.26",
-            "server_port": 2087,
-            "uuid": "f922a88b-d4f5-4371-924e-c0335c990542",
+            "server": "173.245.58.31",
+            "server_port": 443,
+            "uuid": "bfcfcb30-2ab0-46b1-9ed6-373a55119542",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1655,7 +1650,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "SpeedV2rayNg-ConneCtion.digiv2ray1.store",
+                "server_name": "173.245.58.31",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1664,11 +1659,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/DigiV",
-                "headers": {
-                    "Host": "SpeedV2rayNg-ConneCtion.digiv2ray1.store"
-                }
+                "type": "grpc",
+                "service_name": "@Digiv2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
