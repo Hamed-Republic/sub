@@ -115,9 +115,9 @@
                 "🇨🇦CA | vless | @frev2ray | 5",
                 "🇨🇦CA | vless | @ARv2ray | 14",
                 "🇨🇷CR | vless | @shh_proxy | 23",
-                "🇨🇦CA | vless | @Lockey_vpn | 11",
+                "🇺🇸US | vless | @Lockey_vpn | 10",
                 "🇨🇦CA | vless | @rxv2ray | 14",
-                "🇨🇦CA | vless | @free_v2rayyy | 3",
+                "🇨🇦CA | vless | @free_v2rayyy | 2",
                 "🇨🇷CR | vless | @lightning6 | 28",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 25",
@@ -155,7 +155,6 @@
                 "🇳🇱NL | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇩🇪DE | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇸🇪SE | vless | @kiava | 5",
                 "🇹🇷TR | vless | @vpn_go67 | 23",
@@ -179,9 +178,9 @@
                 "🇨🇦CA | vless | @frev2ray | 5",
                 "🇨🇦CA | vless | @ARv2ray | 14",
                 "🇨🇷CR | vless | @shh_proxy | 23",
-                "🇨🇦CA | vless | @Lockey_vpn | 11",
+                "🇺🇸US | vless | @Lockey_vpn | 10",
                 "🇨🇦CA | vless | @rxv2ray | 14",
-                "🇨🇦CA | vless | @free_v2rayyy | 3",
+                "🇨🇦CA | vless | @free_v2rayyy | 2",
                 "🇨🇷CR | vless | @lightning6 | 28",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 25",
@@ -219,7 +218,6 @@
                 "🇳🇱NL | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇩🇪DE | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇸🇪SE | vless | @kiava | 5",
                 "🇹🇷TR | vless | @vpn_go67 | 23",
@@ -304,7 +302,7 @@
         {
             "tag": "🇸🇪SE | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "13.51.145.14",
+            "server": "16.170.182.247",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -519,9 +517,9 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Lockey_vpn | 11",
+            "tag": "🇺🇸US | vless | @Lockey_vpn | 10",
             "type": "vless",
-            "server": "104.21.59.125",
+            "server": "173.245.58.31",
             "server_port": 80,
             "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
             "flow": "",
@@ -535,7 +533,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "104.21.59.125"
+                    "Host": "173.245.58.31"
                 }
             }
         },
@@ -571,7 +569,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @free_v2rayyy | 3",
+            "tag": "🇨🇦CA | vless | @free_v2rayyy | 2",
             "type": "vless",
             "server": "104.31.16.160",
             "server_port": 80,
@@ -1556,27 +1554,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "3k.pureboy.eu.org"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "161.35.67.177",
-            "server_port": 443,
-            "uuid": "---Telegram-Parsashonam--1-",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram:@Parsashonam,Telegram:@Parsashonam,Telegram:@Parsashonam,Telegram:@Parsashonam,Telegram:@Parsashonam,Telegram:@Parsashonam,Telegram:@Parsashonam",
-                "headers": {
-                    "Host": "161.35.67.177"
                 }
             }
         },
