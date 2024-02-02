@@ -114,10 +114,10 @@
                 "🇺🇸US | vless | @V2pedia | 12",
                 "🇨🇦CA | vless | @frev2ray | 6",
                 "🇨🇦CA | vless | @ARv2ray | 13",
-                "🇨🇦CA | vless | @Lockey_vpn | 11",
+                "🇺🇸US | vless | @Lockey_vpn | 10",
                 "🇨🇦CA | vless | @rxv2ray | 14",
                 "🇨🇦CA | vless | @free_v2rayyy | 3",
-                "🇨🇷CR | vless | @lightning6 | 28",
+                "🇺🇸US | vless | @lightning6 | 28",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 23",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 12",
@@ -165,6 +165,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 5",
+                "🇬🇧GB | ss | @forwardv2ray | 14",
                 "🇩🇪DE | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇸🇪SE | vless | @kiava | 5",
@@ -192,10 +193,10 @@
                 "🇺🇸US | vless | @V2pedia | 12",
                 "🇨🇦CA | vless | @frev2ray | 6",
                 "🇨🇦CA | vless | @ARv2ray | 13",
-                "🇨🇦CA | vless | @Lockey_vpn | 11",
+                "🇺🇸US | vless | @Lockey_vpn | 10",
                 "🇨🇦CA | vless | @rxv2ray | 14",
                 "🇨🇦CA | vless | @free_v2rayyy | 3",
-                "🇨🇷CR | vless | @lightning6 | 28",
+                "🇺🇸US | vless | @lightning6 | 28",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 23",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 12",
@@ -243,6 +244,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 5",
+                "🇬🇧GB | ss | @forwardv2ray | 14",
                 "🇩🇪DE | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇸🇪SE | vless | @kiava | 5",
@@ -516,9 +518,9 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Lockey_vpn | 11",
+            "tag": "🇺🇸US | vless | @Lockey_vpn | 10",
             "type": "vless",
-            "server": "104.21.59.125",
+            "server": "173.245.58.31",
             "server_port": 80,
             "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
             "flow": "",
@@ -532,7 +534,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "104.21.59.125"
+                    "Host": "173.245.58.31"
                 }
             }
         },
@@ -589,7 +591,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @lightning6 | 28",
+            "tag": "🇺🇸US | vless | @lightning6 | 28",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1807,6 +1809,16 @@
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             }
+        },
+        {
+            "tag": "🇬🇧GB | ss | @forwardv2ray | 14",
+            "type": "shadowsocks",
+            "server": "series-a2-mec.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "u17T3BvpYaaiuW2c",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇩🇪DE | vless | @FAKEOFTVC | 4",
