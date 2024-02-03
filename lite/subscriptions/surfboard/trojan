@@ -12,11 +12,11 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇮🇪IE | trojan | @PrivateVPNs | 16 = trojan, 54.229.147.183, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
-TVCtqielitjcs = trojan, , , password = , udp-delay = true, skip-cert-verify = false, ws = false
+TVCvoxeuoasnk = trojan, , , password = , udp-delay = true, skip-cert-verify = false, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇮🇪IE | trojan | @PrivateVPNs | 16,TVCtqielitjcs
-URL-TEST = url-test,🇮🇪IE | trojan | @PrivateVPNs | 16,TVCtqielitjcs
-FALLBACK = fallback,🇮🇪IE | trojan | @PrivateVPNs | 16,TVCtqielitjcs
+MANUAL = select,URL-TEST,FALLBACK,🇮🇪IE | trojan | @PrivateVPNs | 16,TVCvoxeuoasnk
+URL-TEST = url-test,🇮🇪IE | trojan | @PrivateVPNs | 16,TVCvoxeuoasnk
+FALLBACK = fallback,🇮🇪IE | trojan | @PrivateVPNs | 16,TVCvoxeuoasnk
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
