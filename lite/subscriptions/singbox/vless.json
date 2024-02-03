@@ -126,7 +126,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 15",
                 "🇨🇷CR | vless | @customv2ray | 13",
-                "🇨🇦CA | vless | @UnlimitedDev | 9",
+                "🇨🇦CA | vless | @UnlimitedDev | 8",
                 "🇨🇦CA | vless | @vmessorg | 6",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 5",
                 "🇨🇦CA | vless | @v2rayngvpn | 17",
@@ -145,13 +145,14 @@
                 "🇨🇦CA | vless | @MehradLearn | 7",
                 "🇨🇦CA | vless | @lrnbymaa | 14",
                 "🇨🇦CA | vless | @proxystore11 | 15",
-                "🏳️XX | vless | @fnet00 | 12",
+                "🏳️XX | vless | @fnet00 | 13",
                 "🇨🇦CA | vless | @polproxy | 12",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 12",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 13",
-                "🏳️XX | vless | @Capoit | 9",
+                "🏳️XX | vless | @Capoit | 10",
                 "🇨🇷CR | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @flyv2ray | 13",
+                "🇩🇪DE | vless | @forwardv2ray | 18",
                 "🏳️XX | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇳🇱NL | vless | @mehrosaboran | 12",
@@ -191,7 +192,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 15",
                 "🇨🇷CR | vless | @customv2ray | 13",
-                "🇨🇦CA | vless | @UnlimitedDev | 9",
+                "🇨🇦CA | vless | @UnlimitedDev | 8",
                 "🇨🇦CA | vless | @vmessorg | 6",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 5",
                 "🇨🇦CA | vless | @v2rayngvpn | 17",
@@ -210,13 +211,14 @@
                 "🇨🇦CA | vless | @MehradLearn | 7",
                 "🇨🇦CA | vless | @lrnbymaa | 14",
                 "🇨🇦CA | vless | @proxystore11 | 15",
-                "🏳️XX | vless | @fnet00 | 12",
+                "🏳️XX | vless | @fnet00 | 13",
                 "🇨🇦CA | vless | @polproxy | 12",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 12",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 13",
-                "🏳️XX | vless | @Capoit | 9",
+                "🏳️XX | vless | @Capoit | 10",
                 "🇨🇷CR | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @flyv2ray | 13",
+                "🇩🇪DE | vless | @forwardv2ray | 18",
                 "🏳️XX | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇳🇱NL | vless | @mehrosaboran | 12",
@@ -787,11 +789,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @UnlimitedDev | 9",
+            "tag": "🇨🇦CA | vless | @UnlimitedDev | 8",
             "type": "vless",
             "server": "bia-to2.unlimiteddev.site",
             "server_port": 8880,
-            "uuid": "a6a23972-e0b3-4034-addb-ec2e7885dced",
+            "uuid": "87065301-d59e-4038-af0f-306b2fbfc04c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1289,7 +1291,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @fnet00 | 12",
+            "tag": "🏳️XX | vless | @fnet00 | 13",
             "type": "vless",
             "server": "Kamyar1.faroo.space",
             "server_port": 2083,
@@ -1393,7 +1395,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @Capoit | 9",
+            "tag": "🏳️XX | vless | @Capoit | 10",
             "type": "vless",
             "server": "best1.channeltest.site",
             "server_port": 9999,
@@ -1455,6 +1457,35 @@
                 "path": "\/gsmxserver",
                 "headers": {
                     "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "45.147.7.13",
+            "server_port": 8443,
+            "uuid": "9f76cfec-2931-4f9b-a992-1c5ebc86f72a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "speed.cloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "QEfpfYwKLNiQMxe5kSTCMCsxeRj3KUjT7DCQ5lsKHQo",
+                    "short_id": "1a16f64f"
                 }
             }
         },
