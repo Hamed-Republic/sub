@@ -126,7 +126,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 15",
                 "🇨🇷CR | vless | @customv2ray | 13",
-                "🇨🇦CA | vless | @UnlimitedDev | 8",
+                "🇨🇦CA | vless | @UnlimitedDev | 9",
                 "🇨🇦CA | vless | @vmessorg | 6",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 5",
                 "🇨🇦CA | vless | @v2rayngvpn | 17",
@@ -152,9 +152,10 @@
                 "🏳️XX | vless | @Capoit | 10",
                 "🇨🇷CR | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @flyv2ray | 13",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🏳️XX | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 15",
-                "🇨🇦CA | vless | @mehrosaboran | 11",
+                "🇳🇱NL | vless | @mehrosaboran | 10",
                 "🇸🇪SE | vless | @kiava | 5",
                 "🇨🇦CA | vless | @nofiltering2 | 5",
                 "🇩🇪DE | vless | @proxy_mtm | 5",
@@ -191,7 +192,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 15",
                 "🇨🇷CR | vless | @customv2ray | 13",
-                "🇨🇦CA | vless | @UnlimitedDev | 8",
+                "🇨🇦CA | vless | @UnlimitedDev | 9",
                 "🇨🇦CA | vless | @vmessorg | 6",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 5",
                 "🇨🇦CA | vless | @v2rayngvpn | 17",
@@ -217,9 +218,10 @@
                 "🏳️XX | vless | @Capoit | 10",
                 "🇨🇷CR | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @flyv2ray | 13",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🏳️XX | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 15",
-                "🇨🇦CA | vless | @mehrosaboran | 11",
+                "🇳🇱NL | vless | @mehrosaboran | 10",
                 "🇸🇪SE | vless | @kiava | 5",
                 "🇨🇦CA | vless | @nofiltering2 | 5",
                 "🇩🇪DE | vless | @proxy_mtm | 5",
@@ -787,7 +789,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @UnlimitedDev | 8",
+            "tag": "🇨🇦CA | vless | @UnlimitedDev | 9",
             "type": "vless",
             "server": "bia-to2.unlimiteddev.site",
             "server_port": 8880,
@@ -1459,6 +1461,27 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "104.31.16.160",
+            "server_port": 80,
+            "uuid": "e4a52f75-474e-449e-bcd2-05ea177f1403",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "104.31.16.160"
+                }
+            }
+        },
+        {
             "tag": "🏳️XX | vless | @FAKEOFTVC | 4",
             "type": "vless",
             "server": "my.lamashop.site",
@@ -1519,11 +1542,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @mehrosaboran | 11",
+            "tag": "🇳🇱NL | vless | @mehrosaboran | 10",
             "type": "vless",
-            "server": "104.22.51.162",
-            "server_port": 80,
-            "uuid": "-ArV2ray--ArV2ray--ArV2ray-",
+            "server": "188.114.96.3",
+            "server_port": 443,
+            "uuid": "d0a19882-21c7-4660-bb3a-4410bb7b36d6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1531,12 +1554,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/@ArV2ray,@ArV2ray,@ArV2ray",
-                "headers": {
-                    "Host": "104.22.51.162"
+            "tls": {
+                "enabled": true,
+                "server_name": "tel.ArV2ray.host",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
