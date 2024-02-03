@@ -120,10 +120,11 @@
                 "🇨🇷CR | vless | @DigiV2ray | 25",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 9",
                 "🇨🇦CA | vless | @v2logy | 11",
+                "🇨🇦CA | vless | @servermomo | 3",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 16",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇺🇸US | vless | @V2rayNGn | 15",
+                "🇨🇷CR | vless | @V2rayNGn | 15",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇩🇪DE | trojan | @DirectVPN | 15",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -151,7 +152,7 @@
                 "🇨🇦CA | vless | @MehradLearn | 7",
                 "🇨🇦CA | vless | @lrnbymaa | 14",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @proxystore11 | 12",
+                "🇨🇦CA | vless | @proxystore11 | 15",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🏳️XX | vless | @fnet00 | 12",
                 "🇨🇦CA | vless | @polproxy | 12",
@@ -161,13 +162,14 @@
                 "🏳️XX | vless | @Capoit | 9",
                 "🇨🇷CR | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @flyv2ray | 13",
+                "🇬🇧GB | ss | @forwardv2ray | 18",
                 "🏳️XX | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇳🇱NL | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 5",
                 "🇨🇦CA | vless | @nofiltering2 | 5",
                 "🇩🇪DE | vless | @proxy_mtm | 5",
-                "🏳️XX | vless | @vpn_go67 | 23",
+                "🇹🇷TR | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vless | @kingofilter | 10",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 10",
@@ -195,10 +197,11 @@
                 "🇨🇷CR | vless | @DigiV2ray | 25",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 9",
                 "🇨🇦CA | vless | @v2logy | 11",
+                "🇨🇦CA | vless | @servermomo | 3",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 16",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇺🇸US | vless | @V2rayNGn | 15",
+                "🇨🇷CR | vless | @V2rayNGn | 15",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇩🇪DE | trojan | @DirectVPN | 15",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -226,7 +229,7 @@
                 "🇨🇦CA | vless | @MehradLearn | 7",
                 "🇨🇦CA | vless | @lrnbymaa | 14",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @proxystore11 | 12",
+                "🇨🇦CA | vless | @proxystore11 | 15",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🏳️XX | vless | @fnet00 | 12",
                 "🇨🇦CA | vless | @polproxy | 12",
@@ -236,13 +239,14 @@
                 "🏳️XX | vless | @Capoit | 9",
                 "🇨🇷CR | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @flyv2ray | 13",
+                "🇬🇧GB | ss | @forwardv2ray | 18",
                 "🏳️XX | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇳🇱NL | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 5",
                 "🇨🇦CA | vless | @nofiltering2 | 5",
                 "🇩🇪DE | vless | @proxy_mtm | 5",
-                "🏳️XX | vless | @vpn_go67 | 23",
+                "🇹🇷TR | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vless | @kingofilter | 10",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 10",
@@ -671,6 +675,27 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @servermomo | 3",
+            "type": "vless",
+            "server": "104.21.56.58",
+            "server_port": 8880,
+            "uuid": "417ee321-7e36-49c3-ac08-5f6d152cc92a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegramjoin:@servermomo-Telegramjoin:@servermomoTelegramjoin:@servermomo-Telegramjoin:@servermomo-Telegramjoin:@servermomo-Telegramjoin:@servermomo-Telegramjoin:@servermomo-Telegramjoin:@servermomo-Telegramjoin:@servermomoTelegramjoin:@servermomo-",
+                "headers": {
+                    "Host": "104.21.56.58"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @azadi_az_inja_migzare | 16",
             "type": "vless",
             "server": "104.24.185.135",
@@ -744,7 +769,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayNGn | 15",
+            "tag": "🇨🇷CR | vless | @V2rayNGn | 15",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 8880,
@@ -1423,9 +1448,9 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @proxystore11 | 12",
+            "tag": "🇨🇦CA | vless | @proxystore11 | 15",
             "type": "vless",
-            "server": "104.17.212.43",
+            "server": "104.31.16.160",
             "server_port": 80,
             "uuid": "e4a52f75-474e-449e-bcd2-05ea177f1403",
             "flow": "",
@@ -1439,7 +1464,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "104.17.212.43"
+                    "Host": "104.31.16.160"
                 }
             }
         },
@@ -1655,6 +1680,16 @@
             }
         },
         {
+            "tag": "🇬🇧GB | ss | @forwardv2ray | 18",
+            "type": "shadowsocks",
+            "server": "series-a2-me.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "Bog0ELmMM9DSxDdQ",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
             "tag": "🏳️XX | vless | @FAKEOFTVC | 4",
             "type": "vless",
             "server": "my.lamashop.site",
@@ -1822,7 +1857,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @vpn_go67 | 23",
+            "tag": "🇹🇷TR | vless | @vpn_go67 | 23",
             "type": "vless",
             "server": "public.alpanel.top",
             "server_port": 1403,
