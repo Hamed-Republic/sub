@@ -111,6 +111,7 @@
                 "🇫🇷FR | vless | @VlessConfig | 15",
                 "🇨🇷CR | vless | @VPNCUSTOMIZE | 22",
                 "🇨🇦CA | vless | @ipV2Ray | 17",
+                "🇨🇦CA | vless | @melov2ray | 7",
                 "🇨🇦CA | vless | @V2pedia | 10",
                 "🇨🇦CA | vless | @frev2ray | 6",
                 "🇨🇦CA | vless | @ARv2ray | 13",
@@ -157,7 +158,7 @@
                 "🇨🇦CA | vless | @Capoit | 8",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇨🇷CR | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇩🇪DE | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 5",
@@ -178,6 +179,7 @@
                 "🇫🇷FR | vless | @VlessConfig | 15",
                 "🇨🇷CR | vless | @VPNCUSTOMIZE | 22",
                 "🇨🇦CA | vless | @ipV2Ray | 17",
+                "🇨🇦CA | vless | @melov2ray | 7",
                 "🇨🇦CA | vless | @V2pedia | 10",
                 "🇨🇦CA | vless | @frev2ray | 6",
                 "🇨🇦CA | vless | @ARv2ray | 13",
@@ -224,7 +226,7 @@
                 "🇨🇦CA | vless | @Capoit | 8",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇨🇷CR | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇩🇪DE | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 5",
@@ -395,6 +397,37 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @melov2ray | 7",
+            "type": "vless",
+            "server": "fin.melov2ray.shop",
+            "server_port": 443,
+            "uuid": "4c53d8ca-1df3-421c-af61-9bdaf2c99bec",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "FIn.Melov2ray.Shop",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -1618,12 +1651,12 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 17",
             "type": "vless",
-            "server": "ars2.pingreducer.top",
-            "server_port": 443,
-            "uuid": "58d04d0d-e4b1-40d2-81df-d175f030424c",
-            "flow": "",
+            "server": "brownrat.uk",
+            "server_port": 35316,
+            "uuid": "c84da340-47b6-4405-8ad5-279b79e0c292",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1632,19 +1665,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ars2.pingreducer.top",
+                "server_name": "discord.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/pingreducer",
-                "headers": {
-                    "Host": "ars2.pingreducer.top"
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4edg5SSew4CT4Za8p47eA46C6RyIopiBAz7TN4fp-EM",
+                    "short_id": "5dbd6d11"
                 }
             }
         },
