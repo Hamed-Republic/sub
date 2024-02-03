@@ -129,7 +129,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 15",
                 "🇨🇦CA | vless | @prrofile_purple | 186",
-                "🇨🇷CR | vless | @ShadowSocks_s | 19",
+                "🇨🇷CR | vless | @ShadowSocks_s | 17",
                 "🇨🇷CR | vless | @customv2ray | 15",
                 "🇨🇦CA | vless | @UnlimitedDev | 9",
                 "🇨🇦CA | vless | @vmessorg | 7",
@@ -156,7 +156,6 @@
                 "🇨🇦CA | vless | @Capoit | 8",
                 "🇺🇸US | vless | @IRN_VPN | 1",
                 "🇨🇷CR | vless | @flyv2ray | 14",
-                "🇨🇷CR | vless | @forwardv2ray | 4",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 5",
@@ -195,7 +194,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 15",
                 "🇨🇦CA | vless | @prrofile_purple | 186",
-                "🇨🇷CR | vless | @ShadowSocks_s | 19",
+                "🇨🇷CR | vless | @ShadowSocks_s | 17",
                 "🇨🇷CR | vless | @customv2ray | 15",
                 "🇨🇦CA | vless | @UnlimitedDev | 9",
                 "🇨🇦CA | vless | @vmessorg | 7",
@@ -222,7 +221,6 @@
                 "🇨🇦CA | vless | @Capoit | 8",
                 "🇺🇸US | vless | @IRN_VPN | 1",
                 "🇨🇷CR | vless | @flyv2ray | 14",
-                "🇨🇷CR | vless | @forwardv2ray | 4",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 5",
@@ -907,11 +905,11 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @ShadowSocks_s | 19",
+            "tag": "🇨🇷CR | vless | @ShadowSocks_s | 17",
             "type": "vless",
             "server": "shhproxy.varzesh3-cnd.site",
             "server_port": 2087,
-            "uuid": "774d11eb-e6bf-4e5f-9ce6-263a598a3b1a",
+            "uuid": "05926aa9-3dc8-4474-84b7-d9be603ea6db",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -963,7 +961,7 @@
             "type": "vless",
             "server": "bia-to2.unlimiteddev.site",
             "server_port": 8880,
-            "uuid": "08c33d12-99c7-4f6f-ae50-832cb59dad74",
+            "uuid": "a6a23972-e0b3-4034-addb-ec2e7885dced",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1626,27 +1624,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "gmV2raybo.shhproxyfree.com"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇷CR | vless | @forwardv2ray | 4",
-            "type": "vless",
-            "server": "190.93.247.155",
-            "server_port": 8080,
-            "uuid": "config-injectorV2",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "190.93.247.155"
                 }
             }
         },
