@@ -120,7 +120,7 @@
                 "🇨🇦CA | vless | @DarkTeam_VPN | 6",
                 "🇨🇦CA | vless | @v2logy | 11",
                 "🇨🇦CA | vless | @servermomo | 3",
-                "🇮🇷IR | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 15",
                 "🇨🇦CA | vless | @prrofile_purple | 177",
@@ -149,7 +149,7 @@
                 "🏳️XX | vless | @Capoit | 10",
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇩🇪DE | vless | @forwardv2ray | 14",
+                "🏳️XX | vless | @forwardv2ray | 18",
                 "🏳️XX | vless | @FAKEOFTVC | 5",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
@@ -185,7 +185,7 @@
                 "🇨🇦CA | vless | @DarkTeam_VPN | 6",
                 "🇨🇦CA | vless | @v2logy | 11",
                 "🇨🇦CA | vless | @servermomo | 3",
-                "🇮🇷IR | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 15",
                 "🇨🇦CA | vless | @prrofile_purple | 177",
@@ -214,7 +214,7 @@
                 "🏳️XX | vless | @Capoit | 10",
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇩🇪DE | vless | @forwardv2ray | 14",
+                "🏳️XX | vless | @forwardv2ray | 18",
                 "🏳️XX | vless | @FAKEOFTVC | 5",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
@@ -306,7 +306,7 @@
         {
             "tag": "🇬🇧GB | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "13.43.212.74",
+            "server": "18.133.113.28",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -641,17 +641,24 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
-            "server": "shop.haji-mamad.site",
-            "server_port": 42575,
-            "uuid": "94b6af14-5a3d-476b-b6ed-b7cbb2c53410",
+            "server": "se1.havij.click",
+            "server_port": 80,
+            "uuid": "9c170060-7c76-4c39-9220-58f3258e57b7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "se1.havij.click"
+                }
             }
         },
         {
@@ -1354,11 +1361,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 14",
+            "tag": "🏳️XX | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "116.203.140.86",
-            "server_port": 27253,
-            "uuid": "023ede5c-e622-45d1-ab67-d47d43e4ca03",
+            "server": "V2RAXX",
+            "server_port": 0,
+            "uuid": "",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
