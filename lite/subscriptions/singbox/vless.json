@@ -144,7 +144,7 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
                 "🏳️XX | vless | @Capoit | 6",
                 "🏳️XX | vless | @flyv2ray | 16",
-                "🇳🇱NL | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 6",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇷CR | vless | @mehrosaboran | 11",
@@ -202,7 +202,7 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
                 "🏳️XX | vless | @Capoit | 6",
                 "🏳️XX | vless | @flyv2ray | 16",
-                "🇳🇱NL | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 6",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇷CR | vless | @mehrosaboran | 11",
@@ -1215,11 +1215,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "188.114.97.3",
-            "server_port": 80,
-            "uuid": "e4a52f75-474e-449e-bcd2-05ea177f1403",
+            "server": "104.16.32.40",
+            "server_port": 443,
+            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1227,11 +1227,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "baipiao406.stunning-bassoon.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Path\/Telegram@V2ray_alpha\/",
                 "headers": {
-                    "Host": "188.114.97.3"
+                    "Host": "baipiao406.stunning-bassoon.pages.dev"
                 }
             }
         },
