@@ -114,7 +114,7 @@
                 "🇨🇦CA | vless | @ARv2ray | 13",
                 "🇨🇦CA | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @rxv2ray | 14",
-                "🇺🇸US | vless | @lightning6 | 28",
+                "🇨🇷CR | vless | @lightning6 | 28",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 25",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 9",
@@ -139,7 +139,6 @@
                 "🇨🇦CA | vless | @MTConfig | 18",
                 "🇨🇷CR | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 19",
-                "🇨🇦CA | vless | @DailyV2RY | 119",
                 "🏳️XX | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @MehradLearn | 7",
                 "🇨🇦CA | vless | @lrnbymaa | 14",
@@ -151,7 +150,6 @@
                 "🏳️XX | vless | @Capoit | 10",
                 "🇨🇷CR | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @flyv2ray | 13",
-                "🇩🇪DE | vless | @forwardv2ray | 18",
                 "🏳️XX | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇳🇱NL | vless | @mehrosaboran | 10",
@@ -180,7 +178,7 @@
                 "🇨🇦CA | vless | @ARv2ray | 13",
                 "🇨🇦CA | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @rxv2ray | 14",
-                "🇺🇸US | vless | @lightning6 | 28",
+                "🇨🇷CR | vless | @lightning6 | 28",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 25",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 9",
@@ -205,7 +203,6 @@
                 "🇨🇦CA | vless | @MTConfig | 18",
                 "🇨🇷CR | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 19",
-                "🇨🇦CA | vless | @DailyV2RY | 119",
                 "🏳️XX | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @MehradLearn | 7",
                 "🇨🇦CA | vless | @lrnbymaa | 14",
@@ -217,7 +214,6 @@
                 "🏳️XX | vless | @Capoit | 10",
                 "🇨🇷CR | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @flyv2ray | 13",
-                "🇩🇪DE | vless | @forwardv2ray | 18",
                 "🏳️XX | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇳🇱NL | vless | @mehrosaboran | 10",
@@ -477,7 +473,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 28",
+            "tag": "🇨🇷CR | vless | @lightning6 | 28",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1118,37 +1114,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 119",
-            "type": "vless",
-            "server": "tanjiro.viipnetwork.xyz",
-            "server_port": 8443,
-            "uuid": "35133ef7-9bfc-4bcf-9dd8-109e8a0b7d5d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "news.viipnetwork.xyz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@MikasaVPN\/",
-                "headers": {
-                    "Host": "news.viipnetwork.xyz"
-                }
-            }
-        },
-        {
             "tag": "🏳️XX | vless | @sinabigo | 4",
             "type": "vless",
             "server": "tunelserver.myelf.me",
@@ -1410,42 +1375,6 @@
                 "headers": {
                     "Host": "www.speedtest.net"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "fbbvssss.v2pedia.xyz",
-            "server_port": 8443,
-            "uuid": "8b2f1fc5-9d1c-4304-9c1d-91806eef4629",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "pubmed.ncbi.nlm.nih.gov",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "1XVNWscPjgvJ1uh9Tvk30Gh8dRlDL93jQEu2hk8YrRY",
-                    "short_id": "268ede"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
