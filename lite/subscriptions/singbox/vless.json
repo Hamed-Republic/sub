@@ -149,7 +149,7 @@
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 11",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇫🇮FI | vless | @forwardv2ray | 19",
+                "🇩🇪DE | vless | @forwardv2ray | 19",
                 "🇳🇱NL | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🏳️XX | vless | @mehrosaboran | 12",
@@ -211,7 +211,7 @@
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 11",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇫🇮FI | vless | @forwardv2ray | 19",
+                "🇩🇪DE | vless | @forwardv2ray | 19",
                 "🇳🇱NL | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🏳️XX | vless | @mehrosaboran | 12",
@@ -1371,11 +1371,11 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vless | @forwardv2ray | 19",
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "95.217.208.245",
-            "server_port": 443,
-            "uuid": "2b2e85fd-fb5f-4050-8af3-dc5b168fdf4e",
+            "server": "fbbvssss.v2pedia.xyz",
+            "server_port": 8443,
+            "uuid": "8b2f1fc5-9d1c-4304-9c1d-91806eef4629",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1385,22 +1385,22 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "*.gsmarena.com",
+                "server_name": "pubmed.ncbi.nlm.nih.gov",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "ghLIwaKG9GWJLEV7PxdHKkW4a37QBfa30A0tufmJ6zw",
-                    "short_id": "849f8532"
+                    "public_key": "1XVNWscPjgvJ1uh9Tvk30Gh8dRlDL93jQEu2hk8YrRY",
+                    "short_id": "268ede"
                 }
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "@ipV2Ray",
+                "service_name": "Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
