@@ -144,7 +144,6 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
                 "🏳️XX | vless | @Capoit | 6",
                 "🏳️XX | vless | @flyv2ray | 16",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 6",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇷CR | vless | @mehrosaboran | 11",
@@ -154,7 +153,7 @@
                 "🇨🇦CA | vless | @kingofilter | 10",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
-                "🇺🇸US | vless | @IBv2ray | 2",
+                "🇨🇦CA | vless | @IBv2ray | 2",
                 "🇨🇷CR | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @ROMAX_VPN | 13"
@@ -202,7 +201,6 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
                 "🏳️XX | vless | @Capoit | 6",
                 "🏳️XX | vless | @flyv2ray | 16",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 6",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇷CR | vless | @mehrosaboran | 11",
@@ -212,7 +210,7 @@
                 "🇨🇦CA | vless | @kingofilter | 10",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
-                "🇺🇸US | vless | @IBv2ray | 2",
+                "🇨🇦CA | vless | @IBv2ray | 2",
                 "🇨🇷CR | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @ROMAX_VPN | 13"
@@ -1215,27 +1213,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
-            "type": "vless",
-            "server": "172.67.193.36",
-            "server_port": 80,
-            "uuid": "abb87b3c-68e9-438b-a2f6-f5e57ecc6880",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vless",
-                "headers": {
-                    "Host": "172.67.193.36"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @FAKEOFTVC | 6",
             "type": "vless",
             "server": "104.31.16.165",
@@ -1462,7 +1439,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @IBv2ray | 2",
+            "tag": "🇨🇦CA | vless | @IBv2ray | 2",
             "type": "vless",
             "server": "104.21.31.30",
             "server_port": 80,
