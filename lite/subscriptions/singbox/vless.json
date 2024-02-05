@@ -124,7 +124,7 @@
                 "🇨🇦CA | vless | @servermomo | 2",
                 "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇨🇷CR | vless | @V2rayNGn | 15",
+                "🇺🇸US | vless | @V2rayNGn | 15",
                 "🇨🇦CA | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @vmessorg | 7",
                 "🇳🇱NL | vless | @v2rayngvpn | 14",
@@ -148,6 +148,7 @@
                 "🏳️XX | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🏳️XX | vless | @flyv2ray | 16",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🏳️XX | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇷CR | vless | @mehrosaboran | 11",
@@ -185,7 +186,7 @@
                 "🇨🇦CA | vless | @servermomo | 2",
                 "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇨🇷CR | vless | @V2rayNGn | 15",
+                "🇺🇸US | vless | @V2rayNGn | 15",
                 "🇨🇦CA | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @vmessorg | 7",
                 "🇳🇱NL | vless | @v2rayngvpn | 14",
@@ -209,6 +210,7 @@
                 "🏳️XX | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🏳️XX | vless | @flyv2ray | 16",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🏳️XX | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇷CR | vless | @mehrosaboran | 11",
@@ -745,7 +747,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2rayNGn | 15",
+            "tag": "🇺🇸US | vless | @V2rayNGn | 15",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 8880,
@@ -1318,6 +1320,27 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8080,
+            "uuid": "---Parsashonam--12-",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@Parsashonam,Telegram:@Parsashonam,Telegram:@Parsashonam,Telegram:@Parsashonam,Telegram:@Parsashonam",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
             }
         },
         {

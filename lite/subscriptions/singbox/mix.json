@@ -125,11 +125,11 @@
                 "🇫🇮FI | ss | @azadi_az_inja_migzare | 12",
                 "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇨🇷CR | vless | @V2rayNGn | 15",
+                "🇺🇸US | vless | @V2rayNGn | 15",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇩🇪DE | trojan | @DirectVPN | 14",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
-                "🇺🇸US | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @mftizi | 19",
                 "🇵🇭PH | vmess | @DeamNet_Proxy | 18",
                 "🇮🇹IT | vmess | @oneclickvpnkeys | 5",
                 "🇨🇦CA | vmess | @prrofile_purple | 184",
@@ -153,7 +153,7 @@
                 "🇨🇦CA | vless | @lrnbymaa | 13",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇨🇷CR | vless | @proxystore11 | 15",
-                "🇬🇧GB | vmess | @Hope_Net | 6",
+                "🇬🇧GB | vmess | @Hope_Net | 8",
                 "🏳️XX | vless | @fnet00 | 13",
                 "🇨🇦CA | vless | @polproxy | 12",
                 "🏳️XX | vless | @Outlinev2rayNG | 10",
@@ -162,6 +162,7 @@
                 "🏳️XX | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🏳️XX | vless | @flyv2ray | 16",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🏳️XX | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇷CR | vless | @mehrosaboran | 11",
@@ -202,11 +203,11 @@
                 "🇫🇮FI | ss | @azadi_az_inja_migzare | 12",
                 "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇨🇷CR | vless | @V2rayNGn | 15",
+                "🇺🇸US | vless | @V2rayNGn | 15",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇩🇪DE | trojan | @DirectVPN | 14",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
-                "🇺🇸US | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @mftizi | 19",
                 "🇵🇭PH | vmess | @DeamNet_Proxy | 18",
                 "🇮🇹IT | vmess | @oneclickvpnkeys | 5",
                 "🇨🇦CA | vmess | @prrofile_purple | 184",
@@ -230,7 +231,7 @@
                 "🇨🇦CA | vless | @lrnbymaa | 13",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇨🇷CR | vless | @proxystore11 | 15",
-                "🇬🇧GB | vmess | @Hope_Net | 6",
+                "🇬🇧GB | vmess | @Hope_Net | 8",
                 "🏳️XX | vless | @fnet00 | 13",
                 "🇨🇦CA | vless | @polproxy | 12",
                 "🏳️XX | vless | @Outlinev2rayNG | 10",
@@ -239,6 +240,7 @@
                 "🏳️XX | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🏳️XX | vless | @flyv2ray | 16",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🏳️XX | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇷CR | vless | @mehrosaboran | 11",
@@ -787,7 +789,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2rayNGn | 15",
+            "tag": "🇺🇸US | vless | @V2rayNGn | 15",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 8880,
@@ -869,7 +871,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @mftizi | 19",
+            "tag": "🇨🇦CA | vmess | @mftizi | 19",
             "type": "vmess",
             "server": "cfcdn1.sanfencdn9.com",
             "server_port": 8880,
@@ -1438,7 +1440,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vmess | @Hope_Net | 6",
+            "tag": "🇬🇧GB | vmess | @Hope_Net | 8",
             "type": "vmess",
             "server": "150.107.201.179",
             "server_port": 51923,
@@ -1649,6 +1651,27 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8080,
+            "uuid": "---Parsashonam--12-",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@Parsashonam,Telegram:@Parsashonam,Telegram:@Parsashonam,Telegram:@Parsashonam,Telegram:@Parsashonam",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
             }
         },
         {
