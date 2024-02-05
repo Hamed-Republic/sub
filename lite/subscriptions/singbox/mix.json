@@ -159,7 +159,6 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🏳️XX | vless | @Capoit | 6",
                 "🏳️XX | vless | @flyv2ray | 16",
-                "🇬🇧GB | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 6",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇷CR | vless | @mehrosaboran | 11",
@@ -234,7 +233,6 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🏳️XX | vless | @Capoit | 6",
                 "🏳️XX | vless | @flyv2ray | 16",
-                "🇬🇧GB | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 6",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇷CR | vless | @mehrosaboran | 11",
@@ -872,9 +870,9 @@
         {
             "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
             "type": "vmess",
-            "server": "172.67.229.13",
-            "server_port": 2086,
-            "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
+            "server": "us-west-anycast.lnaspiring.com",
+            "server_port": 80,
+            "uuid": "26712d8f-dfc5-4cec-8da0-57164f086be8",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -887,9 +885,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/IOebhLMhl1CTbFHbL95myfRX2",
+                "path": "\/geg\/44",
                 "headers": {
-                    "Host": "172.67.229.13"
+                    "Host": "us-west-anycast.lnaspiring.com"
                 }
             }
         },
@@ -1555,30 +1553,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇬🇧GB | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "185.162.228.99",
-            "server_port": 8080,
-            "uuid": "22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/www.blueberrywindow.online\/",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
