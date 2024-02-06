@@ -130,7 +130,6 @@
                 "🇸🇪SE | trojan | @DirectVPN | 14",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 8",
                 "🇳🇱NL | vless | @prrofile_purple | 182",
                 "🇨🇦CA | vless | @customv2ray | 10",
@@ -141,7 +140,7 @@
                 "🇩🇪DE | vless | @ShadowProxy66 | 50",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 1",
-                "🇨🇷CR | vless | @proxyymeliii | 15",
+                "🇨🇦CA | vless | @proxyymeliii | 16",
                 "🇨🇦CA | vless | @MsV2ray | 17",
                 "🇩🇪DE | vless | @v2ray1_ng | 4",
                 "🇮🇷IR | vless | @vless_vmess | 3",
@@ -158,7 +157,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇳🇬NG | vmess | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇳🇱NL | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 16",
                 "🇺🇸US | vless | @mehrosaboran | 11",
@@ -203,7 +202,6 @@
                 "🇸🇪SE | trojan | @DirectVPN | 14",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 8",
                 "🇳🇱NL | vless | @prrofile_purple | 182",
                 "🇨🇦CA | vless | @customv2ray | 10",
@@ -214,7 +212,7 @@
                 "🇩🇪DE | vless | @ShadowProxy66 | 50",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 1",
-                "🇨🇷CR | vless | @proxyymeliii | 15",
+                "🇨🇦CA | vless | @proxyymeliii | 16",
                 "🇨🇦CA | vless | @MsV2ray | 17",
                 "🇩🇪DE | vless | @v2ray1_ng | 4",
                 "🇮🇷IR | vless | @vless_vmess | 3",
@@ -231,7 +229,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇳🇬NG | vmess | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇳🇱NL | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 16",
                 "🇺🇸US | vless | @mehrosaboran | 11",
@@ -906,30 +904,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
-            "type": "vmess",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "4ddd51a1-208d-4061-8b4a-0930872d6b30",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                }
-            }
-        },
-        {
             "tag": "🇳🇱NL | vmess | @oneclickvpnkeys | 8",
             "type": "vmess",
             "server": "45.136.51.175",
@@ -1163,11 +1137,11 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @proxyymeliii | 15",
+            "tag": "🇨🇦CA | vless | @proxyymeliii | 16",
             "type": "vless",
-            "server": "shhproxy.varzesh3-cnd.site",
-            "server_port": 80,
-            "uuid": "14586ba8-22ec-4d1e-9b44-c9118eefe96f",
+            "server": "pydar.banndedd.ir",
+            "server_port": 8080,
+            "uuid": "10de7f16-8253-4000-a89c-735d0b78b73e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1179,7 +1153,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "shhproxy.varzesh3-cnd.site"
+                    "Host": "pydar.banndedd.ir"
                 }
             }
         },
@@ -1563,36 +1537,23 @@
             }
         },
         {
-            "tag": "🇳🇬NG | vmess | @forwardv2ray | 17",
-            "type": "vmess",
-            "server": "150.107.126.4",
-            "server_port": 443,
-            "uuid": "8ed466fb-1aba-4bde-90a6-8536817c2230",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "k---join.outline-vpn.cloud",
+            "server_port": 80,
+            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "mom5.sytes.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/@forwardv2ray",
+                "path": "\/",
                 "headers": {
-                    "Host": "mom5.sytes.net"
+                    "Host": "k---join.outline-vpn.cloud"
                 }
             }
         },
