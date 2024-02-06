@@ -107,7 +107,6 @@
             "outbounds": [
                 "URL-TEST",
                 "🇩🇪DE | vless | @NIM_VPN_ir | 8",
-                "🇵🇱PL | vless | @V2rayCollectorDonate | 19",
                 "🇩🇪DE | vless | @v2ray1_ng | 4",
                 "🇸🇪SE | vless | @kiava | 7",
                 "🇹🇷TR | vless | @vpn_go67 | 23",
@@ -119,7 +118,6 @@
             "type": "urltest",
             "outbounds": [
                 "🇩🇪DE | vless | @NIM_VPN_ir | 8",
-                "🇵🇱PL | vless | @V2rayCollectorDonate | 19",
                 "🇩🇪DE | vless | @v2ray1_ng | 4",
                 "🇸🇪SE | vless | @kiava | 7",
                 "🇹🇷TR | vless | @vpn_go67 | 23",
@@ -171,35 +169,6 @@
                     "enabled": true,
                     "public_key": "ng6XQkeYA7Omk3Gbsj2famKYasixtk8mFpifFBRv8Qo",
                     "short_id": "914deebd"
-                }
-            }
-        },
-        {
-            "tag": "🇵🇱PL | vless | @V2rayCollectorDonate | 19",
-            "type": "vless",
-            "server": "ch1.amirali0013.monster",
-            "server_port": 34943,
-            "uuid": "cf8cdf42-8999-4d92-b669-78e8db5f68eb",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sourceforge.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "36FItsfzNuuu10R3mmrFOThp-KmxCfx5SHxm82Qb9UQ",
-                    "short_id": "d222da96"
                 }
             }
         },
