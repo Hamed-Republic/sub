@@ -108,10 +108,12 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇮🇷IR | vmess | @V2rayng_Fast | 0",
-                "🇨🇦CA | vmess | @Hope_Net | 15",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
+                "🇮🇷IR | vmess | @V2rayng_Fast | 1",
+                "🇨🇦CA | vmess | @Hope_Net | 16",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇮🇷IR | vmess | @FAKEOFTVC | 4",
+                "🇨🇦CA | vmess | @forwardv2ray | 14",
+                "🇮🇷IR | vmess | @FAKEOFTVC | 5",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 5"
             ]
         },
@@ -121,10 +123,12 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇮🇷IR | vmess | @V2rayng_Fast | 0",
-                "🇨🇦CA | vmess | @Hope_Net | 15",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
+                "🇮🇷IR | vmess | @V2rayng_Fast | 1",
+                "🇨🇦CA | vmess | @Hope_Net | 16",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇮🇷IR | vmess | @FAKEOFTVC | 4",
+                "🇨🇦CA | vmess | @forwardv2ray | 14",
+                "🇮🇷IR | vmess | @FAKEOFTVC | 5",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -182,11 +186,35 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @V2rayng_Fast | 0",
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
             "type": "vmess",
-            "server": "62.60.132.187",
-            "server_port": 47294,
-            "uuid": "ad87ea04-2017-4e84-cfdd-6b02bf02f622",
+            "server": "us3e-mmnnfr9dop0.v2freevpn.com",
+            "server_port": 80,
+            "uuid": "2a8a10fb-9ca3-367e-a234-cf09f841be4f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/v118-fccxmxm35",
+                "headers": {
+                    "Host": "us3e-mmnnfr9dop0.v2freevpn.com"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vmess | @V2rayng_Fast | 1",
+            "type": "vmess",
+            "server": "81.12.27.107",
+            "server_port": 19661,
+            "uuid": "82e6520c-74b7-407a-c14f-6fe1388f8c5c",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -199,11 +227,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 15",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 16",
             "type": "vmess",
-            "server": "104.21.51.208",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "server9.beheshtbaneh.com",
+            "server_port": 8880,
+            "uuid": "62575747-37b4-4bf8-9ac5-95d214003be1",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -214,21 +242,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "nina.bond",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/",
                 "headers": {
-                    "Host": "nina.bond"
+                    "Host": ""
                 }
             }
         },
@@ -257,7 +275,31 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @FAKEOFTVC | 4",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 14",
+            "type": "vmess",
+            "server": "172.67.161.114",
+            "server_port": 8880,
+            "uuid": "044ba8ed-7285-472a-bc14-fb91dc6be4c9",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vmess | @FAKEOFTVC | 5",
             "type": "vmess",
             "server": "81.12.27.108",
             "server_port": 16767,
