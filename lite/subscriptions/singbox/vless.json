@@ -153,7 +153,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 9",
-                "🇳🇱NL | vless | @forwardv2ray | 14",
+                "🇯🇵JP | vless | @forwardv2ray | 18",
                 "🏳️XX | vless | @FAKEOFTVC | 5",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 11",
@@ -220,7 +220,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 9",
-                "🇳🇱NL | vless | @forwardv2ray | 14",
+                "🇯🇵JP | vless | @forwardv2ray | 18",
                 "🏳️XX | vless | @FAKEOFTVC | 5",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 11",
@@ -1502,11 +1502,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @forwardv2ray | 14",
+            "tag": "🇯🇵JP | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "185.242.86.156",
-            "server_port": 443,
-            "uuid": "6c3cd88a-54da-4ab6-9a65-e6ee880ddc78",
+            "server": "awsjp2.djjsvip.cfd",
+            "server_port": 6600,
+            "uuid": "8c4c1021-3352-4c76-b4b6-26c38a137f92",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1516,17 +1516,12 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "google.com",
+                "server_name": "e7083f36d86d22d8e1e591b922070931fe7fe7fac8ae8a267e677b35b4.jsjc.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "sfnjE7zzQhrk7OCM5eVRYkPkITbP9pfIyAcJK1QawRs",
-                    "short_id": "f033b9d6"
                 }
             }
         },
