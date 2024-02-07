@@ -108,10 +108,11 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
+                "🇨🇦CA | vmess | @ShadowProxy66 | 48",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 1",
                 "🏳️XX | vmess | @Hope_Net | 14",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 6"
+                "🇨🇦CA | vmess | @eliya_chiter0 | 5"
             ]
         },
         {
@@ -120,10 +121,11 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
+                "🇨🇦CA | vmess | @ShadowProxy66 | 48",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 1",
                 "🏳️XX | vmess | @Hope_Net | 14",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 6"
+                "🇨🇦CA | vmess | @eliya_chiter0 | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -177,6 +179,30 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 48",
+            "type": "vmess",
+            "server": "172.67.187.109",
+            "server_port": 80,
+            "uuid": "2e87cebc-977b-4fec-b079-b1ddc55b19c8",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -238,7 +264,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 6",
+            "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 5",
             "type": "vmess",
             "server": "www.speedtest.net",
             "server_port": 80,
