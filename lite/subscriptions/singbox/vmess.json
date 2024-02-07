@@ -108,11 +108,12 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
+                "🇨🇷CR | vmess | @oneclickvpnkeys | 6",
                 "🇺🇸US | vmess | @customv2ray | 12",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 2",
-                "🇨🇦CA | vmess | @Hope_Net | 18",
+                "🏳️XX | vmess | @Hope_Net | 18",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 5"
             ]
         },
@@ -122,11 +123,12 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
+                "🇨🇷CR | vmess | @oneclickvpnkeys | 6",
                 "🇺🇸US | vmess | @customv2ray | 12",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 2",
-                "🇨🇦CA | vmess | @Hope_Net | 18",
+                "🏳️XX | vmess | @Hope_Net | 18",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -184,11 +186,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
+            "tag": "🇨🇷CR | vmess | @oneclickvpnkeys | 6",
             "type": "vmess",
-            "server": "104.21.83.10",
-            "server_port": 8080,
-            "uuid": "22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0",
+            "server": "mci.mordad.shop",
+            "server_port": 2096,
+            "uuid": "12009e57-6fd8-46d6-94af-539514a7e7c7",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -199,11 +201,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "s1.shargh.shop",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": ""
+                    "Host": "s1.shargh.shop"
                 }
             }
         },
@@ -249,11 +261,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 18",
+            "tag": "🏳️XX | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "104.21.51.208",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "127.0.0.1",
+            "server_port": 8080,
+            "uuid": "acbbaca-abac-baca-bcad-cbacbcaacabb",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -263,23 +275,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "nina.bond",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "nina.bond"
-                }
             }
         },
         {
@@ -303,6 +298,30 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "server31.beheshtbaneh.com",
+            "server_port": 8880,
+            "uuid": "4154143c-bbba-47a4-9f79-c2ed087cbcc9",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
