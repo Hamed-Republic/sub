@@ -152,7 +152,7 @@
                 "🇬🇧GB | ss | @VmessProtocol | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 146",
                 "🇨🇦CA | vless | @sinabigo | 3",
-                "🏳️XX | vless | @MehradLearn | 1",
+                "🇨🇦CA | vless | @MehradLearn | 1",
                 "🇨🇦CA | vless | @lrnbymaa | 12",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @proxystore11 | 14",
@@ -165,8 +165,8 @@
                 "🇫🇮FI | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇨🇦CA | vless | @flyv2ray | 9",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @flyv2ray | 8",
+                "🇩🇪DE | vless | @forwardv2ray | 18",
                 "🏳️XX | vless | @FAKEOFTVC | 5",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 11",
@@ -233,7 +233,7 @@
                 "🇬🇧GB | ss | @VmessProtocol | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 146",
                 "🇨🇦CA | vless | @sinabigo | 3",
-                "🏳️XX | vless | @MehradLearn | 1",
+                "🇨🇦CA | vless | @MehradLearn | 1",
                 "🇨🇦CA | vless | @lrnbymaa | 12",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @proxystore11 | 14",
@@ -246,8 +246,8 @@
                 "🇫🇮FI | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇨🇦CA | vless | @flyv2ray | 9",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @flyv2ray | 8",
+                "🇩🇪DE | vless | @forwardv2ray | 18",
                 "🏳️XX | vless | @FAKEOFTVC | 5",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 11",
@@ -1418,7 +1418,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @MehradLearn | 1",
+            "tag": "🇨🇦CA | vless | @MehradLearn | 1",
             "type": "vless",
             "server": "mag.zhaal.ir",
             "server_port": 2086,
@@ -1732,7 +1732,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @flyv2ray | 9",
+            "tag": "🇨🇦CA | vless | @flyv2ray | 8",
             "type": "vless",
             "server": "panel5.obsernet.top",
             "server_port": 2053,
@@ -1763,27 +1763,34 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "server20.beheshtbaneh.com",
-            "server_port": 8880,
-            "uuid": "7ee41eb4-0594-4e2d-92a7-5dd3ee513692",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "49.13.197.173",
+            "server_port": 443,
+            "uuid": "a221b6a8-0811-4f50-f4b1-7c4d442eb026",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "server20.beheshtbaneh.com"
+            "tls": {
+                "enabled": true,
+                "server_name": "ip-128.arashcamera.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
