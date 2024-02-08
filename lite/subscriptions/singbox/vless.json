@@ -139,7 +139,6 @@
                 "🇩🇪DE | vless | @DailyV2RY | 96",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 12",
-                "🇨🇷CR | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @fnet00 | 12",
                 "🇨🇦CA | vless | @polproxy | 13",
@@ -150,12 +149,12 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 11",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 14",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇨🇷CR | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 6",
                 "🇸🇪SE | vless | @kiava | 8",
-                "🇮🇷IR | vless | @proxy_mtm | 0",
+                "🇮🇷IR | vless | @proxy_mtm | 15",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇮🇷IR | vless | @kingofilter | 9",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
@@ -203,7 +202,6 @@
                 "🇩🇪DE | vless | @DailyV2RY | 96",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 12",
-                "🇨🇷CR | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @fnet00 | 12",
                 "🇨🇦CA | vless | @polproxy | 13",
@@ -214,12 +212,12 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 11",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 14",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇨🇷CR | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 6",
                 "🇸🇪SE | vless | @kiava | 8",
-                "🇮🇷IR | vless | @proxy_mtm | 0",
+                "🇮🇷IR | vless | @proxy_mtm | 15",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇮🇷IR | vless | @kingofilter | 9",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
@@ -1140,27 +1138,6 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "shhproxy.varzesh3-cnd.site",
-            "server_port": 80,
-            "uuid": "33b2efab-7749-41cc-82a2-3ee0e48f465a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "shhproxy.varzesh3-cnd.site"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @proxystore11 | 14",
             "type": "vless",
             "server": "104.24.185.135",
@@ -1394,11 +1371,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 14",
             "type": "vless",
-            "server": "104.24.172.7",
+            "server": "104.18.202.232",
             "server_port": 8080,
-            "uuid": "25078e26-5992-4a79-96eb-b5626c93191d",
+            "uuid": "b00b62d3-80a2-40f4-92f2-f93f6cbbc96e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1408,9 +1385,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet",
+                "path": "\/@x2rayn_vpnCDN?ed=2090",
                 "headers": {
-                    "Host": "104.24.172.7"
+                    "Host": "104.18.202.232"
                 }
             }
         },
@@ -1517,7 +1494,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @proxy_mtm | 0",
+            "tag": "🇮🇷IR | vless | @proxy_mtm | 15",
             "type": "vless",
             "server": "31.14.122.164",
             "server_port": 13268,
