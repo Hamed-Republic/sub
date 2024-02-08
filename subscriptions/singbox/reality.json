@@ -126,17 +126,19 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 10",
                 "🇩🇪DE | vless | @azadi_az_inja_migzare | 16",
-                "🇩🇪DE | vless | @prrofile_purple | 158",
-                "🇩🇪DE | vless | @prrofile_purple | 161",
-                "🇩🇪DE | vless | @prrofile_purple | 166",
+                "🇫🇮FI | vless | @V2rayCollectorDonate | 5",
+                "🇩🇪DE | vless | @prrofile_purple | 167",
+                "🇩🇪DE | vless | @prrofile_purple | 170",
+                "🇩🇪DE | vless | @prrofile_purple | 175",
                 "🇫🇮FI | vless | @customv2ray | 9",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 1",
                 "🏳️XX | vless | @v2ray_swhil | 26",
                 "🇷🇴RO | vless | @proxyymeliii | 14",
                 "🇩🇪DE | vless | @V2RayTz | 15",
+                "🇩🇪DE | vless | @Outlinev2rayNG | 0",
                 "🏳️XX | vless | @Capital_NET | 29",
                 "🏳️XX | vless | @Capital_NET | 31",
-                "🇨🇦CA | vless | @Capital_NET | 33",
+                "🇳🇱NL | vless | @Capital_NET | 33",
                 "🇩🇪DE | vless | @Capital_NET | 34",
                 "🏳️XX | vless | @Capital_NET | 36",
                 "🇩🇪DE | vless | @Capital_NET | 37",
@@ -195,17 +197,19 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 10",
                 "🇩🇪DE | vless | @azadi_az_inja_migzare | 16",
-                "🇩🇪DE | vless | @prrofile_purple | 158",
-                "🇩🇪DE | vless | @prrofile_purple | 161",
-                "🇩🇪DE | vless | @prrofile_purple | 166",
+                "🇫🇮FI | vless | @V2rayCollectorDonate | 5",
+                "🇩🇪DE | vless | @prrofile_purple | 167",
+                "🇩🇪DE | vless | @prrofile_purple | 170",
+                "🇩🇪DE | vless | @prrofile_purple | 175",
                 "🇫🇮FI | vless | @customv2ray | 9",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 1",
                 "🏳️XX | vless | @v2ray_swhil | 26",
                 "🇷🇴RO | vless | @proxyymeliii | 14",
                 "🇩🇪DE | vless | @V2RayTz | 15",
+                "🇩🇪DE | vless | @Outlinev2rayNG | 0",
                 "🏳️XX | vless | @Capital_NET | 29",
                 "🏳️XX | vless | @Capital_NET | 31",
-                "🇨🇦CA | vless | @Capital_NET | 33",
+                "🇳🇱NL | vless | @Capital_NET | 33",
                 "🇩🇪DE | vless | @Capital_NET | 34",
                 "🏳️XX | vless | @Capital_NET | 36",
                 "🇩🇪DE | vless | @Capital_NET | 37",
@@ -938,7 +942,36 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @prrofile_purple | 158",
+            "tag": "🇫🇮FI | vless | @V2rayCollectorDonate | 5",
+            "type": "vless",
+            "server": "finland.nodes.mrzb.artydev.ru",
+            "server_port": 8443,
+            "uuid": "964736c9-abc2-400d-b7de-378d9de2e4c0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.discordapp.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @prrofile_purple | 167",
             "type": "vless",
             "server": "78.47.198.99",
             "server_port": 443,
@@ -974,7 +1007,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @prrofile_purple | 161",
+            "tag": "🇩🇪DE | vless | @prrofile_purple | 170",
             "type": "vless",
             "server": "116.202.99.47",
             "server_port": 49124,
@@ -1003,7 +1036,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @prrofile_purple | 166",
+            "tag": "🇩🇪DE | vless | @prrofile_purple | 175",
             "type": "vless",
             "server": "167.235.194.77",
             "server_port": 443,
@@ -1219,6 +1252,42 @@
             }
         },
         {
+            "tag": "🇩🇪DE | vless | @Outlinev2rayNG | 0",
+            "type": "vless",
+            "server": "57.129.30.224",
+            "server_port": 443,
+            "uuid": "d2cde438-d143-46da-86a0-f4335ab3d6d3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "crazygames.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "WD-VwjUBWiQItkE334FErclfLX-8MmxqHMxed7M3XCk",
+                    "short_id": "eca23560"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@BpxRobot-Telegram:@BpxRobot-Telegram:@BpxRobot-Telegram:@BpxRobot-Telegram:@BpxRobot-Telegram",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🏳️XX | vless | @Capital_NET | 29",
             "type": "vless",
             "server": "ec18.kiava.fun",
@@ -1277,7 +1346,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Capital_NET | 33",
+            "tag": "🇳🇱NL | vless | @Capital_NET | 33",
             "type": "vless",
             "server": "194.5.97.158",
             "server_port": 443,
