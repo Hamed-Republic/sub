@@ -122,13 +122,14 @@
                 "🇺🇸US | vless | @DigiV2ray | 8",
                 "🇨🇦CA | vless | @v2logy | 11",
                 "🇩🇪DE | vless | @azadi_az_inja_migzare | 16",
-                "🇩🇪DE | vmess | @V2rayCollectorDonate | 19",
+                "🇮🇷IR | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 19",
                 "🇮🇪IE | trojan | @PrivateVPNs | 16",
                 "🇺🇸US | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
+                "🇫🇷FR | ss | @DeamNet_Proxy | 19",
                 "🇸🇪SE | trojan | @oneclickvpnkeys | 10",
                 "🇨🇷CR | vless | @prrofile_purple | 170",
                 "🇨🇦CA | vless | @customv2ray | 12",
@@ -153,6 +154,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 11",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🇮🇷IR | vmess | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🏳️XX | vmess | @Hope_Net | 19",
@@ -166,6 +168,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 9",
+                "🇨🇦CA | vmess | @forwardv2ray | 16",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇸🇪SE | vless | @kiava | 8",
@@ -202,13 +205,14 @@
                 "🇺🇸US | vless | @DigiV2ray | 8",
                 "🇨🇦CA | vless | @v2logy | 11",
                 "🇩🇪DE | vless | @azadi_az_inja_migzare | 16",
-                "🇩🇪DE | vmess | @V2rayCollectorDonate | 19",
+                "🇮🇷IR | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 19",
                 "🇮🇪IE | trojan | @PrivateVPNs | 16",
                 "🇺🇸US | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
+                "🇫🇷FR | ss | @DeamNet_Proxy | 19",
                 "🇸🇪SE | trojan | @oneclickvpnkeys | 10",
                 "🇨🇷CR | vless | @prrofile_purple | 170",
                 "🇨🇦CA | vless | @customv2ray | 12",
@@ -233,6 +237,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 11",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🇮🇷IR | vmess | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🏳️XX | vmess | @Hope_Net | 19",
@@ -246,6 +251,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 9",
+                "🇨🇦CA | vmess | @forwardv2ray | 16",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇸🇪SE | vless | @kiava | 8",
@@ -731,16 +737,13 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @V2rayCollectorDonate | 19",
-            "type": "vmess",
-            "server": "23.88.122.107",
-            "server_port": 12707,
-            "uuid": "4b8b2641-be43-434d-8f38-639d7cf247f8",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇮🇷IR | vless | @V2rayCollectorDonate | 19",
+            "type": "vless",
+            "server": "193.35.230.133",
+            "server_port": 2083,
+            "uuid": "03ecdeca-37cd-4cbe-afef-3fecaab53c80",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -876,6 +879,16 @@
                 "protocol": "smux",
                 "max_streams": 32
             }
+        },
+        {
+            "tag": "🇫🇷FR | ss | @DeamNet_Proxy | 19",
+            "type": "shadowsocks",
+            "server": "149.202.82.172",
+            "server_port": 5500,
+            "method": "aes-256-gcm",
+            "password": "KixLvKzwjekG00rm",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇸🇪SE | trojan | @oneclickvpnkeys | 10",
@@ -1430,6 +1443,23 @@
             "plugin_opts": ""
         },
         {
+            "tag": "🇮🇷IR | vmess | @ConfigsHUB | 17",
+            "type": "vmess",
+            "server": "195.211.45.34",
+            "server_port": 13174,
+            "uuid": "edbb7504-02ce-4533-bbf8-46ca819b152d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @proxystore11 | 14",
             "type": "vless",
             "server": "104.24.185.135",
@@ -1712,6 +1742,30 @@
                 "path": "\/",
                 "headers": {
                     "Host": "tel.VPNCUSTOMIZE.cam"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 16",
+            "type": "vmess",
+            "server": "172.67.217.144",
+            "server_port": 80,
+            "uuid": "85674552-ce41-44d9-bb2a-50f76450b3d8",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
