@@ -116,14 +116,14 @@
                 "🇨🇦CA | vless | @ARv2ray | 13",
                 "🇺🇸US | vless | @Lockey_vpn | 13",
                 "🇨🇦CA | vless | @free_v2rayyy | 3",
-                "🇨🇷CR | vless | @lightning6 | 26",
+                "🇨🇷CR | vless | @lightning6 | 29",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 8",
                 "🇨🇦CA | vless | @v2logy | 11",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 12",
                 "🇬🇧GB | ss | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇨🇷CR | vless | @V2rayNGn | 14",
+                "🇨🇷CR | vless | @V2rayNGn | 16",
                 "🇸🇪SE | trojan | @PrivateVPNs | 18",
                 "🇮🇪IE | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
@@ -164,7 +164,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 9",
-                "🇺🇸US | vless | @forwardv2ray | 11",
+                "🇨🇦CA | vless | @forwardv2ray | 14",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇦CA | vless | @mehrosaboran | 7",
@@ -196,14 +196,14 @@
                 "🇨🇦CA | vless | @ARv2ray | 13",
                 "🇺🇸US | vless | @Lockey_vpn | 13",
                 "🇨🇦CA | vless | @free_v2rayyy | 3",
-                "🇨🇷CR | vless | @lightning6 | 26",
+                "🇨🇷CR | vless | @lightning6 | 29",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 8",
                 "🇨🇦CA | vless | @v2logy | 11",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 12",
                 "🇬🇧GB | ss | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇨🇷CR | vless | @V2rayNGn | 14",
+                "🇨🇷CR | vless | @V2rayNGn | 16",
                 "🇸🇪SE | trojan | @PrivateVPNs | 18",
                 "🇮🇪IE | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
@@ -244,7 +244,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 9",
-                "🇺🇸US | vless | @forwardv2ray | 11",
+                "🇨🇦CA | vless | @forwardv2ray | 14",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇦CA | vless | @mehrosaboran | 7",
@@ -550,7 +550,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @lightning6 | 26",
+            "tag": "🇨🇷CR | vless | @lightning6 | 29",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -726,7 +726,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2rayNGn | 14",
+            "tag": "🇨🇷CR | vless | @V2rayNGn | 16",
             "type": "vless",
             "server": "tel.VPNCUSTOMIZE.cam",
             "server_port": 8443,
@@ -1422,9 +1422,9 @@
         {
             "tag": "🏳️XX | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "food.zhaal.ir",
-            "server_port": 8880,
-            "uuid": "0d1bf26a-ce97-4707-a270-7f4d2ae37334",
+            "server": "mci.mosi.mosipro.ml",
+            "server_port": 443,
+            "uuid": "9df9dbf2-5a0b-427a-8574-cc11bda045ec",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1435,11 +1435,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "Dusseldorf.kotick.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/speedtest",
                 "headers": {
-                    "Host": ""
+                    "Host": "Dusseldorf.kotick.site"
                 }
             }
         },
@@ -1680,11 +1690,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @forwardv2ray | 11",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 14",
             "type": "vless",
-            "server": "190.93.244.103",
-            "server_port": 2083,
-            "uuid": "bf59f08b-0a81-407d-9825-305eaa91144e",
+            "server": "104.18.202.232",
+            "server_port": 8080,
+            "uuid": "b00b62d3-80a2-40f4-92f2-f93f6cbbc96e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1692,22 +1702,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "liV2rayd.xn--mgbg0fka44dhgc.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "@LIGHTNING6, @LIGHTNING6",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/@x2rayn_vpnCDN?ed=2090",
+                "headers": {
+                    "Host": "104.18.202.232"
+                }
             }
         },
         {
