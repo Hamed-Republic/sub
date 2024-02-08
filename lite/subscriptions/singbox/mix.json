@@ -159,7 +159,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 8",
-                "🇵🇭PH | vmess | @forwardv2ray | 15",
+                "🇨🇦CA | vmess | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇩🇪DE | vless | @https_config_injector | 12",
                 "🇨🇦CA | vless | @mehrosaboran | 8",
@@ -233,7 +233,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 8",
-                "🇵🇭PH | vmess | @forwardv2ray | 15",
+                "🇨🇦CA | vmess | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇩🇪DE | vless | @https_config_injector | 12",
                 "🇨🇦CA | vless | @mehrosaboran | 8",
@@ -1283,7 +1283,7 @@
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "abbacca-baac-bcaa-acbd-acbcaaccbabb",
+            "uuid": "acabbac-caab-acba-dbca-bbacbacccaba",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1542,11 +1542,11 @@
             }
         },
         {
-            "tag": "🇵🇭PH | vmess | @forwardv2ray | 15",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 17",
             "type": "vmess",
-            "server": "109.248.25.59",
-            "server_port": 29064,
-            "uuid": "8958440c-aa86-4ff1-8e88-5c7a052d5961",
+            "server": "104.16.28.80",
+            "server_port": 443,
+            "uuid": "7c93426d-97e3-4fe6-83eb-572c0d321a0a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1557,11 +1557,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "s6.sqamazon.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/ss",
+                "path": "\/xmI6QnR7BkkEDjMYBIlRVO",
                 "headers": {
-                    "Host": "109.248.25.59"
+                    "Host": "s6.sqamazon.com"
                 }
             }
         },
