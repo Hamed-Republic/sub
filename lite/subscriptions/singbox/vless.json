@@ -114,6 +114,7 @@
                 "🇨🇦CA | vless | @ipV2Ray | 11",
                 "🇨🇦CA | vless | @frev2ray | 2",
                 "🇩🇪DE | vless | @ARv2ray | 13",
+                "🇨🇷CR | vless | @shh_proxy | 27",
                 "🇺🇸US | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
                 "🇨🇷CR | vless | @lightning6 | 29",
@@ -136,11 +137,9 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 32",
                 "🇨🇦CA | vless | @proxyymeliii | 18",
                 "🇨🇦CA | vless | @MsV2ray | 14",
-                "🇨🇦CA | vless | @v2ray1_ng | 9",
                 "🇮🇷IR | vless | @vless_vmess | 5",
                 "🇨🇷CR | vless | @V2RayTz | 19",
-                "🇨🇦CA | vless | @VmessProtocol | 17",
-                "🇮🇷IR | vless | @DailyV2RY | 99",
+                "🇨🇦CA | vless | @DailyV2RY | 93",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇪🇪EE | vless | @lrnbymaa | 11",
                 "🇨🇦CA | vless | @ConfigsHUB | 17",
@@ -154,10 +153,10 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 9",
-                "🇨🇦CA | vless | @forwardv2ray | 13",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇨🇦CA | vless | @https_config_injector | 12",
-                "🇨🇦CA | vless | @mehrosaboran | 8",
+                "🇨🇦CA | vless | @mehrosaboran | 5",
                 "🇸🇪SE | vless | @kiava | 8",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
@@ -180,6 +179,7 @@
                 "🇨🇦CA | vless | @ipV2Ray | 11",
                 "🇨🇦CA | vless | @frev2ray | 2",
                 "🇩🇪DE | vless | @ARv2ray | 13",
+                "🇨🇷CR | vless | @shh_proxy | 27",
                 "🇺🇸US | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
                 "🇨🇷CR | vless | @lightning6 | 29",
@@ -202,11 +202,9 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 32",
                 "🇨🇦CA | vless | @proxyymeliii | 18",
                 "🇨🇦CA | vless | @MsV2ray | 14",
-                "🇨🇦CA | vless | @v2ray1_ng | 9",
                 "🇮🇷IR | vless | @vless_vmess | 5",
                 "🇨🇷CR | vless | @V2RayTz | 19",
-                "🇨🇦CA | vless | @VmessProtocol | 17",
-                "🇮🇷IR | vless | @DailyV2RY | 99",
+                "🇨🇦CA | vless | @DailyV2RY | 93",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇪🇪EE | vless | @lrnbymaa | 11",
                 "🇨🇦CA | vless | @ConfigsHUB | 17",
@@ -220,10 +218,10 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 9",
-                "🇨🇦CA | vless | @forwardv2ray | 13",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇨🇦CA | vless | @https_config_injector | 12",
-                "🇨🇦CA | vless | @mehrosaboran | 8",
+                "🇨🇦CA | vless | @mehrosaboran | 5",
                 "🇸🇪SE | vless | @kiava | 8",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
@@ -472,6 +470,37 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇨🇷CR | vless | @shh_proxy | 27",
+            "type": "vless",
+            "server": "shhproxy.varzesh3-cnd.site",
+            "server_port": 2087,
+            "uuid": "fd364ee2-9881-4cfa-a2f5-21399a1001f7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "gmV2raybo.shhproxyfree.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "gmV2raybo.shhproxyfree.com"
+                }
             }
         },
         {
@@ -851,7 +880,7 @@
         {
             "tag": "🇨🇦CA | vless | @v2rayngvpn | 14",
             "type": "vless",
-            "server": "104.21.28.62",
+            "server": "104.21.29.72",
             "server_port": 443,
             "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
             "flow": "",
@@ -873,7 +902,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/path\/telegram@v2ray_alpha\/",
                 "headers": {
                     "Host": "3k.pureboy.eu.org"
                 }
@@ -1057,37 +1086,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray1_ng | 9",
-            "type": "vless",
-            "server": "104.21.29.72",
-            "server_port": 443,
-            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "3k.pureboy.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/path\/telegram@v2ray_alpha\/",
-                "headers": {
-                    "Host": "3k.pureboy.eu.org"
-                }
-            }
-        },
-        {
             "tag": "🇮🇷IR | vless | @vless_vmess | 5",
             "type": "vless",
             "server": "l16.darklord.life",
@@ -1123,11 +1121,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @VmessProtocol | 17",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 93",
             "type": "vless",
-            "server": "cdn.user.com",
-            "server_port": 80,
-            "uuid": "bda4be04-48bf-4df1-aaf2-6d42522eab6b",
+            "server": "172.67.204.84",
+            "server_port": 8080,
+            "uuid": "3ddbb464-520a-43dd-a759-dcadbc0cc88f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1139,28 +1137,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "cdn.user.com"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vless | @DailyV2RY | 99",
-            "type": "vless",
-            "server": "45.89.236.147",
-            "server_port": 63058,
-            "uuid": "de74ef5a-bb91-4ab5-8abe-4cda2c2a3956",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "45.89.236.147"
+                    "Host": "172.67.204.84"
                 }
             }
         },
@@ -1219,9 +1196,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "v2rayngvpnn.vipv2ray.sbs",
+            "server": "www.speedtest.net",
             "server_port": 8080,
-            "uuid": "b8ba8849-0009-45f7-853c-fc4ee7149f02",
+            "uuid": "---Telegram-Parsashonam--3-",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1233,7 +1210,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "v2rayngvpnn.vipv2ray.sbs"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
@@ -1471,11 +1448,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 13",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "104.18.25.92",
-            "server_port": 8880,
-            "uuid": "X4azadi-mci",
+            "server": "iranserver.com",
+            "server_port": 2087,
+            "uuid": "12ef2fb8-4c06-4e9e-b1b6-0dbde357790b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1483,12 +1460,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/X4azadi",
-                "headers": {
-                    "Host": "104.18.25.92"
+            "tls": {
+                "enabled": true,
+                "server_name": "arguvpnnn.v2raycfz.cloud",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "www.speedtest.net",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1544,11 +1531,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @mehrosaboran | 8",
+            "tag": "🇨🇦CA | vless | @mehrosaboran | 5",
             "type": "vless",
-            "server": "104.24.177.7",
-            "server_port": 2083,
-            "uuid": "69a7bb04-62cf-4deb-86ea-3df5a256c2bf",
+            "server": "104.16.4.103",
+            "server_port": 443,
+            "uuid": "a6d25389-0c1b-4775-8d7f-1df362d0c6cf",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1558,7 +1545,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "104.24.177.7",
+                "server_name": "dash.snapp.pics",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1568,7 +1555,7 @@
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "@LIGHTNING6,",
+                "service_name": "@ZEDMODEON-@ZEDMODEON-@ZEDMODEON",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
