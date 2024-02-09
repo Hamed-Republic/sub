@@ -138,10 +138,9 @@
                 "🇨🇦CA | vless | @MsV2ray | 14",
                 "🇮🇷IR | vless | @vless_vmess | 5",
                 "🇨🇦CA | vless | @V2RayTz | 18",
-                "🇩🇪DE | vless | @DailyV2RY | 96",
+                "🇨🇦CA | vless | @DailyV2RY | 98",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 12",
-                "🇩🇪DE | vless | @ConfigsHUB | 14",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @fnet00 | 12",
                 "🇨🇦CA | vless | @polproxy | 12",
@@ -152,7 +151,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 11",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇫🇮FI | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇨🇷CR | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 6",
@@ -204,10 +203,9 @@
                 "🇨🇦CA | vless | @MsV2ray | 14",
                 "🇮🇷IR | vless | @vless_vmess | 5",
                 "🇨🇦CA | vless | @V2RayTz | 18",
-                "🇩🇪DE | vless | @DailyV2RY | 96",
+                "🇨🇦CA | vless | @DailyV2RY | 98",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 12",
-                "🇩🇪DE | vless | @ConfigsHUB | 14",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @fnet00 | 12",
                 "🇨🇦CA | vless | @polproxy | 12",
@@ -218,7 +216,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 11",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇫🇮FI | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇨🇷CR | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 6",
@@ -1120,12 +1118,12 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @DailyV2RY | 96",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 98",
             "type": "vless",
-            "server": "80.71.157.172",
-            "server_port": 443,
-            "uuid": "893d3c03-5817-4e3f-9fc6-b6f6481d5068",
-            "flow": "xtls-rprx-vision",
+            "server": "172.67.75.172",
+            "server_port": 8443,
+            "uuid": "a28d5f6c-66a8-4d07-be9f-4414088aef59",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1134,12 +1132,19 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "80.71.157.172",
+                "server_name": "0204ouk1.mmad.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "0204ouk1.mmad.sbs"
                 }
             }
         },
@@ -1193,20 +1198,6 @@
                 "headers": {
                     "Host": "pydar.banndedd.ir"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 14",
-            "type": "vless",
-            "server": "195.201.238.126",
-            "server_port": 443,
-            "uuid": "cce2f72e-a166-4563-be4f-59392881c9d8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -1443,24 +1434,39 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "tag": "🇫🇮FI | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "104.21.64.117",
-            "server_port": 8080,
-            "uuid": "b00b62d3-80a2-40f4-92f2-f93f6cbbc96e",
-            "flow": "",
+            "server": "Finland.v2rayngz.com",
+            "server_port": 2087,
+            "uuid": "fafcd6a9-07b2-4185-a4e8-a2e5abf8035c",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/@x2rayn_vpnCDN?ed=2090",
-                "headers": {
-                    "Host": "104.21.64.117"
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
