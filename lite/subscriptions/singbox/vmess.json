@@ -108,11 +108,12 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 6",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🇨🇦CA | vmess | @ConfigsHUB | 15",
                 "🏳️XX | vmess | @Hope_Net | 17",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇩🇪DE | vmess | @forwardv2ray | 8",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 8"
             ]
         },
@@ -122,11 +123,12 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 6",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🇨🇦CA | vmess | @ConfigsHUB | 15",
                 "🏳️XX | vmess | @Hope_Net | 17",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇩🇪DE | vmess | @forwardv2ray | 8",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -172,6 +174,23 @@
             "server": "38.147.191.185",
             "server_port": 10241,
             "uuid": "e820d6f7-57ef-4575-99da-bcd7d318c742",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 19",
+            "type": "vmess",
+            "server": "104.237.128.72",
+            "server_port": 14432,
+            "uuid": "4c09b776-6f83-4bf2-f7f7-4e286dbbb6da",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -235,45 +254,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 15",
-            "type": "vmess",
-            "server": "104.21.44.64",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "kellie.makeup",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "kellie.makeup"
-                }
-            }
-        },
-        {
             "tag": "🏳️XX | vmess | @Hope_Net | 17",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "ccaabab-abac-bcaa-abcd-accbccaababb",
+            "uuid": "aacbacb-abac-caba-badc-bcbbacacacba",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -307,6 +292,23 @@
                 "headers": {
                     "Host": "ca2.xv2ray.net"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vmess | @forwardv2ray | 8",
+            "type": "vmess",
+            "server": "116.202.18.146",
+            "server_port": 8081,
+            "uuid": "5d45e764-3216-464f-9e86-358d10c58c46",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
