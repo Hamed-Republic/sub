@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇵🇱PL | ss | @DeamNet_Proxy | 6",
+                "🇵🇱PL | ss | @DeamNet_Proxy | 7",
                 "🇷🇺RU | ss | @VmessProtocol | 2",
                 "🇺🇸US | ss | @VmessProtocol | 4",
                 "🇬🇧GB | ss | @VmessProtocol | 6",
@@ -128,6 +128,7 @@
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🇸🇪SE | ss | @forwardv2ray | 15",
                 "🇸🇪SE | ss | @proxy_mtm | 10",
                 "🇸🇪SE | ss | @kingofilter | 6",
                 "🇬🇧GB | ss | @ROMAX_VPN | 0",
@@ -141,7 +142,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇵🇱PL | ss | @DeamNet_Proxy | 6",
+                "🇵🇱PL | ss | @DeamNet_Proxy | 7",
                 "🇷🇺RU | ss | @VmessProtocol | 2",
                 "🇺🇸US | ss | @VmessProtocol | 4",
                 "🇬🇧GB | ss | @VmessProtocol | 6",
@@ -163,6 +164,7 @@
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🇸🇪SE | ss | @forwardv2ray | 15",
                 "🇸🇪SE | ss | @proxy_mtm | 10",
                 "🇸🇪SE | ss | @kingofilter | 6",
                 "🇬🇧GB | ss | @ROMAX_VPN | 0",
@@ -192,7 +194,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇵🇱PL | ss | @DeamNet_Proxy | 6",
+            "tag": "🇵🇱PL | ss | @DeamNet_Proxy | 7",
             "type": "shadowsocks",
             "server": "51.77.53.200",
             "server_port": 3389,
@@ -408,6 +410,16 @@
             "server_port": 2443,
             "method": "aes-256-gcm",
             "password": "hh4JlBhsJ0JthpDP3vIwxXvJWHknI16AijGx6sbcqWI=",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇸🇪SE | ss | @forwardv2ray | 15",
+            "type": "shadowsocks",
+            "server": "16.170.248.98",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "\/+OAb7uW68+lkCpDHj3hmGWvRuPpsBjcU8V\/37jD4z8=",
             "plugin": "",
             "plugin_opts": ""
         },
