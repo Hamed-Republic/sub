@@ -122,7 +122,6 @@
                 "🇺🇸US | vless | @DigiV2ray | 8",
                 "🇨🇦CA | vless | @v2logy | 11",
                 "🇩🇪DE | vless | @azadi_az_inja_migzare | 16",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 14",
                 "🇨🇷CR | vless | @prrofile_purple | 179",
@@ -148,7 +147,7 @@
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 11",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 3",
                 "🏳️XX | vless | @Capoit | 5",
-                "🇨🇦CA | vless | @FreakConfig | 5",
+                "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 11",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
@@ -186,7 +185,6 @@
                 "🇺🇸US | vless | @DigiV2ray | 8",
                 "🇨🇦CA | vless | @v2logy | 11",
                 "🇩🇪DE | vless | @azadi_az_inja_migzare | 16",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 14",
                 "🇨🇷CR | vless | @prrofile_purple | 179",
@@ -212,7 +210,7 @@
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 11",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 3",
                 "🏳️XX | vless | @Capoit | 5",
-                "🇨🇦CA | vless | @FreakConfig | 5",
+                "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 11",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
@@ -698,37 +696,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "xyz",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-            "type": "vless",
-            "server": "discord.com",
-            "server_port": 443,
-            "uuid": "Venom-Servers",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "VENOM4.chvrsi.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Telegram-Channel@Venom_serversTelegram-Channel@Venom_serversTelegram-Channel@Venom_serversTelegram-Channel@Venom_serversTelegram-Channel@Venom_serversTelegram-Channel@Venom_serversTelegram-Channel@Venom_serversTelegram-Channel@Venom_servers",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -1359,11 +1326,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 5",
+            "tag": "🇨🇦CA | vless | @FreakConfig | 7",
             "type": "vless",
-            "server": "lol.ps",
-            "server_port": 8880,
-            "uuid": "X4azadi-mci",
+            "server": "104.21.74.214",
+            "server_port": 80,
+            "uuid": "-ArV2ray--ArV2ray--ArV2ray-",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1373,9 +1340,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/X4azadi",
+                "path": "\/@ArV2ray,@ArV2ray,@ArV2ray",
                 "headers": {
-                    "Host": "lol.ps"
+                    "Host": "104.21.74.214"
                 }
             }
         },
