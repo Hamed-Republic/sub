@@ -110,8 +110,9 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 6",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🏳️XX | vmess | @Hope_Net | 13",
+                "🏳️XX | vmess | @Hope_Net | 11",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇫🇷FR | vmess | @forwardv2ray | 19",
                 "🇮🇹IT | vmess | @eliya_chiter0 | 8"
             ]
         },
@@ -123,8 +124,9 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 6",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🏳️XX | vmess | @Hope_Net | 13",
+                "🏳️XX | vmess | @Hope_Net | 11",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇫🇷FR | vmess | @forwardv2ray | 19",
                 "🇮🇹IT | vmess | @eliya_chiter0 | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -233,11 +235,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 13",
+            "tag": "🏳️XX | vmess | @Hope_Net | 11",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "cabaacb-abac-acab-badc-acaccbbababc",
+            "uuid": "cbbaaca-baca-aabc-dbca-aaccbbbbccaa",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -271,6 +273,23 @@
                 "headers": {
                     "Host": "ca2.xv2ray.net"
                 }
+            }
+        },
+        {
+            "tag": "🇫🇷FR | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "zxgold.saatbazar.com",
+            "server_port": 80,
+            "uuid": "adc0cae2-f5b9-47d2-9703-30a2396f6aeb",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
