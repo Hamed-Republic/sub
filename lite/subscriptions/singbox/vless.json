@@ -149,7 +149,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 11",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇩🇪DE | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇨🇷CR | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 6",
@@ -212,7 +212,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 11",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇩🇪DE | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇨🇷CR | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 6",
@@ -1371,24 +1371,39 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "mtn.VPNPROSEC.com",
-            "server_port": 8080,
-            "uuid": "SVNTEAMx",
-            "flow": "",
+            "server": "freedakevpn.uns.lol",
+            "server_port": 443,
+            "uuid": "4c66f87f-aea6-4df8-b4cc-5ef111c9cd21",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "mtn.VPNPROSEC.com"
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "LrSsHcGIWtUYyUGVQ3VOPFful2vQH2qL0IF4b4zsrCk",
+                    "short_id": ""
                 }
+            },
+            "transport": {
+                "type": "http",
+                "host": [
+                    "www.speedtest.net"
+                ],
+                "path": "\/"
             }
         },
         {

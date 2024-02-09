@@ -127,7 +127,7 @@
                 "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇮🇷IR | vmess | @DeamNet_Proxy | 19",
+                "🇪🇪EE | vmess | @DeamNet_Proxy | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 10",
                 "🇨🇷CR | vless | @prrofile_purple | 179",
                 "🇨🇦CA | vless | @customv2ray | 12",
@@ -164,7 +164,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 11",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇩🇪DE | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇨🇷CR | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 6",
@@ -208,7 +208,7 @@
                 "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇮🇷IR | vmess | @DeamNet_Proxy | 19",
+                "🇪🇪EE | vmess | @DeamNet_Proxy | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 10",
                 "🇨🇷CR | vless | @prrofile_purple | 179",
                 "🇨🇦CA | vless | @customv2ray | 12",
@@ -245,7 +245,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 11",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇩🇪DE | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇨🇷CR | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 6",
@@ -847,11 +847,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @DeamNet_Proxy | 19",
+            "tag": "🇪🇪EE | vmess | @DeamNet_Proxy | 19",
             "type": "vmess",
-            "server": "tls40.gsmxreality.com",
-            "server_port": 19661,
-            "uuid": "82e6520c-74b7-407a-c14f-6fe1388f8c5c",
+            "server": "5.181.23.38",
+            "server_port": 80,
+            "uuid": "83018580-58ce-464f-b75c-2a1331a8f016",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -861,6 +861,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": "5.181.23.38"
+                }
             }
         },
         {
@@ -1676,24 +1683,39 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "mtn.VPNPROSEC.com",
-            "server_port": 8080,
-            "uuid": "SVNTEAMx",
-            "flow": "",
+            "server": "freedakevpn.uns.lol",
+            "server_port": 443,
+            "uuid": "4c66f87f-aea6-4df8-b4cc-5ef111c9cd21",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "mtn.VPNPROSEC.com"
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "LrSsHcGIWtUYyUGVQ3VOPFful2vQH2qL0IF4b4zsrCk",
+                    "short_id": ""
                 }
+            },
+            "transport": {
+                "type": "http",
+                "host": [
+                    "www.speedtest.net"
+                ],
+                "path": "\/"
             }
         },
         {
