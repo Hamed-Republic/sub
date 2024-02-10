@@ -123,9 +123,10 @@ proxies:
   - {"name":"🇨🇦CA | vmess | @DeamNet_Proxy | 19","type":"vmess","server":"adenc35.fixedlfoat.top","port":"443","cipher":"auto","uuid":"45f63e92-f782-4cac-84b8-e61cb5a5bfd0","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"adenc35.fixedlfoat.top"}}}
   - {"name":"🇺🇸US | vmess | @proxyymeliii | 18","type":"vmess","server":"51.81.149.151","port":"27978","cipher":"auto","uuid":"9fd11110-625d-4a96-9e3a-09062613a098","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇦CA | vmess | @v2ray1_ng | 6","type":"vmess","server":"submehti.karaj68.shop","port":"2087","cipher":"auto","uuid":"db5afae4-ac23-41a6-8378-f307a9a47436","alterId":"0","tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"","grpc-mode":"gun"}}
+  - {"name":"🇺🇸US | vmess | @ConfigsHUB | 18","type":"vmess","server":"155.46.213.135","port":"2053","cipher":"auto","uuid":"5a5aadc2-8834-4e7b-895b-74ad155fbf24","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vVNUJOgb/","headers":{"host":"v2ray.ibgfw.top"}}}
   - {"name":"🇦🇺AU | vmess | @Hope_Net | 1","type":"vmess","server":"103.73.64.180","port":"31217","cipher":"auto","uuid":"db6c286f-69fa-4ed0-b812-4f22d78f2fed","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸US | vmess | @v2Line | 6","type":"vmess","server":"v2line.telegram.channel.1390.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":"80","cipher":"auto","uuid":"f61203bd-f386-4d12-9853-cc829d6b7c9d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"ca2.xv2ray.net"}}}
-  - {"name":"🇨🇦CA | vmess | @eliya_chiter0 | 8","type":"vmess","server":"104.16.4.103","port":"443","cipher":"chacha20-poly1305","uuid":"1f6d762e-b32e-4028-8291-4b81af1cd52c","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/FSSSJJaPXI0ATHQ2RoRM","headers":{"host":"cdn.free-best-ray.space"}}}
+  - {"name":"🇨🇦CA | vmess | @eliya_chiter0 | 7","type":"vmess","server":"104.21.82.183","port":"8880","cipher":"auto","uuid":"7ee41eb4-0594-4e2d-92a7-5dd3ee513692","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"server20.beheshtbaneh.com"}}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -137,9 +138,10 @@ proxy-groups:
       - '🇨🇦CA | vmess | @DeamNet_Proxy | 19'
       - '🇺🇸US | vmess | @proxyymeliii | 18'
       - '🇨🇦CA | vmess | @v2ray1_ng | 6'
+      - '🇺🇸US | vmess | @ConfigsHUB | 18'
       - '🇦🇺AU | vmess | @Hope_Net | 1'
       - '🇺🇸US | vmess | @v2Line | 6'
-      - '🇨🇦CA | vmess | @eliya_chiter0 | 8'
+      - '🇨🇦CA | vmess | @eliya_chiter0 | 7'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -151,9 +153,10 @@ proxy-groups:
       - '🇨🇦CA | vmess | @DeamNet_Proxy | 19'
       - '🇺🇸US | vmess | @proxyymeliii | 18'
       - '🇨🇦CA | vmess | @v2ray1_ng | 6'
+      - '🇺🇸US | vmess | @ConfigsHUB | 18'
       - '🇦🇺AU | vmess | @Hope_Net | 1'
       - '🇺🇸US | vmess | @v2Line | 6'
-      - '🇨🇦CA | vmess | @eliya_chiter0 | 8'
+      - '🇨🇦CA | vmess | @eliya_chiter0 | 7'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -164,9 +167,10 @@ proxy-groups:
       - '🇨🇦CA | vmess | @DeamNet_Proxy | 19'
       - '🇺🇸US | vmess | @proxyymeliii | 18'
       - '🇨🇦CA | vmess | @v2ray1_ng | 6'
+      - '🇺🇸US | vmess | @ConfigsHUB | 18'
       - '🇦🇺AU | vmess | @Hope_Net | 1'
       - '🇺🇸US | vmess | @v2Line | 6'
-      - '🇨🇦CA | vmess | @eliya_chiter0 | 8'
+      - '🇨🇦CA | vmess | @eliya_chiter0 | 7'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
