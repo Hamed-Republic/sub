@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇨🇦CA | ss | @DeamNet_Proxy | 17",
                 "🇬🇧GB | ss | @VmessProtocol | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇷🇺RU | ss | @ROMAX_VPN | 14"
@@ -115,6 +116,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇨🇦CA | ss | @DeamNet_Proxy | 17",
                 "🇬🇧GB | ss | @VmessProtocol | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇷🇺RU | ss | @ROMAX_VPN | 14"
@@ -138,6 +140,16 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇨🇦CA | ss | @DeamNet_Proxy | 17",
+            "type": "shadowsocks",
+            "server": "toronto.telegavpn.org",
+            "server_port": 31024,
+            "method": "chacha20-ietf-poly1305",
+            "password": "vYkFI0naDICXV53qUZ3WPY",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇬🇧GB | ss | @VmessProtocol | 15",
