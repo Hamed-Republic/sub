@@ -111,10 +111,9 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🏳️XX | vmess | @oneclickvpnkeys | 6",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🇨🇦CA | vmess | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🇨🇦CA | vmess | @Hope_Net | 2",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇺🇸US | vmess | @FAKEOFTVC | 7",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 8"
             ]
         },
@@ -127,10 +126,9 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🏳️XX | vmess | @oneclickvpnkeys | 6",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🇨🇦CA | vmess | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🇨🇦CA | vmess | @Hope_Net | 2",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇺🇸US | vmess | @FAKEOFTVC | 7",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -263,11 +261,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 18",
             "type": "vmess",
-            "server": "172.67.152.214",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "amir.greenblue.top.greenblue.top",
+            "server_port": 8443,
+            "uuid": "express_v2ray",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -280,7 +278,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "meroiy.icu",
+                "server_name": "api39.animationkidsart.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -290,9 +288,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/ws",
                 "headers": {
-                    "Host": "meroiy.icu"
+                    "Host": "api39.animationkidsart.ir"
                 }
             }
         },
@@ -352,23 +350,6 @@
                 "headers": {
                     "Host": "ca2.xv2ray.net"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @FAKEOFTVC | 7",
-            "type": "vmess",
-            "server": "135.148.67.129",
-            "server_port": 35063,
-            "uuid": "2f1c9600-706e-4a0d-93da-53bb42a27487",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
