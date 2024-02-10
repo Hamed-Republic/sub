@@ -110,7 +110,7 @@
                 "🇩🇪DE | vless | @ipV2Ray | 13",
                 "🏳️XX | vless | @frev2ray | 1",
                 "🇩🇪DE | vless | @ShadowProxy66 | 23",
-                "🇫🇮FI | vless | @V2RayTz | 17",
+                "🇫🇮FI | vless | @forwardv2ray | 17",
                 "🇸🇪SE | vless | @kiava | 8",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @FoXrayIran | 4"
@@ -124,7 +124,7 @@
                 "🇩🇪DE | vless | @ipV2Ray | 13",
                 "🏳️XX | vless | @frev2ray | 1",
                 "🇩🇪DE | vless | @ShadowProxy66 | 23",
-                "🇫🇮FI | vless | @V2RayTz | 17",
+                "🇫🇮FI | vless | @forwardv2ray | 17",
                 "🇸🇪SE | vless | @kiava | 8",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @FoXrayIran | 4"
@@ -280,11 +280,11 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vless | @V2RayTz | 17",
+            "tag": "🇫🇮FI | vless | @forwardv2ray | 17",
             "type": "vless",
-            "server": "65.21.48.107",
-            "server_port": 443,
-            "uuid": "telegram-id-ArV2ray",
+            "server": "65.109.203.49",
+            "server_port": 22294,
+            "uuid": "17e9a853-1cbb-4f2e-98bb-612ed17862d1",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -294,25 +294,18 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "greenpepper.ir",
+                "server_name": "Chir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "aHFxRl9sh2az1yaNNRP_1ThtfpPA58n9Af1mmcfQMkI",
-                    "short_id": "dc3352bf"
+                    "public_key": "UrEcpOR-zLaiSIijy9tRp6ya-RntdvOJIafeWq8I5yM",
+                    "short_id": "5b8b7477"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
