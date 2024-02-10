@@ -150,21 +150,20 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 7",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇫🇷FR | trojan | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @proxystore11 | 14",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vless | @fnet00 | 12",
                 "🇨🇦CA | vless | @polproxy | 12",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 3",
-                "🇨🇦CA | vless | @v2rayng_vpnrog | 10",
+                "🇺🇸US | vless | @v2rayng_vpnrog | 10",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇮🇷IR | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇺🇸US | vless | @forwardv2ray | 19",
+                "🇬🇧GB | ss | @forwardv2ray | 17",
                 "🇺🇸US | vmess | @FAKEOFTVC | 7",
                 "🇨🇷CR | vless | @https_config_injector | 13",
                 "🇨🇦CA | vless | @mehrosaboran | 19",
@@ -230,21 +229,20 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 7",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇫🇷FR | trojan | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @proxystore11 | 14",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vless | @fnet00 | 12",
                 "🇨🇦CA | vless | @polproxy | 12",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 3",
-                "🇨🇦CA | vless | @v2rayng_vpnrog | 10",
+                "🇺🇸US | vless | @v2rayng_vpnrog | 10",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇮🇷IR | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇺🇸US | vless | @forwardv2ray | 19",
+                "🇬🇧GB | ss | @forwardv2ray | 17",
                 "🇺🇸US | vmess | @FAKEOFTVC | 7",
                 "🇨🇷CR | vless | @https_config_injector | 13",
                 "🇨🇦CA | vless | @mehrosaboran | 19",
@@ -1413,28 +1411,6 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇫🇷FR | trojan | @ConfigsHUB | 19",
-            "type": "trojan",
-            "server": "13.39.56.191",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.miwan.co.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vmess | @proxystore11 | 14",
             "type": "vmess",
             "server": "server2.beheshtbaneh.com",
@@ -1571,7 +1547,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayng_vpnrog | 10",
+            "tag": "🇺🇸US | vless | @v2rayng_vpnrog | 10",
             "type": "vless",
             "server": "172.67.204.84",
             "server_port": 80,
@@ -1734,35 +1710,14 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "www.digiv2ray.online",
-            "server_port": 2087,
-            "uuid": "------DIGIV2RAY",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "SpeedV2rayNg-ConneCtion.digiv2ray.shop",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/DigiV",
-                "headers": {
-                    "Host": "SpeedV2rayNg-ConneCtion.digiv2ray.shop"
-                }
-            }
+            "tag": "🇬🇧GB | ss | @forwardv2ray | 17",
+            "type": "shadowsocks",
+            "server": "series-a2-me.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "2LVVFxxHJSBMdGdl",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇺🇸US | vmess | @FAKEOFTVC | 7",
