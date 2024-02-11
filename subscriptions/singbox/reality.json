@@ -127,7 +127,6 @@
                 "🇫🇮FI | vless | @ARv2ray | 8",
                 "🇩🇪DE | vless | @ARv2ray | 10",
                 "🇩🇪DE | vless | @ARv2ray | 11",
-                "🇳🇱NL | vless | @vpn_xw | 1",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
@@ -141,8 +140,6 @@
                 "🇬🇧GB | vless | @v2ray_swhil | 14",
                 "🇩🇪DE | vless | @v2ray_swhil | 26",
                 "🇷🇴RO | vless | @proxyymeliii | 15",
-                "🇩🇪DE | vless | @ConfigsHUB | 10",
-                "🇩🇪DE | vless | @ConfigsHUB | 11",
                 "🇩🇪DE | vless | @Outlinev2rayNG | 0",
                 "🇬🇧GB | vless | @Capital_NET | 27",
                 "🇩🇪DE | vless | @Capital_NET | 28",
@@ -209,7 +206,6 @@
                 "🇫🇮FI | vless | @ARv2ray | 8",
                 "🇩🇪DE | vless | @ARv2ray | 10",
                 "🇩🇪DE | vless | @ARv2ray | 11",
-                "🇳🇱NL | vless | @vpn_xw | 1",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
@@ -223,8 +219,6 @@
                 "🇬🇧GB | vless | @v2ray_swhil | 14",
                 "🇩🇪DE | vless | @v2ray_swhil | 26",
                 "🇷🇴RO | vless | @proxyymeliii | 15",
-                "🇩🇪DE | vless | @ConfigsHUB | 10",
-                "🇩🇪DE | vless | @ConfigsHUB | 11",
                 "🇩🇪DE | vless | @Outlinev2rayNG | 0",
                 "🇬🇧GB | vless | @Capital_NET | 27",
                 "🇩🇪DE | vless | @Capital_NET | 28",
@@ -1021,42 +1015,6 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @vpn_xw | 1",
-            "type": "vless",
-            "server": "xw.gooldeneaglee.eu.org",
-            "server_port": 2096,
-            "uuid": "goldeneagle",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "xw.gooldeneaglee.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "KIaq9HgZdGdCnFQbVT9TL6rH4ChS7ILGxmK_6EQIuiI",
-                    "short_id": "217888f9"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "----------telegram:vpn_xw----------",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
             "tag": "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
             "type": "vless",
             "server": "49.13.113.114",
@@ -1463,78 +1421,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "www.speedtest.org",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 10",
-            "type": "vless",
-            "server": "kamyarconfigs.camdve.store",
-            "server_port": 443,
-            "uuid": "31c1daf2-127a-4654-a909-34f05abcc21e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "greenpepper.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "gmVJCEhdOMxANl_Kua3bAsu0y98OA1cn_j1oyLdgBB8",
-                    "short_id": "61ce894b"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ConfigMs,@ConfigMs,@ConfigMs,@ConfigMs,@ConfigMs,@ConfigMs,@ConfigMs,@ConfigMs,@ConfigMs,@ConfigMs,@ConfigMs",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 11",
-            "type": "vless",
-            "server": "kamyarconfigs.camdve.store",
-            "server_port": 443,
-            "uuid": "31c1daf2-127a-4654-a909-34f05abcc21e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "greenpepper.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "gmVJCEhdOMxANl_Kua3bAsu0y98OA1cn_j1oyLdgBB8",
-                    "short_id": "61ce894b"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ConfigMs,@ConfigMs,@ConfigMs,@ConfigMs,@ConfigMs,@ConfigMs,@ConfigMs,@ConfigMs,@ConfigMs,@ConfigMs,@ConfigMs",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
