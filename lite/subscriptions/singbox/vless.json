@@ -139,7 +139,7 @@
                 "🇮🇷IR | vless | @vless_vmess | 7",
                 "🇨🇦CA | vless | @V2RayTz | 17",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🇨🇦CA | vless | @ConfigsHUB | 13",
+                "🇨🇦CA | vless | @ConfigsHUB | 11",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @polproxy | 11",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 5",
@@ -149,7 +149,6 @@
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇩🇪DE | vless | @flyv2ray | 12",
-                "🇨🇦CA | vless | @forwardv2ray | 16",
                 "🇨🇦CA | vless | @FAKEOFTVC | 4",
                 "🇨🇷CR | vless | @https_config_injector | 14",
                 "🇸🇪SE | vless | @kiava | 8",
@@ -200,7 +199,7 @@
                 "🇮🇷IR | vless | @vless_vmess | 7",
                 "🇨🇦CA | vless | @V2RayTz | 17",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🇨🇦CA | vless | @ConfigsHUB | 13",
+                "🇨🇦CA | vless | @ConfigsHUB | 11",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @polproxy | 11",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 5",
@@ -210,7 +209,6 @@
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇩🇪DE | vless | @flyv2ray | 12",
-                "🇨🇦CA | vless | @forwardv2ray | 16",
                 "🇨🇦CA | vless | @FAKEOFTVC | 4",
                 "🇨🇷CR | vless | @https_config_injector | 14",
                 "🇸🇪SE | vless | @kiava | 8",
@@ -1106,11 +1104,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 13",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 11",
             "type": "vless",
-            "server": "104.31.16.160",
+            "server": "cdn.user.com",
             "server_port": 80,
-            "uuid": "30bacb3e-a515-42bc-9e0b-5241f32e8080",
+            "uuid": "bda4be04-48bf-4df1-aaf2-6d42522eab6b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1122,7 +1120,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "104.31.16.160"
+                    "Host": "cdn.user.com"
                 }
             }
         },
@@ -1331,37 +1329,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 16",
-            "type": "vless",
-            "server": "parspack.com",
-            "server_port": 443,
-            "uuid": "5cba32d1-1de5-43cc-83aa-dd6acccb5386",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "parspack.allhub.ltd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/cdn",
-                "headers": {
-                    "Host": "parspack.allhub.ltd"
-                }
             }
         },
         {
