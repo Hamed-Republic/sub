@@ -109,6 +109,7 @@
                 "🇩🇪DE | vless | @ipV2Ray | 15",
                 "🏳️XX | vless | @frev2ray | 1",
                 "🇩🇪DE | vless | @v2ray_swhil | 27",
+                "🇸🇬SG | vless | @flyv2ray | 14",
                 "🇸🇪SE | vless | @kiava | 8",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @FoXrayIran | 4"
@@ -121,6 +122,7 @@
                 "🇩🇪DE | vless | @ipV2Ray | 15",
                 "🏳️XX | vless | @frev2ray | 1",
                 "🇩🇪DE | vless | @v2ray_swhil | 27",
+                "🇸🇬SG | vless | @flyv2ray | 14",
                 "🇸🇪SE | vless | @kiava | 8",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @FoXrayIran | 4"
@@ -243,6 +245,42 @@
                     "enabled": true,
                     "public_key": "AQ_czQOq5paFHTJMjxD-uLklfIDCammNofaA8QggRjg",
                     "short_id": "1fefa3a0"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇸🇬SG | vless | @flyv2ray | 14",
+            "type": "vless",
+            "server": "15.235.202.89",
+            "server_port": 443,
+            "uuid": "3451877f-07d6-4671-9bdc-940f7783e851",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "grinclic.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "phSmvv4fUP14VQlQuw5IL9SsCMReDKkNnf2vvnKkM3M",
+                    "short_id": "4a55431d"
                 }
             },
             "transport": {
