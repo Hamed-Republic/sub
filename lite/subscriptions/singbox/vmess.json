@@ -112,9 +112,10 @@
                 "🏳️XX | vmess | @oneclickvpnkeys | 2",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 0",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
+                "🇮🇹IT | vmess | @ConfigsHUB | 16",
                 "🇧🇬BG | vmess | @Hope_Net | 6",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 19",
+                "🇺🇸US | vmess | @forwardv2ray | 19",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 5"
             ]
         },
@@ -128,9 +129,10 @@
                 "🏳️XX | vmess | @oneclickvpnkeys | 2",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 0",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
+                "🇮🇹IT | vmess | @ConfigsHUB | 16",
                 "🇧🇬BG | vmess | @Hope_Net | 6",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 19",
+                "🇺🇸US | vmess | @forwardv2ray | 19",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -156,9 +158,9 @@
         {
             "tag": "🇩🇪DE | vmess | @V2rayCollectorDonate | 19",
             "type": "vmess",
-            "server": "cdn.servemp3.com",
-            "server_port": 2083,
-            "uuid": "fc1ff4f2-cee6-44fb-86cb-d9e177d59cc2",
+            "server": "channel.iran-mehr14.ir",
+            "server_port": 8080,
+            "uuid": "c4bb3b21-81b7-4a0c-8f0d-36d6b865c926",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -168,6 +170,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/RL842FfWrFLaTjhd",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -270,6 +279,23 @@
             }
         },
         {
+            "tag": "🇮🇹IT | vmess | @ConfigsHUB | 16",
+            "type": "vmess",
+            "server": "172.232.194.221",
+            "server_port": 41898,
+            "uuid": "4f1c328d-3b20-4c5f-8dd5-af4fbfa5cdcd",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇧🇬BG | vmess | @Hope_Net | 6",
             "type": "vmess",
             "server": "147.78.140.4",
@@ -328,11 +354,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
+            "tag": "🇺🇸US | vmess | @forwardv2ray | 19",
             "type": "vmess",
-            "server": "zula.ir",
-            "server_port": 2087,
-            "uuid": "afe2fe35-b6c9-4a9d-a8bd-94b4e2167868",
+            "server": "23.158.72.131",
+            "server_port": 2083,
+            "uuid": "5af25ab0-c98a-11ee-b132-205c6d5f5d78",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -345,7 +371,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "arv.aticloud.ir",
+                "server_name": "ba24.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -355,9 +381,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/@V2RayyNGvpn",
                 "headers": {
-                    "Host": "arv.aticloud.ir"
+                    "Host": "ba24.ir"
                 }
             }
         },
