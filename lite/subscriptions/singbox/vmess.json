@@ -110,8 +110,6 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 0",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🇨🇦CA | vmess | @ConfigsHUB | 10",
-                "🇨🇦CA | vmess | @Hope_Net | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 5"
             ]
@@ -124,8 +122,6 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 0",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🇨🇦CA | vmess | @ConfigsHUB | 10",
-                "🇨🇦CA | vmess | @Hope_Net | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 5"
             ],
@@ -213,64 +209,6 @@
             "server": "188.114.96.11",
             "server_port": 80,
             "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 10",
-            "type": "vmess",
-            "server": "zula.ir",
-            "server_port": 2087,
-            "uuid": "744e6667-f2ec-49b1-9819-9f7c7bc8f6e5",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "nl3.arvcloud.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "nl3.arvcloud.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 0",
-            "type": "vmess",
-            "server": "zula.ir",
-            "server_port": 8880,
-            "uuid": "2a346c57-5ff4-4e4b-a4d1-f3d008cbe09e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
