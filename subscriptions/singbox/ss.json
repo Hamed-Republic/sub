@@ -106,11 +106,12 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇳🇱NL | ss | @V2rayCollectorDonate | 11",
-                "🇵🇱PL | ss | @DeamNet_Proxy | 7",
-                "🇺🇸US | ss | @DeamNet_Proxy | 8",
-                "🇵🇱PL | ss | @DeamNet_Proxy | 15",
-                "🇩🇪DE | ss | @DeamNet_Proxy | 16",
+                "🇳🇱NL | ss | @V2rayCollectorDonate | 5",
+                "🇳🇱NL | ss | @V2rayCollectorDonate | 12",
+                "🇵🇱PL | ss | @DeamNet_Proxy | 8",
+                "🇺🇸US | ss | @DeamNet_Proxy | 9",
+                "🇵🇱PL | ss | @DeamNet_Proxy | 16",
+                "🇩🇪DE | ss | @DeamNet_Proxy | 17",
                 "🇷🇺RU | ss | @VmessProtocol | 4",
                 "🇺🇸US | ss | @VmessProtocol | 6",
                 "🇬🇧GB | ss | @VmessProtocol | 8",
@@ -130,7 +131,7 @@
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇬🇧GB | ss | @forwardv2ray | 17",
+                "🇬🇧GB | ss | @forwardv2ray | 12",
                 "🇸🇪SE | ss | @kingofilter | 8",
                 "🇬🇧GB | ss | @ROMAX_VPN | 0",
                 "🇬🇧GB | ss | @ROMAX_VPN | 1",
@@ -142,11 +143,12 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇳🇱NL | ss | @V2rayCollectorDonate | 11",
-                "🇵🇱PL | ss | @DeamNet_Proxy | 7",
-                "🇺🇸US | ss | @DeamNet_Proxy | 8",
-                "🇵🇱PL | ss | @DeamNet_Proxy | 15",
-                "🇩🇪DE | ss | @DeamNet_Proxy | 16",
+                "🇳🇱NL | ss | @V2rayCollectorDonate | 5",
+                "🇳🇱NL | ss | @V2rayCollectorDonate | 12",
+                "🇵🇱PL | ss | @DeamNet_Proxy | 8",
+                "🇺🇸US | ss | @DeamNet_Proxy | 9",
+                "🇵🇱PL | ss | @DeamNet_Proxy | 16",
+                "🇩🇪DE | ss | @DeamNet_Proxy | 17",
                 "🇷🇺RU | ss | @VmessProtocol | 4",
                 "🇺🇸US | ss | @VmessProtocol | 6",
                 "🇬🇧GB | ss | @VmessProtocol | 8",
@@ -166,7 +168,7 @@
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇬🇧GB | ss | @forwardv2ray | 17",
+                "🇬🇧GB | ss | @forwardv2ray | 12",
                 "🇸🇪SE | ss | @kingofilter | 8",
                 "🇬🇧GB | ss | @ROMAX_VPN | 0",
                 "🇬🇧GB | ss | @ROMAX_VPN | 1",
@@ -194,7 +196,17 @@
             "type": "dns"
         },
         {
-            "tag": "🇳🇱NL | ss | @V2rayCollectorDonate | 11",
+            "tag": "🇳🇱NL | ss | @V2rayCollectorDonate | 5",
+            "type": "shadowsocks",
+            "server": "masting.xyz",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "XlUFgoOqDlVqlZFD3Js0YA",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇳🇱NL | ss | @V2rayCollectorDonate | 12",
             "type": "shadowsocks",
             "server": "shadoct.kingarvan.eu.org",
             "server_port": 8080,
@@ -204,7 +216,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇵🇱PL | ss | @DeamNet_Proxy | 7",
+            "tag": "🇵🇱PL | ss | @DeamNet_Proxy | 8",
             "type": "shadowsocks",
             "server": "54.36.174.181",
             "server_port": 9102,
@@ -214,7 +226,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | ss | @DeamNet_Proxy | 8",
+            "tag": "🇺🇸US | ss | @DeamNet_Proxy | 9",
             "type": "shadowsocks",
             "server": "167.88.61.175",
             "server_port": 6679,
@@ -224,7 +236,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇵🇱PL | ss | @DeamNet_Proxy | 15",
+            "tag": "🇵🇱PL | ss | @DeamNet_Proxy | 16",
             "type": "shadowsocks",
             "server": "54.36.174.181",
             "server_port": 7306,
@@ -234,7 +246,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇩🇪DE | ss | @DeamNet_Proxy | 16",
+            "tag": "🇩🇪DE | ss | @DeamNet_Proxy | 17",
             "type": "shadowsocks",
             "server": "145.239.1.100",
             "server_port": 9102,
@@ -434,7 +446,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | @forwardv2ray | 17",
+            "tag": "🇬🇧GB | ss | @forwardv2ray | 12",
             "type": "shadowsocks",
             "server": "series-a2-me.samanehha.co",
             "server_port": 443,
