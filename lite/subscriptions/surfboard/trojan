@@ -14,11 +14,10 @@ DIRECT = direct
 🇮🇪IE | trojan | @PrivateVPNs | 16 = trojan, 3.255.55.114, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
 🇺🇸US | trojan | @DirectVPN | 16 = trojan, 44.216.57.69, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
 🇨🇳CN | trojan | @yaney_01 | 7 = trojan, xibaozi.19890604.day, 10847, password = c1dc3493-2298-44ab-98c1-4abccbc350d1, udp-delay = true, skip-cert-verify = false, sni = cloudflare.node-ssl.cdn-alibaba.com, ws = false
-🇫🇮FI | trojan | @forwardv2ray | 19 = trojan, s3.hiddenguard.top, 443, password = 31470020-c0cd-469e-96bb-94f964acd5e5, udp-delay = true, skip-cert-verify = false, sni = s3.hiddenguard.top, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇮🇪IE | trojan | @PrivateVPNs | 16,🇺🇸US | trojan | @DirectVPN | 16,🇨🇳CN | trojan | @yaney_01 | 7,🇫🇮FI | trojan | @forwardv2ray | 19
-URL-TEST = url-test,🇮🇪IE | trojan | @PrivateVPNs | 16,🇺🇸US | trojan | @DirectVPN | 16,🇨🇳CN | trojan | @yaney_01 | 7,🇫🇮FI | trojan | @forwardv2ray | 19
-FALLBACK = fallback,🇮🇪IE | trojan | @PrivateVPNs | 16,🇺🇸US | trojan | @DirectVPN | 16,🇨🇳CN | trojan | @yaney_01 | 7,🇫🇮FI | trojan | @forwardv2ray | 19
+MANUAL = select,URL-TEST,FALLBACK,🇮🇪IE | trojan | @PrivateVPNs | 16,🇺🇸US | trojan | @DirectVPN | 16,🇨🇳CN | trojan | @yaney_01 | 7
+URL-TEST = url-test,🇮🇪IE | trojan | @PrivateVPNs | 16,🇺🇸US | trojan | @DirectVPN | 16,🇨🇳CN | trojan | @yaney_01 | 7
+FALLBACK = fallback,🇮🇪IE | trojan | @PrivateVPNs | 16,🇺🇸US | trojan | @DirectVPN | 16,🇨🇳CN | trojan | @yaney_01 | 7
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
