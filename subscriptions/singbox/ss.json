@@ -128,7 +128,8 @@
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇺🇸US | ss | @proxy_mtm | 1",
+                "🇸🇪SE | ss | @forwardv2ray | 15",
+                "🇺🇸US | ss | @proxy_mtm | 2",
                 "🇸🇪SE | ss | @kingofilter | 0",
                 "🇸🇪SE | ss | @kingofilter | 9",
                 "🇬🇧GB | ss | @ROMAX_VPN | 0",
@@ -162,7 +163,8 @@
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇺🇸US | ss | @proxy_mtm | 1",
+                "🇸🇪SE | ss | @forwardv2ray | 15",
+                "🇺🇸US | ss | @proxy_mtm | 2",
                 "🇸🇪SE | ss | @kingofilter | 0",
                 "🇸🇪SE | ss | @kingofilter | 9",
                 "🇬🇧GB | ss | @ROMAX_VPN | 0",
@@ -410,7 +412,17 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | ss | @proxy_mtm | 1",
+            "tag": "🇸🇪SE | ss | @forwardv2ray | 15",
+            "type": "shadowsocks",
+            "server": "16.171.129.203",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "Vve+ZfrJOcLmj++8iMjmkkQqMBkkkB0iFQrfoXkKbwU=",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇺🇸US | ss | @proxy_mtm | 2",
             "type": "shadowsocks",
             "server": "beacomf.xyz",
             "server_port": 8080,
