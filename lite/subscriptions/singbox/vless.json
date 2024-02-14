@@ -109,8 +109,7 @@
                 "🇮🇷IR | vless | @EliV2ray | 3",
                 "🇨🇦CA | vless | @Parsashonam | 5",
                 "🇨🇦CA | vless | @XsV2ray | 16",
-                "🇫🇷FR | vless | @VlessConfig | 18",
-                "🇨🇦CA | vless | @VPNCUSTOMIZE | 23",
+                "🇮🇪IE | vless | @VlessConfig | 16",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 11",
                 "🇨🇦CA | vless | @V2pedia | 14",
@@ -135,7 +134,6 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 4",
                 "🇺🇸US | vless | @FalconPolV2rayNG | 10",
                 "🇨🇦CA | vless | @ShadowProxy66 | 48",
-                "🇨🇦CA | vless | @ServerNett | 16",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇳🇱NL | vless | @v2ray_swhil | 15",
                 "🇳🇱NL | vless | @proxyymeliii | 19",
@@ -145,6 +143,7 @@
                 "🇸🇬SG | vless | @VmessProtocol | 14",
                 "🇨🇦CA | vless | @DailyV2RY | 140",
                 "🏳️XX | vless | @lrnbymaa | 6",
+                "🇨🇷CR | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @polproxy | 12",
                 "🇺🇸US | vless | @Outlinev2rayNG | 15",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 11",
@@ -152,7 +151,6 @@
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇮🇷IR | vless | @forwardv2ray | 14",
                 "🇨🇦CA | vless | @https_config_injector | 13",
                 "🇳🇱NL | vless | @mehrosaboran | 8",
                 "🇸🇪SE | vless | @kiava | 7",
@@ -176,8 +174,7 @@
                 "🇮🇷IR | vless | @EliV2ray | 3",
                 "🇨🇦CA | vless | @Parsashonam | 5",
                 "🇨🇦CA | vless | @XsV2ray | 16",
-                "🇫🇷FR | vless | @VlessConfig | 18",
-                "🇨🇦CA | vless | @VPNCUSTOMIZE | 23",
+                "🇮🇪IE | vless | @VlessConfig | 16",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 11",
                 "🇨🇦CA | vless | @V2pedia | 14",
@@ -202,7 +199,6 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 4",
                 "🇺🇸US | vless | @FalconPolV2rayNG | 10",
                 "🇨🇦CA | vless | @ShadowProxy66 | 48",
-                "🇨🇦CA | vless | @ServerNett | 16",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇳🇱NL | vless | @v2ray_swhil | 15",
                 "🇳🇱NL | vless | @proxyymeliii | 19",
@@ -212,6 +208,7 @@
                 "🇸🇬SG | vless | @VmessProtocol | 14",
                 "🇨🇦CA | vless | @DailyV2RY | 140",
                 "🏳️XX | vless | @lrnbymaa | 6",
+                "🇨🇷CR | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @polproxy | 12",
                 "🇺🇸US | vless | @Outlinev2rayNG | 15",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 11",
@@ -219,7 +216,6 @@
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇮🇷IR | vless | @forwardv2ray | 14",
                 "🇨🇦CA | vless | @https_config_injector | 13",
                 "🇳🇱NL | vless | @mehrosaboran | 8",
                 "🇸🇪SE | vless | @kiava | 7",
@@ -322,9 +318,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vless | @VlessConfig | 18",
+            "tag": "🇮🇪IE | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "13.39.164.74",
+            "server": "54.155.94.182",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -350,37 +346,6 @@
                 "headers": {
                     "Host": "telegram-channel-vlessconfig.sohala.uk"
                 }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @VPNCUSTOMIZE | 23",
-            "type": "vless",
-            "server": "tel.VPNCUSTOMIZE.cam",
-            "server_port": 8443,
-            "uuid": "VPNCUSTOMIZE-VPNCUSTOMIZE",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "gr-V2rayng.vpncustomize.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@VPNCUSTOMIZE,@VPNCUSTOMIZE",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
@@ -1038,37 +1003,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ServerNett | 16",
-            "type": "vless",
-            "server": "join60.numalla.top",
-            "server_port": 2053,
-            "uuid": "107d88e2-f25c-424a-a645-bccd62b9bf9e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "join60.numalla.top",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @Qv2rayDONATED | 6",
             "type": "vless",
             "server": "104.18.190.52",
@@ -1296,6 +1230,27 @@
             }
         },
         {
+            "tag": "🇨🇷CR | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "190.93.246.241",
+            "server_port": 80,
+            "uuid": "30bacb3e-a515-42bc-9e0b-5241f32e8080",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "190.93.246.241"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @polproxy | 12",
             "type": "vless",
             "server": "172.67.153.213",
@@ -1490,37 +1445,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vless | @forwardv2ray | 14",
-            "type": "vless",
-            "server": "85.133.143.11",
-            "server_port": 443,
-            "uuid": "e2443e49-e0ce-4628-808f-76469b53cf66",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "net1.zxv.biz.id",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "net1.zxv.biz.id"
-                }
             }
         },
         {
