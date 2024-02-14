@@ -166,8 +166,9 @@
                 "🇨🇦CA | vless | @FreakConfig | 10",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇩🇪DE | vless | @flyv2ray | 14",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 13",
-                "🇺🇸US | vless | @mehrosaboran | 6",
+                "🇨🇷CR | vless | @mehrosaboran | 6",
                 "🇸🇪SE | vless | @kiava | 7",
                 "🇸🇪SE | ss | @proxy_mtm | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -248,8 +249,9 @@
                 "🇨🇦CA | vless | @FreakConfig | 10",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇩🇪DE | vless | @flyv2ray | 14",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 13",
-                "🇺🇸US | vless | @mehrosaboran | 6",
+                "🇨🇷CR | vless | @mehrosaboran | 6",
                 "🇸🇪SE | vless | @kiava | 7",
                 "🇸🇪SE | ss | @proxy_mtm | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -526,9 +528,9 @@
         {
             "tag": "🇨🇦CA | vless | @ARv2ray | 14",
             "type": "vless",
-            "server": "ftpdeb.Com",
+            "server": "check-host.net",
             "server_port": 443,
-            "uuid": "telegram-id-ArV2ray",
+            "uuid": "2facdce9-1fb7-4a40-8448-5073f6fecb97",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -538,7 +540,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "FtPdeb.Com",
+                "server_name": "tl.ArV2ray.host",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1461,7 +1463,7 @@
             "type": "vless",
             "server": "104.22.48.253",
             "server_port": 80,
-            "uuid": "bda4be04-48bf-4df1-aaf2-6d42522eab6b",
+            "uuid": "a93eacd2-2852-4d84-9355-fd1e6477dccc",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1775,6 +1777,40 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "nina.bond",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "nina.bond",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "nina.bond"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @https_config_injector | 13",
             "type": "vless",
             "server": "104.22.48.253",
@@ -1796,7 +1832,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @mehrosaboran | 6",
+            "tag": "🇨🇷CR | vless | @mehrosaboran | 6",
             "type": "vless",
             "server": "190.93.247.155",
             "server_port": 2083,
