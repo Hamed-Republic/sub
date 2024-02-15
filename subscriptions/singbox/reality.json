@@ -135,6 +135,7 @@
                 "🇫🇮FI | vless | @v2logy | 6",
                 "🏳️XX | vless | @v2logy | 9",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 0",
+                "🇩🇪DE | vless | @V2rayCollectorDonate | 6",
                 "🇩🇪DE | vless | @prrofile_purple | 172",
                 "🏳️XX | vless | @prrofile_purple | 174",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 4",
@@ -183,8 +184,7 @@
                 "🏳️XX | vless | @Good_V2rayy | 2",
                 "🇺🇸US | vless | @FoXrayIran | 2",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
-                "🏳️XX | vless | @TVCminer | 3",
-                "🏳️XX | vless | @TVCminer | 7"
+                "🏳️XX | vless | @TVCminer | 9"
             ]
         },
         {
@@ -220,6 +220,7 @@
                 "🇫🇮FI | vless | @v2logy | 6",
                 "🏳️XX | vless | @v2logy | 9",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 0",
+                "🇩🇪DE | vless | @V2rayCollectorDonate | 6",
                 "🇩🇪DE | vless | @prrofile_purple | 172",
                 "🏳️XX | vless | @prrofile_purple | 174",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 4",
@@ -268,8 +269,7 @@
                 "🏳️XX | vless | @Good_V2rayy | 2",
                 "🇺🇸US | vless | @FoXrayIran | 2",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
-                "🏳️XX | vless | @TVCminer | 3",
-                "🏳️XX | vless | @TVCminer | 7"
+                "🏳️XX | vless | @TVCminer | 9"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -1295,6 +1295,42 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@Everyday_VPN",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @V2rayCollectorDonate | 6",
+            "type": "vless",
+            "server": "128.140.73.69",
+            "server_port": 443,
+            "uuid": "021e1111-e6d9-4f6c-a1b8-03a70b6e4540",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mail.albasir.in",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "pFIXFBUWlfxKzjMQG4k7RxZrtHbbROURhe61gbKTOzM",
+                    "short_id": "23e8beee"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ASATeam_1",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -2917,43 +2953,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @TVCminer | 3",
-            "type": "vless",
-            "server": "[2a01:4f9:c010:6fb9::2d]",
-            "server_port": 443,
-            "uuid": "4566efc8-ac00-40a7-a300-729a58325a0d",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "gsmarena.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "AVesZ9rUbwnESVl0YSPs98oWmZbXlhDVjR4ssJAw6yw",
-                    "short_id": "32d7a82d"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@Everyday_VPN",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🏳️XX | vless | @TVCminer | 7",
+            "tag": "🏳️XX | vless | @TVCminer | 9",
             "type": "vless",
             "server": "[2a01:4f9:c010:6fb9::2b]",
             "server_port": 443,
