@@ -114,9 +114,8 @@
                 "🇳🇱NL | vmess | @v2ray1_ng | 4",
                 "🏳️XX | vmess | @Hope_Net | 17",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 14",
-                "🇨🇦CA | vmess | @kingofilter | 6",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 4"
+                "🇨🇦CA | vmess | @kingofilter | 8",
+                "🇨🇦CA | vmess | @eliya_chiter0 | 3"
             ]
         },
         {
@@ -131,9 +130,8 @@
                 "🇳🇱NL | vmess | @v2ray1_ng | 4",
                 "🏳️XX | vmess | @Hope_Net | 17",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 14",
-                "🇨🇦CA | vmess | @kingofilter | 6",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 4"
+                "🇨🇦CA | vmess | @kingofilter | 8",
+                "🇨🇦CA | vmess | @eliya_chiter0 | 3"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -320,41 +318,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 14",
-            "type": "vmess",
-            "server": "warp-sub.pages.dev",
-            "server_port": 2053,
-            "uuid": "06195b5b-3815-4a07-96f7-47eefbb1b143",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/urnxewzvh.site:443\/kwhmvws",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @kingofilter | 6",
+            "tag": "🇨🇦CA | vmess | @kingofilter | 8",
             "type": "vmess",
             "server": "104.20.231.30",
             "server_port": 80,
@@ -378,7 +342,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 4",
+            "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 3",
             "type": "vmess",
             "server": "172.67.71.160",
             "server_port": 443,
