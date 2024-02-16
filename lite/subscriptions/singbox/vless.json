@@ -117,7 +117,7 @@
                 "🇺🇸US | vless | @Lockey_vpn | 10",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 3",
-                "🇨🇷CR | vless | @lightning6 | 27",
+                "🇺🇸US | vless | @lightning6 | 27",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
                 "🇺🇸US | vless | @proxy_kafee | 0",
@@ -146,6 +146,7 @@
                 "🏳️XX | vless | @fnet00 | 7",
                 "🇨🇦CA | vless | @polproxy | 4",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
+                "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @FreakConfig | 3",
@@ -179,7 +180,7 @@
                 "🇺🇸US | vless | @Lockey_vpn | 10",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 3",
-                "🇨🇷CR | vless | @lightning6 | 27",
+                "🇺🇸US | vless | @lightning6 | 27",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
                 "🇺🇸US | vless | @proxy_kafee | 0",
@@ -208,6 +209,7 @@
                 "🏳️XX | vless | @fnet00 | 7",
                 "🇨🇦CA | vless | @polproxy | 4",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
+                "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @FreakConfig | 3",
@@ -547,7 +549,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @lightning6 | 27",
+            "tag": "🇺🇸US | vless | @lightning6 | 27",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1333,6 +1335,37 @@
                 "path": "\/?ed=1024",
                 "headers": {
                     "Host": "shout-on-fuck-off.snapfood-mori-mic-irancel-raitel-hamrah.space"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
+            "type": "vless",
+            "server": "172.67.183.26",
+            "server_port": 443,
+            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "3k.pureboy.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "3k.pureboy.eu.org"
                 }
             }
         },
