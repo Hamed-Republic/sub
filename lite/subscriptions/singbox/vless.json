@@ -141,7 +141,7 @@
                 "🇮🇷IR | vless | @vless_vmess | 5",
                 "🇮🇷IR | vless | @V2RayTz | 14",
                 "🏳️XX | vless | @VmessProtocol | 15",
-                "🇨🇦CA | vless | @DailyV2RY | 86",
+                "🇺🇸US | vless | @DailyV2RY | 84",
                 "🇨🇷CR | vless | @sinabigo | 3",
                 "🏳️XX | vless | @lrnbymaa | 7",
                 "🇨🇦CA | vless | @proxystore11 | 8",
@@ -159,8 +159,7 @@
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
                 "🇨🇦CA | vless | @V2FETCH | 8",
-                "🏳️XX | vless | @VpnSkyy | 7",
-                "🇨🇦CA | vless | @TVCminer | 17"
+                "🏳️XX | vless | @VpnSkyy | 7"
             ]
         },
         {
@@ -202,7 +201,7 @@
                 "🇮🇷IR | vless | @vless_vmess | 5",
                 "🇮🇷IR | vless | @V2RayTz | 14",
                 "🏳️XX | vless | @VmessProtocol | 15",
-                "🇨🇦CA | vless | @DailyV2RY | 86",
+                "🇺🇸US | vless | @DailyV2RY | 84",
                 "🇨🇷CR | vless | @sinabigo | 3",
                 "🏳️XX | vless | @lrnbymaa | 7",
                 "🇨🇦CA | vless | @proxystore11 | 8",
@@ -220,8 +219,7 @@
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
                 "🇨🇦CA | vless | @V2FETCH | 8",
-                "🏳️XX | vless | @VpnSkyy | 7",
-                "🇨🇦CA | vless | @TVCminer | 17"
+                "🏳️XX | vless | @VpnSkyy | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -1166,11 +1164,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 86",
+            "tag": "🇺🇸US | vless | @DailyV2RY | 84",
             "type": "vless",
-            "server": "server3.mobileberooz-e41.workers.dev",
-            "server_port": 80,
-            "uuid": "0c1823f5-e8b1-4cfe-8f8b-441f8dd42fd2",
+            "server": "79.99.31.126",
+            "server_port": 2087,
+            "uuid": "df2265d6-4bc7-4805-9cb0-889fb955d846",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1178,12 +1176,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "server3.mobileberooz-e41.workers.dev"
+            "tls": {
+                "enabled": true,
+                "server_name": "germany.v2rayfree1.shop",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "V2rayfree1_V2rayfree1_V2rayfree1_V2rayfree1_V2rayfree1_V2rayfree1_V2rayfree1_V2rayfree1_V2rayfree1_V2rayfree1_V2rayfree1_",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1607,37 +1615,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @TVCminer | 17",
-            "type": "vless",
-            "server": "104.18.177.84",
-            "server_port": 2087,
-            "uuid": "62142178-949d-4d4a-b426-f68e595416fa",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "daily-configs.vigilante.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram:@daily_configs | telegram:@daily_configs | telegram:@daily_configs | telegram:@daily_configs | telegram:@daily_configs | telegram:@daily_configs | telegram:@daily_configs |",
-                "headers": {
-                    "Host": "daily-configs.vigilante.ir"
-                }
             }
         }
     ],
