@@ -136,7 +136,7 @@
                 "🇺🇸US | vless | @FalconPolV2rayNG | 9",
                 "🇨🇦CA | vless | @ServerNett | 15",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇩🇪DE | vless | @v2ray_swhil | 13",
+                "🏳️XX | vless | @v2ray_swhil | 15",
                 "🇺🇸US | vless | @proxyymeliii | 18",
                 "🇨🇦CA | vless | @MsV2ray | 14",
                 "🇮🇷IR | vless | @vless_vmess | 5",
@@ -150,8 +150,10 @@
                 "🇨🇦CA | vless | @Outlinev2rayNG | 9",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇨🇦CA | vless | @Capoit | 1",
+                "🇩🇪DE | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇮🇷IR | vless | @flyv2ray | 7",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇮🇷IR | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 5",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -198,7 +200,7 @@
                 "🇺🇸US | vless | @FalconPolV2rayNG | 9",
                 "🇨🇦CA | vless | @ServerNett | 15",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇩🇪DE | vless | @v2ray_swhil | 13",
+                "🏳️XX | vless | @v2ray_swhil | 15",
                 "🇺🇸US | vless | @proxyymeliii | 18",
                 "🇨🇦CA | vless | @MsV2ray | 14",
                 "🇮🇷IR | vless | @vless_vmess | 5",
@@ -212,8 +214,10 @@
                 "🇨🇦CA | vless | @Outlinev2rayNG | 9",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇨🇦CA | vless | @Capoit | 1",
+                "🇩🇪DE | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇮🇷IR | vless | @flyv2ray | 7",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇮🇷IR | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 5",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -1084,10 +1088,10 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @v2ray_swhil | 13",
+            "tag": "🏳️XX | vless | @v2ray_swhil | 15",
             "type": "vless",
-            "server": "germany.mmdtitaniom.com",
-            "server_port": 2053,
+            "server": "England.kamimiller.top",
+            "server_port": 8443,
             "uuid": "fafcd6a9-07b2-4185-a4e8-a2e5abf8035c",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
@@ -1098,7 +1102,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.sourceforge.net",
+                "server_name": "sourceforge.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1402,6 +1406,42 @@
             }
         },
         {
+            "tag": "🇩🇪DE | vless | @FreakConfig | 4",
+            "type": "vless",
+            "server": "49.13.149.114",
+            "server_port": 443,
+            "uuid": "021e1111-e6d9-4f6c-a1b8-03a70b6e4540",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "*.nareezacademy.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "gqIyM6we26p1RDqHL-X9iB7OEkNVTf5M1-hZ85bukSI",
+                    "short_id": "23e8beee"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @IRN_VPN | 2",
             "type": "vless",
             "server": "account.zula.ir",
@@ -1460,6 +1500,27 @@
                 "path": "\/",
                 "headers": {
                     "Host": "net1.zxv.biz.id"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "cdn.user.com",
+            "server_port": 80,
+            "uuid": "bda4be04-48bf-4df1-aaf2-6d42522eab6b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "cdn.user.com"
                 }
             }
         },
