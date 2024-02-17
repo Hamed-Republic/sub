@@ -222,9 +222,9 @@
         {
             "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
             "type": "vmess",
-            "server": "warp-sub.pages.dev",
-            "server_port": 8443,
-            "uuid": "06195b5b-3815-4a07-96f7-47eefbb1b143",
+            "server": "172.67.71.160",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -237,7 +237,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "",
+                "server_name": "obdii.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -247,9 +247,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/urnxewzvh.site:443\/kwhmvws",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": ""
+                    "Host": "obdii.cfd"
                 }
             }
         },
@@ -299,7 +299,7 @@
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "cbaabca-aacb-acab-dcab-bbccaacabbca",
+            "uuid": "aacbbca-bcaa-cbaa-dbac-ababcbbcaacc",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
