@@ -231,7 +231,7 @@
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "abcaabc-baca-baac-bcad-bbbacbacccaa",
+            "uuid": "abcbaac-caba-acab-dbca-cccaabbbacba",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -270,9 +270,9 @@
         {
             "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
             "type": "vmess",
-            "server": "104.21.225.249",
-            "server_port": 80,
-            "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+            "server": "162.159.138.232",
+            "server_port": 443,
+            "uuid": "b92a0371-737e-4083-a9d1-735a69b008f5",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -283,11 +283,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "xxxx.moshavere.group",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/&Telegram🇨🇳 @WangCai_8",
+                "path": "\/images_46553",
                 "headers": {
-                    "Host": ""
+                    "Host": "xxxx.moshavere.group"
                 }
             }
         },
