@@ -107,9 +107,9 @@
             "outbounds": [
                 "URL-TEST",
                 "🏳️XX | ss | @azadi_az_inja_migzare | 0",
-                "🇬🇧GB | ss | @DeamNet_Proxy | 8",
-                "🇳🇱NL | ss | @DeamNet_Proxy | 11",
-                "🇦🇹AT | ss | @DeamNet_Proxy | 12",
+                "🇬🇧GB | ss | @DeamNet_Proxy | 12",
+                "🇳🇱NL | ss | @DeamNet_Proxy | 15",
+                "🇦🇹AT | ss | @DeamNet_Proxy | 16",
                 "🇬🇧GB | ss | @proxyymeliii | 3",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 3",
                 "🇸🇬SG | ss | @OutlineVpnOfficial | 4",
@@ -126,8 +126,9 @@
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇷🇺RU | ss | @proxy_mtm | 1",
-                "🇬🇧GB | ss | @kingofilter | 2",
+                "🇷🇺RU | ss | @proxy_mtm | 0",
+                "🇷🇺RU | ss | @proxy_mtm | 2",
+                "🇬🇧GB | ss | @kingofilter | 3",
                 "🏳️XX | ss | @ROMAX_VPN | 3",
                 "🇺🇸US | ss | @ROMAX_VPN | 4"
             ]
@@ -137,9 +138,9 @@
             "type": "urltest",
             "outbounds": [
                 "🏳️XX | ss | @azadi_az_inja_migzare | 0",
-                "🇬🇧GB | ss | @DeamNet_Proxy | 8",
-                "🇳🇱NL | ss | @DeamNet_Proxy | 11",
-                "🇦🇹AT | ss | @DeamNet_Proxy | 12",
+                "🇬🇧GB | ss | @DeamNet_Proxy | 12",
+                "🇳🇱NL | ss | @DeamNet_Proxy | 15",
+                "🇦🇹AT | ss | @DeamNet_Proxy | 16",
                 "🇬🇧GB | ss | @proxyymeliii | 3",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 3",
                 "🇸🇬SG | ss | @OutlineVpnOfficial | 4",
@@ -156,8 +157,9 @@
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇷🇺RU | ss | @proxy_mtm | 1",
-                "🇬🇧GB | ss | @kingofilter | 2",
+                "🇷🇺RU | ss | @proxy_mtm | 0",
+                "🇷🇺RU | ss | @proxy_mtm | 2",
+                "🇬🇧GB | ss | @kingofilter | 3",
                 "🏳️XX | ss | @ROMAX_VPN | 3",
                 "🇺🇸US | ss | @ROMAX_VPN | 4"
             ],
@@ -192,7 +194,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | @DeamNet_Proxy | 8",
+            "tag": "🇬🇧GB | ss | @DeamNet_Proxy | 12",
             "type": "shadowsocks",
             "server": "series-a2-me.samanehha.co",
             "server_port": 443,
@@ -202,7 +204,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇳🇱NL | ss | @DeamNet_Proxy | 11",
+            "tag": "🇳🇱NL | ss | @DeamNet_Proxy | 15",
             "type": "shadowsocks",
             "server": "172.233.57.5",
             "server_port": 8080,
@@ -212,7 +214,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇦🇹AT | ss | @DeamNet_Proxy | 12",
+            "tag": "🇦🇹AT | ss | @DeamNet_Proxy | 16",
             "type": "shadowsocks",
             "server": "95.164.9.144",
             "server_port": 2927,
@@ -382,7 +384,17 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇷🇺RU | ss | @proxy_mtm | 1",
+            "tag": "🇷🇺RU | ss | @proxy_mtm | 0",
+            "type": "shadowsocks",
+            "server": "109.107.189.185",
+            "server_port": 17397,
+            "method": "chacha20-ietf-poly1305",
+            "password": "lrJVYHCiZA3VdRckEWQnSg",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇷🇺RU | ss | @proxy_mtm | 2",
             "type": "shadowsocks",
             "server": "109.107.189.5",
             "server_port": 53064,
@@ -392,7 +404,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | @kingofilter | 2",
+            "tag": "🇬🇧GB | ss | @kingofilter | 3",
             "type": "shadowsocks",
             "server": "51.11.104.69",
             "server_port": 16550,
