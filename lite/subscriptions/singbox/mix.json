@@ -168,7 +168,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇺🇸US | vless | @flyv2ray | 10",
-                "🇸🇬SG | vless | @forwardv2ray | 18",
+                "🏳️XX | ss | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 11",
                 "🇨🇳CN | vless | @mehrosaboran | 8",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -254,7 +254,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇺🇸US | vless | @flyv2ray | 10",
-                "🇸🇬SG | vless | @forwardv2ray | 18",
+                "🏳️XX | ss | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 11",
                 "🇨🇳CN | vless | @mehrosaboran | 8",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -1822,35 +1822,14 @@
             }
         },
         {
-            "tag": "🇸🇬SG | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "proxyip.sg.fxxk.dedyn.io",
+            "tag": "🏳️XX | ss | @forwardv2ray | 19",
+            "type": "shadowsocks",
+            "server": "[::ffff:1286:39dc]",
             "server_port": 443,
-            "uuid": "f746de28-4bf9-47b9-a727-64d774c4bafb",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "kr.xujiang.link",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/argox-vl",
-                "headers": {
-                    "Host": "kr.xujiang.link"
-                }
-            }
+            "method": "chacha20-ietf-poly1305",
+            "password": "W74XFALLLuw6m5IA",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇨🇦CA | vless | @https_config_injector | 11",
