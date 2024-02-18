@@ -115,12 +115,12 @@
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 3",
                 "🏳️XX | vless | @frev2ray | 1",
-                "🇩🇪DE | vless | @ARv2ray | 10",
+                "🇩🇪DE | vless | @ARv2ray | 11",
                 "🇺🇸US | vless | @shh_proxy | 19",
                 "🇨🇦CA | vless | @Lockey_vpn | 5",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
-                "🇺🇸US | vless | @lightning6 | 23",
+                "🇨🇷CR | vless | @lightning6 | 23",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
                 "🇫🇮FI | vless | @v2logy | 12",
@@ -153,8 +153,8 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 6",
-                "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇺🇸US | vless | @flyv2ray | 10",
+                "🇫🇷FR | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 11",
                 "🇨🇳CN | vless | @mehrosaboran | 8",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -182,12 +182,12 @@
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 3",
                 "🏳️XX | vless | @frev2ray | 1",
-                "🇩🇪DE | vless | @ARv2ray | 10",
+                "🇩🇪DE | vless | @ARv2ray | 11",
                 "🇺🇸US | vless | @shh_proxy | 19",
                 "🇨🇦CA | vless | @Lockey_vpn | 5",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
-                "🇺🇸US | vless | @lightning6 | 23",
+                "🇨🇷CR | vless | @lightning6 | 23",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
                 "🇫🇮FI | vless | @v2logy | 12",
@@ -220,8 +220,8 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 6",
-                "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇺🇸US | vless | @flyv2ray | 10",
+                "🇫🇷FR | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 11",
                 "🇨🇳CN | vless | @mehrosaboran | 8",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -488,7 +488,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ARv2ray | 10",
+            "tag": "🇩🇪DE | vless | @ARv2ray | 11",
             "type": "vless",
             "server": "142.132.164.116",
             "server_port": 443,
@@ -628,7 +628,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 23",
+            "tag": "🇨🇷CR | vless | @lightning6 | 23",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1033,9 +1033,9 @@
         {
             "tag": "🇨🇦CA | vless | @ServerNett | 14",
             "type": "vless",
-            "server": "joinsevernett.numalla.top",
-            "server_port": 8443,
-            "uuid": "353ceab4-25c7-4d32-b6a8-06008bbf96cd",
+            "server": "join344.numalla.top",
+            "server_port": 2096,
+            "uuid": "d3539bc8-7363-4aa0-950d-1e5268420fd8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1045,7 +1045,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "joinsevernett.numalla.top",
+                "server_name": "join344.numalla.top",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1055,7 +1055,7 @@
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett",
+                "service_name": "@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -1156,7 +1156,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "liV2rayn.xn--mgbg0fka44dhgc.com",
+                "server_name": "liV2raym.xn--mgbg0fka44dhgc.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1466,37 +1466,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 7",
-            "type": "vless",
-            "server": "104.22.51.162",
-            "server_port": 443,
-            "uuid": "db701871-ca88-4d0f-b15d-14f8d82fb8b0",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "special-funicular.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Path\/Telegram@V2ray_alpha\/",
-                "headers": {
-                    "Host": "special-funicular.pages.dev"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | vless | @flyv2ray | 10",
             "type": "vless",
             "server": "tel.VPNCUSTOMIZE.cam",
@@ -1514,6 +1483,27 @@
                 "path": "\/",
                 "headers": {
                     "Host": "tel.VPNCUSTOMIZE.cam"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷FR | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "95.179.216.171",
+            "server_port": 2096,
+            "uuid": "be0a43eb-9fc9-4692-da0f-a3187b4fdd9d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/SvnTeam",
+                "headers": {
+                    "Host": "95.179.216.171"
                 }
             }
         },
