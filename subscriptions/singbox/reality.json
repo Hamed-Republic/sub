@@ -138,10 +138,11 @@
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 0",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 5",
                 "🇫🇷FR | vless | @v2ray1_ng | 8",
+                "🇳🇱NL | vless | @V2RayTz | 7",
                 "🇩🇪DE | vless | @VmessProtocol | 3",
                 "🏳️XX | vless | @proxystore11 | 6",
-                "🇳🇱NL | vless | @Outlinev2rayNG | 9",
-                "🏳️XX | vless | @v2rayng_vpnrog | 0",
+                "🇳🇱NL | vless | @Outlinev2rayNG | 10",
+                "🏳️XX | vless | @v2rayng_vpnrog | 1",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -154,7 +155,8 @@
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🏳️XX | vless | @FreakConfig | 0",
+                "🏳️XX | vless | @FreakConfig | 1",
+                "🏳️XX | vless | @forwardv2ray | 11",
                 "🇸🇪SE | vless | @kiava | 2",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🇫🇮FI | vless | @vpn_go67 | 9",
@@ -221,10 +223,11 @@
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 0",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 5",
                 "🇫🇷FR | vless | @v2ray1_ng | 8",
+                "🇳🇱NL | vless | @V2RayTz | 7",
                 "🇩🇪DE | vless | @VmessProtocol | 3",
                 "🏳️XX | vless | @proxystore11 | 6",
-                "🇳🇱NL | vless | @Outlinev2rayNG | 9",
-                "🏳️XX | vless | @v2rayng_vpnrog | 0",
+                "🇳🇱NL | vless | @Outlinev2rayNG | 10",
+                "🏳️XX | vless | @v2rayng_vpnrog | 1",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -237,7 +240,8 @@
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🏳️XX | vless | @FreakConfig | 0",
+                "🏳️XX | vless | @FreakConfig | 1",
+                "🏳️XX | vless | @forwardv2ray | 11",
                 "🇸🇪SE | vless | @kiava | 2",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🇫🇮FI | vless | @vpn_go67 | 9",
@@ -1391,6 +1395,42 @@
             }
         },
         {
+            "tag": "🇳🇱NL | vless | @V2RayTz | 7",
+            "type": "vless",
+            "server": "167.172.37.86",
+            "server_port": 443,
+            "uuid": "2a2b9705-e5d4-4355-9f0d-472036dc32f9",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "*.zooconsultants.nl",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "NV-tdL9JetEN6YHpi9oHTDrX6L-55wSIiWyX_3XWaxI",
+                    "short_id": "294cf633"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇩🇪DE | vless | @VmessProtocol | 3",
             "type": "vless",
             "server": "3.120.189.41",
@@ -1463,7 +1503,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @Outlinev2rayNG | 9",
+            "tag": "🇳🇱NL | vless | @Outlinev2rayNG | 10",
             "type": "vless",
             "server": "134.209.198.114",
             "server_port": 443,
@@ -1499,7 +1539,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @v2rayng_vpnrog | 0",
+            "tag": "🏳️XX | vless | @v2rayng_vpnrog | 1",
             "type": "vless",
             "server": "[2a01:4f9:c011:64f::30]",
             "server_port": 443,
@@ -1897,7 +1937,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @FreakConfig | 0",
+            "tag": "🏳️XX | vless | @FreakConfig | 1",
             "type": "vless",
             "server": "[2a01:4f9:c010:6fb9::31]",
             "server_port": 443,
@@ -1927,6 +1967,42 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@Everyday_VPN",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🏳️XX | vless | @forwardv2ray | 11",
+            "type": "vless",
+            "server": "v2logy.ddns.net",
+            "server_port": 443,
+            "uuid": "72859c41-15ac-4621-bfdf-ac4c3ac33ad4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "k6gu1t73hTdYK3PKNUwOqy2B7ZP-sek-dW2_-aGf9i4",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
