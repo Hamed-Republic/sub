@@ -1552,9 +1552,9 @@
         {
             "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "discord.gg",
-            "server_port": 8080,
-            "uuid": "VPNCUSTOMIZE---VPNCUSTOMIZE",
+            "server": "slfingp.com",
+            "server_port": 2087,
+            "uuid": "ef1d268c-221e-4d7a-828e-3ade2fb26d11",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1562,11 +1562,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "cpisub4.CPiONlInE.Us%All",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/VPNCUSTOMIZE--VPNCUSTOMIZE?ed=1048",
+                "path": "\/Vless-ws\/\/V2ray_Alpha\/",
                 "headers": {
-                    "Host": "discord.gg"
+                    "Host": "cpisub4.CPiONlInE.Us%All"
                 }
             }
         },
