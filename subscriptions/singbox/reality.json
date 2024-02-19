@@ -149,11 +149,13 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇳🇱NL | vless | @Capital_NET | 41",
+                "🇨🇦CA | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @FreakConfig | 1",
+                "🏳️XX | vless | @forwardv2ray | 5",
+                "🇩🇪DE | vless | @forwardv2ray | 9",
                 "🇸🇪SE | vless | @kiava | 2",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🇫🇮FI | vless | @vpn_go67 | 9",
@@ -180,8 +182,7 @@
                 "🇩🇪DE | vless | @freeconfigv2 | 13",
                 "🏳️XX | vless | @Good_V2rayy | 2",
                 "🇺🇸US | vless | @FoXrayIran | 2",
-                "🇬🇧GB | vless | @FoXrayIran | 4",
-                "🇺🇸US | vless | @TVCminer | 18"
+                "🇬🇧GB | vless | @FoXrayIran | 4"
             ]
         },
         {
@@ -231,11 +232,13 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇳🇱NL | vless | @Capital_NET | 41",
+                "🇨🇦CA | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @FreakConfig | 1",
+                "🏳️XX | vless | @forwardv2ray | 5",
+                "🇩🇪DE | vless | @forwardv2ray | 9",
                 "🇸🇪SE | vless | @kiava | 2",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🇫🇮FI | vless | @vpn_go67 | 9",
@@ -262,8 +265,7 @@
                 "🇩🇪DE | vless | @freeconfigv2 | 13",
                 "🏳️XX | vless | @Good_V2rayy | 2",
                 "🇺🇸US | vless | @FoXrayIran | 2",
-                "🇬🇧GB | vless | @FoXrayIran | 4",
-                "🇺🇸US | vless | @TVCminer | 18"
+                "🇬🇧GB | vless | @FoXrayIran | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -1736,7 +1738,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @Capital_NET | 41",
+            "tag": "🇨🇦CA | vless | @Capital_NET | 41",
             "type": "vless",
             "server": "194.5.97.158",
             "server_port": 443,
@@ -1885,6 +1887,71 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🏳️XX | vless | @forwardv2ray | 5",
+            "type": "vless",
+            "server": "[2a01:4f9:c011:8b23::1]",
+            "server_port": 25365,
+            "uuid": "35529d09-bc2a-47bf-a8bc-65703cd95247",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Z8VGv2kPcxu7pW1wXRW8lnpPq19TobF9YKrdlW3EBlU",
+                    "short_id": "fc790928"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ZEDMODEON-@ZEDMODEON-@ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 9",
+            "type": "vless",
+            "server": "zedmodeon-channel-zedmodeon-join-zedmodeon-zedmodeon-zedmodeon.tozedmodeon.store",
+            "server_port": 25365,
+            "uuid": "b69844ba-4ec7-470e-8885-5ff31662473f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "A71DCWHWVNjZgmzh2gWM9Wq5OXl8J2RXtOHkiPI89GM",
+                    "short_id": "044a8c43"
+                }
             }
         },
         {
@@ -2807,35 +2874,6 @@
                     "enabled": true,
                     "public_key": "oSBCQtFYo78mD4BFlVVx6J6ykyXUQRoiOtfLdDnkGzI",
                     "short_id": "289ce33d"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @TVCminer | 18",
-            "type": "vless",
-            "server": "45.77.210.181",
-            "server_port": 443,
-            "uuid": "ce256176-8e38-49b7-852e-c99ba72b1d84",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cloudreve.r-yu.me",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "UK7qxWWGfRQcQfwaGpHnqmmqqJBut4jxve8AeDDJ2UI",
-                    "short_id": ""
                 }
             }
         }
