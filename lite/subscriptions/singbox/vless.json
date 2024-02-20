@@ -119,14 +119,14 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
-                "🇺🇸US | vless | @lightning6 | 20",
+                "🇨🇷CR | vless | @lightning6 | 20",
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
                 "🇮🇷IR | vless | @proxy_kafee | 1",
                 "🇩🇪DE | vless | @v2logy | 10",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇨🇷CR | vless | @V2rayNGn | 37",
+                "🇺🇸US | vless | @V2rayNGn | 37",
                 "🇩🇪DE | vless | @prrofile_purple | 179",
                 "🇨🇦CA | vless | @UnlimitedDev | 7",
                 "🏳️XX | vless | @vmessorg | 7",
@@ -184,14 +184,14 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
-                "🇺🇸US | vless | @lightning6 | 20",
+                "🇨🇷CR | vless | @lightning6 | 20",
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
                 "🇮🇷IR | vless | @proxy_kafee | 1",
                 "🇩🇪DE | vless | @v2logy | 10",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇨🇷CR | vless | @V2rayNGn | 37",
+                "🇺🇸US | vless | @V2rayNGn | 37",
                 "🇩🇪DE | vless | @prrofile_purple | 179",
                 "🇨🇦CA | vless | @UnlimitedDev | 7",
                 "🏳️XX | vless | @vmessorg | 7",
@@ -623,7 +623,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 20",
+            "tag": "🇨🇷CR | vless | @lightning6 | 20",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -808,7 +808,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2rayNGn | 37",
+            "tag": "🇺🇸US | vless | @V2rayNGn | 37",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1436,9 +1436,9 @@
         {
             "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "104.16.45.12",
-            "server_port": 443,
-            "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+            "server": "iranserver.com",
+            "server_port": 8880,
+            "uuid": "25e7c381-6534-460f-b59e-efb9ba1fb4e9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1446,21 +1446,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "pages.20230619.love",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Telegram:@UnlimitedDev?ed",
                 "headers": {
-                    "Host": "pages.20230619.love"
+                    "Host": "iranserver.com"
                 }
             }
         },
