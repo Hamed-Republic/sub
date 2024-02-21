@@ -127,7 +127,7 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 39",
-                "🇸🇪SE | trojan | @PrivateVPNs | 18",
+                "🇩🇪DE | trojan | @PrivateVPNs | 18",
                 "🇮🇪IE | trojan | @DirectVPN | 18",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
@@ -161,9 +161,9 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 0",
-                "🇸🇪SE | vless | @forwardv2ray | 19",
+                "🇨🇷CR | vless | @forwardv2ray | 12",
                 "🇨🇦CA | vless | @https_config_injector | 11",
-                "🇨🇦CA | vless | @mehrosaboran | 20",
+                "🇨🇦CA | vless | @mehrosaboran | 25",
                 "🏳️XX | vless | @kiava | 5",
                 "🇨🇦CA | vless | @nofiltering2 | 1",
                 "🇷🇺RU | ss | @proxy_mtm | 0",
@@ -207,7 +207,7 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 39",
-                "🇸🇪SE | trojan | @PrivateVPNs | 18",
+                "🇩🇪DE | trojan | @PrivateVPNs | 18",
                 "🇮🇪IE | trojan | @DirectVPN | 18",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
@@ -241,9 +241,9 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 0",
-                "🇸🇪SE | vless | @forwardv2ray | 19",
+                "🇨🇷CR | vless | @forwardv2ray | 12",
                 "🇨🇦CA | vless | @https_config_injector | 11",
-                "🇨🇦CA | vless | @mehrosaboran | 20",
+                "🇨🇦CA | vless | @mehrosaboran | 25",
                 "🏳️XX | vless | @kiava | 5",
                 "🇨🇦CA | vless | @nofiltering2 | 1",
                 "🇷🇺RU | ss | @proxy_mtm | 0",
@@ -394,7 +394,7 @@
         {
             "tag": "🇺🇸US | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "54.205.98.187",
+            "server": "18.204.105.142",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -879,9 +879,9 @@
             }
         },
         {
-            "tag": "🇸🇪SE | trojan | @PrivateVPNs | 18",
+            "tag": "🇩🇪DE | trojan | @PrivateVPNs | 18",
             "type": "trojan",
-            "server": "13.49.247.92",
+            "server": "18.153.127.246",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -903,7 +903,7 @@
         {
             "tag": "🇮🇪IE | trojan | @DirectVPN | 18",
             "type": "trojan",
-            "server": "34.254.36.202",
+            "server": "52.30.247.168",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1682,11 +1682,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @forwardv2ray | 19",
+            "tag": "🇨🇷CR | vless | @forwardv2ray | 12",
             "type": "vless",
-            "server": "13.53.213.14",
-            "server_port": 22222,
-            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+            "server": "190.93.247.155",
+            "server_port": 2083,
+            "uuid": "df5c5b57-3be9-4831-a3f7-7ac4b13a84e5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1696,7 +1696,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "telegram-channel-vlessconfig.sohala.uk",
+                "server_name": "190.93.247.155",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1705,11 +1705,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/telegram-channel-vlessconfig-ws",
-                "headers": {
-                    "Host": "telegram-channel-vlessconfig.sohala.uk"
-                }
+                "type": "grpc",
+                "service_name": "@LIGHTNING6,",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1734,7 +1734,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @mehrosaboran | 20",
+            "tag": "🇨🇦CA | vless | @mehrosaboran | 25",
             "type": "vless",
             "server": "104.16.46.0",
             "server_port": 2083,
