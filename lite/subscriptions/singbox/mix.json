@@ -121,6 +121,7 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
+                "🇮🇷IR | vless | @DarkTeam_VPN | 0",
                 "🇨🇦CA | vless | @v2logy | 9",
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 2",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 22",
@@ -130,7 +131,6 @@
                 "🇫🇷FR | trojan | @DirectVPN | 14",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇦🇪AE | vmess | @oneclickvpnkeys | 11",
                 "🇫🇮FI | vless | @prrofile_purple | 179",
                 "🇬🇧GB | vless | @customv2ray | 10",
@@ -163,7 +163,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 1",
-                "🇮🇷IR | vmess | @forwardv2ray | 15",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇺🇸US | vless | @mehrosaboran | 29",
@@ -204,6 +204,7 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
+                "🇮🇷IR | vless | @DarkTeam_VPN | 0",
                 "🇨🇦CA | vless | @v2logy | 9",
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 2",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 22",
@@ -213,7 +214,6 @@
                 "🇫🇷FR | trojan | @DirectVPN | 14",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇦🇪AE | vmess | @oneclickvpnkeys | 11",
                 "🇫🇮FI | vless | @prrofile_purple | 179",
                 "🇬🇧GB | vless | @customv2ray | 10",
@@ -246,7 +246,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 1",
-                "🇮🇷IR | vmess | @forwardv2ray | 15",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇺🇸US | vless | @mehrosaboran | 29",
@@ -696,6 +696,20 @@
             }
         },
         {
+            "tag": "🇮🇷IR | vless | @DarkTeam_VPN | 0",
+            "type": "vless",
+            "server": "212.33.202.221",
+            "server_port": 49069,
+            "uuid": "f81af836-31cc-4ffa-87d0-919b10b4eaa5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @v2logy | 9",
             "type": "vless",
             "server": "172.67.170.103",
@@ -917,40 +931,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
-            "type": "vmess",
-            "server": "nina.bond",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "nina.bond",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "nina.bond"
-                }
-            }
-        },
-        {
             "tag": "🇦🇪AE | vmess | @oneclickvpnkeys | 11",
             "type": "vmess",
             "server": "94.140.0.253",
@@ -1036,7 +1016,7 @@
             "type": "vless",
             "server": "iranserver.com",
             "server_port": 8880,
-            "uuid": "65d2c27d-0957-415d-b67a-b915cd857723",
+            "uuid": "26c4f33b-cca9-463c-ac7b-9f47f0765c5d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1784,36 +1764,23 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @forwardv2ray | 15",
-            "type": "vmess",
-            "server": "snappfood.ir",
-            "server_port": 443,
-            "uuid": "6d658352-571f-4cb6-9205-d7c02331fa86",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "tr.fastosos.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/api",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed",
                 "headers": {
-                    "Host": "tr.fastosos.com"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
