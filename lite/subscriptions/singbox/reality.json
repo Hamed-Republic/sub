@@ -110,7 +110,8 @@
                 "🇩🇪DE | vless | @v2logy | 8",
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇮🇱IL | vless | @mehrosaboran | 16",
+                "🇯🇵JP | vless | @forwardv2ray | 18",
+                "🇮🇱IL | vless | @mehrosaboran | 17",
                 "🇸🇪SE | vless | @kiava | 4",
                 "🇩🇪DE | vless | @proxy_mtm | 5",
                 "🏳️XX | vless | @vpn_go67 | 23"
@@ -124,7 +125,8 @@
                 "🇩🇪DE | vless | @v2logy | 8",
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇮🇱IL | vless | @mehrosaboran | 16",
+                "🇯🇵JP | vless | @forwardv2ray | 18",
+                "🇮🇱IL | vless | @mehrosaboran | 17",
                 "🇸🇪SE | vless | @kiava | 4",
                 "🇩🇪DE | vless | @proxy_mtm | 5",
                 "🏳️XX | vless | @vpn_go67 | 23"
@@ -280,7 +282,36 @@
             }
         },
         {
-            "tag": "🇮🇱IL | vless | @mehrosaboran | 16",
+            "tag": "🇯🇵JP | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "egbhihafuow.xqc.best",
+            "server_port": 20012,
+            "uuid": "23e756ef-8a03-470c-886c-f0a62450a967",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.timeto.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "qq"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Wt9cTNEcGKp6Qy2n050o5U3sDCEK1C-iuzQFYSzXknU",
+                    "short_id": "4a3749e4"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇱IL | vless | @mehrosaboran | 17",
             "type": "vless",
             "server": "193.168.173.82",
             "server_port": 443,

@@ -149,12 +149,12 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 1",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇨🇦CA | vless | @Capoit | 7",
+                "🇨🇦CA | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇨🇷CR | vless | @forwardv2ray | 13",
+                "🇯🇵JP | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
-                "🇮🇱IL | vless | @mehrosaboran | 16",
+                "🇮🇱IL | vless | @mehrosaboran | 17",
                 "🇸🇪SE | vless | @kiava | 4",
                 "🇩🇪DE | vless | @proxy_mtm | 5",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -215,12 +215,12 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 1",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇨🇦CA | vless | @Capoit | 7",
+                "🇨🇦CA | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇨🇷CR | vless | @forwardv2ray | 13",
+                "🇯🇵JP | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
-                "🇮🇱IL | vless | @mehrosaboran | 16",
+                "🇮🇱IL | vless | @mehrosaboran | 17",
                 "🇸🇪SE | vless | @kiava | 4",
                 "🇩🇪DE | vless | @proxy_mtm | 5",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -1385,7 +1385,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Capoit | 7",
+            "tag": "🇨🇦CA | vless | @Capoit | 5",
             "type": "vless",
             "server": "discord.com",
             "server_port": 2083,
@@ -1478,12 +1478,12 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @forwardv2ray | 13",
+            "tag": "🇯🇵JP | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "LIGHTNING6-joinbede.liV2ray.xyz",
-            "server_port": 2083,
-            "uuid": "afacc31e-f1a7-4871-f231-3a38494f897d",
-            "flow": "",
+            "server": "egbhihafuow.xqc.best",
+            "server_port": 20012,
+            "uuid": "23e756ef-8a03-470c-886c-f0a62450a967",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1492,20 +1492,18 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "LIGHTNING6-joinbede.liV2ray.xyz",
+                "server_name": "www.timeto.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "qq"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Wt9cTNEcGKp6Qy2n050o5U3sDCEK1C-iuzQFYSzXknU",
+                    "short_id": "4a3749e4"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@LIGHTNING6,",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
@@ -1540,7 +1538,7 @@
             }
         },
         {
-            "tag": "🇮🇱IL | vless | @mehrosaboran | 16",
+            "tag": "🇮🇱IL | vless | @mehrosaboran | 17",
             "type": "vless",
             "server": "193.168.173.82",
             "server_port": 443,
