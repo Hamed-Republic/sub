@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇷FR | ss | @DeamNet_Proxy | 9",
+                "🇫🇷FR | ss | @DeamNet_Proxy | 10",
                 "🇩🇪DE | ss | @proxyymeliii | 15",
                 "🇸🇪SE | ss | @VmessProtocol | 11",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 3",
@@ -124,8 +124,7 @@
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | ss | @forwardv2ray | 5",
-                "🇫🇮FI | ss | @forwardv2ray | 9",
+                "🇫🇮FI | ss | @ROMAX_VPN | 0",
                 "🇸🇪SE | ss | @ROMAX_VPN | 1",
                 "🇬🇧GB | ss | @ROMAX_VPN | 3",
                 "🏳️XX | ss | @ROMAX_VPN | 5",
@@ -136,7 +135,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇷FR | ss | @DeamNet_Proxy | 9",
+                "🇫🇷FR | ss | @DeamNet_Proxy | 10",
                 "🇩🇪DE | ss | @proxyymeliii | 15",
                 "🇸🇪SE | ss | @VmessProtocol | 11",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 3",
@@ -154,8 +153,7 @@
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | ss | @forwardv2ray | 5",
-                "🇫🇮FI | ss | @forwardv2ray | 9",
+                "🇫🇮FI | ss | @ROMAX_VPN | 0",
                 "🇸🇪SE | ss | @ROMAX_VPN | 1",
                 "🇬🇧GB | ss | @ROMAX_VPN | 3",
                 "🏳️XX | ss | @ROMAX_VPN | 5",
@@ -182,12 +180,12 @@
             "type": "dns"
         },
         {
-            "tag": "🇫🇷FR | ss | @DeamNet_Proxy | 9",
+            "tag": "🇫🇷FR | ss | @DeamNet_Proxy | 10",
             "type": "shadowsocks",
             "server": "149.202.82.172",
-            "server_port": 7306,
+            "server_port": 8008,
             "method": "aes-256-gcm",
-            "password": "FoOiGlkAA9yPEGP",
+            "password": "XKFKl2rULjIp74",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -362,17 +360,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | ss | @forwardv2ray | 5",
-            "type": "shadowsocks",
-            "server": "toronto.telegavpn.org",
-            "server_port": 31024,
-            "method": "chacha20-ietf-poly1305",
-            "password": "UbZZOwhavYJPlP1O0XEfwo",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇫🇮FI | ss | @forwardv2ray | 9",
+            "tag": "🇫🇮FI | ss | @ROMAX_VPN | 0",
             "type": "shadowsocks",
             "server": "95.164.113.64",
             "server_port": 7150,
