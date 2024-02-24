@@ -127,6 +127,7 @@
                 "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇩🇪DE | vless | @v2logy | 8",
                 "🇧🇬BG | vless | @azadi_az_inja_migzare | 7",
+                "🏳️XX | vless | @V2rayCollectorDonate | 24",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 29",
                 "🏳️XX | vless | @prrofile_purple | 185",
@@ -141,7 +142,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇩🇪DE | vless | @proxyymeliii | 17",
                 "🇨🇷CR | vless | @MsV2ray | 14",
-                "🇳🇱NL | vless | @v2ray1_ng | 12",
+                "🇨🇦CA | vless | @v2ray1_ng | 11",
                 "🇮🇷IR | vless | @vless_vmess | 2",
                 "🇨🇦CA | vless | @V2RayTz | 17",
                 "🇩🇪DE | vless | @DailyV2RY | 122",
@@ -194,6 +195,7 @@
                 "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇩🇪DE | vless | @v2logy | 8",
                 "🇧🇬BG | vless | @azadi_az_inja_migzare | 7",
+                "🏳️XX | vless | @V2rayCollectorDonate | 24",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 29",
                 "🏳️XX | vless | @prrofile_purple | 185",
@@ -208,7 +210,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇩🇪DE | vless | @proxyymeliii | 17",
                 "🇨🇷CR | vless | @MsV2ray | 14",
-                "🇳🇱NL | vless | @v2ray1_ng | 12",
+                "🇨🇦CA | vless | @v2ray1_ng | 11",
                 "🇮🇷IR | vless | @vless_vmess | 2",
                 "🇨🇦CA | vless | @V2RayTz | 17",
                 "🇩🇪DE | vless | @DailyV2RY | 122",
@@ -813,6 +815,20 @@
             }
         },
         {
+            "tag": "🏳️XX | vless | @V2rayCollectorDonate | 24",
+            "type": "vless",
+            "server": "Telegram--SVNTEAM",
+            "server_port": 0,
+            "uuid": "",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @ProxyForOpeta | 1",
             "type": "vless",
             "server": "CDN.user.com",
@@ -1182,11 +1198,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @v2ray1_ng | 12",
+            "tag": "🇨🇦CA | vless | @v2ray1_ng | 11",
             "type": "vless",
-            "server": "188.114.97.224",
+            "server": "172.67.68.191",
             "server_port": 443,
-            "uuid": "e4e7b149-8bd8-4266-8cbb-0987604dbc87",
+            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1196,7 +1212,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "juzibaipiao.1919810.com",
+                "server_name": "baipiao343.stunning-bassoon.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1208,7 +1224,7 @@
                 "type": "ws",
                 "path": "\/Path\/Telegram@V2ray_alpha\/",
                 "headers": {
-                    "Host": "juzibaipiao.1919810.com"
+                    "Host": "baipiao343.stunning-bassoon.pages.dev"
                 }
             }
         },
