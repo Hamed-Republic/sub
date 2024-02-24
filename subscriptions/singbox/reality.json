@@ -141,7 +141,8 @@
                 "🇱🇺LU | vless | @ShadowProxy66 | 24",
                 "🇩🇪DE | vless | @V2RayTz | 3",
                 "🏳️XX | vless | @VmessProtocol | 13",
-                "🇳🇱NL | vless | @Outlinev2rayNG | 16",
+                "🇩🇪DE | vless | @DailyV2RY | 109",
+                "🇳🇱NL | vless | @Outlinev2rayNG | 18",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -150,13 +151,14 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇳🇱NL | vless | @Capital_NET | 41",
+                "🇨🇦CA | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇮🇷IR | vless | @flyv2ray | 6",
+                "🇩🇪DE | vless | @forwardv2ray | 7",
+                "🏳️XX | vless | @forwardv2ray | 12",
                 "🇸🇬SG | vless | @https_config_injector | 2",
-                "🇩🇪DE | vless | @mehrosaboran | 16",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🇫🇮FI | vless | @proxy_mtm | 11",
                 "🇩🇪DE | vless | @proxy_mtm | 12",
@@ -183,8 +185,7 @@
                 "🇩🇪DE | vless | @freeconfigv2 | 6",
                 "🇩🇪DE | vless | @freeconfigv2 | 11",
                 "🇩🇪DE | vless | @freeconfigv2 | 13",
-                "🏳️XX | vless | @Good_V2rayy | 2",
-                "🏳️XX | vless | @TVCminer | 16"
+                "🏳️XX | vless | @Good_V2rayy | 2"
             ]
         },
         {
@@ -226,7 +227,8 @@
                 "🇱🇺LU | vless | @ShadowProxy66 | 24",
                 "🇩🇪DE | vless | @V2RayTz | 3",
                 "🏳️XX | vless | @VmessProtocol | 13",
-                "🇳🇱NL | vless | @Outlinev2rayNG | 16",
+                "🇩🇪DE | vless | @DailyV2RY | 109",
+                "🇳🇱NL | vless | @Outlinev2rayNG | 18",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -235,13 +237,14 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇳🇱NL | vless | @Capital_NET | 41",
+                "🇨🇦CA | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇮🇷IR | vless | @flyv2ray | 6",
+                "🇩🇪DE | vless | @forwardv2ray | 7",
+                "🏳️XX | vless | @forwardv2ray | 12",
                 "🇸🇬SG | vless | @https_config_injector | 2",
-                "🇩🇪DE | vless | @mehrosaboran | 16",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🇫🇮FI | vless | @proxy_mtm | 11",
                 "🇩🇪DE | vless | @proxy_mtm | 12",
@@ -268,8 +271,7 @@
                 "🇩🇪DE | vless | @freeconfigv2 | 6",
                 "🇩🇪DE | vless | @freeconfigv2 | 11",
                 "🇩🇪DE | vless | @freeconfigv2 | 13",
-                "🏳️XX | vless | @Good_V2rayy | 2",
-                "🏳️XX | vless | @TVCminer | 16"
+                "🏳️XX | vless | @Good_V2rayy | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -1489,7 +1491,43 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @Outlinev2rayNG | 16",
+            "tag": "🇩🇪DE | vless | @DailyV2RY | 109",
+            "type": "vless",
+            "server": "49.13.11.43",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "xHComVbPv5hNGPcbXx8C_wQ6-zf3aML9MDbPuUs9C20",
+                    "short_id": "36dbdff8"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vless | @Outlinev2rayNG | 18",
             "type": "vless",
             "server": "146.190.17.120",
             "server_port": 443,
@@ -1771,7 +1809,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @Capital_NET | 41",
+            "tag": "🇨🇦CA | vless | @Capital_NET | 41",
             "type": "vless",
             "server": "194.5.97.158",
             "server_port": 443,
@@ -1916,40 +1954,11 @@
             }
         },
         {
-            "tag": "🇸🇬SG | vless | @https_config_injector | 2",
-            "type": "vless",
-            "server": "54.255.178.212",
-            "server_port": 10013,
-            "uuid": "A7547235-E23F-44A7-9B66-C9D72F769698",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "s0.awsstatic.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM",
-                    "short_id": "01fc5e98a68e5e7b"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @mehrosaboran | 16",
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 7",
             "type": "vless",
             "server": "5.75.225.4",
             "server_port": 443,
-            "uuid": "5ab6708e-b949-4381-946a-2a80f664aaa8",
+            "uuid": "0adf38f7-4fde-426b-a114-bdfcdcb3f5e2",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1978,6 +1987,71 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🏳️XX | vless | @forwardv2ray | 12",
+            "type": "vless",
+            "server": "[2a01:4f8:1c0c:7523::1]",
+            "server_port": 2096,
+            "uuid": "cc7a59ce-eee7-4503-afc1-d73703c40993",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "fkSxbZt-AETccsW2WfmHBP5RhiLy6Nk1vdEgYdnYQUc",
+                    "short_id": "c8129c93"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇸🇬SG | vless | @https_config_injector | 2",
+            "type": "vless",
+            "server": "54.255.178.212",
+            "server_port": 10013,
+            "uuid": "A7547235-E23F-44A7-9B66-C9D72F769698",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "s0.awsstatic.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM",
+                    "short_id": "01fc5e98a68e5e7b"
+                }
             }
         },
         {
@@ -2905,42 +2979,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@good_v2rayy",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🏳️XX | vless | @TVCminer | 16",
-            "type": "vless",
-            "server": "[2a01:4f8:1c0c:7523::1]",
-            "server_port": 2096,
-            "uuid": "cc7a59ce-eee7-4503-afc1-d73703c40993",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sourceforge.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "fkSxbZt-AETccsW2WfmHBP5RhiLy6Nk1vdEgYdnYQUc",
-                    "short_id": "c8129c93"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "ZEDMODEON-ZEDMODEON",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
