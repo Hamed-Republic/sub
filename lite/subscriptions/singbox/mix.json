@@ -152,7 +152,7 @@
                 "🏳️XX | vless | @VmessProtocol | 16",
                 "🇨🇦CA | vless | @DailyV2RY | 115",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🏳️XX | vless | @lrnbymaa | 2",
+                "🇨🇦CA | vless | @lrnbymaa | 2",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 8",
@@ -164,8 +164,8 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 5",
-                "🇬🇧GB | vless | @flyv2ray | 15",
-                "🇷🇺RU | ss | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @flyv2ray | 15",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇩🇪DE | vless | @mehrosaboran | 15",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -232,7 +232,7 @@
                 "🏳️XX | vless | @VmessProtocol | 16",
                 "🇨🇦CA | vless | @DailyV2RY | 115",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🏳️XX | vless | @lrnbymaa | 2",
+                "🇨🇦CA | vless | @lrnbymaa | 2",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 8",
@@ -244,8 +244,8 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 5",
-                "🇬🇧GB | vless | @flyv2ray | 15",
-                "🇷🇺RU | ss | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @flyv2ray | 15",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇩🇪DE | vless | @mehrosaboran | 15",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -1476,7 +1476,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @lrnbymaa | 2",
+            "tag": "🇨🇦CA | vless | @lrnbymaa | 2",
             "type": "vless",
             "server": "donaldi.pydri.ir",
             "server_port": 8080,
@@ -1779,9 +1779,9 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @flyv2ray | 15",
+            "tag": "🇨🇦CA | vless | @flyv2ray | 15",
             "type": "vless",
-            "server": "91.193.58.1",
+            "server": "discord.gg",
             "server_port": 8880,
             "uuid": "92507238-d3fd-408b-bedb-fe9b21f728e9",
             "flow": "",
@@ -1795,19 +1795,40 @@
                 "type": "ws",
                 "path": "\/join--ServerNett--ServerNett?ed=1048",
                 "headers": {
-                    "Host": "91.193.58.1"
+                    "Host": "discord.gg"
                 }
             }
         },
         {
-            "tag": "🇷🇺RU | ss | @forwardv2ray | 19",
-            "type": "shadowsocks",
-            "server": "94.131.121.130",
-            "server_port": 49845,
-            "method": "chacha20-ietf-poly1305",
-            "password": "U13qJ9LDNjIz8WZm2CQiGz",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "104.21.28.62",
+            "server_port": 443,
+            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "3k.pureboy.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/path\/TELEGRAM-PROXY_MTM",
+                "headers": {
+                    "Host": "3k.pureboy.eu.org"
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vless | @FAKEOFTVC | 2",
