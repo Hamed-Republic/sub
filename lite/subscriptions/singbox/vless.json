@@ -136,6 +136,7 @@
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 8",
                 "🇨🇦CA | vless | @ShadowProxy66 | 49",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
+                "🇨🇦CA | vless | @v2ray_swhil | 20",
                 "🇨🇦CA | vless | @proxyymeliii | 19",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇮🇷IR | vless | @vless_vmess | 2",
@@ -199,6 +200,7 @@
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 8",
                 "🇨🇦CA | vless | @ShadowProxy66 | 49",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
+                "🇨🇦CA | vless | @v2ray_swhil | 20",
                 "🇨🇦CA | vless | @proxyymeliii | 19",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇮🇷IR | vless | @vless_vmess | 2",
@@ -1066,6 +1068,27 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @v2ray_swhil | 20",
+            "type": "vless",
+            "server": "cp.ifilo.org",
+            "server_port": 80,
+            "uuid": "VPNCUSTOMIZE-VPNCUSTOMIZE",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=1048",
+                "headers": {
+                    "Host": "cp.ifilo.org"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @proxyymeliii | 19",
             "type": "vless",
             "server": "155.138.136.38",
@@ -1129,7 +1152,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "liV2raye.xn--mgbg0fka44dhgc.com",
+                "server_name": "liV2rayf.xn--mgbg0fka44dhgc.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
