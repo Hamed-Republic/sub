@@ -145,7 +145,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇬🇧GB | vless | @DailyV2RY | 121",
                 "🇨🇦CA | vless | @sinabigo | 6",
-                "🇨🇦CA | vless | @lrnbymaa | 3",
+                "🏳️XX | vless | @lrnbymaa | 3",
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 5",
@@ -157,7 +157,7 @@
                 "🇩🇪DE | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 18",
                 "🇨🇦CA | vless | @mehrosaboran | 8",
@@ -215,7 +215,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇬🇧GB | vless | @DailyV2RY | 121",
                 "🇨🇦CA | vless | @sinabigo | 6",
-                "🇨🇦CA | vless | @lrnbymaa | 3",
+                "🏳️XX | vless | @lrnbymaa | 3",
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 5",
@@ -227,7 +227,7 @@
                 "🇩🇪DE | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 18",
                 "🇨🇦CA | vless | @mehrosaboran | 8",
@@ -1312,7 +1312,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @lrnbymaa | 3",
+            "tag": "🏳️XX | vless | @lrnbymaa | 3",
             "type": "vless",
             "server": "donaldi.pydri.ir",
             "server_port": 8080,
@@ -1625,11 +1625,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
             "type": "vless",
-            "server": "mtn.vpn-mikey.cfd",
-            "server_port": 443,
-            "uuid": "2d845ff0-2393-49d9-b085-850beaac032c",
+            "server": "23.227.60.186",
+            "server_port": 80,
+            "uuid": "03bba736-2133-48e1-b779-72abdc38050b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1637,22 +1637,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "Germany.Vpn-Mikey.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "@Vpn_Mikey،@Vpn_Mikey",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/DiReCt95-217-14-47-CleAnmArK-IR",
+                "headers": {
+                    "Host": "23.227.60.186"
+                }
             }
         },
         {
