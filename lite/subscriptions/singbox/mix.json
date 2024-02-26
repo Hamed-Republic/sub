@@ -133,7 +133,7 @@
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 6",
-                "🇨🇦CA | vless | @prrofile_purple | 186",
+                "🇺🇸US | vless | @prrofile_purple | 175",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 12",
                 "🇨🇦CA | vless | @vmessorg | 10",
@@ -215,7 +215,7 @@
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 6",
-                "🇨🇦CA | vless | @prrofile_purple | 186",
+                "🇺🇸US | vless | @prrofile_purple | 175",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 12",
                 "🇨🇦CA | vless | @vmessorg | 10",
@@ -976,11 +976,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @prrofile_purple | 186",
+            "tag": "🇺🇸US | vless | @prrofile_purple | 175",
             "type": "vless",
-            "server": "Allv8.Azaronline.org",
-            "server_port": 80,
-            "uuid": "7f55b425-a623-439b-bbd5-0b1778162054",
+            "server": "172.64.111.9",
+            "server_port": 443,
+            "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -988,11 +988,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "edge.020770.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/vless\/b0138d55-a493-4dc3-9932-c6f0391707c1",
                 "headers": {
-                    "Host": "Allv8.Azaronline.org"
+                    "Host": "edge.020770.xyz"
                 }
             }
         },
@@ -1453,7 +1463,7 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "mtn--join.outline-vpn.cloud",
+            "server": "104.21.28.62",
             "server_port": 443,
             "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
             "flow": "",
@@ -1828,8 +1838,8 @@
             "tag": "🇬🇧GB | vless | @flyv2ray | 16",
             "type": "vless",
             "server": "91.193.58.1",
-            "server_port": 8880,
-            "uuid": "30dada00-74b9-42da-b778-48946a7fcc28",
+            "server_port": 80,
+            "uuid": "c683c821-0779-4427-af74-364aa1a76c02",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1848,9 +1858,9 @@
         {
             "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "172.64.80.150",
-            "server_port": 443,
-            "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
+            "server": "23.227.60.7",
+            "server_port": 2083,
+            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1860,7 +1870,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "always-online1.lp-airdrop.top",
+                "server_name": "zsf-5fa.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1870,9 +1880,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Path\/Telegram@V2ray_alpha\/",
                 "headers": {
-                    "Host": "always-online1.lp-airdrop.top"
+                    "Host": "zsf-5fa.pages.dev"
                 }
             }
         },
