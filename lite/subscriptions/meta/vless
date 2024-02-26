@@ -122,9 +122,10 @@ dns:
 proxies:
   - {"name":"🇨🇦CA | vless | @EliV2ray | 3","type":"vless","server":"104.18.203.232","port":2087,"udp":false,"uuid":"c8ce2cf9-e311-412e-936b-730a11c4e560","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"mehdi3.honarestan-hegmataneh.com"}
   - {"name":"🇨🇦CA | vless | @NIM_VPN_ir | 8","type":"vless","server":"www.SPeedtest.NeT","port":80,"udp":false,"uuid":"09970208-9e2d-4871-acca-81282948aaf7","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/","headers":{"host":"kchan.amirali0013.monster."}}}
-  - {"name":"🇫🇷FR | vless | @VlessConfig | 14","type":"vless","server":"13.37.96.110","port":22222,"udp":false,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"telegram-channel-vlessconfig.sohala.uk","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
+  - {"name":"🇬🇧GB | vless | @VlessConfig | 14","type":"vless","server":"18.132.155.195","port":22222,"udp":false,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"telegram-channel-vlessconfig.sohala.uk","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
   - {"name":"🇩🇪DE | vless | @ipV2Ray | 19","type":"vless","server":"49.13.172.210","port":443,"udp":true,"uuid":"72856660-bfbe-449d-aa0b-1a103d7a06fd","tls":true,"network":"grpc","client-fingerprint":"firefox","servername":"*.hetzner.com","grpc-opts":{"grpc-service-name":"@ipV2Ray"},"reality-opts":{"public-key":"yEIv8lhKCppriIvnDL922eeW4nFR9ei-x2BebOwQ9BY","short-id":"485bc860"}}
   - {"name":"🇨🇦CA | vless | @melov2ray | 1","type":"vless","server":"de.melov2ray.shop","port":2083,"udp":false,"uuid":"756f5331-61df-42ef-88af-6c447210a1f3","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"De.Melov2ray.Shop","ws-opts":{"path":"/@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray"}}
+  - {"name":"🇨🇦CA | vless | @ARv2ray | 12","type":"vless","server":"www.speedtest.net","port":443,"udp":false,"uuid":"baa73255-ad16-45bc-b77d-b7cf0981d4f8","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"www.ArV2ray.host","grpc-opts":{"grpc-service-name":"@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray"}}
   - {"name":"🇩🇪DE | vless | @shh_proxy | 27","type":"vless","server":"154.197.75.98","port":80,"udp":false,"uuid":"47dd417c-5e92-445f-b29e-80d5cff2b6c0","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/","headers":{"host":"shhproxyfrees.xn--69-pv2cl2k5x3fipr.org"}}}
   - {"name":"🇨🇦CA | vless | @Lockey_vpn | 8","type":"vless","server":"zula.ir","port":80,"udp":false,"uuid":"dd0a72c9-9030-441b-9622-e5dc9d409614","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/http","headers":{"host":"server.v2chainn.top"}}}
   - {"name":"🇨🇦CA | vless | @rxv2ray | 21","type":"vless","server":"www.RxV2ray.sbs","port":2087,"udp":false,"uuid":"b404b4e8-9164-4c7e-acbd-ea8ec0aee464","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"www.RxV2ray.sbs","grpc-opts":{"grpc-service-name":"@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray"}}
@@ -182,9 +183,10 @@ proxy-groups:
       - FALLBACK
       - '🇨🇦CA | vless | @EliV2ray | 3'
       - '🇨🇦CA | vless | @NIM_VPN_ir | 8'
-      - '🇫🇷FR | vless | @VlessConfig | 14'
+      - '🇬🇧GB | vless | @VlessConfig | 14'
       - '🇩🇪DE | vless | @ipV2Ray | 19'
       - '🇨🇦CA | vless | @melov2ray | 1'
+      - '🇨🇦CA | vless | @ARv2ray | 12'
       - '🇩🇪DE | vless | @shh_proxy | 27'
       - '🇨🇦CA | vless | @Lockey_vpn | 8'
       - '🇨🇦CA | vless | @rxv2ray | 21'
@@ -242,9 +244,10 @@ proxy-groups:
     proxies:
       - '🇨🇦CA | vless | @EliV2ray | 3'
       - '🇨🇦CA | vless | @NIM_VPN_ir | 8'
-      - '🇫🇷FR | vless | @VlessConfig | 14'
+      - '🇬🇧GB | vless | @VlessConfig | 14'
       - '🇩🇪DE | vless | @ipV2Ray | 19'
       - '🇨🇦CA | vless | @melov2ray | 1'
+      - '🇨🇦CA | vless | @ARv2ray | 12'
       - '🇩🇪DE | vless | @shh_proxy | 27'
       - '🇨🇦CA | vless | @Lockey_vpn | 8'
       - '🇨🇦CA | vless | @rxv2ray | 21'
@@ -301,9 +304,10 @@ proxy-groups:
     proxies:
       - '🇨🇦CA | vless | @EliV2ray | 3'
       - '🇨🇦CA | vless | @NIM_VPN_ir | 8'
-      - '🇫🇷FR | vless | @VlessConfig | 14'
+      - '🇬🇧GB | vless | @VlessConfig | 14'
       - '🇩🇪DE | vless | @ipV2Ray | 19'
       - '🇨🇦CA | vless | @melov2ray | 1'
+      - '🇨🇦CA | vless | @ARv2ray | 12'
       - '🇩🇪DE | vless | @shh_proxy | 27'
       - '🇨🇦CA | vless | @Lockey_vpn | 8'
       - '🇨🇦CA | vless | @rxv2ray | 21'
