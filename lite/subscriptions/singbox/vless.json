@@ -146,6 +146,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 122",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🏳️XX | vless | @lrnbymaa | 3",
+                "🇬🇧GB | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇹🇷TR | vless | @fnet00 | 8",
@@ -159,7 +160,7 @@
                 "🇩🇪DE | vless | @flyv2ray | 17",
                 "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
-                "🇨🇦CA | vless | @https_config_injector | 17",
+                "🇨🇦CA | vless | @https_config_injector | 18",
                 "🇨🇦CA | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -215,6 +216,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 122",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🏳️XX | vless | @lrnbymaa | 3",
+                "🇬🇧GB | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇹🇷TR | vless | @fnet00 | 8",
@@ -228,7 +230,7 @@
                 "🇩🇪DE | vless | @flyv2ray | 17",
                 "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
-                "🇨🇦CA | vless | @https_config_injector | 17",
+                "🇨🇦CA | vless | @https_config_injector | 18",
                 "🇨🇦CA | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -1314,6 +1316,37 @@
             }
         },
         {
+            "tag": "🇬🇧GB | vless | @ConfigsHUB | 15",
+            "type": "vless",
+            "server": "subijonam.saramarina.com",
+            "server_port": 443,
+            "uuid": "2aada2d3-d537-49fc-a46a-f320a0e2f204",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "subijonam.saramarina.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/kKjv5KoPDQ5tLrt",
+                "headers": {
+                    "Host": "subijonam.saramarina.com"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @proxystore11 | 17",
             "type": "vless",
             "server": "104.18.202.232",
@@ -1623,9 +1656,9 @@
         {
             "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
             "type": "vless",
-            "server": "mtn--join.outline-vpn.cloud",
+            "server": "104.21.28.62",
             "server_port": 443,
-            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+            "uuid": "04a93bb8-0a5b-4aa8-ab7f-31fc7adab1c1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1635,7 +1668,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "3k.pureboy.eu.org",
+                "server_name": "edgu.pureboy.eu.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1647,7 +1680,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "3k.pureboy.eu.org"
+                    "Host": "edgu.pureboy.eu.org"
                 }
             }
         },
@@ -1683,11 +1716,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @https_config_injector | 17",
+            "tag": "🇨🇦CA | vless | @https_config_injector | 18",
             "type": "vless",
-            "server": "104.21.43.16",
-            "server_port": 443,
-            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+            "server": "app-linear.xyz",
+            "server_port": 2087,
+            "uuid": "ef1d268c-221e-4d7a-828e-3ade2fb26d11",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1697,7 +1730,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "3k.pureboy.eu.org",
+                "server_name": "cpisub4.CPIonLinE.Us",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1707,9 +1740,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/vless-ws\/",
                 "headers": {
-                    "Host": "3k.pureboy.eu.org"
+                    "Host": "cpisub4.CPIonLinE.Us"
                 }
             }
         },
