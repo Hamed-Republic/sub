@@ -124,7 +124,7 @@
                 "🇺🇸US | vless | @DigiV2ray | 17",
                 "🇨🇦CA | vless | @proxy_kafee | 1",
                 "🇩🇪DE | vless | @v2logy | 8",
-                "🇯🇵JP | vless | @azadi_az_inja_migzare | 9",
+                "🇯🇵JP | vless | @azadi_az_inja_migzare | 10",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇺🇸US | vless | @V2rayNGn | 29",
@@ -152,7 +152,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 16",
                 "🇨🇦CA | vless | @DailyV2RY | 125",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇨🇦CA | vless | @lrnbymaa | 2",
+                "🏳️XX | vless | @lrnbymaa | 2",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 8",
@@ -167,6 +167,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @flyv2ray | 16",
+                "🇨🇦CA | vmess | @forwardv2ray | 16",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇫🇮FI | vless | @mehrosaboran | 10",
@@ -206,7 +207,7 @@
                 "🇺🇸US | vless | @DigiV2ray | 17",
                 "🇨🇦CA | vless | @proxy_kafee | 1",
                 "🇩🇪DE | vless | @v2logy | 8",
-                "🇯🇵JP | vless | @azadi_az_inja_migzare | 9",
+                "🇯🇵JP | vless | @azadi_az_inja_migzare | 10",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇺🇸US | vless | @V2rayNGn | 29",
@@ -234,7 +235,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 16",
                 "🇨🇦CA | vless | @DailyV2RY | 125",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇨🇦CA | vless | @lrnbymaa | 2",
+                "🏳️XX | vless | @lrnbymaa | 2",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 8",
@@ -249,6 +250,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @flyv2ray | 16",
+                "🇨🇦CA | vmess | @forwardv2ray | 16",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇫🇮FI | vless | @mehrosaboran | 10",
@@ -399,7 +401,7 @@
             "type": "vless",
             "server": "de.melov2ray.shop",
             "server_port": 2083,
-            "uuid": "070a13d8-9987-41f1-aa77-4d0a336b2a55",
+            "uuid": "24bf41e4-5b0b-41bd-b6f7-7f68a2d7818e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -782,7 +784,7 @@
             }
         },
         {
-            "tag": "🇯🇵JP | vless | @azadi_az_inja_migzare | 9",
+            "tag": "🇯🇵JP | vless | @azadi_az_inja_migzare | 10",
             "type": "vless",
             "server": "18.181.197.97",
             "server_port": 10007,
@@ -1490,7 +1492,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @lrnbymaa | 2",
+            "tag": "🏳️XX | vless | @lrnbymaa | 2",
             "type": "vless",
             "server": "donaldi.pydri.ir",
             "server_port": 8080,
@@ -1850,6 +1852,40 @@
                 "path": "\/join--ServerNett--ServerNett?ed=1048",
                 "headers": {
                     "Host": "discord.gg"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 16",
+            "type": "vmess",
+            "server": "172.66.45.41",
+            "server_port": 2083,
+            "uuid": "06195b5b-3815-4a07-96f7-47eefbb1b143",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "warp-sub.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/urnxewzvh.site:443\/kwhmvws",
+                "headers": {
+                    "Host": "warp-sub.pages.dev"
                 }
             }
         },
