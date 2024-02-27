@@ -108,12 +108,13 @@
                 "URL-TEST",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 8",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 9",
                 "🇫🇮FI | vmess | @V2rayng_Fast | 0",
                 "🇨🇦CA | vmess | @v2ray1_ng | 11",
                 "🇨🇦CA | vmess | @DailyV2RY | 134",
                 "🇭🇰HK | vmess | @yaney_01 | 8",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇺🇸US | vmess | @forwardv2ray | 19",
                 "🇩🇪DE | vmess | @kingofilter | 9",
                 "🇬🇧GB | vmess | @eliya_chiter0 | 6",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
@@ -125,12 +126,13 @@
             "outbounds": [
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 8",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 9",
                 "🇫🇮FI | vmess | @V2rayng_Fast | 0",
                 "🇨🇦CA | vmess | @v2ray1_ng | 11",
                 "🇨🇦CA | vmess | @DailyV2RY | 134",
                 "🇭🇰HK | vmess | @yaney_01 | 8",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇺🇸US | vmess | @forwardv2ray | 19",
                 "🇩🇪DE | vmess | @kingofilter | 9",
                 "🇬🇧GB | vmess | @eliya_chiter0 | 6",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
@@ -190,7 +192,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 8",
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 9",
             "type": "vmess",
             "server": "129.80.151.246",
             "server_port": 40059,
@@ -346,6 +348,30 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "35.86.119.120",
+            "server_port": 29463,
+            "uuid": "13f6eb05-0bb7-4ab7-a992-02119f290490",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/arki",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
