@@ -109,7 +109,7 @@
                 "🇮🇷IR | vless | @EliV2ray | 4",
                 "🇨🇦CA | vless | @Parsashonam | 12",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 8",
-                "🇨🇦CA | vless | @XsV2ray | 12",
+                "🇨🇦CA | vless | @XsV2ray | 14",
                 "🇫🇷FR | vless | @VlessConfig | 18",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 9",
                 "🇩🇪DE | vless | @ipV2Ray | 17",
@@ -150,7 +150,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 17",
                 "🇩🇪DE | vless | @VmessProtocol | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇨🇦CA | vless | @fnet00 | 5",
@@ -163,7 +163,6 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 25",
                 "🇩🇪DE | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -187,7 +186,7 @@
                 "🇮🇷IR | vless | @EliV2ray | 4",
                 "🇨🇦CA | vless | @Parsashonam | 12",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 8",
-                "🇨🇦CA | vless | @XsV2ray | 12",
+                "🇨🇦CA | vless | @XsV2ray | 14",
                 "🇫🇷FR | vless | @VlessConfig | 18",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 9",
                 "🇩🇪DE | vless | @ipV2Ray | 17",
@@ -228,7 +227,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 17",
                 "🇩🇪DE | vless | @VmessProtocol | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇨🇦CA | vless | @fnet00 | 5",
@@ -241,7 +240,6 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 25",
                 "🇩🇪DE | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -349,7 +347,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @XsV2ray | 12",
+            "tag": "🇨🇦CA | vless | @XsV2ray | 14",
             "type": "vless",
             "server": "www.tegzitp.net",
             "server_port": 2087,
@@ -1386,23 +1384,36 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "V2darkOrg",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "104.18.202.209",
+            "server_port": 443,
+            "uuid": "251780c1-1501-43b3-be2a-d144a20d479a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "hdfy5c1.foriran.trade",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/V2darkOrg",
+                "path": "\/Nbs2DSTSkFW6MrrFQHeSDQ7",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "hdfy5c1.foriran.trade"
                 }
             }
         },
@@ -1720,37 +1731,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "www.speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "for-irancell.outline-vpn.cloud",
-            "server_port": 443,
-            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "baipiao55.stunning-bassoon.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "baipiao55.stunning-bassoon.pages.dev"
                 }
             }
         },
