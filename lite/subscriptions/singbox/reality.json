@@ -107,9 +107,9 @@
             "outbounds": [
                 "URL-TEST",
                 "🇩🇪DE | vless | @ipV2Ray | 17",
+                "🇩🇪DE | vless | @ARv2ray | 12",
                 "🇩🇪DE | vless | @v2logy | 8",
                 "🇮🇷IR | vless | @v2rayngvpn | 6",
-                "🇩🇪DE | vless | @ConfigsHUB | 19",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🏳️XX | vless | @vpn_go67 | 23"
@@ -120,9 +120,9 @@
             "type": "urltest",
             "outbounds": [
                 "🇩🇪DE | vless | @ipV2Ray | 17",
+                "🇩🇪DE | vless | @ARv2ray | 12",
                 "🇩🇪DE | vless | @v2logy | 8",
                 "🇮🇷IR | vless | @v2rayngvpn | 6",
-                "🇩🇪DE | vless | @ConfigsHUB | 19",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🏳️XX | vless | @vpn_go67 | 23"
@@ -178,6 +178,42 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @ARv2ray | 12",
+            "type": "vless",
+            "server": "128.140.80.181",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "*.hetzner.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "61ZGaPo3sQi_sOF30dKB0lQyx1b7lEIdQg670xWOgxg",
+                    "short_id": "133b0bb5"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -246,42 +282,6 @@
                     "public_key": "2-t9uUzRV61JYk2SuEzWmNuKgh_lG5IteIJ_pHPcPWM",
                     "short_id": "21e8adbf"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "78.47.100.73",
-            "server_port": 443,
-            "uuid": "49cfba31-47ee-4b84-99cc-5a40da4f8e71",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "dsp-redirect.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "WKk6XEVpckRgPhsnCvWFzh3FTRfE81ZxpXbGK8c6eV0",
-                    "short_id": "20aef060"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
