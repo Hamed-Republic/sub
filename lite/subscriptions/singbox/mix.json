@@ -139,9 +139,9 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 19",
                 "🇨🇦CA | vless | @vmessorg | 19",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 8",
-                "🇨🇦CA | vless | @v2rayngvpn | 14",
+                "🇮🇷IR | vless | @v2rayngvpn | 15",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 9",
-                "🇨🇦CA | vless | @ShadowProxy66 | 24",
+                "🇨🇦CA | vless | @ShadowProxy66 | 26",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇫🇮FI | vmess | @V2rayng_Fast | 0",
                 "🇬🇧GB | vless | @v2ray_swhil | 25",
@@ -152,7 +152,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 166",
                 "🇺🇸US | vless | @sinabigo | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇨🇦CA | vless | @free1_vpn | 1",
@@ -167,7 +167,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇩🇪DE | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇨🇷CR | vless | @forwardv2ray | 6",
                 "🇨🇦CA | vless | @https_config_injector | 25",
                 "🇨🇳CN | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -222,9 +222,9 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 19",
                 "🇨🇦CA | vless | @vmessorg | 19",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 8",
-                "🇨🇦CA | vless | @v2rayngvpn | 14",
+                "🇮🇷IR | vless | @v2rayngvpn | 15",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 9",
-                "🇨🇦CA | vless | @ShadowProxy66 | 24",
+                "🇨🇦CA | vless | @ShadowProxy66 | 26",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇫🇮FI | vmess | @V2rayng_Fast | 0",
                 "🇬🇧GB | vless | @v2ray_swhil | 25",
@@ -235,7 +235,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 166",
                 "🇺🇸US | vless | @sinabigo | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇨🇦CA | vless | @free1_vpn | 1",
@@ -250,7 +250,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇩🇪DE | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇨🇷CR | vless | @forwardv2ray | 6",
                 "🇨🇦CA | vless | @https_config_injector | 25",
                 "🇨🇳CN | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -1142,34 +1142,17 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayngvpn | 14",
+            "tag": "🇮🇷IR | vless | @v2rayngvpn | 15",
             "type": "vless",
-            "server": "172.64.80.150",
-            "server_port": 443,
-            "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
+            "server": "91.247.171.198",
+            "server_port": 34484,
+            "uuid": "e8ab8617-4e82-4207-a5f5-f4da00a9a536",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "always-online1.lp-airdrop.top",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "always-online1.lp-airdrop.top"
-                }
             }
         },
         {
@@ -1209,11 +1192,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ShadowProxy66 | 24",
+            "tag": "🇨🇦CA | vless | @ShadowProxy66 | 26",
             "type": "vless",
-            "server": "zsf-5fa.pages.dev",
-            "server_port": 2087,
-            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+            "server": "104.20.109.195",
+            "server_port": 80,
+            "uuid": "a93eacd2-2852-4d84-9355-fd1e6477dccc",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1221,21 +1204,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "zsf-5fa.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "zsf-5fa.pages.dev"
+                    "Host": "104.20.109.195"
                 }
             }
         },
@@ -1471,13 +1444,16 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8443,
-            "uuid": "38e810b2-9fae-40a1-9115-4ef6e4e752a0",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "104.17.197.31",
+            "server_port": 443,
+            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1485,7 +1461,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "njl.trlan-flo.tech",
+                "server_name": "quiet-moon-132a.xetag42714.workers.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1495,9 +1471,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@confing_Costume",
+                "path": "\/ivideos.sbs\/linkws",
                 "headers": {
-                    "Host": "njl.trlan-flo.tech"
+                    "Host": "quiet-moon-132a.xetag42714.workers.dev"
                 }
             }
         },
@@ -1881,11 +1857,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "tag": "🇨🇷CR | vless | @forwardv2ray | 6",
             "type": "vless",
-            "server": "162.159.135.79",
-            "server_port": 443,
-            "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
+            "server": "Vpnmasi.savagev2ray.site",
+            "server_port": 2083,
+            "uuid": "5da3c626-db86-437c-93a5-c3bce1920adf",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1895,7 +1871,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "edge.020770.xyz",
+                "server_name": "all2.savagev2ray.site",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1905,9 +1881,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/vless\/b0138d55-a493-4dc3-9932-c6f0391707c1",
+                "path": "\/",
                 "headers": {
-                    "Host": "edge.020770.xyz"
+                    "Host": "all2.savagev2ray.site"
                 }
             }
         },
