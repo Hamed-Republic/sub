@@ -125,8 +125,8 @@
                 "🇩🇪DE | vless | @ipV2Ray | 16",
                 "🇸🇪SE | vless | @V2pedia | 6",
                 "🇬🇧GB | vless | @V2pedia | 15",
-                "🇩🇪DE | vless | @ARv2ray | 1",
-                "🇩🇪DE | vless | @ARv2ray | 6",
+                "🇩🇪DE | vless | @ARv2ray | 0",
+                "🇩🇪DE | vless | @ARv2ray | 2",
                 "🇬🇧GB | vless | @Lockey_vpn | 4",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
@@ -141,7 +141,7 @@
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 3",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 9",
                 "🇩🇪DE | vless | @ShadowProxy66 | 32",
-                "🇩🇪DE | vless | @v2ray1_ng | 4",
+                "🇩🇪DE | vless | @v2ray1_ng | 5",
                 "🇩🇪DE | vless | @lrnbymaa | 7",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -151,7 +151,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇳🇱NL | vless | @Capital_NET | 41",
+                "🇨🇦CA | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -206,8 +206,8 @@
                 "🇩🇪DE | vless | @ipV2Ray | 16",
                 "🇸🇪SE | vless | @V2pedia | 6",
                 "🇬🇧GB | vless | @V2pedia | 15",
-                "🇩🇪DE | vless | @ARv2ray | 1",
-                "🇩🇪DE | vless | @ARv2ray | 6",
+                "🇩🇪DE | vless | @ARv2ray | 0",
+                "🇩🇪DE | vless | @ARv2ray | 2",
                 "🇬🇧GB | vless | @Lockey_vpn | 4",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
@@ -222,7 +222,7 @@
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 3",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 9",
                 "🇩🇪DE | vless | @ShadowProxy66 | 32",
-                "🇩🇪DE | vless | @v2ray1_ng | 4",
+                "🇩🇪DE | vless | @v2ray1_ng | 5",
                 "🇩🇪DE | vless | @lrnbymaa | 7",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -232,7 +232,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇳🇱NL | vless | @Capital_NET | 41",
+                "🇨🇦CA | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -961,43 +961,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ARv2ray | 1",
-            "type": "vless",
-            "server": "49.13.12.237",
-            "server_port": 443,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "greenpepper.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "UpCUC8wyxeS7cRw2vI5zdl8b5z3jlGs5Ok6gfJP3vCI",
-                    "short_id": "cf9bc318"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @ARv2ray | 6",
+            "tag": "🇩🇪DE | vless | @ARv2ray | 0",
             "type": "vless",
             "server": "49.13.56.161",
             "server_port": 443,
@@ -1027,6 +991,42 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @ARv2ray | 2",
+            "type": "vless",
+            "server": "49.13.12.237",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "greenpepper.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "UpCUC8wyxeS7cRw2vI5zdl8b5z3jlGs5Ok6gfJP3vCI",
+                    "short_id": "cf9bc318"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -1488,7 +1488,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @v2ray1_ng | 4",
+            "tag": "🇩🇪DE | vless | @v2ray1_ng | 5",
             "type": "vless",
             "server": "164.92.250.121",
             "server_port": 443,
@@ -1799,7 +1799,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @Capital_NET | 41",
+            "tag": "🇨🇦CA | vless | @Capital_NET | 41",
             "type": "vless",
             "server": "194.5.97.158",
             "server_port": 443,
