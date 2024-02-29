@@ -139,14 +139,13 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 24",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇬🇧GB | vless | @v2ray_swhil | 25",
-                "🇮🇷IR | vless | @proxyymeliii | 10",
+                "🇮🇷IR | vless | @proxyymeliii | 8",
                 "🇦🇺AU | vless | @v2ray1_ng | 12",
                 "🇮🇷IR | vless | @vless_vmess | 2",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇩🇪DE | vless | @VmessProtocol | 16",
                 "🇩🇪DE | vless | @DailyV2RY | 163",
                 "🇺🇸US | vless | @sinabigo | 4",
-                "🇨🇷CR | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @fnet00 | 5",
@@ -209,14 +208,13 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 24",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇬🇧GB | vless | @v2ray_swhil | 25",
-                "🇮🇷IR | vless | @proxyymeliii | 10",
+                "🇮🇷IR | vless | @proxyymeliii | 8",
                 "🇦🇺AU | vless | @v2ray1_ng | 12",
                 "🇮🇷IR | vless | @vless_vmess | 2",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇩🇪DE | vless | @VmessProtocol | 16",
                 "🇩🇪DE | vless | @DailyV2RY | 163",
                 "🇺🇸US | vless | @sinabigo | 4",
-                "🇨🇷CR | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @fnet00 | 5",
@@ -1154,23 +1152,31 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @proxyymeliii | 10",
+            "tag": "🇮🇷IR | vless | @proxyymeliii | 8",
             "type": "vless",
-            "server": "185.143.233.1",
+            "server": "185.213.164.162",
             "server_port": 80,
             "uuid": "169d4fb3-a564-4db5-8865-09e8e0853c24",
-            "flow": "",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "185.143.233.1"
+            "tls": {
+                "enabled": true,
+                "server_name": "www.digikala.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "K4rl3rABpQbUBfL_qylcKDIvE9DuYuMfg524Pp3JCT4",
+                    "short_id": ""
                 }
             }
         },
@@ -1313,37 +1319,6 @@
                 "path": "\/vless\/b0138d55-a493-4dc3-9932-c6f0391707c1",
                 "headers": {
                     "Host": "edge.020770.xyz"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇷CR | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "190.93.247.155",
-            "server_port": 8443,
-            "uuid": "ec36cd89-86d3-48c4-be93-3931bf8bbf71",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Punisher-V2rayCnc.radiotehran.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/P",
-                "headers": {
-                    "Host": "Punisher-V2rayCnc.radiotehran.org"
                 }
             }
         },
@@ -1657,9 +1632,9 @@
         {
             "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "104.18.203.232",
-            "server_port": 8080,
-            "uuid": "Parsashonam-11",
+            "server": "104.18.202.232",
+            "server_port": 80,
+            "uuid": "e949e611-06bf-4d33-9e7a-db0413ecfa7e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1671,7 +1646,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "104.18.203.232"
+                    "Host": "104.18.202.232"
                 }
             }
         },
