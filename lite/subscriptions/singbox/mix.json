@@ -140,7 +140,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 22",
                 "🇨🇦CA | vless | @vmessorg | 19",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 5",
-                "🇨🇦CA | vless | @v2rayngvpn | 9",
+                "🇩🇪DE | vless | @v2rayngvpn | 7",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 9",
                 "🇨🇦CA | vless | @ShadowProxy66 | 36",
                 "🇬🇧GB | vless | @ServerNett | 26",
@@ -152,7 +152,6 @@
                 "🇩🇪DE | vless | @DailyV2RY | 109",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇳CN | vmess | @ConfigsHUB | 16",
                 "🇬🇧GB | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇩🇪DE | vless | @free1_vpn | 1",
@@ -167,7 +166,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇩🇪DE | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇩🇪DE | vless | @forwardv2ray | 18",
                 "🇸🇬SG | vless | @https_config_injector | 26",
                 "🇨🇳CN | vless | @mehrosaboran | 8",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -224,7 +223,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 22",
                 "🇨🇦CA | vless | @vmessorg | 19",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 5",
-                "🇨🇦CA | vless | @v2rayngvpn | 9",
+                "🇩🇪DE | vless | @v2rayngvpn | 7",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 9",
                 "🇨🇦CA | vless | @ShadowProxy66 | 36",
                 "🇬🇧GB | vless | @ServerNett | 26",
@@ -236,7 +235,6 @@
                 "🇩🇪DE | vless | @DailyV2RY | 109",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇳CN | vmess | @ConfigsHUB | 16",
                 "🇬🇧GB | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇩🇪DE | vless | @free1_vpn | 1",
@@ -251,7 +249,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇩🇪DE | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇩🇪DE | vless | @forwardv2ray | 18",
                 "🇸🇬SG | vless | @https_config_injector | 26",
                 "🇨🇳CN | vless | @mehrosaboran | 8",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -1140,24 +1138,17 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayngvpn | 9",
+            "tag": "🇩🇪DE | vless | @v2rayngvpn | 7",
             "type": "vless",
-            "server": "bia-to2.unlimiteddev.site",
-            "server_port": 80,
-            "uuid": "78ab97d0-85ea-4f05-935c-468c396f0596",
+            "server": "195.201.222.249",
+            "server_port": 443,
+            "uuid": "fd3ebc4f-8e22-4a22-98fc-65e277f28d88",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev-Telegram:@UnlimitedDev",
-                "headers": {
-                    "Host": "bia-to2.unlimiteddev.site"
-                }
             }
         },
         {
@@ -1423,23 +1414,6 @@
             "password": "hh4JlBhsJ0JthpDP3vIwxXvJWHknI16AijGx6sbcqWI=",
             "plugin": "",
             "plugin_opts": ""
-        },
-        {
-            "tag": "🇨🇳CN | vmess | @ConfigsHUB | 16",
-            "type": "vmess",
-            "server": "183.236.48.169",
-            "server_port": 1002,
-            "uuid": "229ccd44-c56c-3947-88de-849dd70c180d",
-            "security": "auto",
-            "alter_id": 2,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
         },
         {
             "tag": "🇬🇧GB | vless | @proxystore11 | 11",
@@ -1815,11 +1789,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "cds.yadakiasl.com",
-            "server_port": 2096,
-            "uuid": "9a0a1e93-68bf-4b2d-b30e-cd0397092392",
+            "server": "188.40.14.215",
+            "server_port": 80,
+            "uuid": "SVNTEAMm",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1827,21 +1801,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "cds.yadakiasl.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/shop",
+                "path": "\/SVNTEAM?ed=1048",
                 "headers": {
-                    "Host": "cds.yadakiasl.com"
+                    "Host": "188.40.14.215"
                 }
             }
         },
