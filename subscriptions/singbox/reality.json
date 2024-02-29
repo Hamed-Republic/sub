@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇳🇱NL | vless | @EliV2ray | 6",
+                "🇳🇱NL | vless | @EliV2ray | 8",
                 "🇩🇪DE | vless | @NIM_VPN_ir | 8",
                 "🇩🇪DE | vless | @ipV2Ray | 2",
                 "🇫🇮FI | vless | @ipV2Ray | 3",
@@ -141,7 +141,6 @@
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 3",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 9",
                 "🇩🇪DE | vless | @ShadowProxy66 | 32",
-                "🇮🇷IR | vless | @proxyymeliii | 17",
                 "🇩🇪DE | vless | @v2ray1_ng | 4",
                 "🇩🇪DE | vless | @lrnbymaa | 7",
                 "🇩🇪DE | vless | @Capital_NET | 31",
@@ -181,14 +180,14 @@
                 "🇩🇪DE | vless | @freeconfigv2 | 11",
                 "🇩🇪DE | vless | @freeconfigv2 | 13",
                 "🏳️XX | vless | @Good_V2rayy | 2",
-                "🏳️XX | vless | @TVCminer | 4"
+                "🏳️XX | vless | @TVCminer | 5"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇳🇱NL | vless | @EliV2ray | 6",
+                "🇳🇱NL | vless | @EliV2ray | 8",
                 "🇩🇪DE | vless | @NIM_VPN_ir | 8",
                 "🇩🇪DE | vless | @ipV2Ray | 2",
                 "🇫🇮FI | vless | @ipV2Ray | 3",
@@ -223,7 +222,6 @@
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 3",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 9",
                 "🇩🇪DE | vless | @ShadowProxy66 | 32",
-                "🇮🇷IR | vless | @proxyymeliii | 17",
                 "🇩🇪DE | vless | @v2ray1_ng | 4",
                 "🇩🇪DE | vless | @lrnbymaa | 7",
                 "🇩🇪DE | vless | @Capital_NET | 31",
@@ -263,7 +261,7 @@
                 "🇩🇪DE | vless | @freeconfigv2 | 11",
                 "🇩🇪DE | vless | @freeconfigv2 | 13",
                 "🏳️XX | vless | @Good_V2rayy | 2",
-                "🏳️XX | vless | @TVCminer | 4"
+                "🏳️XX | vless | @TVCminer | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -286,7 +284,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇳🇱NL | vless | @EliV2ray | 6",
+            "tag": "🇳🇱NL | vless | @EliV2ray | 8",
             "type": "vless",
             "server": "77.246.99.239",
             "server_port": 443,
@@ -1486,35 +1484,6 @@
                     "enabled": true,
                     "public_key": "SUCJ94wKPUdfkBJw8VnANql6kevueb6EyA71C3AfKFs",
                     "short_id": "bf44fc2c"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vless | @proxyymeliii | 17",
-            "type": "vless",
-            "server": "185.213.164.162",
-            "server_port": 80,
-            "uuid": "169d4fb3-a564-4db5-8865-09e8e0853c24",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.digikala.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "K4rl3rABpQbUBfL_qylcKDIvE9DuYuMfg524Pp3JCT4",
-                    "short_id": ""
                 }
             }
         },
@@ -2797,7 +2766,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @TVCminer | 4",
+            "tag": "🏳️XX | vless | @TVCminer | 5",
             "type": "vless",
             "server": "[2a01:4f8:1c0c:7523::1]",
             "server_port": 2096,
