@@ -118,7 +118,7 @@
                 "🇩🇪DE | vless | @shh_proxy | 26",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇩🇪DE | vless | @free_v2rayyy | 4",
-                "🇨🇷CR | vless | @lightning6 | 31",
+                "🇺🇸US | vless | @lightning6 | 31",
                 "🇨🇦CA | vless | @V2rayNGmat | 3",
                 "🏳️XX | vless | @vpn_xw | 6",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -139,14 +139,12 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 46",
                 "🇬🇧GB | vless | @ServerNett | 25",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇨🇦CA | vless | @proxyymeliii | 13",
                 "🇳🇱NL | vless | @v2ray1_ng | 7",
                 "🇮🇷IR | vless | @vless_vmess | 1",
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇩🇪DE | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 119",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇮🇷IR | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇩🇪DE | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @polproxy | 9",
@@ -187,7 +185,7 @@
                 "🇩🇪DE | vless | @shh_proxy | 26",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇩🇪DE | vless | @free_v2rayyy | 4",
-                "🇨🇷CR | vless | @lightning6 | 31",
+                "🇺🇸US | vless | @lightning6 | 31",
                 "🇨🇦CA | vless | @V2rayNGmat | 3",
                 "🏳️XX | vless | @vpn_xw | 6",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -208,14 +206,12 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 46",
                 "🇬🇧GB | vless | @ServerNett | 25",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇨🇦CA | vless | @proxyymeliii | 13",
                 "🇳🇱NL | vless | @v2ray1_ng | 7",
                 "🇮🇷IR | vless | @vless_vmess | 1",
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇩🇪DE | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 119",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇮🇷IR | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇩🇪DE | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @polproxy | 9",
@@ -567,7 +563,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @lightning6 | 31",
+            "tag": "🇺🇸US | vless | @lightning6 | 31",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1087,37 +1083,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxyymeliii | 13",
-            "type": "vless",
-            "server": "tgju.org",
-            "server_port": 443,
-            "uuid": "dfbbc8de-8a4f-407d-8069-6de38d83c4e1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hdfy4c2.freeairlaines.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Mr6wzC2rxRWBtLTlTL",
-                "headers": {
-                    "Host": "hdfy4c2.freeairlaines.com"
-                }
-            }
-        },
-        {
             "tag": "🇳🇱NL | vless | @v2ray1_ng | 7",
             "type": "vless",
             "server": "188.114.97.3",
@@ -1247,20 +1212,6 @@
                 "headers": {
                     "Host": "always-online1.lp-airdrop.top"
                 }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "5.202.74.9",
-            "server_port": 13233,
-            "uuid": "cb65d6fd-c0e8-4b4f-b050-68158ca1c7b2",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
