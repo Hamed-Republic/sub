@@ -152,7 +152,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 109",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇮🇷IR | vless | @ConfigsHUB | 17",
+                "🇺🇸US | vless | @ConfigsHUB | 18",
                 "🇬🇧GB | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇩🇪DE | vless | @free1_vpn | 1",
@@ -168,7 +168,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇩🇪DE | vless | @flyv2ray | 18",
-                "🇷🇺RU | ss | @forwardv2ray | 13",
+                "🇬🇧GB | ss | @forwardv2ray | 17",
                 "🇸🇬SG | vless | @https_config_injector | 26",
                 "🇨🇳CN | vless | @mehrosaboran | 9",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -237,7 +237,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 109",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇮🇷IR | vless | @ConfigsHUB | 17",
+                "🇺🇸US | vless | @ConfigsHUB | 18",
                 "🇬🇧GB | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇩🇪DE | vless | @free1_vpn | 1",
@@ -253,7 +253,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇩🇪DE | vless | @flyv2ray | 18",
-                "🇷🇺RU | ss | @forwardv2ray | 13",
+                "🇬🇧GB | ss | @forwardv2ray | 17",
                 "🇸🇬SG | vless | @https_config_injector | 26",
                 "🇨🇳CN | vless | @mehrosaboran | 9",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -1410,17 +1410,24 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇮🇷IR | vless | @ConfigsHUB | 17",
+            "tag": "🇺🇸US | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "185.58.241.110",
-            "server_port": 2610,
-            "uuid": "1d65a069-bb89-4fd8-9d8e-95c3b8714752",
+            "server": "our-channel-is-V2ray_God-in-telegram-mc.azaronline.org",
+            "server_port": 80,
+            "uuid": "7f55b425-a623-439b-bbd5-0b1778162054",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@V2ray_God=Telegram\/",
+                "headers": {
+                    "Host": "our-channel-is-V2ray_God-in-telegram-mc.azaronline.org"
+                }
             }
         },
         {
@@ -1821,12 +1828,12 @@
             }
         },
         {
-            "tag": "🇷🇺RU | ss | @forwardv2ray | 13",
+            "tag": "🇬🇧GB | ss | @forwardv2ray | 17",
             "type": "shadowsocks",
-            "server": "37.140.241.40",
-            "server_port": 55223,
-            "method": "aes-256-gcm",
-            "password": "1NKp5UR0YRE28mdf",
+            "server": "51.142.159.50",
+            "server_port": 30291,
+            "method": "chacha20-ietf-poly1305",
+            "password": "izqxecssws9zsf0MRzyDN1",
             "plugin": "",
             "plugin_opts": ""
         },
