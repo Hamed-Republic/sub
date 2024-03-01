@@ -110,8 +110,7 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇫🇷FR | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @v2ray_swhil | 27",
-                "🇺🇸US | vmess | @ConfigsHUB | 17",
-                "🇨🇦CA | vmess | @yaney_01 | 7",
+                "🇹🇼TW | vmess | @yaney_01 | 6",
                 "🇯🇵JP | vmess | @Hope_Net | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 5",
@@ -126,8 +125,7 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇫🇷FR | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @v2ray_swhil | 27",
-                "🇺🇸US | vmess | @ConfigsHUB | 17",
-                "🇨🇦CA | vmess | @yaney_01 | 7",
+                "🇹🇼TW | vmess | @yaney_01 | 6",
                 "🇯🇵JP | vmess | @Hope_Net | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 5",
@@ -239,11 +237,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 17",
+            "tag": "🇹🇼TW | vmess | @yaney_01 | 6",
             "type": "vmess",
-            "server": "2.58.87.113",
-            "server_port": 41781,
-            "uuid": "6c452984-e8d9-4f40-d960-54f0185c4210",
+            "server": "114.37.132.46",
+            "server_port": 2024,
+            "uuid": "e6967991-7b0a-4d1a-a37b-5eb3b78d4c15",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -253,37 +251,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/asdasd",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @yaney_01 | 7",
-            "type": "vmess",
-            "server": "www.blueberrywindow.online",
-            "server_port": 8080,
-            "uuid": "22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
