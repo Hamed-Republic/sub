@@ -168,6 +168,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇩🇪DE | vless | @flyv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇸🇬SG | vless | @https_config_injector | 26",
                 "🇨🇳CN | vless | @mehrosaboran | 9",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -252,6 +253,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇩🇪DE | vless | @flyv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇸🇬SG | vless | @https_config_injector | 26",
                 "🇨🇳CN | vless | @mehrosaboran | 9",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -1410,9 +1412,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "14.102.228.218",
-            "server_port": 2095,
-            "uuid": "01db62cc-437b-4389-a2a4-d6042942880f",
+            "server": "104.16.30.14",
+            "server_port": 443,
+            "uuid": "4cc278b5-74b7-5d49-8f78-a412058cdbc3",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1420,11 +1422,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "satoshi.mom",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Path\/Telegram@V2ray_alpha\/",
                 "headers": {
-                    "Host": "14.102.228.218"
+                    "Host": "satoshi.mom"
                 }
             }
         },
@@ -1822,6 +1834,27 @@
                 "path": "\/",
                 "headers": {
                     "Host": "154.197.75.98"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "visa.cn",
+            "server_port": 2082,
+            "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "visa.cn"
                 }
             }
         },
