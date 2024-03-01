@@ -142,7 +142,7 @@
                 "🇩🇪DE | vless | @V2RayTz | 19",
                 "🇩🇪DE | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇨🇷CR | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇩🇪DE | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @polproxy | 9",
@@ -154,7 +154,7 @@
                 "🏳️XX | vless | @FreakConfig | 1",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 10",
+                "🇮🇷IR | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 26",
                 "🇨🇳CN | vless | @mehrosaboran | 11",
@@ -207,7 +207,7 @@
                 "🇩🇪DE | vless | @V2RayTz | 19",
                 "🇩🇪DE | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇨🇷CR | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇩🇪DE | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @polproxy | 9",
@@ -219,7 +219,7 @@
                 "🏳️XX | vless | @FreakConfig | 1",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 10",
+                "🇮🇷IR | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 26",
                 "🇨🇳CN | vless | @mehrosaboran | 11",
@@ -1124,11 +1124,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
+            "tag": "🇨🇷CR | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "for-irancell.outline-vpn.cloud",
-            "server_port": 443,
-            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+            "server": "190.93.246.241",
+            "server_port": 8880,
+            "uuid": "7daea98f-361b-4a33-f33c-249a92f101c8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1136,21 +1136,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "baipiao55.stunning-bassoon.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/@LIGHTNING6, @LIGHTNING6",
                 "headers": {
-                    "Host": "baipiao55.stunning-bassoon.pages.dev"
+                    "Host": "190.93.246.241"
                 }
             }
         },
@@ -1462,34 +1452,17 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 10",
+            "tag": "🇮🇷IR | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "162.159.133.234",
-            "server_port": 443,
-            "uuid": "26c13a19-5ae0-4ca8-b03d-77cec6324d86",
+            "server": "193.228.91.161",
+            "server_port": 15883,
+            "uuid": "b7fa2716-f9e4-4d3f-8c1f-6f2398f32320",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "red.aria0mani0shop.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "red.aria0mani0shop.sbs"
-                }
             }
         },
         {
