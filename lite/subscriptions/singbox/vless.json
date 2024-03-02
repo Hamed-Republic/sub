@@ -111,7 +111,7 @@
                 "🇺🇸US | vless | @VlessConfig | 18",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 20",
                 "🇩🇪DE | vless | @ipV2Ray | 12",
-                "🇺🇸US | vless | @melov2ray | 1",
+                "🇨🇦CA | vless | @melov2ray | 1",
                 "🇩🇪DE | vless | @frev2ray | 9",
                 "🇩🇪DE | vless | @ARv2ray | 13",
                 "🇩🇪DE | vless | @shh_proxy | 26",
@@ -125,7 +125,7 @@
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🇫🇮FI | vless | @V2rayCollector | 0",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 4",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇨🇷CR | vless | @V2rayNGn | 23",
                 "🇨🇦CA | vless | @prrofile_purple | 170",
@@ -163,7 +163,7 @@
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
                 "🇨🇦CA | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🏳️XX | vless | @TVCminer | 18"
+                "🇨🇴CO | vless | @TVCminer | 17"
             ]
         },
         {
@@ -175,7 +175,7 @@
                 "🇺🇸US | vless | @VlessConfig | 18",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 20",
                 "🇩🇪DE | vless | @ipV2Ray | 12",
-                "🇺🇸US | vless | @melov2ray | 1",
+                "🇨🇦CA | vless | @melov2ray | 1",
                 "🇩🇪DE | vless | @frev2ray | 9",
                 "🇩🇪DE | vless | @ARv2ray | 13",
                 "🇩🇪DE | vless | @shh_proxy | 26",
@@ -189,7 +189,7 @@
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🇫🇮FI | vless | @V2rayCollector | 0",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 4",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇨🇷CR | vless | @V2rayNGn | 23",
                 "🇨🇦CA | vless | @prrofile_purple | 170",
@@ -227,7 +227,7 @@
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
                 "🇨🇦CA | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🏳️XX | vless | @TVCminer | 18"
+                "🇨🇴CO | vless | @TVCminer | 17"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -380,7 +380,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @melov2ray | 1",
+            "tag": "🇨🇦CA | vless | @melov2ray | 1",
             "type": "vless",
             "server": "de.melov2ray.shop",
             "server_port": 2083,
@@ -748,7 +748,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "discord.com",
             "server_port": 443,
@@ -1701,17 +1701,24 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @TVCminer | 18",
+            "tag": "🇨🇴CO | vless | @TVCminer | 17",
             "type": "vless",
-            "server": "[2a01:4f8:1c1b:2b78::1]",
-            "server_port": 27628,
-            "uuid": "eb89b927-109e-46d3-a40c-b4f7feb6dccd",
+            "server": "91.195.110.217",
+            "server_port": 80,
+            "uuid": "3ebc00d8-feed-4120-9a42-a936bcdde273",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/connect\/de\/",
+                "headers": {
+                    "Host": "91.195.110.217"
+                }
             }
         }
     ],

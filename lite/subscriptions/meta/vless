@@ -122,7 +122,7 @@ dns:
 proxies:
   - {"name":"🇺🇸US | vless | @VlessConfig | 18","type":"vless","server":"44.221.164.99","port":22222,"udp":false,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"telegram-channel-vlessconfig.sohala.uk","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
   - {"name":"🇩🇪DE | vless | @ipV2Ray | 12","type":"vless","server":"157.90.245.58","port":443,"udp":true,"uuid":"b72392f9-e9bc-4f36-a112-916d32e5f389","tls":true,"network":"grpc","client-fingerprint":"firefox","servername":"*.hetzner.com","grpc-opts":{"grpc-service-name":"@ipV2Ray"},"reality-opts":{"public-key":"ytHqf4mip_WRBtDWo2lJJfQZLcGM7yeeRs_rifjr9Fg","short-id":"79072494"}}
-  - {"name":"🇺🇸US | vless | @melov2ray | 1","type":"vless","server":"de.melov2ray.shop","port":2083,"udp":false,"uuid":"7757fbd8-3127-4d08-bacd-0b9ce29a964b","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"De.Melov2ray.Shop","ws-opts":{"path":"/@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray"}}
+  - {"name":"🇨🇦CA | vless | @melov2ray | 1","type":"vless","server":"de.melov2ray.shop","port":2083,"udp":false,"uuid":"7757fbd8-3127-4d08-bacd-0b9ce29a964b","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"De.Melov2ray.Shop","ws-opts":{"path":"/@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray"}}
   - {"name":"🇩🇪DE | vless | @shh_proxy | 26","type":"vless","server":"154.197.75.98","port":80,"udp":false,"uuid":"3cd53df6-4a3f-4440-bfcf-818abd79cebf","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/","headers":{"host":"shhproxyfrees.xn--69-pv2cl2k5x3fipr.org"}}}
   - {"name":"🏳️XX | vless | @Lockey_vpn | 9","type":"vless","server":"gulzaaar7.ialbion.com","port":443,"udp":false,"uuid":"e0e31182-c51d-4a66-b2be-7d64bf49325d","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"gulzaaar7.ialbion.com","grpc-opts":{"grpc-service-name":""}}
   - {"name":"🇨🇦CA | vless | @rxv2ray | 21","type":"vless","server":"www.RxV2ray.sbs","port":2087,"udp":false,"uuid":"b404b4e8-9164-4c7e-acbd-ea8ec0aee464","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"www.RxV2ray.sbs","grpc-opts":{"grpc-service-name":"@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray"}}
@@ -168,7 +168,7 @@ proxies:
   - {"name":"🇨🇦CA | vless | @V2FETCH | 7","type":"vless","server":"k---join.outline-vpn.cloud","port":80,"udp":false,"uuid":"e1a928be-e289-4aef-b92e-4106fabdf42f","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/?ed=2048","headers":{"host":"mahi.kosnanatfilterchi.eu.org"}}}
   - {"name":"🏳️XX | vless | @VpnSkyy | 7","type":"vless","server":"sky1.bbv2ry.pics","port":443,"udp":false,"uuid":"18c680fc-f921-484c-85d3-ec191f7cc983","tls":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇨🇦CA | vless | @TIKTOK_PROXY | 2","type":"vless","server":"104.18.203.232","port":2096,"udp":false,"uuid":"5d45ee0f-d14c-4ebe-9cb0-1cbbc0cab31e","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"gozar-1bbeidfh56s8ckfkd.shopforfree.online.","flow":"xtls-rprx-vision"}
-  - {"name":"🏳️XX | vless | @TVCminer | 18","type":"vless","server":"[2a01:4f8:1c1b:2b78::1]","port":27628,"udp":false,"uuid":"eb89b927-109e-46d3-a40c-b4f7feb6dccd","tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"🇨🇴CO | vless | @TVCminer | 17","type":"vless","server":"91.195.110.217","port":80,"udp":false,"uuid":"3ebc00d8-feed-4120-9a42-a936bcdde273","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/connect/de/?ed=2048","headers":{"host":"direct85-217-14-47.digital-ping.ir"}}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -177,7 +177,7 @@ proxy-groups:
       - FALLBACK
       - '🇺🇸US | vless | @VlessConfig | 18'
       - '🇩🇪DE | vless | @ipV2Ray | 12'
-      - '🇺🇸US | vless | @melov2ray | 1'
+      - '🇨🇦CA | vless | @melov2ray | 1'
       - '🇩🇪DE | vless | @shh_proxy | 26'
       - '🏳️XX | vless | @Lockey_vpn | 9'
       - '🇨🇦CA | vless | @rxv2ray | 21'
@@ -223,7 +223,7 @@ proxy-groups:
       - '🇨🇦CA | vless | @V2FETCH | 7'
       - '🏳️XX | vless | @VpnSkyy | 7'
       - '🇨🇦CA | vless | @TIKTOK_PROXY | 2'
-      - '🏳️XX | vless | @TVCminer | 18'
+      - '🇨🇴CO | vless | @TVCminer | 17'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -232,7 +232,7 @@ proxy-groups:
     proxies:
       - '🇺🇸US | vless | @VlessConfig | 18'
       - '🇩🇪DE | vless | @ipV2Ray | 12'
-      - '🇺🇸US | vless | @melov2ray | 1'
+      - '🇨🇦CA | vless | @melov2ray | 1'
       - '🇩🇪DE | vless | @shh_proxy | 26'
       - '🏳️XX | vless | @Lockey_vpn | 9'
       - '🇨🇦CA | vless | @rxv2ray | 21'
@@ -278,7 +278,7 @@ proxy-groups:
       - '🇨🇦CA | vless | @V2FETCH | 7'
       - '🏳️XX | vless | @VpnSkyy | 7'
       - '🇨🇦CA | vless | @TIKTOK_PROXY | 2'
-      - '🏳️XX | vless | @TVCminer | 18'
+      - '🇨🇴CO | vless | @TVCminer | 17'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -286,7 +286,7 @@ proxy-groups:
     proxies:
       - '🇺🇸US | vless | @VlessConfig | 18'
       - '🇩🇪DE | vless | @ipV2Ray | 12'
-      - '🇺🇸US | vless | @melov2ray | 1'
+      - '🇨🇦CA | vless | @melov2ray | 1'
       - '🇩🇪DE | vless | @shh_proxy | 26'
       - '🏳️XX | vless | @Lockey_vpn | 9'
       - '🇨🇦CA | vless | @rxv2ray | 21'
@@ -332,7 +332,7 @@ proxy-groups:
       - '🇨🇦CA | vless | @V2FETCH | 7'
       - '🏳️XX | vless | @VpnSkyy | 7'
       - '🇨🇦CA | vless | @TIKTOK_PROXY | 2'
-      - '🏳️XX | vless | @TVCminer | 18'
+      - '🇨🇴CO | vless | @TVCminer | 17'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
