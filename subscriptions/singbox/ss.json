@@ -106,7 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | ss | @DeamNet_Proxy | 11",
                 "🇬🇧GB | ss | @proxyymeliii | 14",
                 "🇩🇪DE | ss | @VmessProtocol | 5",
                 "🇩🇪DE | ss | @VmessProtocol | 9",
@@ -125,7 +124,6 @@
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇬🇧GB | ss | @forwardv2ray | 3",
                 "🇬🇧GB | ss | @ROMAX_VPN | 0",
                 "🇳🇱NL | ss | @ROMAX_VPN | 2"
             ]
@@ -134,7 +132,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | ss | @DeamNet_Proxy | 11",
                 "🇬🇧GB | ss | @proxyymeliii | 14",
                 "🇩🇪DE | ss | @VmessProtocol | 5",
                 "🇩🇪DE | ss | @VmessProtocol | 9",
@@ -153,7 +150,6 @@
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇬🇧GB | ss | @forwardv2ray | 3",
                 "🇬🇧GB | ss | @ROMAX_VPN | 0",
                 "🇳🇱NL | ss | @ROMAX_VPN | 2"
             ],
@@ -176,16 +172,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇬🇧GB | ss | @DeamNet_Proxy | 11",
-            "type": "shadowsocks",
-            "server": "51.143.138.80",
-            "server_port": 64507,
-            "method": "chacha20-ietf-poly1305",
-            "password": "YJgPhpBF3wEoy3H5CxXyUS",
-            "plugin": "",
-            "plugin_opts": ""
         },
         {
             "tag": "🇬🇧GB | ss | @proxyymeliii | 14",
@@ -364,16 +350,6 @@
             "server_port": 2443,
             "method": "aes-256-gcm",
             "password": "hh4JlBhsJ0JthpDP3vIwxXvJWHknI16AijGx6sbcqWI=",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇬🇧GB | ss | @forwardv2ray | 3",
-            "type": "shadowsocks",
-            "server": "51.142.173.103",
-            "server_port": 51899,
-            "method": "chacha20-ietf-poly1305",
-            "password": "gcpVehVytslepmkHHRLXYx",
             "plugin": "",
             "plugin_opts": ""
         },
