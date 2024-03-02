@@ -108,7 +108,9 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 16",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
+                "🇮🇷IR | vmess | @ConfigsHUB | 17",
                 "🇹🇼TW | vmess | @yaney_01 | 6",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 5",
@@ -121,7 +123,9 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 16",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
+                "🇮🇷IR | vmess | @ConfigsHUB | 17",
                 "🇹🇼TW | vmess | @yaney_01 | 6",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 5",
@@ -182,11 +186,62 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 16",
+            "type": "vmess",
+            "server": "kristin.makeup",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "kristin.makeup",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "kristin.makeup"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
             "type": "vmess",
             "server": "161.35.216.210",
             "server_port": 1348,
             "uuid": "ed3770e3-d6f4-4129-9b2a-ff5242c7a48c",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vmess | @ConfigsHUB | 17",
+            "type": "vmess",
+            "server": "194.5.179.188",
+            "server_port": 25844,
+            "uuid": "6242e4ab-2534-4dc7-9794-46b03ea65610",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
