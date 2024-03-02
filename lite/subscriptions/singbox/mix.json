@@ -148,12 +148,12 @@
                 "🇬🇧GB | ss | @proxyymeliii | 14",
                 "🇺🇸US | vless | @v2ray1_ng | 6",
                 "🇮🇷IR | vless | @vless_vmess | 1",
-                "🇨🇦CA | vless | @V2RayTz | 13",
+                "🇬🇧GB | vless | @V2RayTz | 19",
                 "🇩🇪DE | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 153",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇩🇪DE | vmess | @ConfigsHUB | 15",
                 "🇺🇸US | vless | @proxystore11 | 11",
                 "🇹🇼TW | vmess | @yaney_01 | 6",
                 "🇩🇪DE | vless | @free1_vpn | 2",
@@ -166,7 +166,7 @@
                 "🇺🇸US | vless | @Capoit | 2",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇳🇱NL | vless | @flyv2ray | 18",
-                "🇮🇷IR | vmess | @forwardv2ray | 18",
+                "🇸🇪SE | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇺🇸US | vless | @https_config_injector | 26",
                 "🇺🇸US | vless | @mehrosaboran | 11",
@@ -228,12 +228,12 @@
                 "🇬🇧GB | ss | @proxyymeliii | 14",
                 "🇺🇸US | vless | @v2ray1_ng | 6",
                 "🇮🇷IR | vless | @vless_vmess | 1",
-                "🇨🇦CA | vless | @V2RayTz | 13",
+                "🇬🇧GB | vless | @V2RayTz | 19",
                 "🇩🇪DE | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 153",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇩🇪DE | vmess | @ConfigsHUB | 15",
                 "🇺🇸US | vless | @proxystore11 | 11",
                 "🇹🇼TW | vmess | @yaney_01 | 6",
                 "🇩🇪DE | vless | @free1_vpn | 2",
@@ -246,7 +246,7 @@
                 "🇺🇸US | vless | @Capoit | 2",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇳🇱NL | vless | @flyv2ray | 18",
-                "🇮🇷IR | vmess | @forwardv2ray | 18",
+                "🇸🇪SE | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇺🇸US | vless | @https_config_injector | 26",
                 "🇺🇸US | vless | @mehrosaboran | 11",
@@ -1308,24 +1308,39 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2RayTz | 13",
+            "tag": "🇬🇧GB | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "162.159.130.234",
-            "server_port": 8080,
-            "uuid": "V2rayCUSTOMIZE",
-            "flow": "",
+            "server": "57.128.163.80",
+            "server_port": 443,
+            "uuid": "VPNCUSTOMIZE",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/@VPNCUSTOMIZE",
-                "headers": {
-                    "Host": "162.159.130.234"
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.kellekcollection.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "A-zhzAJw7aU1NU9KaEfDvlbM8Tdc1K5C2m7eDSLxpmQ",
+                    "short_id": "136ce8d8"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@VPNCUSTOMIZE",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1405,24 +1420,20 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "discord.gg",
+            "tag": "🇩🇪DE | vmess | @ConfigsHUB | 15",
+            "type": "vmess",
+            "server": "64.226.69.97",
             "server_port": 8880,
-            "uuid": "db03b7ff-ee37-4d91-a4d4-1fb1ca42bfa1",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "uuid": "7c922edc-eb50-4a26-88f9-1ff3904248fa",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/join--ServerNett--ServerNett?ed=1048",
-                "headers": {
-                    "Host": "discord.gg"
-                }
             }
         },
         {
@@ -1755,20 +1766,24 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "vipmt.vpnsell.beauty",
-            "server_port": 2083,
-            "uuid": "3cbfd640-de1a-4c92-92d4-5ae1bfd3cfb3",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇸🇪SE | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "185.146.173.20",
+            "server_port": 80,
+            "uuid": "DIGIV2RAY",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Digiv2ray-",
+                "headers": {
+                    "Host": "185.146.173.20"
+                }
             }
         },
         {
