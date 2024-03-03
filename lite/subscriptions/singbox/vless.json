@@ -110,12 +110,12 @@
                 "🇨🇦CA | vless | @XsV2ray | 10",
                 "🇮🇪IE | vless | @VlessConfig | 18",
                 "🇩🇪DE | vless | @ipV2Ray | 11",
-                "🇨🇦CA | vless | @melov2ray | 3",
+                "🇺🇸US | vless | @melov2ray | 3",
                 "🇨🇦CA | vless | @V2pedia | 23",
                 "🇩🇪DE | vless | @frev2ray | 12",
                 "🇨🇦CA | vless | @ARv2ray | 13",
                 "🇩🇪DE | vless | @shh_proxy | 26",
-                "🇺🇸US | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇩🇪DE | vless | @free_v2rayyy | 4",
                 "🇸🇪SE | vless | @lightning6 | 33",
                 "🇨🇦CA | vless | @V2rayNGmat | 4",
@@ -143,7 +143,6 @@
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇩🇪DE | vless | @VmessProtocol | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 152",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇩🇪DE | vless | @free1_vpn | 2",
                 "🇨🇦CA | vless | @polproxy | 9",
@@ -162,6 +161,7 @@
                 "🇩🇪DE | vless | @kingofilter | 9",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
+                "🇨🇦CA | vless | @FoXrayIran | 0",
                 "🇨🇦CA | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7"
             ]
@@ -174,12 +174,12 @@
                 "🇨🇦CA | vless | @XsV2ray | 10",
                 "🇮🇪IE | vless | @VlessConfig | 18",
                 "🇩🇪DE | vless | @ipV2Ray | 11",
-                "🇨🇦CA | vless | @melov2ray | 3",
+                "🇺🇸US | vless | @melov2ray | 3",
                 "🇨🇦CA | vless | @V2pedia | 23",
                 "🇩🇪DE | vless | @frev2ray | 12",
                 "🇨🇦CA | vless | @ARv2ray | 13",
                 "🇩🇪DE | vless | @shh_proxy | 26",
-                "🇺🇸US | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇩🇪DE | vless | @free_v2rayyy | 4",
                 "🇸🇪SE | vless | @lightning6 | 33",
                 "🇨🇦CA | vless | @V2rayNGmat | 4",
@@ -207,7 +207,6 @@
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇩🇪DE | vless | @VmessProtocol | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 152",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇩🇪DE | vless | @free1_vpn | 2",
                 "🇨🇦CA | vless | @polproxy | 9",
@@ -226,6 +225,7 @@
                 "🇩🇪DE | vless | @kingofilter | 9",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
+                "🇨🇦CA | vless | @FoXrayIran | 0",
                 "🇨🇦CA | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7"
             ],
@@ -369,7 +369,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 3",
+            "tag": "🇺🇸US | vless | @melov2ray | 3",
             "type": "vless",
             "server": "chat.openai.com",
             "server_port": 8080,
@@ -494,7 +494,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @rxv2ray | 21",
+            "tag": "🇨🇦CA | vless | @rxv2ray | 21",
             "type": "vless",
             "server": "www.RxV2ray.sbs",
             "server_port": 2087,
@@ -1219,27 +1219,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "v2ray_officiaL",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @proxystore11 | 11",
             "type": "vless",
             "server": "104.21.30.103",
@@ -1705,6 +1684,37 @@
                 "path": "\/TJRetVjSLYlGvC82CwFbni2egUte",
                 "headers": {
                     "Host": "he4.dadnetiran.xyz"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @FoXrayIran | 0",
+            "type": "vless",
+            "server": "c1.shoplandtr.xyz",
+            "server_port": 2096,
+            "uuid": "a27302aa-0f64-4d27-8153-63398c834984",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "C1.shoplandtr.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "C1.shoplandtr.xyz"
                 }
             }
         },
