@@ -118,9 +118,7 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇫🇷FR | ss | @DeamNet_Proxy | 8","type":"ss","server":"149.202.82.172","port":6679,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
-  - {"name":"🇳🇱NL | ss | @DeamNet_Proxy | 9","type":"ss","server":"masting.xyz","port":8080,"password":"XlUFgoOqDlVqlZFD3Js0YA","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇵🇱PL | ss | @DeamNet_Proxy | 17","type":"ss","server":"54.36.174.181","port":5601,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇫🇷FR | ss | @DeamNet_Proxy | 10","type":"ss","server":"149.202.82.172","port":5004,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
   - {"name":"🇬🇧GB | ss | @proxyymeliii | 15","type":"ss","server":"wxwctxxx.arvancode.eu.org","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇩🇪DE | ss | @VmessProtocol | 7","type":"ss","server":"3.69.19.144","port":8080,"password":"806hBu5I2fH7kydewwTI6Pbv8l4GNQz1qYB5lX9fk9k=","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇩🇪DE | ss | @VmessProtocol | 8","type":"ss","server":"18.184.183.193","port":8080,"password":"3K9vIwvDuPm1D6q9jaZ94tvIwQBn65UZaR72scTUv8A=","cipher":"chacha20-ietf-poly1305"}
@@ -140,8 +138,10 @@ proxies:
   - {"name":"🇦🇹AT | ss | @OutlineVpnOfficial | 15","type":"ss","server":"212.113.106.243","port":12949,"password":"P2zxXPewlV3BlfqqYiSthvtLc","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸US | ss | @OutlineVpnOfficial | 16","type":"ss","server":"www.outline.network.ak2003.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":2443,"password":"zekdk0MRWVx1zFASC+HAcmCVBA+TljWabwoF57zjIZA=","cipher":"aes-256-gcm"}
   - {"name":"🇺🇸US | ss | @OutlineVpnOfficial | 17","type":"ss","server":"www.outline.network.ak2002.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":2443,"password":"hh4JlBhsJ0JthpDP3vIwxXvJWHknI16AijGx6sbcqWI=","cipher":"aes-256-gcm"}
-  - {"name":"🇬🇧GB | ss | @forwardv2ray | 1","type":"ss","server":"51.143.138.95","port":13288,"password":"XFt4a7C3cE7qMz7weyyEGI","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸US | ss | @forwardv2ray | 4","type":"ss","server":"23.158.200.180","port":5500,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"🇬🇧GB | ss | @forwardv2ray | 7","type":"ss","server":"51.142.173.103","port":51899,"password":"gcpVehVytslepmkHHRLXYx","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧GB | ss | @forwardv2ray | 8","type":"ss","server":"51.142.173.34","port":27842,"password":"f57zVblTQs60egXUizaq4Y","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪DE | ss | @forwardv2ray | 9","type":"ss","server":"18.157.179.61","port":8080,"password":"GEsYvnMMz4t4YKK+kke5ifhr/4aBsExFqolRDq37y3k=","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪DE | ss | @forwardv2ray | 10","type":"ss","server":"3.71.99.126","port":8080,"password":"8AXEITDCa+DTCyD/rpyiPV9AdYIMSPCXzoJUJcIvYJA=","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇷🇺RU | ss | @proxy_mtm | 0","type":"ss","server":"103.113.68.27","port":2352,"password":"tErM3mZ22YFQspXVwX57xq","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧GB | ss | @ROMAX_VPN | 1","type":"ss","server":"13.42.172.84","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇳🇱NL | ss | @ROMAX_VPN | 3","type":"ss","server":"94.131.106.6","port":43743,"password":"5vPNG70j1ZqfEG5ee6aQGW","cipher":"chacha20-ietf-poly1305"}
@@ -151,9 +151,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇫🇷FR | ss | @DeamNet_Proxy | 8'
-      - '🇳🇱NL | ss | @DeamNet_Proxy | 9'
-      - '🇵🇱PL | ss | @DeamNet_Proxy | 17'
+      - '🇫🇷FR | ss | @DeamNet_Proxy | 10'
       - '🇬🇧GB | ss | @proxyymeliii | 15'
       - '🇩🇪DE | ss | @VmessProtocol | 7'
       - '🇩🇪DE | ss | @VmessProtocol | 8'
@@ -173,8 +171,10 @@ proxy-groups:
       - '🇦🇹AT | ss | @OutlineVpnOfficial | 15'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 16'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 17'
-      - '🇬🇧GB | ss | @forwardv2ray | 1'
-      - '🇺🇸US | ss | @forwardv2ray | 4'
+      - '🇬🇧GB | ss | @forwardv2ray | 7'
+      - '🇬🇧GB | ss | @forwardv2ray | 8'
+      - '🇩🇪DE | ss | @forwardv2ray | 9'
+      - '🇩🇪DE | ss | @forwardv2ray | 10'
       - '🇷🇺RU | ss | @proxy_mtm | 0'
       - '🇬🇧GB | ss | @ROMAX_VPN | 1'
       - '🇳🇱NL | ss | @ROMAX_VPN | 3'
@@ -184,9 +184,7 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇫🇷FR | ss | @DeamNet_Proxy | 8'
-      - '🇳🇱NL | ss | @DeamNet_Proxy | 9'
-      - '🇵🇱PL | ss | @DeamNet_Proxy | 17'
+      - '🇫🇷FR | ss | @DeamNet_Proxy | 10'
       - '🇬🇧GB | ss | @proxyymeliii | 15'
       - '🇩🇪DE | ss | @VmessProtocol | 7'
       - '🇩🇪DE | ss | @VmessProtocol | 8'
@@ -206,8 +204,10 @@ proxy-groups:
       - '🇦🇹AT | ss | @OutlineVpnOfficial | 15'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 16'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 17'
-      - '🇬🇧GB | ss | @forwardv2ray | 1'
-      - '🇺🇸US | ss | @forwardv2ray | 4'
+      - '🇬🇧GB | ss | @forwardv2ray | 7'
+      - '🇬🇧GB | ss | @forwardv2ray | 8'
+      - '🇩🇪DE | ss | @forwardv2ray | 9'
+      - '🇩🇪DE | ss | @forwardv2ray | 10'
       - '🇷🇺RU | ss | @proxy_mtm | 0'
       - '🇬🇧GB | ss | @ROMAX_VPN | 1'
       - '🇳🇱NL | ss | @ROMAX_VPN | 3'
@@ -216,9 +216,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇫🇷FR | ss | @DeamNet_Proxy | 8'
-      - '🇳🇱NL | ss | @DeamNet_Proxy | 9'
-      - '🇵🇱PL | ss | @DeamNet_Proxy | 17'
+      - '🇫🇷FR | ss | @DeamNet_Proxy | 10'
       - '🇬🇧GB | ss | @proxyymeliii | 15'
       - '🇩🇪DE | ss | @VmessProtocol | 7'
       - '🇩🇪DE | ss | @VmessProtocol | 8'
@@ -238,8 +236,10 @@ proxy-groups:
       - '🇦🇹AT | ss | @OutlineVpnOfficial | 15'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 16'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 17'
-      - '🇬🇧GB | ss | @forwardv2ray | 1'
-      - '🇺🇸US | ss | @forwardv2ray | 4'
+      - '🇬🇧GB | ss | @forwardv2ray | 7'
+      - '🇬🇧GB | ss | @forwardv2ray | 8'
+      - '🇩🇪DE | ss | @forwardv2ray | 9'
+      - '🇩🇪DE | ss | @forwardv2ray | 10'
       - '🇷🇺RU | ss | @proxy_mtm | 0'
       - '🇬🇧GB | ss | @ROMAX_VPN | 1'
       - '🇳🇱NL | ss | @ROMAX_VPN | 3'
