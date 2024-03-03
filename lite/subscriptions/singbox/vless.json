@@ -110,7 +110,7 @@
                 "🇨🇦CA | vless | @XsV2ray | 10",
                 "🇮🇪IE | vless | @VlessConfig | 18",
                 "🇩🇪DE | vless | @ipV2Ray | 11",
-                "🇺🇸US | vless | @melov2ray | 3",
+                "🇨🇦CA | vless | @melov2ray | 3",
                 "🇨🇦CA | vless | @V2pedia | 23",
                 "🇩🇪DE | vless | @frev2ray | 12",
                 "🇨🇦CA | vless | @ARv2ray | 13",
@@ -143,7 +143,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇩🇪DE | vless | @VmessProtocol | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 152",
-                "🇨🇦CA | vless | @ConfigsHUB | 4",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇩🇪DE | vless | @free1_vpn | 2",
                 "🇨🇦CA | vless | @polproxy | 9",
@@ -154,7 +154,6 @@
                 "🇺🇸US | vless | @Capoit | 4",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇳🇱NL | vless | @flyv2ray | 18",
-                "🇩🇪DE | vless | @forwardv2ray | 15",
                 "🇨🇦CA | vless | @FAKEOFTVC | 4",
                 "🇩🇪DE | vless | @https_config_injector | 25",
                 "🇨🇦CA | vless | @mehrosaboran | 8",
@@ -175,7 +174,7 @@
                 "🇨🇦CA | vless | @XsV2ray | 10",
                 "🇮🇪IE | vless | @VlessConfig | 18",
                 "🇩🇪DE | vless | @ipV2Ray | 11",
-                "🇺🇸US | vless | @melov2ray | 3",
+                "🇨🇦CA | vless | @melov2ray | 3",
                 "🇨🇦CA | vless | @V2pedia | 23",
                 "🇩🇪DE | vless | @frev2ray | 12",
                 "🇨🇦CA | vless | @ARv2ray | 13",
@@ -208,7 +207,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇩🇪DE | vless | @VmessProtocol | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 152",
-                "🇨🇦CA | vless | @ConfigsHUB | 4",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇩🇪DE | vless | @free1_vpn | 2",
                 "🇨🇦CA | vless | @polproxy | 9",
@@ -219,7 +218,6 @@
                 "🇺🇸US | vless | @Capoit | 4",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇳🇱NL | vless | @flyv2ray | 18",
-                "🇩🇪DE | vless | @forwardv2ray | 15",
                 "🇨🇦CA | vless | @FAKEOFTVC | 4",
                 "🇩🇪DE | vless | @https_config_injector | 25",
                 "🇨🇦CA | vless | @mehrosaboran | 8",
@@ -371,7 +369,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @melov2ray | 3",
+            "tag": "🇨🇦CA | vless | @melov2ray | 3",
             "type": "vless",
             "server": "chat.openai.com",
             "server_port": 8080,
@@ -1221,11 +1219,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 4",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "104.24.172.7",
-            "server_port": 8080,
-            "uuid": "c96e228a-887c-43b9-b5f2-9590ab09cd0c",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "v2ray_officiaL",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1235,9 +1233,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet",
+                "path": "\/",
                 "headers": {
-                    "Host": "104.24.172.7"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
@@ -1522,42 +1520,6 @@
                 "headers": {
                     "Host": "cdn.kellekcollection.com"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 15",
-            "type": "vless",
-            "server": "134.122.70.211",
-            "server_port": 443,
-            "uuid": "3f6208c3-1ea6-4dff-992b-ae22dd2978a1",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "*.naninails.ro",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "kLRBzMLZjRkSE3PurYfp63JGnsfYooSdeyXZDtbLuAo",
-                    "short_id": "c378d224"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
