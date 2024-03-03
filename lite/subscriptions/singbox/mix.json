@@ -122,11 +122,11 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 4",
                 "🏳️XX | vless | @vpn_xw | 6",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
-                "🇨🇦CA | vless | @DigiV2ray | 21",
+                "🇺🇸US | vless | @DigiV2ray | 21",
                 "🇨🇦CA | vless | @proxy_kafee | 0",
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 4",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇬🇧GB | vless | @V2rayNGn | 21",
                 "🇩🇪DE | trojan | @PrivateVPNs | 17",
@@ -154,7 +154,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 153",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
+                "🇩🇪DE | vmess | @ConfigsHUB | 15",
                 "🇺🇸US | vless | @proxystore11 | 11",
                 "🇹🇼TW | vmess | @yaney_01 | 6",
                 "🇩🇪DE | vless | @free1_vpn | 2",
@@ -168,7 +168,7 @@
                 "🇺🇸US | vless | @Capoit | 2",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇳🇱NL | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇸🇬SG | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 4",
                 "🇺🇸US | vless | @https_config_injector | 26",
                 "🇺🇸US | vless | @mehrosaboran | 11",
@@ -203,11 +203,11 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 4",
                 "🏳️XX | vless | @vpn_xw | 6",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
-                "🇨🇦CA | vless | @DigiV2ray | 21",
+                "🇺🇸US | vless | @DigiV2ray | 21",
                 "🇨🇦CA | vless | @proxy_kafee | 0",
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 4",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇬🇧GB | vless | @V2rayNGn | 21",
                 "🇩🇪DE | trojan | @PrivateVPNs | 17",
@@ -235,7 +235,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 153",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
+                "🇩🇪DE | vmess | @ConfigsHUB | 15",
                 "🇺🇸US | vless | @proxystore11 | 11",
                 "🇹🇼TW | vmess | @yaney_01 | 6",
                 "🇩🇪DE | vless | @free1_vpn | 2",
@@ -249,7 +249,7 @@
                 "🇺🇸US | vless | @Capoit | 2",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇳🇱NL | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇸🇬SG | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 4",
                 "🇺🇸US | vless | @https_config_injector | 26",
                 "🇺🇸US | vless | @mehrosaboran | 11",
@@ -696,7 +696,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DigiV2ray | 21",
+            "tag": "🇺🇸US | vless | @DigiV2ray | 21",
             "type": "vless",
             "server": "discordapp.com",
             "server_port": 80,
@@ -810,7 +810,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "discord.com",
             "server_port": 443,
@@ -1419,34 +1419,20 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
-            "type": "vless",
-            "server": "172.64.89.170",
-            "server_port": 443,
-            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇩🇪DE | vmess | @ConfigsHUB | 15",
+            "type": "vmess",
+            "server": "64.226.69.97",
+            "server_port": 8880,
+            "uuid": "7c922edc-eb50-4a26-88f9-1ff3904248fa",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "3k.pureboy.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "3k.pureboy.eu.org"
-                }
             }
         },
         {
@@ -1813,11 +1799,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "tag": "🇸🇬SG | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "iranserver.com",
-            "server_port": 2096,
-            "uuid": "f4cec6cc-6177-423c-90f8-2ad9f0dd996b",
+            "server": "group.vpnking.online",
+            "server_port": 443,
+            "uuid": "e7351a7d-f746-42f0-d3b8-3bd4c997bae1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1827,7 +1813,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "vpnct.arvancode.eu.org",
+                "server_name": "m.zoom.us",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1837,9 +1823,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram@SINABIGO\/",
+                "path": "\/SACHI",
                 "headers": {
-                    "Host": "vpnct.arvancode.eu.org"
+                    "Host": "m.zoom.us"
                 }
             }
         },
