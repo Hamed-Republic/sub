@@ -108,10 +108,10 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
+                "🏳️XX | vmess | @oneclickvpnkeys | 9",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 28",
                 "🇺🇸US | vmess | @v2ray1_ng | 5",
-                "🇨🇦CA | vmess | @ConfigsHUB | 13",
+                "🇩🇪DE | vmess | @ConfigsHUB | 13",
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 4",
                 "🇦🇺AU | vmess | @v2Line | 6",
@@ -125,10 +125,10 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
+                "🏳️XX | vmess | @oneclickvpnkeys | 9",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 28",
                 "🇺🇸US | vmess | @v2ray1_ng | 5",
-                "🇨🇦CA | vmess | @ConfigsHUB | 13",
+                "🇩🇪DE | vmess | @ConfigsHUB | 13",
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 4",
                 "🇦🇺AU | vmess | @v2Line | 6",
@@ -190,10 +190,10 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
+            "tag": "🏳️XX | vmess | @oneclickvpnkeys | 9",
             "type": "vmess",
-            "server": "asdad.cxzntq.tech",
-            "server_port": 2052,
+            "server": "deipv2.7t7t.me",
+            "server_port": 80,
             "uuid": "a72196df-d41a-4bc7-89a7-b2d173106eb2",
             "security": "auto",
             "alter_id": 0,
@@ -207,7 +207,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/apopop",
+                "path": "\/",
                 "headers": {
                     "Host": ""
                 }
@@ -265,11 +265,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 13",
+            "tag": "🇩🇪DE | vmess | @ConfigsHUB | 13",
             "type": "vmess",
-            "server": "warp-sub.pages.dev",
-            "server_port": 2087,
-            "uuid": "06195b5b-3815-4a07-96f7-47eefbb1b143",
+            "server": "91.107.191.183",
+            "server_port": 8081,
+            "uuid": "2b45abf1-0330-4ef8-8e2c-9f2e063a9278",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -279,23 +279,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/urnxewzvh.site:443\/kwhmvws",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
