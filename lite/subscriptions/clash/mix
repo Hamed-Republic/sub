@@ -119,10 +119,9 @@ dns:
 
 proxies:
   - {"name":"🇩🇪DE | trojan | @PrivateVPNs | 17","type":"trojan","server":"18.198.193.55","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
-  - {"name":"🇸🇪SE | trojan | @DirectVPN | 16","type":"trojan","server":"51.20.198.81","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
+  - {"name":"🇩🇪DE | trojan | @DirectVPN | 17","type":"trojan","server":"3.76.240.224","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸US | vmess | @mftizi | 18","type":"vmess","server":"38.147.191.185","port":"10241","cipher":"auto","uuid":"e820d6f7-57ef-4575-99da-bcd7d318c742","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇫🇷FR | ss | @DeamNet_Proxy | 18","type":"ss","server":"149.202.82.172","port":9102,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
   - {"name":"🇨🇦CA | vmess | @oneclickvpnkeys | 10","type":"vmess","server":"by.funhub.cc","port":"8443","cipher":"auto","uuid":"b33155f0-7429-4f1c-97c4-a9ba24a3b1cf","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/by","headers":{"host":"by.funhub.cc"}}}
   - {"name":"🇩🇪DE | vmess | @ShadowProxy66 | 28","type":"vmess","server":"195.201.2.27","port":"25761","cipher":"auto","uuid":"de746cfd-c2db-4618-83c2-9bd1d763cc25","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇩🇪DE | ss | @VmessProtocol | 15","type":"ss","server":"3.70.174.99","port":8080,"password":"ARC0u1LsngVI6YwK3Gcvl3Th7r3WxKFnlb0EXMjpH80=","cipher":"chacha20-ietf-poly1305"}
@@ -138,10 +137,9 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇩🇪DE | trojan | @PrivateVPNs | 17'
-      - '🇸🇪SE | trojan | @DirectVPN | 16'
+      - '🇩🇪DE | trojan | @DirectVPN | 17'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇺🇸US | vmess | @mftizi | 18'
-      - '🇫🇷FR | ss | @DeamNet_Proxy | 18'
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 10'
       - '🇩🇪DE | vmess | @ShadowProxy66 | 28'
       - '🇩🇪DE | ss | @VmessProtocol | 15'
@@ -157,10 +155,9 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇩🇪DE | trojan | @PrivateVPNs | 17'
-      - '🇸🇪SE | trojan | @DirectVPN | 16'
+      - '🇩🇪DE | trojan | @DirectVPN | 17'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇺🇸US | vmess | @mftizi | 18'
-      - '🇫🇷FR | ss | @DeamNet_Proxy | 18'
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 10'
       - '🇩🇪DE | vmess | @ShadowProxy66 | 28'
       - '🇩🇪DE | ss | @VmessProtocol | 15'
@@ -175,10 +172,9 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇩🇪DE | trojan | @PrivateVPNs | 17'
-      - '🇸🇪SE | trojan | @DirectVPN | 16'
+      - '🇩🇪DE | trojan | @DirectVPN | 17'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇺🇸US | vmess | @mftizi | 18'
-      - '🇫🇷FR | ss | @DeamNet_Proxy | 18'
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 10'
       - '🇩🇪DE | vmess | @ShadowProxy66 | 28'
       - '🇩🇪DE | ss | @VmessProtocol | 15'
