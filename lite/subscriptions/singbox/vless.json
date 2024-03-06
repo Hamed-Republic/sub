@@ -126,7 +126,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 21",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇩🇪DE | vless | @v2logy | 6",
-                "🇺🇸US | vless | @azadi_az_inja_migzare | 0",
+                "🇨🇦CA | vless | @azadi_az_inja_migzare | 0",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇩🇪DE | vless | @V2rayNGn | 22",
@@ -144,7 +144,6 @@
                 "🇬🇧GB | vless | @DailyV2RY | 139",
                 "🇨🇷CR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
-                "🇫🇷FR | vless | @ConfigsHUB | 14",
                 "🇩🇪DE | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 9",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
@@ -153,6 +152,7 @@
                 "🇨🇦CA | vless | @Capoit | 8",
                 "🇨🇷CR | vless | @IRN_VPN | 2",
                 "🇩🇪DE | vless | @flyv2ray | 13",
+                "🇨🇦CA | vless | @forwardv2ray | 12",
                 "🇮🇷IR | vless | @FAKEOFTVC | 2",
                 "🇩🇪DE | vless | @https_config_injector | 25",
                 "🇨🇦CA | vless | @mehrosaboran | 8",
@@ -162,7 +162,7 @@
                 "🇨🇦CA | vless | @GozargahVPN | 7",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
-                "🇺🇸US | vless | @FoXrayIran | 0",
+                "🇨🇦CA | vless | @FoXrayIran | 0",
                 "🇨🇦CA | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7"
             ]
@@ -191,7 +191,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 21",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇩🇪DE | vless | @v2logy | 6",
-                "🇺🇸US | vless | @azadi_az_inja_migzare | 0",
+                "🇨🇦CA | vless | @azadi_az_inja_migzare | 0",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇩🇪DE | vless | @V2rayNGn | 22",
@@ -209,7 +209,6 @@
                 "🇬🇧GB | vless | @DailyV2RY | 139",
                 "🇨🇷CR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
-                "🇫🇷FR | vless | @ConfigsHUB | 14",
                 "🇩🇪DE | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 9",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
@@ -218,6 +217,7 @@
                 "🇨🇦CA | vless | @Capoit | 8",
                 "🇨🇷CR | vless | @IRN_VPN | 2",
                 "🇩🇪DE | vless | @flyv2ray | 13",
+                "🇨🇦CA | vless | @forwardv2ray | 12",
                 "🇮🇷IR | vless | @FAKEOFTVC | 2",
                 "🇩🇪DE | vless | @https_config_injector | 25",
                 "🇨🇦CA | vless | @mehrosaboran | 8",
@@ -227,7 +227,7 @@
                 "🇨🇦CA | vless | @GozargahVPN | 7",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
-                "🇺🇸US | vless | @FoXrayIran | 0",
+                "🇨🇦CA | vless | @FoXrayIran | 0",
                 "🇨🇦CA | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7"
             ],
@@ -800,7 +800,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @azadi_az_inja_migzare | 0",
+            "tag": "🇨🇦CA | vless | @azadi_az_inja_migzare | 0",
             "type": "vless",
             "server": "v2raymhcn.wagnervpn.com",
             "server_port": 2096,
@@ -1249,27 +1249,6 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vless | @ConfigsHUB | 14",
-            "type": "vless",
-            "server": "5.196.58.87",
-            "server_port": 80,
-            "uuid": "SVNTEAM",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/SVNTEAM?ed=1048",
-                "headers": {
-                    "Host": "5.196.58.87"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪DE | vless | @free1_vpn | 0",
             "type": "vless",
             "server": "68.183.79.49",
@@ -1477,6 +1456,37 @@
                 "path": "\/",
                 "headers": {
                     "Host": "Join.ShhProxy.Site"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 12",
+            "type": "vless",
+            "server": "zerooners.4ghetzner.dynu.com",
+            "server_port": 8443,
+            "uuid": "7eb4ffd8-b2ba-44de-afa9-02ca4104e84b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cloudflare-microsoft-b2n-apple-com-yahoo-net-70l.zeroonevpn.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram @Netazad22 Telegram @Netazad22 Telegram @Netazad22 Telegram @Netazad22 Telegram @Netazad22 Telegram @Netazad22 Telegram @Netazad22 Telegram @Netazad22 Telegram @Netazad22 Telegram @Netazad22 Telegram @Netazad22 Telegram @Netazad22 Telegram @Netazad22 Telegram @Netazad22 Telegram @Netazad22 Telegram @Netazad22",
+                "headers": {
+                    "Host": "cloudflare-microsoft-b2n-apple-com-yahoo-net-70l.zeroonevpn.com"
                 }
             }
         },
@@ -1691,7 +1701,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @FoXrayIran | 0",
+            "tag": "🇨🇦CA | vless | @FoXrayIran | 0",
             "type": "vless",
             "server": "c1.shoplandtr.xyz",
             "server_port": 2096,
