@@ -110,8 +110,9 @@
                 "🇨🇳CN | vmess | @mftizi | 18",
                 "🇫🇮FI | vmess | @oneclickvpnkeys | 11",
                 "🇭🇰HK | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 14",
+                "🇺🇸US | vmess | @Hope_Net | 12",
                 "🇮🇳IN | vmess | @v2Line | 6",
+                "🇺🇸US | vmess | @FAKEOFTVC | 5",
                 "🇨🇦CA | vmess | @nofiltering2 | 1"
             ]
         },
@@ -123,8 +124,9 @@
                 "🇨🇳CN | vmess | @mftizi | 18",
                 "🇫🇮FI | vmess | @oneclickvpnkeys | 11",
                 "🇭🇰HK | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 14",
+                "🇺🇸US | vmess | @Hope_Net | 12",
                 "🇮🇳IN | vmess | @v2Line | 6",
+                "🇺🇸US | vmess | @FAKEOFTVC | 5",
                 "🇨🇦CA | vmess | @nofiltering2 | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -230,11 +232,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 14",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 12",
             "type": "vmess",
-            "server": "onea.flha.ru",
-            "server_port": 2052,
-            "uuid": "89d8ef31-ade9-4aca-8fbc-1edbba6cda16",
+            "server": "129.80.151.246",
+            "server_port": 40059,
+            "uuid": "1b359f51-72df-4435-81df-b92cf75262d9",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -244,13 +246,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
@@ -282,6 +277,30 @@
             "transport": {
                 "type": "ws",
                 "path": "\/RACEVPN",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @FAKEOFTVC | 5",
+            "type": "vmess",
+            "server": "gcore.com",
+            "server_port": 80,
+            "uuid": "c366e751-ad17-4302-9768-37deab938129",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
                 "headers": {
                     "Host": ""
                 }
