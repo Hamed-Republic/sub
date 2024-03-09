@@ -118,7 +118,7 @@
                 "🇬🇧GB | vless | @shh_proxy | 29",
                 "🇬🇧GB | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇺🇸US | vless | @free_v2rayyy | 4",
+                "🇨🇦CA | vless | @free_v2rayyy | 4",
                 "🇸🇪SE | vless | @lightning6 | 29",
                 "🇦🇱AL | vless | @V2rayNGmat | 0",
                 "🇩🇪DE | vless | @vpn_xw | 0",
@@ -184,7 +184,7 @@
                 "🇬🇧GB | vless | @shh_proxy | 29",
                 "🇬🇧GB | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇺🇸US | vless | @free_v2rayyy | 4",
+                "🇨🇦CA | vless | @free_v2rayyy | 4",
                 "🇸🇪SE | vless | @lightning6 | 29",
                 "🇦🇱AL | vless | @V2rayNGmat | 0",
                 "🇩🇪DE | vless | @vpn_xw | 0",
@@ -470,7 +470,7 @@
             "tag": "🇨🇦CA | vless | @ARv2ray | 12",
             "type": "vless",
             "server": "www.speedtest.net",
-            "server_port": 80,
+            "server_port": 443,
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
@@ -479,12 +479,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
-                "headers": {
-                    "Host": "www.speedtest.net"
+            "tls": {
+                "enabled": true,
+                "server_name": "s1.agh9731.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -569,7 +579,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @free_v2rayyy | 4",
+            "tag": "🇨🇦CA | vless | @free_v2rayyy | 4",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2096,

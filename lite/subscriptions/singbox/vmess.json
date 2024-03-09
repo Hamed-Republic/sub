@@ -110,9 +110,9 @@
                 "🇰🇷KR | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇭🇰HK | vmess | @yaney_01 | 5",
-                "🏳️XX | vmess | @Hope_Net | 12",
+                "🏳️XX | vmess | @Hope_Net | 10",
                 "🇺🇦UA | vmess | @v2Line | 7",
-                "🇩🇪DE | vmess | @forwardv2ray | 18",
+                "🇹🇷TR | vmess | @forwardv2ray | 17",
                 "🇺🇸US | vmess | @FAKEOFTVC | 3",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇱🇹LT | vmess | @eliya_chiter0 | 3"
@@ -126,9 +126,9 @@
                 "🇰🇷KR | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇭🇰HK | vmess | @yaney_01 | 5",
-                "🏳️XX | vmess | @Hope_Net | 12",
+                "🏳️XX | vmess | @Hope_Net | 10",
                 "🇺🇦UA | vmess | @v2Line | 7",
-                "🇩🇪DE | vmess | @forwardv2ray | 18",
+                "🇹🇷TR | vmess | @forwardv2ray | 17",
                 "🇺🇸US | vmess | @FAKEOFTVC | 3",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇱🇹LT | vmess | @eliya_chiter0 | 3"
@@ -253,11 +253,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 12",
+            "tag": "🏳️XX | vmess | @Hope_Net | 10",
             "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 8080,
-            "uuid": "acbcaba-cbaa-cbaa-dbac-bbabacacccba",
+            "server": "mci.mosi.mosipro.ml",
+            "server_port": 443,
+            "uuid": "908072fb-c325-4fe2-98a2-df8acc1359c9",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -267,6 +267,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Dusseldorf.kotick.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/speedtest",
+                "headers": {
+                    "Host": "Dusseldorf.kotick.site"
+                }
             }
         },
         {
@@ -294,11 +311,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @forwardv2ray | 18",
+            "tag": "🇹🇷TR | vmess | @forwardv2ray | 17",
             "type": "vmess",
-            "server": "195.201.29.238",
-            "server_port": 24208,
-            "uuid": "1d244b9d-ce0f-49d5-99fd-da3f1e80ee59",
+            "server": "62.133.63.40",
+            "server_port": 14220,
+            "uuid": "2546df95-d3ea-4c93-88f8-b29ddac5690f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
