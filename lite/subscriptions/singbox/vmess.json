@@ -112,7 +112,8 @@
                 "🇭🇰HK | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 14",
                 "🇺🇦UA | vmess | @v2Line | 7",
-                "🇨🇦CA | vmess | @FAKEOFTVC | 4",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
+                "🇺🇸US | vmess | @FAKEOFTVC | 3",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇱🇹LT | vmess | @eliya_chiter0 | 3",
                 "🇮🇷IR | vmess | @SINABIGO | 6"
@@ -128,7 +129,8 @@
                 "🇭🇰HK | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 14",
                 "🇺🇦UA | vmess | @v2Line | 7",
-                "🇨🇦CA | vmess | @FAKEOFTVC | 4",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
+                "🇺🇸US | vmess | @FAKEOFTVC | 3",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇱🇹LT | vmess | @eliya_chiter0 | 3",
                 "🇮🇷IR | vmess | @SINABIGO | 6"
@@ -311,9 +313,43 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @FAKEOFTVC | 4",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
             "type": "vmess",
-            "server": "104.26.8.202",
+            "server": "1-vmessprotocol-channel-join-for-more-likethis.v2rayng.cfd",
+            "server_port": 2087,
+            "uuid": "7b798655-2534-4aff-bdf9-1fa063017711",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "1-vmessprotocol-channel-join-for-more-likethis.v2rayng.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "1-vmessprotocol-channel-join-for-more-likethis.v2rayng.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @FAKEOFTVC | 3",
+            "type": "vmess",
+            "server": "172.67.196.16",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
@@ -328,7 +364,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "vip2323.cfd",
+                "server_name": "kellie.makeup",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -340,7 +376,7 @@
                 "type": "ws",
                 "path": "\/linkvws",
                 "headers": {
-                    "Host": "vip2323.cfd"
+                    "Host": "kellie.makeup"
                 }
             }
         },
