@@ -125,7 +125,7 @@
                 "🇩🇪DE | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
-                "🇨🇦CA | vless | @proxy_kafee | 4",
+                "🇺🇸US | vless | @proxy_kafee | 4",
                 "🇩🇪DE | vless | @v2logy | 7",
                 "🏳️XX | vless | @V2rayCollector | 3",
                 "🇮🇷IR | vless | @azadi_az_inja_migzare | 2",
@@ -157,6 +157,7 @@
                 "🇸🇪SE | vless | @Capoit | 17",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @flyv2ray | 14",
+                "🇸🇪SE | vless | @forwardv2ray | 19",
                 "🇺🇸US | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 0",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -192,7 +193,7 @@
                 "🇩🇪DE | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
-                "🇨🇦CA | vless | @proxy_kafee | 4",
+                "🇺🇸US | vless | @proxy_kafee | 4",
                 "🇩🇪DE | vless | @v2logy | 7",
                 "🏳️XX | vless | @V2rayCollector | 3",
                 "🇮🇷IR | vless | @azadi_az_inja_migzare | 2",
@@ -224,6 +225,7 @@
                 "🇸🇪SE | vless | @Capoit | 17",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @flyv2ray | 14",
+                "🇸🇪SE | vless | @forwardv2ray | 19",
                 "🇺🇸US | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 0",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -757,7 +759,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxy_kafee | 4",
+            "tag": "🇺🇸US | vless | @proxy_kafee | 4",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 443,
@@ -1592,6 +1594,27 @@
                 "path": "\/",
                 "headers": {
                     "Host": "discord.gg"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "lightning6-joinbede.xn--vduxm832c504a.xyz",
+            "server_port": 8880,
+            "uuid": "c53d7f18-9606-4e97-bbab-9fea9ea13f95",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@LIGHTNING6, @LIGHTNING6",
+                "headers": {
+                    "Host": "lightning6-joinbede.xn--vduxm832c504a.xyz"
                 }
             }
         },
