@@ -129,7 +129,7 @@
                 "🇩🇪DE | vless | @v2logy | 7",
                 "🏳️XX | vless | @V2rayCollector | 3",
                 "🇮🇷IR | vless | @azadi_az_inja_migzare | 2",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇳🇱NL | vless | @V2rayNGn | 26",
                 "🇩🇪DE | trojan | @PrivateVPNs | 17",
@@ -146,7 +146,7 @@
                 "🇬🇧GB | vless | @ServerNett | 25",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | trojan | @v2ray_swhil | 33",
-                "🇳🇱NL | vless | @proxyymeliii | 15",
+                "🇮🇷IR | vless | @proxyymeliii | 15",
                 "🇨🇦CA | vless | @v2ray1_ng | 11",
                 "🇸🇪SE | vless | @V2RayTz | 15",
                 "🇩🇪DE | ss | @VmessProtocol | 16",
@@ -166,11 +166,11 @@
                 "🇸🇪SE | vless | @Capoit | 17",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🇨🇦CA | vmess | @forwardv2ray | 12",
                 "🇺🇸US | vmess | @FAKEOFTVC | 2",
                 "🇺🇸US | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 0",
-                "🇺🇸US | vmess | @nofiltering2 | 1",
+                "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇩🇪DE | vless | @kingofilter | 8",
                 "🇺🇸US | vless | @GozargahVPN | 8",
@@ -210,7 +210,7 @@
                 "🇩🇪DE | vless | @v2logy | 7",
                 "🏳️XX | vless | @V2rayCollector | 3",
                 "🇮🇷IR | vless | @azadi_az_inja_migzare | 2",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇳🇱NL | vless | @V2rayNGn | 26",
                 "🇩🇪DE | trojan | @PrivateVPNs | 17",
@@ -227,7 +227,7 @@
                 "🇬🇧GB | vless | @ServerNett | 25",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | trojan | @v2ray_swhil | 33",
-                "🇳🇱NL | vless | @proxyymeliii | 15",
+                "🇮🇷IR | vless | @proxyymeliii | 15",
                 "🇨🇦CA | vless | @v2ray1_ng | 11",
                 "🇸🇪SE | vless | @V2RayTz | 15",
                 "🇩🇪DE | ss | @VmessProtocol | 16",
@@ -247,11 +247,11 @@
                 "🇸🇪SE | vless | @Capoit | 17",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🇨🇦CA | vmess | @forwardv2ray | 12",
                 "🇺🇸US | vmess | @FAKEOFTVC | 2",
                 "🇺🇸US | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 0",
-                "🇺🇸US | vmess | @nofiltering2 | 1",
+                "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇩🇪DE | vless | @kingofilter | 8",
                 "🇺🇸US | vless | @GozargahVPN | 8",
@@ -902,7 +902,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "discord.com",
             "server_port": 443,
@@ -1338,34 +1338,17 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @proxyymeliii | 15",
+            "tag": "🇮🇷IR | vless | @proxyymeliii | 15",
             "type": "vless",
-            "server": "188.114.98.224",
-            "server_port": 443,
-            "uuid": "VPNCUSTOMIZE",
+            "server": "185.211.59.179",
+            "server_port": 15812,
+            "uuid": "c89dcf96-96bf-47ba-a154-e7fd6a772bd2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cp.kellekcollection.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/account\/cart\/buy",
-                "headers": {
-                    "Host": "cp.kellekcollection.com"
-                }
             }
         },
         {
@@ -1809,9 +1792,9 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 12",
             "type": "vmess",
-            "server": "104.21.12.173",
+            "server": "104.21.75.246",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
@@ -1826,7 +1809,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "meroiy.icu",
+                "server_name": "cf.tonyluk.link",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1836,9 +1819,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/ophelia.mom:443\/linkvws",
                 "headers": {
-                    "Host": "meroiy.icu"
+                    "Host": "cf.tonyluk.link"
                 }
             }
         },
@@ -1919,7 +1902,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @nofiltering2 | 1",
+            "tag": "🇨🇦CA | vmess | @nofiltering2 | 1",
             "type": "vmess",
             "server": "meroiy.icu",
             "server_port": 443,
