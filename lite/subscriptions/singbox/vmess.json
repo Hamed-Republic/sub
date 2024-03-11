@@ -111,8 +111,9 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 13",
                 "🇩🇪DE | vmess | @prrofile_purple | 183",
                 "🇭🇰HK | vmess | @yaney_01 | 5",
-                "🇫🇷FR | vmess | @Hope_Net | 7",
+                "🇫🇷FR | vmess | @Hope_Net | 9",
                 "🇨🇦CA | vmess | @v2Line | 6",
+                "🏳️XX | vmess | @forwardv2ray | 17",
                 "🇺🇸US | vmess | @nofiltering2 | 3",
                 "🇱🇹LT | vmess | @eliya_chiter0 | 5"
             ]
@@ -126,8 +127,9 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 13",
                 "🇩🇪DE | vmess | @prrofile_purple | 183",
                 "🇭🇰HK | vmess | @yaney_01 | 5",
-                "🇫🇷FR | vmess | @Hope_Net | 7",
+                "🇫🇷FR | vmess | @Hope_Net | 9",
                 "🇨🇦CA | vmess | @v2Line | 6",
+                "🏳️XX | vmess | @forwardv2ray | 17",
                 "🇺🇸US | vmess | @nofiltering2 | 3",
                 "🇱🇹LT | vmess | @eliya_chiter0 | 5"
             ],
@@ -268,7 +270,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vmess | @Hope_Net | 7",
+            "tag": "🇫🇷FR | vmess | @Hope_Net | 9",
             "type": "vmess",
             "server": "141.94.237.81",
             "server_port": 8443,
@@ -326,6 +328,23 @@
                 "headers": {
                     "Host": ""
                 }
+            }
+        },
+        {
+            "tag": "🏳️XX | vmess | @forwardv2ray | 17",
+            "type": "vmess",
+            "server": "127.0.0.1",
+            "server_port": 8080,
+            "uuid": "aabccba-caba-abca-bdca-caababccbbac",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
