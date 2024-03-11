@@ -115,7 +115,7 @@
                 "🇺🇸US | vless | @V2pedia | 17",
                 "🇨🇦CA | vless | @frev2ray | 13",
                 "🇨🇦CA | vless | @ARv2ray | 13",
-                "🇺🇸US | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 27",
                 "🇩🇪DE | vless | @vpn_xw | 0",
@@ -141,7 +141,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | trojan | @v2ray_swhil | 33",
                 "🇨🇦CA | vless | @proxyymeliii | 12",
-                "🇨🇦CA | vmess | @v2ray1_ng | 17",
+                "🇨🇦CA | vless | @v2ray1_ng | 16",
                 "🇮🇷IR | vless | @vless_vmess | 5",
                 "🇬🇧GB | vless | @V2RayTz | 19",
                 "🇬🇧GB | ss | @VmessProtocol | 10",
@@ -160,12 +160,12 @@
                 "🇩🇪DE | vless | @Capoit | 7",
                 "🇨🇷CR | vless | @IRN_VPN | 2",
                 "🇬🇧GB | vless | @flyv2ray | 14",
-                "🇺🇸US | vless | @forwardv2ray | 19",
-                "🇺🇸US | vless | @FAKEOFTVC | 5",
+                "🇳🇱NL | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @FAKEOFTVC | 5",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🇺🇸US | vmess | @nofiltering2 | 3",
                 "🏳️XX | vless | @vpn_go67 | 23",
-                "🇺🇸US | vless | @GozargahVPN | 8",
+                "🇨🇦CA | vless | @GozargahVPN | 8",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇱🇹LT | vmess | @eliya_chiter0 | 5",
                 "🇨🇦CA | vless | @FoXrayIran | 0",
@@ -188,7 +188,7 @@
                 "🇺🇸US | vless | @V2pedia | 17",
                 "🇨🇦CA | vless | @frev2ray | 13",
                 "🇨🇦CA | vless | @ARv2ray | 13",
-                "🇺🇸US | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 27",
                 "🇩🇪DE | vless | @vpn_xw | 0",
@@ -214,7 +214,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | trojan | @v2ray_swhil | 33",
                 "🇨🇦CA | vless | @proxyymeliii | 12",
-                "🇨🇦CA | vmess | @v2ray1_ng | 17",
+                "🇨🇦CA | vless | @v2ray1_ng | 16",
                 "🇮🇷IR | vless | @vless_vmess | 5",
                 "🇬🇧GB | vless | @V2RayTz | 19",
                 "🇬🇧GB | ss | @VmessProtocol | 10",
@@ -233,12 +233,12 @@
                 "🇩🇪DE | vless | @Capoit | 7",
                 "🇨🇷CR | vless | @IRN_VPN | 2",
                 "🇬🇧GB | vless | @flyv2ray | 14",
-                "🇺🇸US | vless | @forwardv2ray | 19",
-                "🇺🇸US | vless | @FAKEOFTVC | 5",
+                "🇳🇱NL | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @FAKEOFTVC | 5",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🇺🇸US | vmess | @nofiltering2 | 3",
                 "🏳️XX | vless | @vpn_go67 | 23",
-                "🇺🇸US | vless | @GozargahVPN | 8",
+                "🇨🇦CA | vless | @GozargahVPN | 8",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇱🇹LT | vmess | @eliya_chiter0 | 5",
                 "🇨🇦CA | vless | @FoXrayIran | 0",
@@ -522,7 +522,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @rxv2ray | 21",
+            "tag": "🇨🇦CA | vless | @rxv2ray | 21",
             "type": "vless",
             "server": "www.RxV2ray.sbs",
             "server_port": 2087,
@@ -1187,16 +1187,13 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @v2ray1_ng | 17",
-            "type": "vmess",
-            "server": "104.26.8.202",
+            "tag": "🇨🇦CA | vless | @v2ray1_ng | 16",
+            "type": "vless",
+            "server": "172.67.24.121",
             "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1204,7 +1201,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "vip2323.cfd",
+                "server_name": "Bia.alLhub.Ltd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1214,9 +1211,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/",
                 "headers": {
-                    "Host": "vip2323.cfd"
+                    "Host": "Bia.alLhub.Ltd"
                 }
             }
         },
@@ -1643,12 +1640,12 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @forwardv2ray | 19",
+            "tag": "🇳🇱NL | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "172.64.111.9",
+            "server": "77.246.99.239",
             "server_port": 443,
-            "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
-            "flow": "",
+            "uuid": "95889265-c183-4b99-a4ab-648245c05c89",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1657,24 +1654,22 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "edge.020770.xyz",
+                "server_name": "canva.heydasip.xyz",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vless\/b0138d55-a493-4dc3-9932-c6f0391707c1",
-                "headers": {
-                    "Host": "edge.020770.xyz"
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "oIXlVQLyObtIYcvEtVGXrathqaxBQd0keGCIrP_KHk8",
+                    "short_id": "b3c1fd20"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | vless | @FAKEOFTVC | 5",
+            "tag": "🇨🇦CA | vless | @FAKEOFTVC | 5",
             "type": "vless",
             "server": "web.thebestvv2.xyz",
             "server_port": 2053,
@@ -1796,7 +1791,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @GozargahVPN | 8",
+            "tag": "🇨🇦CA | vless | @GozargahVPN | 8",
             "type": "vless",
             "server": "www.GozargahVPN.top",
             "server_port": 443,
