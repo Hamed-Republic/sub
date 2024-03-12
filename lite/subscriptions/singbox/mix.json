@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @Parsashonam | 13",
+                "🇨🇦CA | vless | @Parsashonam | 11",
                 "🇨🇦CA | vless | @XsV2ray | 13",
                 "🇺🇸US | vless | @VlessConfig | 17",
                 "🇳🇱NL | vless | @VPNCUSTOMIZE | 26",
@@ -114,7 +114,7 @@
                 "🇨🇦CA | vless | @V2pedia | 21",
                 "🇨🇦CA | vless | @ARv2ray | 15",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇺🇸US | vless | @free_v2rayyy | 5",
+                "🇨🇦CA | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 27",
                 "🇩🇪DE | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -161,14 +161,14 @@
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇸🇪SE | vless | @flyv2ray | 14",
-                "🇩🇪DE | vless | @forwardv2ray | 19",
+                "🇸🇪SE | vless | @forwardv2ray | 18",
                 "🇩🇪DE | vless | @FAKEOFTVC | 4",
-                "🇸🇪SE | vless | @mehrosaboran | 9",
+                "🇨🇳CN | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vless | @kingofilter | 9",
-                "🇺🇸US | vless | @GozargahVPN | 8",
+                "🇨🇦CA | vless | @GozargahVPN | 8",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 6",
                 "🇨🇦CA | vless | @FoXrayIran | 0",
@@ -182,7 +182,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @Parsashonam | 13",
+                "🇨🇦CA | vless | @Parsashonam | 11",
                 "🇨🇦CA | vless | @XsV2ray | 13",
                 "🇺🇸US | vless | @VlessConfig | 17",
                 "🇳🇱NL | vless | @VPNCUSTOMIZE | 26",
@@ -190,7 +190,7 @@
                 "🇨🇦CA | vless | @V2pedia | 21",
                 "🇨🇦CA | vless | @ARv2ray | 15",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇺🇸US | vless | @free_v2rayyy | 5",
+                "🇨🇦CA | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 27",
                 "🇩🇪DE | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -237,14 +237,14 @@
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇸🇪SE | vless | @flyv2ray | 14",
-                "🇩🇪DE | vless | @forwardv2ray | 19",
+                "🇸🇪SE | vless | @forwardv2ray | 18",
                 "🇩🇪DE | vless | @FAKEOFTVC | 4",
-                "🇸🇪SE | vless | @mehrosaboran | 9",
+                "🇨🇳CN | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vless | @kingofilter | 9",
-                "🇺🇸US | vless | @GozargahVPN | 8",
+                "🇨🇦CA | vless | @GozargahVPN | 8",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 6",
                 "🇨🇦CA | vless | @FoXrayIran | 0",
@@ -274,11 +274,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | @Parsashonam | 13",
+            "tag": "🇨🇦CA | vless | @Parsashonam | 11",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8080,
-            "uuid": "Parsashonam-18",
+            "uuid": "Parsashonam-19",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -448,8 +448,8 @@
             "tag": "🇨🇦CA | vless | @ARv2ray | 15",
             "type": "vless",
             "server": "www.speedtest.net",
-            "server_port": 8443,
-            "uuid": "56bba4aa-ef64-4d52-b3a2-5792fb5680fa",
+            "server_port": 80,
+            "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -457,22 +457,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "s1.agh9731.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
             }
         },
         {
@@ -507,7 +497,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @free_v2rayyy | 5",
+            "tag": "🇨🇦CA | vless | @free_v2rayyy | 5",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2096,
@@ -1676,34 +1666,17 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 19",
+            "tag": "🇸🇪SE | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "54.37.76.9",
-            "server_port": 8080,
-            "uuid": "TMCUSTOMIZE--VPNCUSTOMIZE",
+            "server": "185.146.173.59",
+            "server_port": 8880,
+            "uuid": "8de82d81-92d5-4c5c-949b-fd376f6ab133",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cdn.kellekcollection.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@VPNCUSTOMIZE",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
@@ -1721,11 +1694,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @mehrosaboran | 9",
+            "tag": "🇨🇳CN | vless | @mehrosaboran | 7",
             "type": "vless",
-            "server": "185.146.173.22",
-            "server_port": 80,
-            "uuid": "-----DIGiV2RAY-----",
+            "server": "103.184.45.119",
+            "server_port": 8880,
+            "uuid": "7615186e-9080-4558-a2e2-57918427f022",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1735,9 +1708,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Digiv2ray-",
+                "path": "\/@LIGHTNING6, @LIGHTNING6",
                 "headers": {
-                    "Host": "185.146.173.22"
+                    "Host": "103.184.45.119"
                 }
             }
         },
@@ -1864,7 +1837,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @GozargahVPN | 8",
+            "tag": "🇨🇦CA | vless | @GozargahVPN | 8",
             "type": "vless",
             "server": "www.GozargahVPN.top",
             "server_port": 443,
