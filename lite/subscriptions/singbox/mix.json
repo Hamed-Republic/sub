@@ -124,7 +124,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 27",
                 "🇺🇸US | vless | @proxy_kafee | 3",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇩🇪DE | trojan | @PrivateVPNs | 16",
                 "🇸🇪SE | trojan | @DirectVPN | 15",
@@ -161,16 +161,16 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇪🇪EE | vmess | @v2Line | 6",
-                "🇨🇦CA | vless | @Capoit | 7",
+                "🇺🇸US | vless | @Capoit | 7",
                 "🇬🇧GB | vless | @flyv2ray | 14",
-                "🇩🇪DE | vless | @forwardv2ray | 19",
+                "🇺🇸US | vless | @forwardv2ray | 18",
                 "🇫🇷FR | vmess | @FAKEOFTVC | 5",
                 "🇺🇸US | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🇨🇦CA | vmess | @nofiltering2 | 3",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vless | @kingofilter | 7",
-                "🇨🇦CA | vless | @GozargahVPN | 8",
+                "🇺🇸US | vless | @GozargahVPN | 8",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 5",
                 "🇨🇦CA | vless | @FoXrayIran | 0",
@@ -202,7 +202,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 27",
                 "🇺🇸US | vless | @proxy_kafee | 3",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇩🇪DE | trojan | @PrivateVPNs | 16",
                 "🇸🇪SE | trojan | @DirectVPN | 15",
@@ -239,16 +239,16 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇪🇪EE | vmess | @v2Line | 6",
-                "🇨🇦CA | vless | @Capoit | 7",
+                "🇺🇸US | vless | @Capoit | 7",
                 "🇬🇧GB | vless | @flyv2ray | 14",
-                "🇩🇪DE | vless | @forwardv2ray | 19",
+                "🇺🇸US | vless | @forwardv2ray | 18",
                 "🇫🇷FR | vmess | @FAKEOFTVC | 5",
                 "🇺🇸US | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🇨🇦CA | vmess | @nofiltering2 | 3",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vless | @kingofilter | 7",
-                "🇨🇦CA | vless | @GozargahVPN | 8",
+                "🇺🇸US | vless | @GozargahVPN | 8",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 5",
                 "🇨🇦CA | vless | @FoXrayIran | 0",
@@ -784,7 +784,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "discord.com",
             "server_port": 443,
@@ -1687,7 +1687,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Capoit | 7",
+            "tag": "🇺🇸US | vless | @Capoit | 7",
             "type": "vless",
             "server": "web.thebestvv2.xyz",
             "server_port": 2053,
@@ -1739,12 +1739,12 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 19",
+            "tag": "🇺🇸US | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "3.77.151.153",
-            "server_port": 2087,
-            "uuid": "4882ab86-4383-4ce3-96dc-edde92ab7b6e",
-            "flow": "xtls-rprx-vision",
+            "server": "172.64.111.9",
+            "server_port": 443,
+            "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1753,25 +1753,20 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.tgju.org",
+                "server_name": "edge.020770.xyz",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "randomized"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "eiX6rafEOu1xTvqWtOR__vMD3UimIyb05mK_9UeqcBg",
-                    "short_id": "e0a50eb1"
+                    "fingerprint": "chrome"
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "www.tgju.org",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/vless\/b0138d55-a493-4dc3-9932-c6f0391707c1",
+                "headers": {
+                    "Host": "edge.020770.xyz"
+                }
             }
         },
         {
@@ -1935,7 +1930,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @GozargahVPN | 8",
+            "tag": "🇺🇸US | vless | @GozargahVPN | 8",
             "type": "vless",
             "server": "www.GozargahVPN.top",
             "server_port": 443,
