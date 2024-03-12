@@ -163,7 +163,6 @@
                 "🇪🇪EE | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇬🇧GB | vless | @flyv2ray | 14",
-                "🇨🇦CA | vmess | @forwardv2ray | 8",
                 "🇫🇷FR | vmess | @FAKEOFTVC | 5",
                 "🇺🇸US | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 1",
@@ -241,7 +240,6 @@
                 "🇪🇪EE | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇬🇧GB | vless | @flyv2ray | 14",
-                "🇨🇦CA | vmess | @forwardv2ray | 8",
                 "🇫🇷FR | vmess | @FAKEOFTVC | 5",
                 "🇺🇸US | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 1",
@@ -1728,30 +1726,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "Join.ShhProxy.Site"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 8",
-            "type": "vmess",
-            "server": "104.21.224.1",
-            "server_port": 80,
-            "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/&Telegram🇨🇳",
-                "headers": {
-                    "Host": ""
                 }
             }
         },
