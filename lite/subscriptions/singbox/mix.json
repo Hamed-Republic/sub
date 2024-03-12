@@ -113,9 +113,8 @@
                 "🇩🇪DE | vless | @ipV2Ray | 9",
                 "🇳🇱NL | vless | @frev2ray | 12",
                 "🇨🇦CA | vless | @ARv2ray | 16",
-                "🇸🇪SE | vless | @shh_proxy | 19",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇨🇦CA | vless | @free_v2rayyy | 5",
+                "🇺🇸US | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 27",
                 "🇩🇪DE | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -161,7 +160,7 @@
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇸🇪SE | vless | @flyv2ray | 14",
-                "🇩🇪DE | vless | @forwardv2ray | 18",
+                "🇸🇪SE | vless | @forwardv2ray | 18",
                 "🇫🇷FR | vmess | @FAKEOFTVC | 5",
                 "🇺🇸US | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 1",
@@ -189,9 +188,8 @@
                 "🇩🇪DE | vless | @ipV2Ray | 9",
                 "🇳🇱NL | vless | @frev2ray | 12",
                 "🇨🇦CA | vless | @ARv2ray | 16",
-                "🇸🇪SE | vless | @shh_proxy | 19",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇨🇦CA | vless | @free_v2rayyy | 5",
+                "🇺🇸US | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 27",
                 "🇩🇪DE | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -237,7 +235,7 @@
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇸🇪SE | vless | @flyv2ray | 14",
-                "🇩🇪DE | vless | @forwardv2ray | 18",
+                "🇸🇪SE | vless | @forwardv2ray | 18",
                 "🇫🇷FR | vmess | @FAKEOFTVC | 5",
                 "🇺🇸US | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 1",
@@ -469,37 +467,6 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @shh_proxy | 19",
-            "type": "vless",
-            "server": "Join.ShhProxy.Site",
-            "server_port": 443,
-            "uuid": "4bb0e691-8f30-408e-8fc7-4a78b750cd01",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "shhproxy-free.xn--85-pv2cl2k5x3fipr.org.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "shhproxy-free.xn--85-pv2cl2k5x3fipr.org."
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @rxv2ray | 21",
             "type": "vless",
             "server": "www.RxV2ray.sbs",
@@ -531,7 +498,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @free_v2rayyy | 5",
+            "tag": "🇺🇸US | vless | @free_v2rayyy | 5",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2096,
@@ -1445,9 +1412,9 @@
         {
             "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 15",
             "type": "vless",
-            "server": "104.18.200.203",
-            "server_port": 2086,
-            "uuid": "22460f3c-1e4f-4999-9032-22d1220a6345",
+            "server": "iranserver.com",
+            "server_port": 80,
+            "uuid": "686118d2-0e05-411b-937e-2a117d3aee3b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1457,9 +1424,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed",
                 "headers": {
-                    "Host": "104.18.200.203"
+                    "Host": "iranserver.com"
                 }
             }
         },
@@ -1642,11 +1609,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 18",
+            "tag": "🇸🇪SE | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "154.197.75.80",
-            "server_port": 80,
-            "uuid": "DIGiV2RAY",
+            "server": "Join.ShhProxy.Site",
+            "server_port": 443,
+            "uuid": "4d8f502c-2d35-4d6a-8e0a-260d3bf55258",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1654,11 +1621,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "shhproxy.xn--85-pv2cl2k5x3fipr.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Digiv2ray-",
+                "path": "\/",
                 "headers": {
-                    "Host": "154.197.75.80"
+                    "Host": "shhproxy.xn--85-pv2cl2k5x3fipr.org"
                 }
             }
         },
