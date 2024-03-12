@@ -125,9 +125,9 @@
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇨🇦CA | vless | @servermomo | 3",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 1",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇮🇷IR | vless | @prrofile_purple | 185",
+                "🇸🇪SE | vless | @prrofile_purple | 175",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 18",
                 "🇨🇦CA | vless | @vmessorg | 35",
@@ -143,9 +143,9 @@
                 "🇨🇦CA | vless | @DailyV2RY | 112",
                 "🇨🇦CA | vless | @sinabigo | 8",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
-                "🇨🇦CA | vless | @proxystore11 | 11",
+                "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇩🇪DE | vless | @fnet00 | 1",
-                "🇨🇦CA | vless | @polproxy | 9",
+                "🇨🇦CA | vless | @polproxy | 8",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 3",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
@@ -157,7 +157,7 @@
                 "🇩🇪DE | vless | @kiava | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vless | @kingofilter | 9",
-                "🇺🇸US | vless | @GozargahVPN | 8",
+                "🇨🇦CA | vless | @GozargahVPN | 8",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇨🇦CA | vless | @FoXrayIran | 0",
                 "🇨🇦CA | vless | @V2FETCH | 7",
@@ -188,9 +188,9 @@
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇨🇦CA | vless | @servermomo | 3",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 1",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇮🇷IR | vless | @prrofile_purple | 185",
+                "🇸🇪SE | vless | @prrofile_purple | 175",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 18",
                 "🇨🇦CA | vless | @vmessorg | 35",
@@ -206,9 +206,9 @@
                 "🇨🇦CA | vless | @DailyV2RY | 112",
                 "🇨🇦CA | vless | @sinabigo | 8",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
-                "🇨🇦CA | vless | @proxystore11 | 11",
+                "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇩🇪DE | vless | @fnet00 | 1",
-                "🇨🇦CA | vless | @polproxy | 9",
+                "🇨🇦CA | vless | @polproxy | 8",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 3",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
@@ -220,7 +220,7 @@
                 "🇩🇪DE | vless | @kiava | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vless | @kingofilter | 9",
-                "🇺🇸US | vless | @GozargahVPN | 8",
+                "🇨🇦CA | vless | @GozargahVPN | 8",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇨🇦CA | vless | @FoXrayIran | 0",
                 "🇨🇦CA | vless | @V2FETCH | 7",
@@ -765,7 +765,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "discord.com",
             "server_port": 443,
@@ -817,17 +817,24 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @prrofile_purple | 185",
+            "tag": "🇸🇪SE | vless | @prrofile_purple | 175",
             "type": "vless",
-            "server": "217.114.40.135",
-            "server_port": 8443,
-            "uuid": "6aa6cb06-c20c-44a9-f22b-036407e37556",
+            "server": "185.146.173.51",
+            "server_port": 80,
+            "uuid": "-DIGiV2RAY-",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Digiv2ray-",
+                "headers": {
+                    "Host": "185.146.173.51"
+                }
             }
         },
         {
@@ -1204,7 +1211,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxystore11 | 11",
+            "tag": "🇨🇦CA | vless | @proxystore11 | 10",
             "type": "vless",
             "server": "discord.gg",
             "server_port": 8443,
@@ -1271,11 +1278,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @polproxy | 9",
+            "tag": "🇨🇦CA | vless | @polproxy | 8",
             "type": "vless",
-            "server": "23.227.60.130",
-            "server_port": 2095,
-            "uuid": "1cd59a82-6434-4fbc-87a5-065652788921",
+            "server": "104.16.32.40",
+            "server_port": 2087,
+            "uuid": "6c3011ac-6d8d-41ba-bef1-2d8425c22dff",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1283,12 +1290,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY",
-                "headers": {
-                    "Host": "23.227.60.130"
+            "tls": {
+                "enabled": true,
+                "server_name": "hu.moienmusic.space",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@Polproxy,@Polproxy,@Polproxy,@Polproxy,@Polproxy,@Polproxy,@Polproxy,@Polproxy,@Polproxy,@Polproxy,@Polproxy,@Polproxy,@Polproxy,@Polproxy,@Polproxy",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1428,9 +1445,9 @@
         {
             "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "Vpn-MikeyMci.myftp.org",
-            "server_port": 80,
-            "uuid": "ad8b3d44-bef5-42cc-8fb1-a0da4ecf8d23",
+            "server": "st-pl-1.brocdn.com",
+            "server_port": 443,
+            "uuid": "624a4690-e06a-11ee-95c9-00505603e70d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1438,11 +1455,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "st-pl-1.brocdn.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@Vpn_Mikey،@Vpn_Mikey",
+                "path": "\/websocket",
                 "headers": {
-                    "Host": "Vpn-MikeyMci.myftp.org"
+                    "Host": "st-pl-1.brocdn.com"
                 }
             }
         },
@@ -1556,7 +1583,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @GozargahVPN | 8",
+            "tag": "🇨🇦CA | vless | @GozargahVPN | 8",
             "type": "vless",
             "server": "www.GozargahVPN.top",
             "server_port": 443,
