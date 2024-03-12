@@ -112,7 +112,7 @@
                 "🇨🇳CN | vmess | @yaney_01 | 3",
                 "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇪🇪EE | vmess | @v2Line | 6",
-                "🇫🇷FR | vmess | @FAKEOFTVC | 5",
+                "🇺🇸US | vmess | @forwardv2ray | 11",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 6"
             ]
@@ -127,7 +127,7 @@
                 "🇨🇳CN | vmess | @yaney_01 | 3",
                 "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇪🇪EE | vmess | @v2Line | 6",
-                "🇫🇷FR | vmess | @FAKEOFTVC | 5",
+                "🇺🇸US | vmess | @forwardv2ray | 11",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 6"
             ],
@@ -275,11 +275,11 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vmess | @FAKEOFTVC | 5",
+            "tag": "🇺🇸US | vmess | @forwardv2ray | 11",
             "type": "vmess",
-            "server": "141.94.237.81",
-            "server_port": 8443,
-            "uuid": "4b994ea4-6a99-442d-9db9-06df89cca050",
+            "server": "172.67.196.16",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -292,12 +292,19 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "download.ir",
+                "server_name": "kellie.makeup",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "kellie.makeup"
                 }
             }
         },
