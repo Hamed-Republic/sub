@@ -110,9 +110,9 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 14",
                 "🇸🇬SG | vmess | @yaney_01 | 2",
-                "🏳️XX | vmess | @Hope_Net | 0",
+                "🏳️XX | vmess | @Hope_Net | 1",
                 "🇭🇰HK | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇺🇸US | vmess | @FAKEOFTVC | 4",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🇺🇸US | vmess | @eliya_chiter0 | 2"
@@ -126,9 +126,9 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 14",
                 "🇸🇬SG | vmess | @yaney_01 | 2",
-                "🏳️XX | vmess | @Hope_Net | 0",
+                "🏳️XX | vmess | @Hope_Net | 1",
                 "🇭🇰HK | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇺🇸US | vmess | @FAKEOFTVC | 4",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🇺🇸US | vmess | @eliya_chiter0 | 2"
@@ -229,7 +229,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 0",
+            "tag": "🏳️XX | vmess | @Hope_Net | 1",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
@@ -270,11 +270,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
             "type": "vmess",
-            "server": "104.21.15.36",
-            "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "server": "104.21.10.205",
+            "server_port": 2083,
+            "uuid": "7453a796-159d-43a9-ddc9-20cead7886a8",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -287,7 +287,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
+                "server_name": "http.cdn-tgju.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -297,9 +297,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/twos",
                 "headers": {
-                    "Host": "linde06.indiavideo.sbs"
+                    "Host": "http.cdn-tgju.org"
                 }
             }
         },
