@@ -129,6 +129,7 @@
                 "🏳️XX | vless | @FalconPolV2rayNG | 1",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 7",
                 "🇬🇧GB | vless | @v2ray_swhil | 31",
+                "🇹🇷TR | vless | @vless_vmess | 0",
                 "🏳️XX | vless | @V2RayTz | 4",
                 "🇩🇪DE | vless | @lrnbymaa | 1",
                 "🇩🇪DE | vless | @fnet00 | 1",
@@ -196,6 +197,7 @@
                 "🏳️XX | vless | @FalconPolV2rayNG | 1",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 7",
                 "🇬🇧GB | vless | @v2ray_swhil | 31",
+                "🇹🇷TR | vless | @vless_vmess | 0",
                 "🏳️XX | vless | @V2RayTz | 4",
                 "🇩🇪DE | vless | @lrnbymaa | 1",
                 "🇩🇪DE | vless | @fnet00 | 1",
@@ -1039,6 +1041,35 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇹🇷TR | vless | @vless_vmess | 0",
+            "type": "vless",
+            "server": "turkey-01.ptu.ink",
+            "server_port": 443,
+            "uuid": "8633c34c-573a-4e2c-b3bf-1b6ea42101f0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.microsoft.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "zGp41QGUA2TBVirEaFS34_n05w38JxQHKbqQxS-iHzM",
+                    "short_id": "cd2ccdd9761335d4"
+                }
             }
         },
         {
