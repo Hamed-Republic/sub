@@ -117,7 +117,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇺🇸US | vless | @free_v2rayyy | 5",
-                "🇸🇪SE | vless | @lightning6 | 29",
+                "🇸🇪SE | vless | @lightning6 | 32",
                 "🇩🇪DE | vless | @vpn_xw | 2",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
@@ -162,13 +162,13 @@
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇷CR | vless | @IRN_VPN | 1",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇺🇸US | trojan | @forwardv2ray | 16",
+                "🇳🇱NL | vmess | @forwardv2ray | 11",
                 "🇺🇸US | vmess | @FAKEOFTVC | 4",
                 "🇨🇳CN | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
-                "🇨🇦CA | vless | @GozargahVPN | 8",
+                "🇺🇸US | vless | @GozargahVPN | 8",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 5",
                 "🇨🇦CA | vless | @FoXrayIran | 0",
@@ -194,7 +194,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇺🇸US | vless | @free_v2rayyy | 5",
-                "🇸🇪SE | vless | @lightning6 | 29",
+                "🇸🇪SE | vless | @lightning6 | 32",
                 "🇩🇪DE | vless | @vpn_xw | 2",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
@@ -239,13 +239,13 @@
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇷CR | vless | @IRN_VPN | 1",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇺🇸US | trojan | @forwardv2ray | 16",
+                "🇳🇱NL | vmess | @forwardv2ray | 11",
                 "🇺🇸US | vmess | @FAKEOFTVC | 4",
                 "🇨🇳CN | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
-                "🇨🇦CA | vless | @GozargahVPN | 8",
+                "🇺🇸US | vless | @GozargahVPN | 8",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 5",
                 "🇨🇦CA | vless | @FoXrayIran | 0",
@@ -595,7 +595,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @lightning6 | 29",
+            "tag": "🇸🇪SE | vless | @lightning6 | 32",
             "type": "vless",
             "server": "185.146.173.59",
             "server_port": 8880,
@@ -1678,11 +1678,16 @@
             }
         },
         {
-            "tag": "🇺🇸US | trojan | @forwardv2ray | 16",
-            "type": "trojan",
-            "server": "3.16.100.8",
-            "server_port": 22222,
-            "password": "telegram-id-directvpn",
+            "tag": "🇳🇱NL | vmess | @forwardv2ray | 11",
+            "type": "vmess",
+            "server": "188.114.97.3",
+            "server_port": 443,
+            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1690,12 +1695,19 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "trojan.miwan.co.uk",
+                "server_name": "afrhms16v.bestxray.buzz",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "afrhms16v.bestxray.buzz"
                 }
             }
         },
@@ -1836,7 +1848,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @GozargahVPN | 8",
+            "tag": "🇺🇸US | vless | @GozargahVPN | 8",
             "type": "vless",
             "server": "www.GozargahVPN.top",
             "server_port": 443,
