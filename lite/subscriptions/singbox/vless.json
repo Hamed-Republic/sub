@@ -106,13 +106,13 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @EliV2ray | 4",
+                "🇨🇦CA | vless | @EliV2ray | 3",
                 "🇨🇦CA | vless | @Parsashonam | 13",
                 "🇩🇪DE | vless | @NIM_VPN_ir | 5",
                 "🇩🇪DE | vless | @VlessConfig | 17",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 26",
                 "🇩🇪DE | vless | @ipV2Ray | 12",
-                "🇺🇸US | vless | @melov2ray | 2",
+                "🇨🇦CA | vless | @melov2ray | 4",
                 "🇨🇦CA | vless | @V2pedia | 25",
                 "🇳🇱NL | vless | @frev2ray | 15",
                 "🇨🇦CA | vless | @ARv2ray | 13",
@@ -154,6 +154,7 @@
                 "🇨🇦CA | vless | @Capoit | 13",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇸🇪SE | vless | @flyv2ray | 15",
+                "🇩🇪DE | vless | @forwardv2ray | 17",
                 "🇺🇸US | vless | @FAKEOFTVC | 3",
                 "🇺🇸US | vless | @mehrosaboran | 14",
                 "🇩🇪DE | vless | @kiava | 2",
@@ -172,13 +173,13 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @EliV2ray | 4",
+                "🇨🇦CA | vless | @EliV2ray | 3",
                 "🇨🇦CA | vless | @Parsashonam | 13",
                 "🇩🇪DE | vless | @NIM_VPN_ir | 5",
                 "🇩🇪DE | vless | @VlessConfig | 17",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 26",
                 "🇩🇪DE | vless | @ipV2Ray | 12",
-                "🇺🇸US | vless | @melov2ray | 2",
+                "🇨🇦CA | vless | @melov2ray | 4",
                 "🇨🇦CA | vless | @V2pedia | 25",
                 "🇳🇱NL | vless | @frev2ray | 15",
                 "🇨🇦CA | vless | @ARv2ray | 13",
@@ -220,6 +221,7 @@
                 "🇨🇦CA | vless | @Capoit | 13",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇸🇪SE | vless | @flyv2ray | 15",
+                "🇩🇪DE | vless | @forwardv2ray | 17",
                 "🇺🇸US | vless | @FAKEOFTVC | 3",
                 "🇺🇸US | vless | @mehrosaboran | 14",
                 "🇩🇪DE | vless | @kiava | 2",
@@ -254,9 +256,9 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | @EliV2ray | 4",
+            "tag": "🇨🇦CA | vless | @EliV2ray | 3",
             "type": "vless",
-            "server": "discord.gg",
+            "server": "104.16.41.124",
             "server_port": 2083,
             "uuid": "cead5a7e-4a1d-4f93-8825-429969dd2fb8",
             "flow": "",
@@ -423,7 +425,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @melov2ray | 2",
+            "tag": "🇨🇦CA | vless | @melov2ray | 4",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -1524,6 +1526,42 @@
                 "headers": {
                     "Host": "shhproxy-free.xn--85-pv2cl2k5x3fipr.org."
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "503.quickvpn.shop",
+            "server_port": 567,
+            "uuid": "8aea43f9-77a8-4089-9402-428f623cc6f7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "kodular.io",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "L-3BNMN89itwyzSnsv4WihvszKdDONmUN9ewQYDMN1Y",
+                    "short_id": "a63e2394f0e08731"
+                }
+            },
+            "transport": {
+                "type": "http",
+                "host": [
+                    "kodular.io"
+                ],
+                "path": "\/"
             }
         },
         {
