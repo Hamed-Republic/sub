@@ -114,8 +114,9 @@
                 "🇸🇬SG | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vmess | @v2Line | 7",
+                "🏳️XX | vmess | @forwardv2ray | 18",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
-                "🇺🇸US | vmess | @eliya_chiter0 | 0"
+                "🇨🇦CA | vmess | @eliya_chiter0 | 0"
             ]
         },
         {
@@ -130,8 +131,9 @@
                 "🇸🇬SG | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vmess | @v2Line | 7",
+                "🏳️XX | vmess | @forwardv2ray | 18",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
-                "🇺🇸US | vmess | @eliya_chiter0 | 0"
+                "🇨🇦CA | vmess | @eliya_chiter0 | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -328,6 +330,23 @@
             }
         },
         {
+            "tag": "🏳️XX | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "127.0.0.1",
+            "server_port": 6081,
+            "uuid": "13d33245-2960-471b-9696-b64c5c7d1c51",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇺🇸US | vmess | @nofiltering2 | 1",
             "type": "vmess",
             "server": "172.67.196.110",
@@ -362,7 +381,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @eliya_chiter0 | 0",
+            "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 0",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 443,
