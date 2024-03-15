@@ -175,7 +175,7 @@ proxies:
   - {"name":"🇩🇪DE | vless | @freeconfigv2 | 6","type":"vless","server":"165.22.86.111","port":35706,"udp":true,"uuid":"d7e2e880-6c53-4c9e-a8bd-fb0f9ee44d15","tls":true,"network":"grpc","client-fingerprint":"firefox","servername":"discord.com","flow":"xtls-rprx-vision","grpc-opts":{"grpc-service-name":"@proxyforopeta"},"reality-opts":{"public-key":"eQMKCvrH1XrSNLppyikU40TgDyB8sgwnQ2rXY_94-lQ","short-id":"a085ef71"}}
   - {"name":"🇩🇪DE | vless | @freeconfigv2 | 10","type":"vless","server":"195.201.46.160","port":8443,"udp":true,"uuid":"50e2a82b-06c8-453e-b17a-b304a277434c","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"www.speedtest.net","flow":"xtls-rprx-vision","reality-opts":{"public-key":"Z3ZGnAOdKkzJ07gR_7_0k9_iTTFP6paDOrqx1rN2LU4","short-id":"11"}}
   - {"name":"🇩🇪DE | vless | @freeconfigv2 | 13","type":"vless","server":"51.75.86.63","port":443,"udp":true,"uuid":"d0e657b8-c01b-433c-b605-2bd475da74d9","tls":true,"network":"tcp","client-fingerprint":"edge","servername":"www.flightradar24.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"UDABcxpKzAYkuyE4pmST0OSzEUJpQNuSgYIKcgppeh8","short-id":"d73382b02fa94fc2"}}
-  - {"name":"🇮🇷IR | vless | @TVCminer | 5","type":"vless","server":"xui24.meteorshoper.tech","port":8080,"udp":true,"uuid":"8561a52e-1c08-43d4-aa61-1e37bb0506f5","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"www.speedtest.net","reality-opts":{"public-key":"lONSKGopanXOWxNZMDZv4je6RVCjaiUhsMNjGXJH3C8","short-id":"137c0031"}}
+  - {"name":"🇮🇷IR | vless | @TVCminer | 73","type":"vless","server":"xui24.meteorshoper.tech","port":8080,"udp":true,"uuid":"8561a52e-1c08-43d4-aa61-1e37bb0506f5","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"www.speedtest.net","reality-opts":{"public-key":"lONSKGopanXOWxNZMDZv4je6RVCjaiUhsMNjGXJH3C8","short-id":"137c0031"}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -237,7 +237,7 @@ proxy-groups:
       - '🇩🇪DE | vless | @freeconfigv2 | 6'
       - '🇩🇪DE | vless | @freeconfigv2 | 10'
       - '🇩🇪DE | vless | @freeconfigv2 | 13'
-      - '🇮🇷IR | vless | @TVCminer | 5'
+      - '🇮🇷IR | vless | @TVCminer | 73'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -299,7 +299,7 @@ proxy-groups:
       - '🇩🇪DE | vless | @freeconfigv2 | 6'
       - '🇩🇪DE | vless | @freeconfigv2 | 10'
       - '🇩🇪DE | vless | @freeconfigv2 | 13'
-      - '🇮🇷IR | vless | @TVCminer | 5'
+      - '🇮🇷IR | vless | @TVCminer | 73'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -360,7 +360,7 @@ proxy-groups:
       - '🇩🇪DE | vless | @freeconfigv2 | 6'
       - '🇩🇪DE | vless | @freeconfigv2 | 10'
       - '🇩🇪DE | vless | @freeconfigv2 | 13'
-      - '🇮🇷IR | vless | @TVCminer | 5'
+      - '🇮🇷IR | vless | @TVCminer | 73'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
