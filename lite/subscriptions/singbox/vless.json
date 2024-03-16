@@ -160,8 +160,8 @@
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇩🇪DE | vless | @flyv2ray | 16",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
-                "🇨🇦CA | vless | @FAKEOFTVC | 10",
+                "🇺🇸US | vless | @forwardv2ray | 19",
+                "🇺🇸US | vless | @FAKEOFTVC | 10",
                 "🇺🇸US | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 3",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -233,8 +233,8 @@
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇩🇪DE | vless | @flyv2ray | 16",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
-                "🇨🇦CA | vless | @FAKEOFTVC | 10",
+                "🇺🇸US | vless | @forwardv2ray | 19",
+                "🇺🇸US | vless | @FAKEOFTVC | 10",
                 "🇺🇸US | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 3",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -1725,38 +1725,21 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
+            "tag": "🇺🇸US | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "00-join.outline-vpn.cloud",
-            "server_port": 443,
-            "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
+            "server": "173.245.58.100",
+            "server_port": 8080,
+            "uuid": "d716b17b-f097-49ae-8367-ae84a3760659",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "edge.020770.xyz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vless\/b0138d55-a493-4dc3-9932-c6f0391707c1?ed",
-                "headers": {
-                    "Host": "edge.020770.xyz"
-                }
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FAKEOFTVC | 10",
+            "tag": "🇺🇸US | vless | @FAKEOFTVC | 10",
             "type": "vless",
             "server": "sv1.cardnet.sbs",
             "server_port": 443,
