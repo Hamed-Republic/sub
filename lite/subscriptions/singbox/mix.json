@@ -118,7 +118,7 @@
                 "🇨🇦CA | vless | @ARv2ray | 13",
                 "🇸🇪SE | vless | @shh_proxy | 23",
                 "🇨🇦CA | vless | @Lockey_vpn | 12",
-                "🇺🇸US | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇺🇸US | vless | @free_v2rayyy | 6",
                 "🇸🇪SE | vless | @lightning6 | 32",
                 "🇺🇦UA | vless | @vpn_xw | 1",
@@ -168,7 +168,7 @@
                 "🇨🇦CA | vmess | @v2Line | 7",
                 "🇨🇦CA | vless | @Capoit | 9",
                 "🇩🇪DE | vless | @flyv2ray | 15",
-                "🇫🇷FR | ss | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇷🇴RO | vless | @FAKEOFTVC | 10",
                 "🇺🇸US | vless | @mehrosaboran | 4",
                 "🇩🇪DE | vless | @kiava | 3",
@@ -201,7 +201,7 @@
                 "🇨🇦CA | vless | @ARv2ray | 13",
                 "🇸🇪SE | vless | @shh_proxy | 23",
                 "🇨🇦CA | vless | @Lockey_vpn | 12",
-                "🇺🇸US | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇺🇸US | vless | @free_v2rayyy | 6",
                 "🇸🇪SE | vless | @lightning6 | 32",
                 "🇺🇦UA | vless | @vpn_xw | 1",
@@ -251,7 +251,7 @@
                 "🇨🇦CA | vmess | @v2Line | 7",
                 "🇨🇦CA | vless | @Capoit | 9",
                 "🇩🇪DE | vless | @flyv2ray | 15",
-                "🇫🇷FR | ss | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇷🇴RO | vless | @FAKEOFTVC | 10",
                 "🇺🇸US | vless | @mehrosaboran | 4",
                 "🇩🇪DE | vless | @kiava | 3",
@@ -608,7 +608,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @rxv2ray | 21",
+            "tag": "🇨🇦CA | vless | @rxv2ray | 21",
             "type": "vless",
             "server": "www.RxV2ray.sbs",
             "server_port": 2087,
@@ -1851,14 +1851,35 @@
             }
         },
         {
-            "tag": "🇫🇷FR | ss | @forwardv2ray | 18",
-            "type": "shadowsocks",
-            "server": "paris.telegavpn.com",
-            "server_port": 9802,
-            "method": "chacha20-ietf-poly1305",
-            "password": "LeFsTxhOLm6ih3RyVq1Ovd",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "162.159.135.79",
+            "server_port": 443,
+            "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "edge.020770.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vless\/b0138d55-a493-4dc3-9932-c6f0391707c1",
+                "headers": {
+                    "Host": "edge.020770.xyz"
+                }
+            }
         },
         {
             "tag": "🇷🇴RO | vless | @FAKEOFTVC | 10",
