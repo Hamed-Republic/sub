@@ -112,7 +112,7 @@
                 "🇨🇦CA | vless | @XsV2ray | 12",
                 "🇩🇪DE | vless | @VlessConfig | 17",
                 "🇫🇮FI | vless | @ipV2Ray | 16",
-                "🇨🇦CA | vless | @melov2ray | 6",
+                "🇺🇸US | vless | @melov2ray | 8",
                 "🇨🇦CA | vless | @frev2ray | 19",
                 "🇫🇮FI | vless | @ARv2ray | 12",
                 "🇸🇪SE | vless | @shh_proxy | 23",
@@ -157,6 +157,7 @@
                 "🇨🇦CA | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇨🇦CA | vless | @flyv2ray | 16",
+                "🇸🇪SE | vless | @forwardv2ray | 17",
                 "🇷🇴RO | vless | @FAKEOFTVC | 11",
                 "🇺🇸US | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -180,7 +181,7 @@
                 "🇨🇦CA | vless | @XsV2ray | 12",
                 "🇩🇪DE | vless | @VlessConfig | 17",
                 "🇫🇮FI | vless | @ipV2Ray | 16",
-                "🇨🇦CA | vless | @melov2ray | 6",
+                "🇺🇸US | vless | @melov2ray | 8",
                 "🇨🇦CA | vless | @frev2ray | 19",
                 "🇫🇮FI | vless | @ARv2ray | 12",
                 "🇸🇪SE | vless | @shh_proxy | 23",
@@ -225,6 +226,7 @@
                 "🇨🇦CA | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇨🇦CA | vless | @flyv2ray | 16",
+                "🇸🇪SE | vless | @forwardv2ray | 17",
                 "🇷🇴RO | vless | @FAKEOFTVC | 11",
                 "🇺🇸US | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -422,7 +424,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 6",
+            "tag": "🇺🇸US | vless | @melov2ray | 8",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -1588,6 +1590,27 @@
                 "path": "\/",
                 "headers": {
                     "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "185.146.173.59",
+            "server_port": 8880,
+            "uuid": "083bff70-bd64-45c2-8980-e4853225eda9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@LIGHTNING6, @LIGHTNING6",
+                "headers": {
+                    "Host": "185.146.173.59"
                 }
             }
         },
