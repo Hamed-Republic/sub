@@ -111,7 +111,7 @@
                 "🇨🇦CA | vless | @XsV2ray | 12",
                 "🇺🇸US | vless | @VlessConfig | 18",
                 "🇫🇮FI | vless | @ipV2Ray | 17",
-                "🇺🇸US | vless | @melov2ray | 8",
+                "🇨🇦CA | vless | @melov2ray | 8",
                 "🇨🇦CA | vless | @frev2ray | 19",
                 "🇸🇪SE | vless | @shh_proxy | 23",
                 "🇨🇦CA | vless | @Lockey_vpn | 12",
@@ -126,7 +126,7 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇩🇪DE | vless | @V2rayNGn | 23",
-                "🇸🇪SE | trojan | @PrivateVPNs | 18",
+                "🇩🇪DE | trojan | @PrivateVPNs | 18",
                 "🇮🇪IE | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 18",
@@ -163,9 +163,9 @@
                 "🇩🇪DE | vless | @Capoit | 8",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇺🇸US | vmess | @forwardv2ray | 19",
+                "🇧🇭BH | ss | @forwardv2ray | 13",
                 "🇩🇪DE | vless | @FAKEOFTVC | 9",
-                "🇺🇸US | vless | @mehrosaboran | 7",
+                "🇺🇸US | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🏳️XX | vless | @kingofilter | 7",
@@ -189,7 +189,7 @@
                 "🇨🇦CA | vless | @XsV2ray | 12",
                 "🇺🇸US | vless | @VlessConfig | 18",
                 "🇫🇮FI | vless | @ipV2Ray | 17",
-                "🇺🇸US | vless | @melov2ray | 8",
+                "🇨🇦CA | vless | @melov2ray | 8",
                 "🇨🇦CA | vless | @frev2ray | 19",
                 "🇸🇪SE | vless | @shh_proxy | 23",
                 "🇨🇦CA | vless | @Lockey_vpn | 12",
@@ -204,7 +204,7 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇩🇪DE | vless | @V2rayNGn | 23",
-                "🇸🇪SE | trojan | @PrivateVPNs | 18",
+                "🇩🇪DE | trojan | @PrivateVPNs | 18",
                 "🇮🇪IE | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 18",
@@ -241,9 +241,9 @@
                 "🇩🇪DE | vless | @Capoit | 8",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇺🇸US | vmess | @forwardv2ray | 19",
+                "🇧🇭BH | ss | @forwardv2ray | 13",
                 "🇩🇪DE | vless | @FAKEOFTVC | 9",
-                "🇺🇸US | vless | @mehrosaboran | 7",
+                "🇺🇸US | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🏳️XX | vless | @kingofilter | 7",
@@ -363,7 +363,7 @@
         {
             "tag": "🇺🇸US | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "52.20.254.70",
+            "server": "44.215.25.35",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -428,7 +428,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @melov2ray | 8",
+            "tag": "🇨🇦CA | vless | @melov2ray | 8",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -809,9 +809,9 @@
             }
         },
         {
-            "tag": "🇸🇪SE | trojan | @PrivateVPNs | 18",
+            "tag": "🇩🇪DE | trojan | @PrivateVPNs | 18",
             "type": "trojan",
-            "server": "13.50.173.207",
+            "server": "3.67.131.167",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -833,7 +833,7 @@
         {
             "tag": "🇮🇪IE | trojan | @DirectVPN | 18",
             "type": "trojan",
-            "server": "63.33.175.31",
+            "server": "18.203.128.22",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1751,38 +1751,14 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @forwardv2ray | 19",
-            "type": "vmess",
-            "server": "172.67.152.200",
+            "tag": "🇧🇭BH | ss | @forwardv2ray | 13",
+            "type": "shadowsocks",
+            "server": "series-a2-me.samanehha.co",
             "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "meroiy.icu",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "meroiy.icu"
-                }
-            }
+            "method": "chacha20-ietf-poly1305",
+            "password": "Bog0ELmMM9DSxDdQ",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇩🇪DE | vless | @FAKEOFTVC | 9",
@@ -1806,7 +1782,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @mehrosaboran | 7",
+            "tag": "🇺🇸US | vless | @mehrosaboran | 8",
             "type": "vless",
             "server": "198.41.202.5",
             "server_port": 80,
