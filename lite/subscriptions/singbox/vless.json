@@ -112,7 +112,7 @@
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 23",
                 "🇫🇮FI | vless | @ipV2Ray | 17",
                 "🇺🇸US | vless | @melov2ray | 8",
-                "🇮🇷IR | vless | @frev2ray | 16",
+                "🇨🇦CA | vless | @frev2ray | 18",
                 "🇨🇦CA | vless | @ARv2ray | 12",
                 "🇸🇪SE | vless | @shh_proxy | 21",
                 "🇨🇦CA | vless | @Lockey_vpn | 12",
@@ -148,10 +148,9 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 3",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇩🇪DE | vless | @Capoit | 10",
+                "🇩🇪DE | vless | @Capoit | 12",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇳🇱NL | vless | @forwardv2ray | 17",
                 "🇩🇪DE | vless | @FAKEOFTVC | 9",
                 "🇺🇸US | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -175,7 +174,7 @@
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 23",
                 "🇫🇮FI | vless | @ipV2Ray | 17",
                 "🇺🇸US | vless | @melov2ray | 8",
-                "🇮🇷IR | vless | @frev2ray | 16",
+                "🇨🇦CA | vless | @frev2ray | 18",
                 "🇨🇦CA | vless | @ARv2ray | 12",
                 "🇸🇪SE | vless | @shh_proxy | 21",
                 "🇨🇦CA | vless | @Lockey_vpn | 12",
@@ -211,10 +210,9 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 3",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇩🇪DE | vless | @Capoit | 10",
+                "🇩🇪DE | vless | @Capoit | 12",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇳🇱NL | vless | @forwardv2ray | 17",
                 "🇩🇪DE | vless | @FAKEOFTVC | 9",
                 "🇺🇸US | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -429,17 +427,24 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @frev2ray | 16",
+            "tag": "🇨🇦CA | vless | @frev2ray | 18",
             "type": "vless",
-            "server": "185.211.59.210",
-            "server_port": 443,
-            "uuid": "02514d80-8007-47f7-8aaf-28c1da64f915",
+            "server": "discord.gg",
+            "server_port": 80,
+            "uuid": "V2rayCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@VPNCUSTOMIZE?ed=4096",
+                "headers": {
+                    "Host": "discord.gg"
+                }
             }
         },
         {
@@ -1348,7 +1353,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @Capoit | 10",
+            "tag": "🇩🇪DE | vless | @Capoit | 12",
             "type": "vless",
             "server": "54.37.76.9",
             "server_port": 8080,
@@ -1427,37 +1432,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "www.speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | vless | @forwardv2ray | 17",
-            "type": "vless",
-            "server": "188.114.99.243",
-            "server_port": 443,
-            "uuid": "29f8ad12-ea84-431b-bf32-9d3fb5cf2aa2",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "w1.sylar8.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Path\/Telegram@V2ray_alpha\/",
-                "headers": {
-                    "Host": "w1.sylar8.eu.org"
                 }
             }
         },
