@@ -113,8 +113,7 @@
                 "🇸🇬SG | vmess | @yaney_01 | 2",
                 "🇦🇪AE | vmess | @Hope_Net | 3",
                 "🇵🇱PL | vmess | @v2Line | 7",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 0"
+                "🇺🇸US | vmess | @eliya_chiter0 | 0"
             ]
         },
         {
@@ -128,8 +127,7 @@
                 "🇸🇬SG | vmess | @yaney_01 | 2",
                 "🇦🇪AE | vmess | @Hope_Net | 3",
                 "🇵🇱PL | vmess | @v2Line | 7",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 0"
+                "🇺🇸US | vmess | @eliya_chiter0 | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -326,41 +324,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "104.26.9.202",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "vip2323.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "vip2323.cfd"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 0",
+            "tag": "🇺🇸US | vmess | @eliya_chiter0 | 0",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 443,
