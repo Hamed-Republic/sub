@@ -111,7 +111,7 @@
                 "🇬🇧GB | vless | @VlessConfig | 17",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 23",
                 "🇫🇮FI | vless | @ipV2Ray | 17",
-                "🇺🇸US | vless | @melov2ray | 8",
+                "🇨🇦CA | vless | @melov2ray | 8",
                 "🇨🇦CA | vless | @frev2ray | 18",
                 "🇨🇦CA | vless | @ARv2ray | 12",
                 "🇸🇪SE | vless | @shh_proxy | 21",
@@ -151,6 +151,7 @@
                 "🇩🇪DE | vless | @Capoit | 12",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇨🇦CA | vless | @flyv2ray | 16",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 8",
                 "🇺🇸US | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -173,7 +174,7 @@
                 "🇬🇧GB | vless | @VlessConfig | 17",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 23",
                 "🇫🇮FI | vless | @ipV2Ray | 17",
-                "🇺🇸US | vless | @melov2ray | 8",
+                "🇨🇦CA | vless | @melov2ray | 8",
                 "🇨🇦CA | vless | @frev2ray | 18",
                 "🇨🇦CA | vless | @ARv2ray | 12",
                 "🇸🇪SE | vless | @shh_proxy | 21",
@@ -213,6 +214,7 @@
                 "🇩🇪DE | vless | @Capoit | 12",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇨🇦CA | vless | @flyv2ray | 16",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 8",
                 "🇺🇸US | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -396,7 +398,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @melov2ray | 8",
+            "tag": "🇨🇦CA | vless | @melov2ray | 8",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -566,7 +568,7 @@
             "type": "vless",
             "server": "185.146.173.59",
             "server_port": 8880,
-            "uuid": "0f3a1eff-95ad-4f3f-a63a-e3abbdda5f5f",
+            "uuid": "04651312-fc6e-4331-9872-0d11b4eaf3f7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1432,6 +1434,27 @@
                 "path": "\/",
                 "headers": {
                     "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "iranserver.com",
+            "server_port": 80,
+            "uuid": "684fe5cc-ddb5-440f-b5ea-abf8621b8d3a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed",
+                "headers": {
+                    "Host": "iranserver.com"
                 }
             }
         },
