@@ -152,7 +152,7 @@
                 "🇳🇱NL | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇺🇸US | vless | @FAKEOFTVC | 9",
                 "🇨🇳CN | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -216,7 +216,7 @@
                 "🇳🇱NL | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇺🇸US | vless | @FAKEOFTVC | 9",
                 "🇨🇳CN | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -1462,11 +1462,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
             "type": "vless",
-            "server": "return.footballlovernews.com",
-            "server_port": 443,
-            "uuid": "83a306b9-7ead-49db-a60a-b09588b517bd",
+            "server": "172.67.69.236",
+            "server_port": 8443,
+            "uuid": "9993ca3b-0005-4453-a982-db7e72243191",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1476,7 +1476,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "return.footballlovernews.com",
+                "server_name": "tel-falcunargo-de2.falcunar.uk.eu.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1486,9 +1486,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/return",
+                "path": "\/",
                 "headers": {
-                    "Host": "return.footballlovernews.com"
+                    "Host": "tel-falcunargo-de2.falcunar.uk.eu.org"
                 }
             }
         },
