@@ -110,7 +110,7 @@
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇫🇮FI | vless | @ipV2Ray | 19",
                 "🇺🇸US | vless | @melov2ray | 10",
-                "🇮🇷IR | vless | @frev2ray | 18",
+                "🇮🇷IR | vless | @frev2ray | 19",
                 "🇨🇦CA | vless | @ARv2ray | 18",
                 "🇸🇪SE | vless | @shh_proxy | 20",
                 "🇨🇦CA | vless | @Lockey_vpn | 12",
@@ -163,7 +163,6 @@
                 "🇮🇷IR | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇸🇪SE | vless | @flyv2ray | 13",
-                "🇺🇸US | vmess | @forwardv2ray | 16",
                 "🇷🇴RO | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -187,7 +186,7 @@
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇫🇮FI | vless | @ipV2Ray | 19",
                 "🇺🇸US | vless | @melov2ray | 10",
-                "🇮🇷IR | vless | @frev2ray | 18",
+                "🇮🇷IR | vless | @frev2ray | 19",
                 "🇨🇦CA | vless | @ARv2ray | 18",
                 "🇸🇪SE | vless | @shh_proxy | 20",
                 "🇨🇦CA | vless | @Lockey_vpn | 12",
@@ -240,7 +239,6 @@
                 "🇮🇷IR | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇸🇪SE | vless | @flyv2ray | 13",
-                "🇺🇸US | vmess | @forwardv2ray | 16",
                 "🇷🇴RO | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -395,7 +393,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @frev2ray | 18",
+            "tag": "🇮🇷IR | vless | @frev2ray | 19",
             "type": "vless",
             "server": "185.211.59.210",
             "server_port": 443,
@@ -1730,30 +1728,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "Join.ShhProxy.Site"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @forwardv2ray | 16",
-            "type": "vmess",
-            "server": "129.146.113.254",
-            "server_port": 43121,
-            "uuid": "d53b39e2-925e-45b6-9389-46b9fa95878b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "129.146.113.254"
                 }
             }
         },
