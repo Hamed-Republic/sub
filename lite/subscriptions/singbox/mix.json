@@ -164,7 +164,7 @@
                 "🇮🇷IR | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇸🇪SE | vless | @flyv2ray | 13",
-                "🇨🇦CA | vless | @forwardv2ray | 15",
+                "🇫🇷FR | vless | @forwardv2ray | 16",
                 "🇮🇷IR | vless | @FAKEOFTVC | 7",
                 "🇨🇳CN | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -178,7 +178,7 @@
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇹🇷TR | ss | @ROMAX_VPN | 9",
                 "🇮🇷IR | vless | @TIKTOK_PROXY | 4",
-                "🇨🇦CA | vless | @TVCminer | 12"
+                "🇺🇸US | vless | @TVCminer | 12"
             ]
         },
         {
@@ -243,7 +243,7 @@
                 "🇮🇷IR | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇸🇪SE | vless | @flyv2ray | 13",
-                "🇨🇦CA | vless | @forwardv2ray | 15",
+                "🇫🇷FR | vless | @forwardv2ray | 16",
                 "🇮🇷IR | vless | @FAKEOFTVC | 7",
                 "🇨🇳CN | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -257,7 +257,7 @@
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇹🇷TR | ss | @ROMAX_VPN | 9",
                 "🇮🇷IR | vless | @TIKTOK_PROXY | 4",
-                "🇨🇦CA | vless | @TVCminer | 12"
+                "🇺🇸US | vless | @TVCminer | 12"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -1751,10 +1751,10 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 15",
+            "tag": "🇫🇷FR | vless | @forwardv2ray | 16",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8080,
+            "server": "176.31.24.10",
+            "server_port": 80,
             "uuid": "SVNTEAM",
             "flow": "",
             "packet_encoding": "xudp",
@@ -1765,9 +1765,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/SVNTEAM",
+                "path": "\/SVNTEAM?ed=1048",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "176.31.24.10"
                 }
             }
         },
@@ -2016,7 +2016,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @TVCminer | 12",
+            "tag": "🇺🇸US | vless | @TVCminer | 12",
             "type": "vless",
             "server": "steel.footballlovernews.com",
             "server_port": 443,
