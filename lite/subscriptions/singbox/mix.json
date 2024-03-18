@@ -123,7 +123,7 @@
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇨🇦CA | vless | @servermomo | 2",
                 "🇨🇦CA | vless | @V2rayCollector | 0",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇩🇪DE | vless | @V2rayNGn | 23",
                 "🇩🇪DE | trojan | @PrivateVPNs | 17",
@@ -132,7 +132,7 @@
                 "🇨🇳CN | vmess | @mftizi | 18",
                 "🇮🇳IN | vmess | @oneclickvpnkeys | 7",
                 "🇨🇦CA | vless | @prrofile_purple | 175",
-                "🇺🇸US | vmess | @customv2ray | 8",
+                "🇺🇸US | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
                 "🇨🇦CA | vless | @vmessorg | 33",
                 "🇺🇸US | vless | @v2rayNG_Matsuri | 8",
@@ -162,7 +162,7 @@
                 "🇳🇱NL | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇸🇪SE | vless | @forwardv2ray | 17",
+                "🇧🇭BH | ss | @forwardv2ray | 11",
                 "🇨🇦CA | vless | @FAKEOFTVC | 8",
                 "🇨🇳CN | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -200,7 +200,7 @@
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇨🇦CA | vless | @servermomo | 2",
                 "🇨🇦CA | vless | @V2rayCollector | 0",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇩🇪DE | vless | @V2rayNGn | 23",
                 "🇩🇪DE | trojan | @PrivateVPNs | 17",
@@ -209,7 +209,7 @@
                 "🇨🇳CN | vmess | @mftizi | 18",
                 "🇮🇳IN | vmess | @oneclickvpnkeys | 7",
                 "🇨🇦CA | vless | @prrofile_purple | 175",
-                "🇺🇸US | vmess | @customv2ray | 8",
+                "🇺🇸US | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
                 "🇨🇦CA | vless | @vmessorg | 33",
                 "🇺🇸US | vless | @v2rayNG_Matsuri | 8",
@@ -239,7 +239,7 @@
                 "🇳🇱NL | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇸🇪SE | vless | @forwardv2ray | 17",
+                "🇧🇭BH | ss | @forwardv2ray | 11",
                 "🇨🇦CA | vless | @FAKEOFTVC | 8",
                 "🇨🇳CN | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -714,7 +714,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "discord.com",
             "server_port": 443,
@@ -913,16 +913,13 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @customv2ray | 8",
-            "type": "vmess",
-            "server": "zula.ir",
-            "server_port": 2096,
-            "uuid": "98b879fc-ed38-4537-f02f-e88e4892d48c",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇺🇸US | vless | @customv2ray | 10",
+            "type": "vless",
+            "server": "freee.outline-vpn.cloud",
+            "server_port": 443,
+            "uuid": "29f8ad12-ea84-431b-bf32-9d3fb5cf2aa2",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -930,7 +927,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "eu4.nlist.eu.org",
+                "server_name": "w1.sylar8.eu.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -940,9 +937,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/liu",
+                "path": "\/?ed",
                 "headers": {
-                    "Host": "eu4.nlist.eu.org"
+                    "Host": "w1.sylar8.eu.org"
                 }
             }
         },
@@ -1673,18 +1670,14 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @forwardv2ray | 17",
-            "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 8880,
-            "uuid": "887fd83d-0d99-41da-ab9f-773dd69e7c2d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
+            "tag": "🇧🇭BH | ss | @forwardv2ray | 11",
+            "type": "shadowsocks",
+            "server": "series-a2-me.varzesh360.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "Bog0ELmMM9DSxDdQ",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇨🇦CA | vless | @FAKEOFTVC | 8",
