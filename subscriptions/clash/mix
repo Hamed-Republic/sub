@@ -193,13 +193,10 @@ proxies:
   - {"name":"🇨🇦CA | vmess | @v2Line | 5","type":"vmess","server":"104.17.25.1","port":"80","cipher":"auto","uuid":"92aa3000-5758-41f5-9b7d-6a8394382931","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"njzvpn.inekokkk.top"}}}
   - {"name":"🇭🇰HK | vmess | @v2Line | 7","type":"vmess","server":"74.119.193.64","port":"443","cipher":"auto","uuid":"faa2d852-e7a4-40b3-a011-e028b8a21f3b","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
   - {"name":"🇵🇱PL | vmess | @v2Line | 8","type":"vmess","server":"pl2-vmess.sshmax.xyz","port":"80","cipher":"auto","uuid":"18c6b542-e6f8-4476-872a-d3955f45d9f0","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"pl2-vmess.sshmax.xyz"}}}
-  - {"name":"🇫🇷FR | ss | @forwardv2ray | 4","type":"ss","server":"paris.telegavpn.com","port":9802,"password":"L65Li0O8J98RWcRE6t3PoE","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇧🇭BH | ss | @forwardv2ray | 8","type":"ss","server":"series-a2-me.varzesh360.co","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇫🇮FI | ss | @forwardv2ray | 9","type":"ss","server":"139.28.220.18","port":5700,"password":"UXoGWyjwDVZIl1WMuHtxSi","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🏳️XX | vmess | @forwardv2ray | 10","type":"vmess","server":"mci.mosi.mosipro.ml","port":"443","cipher":"auto","uuid":"745e53ac-5c2f-4296-a6f9-d8252a65bbf4","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Dusseldorf.kotick.site"}}}
-  - {"name":"🇧🇭BH | ss | @forwardv2ray | 15","type":"ss","server":"fast_2ray_telchannelll2.fast2rayy.eu.org","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🏳️XX | trojan | @forwardv2ray | 17","type":"trojan","server":"127.0.0.1","port":8080,"udp":false,"password":"bcabaca-baac-baca-cbda-ccbbaabccaba","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🇺🇸US | vmess | @FAKEOFTVC | 2","type":"vmess","server":"gcore.com","port":"80","cipher":"auto","uuid":"55d916df-f6a1-4c10-8374-1db8485dc691","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"namava-movie.ir"}}}
+  - {"name":"🏳️XX | vmess | @forwardv2ray | 4","type":"vmess","server":"mci.mosi.mosipro.ml","port":"443","cipher":"auto","uuid":"a94bafd4-c189-44ea-a3ad-d4c553376e9a","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Dusseldorf.kotick.site"}}}
+  - {"name":"🇭🇰HK | trojan | @forwardv2ray | 17","type":"trojan","server":"23.97.75.75","port":443,"udp":false,"password":"17cae44f-1b58-4407-bb31-8273b7a51ff2","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"vpnpool.liangyuandiancloud.com"}
+  - {"name":"🏳️XX | trojan | @forwardv2ray | 18","type":"trojan","server":"127.0.0.1","port":8080,"udp":false,"password":"aaaccbb-cbaa-cbaa-cabd-abcccbabcaba","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"🇺🇸US | vmess | @FAKEOFTVC | 1","type":"vmess","server":"gcore.com","port":"80","cipher":"auto","uuid":"55d916df-f6a1-4c10-8374-1db8485dc691","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"namava-movie.ir"}}}
   - {"name":"🇨🇦CA | vmess | @SINABIGO | 2","type":"vmess","server":"172.67.71.160","port":"443","cipher":"auto","uuid":"05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"obdii.cfd"}}}
   - {"name":"🇬🇧GB | ss | @ROMAX_VPN | 4","type":"ss","server":"13.42.169.32","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇹🇷TR | ss | @ROMAX_VPN | 8","type":"ss","server":"45.89.52.197","port":32058,"password":"Fgltbpm6cD9eHSFhKI6maC","cipher":"chacha20-ietf-poly1305"}
@@ -285,13 +282,10 @@ proxy-groups:
       - '🇨🇦CA | vmess | @v2Line | 5'
       - '🇭🇰HK | vmess | @v2Line | 7'
       - '🇵🇱PL | vmess | @v2Line | 8'
-      - '🇫🇷FR | ss | @forwardv2ray | 4'
-      - '🇧🇭BH | ss | @forwardv2ray | 8'
-      - '🇫🇮FI | ss | @forwardv2ray | 9'
-      - '🏳️XX | vmess | @forwardv2ray | 10'
-      - '🇧🇭BH | ss | @forwardv2ray | 15'
-      - '🏳️XX | trojan | @forwardv2ray | 17'
-      - '🇺🇸US | vmess | @FAKEOFTVC | 2'
+      - '🏳️XX | vmess | @forwardv2ray | 4'
+      - '🇭🇰HK | trojan | @forwardv2ray | 17'
+      - '🏳️XX | trojan | @forwardv2ray | 18'
+      - '🇺🇸US | vmess | @FAKEOFTVC | 1'
       - '🇨🇦CA | vmess | @SINABIGO | 2'
       - '🇬🇧GB | ss | @ROMAX_VPN | 4'
       - '🇹🇷TR | ss | @ROMAX_VPN | 8'
@@ -377,13 +371,10 @@ proxy-groups:
       - '🇨🇦CA | vmess | @v2Line | 5'
       - '🇭🇰HK | vmess | @v2Line | 7'
       - '🇵🇱PL | vmess | @v2Line | 8'
-      - '🇫🇷FR | ss | @forwardv2ray | 4'
-      - '🇧🇭BH | ss | @forwardv2ray | 8'
-      - '🇫🇮FI | ss | @forwardv2ray | 9'
-      - '🏳️XX | vmess | @forwardv2ray | 10'
-      - '🇧🇭BH | ss | @forwardv2ray | 15'
-      - '🏳️XX | trojan | @forwardv2ray | 17'
-      - '🇺🇸US | vmess | @FAKEOFTVC | 2'
+      - '🏳️XX | vmess | @forwardv2ray | 4'
+      - '🇭🇰HK | trojan | @forwardv2ray | 17'
+      - '🏳️XX | trojan | @forwardv2ray | 18'
+      - '🇺🇸US | vmess | @FAKEOFTVC | 1'
       - '🇨🇦CA | vmess | @SINABIGO | 2'
       - '🇬🇧GB | ss | @ROMAX_VPN | 4'
       - '🇹🇷TR | ss | @ROMAX_VPN | 8'
@@ -468,13 +459,10 @@ proxy-groups:
       - '🇨🇦CA | vmess | @v2Line | 5'
       - '🇭🇰HK | vmess | @v2Line | 7'
       - '🇵🇱PL | vmess | @v2Line | 8'
-      - '🇫🇷FR | ss | @forwardv2ray | 4'
-      - '🇧🇭BH | ss | @forwardv2ray | 8'
-      - '🇫🇮FI | ss | @forwardv2ray | 9'
-      - '🏳️XX | vmess | @forwardv2ray | 10'
-      - '🇧🇭BH | ss | @forwardv2ray | 15'
-      - '🏳️XX | trojan | @forwardv2ray | 17'
-      - '🇺🇸US | vmess | @FAKEOFTVC | 2'
+      - '🏳️XX | vmess | @forwardv2ray | 4'
+      - '🇭🇰HK | trojan | @forwardv2ray | 17'
+      - '🏳️XX | trojan | @forwardv2ray | 18'
+      - '🇺🇸US | vmess | @FAKEOFTVC | 1'
       - '🇨🇦CA | vmess | @SINABIGO | 2'
       - '🇬🇧GB | ss | @ROMAX_VPN | 4'
       - '🇹🇷TR | ss | @ROMAX_VPN | 8'
