@@ -124,7 +124,7 @@
                 "🇨🇦CA | vless | @servermomo | 2",
                 "🇨🇦CA | vless | @V2rayCollector | 0",
                 "🇪🇸ES | vless | @azadi_az_inja_migzare | 0",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇩🇪DE | vless | @V2rayNGn | 23",
                 "🇮🇪IE | trojan | @PrivateVPNs | 18",
@@ -166,8 +166,9 @@
                 "🇳🇱NL | vless | @Capoit | 11",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @FAKEOFTVC | 9",
-                "🇨🇳CN | vless | @mehrosaboran | 7",
+                "🇨🇦CA | vmess | @forwardv2ray | 16",
+                "🇺🇸US | vless | @FAKEOFTVC | 9",
+                "🇨🇳CN | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 5",
                 "🇬🇧GB | ss | @proxy_mtm | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -175,7 +176,6 @@
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇩🇪DE | vless | @SvnTeam | 69",
                 "🇺🇸US | tuic | @TUICity | 21",
-                "🇨🇦CA | vmess | @SINABIGO | 2",
                 "🇨🇦CA | vless | @V2FETCH | 6",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇹🇷TR | ss | @ROMAX_VPN | 9",
@@ -205,7 +205,7 @@
                 "🇨🇦CA | vless | @servermomo | 2",
                 "🇨🇦CA | vless | @V2rayCollector | 0",
                 "🇪🇸ES | vless | @azadi_az_inja_migzare | 0",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇩🇪DE | vless | @V2rayNGn | 23",
                 "🇮🇪IE | trojan | @PrivateVPNs | 18",
@@ -247,8 +247,9 @@
                 "🇳🇱NL | vless | @Capoit | 11",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @FAKEOFTVC | 9",
-                "🇨🇳CN | vless | @mehrosaboran | 7",
+                "🇨🇦CA | vmess | @forwardv2ray | 16",
+                "🇺🇸US | vless | @FAKEOFTVC | 9",
+                "🇨🇳CN | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 5",
                 "🇬🇧GB | ss | @proxy_mtm | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -256,7 +257,6 @@
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇩🇪DE | vless | @SvnTeam | 69",
                 "🇺🇸US | tuic | @TUICity | 21",
-                "🇨🇦CA | vmess | @SINABIGO | 2",
                 "🇨🇦CA | vless | @V2FETCH | 6",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇹🇷TR | ss | @ROMAX_VPN | 9",
@@ -734,7 +734,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "discord.com",
             "server_port": 443,
@@ -1834,7 +1834,41 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FAKEOFTVC | 9",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 16",
+            "type": "vmess",
+            "server": "172.67.71.160",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "obdii.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @FAKEOFTVC | 9",
             "type": "vless",
             "server": "sv1.cardnet.sbs",
             "server_port": 2053,
@@ -1865,11 +1899,11 @@
             }
         },
         {
-            "tag": "🇨🇳CN | vless | @mehrosaboran | 7",
+            "tag": "🇨🇳CN | vless | @mehrosaboran | 10",
             "type": "vless",
-            "server": "103.184.44.80",
+            "server": "103.184.45.119",
             "server_port": 8880,
-            "uuid": "ab60297c-0887-4738-8208-3d9b504cc0d4",
+            "uuid": "887fd83d-0d99-41da-ab9f-773dd69e7c2d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1881,7 +1915,7 @@
                 "type": "ws",
                 "path": "\/@LIGHTNING6, @LIGHTNING6",
                 "headers": {
-                    "Host": "103.184.44.80"
+                    "Host": "103.184.45.119"
                 }
             }
         },
@@ -2022,40 +2056,6 @@
                     "h3",
                     "spdy\/3.1"
                 ]
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @SINABIGO | 2",
-            "type": "vmess",
-            "server": "172.67.71.160",
-            "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "obdii.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "obdii.cfd"
-                }
             }
         },
         {
