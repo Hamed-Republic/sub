@@ -106,7 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇷FR | ss | @DeamNet_Proxy | 7",
                 "🇧🇭BH | ss | @VmessProtocol | 3",
                 "🇬🇧GB | ss | @VmessProtocol | 4",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 3",
@@ -124,8 +123,7 @@
                 "🇯🇵JP | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇮🇪IE | ss | @OutlineVpnOfficial | 17",
-                "🇦🇹AT | ss | @forwardv2ray | 4",
-                "🇦🇪AE | ss | @forwardv2ray | 11",
+                "🇩🇪DE | ss | @forwardv2ray | 14",
                 "🏳️XX | ss | @ROMAX_VPN | 1",
                 "🇬🇧GB | ss | @ROMAX_VPN | 6"
             ]
@@ -134,7 +132,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇷FR | ss | @DeamNet_Proxy | 7",
                 "🇧🇭BH | ss | @VmessProtocol | 3",
                 "🇬🇧GB | ss | @VmessProtocol | 4",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 3",
@@ -152,8 +149,7 @@
                 "🇯🇵JP | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇮🇪IE | ss | @OutlineVpnOfficial | 17",
-                "🇦🇹AT | ss | @forwardv2ray | 4",
-                "🇦🇪AE | ss | @forwardv2ray | 11",
+                "🇩🇪DE | ss | @forwardv2ray | 14",
                 "🏳️XX | ss | @ROMAX_VPN | 1",
                 "🇬🇧GB | ss | @ROMAX_VPN | 6"
             ],
@@ -176,16 +172,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇫🇷FR | ss | @DeamNet_Proxy | 7",
-            "type": "shadowsocks",
-            "server": "149.202.82.172",
-            "server_port": 3306,
-            "method": "aes-256-gcm",
-            "password": "Y6R9pAtvxxzmGC",
-            "plugin": "",
-            "plugin_opts": ""
         },
         {
             "tag": "🇧🇭BH | ss | @VmessProtocol | 3",
@@ -358,22 +344,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇦🇹AT | ss | @forwardv2ray | 4",
+            "tag": "🇩🇪DE | ss | @forwardv2ray | 14",
             "type": "shadowsocks",
-            "server": "vienna.telegavpn.com",
-            "server_port": 61992,
+            "server": "3.127.64.39",
+            "server_port": 2082,
             "method": "chacha20-ietf-poly1305",
-            "password": "Y46TQMkZhIrGMcgwVg3Vm1",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇦🇪AE | ss | @forwardv2ray | 11",
-            "type": "shadowsocks",
-            "server": "series-a1.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "W74XFALLLuw6m5IA",
+            "password": "BTy8ZxOq+UYWykDHhlON8onRzVOVKsvck+hZwNUl0mY=",
             "plugin": "",
             "plugin_opts": ""
         },
