@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇵🇱PL | ss | @DeamNet_Proxy | 6",
+                "🇵🇱PL | ss | @DeamNet_Proxy | 4",
                 "🇧🇭BH | ss | @VmessProtocol | 3",
                 "🇬🇧GB | ss | @VmessProtocol | 4",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 3",
@@ -124,6 +124,7 @@
                 "🇯🇵JP | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇮🇪IE | ss | @OutlineVpnOfficial | 17",
+                "🇧🇭BH | ss | @forwardv2ray | 2",
                 "🏳️XX | ss | @ROMAX_VPN | 1",
                 "🇬🇧GB | ss | @ROMAX_VPN | 6"
             ]
@@ -132,7 +133,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇵🇱PL | ss | @DeamNet_Proxy | 6",
+                "🇵🇱PL | ss | @DeamNet_Proxy | 4",
                 "🇧🇭BH | ss | @VmessProtocol | 3",
                 "🇬🇧GB | ss | @VmessProtocol | 4",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 3",
@@ -150,6 +151,7 @@
                 "🇯🇵JP | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇮🇪IE | ss | @OutlineVpnOfficial | 17",
+                "🇧🇭BH | ss | @forwardv2ray | 2",
                 "🏳️XX | ss | @ROMAX_VPN | 1",
                 "🇬🇧GB | ss | @ROMAX_VPN | 6"
             ],
@@ -174,12 +176,12 @@
             "type": "dns"
         },
         {
-            "tag": "🇵🇱PL | ss | @DeamNet_Proxy | 6",
+            "tag": "🇵🇱PL | ss | @DeamNet_Proxy | 4",
             "type": "shadowsocks",
-            "server": "95.164.35.90",
-            "server_port": 8388,
-            "method": "chacha20-ietf-poly1305",
-            "password": "NDg2YWIz",
+            "server": "54.36.174.181",
+            "server_port": 7307,
+            "method": "aes-256-gcm",
+            "password": "FoOiGlkAA9yPEGP",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -350,6 +352,16 @@
             "server_port": 2606,
             "method": "chacha20-ietf-poly1305",
             "password": "zh7ETDQRvHCsIIPIrSHwHa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇧🇭BH | ss | @forwardv2ray | 2",
+            "type": "shadowsocks",
+            "server": "series-a2-me.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "2LVVFxxHJSBMdGdl",
             "plugin": "",
             "plugin_opts": ""
         },
