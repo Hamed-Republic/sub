@@ -113,7 +113,7 @@
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 21",
                 "🇫🇮FI | vless | @ipV2Ray | 19",
-                "🇨🇦CA | vless | @melov2ray | 14",
+                "🇺🇸US | vless | @melov2ray | 14",
                 "🇨🇦CA | vless | @V2pedia | 26",
                 "🇨🇦CA | vless | @frev2ray | 11",
                 "🇨🇷CR | vless | @ARv2ray | 13",
@@ -135,7 +135,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | vless | @vmessorg | 35",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 8",
-                "🇨🇦CA | vless | @v2rayngvpn | 9",
+                "🇨🇦CA | vless | @v2rayngvpn | 10",
                 "🇺🇸US | vless | @FalconPolV2rayNG | 10",
                 "🇨🇦CA | vless | @ShadowProxy66 | 45",
                 "🇨🇦CA | vless | @ServerNett | 6",
@@ -158,6 +158,7 @@
                 "🇸🇪SE | vless | @Capoit | 11",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @flyv2ray | 11",
+                "🇮🇷IR | vless | @forwardv2ray | 19",
                 "🇳🇱NL | vless | @FAKEOFTVC | 1",
                 "🇸🇪SE | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -182,7 +183,7 @@
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 21",
                 "🇫🇮FI | vless | @ipV2Ray | 19",
-                "🇨🇦CA | vless | @melov2ray | 14",
+                "🇺🇸US | vless | @melov2ray | 14",
                 "🇨🇦CA | vless | @V2pedia | 26",
                 "🇨🇦CA | vless | @frev2ray | 11",
                 "🇨🇷CR | vless | @ARv2ray | 13",
@@ -204,7 +205,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | vless | @vmessorg | 35",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 8",
-                "🇨🇦CA | vless | @v2rayngvpn | 9",
+                "🇨🇦CA | vless | @v2rayngvpn | 10",
                 "🇺🇸US | vless | @FalconPolV2rayNG | 10",
                 "🇨🇦CA | vless | @ShadowProxy66 | 45",
                 "🇨🇦CA | vless | @ServerNett | 6",
@@ -227,6 +228,7 @@
                 "🇸🇪SE | vless | @Capoit | 11",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @flyv2ray | 11",
+                "🇮🇷IR | vless | @forwardv2ray | 19",
                 "🇳🇱NL | vless | @FAKEOFTVC | 1",
                 "🇸🇪SE | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -472,7 +474,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 14",
+            "tag": "🇺🇸US | vless | @melov2ray | 14",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -1023,9 +1025,9 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayngvpn | 9",
+            "tag": "🇨🇦CA | vless | @v2rayngvpn | 10",
             "type": "vless",
-            "server": "162.159.135.79",
+            "server": "00-join.outline-vpn.cloud",
             "server_port": 443,
             "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
             "flow": "",
@@ -1047,7 +1049,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/vless\/b0138d55-a493-4dc3-9932-c6f0391707c1",
+                "path": "\/vless\/b0138d55-a493-4dc3-9932-c6f0391707c1?ed",
                 "headers": {
                     "Host": "edge.020770.xyz"
                 }
@@ -1647,6 +1649,20 @@
                 "headers": {
                     "Host": "check-host.net"
                 }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "62.60.132.47",
+            "server_port": 8101,
+            "uuid": "1f3444f2-78fb-4d7e-aca0-7900ff2513af",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
