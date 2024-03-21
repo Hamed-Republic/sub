@@ -114,8 +114,9 @@
                 "🇫🇮FI | vless | @ipV2Ray | 15",
                 "🇫🇮FI | vless | @ipV2Ray | 17",
                 "🇫🇮FI | vless | @ipV2Ray | 19",
-                "🏳️XX | vless | @V2pedia | 15",
-                "🇬🇧GB | vless | @V2pedia | 17",
+                "🏳️XX | vless | @V2pedia | 12",
+                "🏳️XX | vless | @V2pedia | 16",
+                "🇬🇧GB | vless | @V2pedia | 18",
                 "🇩🇪DE | vless | @ARv2ray | 0",
                 "🇩🇪DE | vless | @ARv2ray | 1",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
@@ -124,12 +125,12 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 10",
                 "🇩🇪DE | vless | @v2logy | 6",
-                "🇫🇮FI | vless | @prrofile_purple | 145",
+                "🇫🇮FI | vless | @prrofile_purple | 153",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 9",
                 "🇩🇪DE | vless | @V2RayTz | 5",
                 "🇩🇪DE | vless | @V2RayTz | 6",
-                "🏳️XX | vless | @DailyV2RY | 126",
-                "🏳️XX | vless | @DailyV2RY | 127",
+                "🏳️XX | vless | @DailyV2RY | 137",
+                "🏳️XX | vless | @DailyV2RY | 138",
                 "🇩🇪DE | vless | @lrnbymaa | 8",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇩🇪DE | vless | @Capital_NET | 31",
@@ -185,8 +186,9 @@
                 "🇫🇮FI | vless | @ipV2Ray | 15",
                 "🇫🇮FI | vless | @ipV2Ray | 17",
                 "🇫🇮FI | vless | @ipV2Ray | 19",
-                "🏳️XX | vless | @V2pedia | 15",
-                "🇬🇧GB | vless | @V2pedia | 17",
+                "🏳️XX | vless | @V2pedia | 12",
+                "🏳️XX | vless | @V2pedia | 16",
+                "🇬🇧GB | vless | @V2pedia | 18",
                 "🇩🇪DE | vless | @ARv2ray | 0",
                 "🇩🇪DE | vless | @ARv2ray | 1",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
@@ -195,12 +197,12 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 10",
                 "🇩🇪DE | vless | @v2logy | 6",
-                "🇫🇮FI | vless | @prrofile_purple | 145",
+                "🇫🇮FI | vless | @prrofile_purple | 153",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 9",
                 "🇩🇪DE | vless | @V2RayTz | 5",
                 "🇩🇪DE | vless | @V2RayTz | 6",
-                "🏳️XX | vless | @DailyV2RY | 126",
-                "🏳️XX | vless | @DailyV2RY | 127",
+                "🏳️XX | vless | @DailyV2RY | 137",
+                "🏳️XX | vless | @DailyV2RY | 138",
                 "🇩🇪DE | vless | @lrnbymaa | 8",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇩🇪DE | vless | @Capital_NET | 31",
@@ -545,7 +547,43 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @V2pedia | 15",
+            "tag": "🏳️XX | vless | @V2pedia | 12",
+            "type": "vless",
+            "server": "[2a01:4f8:1c0c:7523::1]",
+            "server_port": 2096,
+            "uuid": "6b3ad29f-a168-41a1-8515-97702e49f2b9",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "lMWhpSVZFhYnFELy0u9X0vzvn0ERTqhRo8ERMnoPXVM",
+                    "short_id": "254c573b"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🏳️XX | vless | @V2pedia | 16",
             "type": "vless",
             "server": "[2a01:4f8:1c0c:7523::1]",
             "server_port": 2096,
@@ -581,7 +619,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @V2pedia | 17",
+            "tag": "🇬🇧GB | vless | @V2pedia | 18",
             "type": "vless",
             "server": "138.68.176.205",
             "server_port": 2096,
@@ -870,7 +908,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vless | @prrofile_purple | 145",
+            "tag": "🇫🇮FI | vless | @prrofile_purple | 153",
             "type": "vless",
             "server": "65.108.222.46",
             "server_port": 443,
@@ -1007,7 +1045,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @DailyV2RY | 126",
+            "tag": "🏳️XX | vless | @DailyV2RY | 137",
             "type": "vless",
             "server": "[2a12:5940:f667::2]",
             "server_port": 25365,
@@ -1043,7 +1081,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @DailyV2RY | 127",
+            "tag": "🏳️XX | vless | @DailyV2RY | 138",
             "type": "vless",
             "server": "[2a12:5940:d0cb::2]",
             "server_port": 2053,
