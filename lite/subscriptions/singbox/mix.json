@@ -114,7 +114,7 @@
                 "🇮🇪IE | vless | @VlessConfig | 16",
                 "🏳️XX | vless | @VPNCUSTOMIZE | 21",
                 "🇫🇮FI | vless | @ipV2Ray | 19",
-                "🇨🇦CA | vless | @melov2ray | 14",
+                "🇺🇸US | vless | @melov2ray | 14",
                 "🇨🇦CA | vless | @V2pedia | 26",
                 "🇨🇦CA | vless | @frev2ray | 3",
                 "🇨🇦CA | vless | @ARv2ray | 14",
@@ -154,7 +154,7 @@
                 "🏳️XX | vless | @DailyV2RY | 138",
                 "🏳️XX | vless | @lrnbymaa | 10",
                 "🇦🇪AE | ss | @OutlineVpnOfficial | 19",
-                "🇨🇦CA | vless | @proxystore11 | 10",
+                "🇺🇸US | vless | @proxystore11 | 10",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 13",
                 "🇩🇪DE | vless | @fnet00 | 2",
@@ -165,9 +165,9 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇵🇱PL | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @Capoit | 13",
-                "🇺🇸US | vless | @FreakConfig | 4",
+                "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @flyv2ray | 12",
-                "🇩🇪DE | ss | @forwardv2ray | 17",
+                "🇷🇺RU | vless | @forwardv2ray | 18",
                 "🇨🇳CN | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🇷🇺RU | ss | @proxy_mtm | 10",
@@ -195,7 +195,7 @@
                 "🇮🇪IE | vless | @VlessConfig | 16",
                 "🏳️XX | vless | @VPNCUSTOMIZE | 21",
                 "🇫🇮FI | vless | @ipV2Ray | 19",
-                "🇨🇦CA | vless | @melov2ray | 14",
+                "🇺🇸US | vless | @melov2ray | 14",
                 "🇨🇦CA | vless | @V2pedia | 26",
                 "🇨🇦CA | vless | @frev2ray | 3",
                 "🇨🇦CA | vless | @ARv2ray | 14",
@@ -235,7 +235,7 @@
                 "🏳️XX | vless | @DailyV2RY | 138",
                 "🏳️XX | vless | @lrnbymaa | 10",
                 "🇦🇪AE | ss | @OutlineVpnOfficial | 19",
-                "🇨🇦CA | vless | @proxystore11 | 10",
+                "🇺🇸US | vless | @proxystore11 | 10",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 13",
                 "🇩🇪DE | vless | @fnet00 | 2",
@@ -246,9 +246,9 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇵🇱PL | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @Capoit | 13",
-                "🇺🇸US | vless | @FreakConfig | 4",
+                "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @flyv2ray | 12",
-                "🇩🇪DE | ss | @forwardv2ray | 17",
+                "🇷🇺RU | vless | @forwardv2ray | 18",
                 "🇨🇳CN | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🇷🇺RU | ss | @proxy_mtm | 10",
@@ -510,7 +510,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 14",
+            "tag": "🇺🇸US | vless | @melov2ray | 14",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -1482,7 +1482,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @proxystore11 | 10",
+            "tag": "🇺🇸US | vless | @proxystore11 | 10",
             "type": "vless",
             "server": "pooo.mmdargon.top",
             "server_port": 2053,
@@ -1788,7 +1788,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @FreakConfig | 4",
+            "tag": "🇨🇦CA | vless | @FreakConfig | 4",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 443,
@@ -1840,14 +1840,25 @@
             }
         },
         {
-            "tag": "🇩🇪DE | ss | @forwardv2ray | 17",
-            "type": "shadowsocks",
-            "server": "87.251.86.153",
-            "server_port": 37737,
-            "method": "chacha20-ietf-poly1305",
-            "password": "gFISXbvKRpIV0",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇷🇺RU | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "Owner.XheYkh.Site",
+            "server_port": 80,
+            "uuid": "SVNTEAMm",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "Owner.XheYkh.Site"
+                }
+            }
         },
         {
             "tag": "🇨🇳CN | vless | @mehrosaboran | 8",
