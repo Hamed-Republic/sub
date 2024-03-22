@@ -113,11 +113,11 @@
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 22",
                 "🇫🇮FI | vless | @ipV2Ray | 17",
-                "🇨🇦CA | vless | @melov2ray | 16",
+                "🇺🇸US | vless | @melov2ray | 16",
                 "🇩🇪DE | vless | @ARv2ray | 12",
                 "🇷🇺RU | vless | @shh_proxy | 23",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
-                "🇨🇦CA | vless | @rxv2ray | 21",
+                "🇺🇸US | vless | @rxv2ray | 21",
                 "🇺🇸US | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 26",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -165,7 +165,7 @@
                 "🇵🇱PL | vmess | @v2Line | 10",
                 "🇸🇪SE | vless | @Capoit | 17",
                 "🇷🇺RU | vless | @flyv2ray | 12",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇬🇧GB | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -192,11 +192,11 @@
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 22",
                 "🇫🇮FI | vless | @ipV2Ray | 17",
-                "🇨🇦CA | vless | @melov2ray | 16",
+                "🇺🇸US | vless | @melov2ray | 16",
                 "🇩🇪DE | vless | @ARv2ray | 12",
                 "🇷🇺RU | vless | @shh_proxy | 23",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
-                "🇨🇦CA | vless | @rxv2ray | 21",
+                "🇺🇸US | vless | @rxv2ray | 21",
                 "🇺🇸US | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 26",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -244,7 +244,7 @@
                 "🇵🇱PL | vmess | @v2Line | 10",
                 "🇸🇪SE | vless | @Capoit | 17",
                 "🇷🇺RU | vless | @flyv2ray | 12",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇬🇧GB | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -492,7 +492,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 16",
+            "tag": "🇺🇸US | vless | @melov2ray | 16",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -611,7 +611,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @rxv2ray | 21",
+            "tag": "🇺🇸US | vless | @rxv2ray | 21",
             "type": "vless",
             "server": "www.RxV2ray.sbs",
             "server_port": 2087,
@@ -1849,11 +1849,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇬🇧GB | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "litespeed.vds-server.ir",
-            "server_port": 2052,
-            "uuid": "ea875b96-be12-4bba-f558-3c8777882874",
+            "server": "join.VPNCUSTOMIZE.com",
+            "server_port": 443,
+            "uuid": "93be551e-5445-45ad-857c-f07a93f95cac",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1861,12 +1861,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "litespeed.vds-server.ir"
+            "tls": {
+                "enabled": true,
+                "server_name": "join.VPNCUSTOMIZE.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "‌",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
