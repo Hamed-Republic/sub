@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇳🇱NL | ss | @DeamNet_Proxy | 4",
+                "🇫🇷FR | ss | @DeamNet_Proxy | 4",
                 "🇦🇪AE | ss | @DeamNet_Proxy | 10",
                 "🇩🇪DE | ss | @proxyymeliii | 1",
                 "🇧🇭BH | ss | @proxyymeliii | 2",
@@ -133,6 +133,7 @@
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇮🇪IE | ss | @OutlineVpnOfficial | 18",
                 "🇭🇰HK | ss | @OutlineVpnOfficial | 19",
+                "🇳🇱NL | ss | @forwardv2ray | 17",
                 "🏳️XX | ss | @ROMAX_VPN | 2",
                 "🇬🇧GB | ss | @ROMAX_VPN | 7"
             ]
@@ -141,7 +142,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇳🇱NL | ss | @DeamNet_Proxy | 4",
+                "🇫🇷FR | ss | @DeamNet_Proxy | 4",
                 "🇦🇪AE | ss | @DeamNet_Proxy | 10",
                 "🇩🇪DE | ss | @proxyymeliii | 1",
                 "🇧🇭BH | ss | @proxyymeliii | 2",
@@ -168,6 +169,7 @@
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇮🇪IE | ss | @OutlineVpnOfficial | 18",
                 "🇭🇰HK | ss | @OutlineVpnOfficial | 19",
+                "🇳🇱NL | ss | @forwardv2ray | 17",
                 "🏳️XX | ss | @ROMAX_VPN | 2",
                 "🇬🇧GB | ss | @ROMAX_VPN | 7"
             ],
@@ -192,7 +194,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇳🇱NL | ss | @DeamNet_Proxy | 4",
+            "tag": "🇫🇷FR | ss | @DeamNet_Proxy | 4",
             "type": "shadowsocks",
             "server": "51.158.150.210",
             "server_port": 5498,
@@ -458,6 +460,16 @@
             "server_port": 44017,
             "method": "chacha20-ietf-poly1305",
             "password": "l9uKHMJTIbIlHFy7h8VyOQ",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇳🇱NL | ss | @forwardv2ray | 17",
+            "type": "shadowsocks",
+            "server": "185.70.186.10",
+            "server_port": 2188,
+            "method": "chacha20-ietf-poly1305",
+            "password": "9ZS8D1WEqefSScNkFmNatF",
             "plugin": "",
             "plugin_opts": ""
         },
