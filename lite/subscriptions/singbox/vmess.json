@@ -114,6 +114,7 @@
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 13",
                 "🇵🇱PL | vmess | @v2Line | 9",
+                "🇺🇸US | vmess | @forwardv2ray | 18",
                 "🇸🇪SE | vmess | @SINABIGO | 0",
                 "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
             ]
@@ -130,6 +131,7 @@
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 13",
                 "🇵🇱PL | vmess | @v2Line | 9",
+                "🇺🇸US | vmess | @forwardv2ray | 18",
                 "🇸🇪SE | vmess | @SINABIGO | 0",
                 "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
             ],
@@ -339,6 +341,30 @@
             "transport": {
                 "type": "ws",
                 "path": "\/vmess",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "w.outline-vpn.cloud",
+            "server_port": 2086,
+            "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/IOebhLMhl1CTbFHbL95myfRX2",
                 "headers": {
                     "Host": ""
                 }
