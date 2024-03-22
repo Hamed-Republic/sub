@@ -134,16 +134,16 @@
                 "🇺🇸US | vless | @vmessorg | 37",
                 "🇺🇸US | vless | @v2rayNG_Matsuri | 8",
                 "🇵🇱PL | vless | @v2rayngvpn | 9",
-                "🇺🇸US | vless | @FalconPolV2rayNG | 10",
+                "🇨🇦CA | vless | @FalconPolV2rayNG | 10",
                 "🇨🇦CA | vless | @ServerNett | 6",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇨🇦CA | vless | @v2ray_swhil | 35",
+                "🇨🇦CA | vless | @v2ray_swhil | 38",
                 "🇨🇦CA | vless | @v2ray1_ng | 17",
                 "🇨🇦CA | vless | @vless_vmess | 4",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 138",
                 "🏳️XX | vless | @lrnbymaa | 10",
-                "🇨🇦CA | vless | @proxystore11 | 10",
+                "🇺🇸US | vless | @proxystore11 | 10",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇨🇦CA | vless | @polproxy | 22",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 4",
@@ -197,16 +197,16 @@
                 "🇺🇸US | vless | @vmessorg | 37",
                 "🇺🇸US | vless | @v2rayNG_Matsuri | 8",
                 "🇵🇱PL | vless | @v2rayngvpn | 9",
-                "🇺🇸US | vless | @FalconPolV2rayNG | 10",
+                "🇨🇦CA | vless | @FalconPolV2rayNG | 10",
                 "🇨🇦CA | vless | @ServerNett | 6",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇨🇦CA | vless | @v2ray_swhil | 35",
+                "🇨🇦CA | vless | @v2ray_swhil | 38",
                 "🇨🇦CA | vless | @v2ray1_ng | 17",
                 "🇨🇦CA | vless | @vless_vmess | 4",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 138",
                 "🏳️XX | vless | @lrnbymaa | 10",
-                "🇨🇦CA | vless | @proxystore11 | 10",
+                "🇺🇸US | vless | @proxystore11 | 10",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇨🇦CA | vless | @polproxy | 22",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 4",
@@ -973,7 +973,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @FalconPolV2rayNG | 10",
+            "tag": "🇨🇦CA | vless | @FalconPolV2rayNG | 10",
             "type": "vless",
             "server": "3k.pureboy.eu.org",
             "server_port": 443,
@@ -1066,11 +1066,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray_swhil | 35",
+            "tag": "🇨🇦CA | vless | @v2ray_swhil | 38",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "-DIGiV2RAY-",
+            "server": "all-net.0912.org",
+            "server_port": 8880,
+            "uuid": "d05fdecc-152d-48f7-9f36-e86380d98c58",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1080,9 +1080,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Digiv2ray-",
+                "path": "\/",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "all-net.0912.org"
                 }
             }
         },
@@ -1205,7 +1205,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxystore11 | 10",
+            "tag": "🇺🇸US | vless | @proxystore11 | 10",
             "type": "vless",
             "server": "pooo.mmdargon.top",
             "server_port": 2053,
@@ -1438,9 +1438,9 @@
         {
             "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "maz.maznet.cfd",
-            "server_port": 2083,
-            "uuid": "ade3e923-6234-4c97-96c8-77f3f089c028",
+            "server": "discord.gg",
+            "server_port": 8080,
+            "uuid": "SVNTEAM",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1448,21 +1448,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "join20.maznet.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet",
+                "path": "\/",
                 "headers": {
-                    "Host": "join20.maznet.cfd"
+                    "Host": "discord.gg"
                 }
             }
         },
