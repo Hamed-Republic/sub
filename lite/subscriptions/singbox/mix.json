@@ -126,13 +126,13 @@
                 "🇺🇸US | vless | @proxy_kafee | 2",
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇮🇷IR | vmess | @azadi_az_inja_migzare | 2",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 25",
                 "🇩🇪DE | trojan | @PrivateVPNs | 17",
                 "🇸🇪SE | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vless | @prrofile_purple | 166",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
@@ -162,6 +162,7 @@
                 "🇵🇱PL | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @Capoit | 15",
                 "🇷🇺RU | vless | @flyv2ray | 12",
+                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇸🇪SE | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🇷🇺RU | ss | @proxy_mtm | 17",
@@ -202,13 +203,13 @@
                 "🇺🇸US | vless | @proxy_kafee | 2",
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇮🇷IR | vmess | @azadi_az_inja_migzare | 2",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 25",
                 "🇩🇪DE | trojan | @PrivateVPNs | 17",
                 "🇸🇪SE | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vless | @prrofile_purple | 166",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
@@ -238,6 +239,7 @@
                 "🇵🇱PL | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @Capoit | 15",
                 "🇷🇺RU | vless | @flyv2ray | 12",
+                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇸🇪SE | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🇷🇺RU | ss | @proxy_mtm | 17",
@@ -821,7 +823,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "discord.com",
             "server_port": 443,
@@ -955,11 +957,11 @@
             }
         },
         {
-            "tag": "🇨🇳CN | vmess | @mftizi | 19",
+            "tag": "🇨🇦CA | vmess | @mftizi | 19",
             "type": "vmess",
-            "server": "101.89.154.94",
-            "server_port": 19979,
-            "uuid": "941f470e-34e8-3bb0-9b1e-b2c0b4fdb212",
+            "server": "cfcdn3.sanfencdn9.com",
+            "server_port": 80,
+            "uuid": "9a557d02-12ff-4da8-8669-1824cfdefe1f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -972,7 +974,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/db00",
+                "path": "\/video\/VDXcaM7r",
                 "headers": {
                     "Host": ""
                 }
@@ -1701,6 +1703,30 @@
                 "path": "\/",
                 "headers": {
                     "Host": "Join.ShhProxy.Site"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "23.227.38.23",
+            "server_port": 8080,
+            "uuid": "34c0bb5e-c120-432d-9c58-bd7d82c7397b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm",
+                "headers": {
+                    "Host": "23.227.38.23"
                 }
             }
         },
