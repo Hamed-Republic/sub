@@ -115,7 +115,7 @@
                 "🇫🇮FI | vless | @ipV2Ray | 18",
                 "🇨🇦CA | vless | @melov2ray | 16",
                 "🇨🇦CA | vless | @frev2ray | 0",
-                "🇸🇪SE | vless | @ARv2ray | 12",
+                "🇸🇪SE | vless | @ARv2ray | 13",
                 "🇷🇺RU | vless | @shh_proxy | 23",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
                 "🇨🇦CA | vless | @rxv2ray | 21",
@@ -128,6 +128,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇩🇪DE | vless | @V2rayNGn | 26",
                 "🇩🇪DE | vless | @prrofile_purple | 167",
+                "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇺🇸US | vless | @vmessorg | 37",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 11",
@@ -153,8 +154,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 17",
                 "🇷🇺RU | vless | @flyv2ray | 12",
-                "🇺🇸US | vless | @forwardv2ray | 19",
-                "🇺🇸US | vless | @mehrosaboran | 11",
+                "🇺🇸US | vless | @mehrosaboran | 12",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🏳️XX | vless | @GozargahVPN | 9",
@@ -178,7 +178,7 @@
                 "🇫🇮FI | vless | @ipV2Ray | 18",
                 "🇨🇦CA | vless | @melov2ray | 16",
                 "🇨🇦CA | vless | @frev2ray | 0",
-                "🇸🇪SE | vless | @ARv2ray | 12",
+                "🇸🇪SE | vless | @ARv2ray | 13",
                 "🇷🇺RU | vless | @shh_proxy | 23",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
                 "🇨🇦CA | vless | @rxv2ray | 21",
@@ -191,6 +191,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇩🇪DE | vless | @V2rayNGn | 26",
                 "🇩🇪DE | vless | @prrofile_purple | 167",
+                "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇺🇸US | vless | @vmessorg | 37",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 11",
@@ -216,8 +217,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 17",
                 "🇷🇺RU | vless | @flyv2ray | 12",
-                "🇺🇸US | vless | @forwardv2ray | 19",
-                "🇺🇸US | vless | @mehrosaboran | 11",
+                "🇺🇸US | vless | @mehrosaboran | 12",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🏳️XX | vless | @GozargahVPN | 9",
@@ -505,7 +505,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ARv2ray | 12",
+            "tag": "🇸🇪SE | vless | @ARv2ray | 13",
             "type": "vless",
             "server": "185.146.173.59",
             "server_port": 443,
@@ -841,6 +841,37 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @customv2ray | 13",
+            "type": "vless",
+            "server": "thorianite.toptechnonews.com",
+            "server_port": 443,
+            "uuid": "03728bdd-745c-4ef6-a01f-70b006d3bbae",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "thorianite.toptechnonews.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/nimws",
+                "headers": {
+                    "Host": "thorianite.toptechnonews.com"
+                }
             }
         },
         {
@@ -1501,38 +1532,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "visa.com",
-            "server_port": 8443,
-            "uuid": "041f429a-63f5-4af1-a492-8cbff5797b8a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "join-sho-falcunargo-usa.falcunar.uk.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "join-sho-falcunargo-usa.falcunar.uk.eu.org"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @mehrosaboran | 11",
+            "tag": "🇺🇸US | vless | @mehrosaboran | 12",
             "type": "vless",
             "server": "198.41.202.5",
             "server_port": 8880,
