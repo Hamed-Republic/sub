@@ -330,9 +330,9 @@
         {
             "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
             "type": "vmess",
-            "server": "23.227.38.23",
-            "server_port": 8080,
-            "uuid": "34c0bb5e-c120-432d-9c58-bd7d82c7397b",
+            "server": "134.122.41.160",
+            "server_port": 3389,
+            "uuid": "9c050a86-d612-48f1-ec32-e573df08a1b7",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -344,11 +344,11 @@
                 "max_streams": 32
             },
             "transport": {
-                "type": "ws",
-                "path": "\/34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm",
-                "headers": {
-                    "Host": "23.227.38.23"
-                }
+                "type": "http",
+                "host": [
+                    "134.122.41.160"
+                ],
+                "path": "\/"
             }
         },
         {
