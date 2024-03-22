@@ -126,7 +126,7 @@
                 "🇺🇸US | vless | @proxy_kafee | 2",
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇮🇷IR | vmess | @azadi_az_inja_migzare | 2",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 25",
                 "🇩🇪DE | trojan | @PrivateVPNs | 17",
@@ -151,7 +151,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 138",
                 "🏳️XX | vless | @lrnbymaa | 10",
                 "🇦🇪AE | ss | @OutlineVpnOfficial | 19",
-                "🇨🇦CA | vless | @proxystore11 | 10",
+                "🇺🇸US | vless | @proxystore11 | 10",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 13",
                 "🇩🇪DE | vless | @fnet00 | 2",
@@ -162,7 +162,7 @@
                 "🇵🇱PL | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @Capoit | 15",
                 "🇷🇺RU | vless | @flyv2ray | 12",
-                "🇨🇦CA | vless | @forwardv2ray | 13",
+                "🏳️XX | vless | @forwardv2ray | 17",
                 "🇸🇪SE | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🇷🇺RU | ss | @proxy_mtm | 17",
@@ -203,7 +203,7 @@
                 "🇺🇸US | vless | @proxy_kafee | 2",
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇮🇷IR | vmess | @azadi_az_inja_migzare | 2",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 25",
                 "🇩🇪DE | trojan | @PrivateVPNs | 17",
@@ -228,7 +228,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 138",
                 "🏳️XX | vless | @lrnbymaa | 10",
                 "🇦🇪AE | ss | @OutlineVpnOfficial | 19",
-                "🇨🇦CA | vless | @proxystore11 | 10",
+                "🇺🇸US | vless | @proxystore11 | 10",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 13",
                 "🇩🇪DE | vless | @fnet00 | 2",
@@ -239,7 +239,7 @@
                 "🇵🇱PL | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @Capoit | 15",
                 "🇷🇺RU | vless | @flyv2ray | 12",
-                "🇨🇦CA | vless | @forwardv2ray | 13",
+                "🏳️XX | vless | @forwardv2ray | 17",
                 "🇸🇪SE | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🇷🇺RU | ss | @proxy_mtm | 17",
@@ -823,7 +823,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "discord.com",
             "server_port": 443,
@@ -1411,7 +1411,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @proxystore11 | 10",
+            "tag": "🇺🇸US | vless | @proxystore11 | 10",
             "type": "vless",
             "server": "pooo.mmdargon.top",
             "server_port": 2053,
@@ -1707,12 +1707,12 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 13",
+            "tag": "🏳️XX | vless | @forwardv2ray | 17",
             "type": "vless",
-            "server": "104.24.37.148",
+            "server": "[2001:41d0:203:4298::d]",
             "server_port": 443,
             "uuid": "a663bbab-4e9e-4080-b8ab-edd59fe1fdce",
-            "flow": "",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1721,12 +1721,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "max-allnet.hiroman5445.ir",
+                "server_name": "sourceforge.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "BgPyuGkbwjE0eqNzqhxY7PuX1pGaW9aiLY_H00s3VHU",
+                    "short_id": "00e2ff3d38"
                 }
             },
             "transport": {
