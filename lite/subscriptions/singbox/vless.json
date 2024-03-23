@@ -118,16 +118,16 @@
                 "🇷🇺RU | vless | @shh_proxy | 23",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
                 "🇨🇦CA | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @free_v2rayyy | 6",
                 "🇸🇪SE | vless | @lightning6 | 26",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 20",
                 "🇺🇸US | vless | @proxy_kafee | 5",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇨🇦CA | vless | @Watashi_VPN | 0",
+                "🇺🇸US | vless | @Watashi_VPN | 0",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇩🇪DE | vless | @V2rayNGn | 26",
-                "🏳️XX | vless | @prrofile_purple | 168",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇺🇸US | vless | @vmessorg | 37",
                 "🇺🇸US | vless | @v2rayNG_Matsuri | 11",
@@ -158,7 +158,7 @@
                 "🇨🇦CA | vless | @kingofilter | 3",
                 "🏳️XX | vless | @GozargahVPN | 9",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
-                "🇷🇺RU | vless | @SvnTeam | 59",
+                "🇷🇺RU | vless | @SvnTeam | 69",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇨🇦CA | vless | @V2FETCH | 4",
                 "🏳️XX | vless | @VpnSkyy | 7",
@@ -181,16 +181,16 @@
                 "🇷🇺RU | vless | @shh_proxy | 23",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
                 "🇨🇦CA | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @free_v2rayyy | 6",
                 "🇸🇪SE | vless | @lightning6 | 26",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 20",
                 "🇺🇸US | vless | @proxy_kafee | 5",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇨🇦CA | vless | @Watashi_VPN | 0",
+                "🇺🇸US | vless | @Watashi_VPN | 0",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇩🇪DE | vless | @V2rayNGn | 26",
-                "🏳️XX | vless | @prrofile_purple | 168",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇺🇸US | vless | @vmessorg | 37",
                 "🇺🇸US | vless | @v2rayNG_Matsuri | 11",
@@ -221,7 +221,7 @@
                 "🇨🇦CA | vless | @kingofilter | 3",
                 "🏳️XX | vless | @GozargahVPN | 9",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
-                "🇷🇺RU | vless | @SvnTeam | 59",
+                "🇷🇺RU | vless | @SvnTeam | 69",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇨🇦CA | vless | @V2FETCH | 4",
                 "🏳️XX | vless | @VpnSkyy | 7",
@@ -595,6 +595,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @free_v2rayyy | 6",
+            "type": "vless",
+            "server": "sv1.cardnet.sbs",
+            "server_port": 443,
+            "uuid": "9a3248e7-6bb2-4f1a-94de-24a6bee5c431",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sv1.cardnet.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "sv1.cardnet.sbs"
+                }
+            }
+        },
+        {
             "tag": "🇸🇪SE | vless | @lightning6 | 26",
             "type": "vless",
             "server": "185.146.173.59",
@@ -723,7 +754,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Watashi_VPN | 0",
+            "tag": "🇺🇸US | vless | @Watashi_VPN | 0",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 443,
@@ -834,20 +865,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🏳️XX | vless | @prrofile_purple | 168",
-            "type": "vless",
-            "server": "test2.keywanweb.xyz",
-            "server_port": 443,
-            "uuid": "6cab985c-0847-42e5-9977-7449ad3671af",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -1649,7 +1666,7 @@
             }
         },
         {
-            "tag": "🇷🇺RU | vless | @SvnTeam | 59",
+            "tag": "🇷🇺RU | vless | @SvnTeam | 69",
             "type": "vless",
             "server": "Owner.XheYkh.Site",
             "server_port": 80,
