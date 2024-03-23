@@ -123,7 +123,8 @@
                 "🇨🇦CA | vless | @DigiV2ray | 20",
                 "🇺🇸US | vless | @proxy_kafee | 5",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @Watashi_VPN | 0",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇩🇪DE | vless | @V2rayNGn | 26",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
@@ -150,9 +151,9 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 19",
                 "🇷🇺RU | vless | @flyv2ray | 12",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
-                "🇸🇪SE | vless | @mehrosaboran | 10",
+                "🇨🇦CA | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vless | @kingofilter | 3",
@@ -186,7 +187,8 @@
                 "🇨🇦CA | vless | @DigiV2ray | 20",
                 "🇺🇸US | vless | @proxy_kafee | 5",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @Watashi_VPN | 0",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇩🇪DE | vless | @V2rayNGn | 26",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
@@ -213,9 +215,9 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 19",
                 "🇷🇺RU | vless | @flyv2ray | 12",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
-                "🇸🇪SE | vless | @mehrosaboran | 10",
+                "🇨🇦CA | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vless | @kingofilter | 3",
@@ -614,7 +616,7 @@
             "type": "vless",
             "server": "185.146.173.59",
             "server_port": 8880,
-            "uuid": "933fa1a8-bb6a-4079-8991-09bd91bf2e77",
+            "uuid": "d3ba60e5-3eef-4ef8-b2f9-e51eb47174e2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -738,7 +740,38 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇺🇸US | vless | @Watashi_VPN | 0",
+            "type": "vless",
+            "server": "www.zula.ir",
+            "server_port": 443,
+            "uuid": "ffffffff-bf32-4282-b875-eca220008daf",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "f.auto.r.exit.e.e.watashi-java.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "f.auto.r.exit.e.e.watashi-java.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "discord.com",
             "server_port": 443,
@@ -1102,9 +1135,9 @@
         {
             "tag": "🇨🇦CA | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "172.67.163.103",
+            "server": "104.21.69.44",
             "server_port": 8443,
-            "uuid": "43fd4367-ccc5-408e-8d6b-3aaa4fa26f32",
+            "uuid": "3593e385-bc22-4599-8b88-c1646f45cbdc",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1114,7 +1147,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "joinnett85.servernet.cfd",
+                "server_name": "joinnett69.servernet.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1439,11 +1472,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "162.159.133.234",
-            "server_port": 80,
-            "uuid": "0135590a-9d84-47ae-b54d-57bd4017fbea",
+            "server": "162.159.135.79",
+            "server_port": 443,
+            "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1451,11 +1484,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "test30.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "162.159.133.234"
+                    "Host": "test30.pages.dev"
                 }
             }
         },
@@ -1491,11 +1534,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @mehrosaboran | 10",
+            "tag": "🇨🇦CA | vless | @mehrosaboran | 10",
             "type": "vless",
-            "server": "185.146.173.95",
-            "server_port": 8880,
-            "uuid": "00d29c72-9d76-4a3b-af5f-c7499df857bf",
+            "server": "discord.gg",
+            "server_port": 80,
+            "uuid": "---DIGiV2RAY----",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1505,9 +1548,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@LIGHTNING6, @LIGHTNING6",
+                "path": "\/Digiv2ray-",
                 "headers": {
-                    "Host": "185.146.173.95"
+                    "Host": "discord.gg"
                 }
             }
         },
