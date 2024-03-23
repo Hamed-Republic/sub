@@ -154,7 +154,7 @@
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🏳️XX | vless | @lrnbymaa | 10",
                 "🇮🇪IE | ss | @OutlineVpnOfficial | 19",
-                "🇨🇦CA | vless | @proxystore11 | 10",
+                "🇺🇸US | vless | @proxystore11 | 10",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 13",
                 "🇩🇪DE | vless | @fnet00 | 2",
@@ -166,7 +166,7 @@
                 "🇵🇱PL | vmess | @v2Line | 10",
                 "🇸🇪SE | vless | @Capoit | 17",
                 "🇷🇺RU | vless | @flyv2ray | 12",
-                "🇺🇸US | vless | @forwardv2ray | 18",
+                "🇸🇬SG | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -234,7 +234,7 @@
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🏳️XX | vless | @lrnbymaa | 10",
                 "🇮🇪IE | ss | @OutlineVpnOfficial | 19",
-                "🇨🇦CA | vless | @proxystore11 | 10",
+                "🇺🇸US | vless | @proxystore11 | 10",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 13",
                 "🇩🇪DE | vless | @fnet00 | 2",
@@ -246,7 +246,7 @@
                 "🇵🇱PL | vmess | @v2Line | 10",
                 "🇸🇪SE | vless | @Capoit | 17",
                 "🇷🇺RU | vless | @flyv2ray | 12",
-                "🇺🇸US | vless | @forwardv2ray | 18",
+                "🇸🇬SG | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -1523,7 +1523,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @proxystore11 | 10",
+            "tag": "🇺🇸US | vless | @proxystore11 | 10",
             "type": "vless",
             "server": "pooo.mmdargon.top",
             "server_port": 2053,
@@ -1840,33 +1840,26 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "test--join.outline-vpn.cloud",
-            "server_port": 443,
-            "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇸🇬SG | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "8.222.190.225",
+            "server_port": 2082,
+            "uuid": "112ac36f-3f53-4e26-8371-d25c028e1b9a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "always-online1.lp-airdrop.top",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "always-online1.lp-airdrop.top"
+                    "Host": ""
                 }
             }
         },
