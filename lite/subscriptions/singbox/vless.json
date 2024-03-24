@@ -110,11 +110,11 @@
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 8",
                 "🇨🇦CA | vless | @XsV2ray | 15",
-                "🇬🇧GB | vless | @VlessConfig | 19",
+                "🇮🇪IE | vless | @VlessConfig | 18",
                 "🇬🇧GB | vless | @VPNCUSTOMIZE | 27",
                 "🇩🇪DE | vless | @ipV2Ray | 14",
                 "🇺🇸US | vless | @melov2ray | 18",
-                "🇨🇦CA | vless | @V2pedia | 31",
+                "🇺🇸US | vless | @V2pedia | 31",
                 "🇸🇪SE | vless | @ARv2ray | 19",
                 "🇷🇺RU | vless | @shh_proxy | 23",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
@@ -150,9 +150,9 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @flyv2ray | 12",
-                "🇷🇺RU | vless | @forwardv2ray | 16",
+                "🇨🇦CA | vless | @forwardv2ray | 16",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
-                "🇺🇸US | vless | @mehrosaboran | 8",
+                "🇺🇸US | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vless | @kingofilter | 3",
@@ -172,11 +172,11 @@
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 8",
                 "🇨🇦CA | vless | @XsV2ray | 15",
-                "🇬🇧GB | vless | @VlessConfig | 19",
+                "🇮🇪IE | vless | @VlessConfig | 18",
                 "🇬🇧GB | vless | @VPNCUSTOMIZE | 27",
                 "🇩🇪DE | vless | @ipV2Ray | 14",
                 "🇺🇸US | vless | @melov2ray | 18",
-                "🇨🇦CA | vless | @V2pedia | 31",
+                "🇺🇸US | vless | @V2pedia | 31",
                 "🇸🇪SE | vless | @ARv2ray | 19",
                 "🇷🇺RU | vless | @shh_proxy | 23",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
@@ -212,9 +212,9 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @flyv2ray | 12",
-                "🇷🇺RU | vless | @forwardv2ray | 16",
+                "🇨🇦CA | vless | @forwardv2ray | 16",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
-                "🇺🇸US | vless | @mehrosaboran | 8",
+                "🇺🇸US | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vless | @kingofilter | 3",
@@ -360,9 +360,9 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @VlessConfig | 19",
+            "tag": "🇮🇪IE | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "18.132.186.23",
+            "server": "18.202.173.92",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -479,7 +479,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2pedia | 31",
+            "tag": "🇺🇸US | vless | @V2pedia | 31",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -921,15 +921,22 @@
         {
             "tag": "🇮🇷IR | vless | @v2rayngvpn | 7",
             "type": "vless",
-            "server": "46.102.136.69",
-            "server_port": 57803,
-            "uuid": "5b5c6557-d611-4c6f-a43b-a2c48c0b541d",
+            "server": "2.189.130.82",
+            "server_port": 12539,
+            "uuid": "7fb2265a-14ff-447f-9903-ef93482c332c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "2.189.130.82"
+                }
             }
         },
         {
@@ -1435,24 +1442,17 @@
             }
         },
         {
-            "tag": "🇷🇺RU | vless | @forwardv2ray | 16",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 16",
             "type": "vless",
-            "server": "Owner.XHEYKH.Site",
-            "server_port": 80,
-            "uuid": "SVNTEAMz",
+            "server": "zula.ir",
+            "server_port": 443,
+            "uuid": "cb211e44-7725-4ddc-b52e-6a0059162fde",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "Owner.XHEYKH.Site"
-                }
             }
         },
         {
@@ -1487,7 +1487,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @mehrosaboran | 8",
+            "tag": "🇺🇸US | vless | @mehrosaboran | 9",
             "type": "vless",
             "server": "198.41.202.5",
             "server_port": 80,
