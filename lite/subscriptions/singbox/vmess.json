@@ -109,7 +109,7 @@
                 "🇨🇦CA | vmess | @V2rayCollectorDonate | 21",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 17",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 12",
                 "🇩🇪DE | vmess | @prrofile_purple | 168",
                 "🇺🇸US | vmess | @customv2ray | 14",
@@ -117,8 +117,7 @@
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 3",
-                "🇵🇱PL | vmess | @v2Line | 10",
-                "🇺🇸US | vmess | @forwardv2ray | 19"
+                "🇵🇱PL | vmess | @v2Line | 10"
             ]
         },
         {
@@ -128,7 +127,7 @@
                 "🇨🇦CA | vmess | @V2rayCollectorDonate | 21",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 17",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 12",
                 "🇩🇪DE | vmess | @prrofile_purple | 168",
                 "🇺🇸US | vmess | @customv2ray | 14",
@@ -136,8 +135,7 @@
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 3",
-                "🇵🇱PL | vmess | @v2Line | 10",
-                "🇺🇸US | vmess | @forwardv2ray | 19"
+                "🇵🇱PL | vmess | @v2Line | 10"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -235,7 +233,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 17",
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 443,
@@ -463,40 +461,6 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @forwardv2ray | 19",
-            "type": "vmess",
-            "server": "zula.ir",
-            "server_port": 2096,
-            "uuid": "98b879fc-ed38-4537-f02f-e88e4892d48c",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "eu4.nlist.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/liu",
-                "headers": {
-                    "Host": "eu4.nlist.eu.org"
                 }
             }
         }
