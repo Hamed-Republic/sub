@@ -109,16 +109,15 @@
                 "🇨🇦CA | vmess | @V2rayCollectorDonate | 21",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 17",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 12",
-                "🇩🇪DE | vmess | @prrofile_purple | 168",
                 "🇺🇸US | vmess | @customv2ray | 14",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 41",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 5",
                 "🇵🇱PL | vmess | @v2Line | 10",
-                "🏳️XX | vmess | @forwardv2ray | 9"
+                "🇨🇦CA | vmess | @forwardv2ray | 16"
             ]
         },
         {
@@ -128,16 +127,15 @@
                 "🇨🇦CA | vmess | @V2rayCollectorDonate | 21",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 17",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 12",
-                "🇩🇪DE | vmess | @prrofile_purple | 168",
                 "🇺🇸US | vmess | @customv2ray | 14",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 41",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 5",
                 "🇵🇱PL | vmess | @v2Line | 10",
-                "🏳️XX | vmess | @forwardv2ray | 9"
+                "🇨🇦CA | vmess | @forwardv2ray | 16"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -235,7 +233,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 17",
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 443,
@@ -300,23 +298,6 @@
                 "headers": {
                     "Host": "meroiy.icu"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vmess | @prrofile_purple | 168",
-            "type": "vmess",
-            "server": "91.107.139.138",
-            "server_port": 8081,
-            "uuid": "3692d617-c0bb-442a-a259-ee4baea3041f",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -467,11 +448,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @forwardv2ray | 9",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 16",
             "type": "vmess",
-            "server": "mci.mosi.mosipro.ml",
+            "server": "172.67.71.160",
             "server_port": 443,
-            "uuid": "fd393e2c-3f86-48b1-b3dd-8f975c596894",
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -484,7 +465,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "Dusseldorf.kotick.site",
+                "server_name": "obdii.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -494,9 +475,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/speedtest",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "Dusseldorf.kotick.site"
+                    "Host": "obdii.cfd"
                 }
             }
         }
