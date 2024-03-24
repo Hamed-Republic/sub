@@ -118,7 +118,7 @@
                 "🇩🇪DE | vless | @ARv2ray | 19",
                 "🇷🇺RU | vless | @shh_proxy | 23",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
-                "🇨🇦CA | vless | @rxv2ray | 21",
+                "🇺🇸US | vless | @rxv2ray | 21",
                 "🇸🇪SE | vless | @lightning6 | 26",
                 "🇨🇦CA | vless | @V2rayNGmat | 9",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -138,10 +138,11 @@
                 "🇨🇦CA | vless | @ServerNett | 1",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @v2ray_swhil | 34",
-                "🇮🇷IR | vless | @proxyymeliii | 9",
+                "🇮🇷IR | vless | @proxyymeliii | 11",
                 "🇨🇦CA | vless | @v2ray1_ng | 15",
                 "🇨🇷CR | vless | @MTConfig | 18",
                 "🇨🇦CA | vless | @V2RayTz | 18",
+                "🇨🇦CA | vless | @DailyV2RY | 98",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🏳️XX | vless | @lrnbymaa | 10",
                 "🇨🇦CA | vless | @proxystore11 | 12",
@@ -153,6 +154,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 12",
+                "🇰🇷KR | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇺🇸US | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -182,7 +184,7 @@
                 "🇩🇪DE | vless | @ARv2ray | 19",
                 "🇷🇺RU | vless | @shh_proxy | 23",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
-                "🇨🇦CA | vless | @rxv2ray | 21",
+                "🇺🇸US | vless | @rxv2ray | 21",
                 "🇸🇪SE | vless | @lightning6 | 26",
                 "🇨🇦CA | vless | @V2rayNGmat | 9",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -202,10 +204,11 @@
                 "🇨🇦CA | vless | @ServerNett | 1",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @v2ray_swhil | 34",
-                "🇮🇷IR | vless | @proxyymeliii | 9",
+                "🇮🇷IR | vless | @proxyymeliii | 11",
                 "🇨🇦CA | vless | @v2ray1_ng | 15",
                 "🇨🇷CR | vless | @MTConfig | 18",
                 "🇨🇦CA | vless | @V2RayTz | 18",
+                "🇨🇦CA | vless | @DailyV2RY | 98",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🏳️XX | vless | @lrnbymaa | 10",
                 "🇨🇦CA | vless | @proxystore11 | 12",
@@ -217,6 +220,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 12",
+                "🇰🇷KR | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇺🇸US | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -607,7 +611,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @rxv2ray | 21",
+            "tag": "🇺🇸US | vless | @rxv2ray | 21",
             "type": "vless",
             "server": "www.RxV2ray.sbs",
             "server_port": 2087,
@@ -1145,7 +1149,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @proxyymeliii | 9",
+            "tag": "🇮🇷IR | vless | @proxyymeliii | 11",
             "type": "vless",
             "server": "213.176.1.95",
             "server_port": 4001,
@@ -1238,6 +1242,27 @@
                 "path": "\/",
                 "headers": {
                     "Host": "162.159.134.234"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 98",
+            "type": "vless",
+            "server": "discord.gg",
+            "server_port": 8080,
+            "uuid": "SVNTEAM",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "discord.gg"
                 }
             }
         },
@@ -1545,6 +1570,37 @@
                 "path": "\/",
                 "headers": {
                     "Host": "discord.gg"
+                }
+            }
+        },
+        {
+            "tag": "🇰🇷KR | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "132.145.83.155",
+            "server_port": 33799,
+            "uuid": "cab438c4-9c5a-43fd-a623-ce81cb93085c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hk.twittei.link",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "hk.twittei.link"
                 }
             }
         },
