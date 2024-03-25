@@ -122,11 +122,11 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 9",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
-                "🇨🇦CA | vless | @proxy_kafee | 3",
+                "🇨🇦CA | vless | @proxy_kafee | 4",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇨🇦CA | vless | @Watashi_VPN | 0",
+                "🇺🇸US | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 1",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 21",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🏳️XX | vless | @V2rayNGn | 25",
                 "🇸🇪SE | trojan | @PrivateVPNs | 18",
@@ -145,7 +145,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 1",
                 "🇸🇪SE | vless | @v2ray_swhil | 24",
-                "🇨🇦CA | vless | @proxyymeliii | 11",
+                "🇺🇸US | vless | @proxyymeliii | 11",
                 "🇨🇦CA | vless | @v2ray1_ng | 21",
                 "🇨🇦CA | vless | @vless_vmess | 10",
                 "🇸🇪SE | vless | @V2RayTz | 19",
@@ -202,11 +202,11 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 9",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
-                "🇨🇦CA | vless | @proxy_kafee | 3",
+                "🇨🇦CA | vless | @proxy_kafee | 4",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇨🇦CA | vless | @Watashi_VPN | 0",
+                "🇺🇸US | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 1",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 21",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🏳️XX | vless | @V2rayNGn | 25",
                 "🇸🇪SE | trojan | @PrivateVPNs | 18",
@@ -225,7 +225,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 1",
                 "🇸🇪SE | vless | @v2ray_swhil | 24",
-                "🇨🇦CA | vless | @proxyymeliii | 11",
+                "🇺🇸US | vless | @proxyymeliii | 11",
                 "🇨🇦CA | vless | @v2ray1_ng | 21",
                 "🇨🇦CA | vless | @vless_vmess | 10",
                 "🇸🇪SE | vless | @V2RayTz | 19",
@@ -721,11 +721,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxy_kafee | 3",
+            "tag": "🇨🇦CA | vless | @proxy_kafee | 4",
             "type": "vless",
-            "server": "tgju.org",
-            "server_port": 8443,
-            "uuid": "225d8704-9e2a-47ac-893d-33cd46ed609a",
+            "server": "23.227.60.186",
+            "server_port": 80,
+            "uuid": "4462b91a-ad7b-4a30-928d-702ddcfc0d40",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -733,21 +733,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "join-sho-falcunargo-uk.falcunar.uk.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "join-sho-falcunargo-uk.falcunar.uk.eu.org"
+                    "Host": "23.227.60.186"
                 }
             }
         },
@@ -783,7 +773,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Watashi_VPN | 0",
+            "tag": "🇺🇸US | vless | @Watashi_VPN | 0",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 443,
@@ -845,7 +835,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 21",
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 21",
             "type": "vless",
             "server": "discord.com",
             "server_port": 443,
@@ -1277,7 +1267,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxyymeliii | 11",
+            "tag": "🇺🇸US | vless | @proxyymeliii | 11",
             "type": "vless",
             "server": "www.you.com",
             "server_port": 443,
@@ -1828,9 +1818,9 @@
         {
             "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "104.21.51.208",
-            "server_port": 443,
-            "uuid": "ffffffff-eeae-4311-b37c-b2a67847fed2",
+            "server": "discord.gg",
+            "server_port": 8080,
+            "uuid": "SVNTEAMz",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1838,21 +1828,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "watashi.free.de.mnhacker.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/Path\/Telegram@V2ray_alpha\/",
+                "path": "\/",
                 "headers": {
-                    "Host": "watashi.free.de.mnhacker.eu.org"
+                    "Host": "discord.gg"
                 }
             }
         },
