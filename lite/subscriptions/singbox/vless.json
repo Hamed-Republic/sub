@@ -153,7 +153,6 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇺🇸US | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -219,7 +218,6 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇺🇸US | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -1575,37 +1573,6 @@
                 "headers": {
                     "Host": "www.speedtest.net"
                 }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
-            "type": "vless",
-            "server": "104.21.69.44",
-            "server_port": 8443,
-            "uuid": "299f5320-5e46-4ca7-9bbc-c220200da13c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "fin.mElOV2rAy.store",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "melo",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
