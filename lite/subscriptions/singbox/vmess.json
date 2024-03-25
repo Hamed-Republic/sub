@@ -114,8 +114,7 @@
                 "🇨🇦CA | vmess | @vless_vmess | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
-                "🇭🇰HK | vmess | @v2Line | 10",
-                "🇨🇳CN | vmess | @forwardv2ray | 10"
+                "🇭🇰HK | vmess | @v2Line | 10"
             ]
         },
         {
@@ -130,8 +129,7 @@
                 "🇨🇦CA | vmess | @vless_vmess | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
-                "🇭🇰HK | vmess | @v2Line | 10",
-                "🇨🇳CN | vmess | @forwardv2ray | 10"
+                "🇭🇰HK | vmess | @v2Line | 10"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -380,30 +378,6 @@
             "transport": {
                 "type": "ws",
                 "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇳CN | vmess | @forwardv2ray | 10",
-            "type": "vmess",
-            "server": "data-jp-v1.usabooks.com.cn",
-            "server_port": 20301,
-            "uuid": "b1478e24-4916-3abe-8f17-15931012ecbe",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/debian",
                 "headers": {
                     "Host": ""
                 }
