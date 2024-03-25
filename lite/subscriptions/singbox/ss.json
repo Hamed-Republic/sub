@@ -107,7 +107,8 @@
             "outbounds": [
                 "URL-TEST",
                 "🇧🇭BH | ss | @VmessProtocol | 9",
-                "🇺🇸US | ss | @OutlineVpnOfficial | 19"
+                "🇺🇸US | ss | @OutlineVpnOfficial | 19",
+                "🏳️XX | ss | @forwardv2ray | 18"
             ]
         },
         {
@@ -115,7 +116,8 @@
             "type": "urltest",
             "outbounds": [
                 "🇧🇭BH | ss | @VmessProtocol | 9",
-                "🇺🇸US | ss | @OutlineVpnOfficial | 19"
+                "🇺🇸US | ss | @OutlineVpnOfficial | 19",
+                "🏳️XX | ss | @forwardv2ray | 18"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -154,6 +156,16 @@
             "server_port": 7001,
             "method": "aes-256-gcm",
             "password": "RexnBgU7EV5ADxG",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🏳️XX | ss | @forwardv2ray | 18",
+            "type": "shadowsocks",
+            "server": "[2a0d:c740:3c:1::4d56:7f45]",
+            "server_port": 47529,
+            "method": "aes-256-gcm",
+            "password": "@GetNetworkBot",
             "plugin": "",
             "plugin_opts": ""
         }
