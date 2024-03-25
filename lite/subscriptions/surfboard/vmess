@@ -16,10 +16,11 @@ DIRECT = direct
 🇨🇦CA | vmess | @yaney_01 | 1 = vmess, www.visa.com.hk, 80, username = e184e964-518c-4ddf-ab05-f0a2ecff2f42, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"ydmmamd2.mac2win.top", skip-cert-verify = true, tfo = false
 🇮🇷IR | vmess | @MrV2Ray | 0 = vmess, 185.83.90.50, 41254, username = 39a94956-8a49-4f82-a3a4-93f7d17521d4, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 🇭🇰HK | vmess | @v2Line | 10 = vmess, 74.119.193.64, 443, username = faa2d852-e7a4-40b3-a011-e028b8a21f3b, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"", skip-cert-verify = true, tfo = false
+🇨🇳CN | vmess | @forwardv2ray | 10 = vmess, data-jp-v1.usabooks.com.cn, 20301, username = b1478e24-4916-3abe-8f17-15931012ecbe, ws = true, tls = , vmess-aead = true, ws-path = /debian, ws-headers = Host:"data-jp-v1.usabooks.com.cn", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @oneclickvpnkeys | 8,🇨🇦CA | vmess | @vless_vmess | 10,🇨🇦CA | vmess | @yaney_01 | 1,🇮🇷IR | vmess | @MrV2Ray | 0,🇭🇰HK | vmess | @v2Line | 10
-URL-TEST = url-test,🇨🇦CA | vmess | @oneclickvpnkeys | 8,🇨🇦CA | vmess | @vless_vmess | 10,🇨🇦CA | vmess | @yaney_01 | 1,🇮🇷IR | vmess | @MrV2Ray | 0,🇭🇰HK | vmess | @v2Line | 10
-FALLBACK = fallback,🇨🇦CA | vmess | @oneclickvpnkeys | 8,🇨🇦CA | vmess | @vless_vmess | 10,🇨🇦CA | vmess | @yaney_01 | 1,🇮🇷IR | vmess | @MrV2Ray | 0,🇭🇰HK | vmess | @v2Line | 10
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @oneclickvpnkeys | 8,🇨🇦CA | vmess | @vless_vmess | 10,🇨🇦CA | vmess | @yaney_01 | 1,🇮🇷IR | vmess | @MrV2Ray | 0,🇭🇰HK | vmess | @v2Line | 10,🇨🇳CN | vmess | @forwardv2ray | 10
+URL-TEST = url-test,🇨🇦CA | vmess | @oneclickvpnkeys | 8,🇨🇦CA | vmess | @vless_vmess | 10,🇨🇦CA | vmess | @yaney_01 | 1,🇮🇷IR | vmess | @MrV2Ray | 0,🇭🇰HK | vmess | @v2Line | 10,🇨🇳CN | vmess | @forwardv2ray | 10
+FALLBACK = fallback,🇨🇦CA | vmess | @oneclickvpnkeys | 8,🇨🇦CA | vmess | @vless_vmess | 10,🇨🇦CA | vmess | @yaney_01 | 1,🇮🇷IR | vmess | @MrV2Ray | 0,🇭🇰HK | vmess | @v2Line | 10,🇨🇳CN | vmess | @forwardv2ray | 10
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

@@ -113,9 +113,9 @@
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇨🇦CA | vmess | @vless_vmess | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 17",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
-                "🇭🇰HK | vmess | @v2Line | 10"
+                "🇭🇰HK | vmess | @v2Line | 10",
+                "🇨🇳CN | vmess | @forwardv2ray | 10"
             ]
         },
         {
@@ -129,9 +129,9 @@
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇨🇦CA | vmess | @vless_vmess | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 17",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
-                "🇭🇰HK | vmess | @v2Line | 10"
+                "🇭🇰HK | vmess | @v2Line | 10",
+                "🇨🇳CN | vmess | @forwardv2ray | 10"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -328,40 +328,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 17",
-            "type": "vmess",
-            "server": "104.21.69.44",
-            "server_port": 2096,
-            "uuid": "98b879fc-ed38-4537-f02f-e88e4892d48c",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "eu4.nlist.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/liu",
-                "headers": {
-                    "Host": "eu4.nlist.eu.org"
-                }
-            }
-        },
-        {
             "tag": "🇮🇷IR | vmess | @MrV2Ray | 0",
             "type": "vmess",
             "server": "185.83.90.50",
@@ -414,6 +380,30 @@
             "transport": {
                 "type": "ws",
                 "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇳CN | vmess | @forwardv2ray | 10",
+            "type": "vmess",
+            "server": "data-jp-v1.usabooks.com.cn",
+            "server_port": 20301,
+            "uuid": "b1478e24-4916-3abe-8f17-15931012ecbe",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/debian",
                 "headers": {
                     "Host": ""
                 }
