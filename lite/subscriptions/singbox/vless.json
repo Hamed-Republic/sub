@@ -147,13 +147,13 @@
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇨🇦CA | vless | @polproxy | 35",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 11",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 13",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 3",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇳🇱NL | vless | @forwardv2ray | 18",
+                "🏳️XX | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇺🇸US | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -213,13 +213,13 @@
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇨🇦CA | vless | @polproxy | 35",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 11",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 13",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 3",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇳🇱NL | vless | @forwardv2ray | 18",
+                "🏳️XX | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇺🇸US | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -1414,7 +1414,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 11",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 13",
             "type": "vless",
             "server": "172.66.47.145",
             "server_port": 2096,
@@ -1578,12 +1578,12 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @forwardv2ray | 18",
+            "tag": "🏳️XX | vless | @forwardv2ray | 17",
             "type": "vless",
-            "server": "allrevolt.r8volt.com",
-            "server_port": 443,
-            "uuid": "ae5aed77-be23-4f6c-bd51-c73745038952",
-            "flow": "xtls-rprx-vision",
+            "server": "127.0.0.1",
+            "server_port": 8080,
+            "uuid": "aacbbca-abac-baac-adbc-baaacabcbbcc",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1592,17 +1592,12 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "vu.nl",
+                "server_name": "127.0.0.1",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Pk--Og6oefYaJlSVLEleq267EVt6NaNRIc0PR-4K9nk",
-                    "short_id": "77895d125b69cf7c"
                 }
             }
         },
