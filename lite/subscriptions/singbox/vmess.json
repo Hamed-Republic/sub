@@ -108,13 +108,14 @@
                 "URL-TEST",
                 "🇨🇦CA | vmess | @V2rayCollectorDonate | 21",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇺🇸US | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 1",
-                "🇺🇸US | vmess | @yaney_01 | 1",
+                "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 10",
+                "🇮🇷IR | vmess | @forwardv2ray | 18",
                 "🇺🇸US | vmess | @FAKEOFTVC | 2"
             ]
         },
@@ -124,13 +125,14 @@
             "outbounds": [
                 "🇨🇦CA | vmess | @V2rayCollectorDonate | 21",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇺🇸US | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 1",
-                "🇺🇸US | vmess | @yaney_01 | 1",
+                "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 10",
+                "🇮🇷IR | vmess | @forwardv2ray | 18",
                 "🇺🇸US | vmess | @FAKEOFTVC | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -205,7 +207,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @mftizi | 19",
+            "tag": "🇨🇦CA | vmess | @mftizi | 19",
             "type": "vmess",
             "server": "cfcdn3.sanfencdn9.com",
             "server_port": 2052,
@@ -297,7 +299,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @yaney_01 | 1",
+            "tag": "🇨🇦CA | vmess | @yaney_01 | 1",
             "type": "vmess",
             "server": "www.visa.com.hk",
             "server_port": 80,
@@ -399,6 +401,30 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "marien.motorcycles"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "62.60.135.13",
+            "server_port": 8080,
+            "uuid": "4dba618a-a752-40b5-a583-8b0ed0724009",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
