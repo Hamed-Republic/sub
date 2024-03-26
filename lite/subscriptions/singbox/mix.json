@@ -165,7 +165,7 @@
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇸🇪SE | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @flyv2ray | 10",
-                "🇸🇪SE | vless | @forwardv2ray | 16",
+                "🇬🇧GB | ss | @forwardv2ray | 19",
                 "🇦🇪AE | ss | @FAKEOFTVC | 1",
                 "🇺🇸US | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -244,7 +244,7 @@
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇸🇪SE | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @flyv2ray | 10",
-                "🇸🇪SE | vless | @forwardv2ray | 16",
+                "🇬🇧GB | ss | @forwardv2ray | 19",
                 "🇦🇪AE | ss | @FAKEOFTVC | 1",
                 "🇺🇸US | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -1787,25 +1787,14 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @forwardv2ray | 16",
-            "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 80,
-            "uuid": "SVNTEAM",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/SvnTeam-TeleGram-ChaNnel",
-                "headers": {
-                    "Host": "185.146.173.59"
-                }
-            }
+            "tag": "🇬🇧GB | ss | @forwardv2ray | 19",
+            "type": "shadowsocks",
+            "server": "series-a2-mec.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "u17T3BvpYaaiuW2c",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇦🇪AE | ss | @FAKEOFTVC | 1",
