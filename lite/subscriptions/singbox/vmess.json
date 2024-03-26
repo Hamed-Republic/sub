@@ -115,7 +115,7 @@
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 10",
-                "🇺🇸US | vmess | @forwardv2ray | 15"
+                "🇺🇸US | vmess | @FAKEOFTVC | 1"
             ]
         },
         {
@@ -131,7 +131,7 @@
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 10",
-                "🇺🇸US | vmess | @forwardv2ray | 15"
+                "🇺🇸US | vmess | @FAKEOFTVC | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -403,11 +403,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @forwardv2ray | 15",
+            "tag": "🇺🇸US | vmess | @FAKEOFTVC | 1",
             "type": "vmess",
-            "server": "506.outline-vpn.cloud",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "gcore.com",
+            "server_port": 80,
+            "uuid": "22fe5bd3-0c45-44c2-93c1-01074b400633",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -418,21 +418,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "marien.motorcycles",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/",
                 "headers": {
-                    "Host": "marien.motorcycles"
+                    "Host": ""
                 }
             }
         }
