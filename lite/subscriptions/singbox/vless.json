@@ -125,7 +125,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 23",
                 "🇨🇦CA | vless | @proxy_kafee | 4",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇺🇸US | vless | @Watashi_VPN | 0",
+                "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 1",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
@@ -143,6 +143,7 @@
                 "🇨🇦CA | vless | @vless_vmess | 10",
                 "🇸🇪SE | vless | @V2RayTz | 17",
                 "🇩🇪DE | vless | @VmessProtocol | 9",
+                "🇩🇪DE | vless | @DailyV2RY | 99",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇩🇪DE | vless | @lrnbymaa | 12",
                 "🇨🇦CA | vless | @proxystore11 | 11",
@@ -190,7 +191,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 23",
                 "🇨🇦CA | vless | @proxy_kafee | 4",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇺🇸US | vless | @Watashi_VPN | 0",
+                "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 1",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
@@ -208,6 +209,7 @@
                 "🇨🇦CA | vless | @vless_vmess | 10",
                 "🇸🇪SE | vless | @V2RayTz | 17",
                 "🇩🇪DE | vless | @VmessProtocol | 9",
+                "🇩🇪DE | vless | @DailyV2RY | 99",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇩🇪DE | vless | @lrnbymaa | 12",
                 "🇨🇦CA | vless | @proxystore11 | 11",
@@ -757,7 +759,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Watashi_VPN | 0",
+            "tag": "🇨🇦CA | vless | @Watashi_VPN | 0",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 443,
@@ -1209,6 +1211,27 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @DailyV2RY | 99",
+            "type": "vless",
+            "server": "5.75.203.170",
+            "server_port": 443,
+            "uuid": "8d1f8810-7b11-4901-9de7-80bed2563765",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Vpn_Mikey،@Vpn_Mikey",
+                "headers": {
+                    "Host": "5.75.203.170"
+                }
             }
         },
         {
