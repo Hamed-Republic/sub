@@ -138,11 +138,11 @@
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 7",
                 "🇨🇦CA | vless | @ServerNett | 8",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇸🇪SE | vless | @v2ray_swhil | 29",
+                "🇸🇪SE | vless | @v2ray_swhil | 26",
                 "🇨🇦CA | vless | @proxyymeliii | 11",
                 "🇨🇷CR | vless | @MsV2ray | 5",
                 "🇨🇦CA | vless | @v2ray1_ng | 13",
-                "🇸🇪SE | vless | @V2RayTz | 19",
+                "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇺🇸US | vless | @VmessProtocol | 11",
                 "🇷🇺RU | vless | @DailyV2RY | 106",
                 "🇨🇦CA | vless | @sinabigo | 6",
@@ -156,7 +156,7 @@
                 "🏳️XX | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🏳️XX | vless | @forwardv2ray | 12",
                 "🇨🇷CR | vless | @FAKEOFTVC | 3",
                 "🇨🇳CN | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -206,11 +206,11 @@
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 7",
                 "🇨🇦CA | vless | @ServerNett | 8",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇸🇪SE | vless | @v2ray_swhil | 29",
+                "🇸🇪SE | vless | @v2ray_swhil | 26",
                 "🇨🇦CA | vless | @proxyymeliii | 11",
                 "🇨🇷CR | vless | @MsV2ray | 5",
                 "🇨🇦CA | vless | @v2ray1_ng | 13",
-                "🇸🇪SE | vless | @V2RayTz | 19",
+                "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇺🇸US | vless | @VmessProtocol | 11",
                 "🇷🇺RU | vless | @DailyV2RY | 106",
                 "🇨🇦CA | vless | @sinabigo | 6",
@@ -224,7 +224,7 @@
                 "🏳️XX | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🏳️XX | vless | @forwardv2ray | 12",
                 "🇨🇷CR | vless | @FAKEOFTVC | 3",
                 "🇨🇳CN | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -1103,7 +1103,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @v2ray_swhil | 29",
+            "tag": "🇸🇪SE | vless | @v2ray_swhil | 26",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.xn--vduxm832c504a.xyz",
             "server_port": 8880,
@@ -1180,11 +1180,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2RayTz | 19",
+            "tag": "🇨🇦CA | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "185.146.173.59",
+            "server": "104.21.74.214",
             "server_port": 443,
-            "uuid": "telegram-id-ArV2ray",
+            "uuid": "c6a979db-09de-4b47-88c2-fb89c0335049",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1194,7 +1194,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "cp2.agh9731.ir",
+                "server_name": "moein.savarkaraan.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1204,7 +1204,7 @@
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "service_name": "@Polproxy,@Polproxy,@Polproxy,@Polproxy,@Polproxy",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -1570,12 +1570,12 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "tag": "🏳️XX | vless | @forwardv2ray | 12",
             "type": "vless",
-            "server": "Zula.ir",
+            "server": "v2logy.ddns.net",
             "server_port": 443,
-            "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99",
-            "flow": "",
+            "uuid": "72859c41-15ac-4621-bfdf-ac4c3ac33ad4",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1584,20 +1584,25 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "test39.pages.dev",
+                "server_name": "sourceforge.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "k6gu1t73hTdYK3PKNUwOqy2B7ZP-sek-dW2_-aGf9i4",
+                    "short_id": ""
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/Path\/Telegram : FreakConfig \/",
-                "headers": {
-                    "Host": "test39.pages.dev"
-                }
+                "type": "grpc",
+                "service_name": "Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
