@@ -147,7 +147,7 @@
                 "🇺🇸US | vless | @VmessProtocol | 10",
                 "🇨🇦CA | vless | @DailyV2RY | 112",
                 "🇨🇦CA | vless | @sinabigo | 6",
-                "🇺🇸US | vless | @proxystore11 | 9",
+                "🇨🇦CA | vless | @proxystore11 | 9",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇨🇦CA | vless | @polproxy | 35",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 14",
@@ -156,6 +156,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @flyv2ray | 14",
+                "🇮🇷IR | vless | @forwardv2ray | 18",
                 "🇨🇷CR | vless | @FAKEOFTVC | 2",
                 "🇨🇳CN | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -214,7 +215,7 @@
                 "🇺🇸US | vless | @VmessProtocol | 10",
                 "🇨🇦CA | vless | @DailyV2RY | 112",
                 "🇨🇦CA | vless | @sinabigo | 6",
-                "🇺🇸US | vless | @proxystore11 | 9",
+                "🇨🇦CA | vless | @proxystore11 | 9",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇨🇦CA | vless | @polproxy | 35",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 14",
@@ -223,6 +224,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @flyv2ray | 14",
+                "🇮🇷IR | vless | @forwardv2ray | 18",
                 "🇨🇷CR | vless | @FAKEOFTVC | 2",
                 "🇨🇳CN | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -1319,7 +1321,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxystore11 | 9",
+            "tag": "🇨🇦CA | vless | @proxystore11 | 9",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 443,
@@ -1561,6 +1563,20 @@
                 "headers": {
                     "Host": "discord.gg"
                 }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "84.47.234.101",
+            "server_port": 444,
+            "uuid": "79b27bac-82c8-4b5a-814f-de0b5694b782",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
