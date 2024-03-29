@@ -147,7 +147,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇺🇸US | vmess | @V2rayng_Fast | 1",
                 "🇸🇪SE | vless | @v2ray_swhil | 29",
-                "🇮🇷IR | vless | @proxyymeliii | 10",
+                "🇮🇷IR | vless | @proxyymeliii | 9",
                 "🇨🇦CA | vless | @v2ray1_ng | 11",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇺🇸US | vless | @VmessProtocol | 12",
@@ -155,7 +155,7 @@
                 "🇨🇦CA | vless | @sinabigo | 7",
                 "🇩🇪DE | vless | @lrnbymaa | 10",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 16",
-                "🇨🇦CA | vless | @proxystore11 | 10",
+                "🇺🇸US | vless | @proxystore11 | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇩🇪DE | vless | @fnet00 | 2",
@@ -228,7 +228,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇺🇸US | vmess | @V2rayng_Fast | 1",
                 "🇸🇪SE | vless | @v2ray_swhil | 29",
-                "🇮🇷IR | vless | @proxyymeliii | 10",
+                "🇮🇷IR | vless | @proxyymeliii | 9",
                 "🇨🇦CA | vless | @v2ray1_ng | 11",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇺🇸US | vless | @VmessProtocol | 12",
@@ -236,7 +236,7 @@
                 "🇨🇦CA | vless | @sinabigo | 7",
                 "🇩🇪DE | vless | @lrnbymaa | 10",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 16",
-                "🇨🇦CA | vless | @proxystore11 | 10",
+                "🇺🇸US | vless | @proxystore11 | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇩🇪DE | vless | @fnet00 | 2",
@@ -1330,17 +1330,24 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @proxyymeliii | 10",
+            "tag": "🇮🇷IR | vless | @proxyymeliii | 9",
             "type": "vless",
-            "server": "46.102.136.69",
-            "server_port": 57803,
-            "uuid": "27b08a01-7056-473d-8917-0db091da8a89",
+            "server": "svt55.topnetvip.com",
+            "server_port": 12559,
+            "uuid": "a9a3e625-2337-4b57-a658-21ae6037687c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "svt55.topnetvip.com"
+                }
             }
         },
         {
@@ -1486,7 +1493,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @proxystore11 | 10",
+            "tag": "🇺🇸US | vless | @proxystore11 | 10",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 443,
@@ -1822,9 +1829,9 @@
         {
             "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "discord.gg",
-            "server_port": 80,
-            "uuid": "-DIGiV2RAY--",
+            "server": "172.64.89.170",
+            "server_port": 443,
+            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1832,11 +1839,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "3k.pureboy.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Digiv2ray-",
+                "path": "\/telegram-channel-proxy_mtm\/",
                 "headers": {
-                    "Host": "discord.gg"
+                    "Host": "3k.pureboy.eu.org"
                 }
             }
         },
