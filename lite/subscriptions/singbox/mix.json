@@ -106,12 +106,13 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇨🇦CA | vless | @EliV2ray | 12",
                 "🇨🇦CA | vless | @Parsashonam | 16",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇸🇪SE | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 17",
                 "🇨🇦CA | vless | @ipV2Ray | 9",
-                "🇺🇸US | vless | @melov2ray | 12",
+                "🇨🇦CA | vless | @melov2ray | 12",
                 "🇨🇦CA | vless | @V2pedia | 27",
                 "🇸🇪SE | vless | @ARv2ray | 16",
                 "🇺🇸US | vless | @shh_proxy | 24",
@@ -136,7 +137,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 13",
                 "🇨🇦CA | vless | @prrofile_purple | 178",
-                "🇺🇸US | vless | @customv2ray | 13",
+                "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 17",
                 "🇺🇸US | vless | @vmessorg | 33",
                 "🏳️XX | vless | @v2rayNG_Matsuri | 11",
@@ -167,8 +168,8 @@
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇸🇪SE | vless | @Capoit | 16",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
-                "🇺🇸US | vless | @FAKEOFTVC | 2",
+                "🇨🇦CA | vmess | @forwardv2ray | 10",
+                "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇨🇳CN | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -179,19 +180,20 @@
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇨🇦CA | vless | @V2FETCH | 4",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇺🇸US | vless | @TVCminer | 21"
+                "🇨🇦CA | vless | @TVCminer | 17"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇨🇦CA | vless | @EliV2ray | 12",
                 "🇨🇦CA | vless | @Parsashonam | 16",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇸🇪SE | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 17",
                 "🇨🇦CA | vless | @ipV2Ray | 9",
-                "🇺🇸US | vless | @melov2ray | 12",
+                "🇨🇦CA | vless | @melov2ray | 12",
                 "🇨🇦CA | vless | @V2pedia | 27",
                 "🇸🇪SE | vless | @ARv2ray | 16",
                 "🇺🇸US | vless | @shh_proxy | 24",
@@ -216,7 +218,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 13",
                 "🇨🇦CA | vless | @prrofile_purple | 178",
-                "🇺🇸US | vless | @customv2ray | 13",
+                "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 17",
                 "🇺🇸US | vless | @vmessorg | 33",
                 "🏳️XX | vless | @v2rayNG_Matsuri | 11",
@@ -247,8 +249,8 @@
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇸🇪SE | vless | @Capoit | 16",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
-                "🇺🇸US | vless | @FAKEOFTVC | 2",
+                "🇨🇦CA | vmess | @forwardv2ray | 10",
+                "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇨🇳CN | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -259,7 +261,7 @@
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇨🇦CA | vless | @V2FETCH | 4",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇺🇸US | vless | @TVCminer | 21"
+                "🇨🇦CA | vless | @TVCminer | 17"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -280,6 +282,27 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇨🇦CA | vless | @EliV2ray | 12",
+            "type": "vless",
+            "server": "23.227.60.87",
+            "server_port": 80,
+            "uuid": "--ELiV2RAY-ELiV2RAY--",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "23.227.60.87"
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vless | @Parsashonam | 16",
@@ -417,7 +440,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @melov2ray | 12",
+            "tag": "🇨🇦CA | vless | @melov2ray | 12",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -1058,7 +1081,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @customv2ray | 13",
+            "tag": "🇨🇦CA | vless | @customv2ray | 13",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 443,
@@ -1861,11 +1884,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 10",
             "type": "vmess",
-            "server": "cloudflare.b4a-devs.org",
-            "server_port": 2083,
-            "uuid": "0a40bceb-6a30-4da2-b90b-2ae5ed018e98",
+            "server": "104.21.75.244",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1878,7 +1901,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "cloudflare.b4a-devs.org",
+                "server_name": "janett.click",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1888,14 +1911,14 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/cloudflare",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": "cloudflare.b4a-devs.org"
+                    "Host": "janett.click"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | vless | @FAKEOFTVC | 2",
+            "tag": "🇨🇦CA | vless | @FAKEOFTVC | 2",
             "type": "vless",
             "server": "104.18.202.232",
             "server_port": 80,
@@ -2173,12 +2196,12 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @TVCminer | 21",
+            "tag": "🇨🇦CA | vless | @TVCminer | 17",
             "type": "vless",
-            "server": "45.66.249.114",
+            "server": "104.21.51.208",
             "server_port": 443,
-            "uuid": "09e02255-eb34-4665-979f-ee448d4446ab",
-            "flow": "xtls-rprx-vision",
+            "uuid": "ffffffff-eeae-4311-b37c-b2a67847fed2",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -2187,12 +2210,19 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "lsa.jarviskit.com",
+                "server_name": "watashi.free.de.mnhacker.eu.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Path\/Telegram@@V2rayi_net-Telegram:@V2rayi_net-Telegram:@V2rayi_net-Telegram:@V2rayi_net-Telegram:@V2rayi_net-Telegram:@V2rayi_net-Telegram:@V2rayi_net-Telegram:@V2rayi_net-Telegram:@V2rayi_net-Telegram:@V2rayi_net-Telegram:@V2rayi_net-Telegram:@V2rayi_net-Telegram:@V2rayi_net-Telegram:@V2rayi_net-Telegram:@V2rayi_net\/",
+                "headers": {
+                    "Host": "watashi.free.de.mnhacker.eu.org"
                 }
             }
         }
