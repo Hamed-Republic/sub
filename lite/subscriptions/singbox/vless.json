@@ -144,10 +144,10 @@
                 "🇨🇷CR | vless | @vless_vmess | 12",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 14",
-                "🇸🇪SE | vless | @DailyV2RY | 162",
-                "🇨🇦CA | vless | @sinabigo | 7",
+                "🇨🇷CR | vless | @DailyV2RY | 161",
+                "🇨🇦CA | vless | @sinabigo | 8",
                 "🇮🇷IR | vless | @lrnbymaa | 10",
-                "🇺🇸US | vless | @proxystore11 | 10",
+                "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇮🇷IR | vless | @polproxy | 35",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 14",
@@ -156,7 +156,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 17",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇨🇷CR | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇳🇱NL | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -214,10 +214,10 @@
                 "🇨🇷CR | vless | @vless_vmess | 12",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 14",
-                "🇸🇪SE | vless | @DailyV2RY | 162",
-                "🇨🇦CA | vless | @sinabigo | 7",
+                "🇨🇷CR | vless | @DailyV2RY | 161",
+                "🇨🇦CA | vless | @sinabigo | 8",
                 "🇮🇷IR | vless | @lrnbymaa | 10",
-                "🇺🇸US | vless | @proxystore11 | 10",
+                "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇮🇷IR | vless | @polproxy | 35",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 14",
@@ -226,7 +226,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 17",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇨🇷CR | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇳🇱NL | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -505,7 +505,7 @@
             "type": "vless",
             "server": "Join.ShhProxy.Site",
             "server_port": 80,
-            "uuid": "652ea903-8902-4329-89bd-2d29930e2d9d",
+            "uuid": "0e3874a1-157d-4b6d-9655-0b03a1a4e6dc",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1242,11 +1242,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @DailyV2RY | 162",
+            "tag": "🇨🇷CR | vless | @DailyV2RY | 161",
             "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 2082,
-            "uuid": "f83d36c1-07a8-4f3e-c7d3-eac6896e2478",
+            "server": "190.93.246.241",
+            "server_port": 2053,
+            "uuid": "33c41da4-d771-43bc-bf39-9f558bf010b4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1254,16 +1254,26 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "mtnedjkqlaofrdCdfrgtGR.bazaars.pro",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
+                "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.59"
+                    "Host": "mtnedjkqlaofrdCdfrgtGR.bazaars.pro"
                 }
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @sinabigo | 7",
+            "tag": "🇨🇦CA | vless | @sinabigo | 8",
             "type": "vless",
             "server": "skdjfsklhfgd7fgy493toksjfog.pages.dev",
             "server_port": 2096,
@@ -1308,7 +1318,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxystore11 | 10",
+            "tag": "🇨🇦CA | vless | @proxystore11 | 10",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 443,
@@ -1553,11 +1563,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "tag": "🇨🇷CR | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "104.16.60.8",
-            "server_port": 2053,
-            "uuid": "9bb74f9c-6385-4e90-9d16-aadf009575f8",
+            "server": "190.93.247.155",
+            "server_port": 443,
+            "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1567,7 +1577,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "akfjw807r23raskodfjsf.pages.dev",
+                "server_name": "test50.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1577,9 +1587,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Path\/Telegram@V2ray_Alpha\/",
+                "path": "\/Path\/Telegram@v2Rinjector\/",
                 "headers": {
-                    "Host": "akfjw807r23raskodfjsf.pages.dev"
+                    "Host": "test50.pages.dev"
                 }
             }
         },
