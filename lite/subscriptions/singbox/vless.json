@@ -140,13 +140,13 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇸🇪SE | vless | @v2ray_swhil | 29",
                 "🇨🇦CA | vless | @proxyymeliii | 11",
-                "🇮🇷IR | vless | @v2ray1_ng | 5",
+                "🇨🇦CA | vless | @v2ray1_ng | 4",
                 "🇨🇷CR | vless | @MTConfig | 18",
                 "🇺🇸US | vless | @V2RayTz | 19",
                 "🇸🇪SE | vless | @DailyV2RY | 177",
                 "🇮🇷IR | vless | @sinabigo | 7",
                 "🇺🇸US | vless | @lrnbymaa | 11",
-                "🇺🇸US | vless | @proxystore11 | 11",
+                "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇮🇷IR | vless | @polproxy | 35",
                 "🇮🇷IR | vless | @Outlinev2rayNG | 15",
@@ -206,13 +206,13 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇸🇪SE | vless | @v2ray_swhil | 29",
                 "🇨🇦CA | vless | @proxyymeliii | 11",
-                "🇮🇷IR | vless | @v2ray1_ng | 5",
+                "🇨🇦CA | vless | @v2ray1_ng | 4",
                 "🇨🇷CR | vless | @MTConfig | 18",
                 "🇺🇸US | vless | @V2RayTz | 19",
                 "🇸🇪SE | vless | @DailyV2RY | 177",
                 "🇮🇷IR | vless | @sinabigo | 7",
                 "🇺🇸US | vless | @lrnbymaa | 11",
-                "🇺🇸US | vless | @proxystore11 | 11",
+                "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇮🇷IR | vless | @polproxy | 35",
                 "🇮🇷IR | vless | @Outlinev2rayNG | 15",
@@ -1117,17 +1117,34 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @v2ray1_ng | 5",
+            "tag": "🇨🇦CA | vless | @v2ray1_ng | 4",
             "type": "vless",
-            "server": "217.219.212.12",
-            "server_port": 52983,
-            "uuid": "f09adc38-3a98-4f30-b1bc-e461c12c3d61",
+            "server": "104.26.14.85",
+            "server_port": 2083,
+            "uuid": "d3a12e79-ef42-4268-b367-42eeb3494e60",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hagh.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Path\/Telegram@SiNABiGO\/",
+                "headers": {
+                    "Host": "hagh.pages.dev"
+                }
             }
         },
         {
@@ -1239,7 +1256,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxystore11 | 11",
+            "tag": "🇨🇦CA | vless | @proxystore11 | 11",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 8443,
