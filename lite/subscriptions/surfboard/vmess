@@ -11,12 +11,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
+🇨🇦CA | vmess | @DeamNet_Proxy | 17 = vmess, 104.21.21.35, 443, username = 757dc1d3-c0fd-456e-9426-2e9221584d40, ws = true, tls = 1, vmess-aead = false, ws-path = /, ws-headers = Host:"hu2.xv2ray.net", skip-cert-verify = true, tfo = false
 🇨🇦CA | vmess | @oneclickvpnkeys | 11 = vmess, ftp-localcdn.kiava-cloud.us.to, 443, username = 36cc4baf-8abf-4b98-91bb-79a5cd12ad29, ws = true, tls = 1, vmess-aead = true, ws-path = /linkiava, ws-headers = Host:"ftp-localcdn.kiava-cloud.us.to", skip-cert-verify = true, tfo = false
 🇨🇦CA | vmess | @yaney_01 | 1 = vmess, www.visa.com.hk, 80, username = e184e964-518c-4ddf-ab05-f0a2ecff2f42, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"ydmmamd2.mac2win.top", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @oneclickvpnkeys | 11,🇨🇦CA | vmess | @yaney_01 | 1
-URL-TEST = url-test,🇨🇦CA | vmess | @oneclickvpnkeys | 11,🇨🇦CA | vmess | @yaney_01 | 1
-FALLBACK = fallback,🇨🇦CA | vmess | @oneclickvpnkeys | 11,🇨🇦CA | vmess | @yaney_01 | 1
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @DeamNet_Proxy | 17,🇨🇦CA | vmess | @oneclickvpnkeys | 11,🇨🇦CA | vmess | @yaney_01 | 1
+URL-TEST = url-test,🇨🇦CA | vmess | @DeamNet_Proxy | 17,🇨🇦CA | vmess | @oneclickvpnkeys | 11,🇨🇦CA | vmess | @yaney_01 | 1
+FALLBACK = fallback,🇨🇦CA | vmess | @DeamNet_Proxy | 17,🇨🇦CA | vmess | @oneclickvpnkeys | 11,🇨🇦CA | vmess | @yaney_01 | 1
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
