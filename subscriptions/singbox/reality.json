@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🏳️XX | vless | @V2pedia | 15",
                 "🏳️XX | vless | @V2pedia | 25",
-                "🇩🇪DE | vless | @ARv2ray | 4",
+                "🇩🇪DE | vless | @ARv2ray | 5",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
@@ -117,7 +117,7 @@
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🏳️XX | vless | @V2rayCollectorDonate | 15",
                 "🇩🇪DE | vless | @v2ray_swhil | 21",
-                "🇩🇪DE | vless | @V2RayTz | 16",
+                "🇩🇪DE | vless | @V2RayTz | 18",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -131,7 +131,8 @@
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🏳️XX | vless | @forwardv2ray | 17",
+                "🇩🇪DE | vless | @forwardv2ray | 3",
+                "🇩🇪DE | vless | @forwardv2ray | 4",
                 "🇩🇪DE | vless | @kiava | 3",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -165,7 +166,7 @@
             "outbounds": [
                 "🏳️XX | vless | @V2pedia | 15",
                 "🏳️XX | vless | @V2pedia | 25",
-                "🇩🇪DE | vless | @ARv2ray | 4",
+                "🇩🇪DE | vless | @ARv2ray | 5",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
@@ -174,7 +175,7 @@
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🏳️XX | vless | @V2rayCollectorDonate | 15",
                 "🇩🇪DE | vless | @v2ray_swhil | 21",
-                "🇩🇪DE | vless | @V2RayTz | 16",
+                "🇩🇪DE | vless | @V2RayTz | 18",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -188,7 +189,8 @@
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🏳️XX | vless | @forwardv2ray | 17",
+                "🇩🇪DE | vless | @forwardv2ray | 3",
+                "🇩🇪DE | vless | @forwardv2ray | 4",
                 "🇩🇪DE | vless | @kiava | 3",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -308,7 +310,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ARv2ray | 4",
+            "tag": "🇩🇪DE | vless | @ARv2ray | 5",
             "type": "vless",
             "server": "91.107.189.243",
             "server_port": 443,
@@ -597,7 +599,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @V2RayTz | 16",
+            "tag": "🇩🇪DE | vless | @V2RayTz | 18",
             "type": "vless",
             "server": "91.107.166.63",
             "server_port": 443,
@@ -1031,11 +1033,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @forwardv2ray | 17",
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 3",
             "type": "vless",
-            "server": "v2logy.ddns.net",
+            "server": "91.107.183.153",
             "server_port": 443,
-            "uuid": "72859c41-15ac-4621-bfdf-ac4c3ac33ad4",
+            "uuid": "telegram-id-ArV2ray",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1045,7 +1047,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "sourceforge.net",
+                "server_name": "www.speedtest.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1054,13 +1056,49 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "k6gu1t73hTdYK3PKNUwOqy2B7ZP-sek-dW2_-aGf9i4",
-                    "short_id": ""
+                    "public_key": "moE3Ra4Tx2wfcTFNOZJkbxuefu_qB9GEHM_XNJIPSnQ",
+                    "short_id": "a1e03f51"
                 }
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 4",
+            "type": "vless",
+            "server": "91.107.183.153",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "moE3Ra4Tx2wfcTFNOZJkbxuefu_qB9GEHM_XNJIPSnQ",
+                    "short_id": "a1e03f51"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
