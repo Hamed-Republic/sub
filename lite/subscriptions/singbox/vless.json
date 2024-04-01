@@ -127,12 +127,13 @@
                 "🇨🇦CA | vless | @proxy_kafee | 4",
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇺🇸US | vless | @Watashi_VPN | 0",
-                "🇺🇸US | vless | @V2rayCollector | 2",
+                "🇨🇦CA | vless | @V2rayCollector | 2",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 3",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇦CA | vless | @V2rayNGn | 6",
-                "🇺🇸US | vless | @customv2ray | 14",
-                "🇨🇦CA | vless | @UnlimitedDev | 15",
+                "🇨🇦CA | vless | @customv2ray | 14",
+                "🇨🇦CA | vless | @UnlimitedDev | 17",
                 "🇺🇸US | vless | @vmessorg | 34",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 6",
                 "🇨🇦CA | vless | @v2rayngvpn | 12",
@@ -144,7 +145,7 @@
                 "🇨🇷CR | vless | @MTConfig | 18",
                 "🇸🇪SE | vless | @V2RayTz | 12",
                 "🇸🇪SE | vless | @DailyV2RY | 173",
-                "🇺🇸US | vless | @proxystore11 | 11",
+                "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇮🇷IR | vless | @polproxy | 35",
                 "🇮🇷IR | vless | @Outlinev2rayNG | 15",
                 "🇸🇪SE | vless | @v2rayng_vpnrog | 3",
@@ -152,6 +153,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 16",
                 "🇺🇸US | vless | @flyv2ray | 14",
+                "🇨🇦CA | vless | @forwardv2ray | 16",
                 "🇩🇪DE | vless | @FAKEOFTVC | 2",
                 "🇸🇪SE | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -191,12 +193,13 @@
                 "🇨🇦CA | vless | @proxy_kafee | 4",
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇺🇸US | vless | @Watashi_VPN | 0",
-                "🇺🇸US | vless | @V2rayCollector | 2",
+                "🇨🇦CA | vless | @V2rayCollector | 2",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 3",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇦CA | vless | @V2rayNGn | 6",
-                "🇺🇸US | vless | @customv2ray | 14",
-                "🇨🇦CA | vless | @UnlimitedDev | 15",
+                "🇨🇦CA | vless | @customv2ray | 14",
+                "🇨🇦CA | vless | @UnlimitedDev | 17",
                 "🇺🇸US | vless | @vmessorg | 34",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 6",
                 "🇨🇦CA | vless | @v2rayngvpn | 12",
@@ -208,7 +211,7 @@
                 "🇨🇷CR | vless | @MTConfig | 18",
                 "🇸🇪SE | vless | @V2RayTz | 12",
                 "🇸🇪SE | vless | @DailyV2RY | 173",
-                "🇺🇸US | vless | @proxystore11 | 11",
+                "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇮🇷IR | vless | @polproxy | 35",
                 "🇮🇷IR | vless | @Outlinev2rayNG | 15",
                 "🇸🇪SE | vless | @v2rayng_vpnrog | 3",
@@ -216,6 +219,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 16",
                 "🇺🇸US | vless | @flyv2ray | 14",
+                "🇨🇦CA | vless | @forwardv2ray | 16",
                 "🇩🇪DE | vless | @FAKEOFTVC | 2",
                 "🇸🇪SE | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -797,7 +801,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayCollector | 2",
+            "tag": "🇨🇦CA | vless | @V2rayCollector | 2",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 443,
@@ -845,6 +849,37 @@
                 "path": "\/@daily_configs--@daily_configs--@daily_configs--@daily_configs@daily_configs",
                 "headers": {
                     "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+            "type": "vless",
+            "server": "web.bbv2ry.pics",
+            "server_port": 443,
+            "uuid": "3d1cc233-13bc-4e95-a39f-3d2ab7fdf1fd",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Sky2.bbv2ry.pics",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "Sky2.bbv2ry.pics"
                 }
             }
         },
@@ -901,7 +936,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @customv2ray | 14",
+            "tag": "🇨🇦CA | vless | @customv2ray | 14",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2096,
@@ -932,7 +967,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @UnlimitedDev | 15",
+            "tag": "🇨🇦CA | vless | @UnlimitedDev | 17",
             "type": "vless",
             "server": "bia-to2.unlimiteddev.site",
             "server_port": 80,
@@ -1220,7 +1255,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxystore11 | 11",
+            "tag": "🇨🇦CA | vless | @proxystore11 | 11",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 8443,
@@ -1408,6 +1443,27 @@
                 "path": "\/",
                 "headers": {
                     "Host": "Sky2.bbv2ry.pics"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 16",
+            "type": "vless",
+            "server": "bia-to2.unlimiteddev.site",
+            "server_port": 80,
+            "uuid": "dddb44a5-d530-45c8-8fe8-21647157139e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev-Telegram:@UnlimitedDev",
+                "headers": {
+                    "Host": "bia-to2.unlimiteddev.site"
                 }
             }
         },
