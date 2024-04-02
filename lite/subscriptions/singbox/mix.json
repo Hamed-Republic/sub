@@ -138,7 +138,7 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🏳️XX | vmess | @oneclickvpnkeys | 12",
-                "🇺🇸US | vless | @prrofile_purple | 181",
+                "🇨🇦CA | vless | @prrofile_purple | 181",
                 "🇨🇦CA | vless | @customv2ray | 11",
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
                 "🇨🇦CA | vless | @vmessorg | 34",
@@ -166,7 +166,7 @@
                 "🇨🇦CA | vmess | @v2Line | 11",
                 "🇸🇪SE | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇺🇸US | vmess | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇮🇷IR | vless | @FAKEOFTVC | 1",
                 "🇨🇳CN | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -221,7 +221,7 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🏳️XX | vmess | @oneclickvpnkeys | 12",
-                "🇺🇸US | vless | @prrofile_purple | 181",
+                "🇨🇦CA | vless | @prrofile_purple | 181",
                 "🇨🇦CA | vless | @customv2ray | 11",
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
                 "🇨🇦CA | vless | @vmessorg | 34",
@@ -249,7 +249,7 @@
                 "🇨🇦CA | vmess | @v2Line | 11",
                 "🇸🇪SE | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇺🇸US | vmess | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇮🇷IR | vless | @FAKEOFTVC | 1",
                 "🇨🇳CN | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -1103,7 +1103,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @prrofile_purple | 181",
+            "tag": "🇨🇦CA | vless | @prrofile_purple | 181",
             "type": "vless",
             "server": "clear.xn--fhq0la447aac5504dea701axr1g.com",
             "server_port": 443,
@@ -1834,16 +1834,13 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @forwardv2ray | 19",
-            "type": "vmess",
-            "server": "172.67.152.200",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "104.21.12.184",
+            "server_port": 8443,
+            "uuid": "7fd7c15d-95cd-4f5c-bf59-f21e5eb27580",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1851,7 +1848,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "meroiy.icu",
+                "server_name": "3k.dabee.top",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1861,9 +1858,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/Path\/Telegram@V2ray_Alpha\/",
                 "headers": {
-                    "Host": "meroiy.icu"
+                    "Host": "3k.dabee.top"
                 }
             }
         },
