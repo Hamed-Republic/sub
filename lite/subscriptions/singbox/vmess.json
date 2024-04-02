@@ -108,12 +108,13 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 26",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 11",
-                "🏳️XX | vmess | @forwardv2ray | 17",
+                "🇨🇦CA | vmess | @forwardv2ray | 16",
                 "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
             ]
         },
@@ -123,12 +124,13 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 26",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 11",
-                "🏳️XX | vmess | @forwardv2ray | 17",
+                "🇨🇦CA | vmess | @forwardv2ray | 16",
                 "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -189,6 +191,40 @@
                 "path": "\/",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 18",
+            "type": "vmess",
+            "server": "bolder-metal-comma.glitch.me",
+            "server_port": 443,
+            "uuid": "dac61bb8-461c-4a4a-b14b-5a5ff6991fee",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "bolder-metal-comma.glitch.me",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/dac61bb8-461c-4a4a-b14b-5a5ff6991fee-vmess",
+                "headers": {
+                    "Host": "bolder-metal-comma.glitch.me"
                 }
             }
         },
@@ -270,9 +306,9 @@
         {
             "tag": "🇺🇸US | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "104.238.133.112",
-            "server_port": 34120,
-            "uuid": "cf8de0e9-fc3c-46ab-eda1-b5b12913aa07",
+            "server": "149.28.228.215",
+            "server_port": 22195,
+            "uuid": "f865bc43-b129-443e-d00a-7d303b25c4a2",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -319,11 +355,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @forwardv2ray | 17",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 16",
             "type": "vmess",
-            "server": "mci.mosi.mosipro.ml",
+            "server": "172.67.68.246",
             "server_port": 443,
-            "uuid": "e18f6c30-67b2-4c44-906d-7b356b066821",
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -336,7 +372,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "Dusseldorf.kotick.site",
+                "server_name": "vip2323.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -346,9 +382,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/speedtest",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": "Dusseldorf.kotick.site"
+                    "Host": "vip2323.cfd"
                 }
             }
         },
