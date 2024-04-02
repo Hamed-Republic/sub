@@ -11,13 +11,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇺🇸US | vmess | @DeamNet_Proxy | 18 = vmess, bolder-metal-comma.glitch.me, 443, username = dac61bb8-461c-4a4a-b14b-5a5ff6991fee, ws = true, tls = 1, vmess-aead = false, ws-path = /dac61bb8-461c-4a4a-b14b-5a5ff6991fee-vmess, ws-headers = Host:"bolder-metal-comma.glitch.me", skip-cert-verify = true, tfo = false
 🇨🇦CA | vmess | @yaney_01 | 1 = vmess, www.visa.com.hk, 80, username = e184e964-518c-4ddf-ab05-f0a2ecff2f42, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"ydmmamd2.mac2win.top", skip-cert-verify = true, tfo = false
-🇨🇦CA | vmess | @Hope_Net | 19 = vmess, 104.21.82.39, 2095, username = 7a737f41-b792-4260-94ff-3d864da67b80, ws = true, tls = , vmess-aead = true, ws-path = , ws-headers = Host:"", skip-cert-verify = true, tfo = false
+🇨🇦CA | vmess | @forwardv2ray | 18 = vmess, linde06.indiavideo.sbs, 443, username = edbb1059-1633-4271-b66e-ed4fba47a1bf, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"linde06.indiavideo.sbs", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | vmess | @DeamNet_Proxy | 18,🇨🇦CA | vmess | @yaney_01 | 1,🇨🇦CA | vmess | @Hope_Net | 19
-URL-TEST = url-test,🇺🇸US | vmess | @DeamNet_Proxy | 18,🇨🇦CA | vmess | @yaney_01 | 1,🇨🇦CA | vmess | @Hope_Net | 19
-FALLBACK = fallback,🇺🇸US | vmess | @DeamNet_Proxy | 18,🇨🇦CA | vmess | @yaney_01 | 1,🇨🇦CA | vmess | @Hope_Net | 19
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @yaney_01 | 1,🇨🇦CA | vmess | @forwardv2ray | 18
+URL-TEST = url-test,🇨🇦CA | vmess | @yaney_01 | 1,🇨🇦CA | vmess | @forwardv2ray | 18
+FALLBACK = fallback,🇨🇦CA | vmess | @yaney_01 | 1,🇨🇦CA | vmess | @forwardv2ray | 18
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

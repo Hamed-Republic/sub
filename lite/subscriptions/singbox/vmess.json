@@ -110,11 +110,11 @@
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
-                "🇮🇷IR | vmess | @prrofile_purple | 180",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 26",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 19",
+                "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 11",
+                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
             ]
         },
@@ -126,11 +126,11 @@
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
-                "🇮🇷IR | vmess | @prrofile_purple | 180",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 26",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 19",
+                "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 11",
+                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -197,9 +197,9 @@
         {
             "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 18",
             "type": "vmess",
-            "server": "bolder-metal-comma.glitch.me",
+            "server": "198.41.202.5",
             "server_port": 443,
-            "uuid": "dac61bb8-461c-4a4a-b14b-5a5ff6991fee",
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -212,7 +212,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "bolder-metal-comma.glitch.me",
+                "server_name": "irene.lat",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -222,9 +222,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/dac61bb8-461c-4a4a-b14b-5a5ff6991fee-vmess",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": "bolder-metal-comma.glitch.me"
+                    "Host": "irene.lat"
                 }
             }
         },
@@ -260,23 +260,6 @@
                 "headers": {
                     "Host": "muriel.makeup"
                 }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vmess | @prrofile_purple | 180",
-            "type": "vmess",
-            "server": "arr779.freelife.skin",
-            "server_port": 80,
-            "uuid": "94c79543-355f-42a1-99f4-ab2167734b90",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -321,11 +304,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 19",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "104.21.82.39",
-            "server_port": 2095,
-            "uuid": "7a737f41-b792-4260-94ff-3d864da67b80",
+            "server": "104.238.133.112",
+            "server_port": 34120,
+            "uuid": "cf8de0e9-fc3c-46ab-eda1-b5b12913aa07",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -335,13 +318,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
@@ -375,6 +351,40 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "linde06.indiavideo.sbs",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "linde06.indiavideo.sbs"
                 }
             }
         },
