@@ -127,7 +127,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇺🇸US | vless | @proxy_kafee | 5",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇺🇸US | vless | @Watashi_VPN | 0",
+                "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇺🇸US | vless | @V2rayCollector | 8",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 0",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
@@ -157,6 +157,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @flyv2ray | 15",
+                "🇸🇪SE | vless | @forwardv2ray | 18",
                 "🇮🇷IR | vless | @FAKEOFTVC | 1",
                 "🇨🇳CN | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -168,7 +169,7 @@
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇨🇦CA | vless | @V2FETCH | 4",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇺🇸US | vless | @TIKTOK_PROXY | 2",
+                "🇨🇦CA | vless | @TIKTOK_PROXY | 2",
                 "🇺🇸US | vless | @TVCminer | 10"
             ]
         },
@@ -197,7 +198,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇺🇸US | vless | @proxy_kafee | 5",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇺🇸US | vless | @Watashi_VPN | 0",
+                "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇺🇸US | vless | @V2rayCollector | 8",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 0",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
@@ -227,6 +228,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @flyv2ray | 15",
+                "🇸🇪SE | vless | @forwardv2ray | 18",
                 "🇮🇷IR | vless | @FAKEOFTVC | 1",
                 "🇨🇳CN | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -238,7 +240,7 @@
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇨🇦CA | vless | @V2FETCH | 4",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇺🇸US | vless | @TIKTOK_PROXY | 2",
+                "🇨🇦CA | vless | @TIKTOK_PROXY | 2",
                 "🇺🇸US | vless | @TVCminer | 10"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -819,7 +821,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Watashi_VPN | 0",
+            "tag": "🇨🇦CA | vless | @Watashi_VPN | 0",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 443,
@@ -1615,6 +1617,27 @@
             }
         },
         {
+            "tag": "🇸🇪SE | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "185.146.173.59",
+            "server_port": 80,
+            "uuid": "SVNTEAMm",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/SvnTeam-TeleGram-ChaNnel-VIP",
+                "headers": {
+                    "Host": "185.146.173.59"
+                }
+            }
+        },
+        {
             "tag": "🇮🇷IR | vless | @FAKEOFTVC | 1",
             "type": "vless",
             "server": "novin.aryanett.link",
@@ -1886,7 +1909,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @TIKTOK_PROXY | 2",
+            "tag": "🇨🇦CA | vless | @TIKTOK_PROXY | 2",
             "type": "vless",
             "server": "sv1.cardnet.sbs",
             "server_port": 2053,
