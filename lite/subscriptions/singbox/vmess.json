@@ -110,9 +110,11 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇸🇬SG | vmess | @oneclickvpnkeys | 9",
                 "🇮🇷IR | vmess | @prrofile_purple | 170",
+                "🇺🇸US | vmess | @customv2ray | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇺🇸US | vmess | @Hope_Net | 7",
+                "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇨🇦CA | vmess | @v2Line | 8",
+                "🇨🇦CA | vmess | @forwardv2ray | 9",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 8"
             ]
@@ -125,9 +127,11 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇸🇬SG | vmess | @oneclickvpnkeys | 9",
                 "🇮🇷IR | vmess | @prrofile_purple | 170",
+                "🇺🇸US | vmess | @customv2ray | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇺🇸US | vmess | @Hope_Net | 7",
+                "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇨🇦CA | vmess | @v2Line | 8",
+                "🇨🇦CA | vmess | @forwardv2ray | 9",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 8"
             ],
@@ -234,6 +238,30 @@
             }
         },
         {
+            "tag": "🇺🇸US | vmess | @customv2ray | 12",
+            "type": "vmess",
+            "server": "s1c.v2.v001sss.xyz",
+            "server_port": 2082,
+            "uuid": "112ac36f-3f53-4e26-8371-d25c028e1b9a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 1",
             "type": "vmess",
             "server": "104.26.8.210",
@@ -268,7 +296,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 7",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 8",
             "type": "vmess",
             "server": "caretaker.com",
             "server_port": 443,
@@ -332,6 +360,40 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "vip2323.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 9",
+            "type": "vmess",
+            "server": "172.67.163.2",
+            "server_port": 443,
+            "uuid": "f386b1e6-a737-47fe-9046-736fb43b7eae",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ftp-localcdn.kiava-cloud.us.to",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkiava",
+                "headers": {
+                    "Host": "ftp-localcdn.kiava-cloud.us.to"
                 }
             }
         },
