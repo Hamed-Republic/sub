@@ -106,9 +106,9 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | vless | @EliV2ray | 7",
+                "🇬🇧GB | vless | @EliV2ray | 9",
                 "🏳️XX | vless | @V2pedia | 17",
-                "🇩🇪DE | vless | @ARv2ray | 16",
+                "🇩🇪DE | vless | @ARv2ray | 17",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
@@ -117,7 +117,7 @@
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🇫🇮FI | vless | @V2rayCollectorDonate | 8",
                 "🏳️XX | vless | @FalconPolV2rayNG | 5",
-                "🇮🇷IR | vless | @proxyymeliii | 2",
+                "🇮🇷IR | vless | @proxyymeliii | 3",
                 "🇳🇱NL | vless | @v2ray1_ng | 9",
                 "🇩🇪DE | vless | @DailyV2RY | 128",
                 "🇹🇷TR | vless | @DailyV2RY | 134",
@@ -134,6 +134,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🇹🇷TR | vless | @forwardv2ray | 1",
                 "🇩🇪DE | vless | @kiava | 3",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -165,9 +166,9 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | vless | @EliV2ray | 7",
+                "🇬🇧GB | vless | @EliV2ray | 9",
                 "🏳️XX | vless | @V2pedia | 17",
-                "🇩🇪DE | vless | @ARv2ray | 16",
+                "🇩🇪DE | vless | @ARv2ray | 17",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
@@ -176,7 +177,7 @@
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🇫🇮FI | vless | @V2rayCollectorDonate | 8",
                 "🏳️XX | vless | @FalconPolV2rayNG | 5",
-                "🇮🇷IR | vless | @proxyymeliii | 2",
+                "🇮🇷IR | vless | @proxyymeliii | 3",
                 "🇳🇱NL | vless | @v2ray1_ng | 9",
                 "🇩🇪DE | vless | @DailyV2RY | 128",
                 "🇹🇷TR | vless | @DailyV2RY | 134",
@@ -193,6 +194,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🇹🇷TR | vless | @forwardv2ray | 1",
                 "🇩🇪DE | vless | @kiava | 3",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -240,7 +242,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇬🇧GB | vless | @EliV2ray | 7",
+            "tag": "🇬🇧GB | vless | @EliV2ray | 9",
             "type": "vless",
             "server": "165.22.120.153",
             "server_port": 443,
@@ -312,7 +314,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ARv2ray | 16",
+            "tag": "🇩🇪DE | vless | @ARv2ray | 17",
             "type": "vless",
             "server": "91.107.189.243",
             "server_port": 443,
@@ -601,7 +603,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @proxyymeliii | 2",
+            "tag": "🇮🇷IR | vless | @proxyymeliii | 3",
             "type": "vless",
             "server": "er.maghzkadehturky.com.tr",
             "server_port": 2096,
@@ -1126,6 +1128,42 @@
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
                 }
+            }
+        },
+        {
+            "tag": "🇹🇷TR | vless | @forwardv2ray | 1",
+            "type": "vless",
+            "server": "213.217.31.43",
+            "server_port": 8080,
+            "uuid": "8d002366-cecc-4bf6-b353-ca3a68a1731c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "discord.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mrfbA_MYn7EoNJrtyJp6OjpSxYH-dA78HduJ5UeHiCc",
+                    "short_id": "40aee5a0"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@BugFreeNet@BugFreeNet@BugFreeNet@BugFreeNet@BugFreeNet@BugFreeNet@BugFreeNet@BugFreeNet@BugFreeNet@BugFreeNet@BugFreeNet@BugFreeNet@BugFreeNet",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
