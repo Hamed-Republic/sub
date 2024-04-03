@@ -126,7 +126,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇺🇸US | vless | @proxy_kafee | 7",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇺🇸US | vless | @Watashi_VPN | 0",
+                "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @V2rayCollector | 4",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
@@ -135,6 +135,7 @@
                 "🇨🇦CA | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
                 "🇮🇷IR | vmess | @prrofile_purple | 170",
                 "🇨🇦CA | vless | @customv2ray | 13",
@@ -156,7 +157,7 @@
                 "🇮🇳IN | ss | @OutlineVpnOfficial | 16",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇺🇸US | vmess | @Hope_Net | 6",
+                "🇨🇦CA | vmess | @Hope_Net | 7",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 5",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 9",
@@ -164,8 +165,8 @@
                 "🇨🇦CA | vmess | @v2Line | 9",
                 "🇸🇪SE | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 5",
-                "🇸🇪SE | vless | @flyv2ray | 16",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇺🇸US | vless | @flyv2ray | 16",
+                "🇷🇺RU | vless | @forwardv2ray | 17",
                 "🇮🇷IR | vless | @FAKEOFTVC | 1",
                 "🏳️XX | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -207,7 +208,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇺🇸US | vless | @proxy_kafee | 7",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇺🇸US | vless | @Watashi_VPN | 0",
+                "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @V2rayCollector | 4",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
@@ -216,6 +217,7 @@
                 "🇨🇦CA | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
                 "🇮🇷IR | vmess | @prrofile_purple | 170",
                 "🇨🇦CA | vless | @customv2ray | 13",
@@ -237,7 +239,7 @@
                 "🇮🇳IN | ss | @OutlineVpnOfficial | 16",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇺🇸US | vmess | @Hope_Net | 6",
+                "🇨🇦CA | vmess | @Hope_Net | 7",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 5",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 9",
@@ -245,8 +247,8 @@
                 "🇨🇦CA | vmess | @v2Line | 9",
                 "🇸🇪SE | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 5",
-                "🇸🇪SE | vless | @flyv2ray | 16",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇺🇸US | vless | @flyv2ray | 16",
+                "🇷🇺RU | vless | @forwardv2ray | 17",
                 "🇮🇷IR | vless | @FAKEOFTVC | 1",
                 "🏳️XX | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -810,7 +812,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Watashi_VPN | 0",
+            "tag": "🇨🇦CA | vless | @Watashi_VPN | 0",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 443,
@@ -1020,6 +1022,40 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
+            "type": "vmess",
+            "server": "kittiy.sbs",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 23379904,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "kittiy.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "kittiy.sbs"
+                }
             }
         },
         {
@@ -1554,11 +1590,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 6",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "172.67.116.48",
-            "server_port": 80,
-            "uuid": "22a13aa2-4854-44cb-e090-ec71ab84b1ff",
+            "server": "caretaker.com",
+            "server_port": 443,
+            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1569,11 +1605,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "mikasa.yaemiko.cloudns.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/ivideos.sbs\/linkws",
                 "headers": {
-                    "Host": ""
+                    "Host": "mikasa.yaemiko.cloudns.org"
                 }
             }
         },
@@ -1776,32 +1822,42 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @flyv2ray | 16",
+            "tag": "🇺🇸US | vless | @flyv2ray | 16",
             "type": "vless",
-            "server": "185.146.173.20",
-            "server_port": 2052,
-            "uuid": "9110e2f1-88e5-4a58-8b10-982c5b8138ff",
+            "server": "web.bbv2ry.pics",
+            "server_port": 443,
+            "uuid": "2adc4447-048a-479f-99cb-ed4901725f13",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Sky2.bbv2ry.pics",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.20"
+                    "Host": "Sky2.bbv2ry.pics"
                 }
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "tag": "🇷🇺RU | vless | @forwardv2ray | 17",
             "type": "vless",
-            "server": "104.18.202.232",
-            "server_port": 80,
-            "uuid": "c8aa3dce-77b8-4cca-b313-89ce5c015137",
+            "server": "185.109.21.115",
+            "server_port": 8080,
+            "uuid": "0c68452d-7485-4dec-a7b8-1e0868619d62",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1811,9 +1867,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/xmrdark",
+                "path": "\/@daily_configs-@daily_configs-@daily_configs-@daily_configs",
                 "headers": {
-                    "Host": "104.18.202.232"
+                    "Host": "185.109.21.115"
                 }
             }
         },
