@@ -108,7 +108,6 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇾CY | vmess | @DeamNet_Proxy | 18",
                 "🇨🇷CR | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vmess | @customv2ray | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
@@ -124,7 +123,6 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇾CY | vmess | @DeamNet_Proxy | 18",
                 "🇨🇷CR | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vmess | @customv2ray | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
@@ -185,40 +183,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇾CY | vmess | @DeamNet_Proxy | 18",
-            "type": "vmess",
-            "server": "195.85.59.50",
-            "server_port": 443,
-            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
-            "security": "auto",
-            "alter_id": -1,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "8wccc4a94-term-4a94.ketowil344.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ivideos.sbs\/linkws",
-                "headers": {
-                    "Host": "8wccc4a94-term-4a94.ketowil344.workers.dev"
-                }
             }
         },
         {
@@ -343,9 +307,9 @@
         {
             "tag": "🇨🇦CA | vmess | @v2Line | 10",
             "type": "vmess",
-            "server": "104.21.30.254",
+            "server": "104.26.9.202",
             "server_port": 443,
-            "uuid": "6d9911b0-4e14-44fb-8883-52d14f550cca",
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -358,7 +322,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "be2-vmess.sshmax.xyz",
+                "server_name": "vip2323.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -368,9 +332,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": "be2-vmess.sshmax.xyz"
+                    "Host": "vip2323.cfd"
                 }
             }
         },
