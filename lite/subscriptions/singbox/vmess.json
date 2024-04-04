@@ -111,8 +111,9 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇮🇷IR | vmess | @prrofile_purple | 180",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
+                "🏳️XX | vmess | @Hope_Net | 15",
                 "🇨🇦CA | vmess | @v2Line | 10",
-                "🇺🇸US | vmess | @forwardv2ray | 13",
+                "🇨🇦CA | vmess | @forwardv2ray | 17",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 8"
             ]
@@ -126,8 +127,9 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇮🇷IR | vmess | @prrofile_purple | 180",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
+                "🏳️XX | vmess | @Hope_Net | 15",
                 "🇨🇦CA | vmess | @v2Line | 10",
-                "🇺🇸US | vmess | @forwardv2ray | 13",
+                "🇨🇦CA | vmess | @forwardv2ray | 17",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 8"
             ],
@@ -278,6 +280,40 @@
             }
         },
         {
+            "tag": "🏳️XX | vmess | @Hope_Net | 15",
+            "type": "vmess",
+            "server": "0316ro.fans8.xyz",
+            "server_port": 443,
+            "uuid": "5c70da5d-e641-3bf8-b7dc-5babd843ff3c",
+            "security": "auto",
+            "alter_id": 2,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "0316ro.fans8.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/nl",
+                "headers": {
+                    "Host": "0316ro.fans8.xyz"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vmess | @v2Line | 10",
             "type": "vmess",
             "server": "104.21.30.254",
@@ -312,9 +348,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @forwardv2ray | 13",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 17",
             "type": "vmess",
-            "server": "172.67.184.11",
+            "server": "meroiy.icu",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
@@ -329,7 +365,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "janett.click",
+                "server_name": "meroiy.icu",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -341,7 +377,7 @@
                 "type": "ws",
                 "path": "\/linkvws",
                 "headers": {
-                    "Host": "janett.click"
+                    "Host": "meroiy.icu"
                 }
             }
         },
