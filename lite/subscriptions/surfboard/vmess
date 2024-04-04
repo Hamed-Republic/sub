@@ -11,12 +11,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
+🇬🇧GB | vmess | @DeamNet_Proxy | 17 = vmess, 95.164.37.15, 80, username = b5aafe8c-3527-4502-8add-9ca7417cfc88, ws = true, tls = , vmess-aead = false, ws-path = /vmess, ws-headers = Host:"95.164.37.15", skip-cert-verify = true, tfo = false
 🇻🇳VN | vmess | @Hope_Net | 18 = vmess, bs1.loadingip.com, 80, username = 9e5999ba-870a-46b1-8500-37c640371ec6, ws = true, tls = , vmess-aead = true, ws-path = /bs, ws-headers = Host:"bs1.loadingip.com", skip-cert-verify = true, tfo = false
 🇳🇱NL | vmess | @OpenSSTPVpn | 4 = vmess, 188.114.97.3, 443, username = f584de15-2034-4170-a723-f48c2bae5e0f, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"afrhms16v.bestxray.buzz", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇻🇳VN | vmess | @Hope_Net | 18,🇳🇱NL | vmess | @OpenSSTPVpn | 4
-URL-TEST = url-test,🇻🇳VN | vmess | @Hope_Net | 18,🇳🇱NL | vmess | @OpenSSTPVpn | 4
-FALLBACK = fallback,🇻🇳VN | vmess | @Hope_Net | 18,🇳🇱NL | vmess | @OpenSSTPVpn | 4
+MANUAL = select,URL-TEST,FALLBACK,🇬🇧GB | vmess | @DeamNet_Proxy | 17,🇻🇳VN | vmess | @Hope_Net | 18,🇳🇱NL | vmess | @OpenSSTPVpn | 4
+URL-TEST = url-test,🇬🇧GB | vmess | @DeamNet_Proxy | 17,🇻🇳VN | vmess | @Hope_Net | 18,🇳🇱NL | vmess | @OpenSSTPVpn | 4
+FALLBACK = fallback,🇬🇧GB | vmess | @DeamNet_Proxy | 17,🇻🇳VN | vmess | @Hope_Net | 18,🇳🇱NL | vmess | @OpenSSTPVpn | 4
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
