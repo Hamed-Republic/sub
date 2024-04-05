@@ -108,6 +108,7 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 16",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇮🇷IR | vmess | @Hope_Net | 16",
@@ -123,6 +124,7 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 16",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇮🇷IR | vmess | @Hope_Net | 16",
@@ -183,6 +185,40 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 16",
+            "type": "vmess",
+            "server": "172.64.111.9",
+            "server_port": 443,
+            "uuid": "fa2ad4c5-63ba-45f0-8926-12fcce49ded1",
+            "security": "auto",
+            "alter_id": 6,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ru.sxmzkfyy.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/VK4yTEQZ\/",
+                "headers": {
+                    "Host": "ru.sxmzkfyy.com"
+                }
             }
         },
         {
