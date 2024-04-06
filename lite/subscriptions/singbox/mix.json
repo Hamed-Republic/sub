@@ -113,7 +113,7 @@
                 "🇸🇪SE | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 18",
                 "🇨🇦CA | vless | @ipV2Ray | 8",
-                "🇺🇸US | vless | @melov2ray | 10",
+                "🇨🇦CA | vless | @melov2ray | 10",
                 "🇨🇦CA | vless | @V2pedia | 27",
                 "🇨🇦CA | vless | @frev2ray | 7",
                 "🇸🇪SE | vless | @ARv2ray | 13",
@@ -127,7 +127,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇺🇸US | vless | @proxy_kafee | 1",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇨🇦CA | vless | @Watashi_VPN | 0",
+                "🇺🇸US | vless | @Watashi_VPN | 0",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 2",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
@@ -158,8 +158,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 118",
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇯🇵JP | ss | @OutlineVpnOfficial | 18",
-                "🇫🇮FI | vless | @ConfigsHUB | 18",
-                "🇺🇸US | vless | @proxystore11 | 13",
+                "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇳🇱NL | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @polproxy | 34",
@@ -197,7 +196,7 @@
                 "🇸🇪SE | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 18",
                 "🇨🇦CA | vless | @ipV2Ray | 8",
-                "🇺🇸US | vless | @melov2ray | 10",
+                "🇨🇦CA | vless | @melov2ray | 10",
                 "🇨🇦CA | vless | @V2pedia | 27",
                 "🇨🇦CA | vless | @frev2ray | 7",
                 "🇸🇪SE | vless | @ARv2ray | 13",
@@ -211,7 +210,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇺🇸US | vless | @proxy_kafee | 1",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇨🇦CA | vless | @Watashi_VPN | 0",
+                "🇺🇸US | vless | @Watashi_VPN | 0",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 2",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
@@ -242,8 +241,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 118",
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇯🇵JP | ss | @OutlineVpnOfficial | 18",
-                "🇫🇮FI | vless | @ConfigsHUB | 18",
-                "🇺🇸US | vless | @proxystore11 | 13",
+                "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇳🇱NL | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @polproxy | 34",
@@ -477,7 +475,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @melov2ray | 10",
+            "tag": "🇨🇦CA | vless | @melov2ray | 10",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -847,7 +845,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Watashi_VPN | 0",
+            "tag": "🇺🇸US | vless | @Watashi_VPN | 0",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 443,
@@ -1580,43 +1578,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇫🇮FI | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "pub2.legendaryking.link",
-            "server_port": 443,
-            "uuid": "ItsLegendaryking",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "anandtech.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "7ihdxqfI3SzKW-4Wy6dUEmWKdgSGRVtzndg88Fgyylw",
-                    "short_id": "0edb849a"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @proxystore11 | 13",
+            "tag": "🇨🇦CA | vless | @proxystore11 | 13",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 8443,
