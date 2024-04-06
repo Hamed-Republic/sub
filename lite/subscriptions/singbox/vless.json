@@ -127,9 +127,8 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇺🇸US | vless | @proxy_kafee | 2",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇺🇸US | vless | @Watashi_VPN | 0",
+                "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 2",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 8",
                 "🇨🇦CA | vless | @prrofile_purple | 175",
@@ -148,7 +147,7 @@
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 127",
                 "🇳🇱NL | vless | @sinabigo | 6",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 12",
                 "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 9",
@@ -168,7 +167,7 @@
                 "🇨🇦CA | vless | @V2FETCH | 4",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇺🇸US | vless | @TIKTOK_PROXY | 2",
-                "🇺🇸US | vless | @TVCminer | 9"
+                "🏳️XX | vless | @TVCminer | 8"
             ]
         },
         {
@@ -196,9 +195,8 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇺🇸US | vless | @proxy_kafee | 2",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇺🇸US | vless | @Watashi_VPN | 0",
+                "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 2",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 8",
                 "🇨🇦CA | vless | @prrofile_purple | 175",
@@ -217,7 +215,7 @@
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 127",
                 "🇳🇱NL | vless | @sinabigo | 6",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 12",
                 "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 9",
@@ -237,7 +235,7 @@
                 "🇨🇦CA | vless | @V2FETCH | 4",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇺🇸US | vless | @TIKTOK_PROXY | 2",
-                "🇺🇸US | vless | @TVCminer | 9"
+                "🏳️XX | vless | @TVCminer | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -817,7 +815,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Watashi_VPN | 0",
+            "tag": "🇨🇦CA | vless | @Watashi_VPN | 0",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 443,
@@ -876,37 +874,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 21",
-            "type": "vless",
-            "server": "web.bbv2ry.pics",
-            "server_port": 443,
-            "uuid": "ac6b3d48-d16f-4125-9f17-d986541a3ee9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Sky2.bbv2ry.pics",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "Sky2.bbv2ry.pics"
-                }
             }
         },
         {
@@ -1361,11 +1328,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 12",
             "type": "vless",
-            "server": "104.18.107.13",
+            "server": "www.zula.ir",
             "server_port": 443,
-            "uuid": "d674009a-4a87-4180-a8fe-9a54f66bd7c9",
+            "uuid": "ffffffff-bf32-4282-b875-eca220008daf",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1375,7 +1342,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "vpn.restia.love",
+                "server_name": "f.auto.r.exit.e.e.watashi-java.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1385,9 +1352,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Path\/Telegram@FreeVirgoolNet\/",
                 "headers": {
-                    "Host": "vpn.restia.love"
+                    "Host": "f.auto.r.exit.e.e.watashi-java.ir"
                 }
             }
         },
@@ -1933,12 +1900,12 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @TVCminer | 9",
+            "tag": "🏳️XX | vless | @TVCminer | 8",
             "type": "vless",
-            "server": "172.67.174.190",
-            "server_port": 443,
-            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
-            "flow": "",
+            "server": "[2a12:5940:f667::2]",
+            "server_port": 25365,
+            "uuid": "b7421b73-fbd8-4318-8c22-5d4aa947dada",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1947,20 +1914,25 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "3k.pureboy.eu.org",
+                "server_name": "sourceforge.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "gLjN_4GK5Ih3_cpt7dZZHGk439EPy3o04FytCzFwhQo",
+                    "short_id": "5fc00f6a"
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/freecodes",
-                "headers": {
-                    "Host": "3k.pureboy.eu.org"
-                }
+                "type": "grpc",
+                "service_name": "@ZEDMODEON-@ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         }
     ],
