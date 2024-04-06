@@ -145,13 +145,13 @@
                 "🇩🇪DE | vless | @v2ray_swhil | 25",
                 "🇸🇪SE | vless | @proxyymeliii | 15",
                 "🇨🇷CR | vless | @MsV2ray | 14",
-                "🇨🇦CA | vless | @v2ray1_ng | 4",
+                "🇺🇸US | vless | @v2ray1_ng | 4",
                 "🇨🇦CA | vless | @vless_vmess | 8",
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇸🇪SE | vless | @DailyV2RY | 116",
                 "🇳🇱NL | vless | @sinabigo | 6",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
-                "🇺🇸US | vless | @proxystore11 | 13",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 19",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 9",
@@ -215,13 +215,13 @@
                 "🇩🇪DE | vless | @v2ray_swhil | 25",
                 "🇸🇪SE | vless | @proxyymeliii | 15",
                 "🇨🇷CR | vless | @MsV2ray | 14",
-                "🇨🇦CA | vless | @v2ray1_ng | 4",
+                "🇺🇸US | vless | @v2ray1_ng | 4",
                 "🇨🇦CA | vless | @vless_vmess | 8",
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇸🇪SE | vless | @DailyV2RY | 116",
                 "🇳🇱NL | vless | @sinabigo | 6",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
-                "🇺🇸US | vless | @proxystore11 | 13",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 19",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 9",
@@ -1258,7 +1258,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray1_ng | 4",
+            "tag": "🇺🇸US | vless | @v2ray1_ng | 4",
             "type": "vless",
             "server": "www.discord.com",
             "server_port": 8443,
@@ -1376,11 +1376,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "104.21.19.124",
-            "server_port": 2087,
-            "uuid": "---ID---EVAY_VPN----",
+            "server": "www.discord.gg",
+            "server_port": 443,
+            "uuid": "1da545b0-2395-4d5c-abe8-8aee6671c859",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1390,7 +1390,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "free.sharkv2r.com",
+                "server_name": "BPB-worKEr-paNel-aQX.paGES.DEV",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1399,15 +1399,15 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "BPB-worKEr-paNel-aQX.paGES.DEV"
+                }
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxystore11 | 13",
+            "tag": "🇨🇦CA | vless | @proxystore11 | 13",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 8443,
