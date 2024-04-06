@@ -106,9 +106,9 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇳🇱NL | ss | @DeamNet_Proxy | 7",
-                "🇬🇧GB | ss | @DeamNet_Proxy | 8",
                 "🇳🇱NL | ss | @DeamNet_Proxy | 9",
+                "🇬🇧GB | ss | @DeamNet_Proxy | 10",
+                "🇳🇱NL | ss | @DeamNet_Proxy | 11",
                 "🇦🇪AE | ss | @VmessProtocol | 3",
                 "🇺🇸US | ss | @VmessProtocol | 7",
                 "🇩🇪DE | ss | @VmessProtocol | 11",
@@ -137,9 +137,9 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇳🇱NL | ss | @DeamNet_Proxy | 7",
-                "🇬🇧GB | ss | @DeamNet_Proxy | 8",
                 "🇳🇱NL | ss | @DeamNet_Proxy | 9",
+                "🇬🇧GB | ss | @DeamNet_Proxy | 10",
+                "🇳🇱NL | ss | @DeamNet_Proxy | 11",
                 "🇦🇪AE | ss | @VmessProtocol | 3",
                 "🇺🇸US | ss | @VmessProtocol | 7",
                 "🇩🇪DE | ss | @VmessProtocol | 11",
@@ -184,7 +184,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇳🇱NL | ss | @DeamNet_Proxy | 7",
+            "tag": "🇳🇱NL | ss | @DeamNet_Proxy | 9",
             "type": "shadowsocks",
             "server": "141.11.189.88",
             "server_port": 8080,
@@ -194,7 +194,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | @DeamNet_Proxy | 8",
+            "tag": "🇬🇧GB | ss | @DeamNet_Proxy | 10",
             "type": "shadowsocks",
             "server": "145.239.6.202",
             "server_port": 8090,
@@ -204,7 +204,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇳🇱NL | ss | @DeamNet_Proxy | 9",
+            "tag": "🇳🇱NL | ss | @DeamNet_Proxy | 11",
             "type": "shadowsocks",
             "server": "141.11.189.205",
             "server_port": 8080,
