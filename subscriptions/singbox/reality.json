@@ -118,9 +118,8 @@
                 "🇮🇪IE | vless | @v2rayNG_Matsuri | 1",
                 "🇮🇷IR | vless | @ShadowProxy66 | 25",
                 "🇳🇱NL | vless | @v2ray_swhil | 11",
-                "🇫🇮FI | vless | @DailyV2RY | 107",
-                "🇩🇪DE | vless | @DailyV2RY | 109",
-                "🇷🇺RU | vless | @ConfigsHUB | 12",
+                "🇫🇮FI | vless | @DailyV2RY | 114",
+                "🇩🇪DE | vless | @DailyV2RY | 116",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -178,9 +177,8 @@
                 "🇮🇪IE | vless | @v2rayNG_Matsuri | 1",
                 "🇮🇷IR | vless | @ShadowProxy66 | 25",
                 "🇳🇱NL | vless | @v2ray_swhil | 11",
-                "🇫🇮FI | vless | @DailyV2RY | 107",
-                "🇩🇪DE | vless | @DailyV2RY | 109",
-                "🇷🇺RU | vless | @ConfigsHUB | 12",
+                "🇫🇮FI | vless | @DailyV2RY | 114",
+                "🇩🇪DE | vless | @DailyV2RY | 116",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -618,7 +616,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vless | @DailyV2RY | 107",
+            "tag": "🇫🇮FI | vless | @DailyV2RY | 114",
             "type": "vless",
             "server": "pub2.legendaryking.link",
             "server_port": 443,
@@ -654,7 +652,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @DailyV2RY | 109",
+            "tag": "🇩🇪DE | vless | @DailyV2RY | 116",
             "type": "vless",
             "server": "pub.legendaryking.link",
             "server_port": 443,
@@ -687,35 +685,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇷🇺RU | vless | @ConfigsHUB | 12",
-            "type": "vless",
-            "server": "193.242.145.208",
-            "server_port": 48297,
-            "uuid": "f127db9d-0611-4b04-c957-a58ae7c9b72c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "fran.havafaza.shop",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg",
-                    "short_id": ""
-                }
             }
         },
         {
