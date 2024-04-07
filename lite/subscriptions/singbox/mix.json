@@ -153,8 +153,8 @@
                 "🇨🇦CA | vless | @DailyV2RY | 133",
                 "🇨🇷CR | vless | @sinabigo | 6",
                 "🇧🇷BR | ss | @OutlineVpnOfficial | 15",
-                "🇺🇸US | vmess | @ConfigsHUB | 17",
-                "🇺🇸US | vless | @proxystore11 | 13",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
                 "🇺🇸US | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vless | @polproxy | 34",
@@ -236,8 +236,8 @@
                 "🇨🇦CA | vless | @DailyV2RY | 133",
                 "🇨🇷CR | vless | @sinabigo | 6",
                 "🇧🇷BR | ss | @OutlineVpnOfficial | 15",
-                "🇺🇸US | vmess | @ConfigsHUB | 17",
-                "🇺🇸US | vless | @proxystore11 | 13",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
                 "🇺🇸US | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vless | @polproxy | 34",
@@ -1440,11 +1440,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 17",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
             "type": "vmess",
-            "server": "172.67.201.200",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "cfcdn2.sanfencdn9.com",
+            "server_port": 2052,
+            "uuid": "d0a3e08a-d26f-45bd-ba3c-6387f9182633",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1455,26 +1455,16 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "maggiy.shop",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/video\/c9efxRCi",
                 "headers": {
-                    "Host": "maggiy.shop"
+                    "Host": "cfcdn2.sanfencdn9.com"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxystore11 | 13",
+            "tag": "🇨🇦CA | vless | @proxystore11 | 13",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 443,
