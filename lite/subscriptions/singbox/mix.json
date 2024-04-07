@@ -146,7 +146,7 @@
                 "🇨🇦CA | vmess | @v2ray_swhil | 27",
                 "🇸🇪SE | vless | @proxyymeliii | 14",
                 "🇨🇷CR | vless | @MsV2ray | 14",
-                "🇺🇸US | vless | @v2ray1_ng | 6",
+                "🇨🇦CA | vless | @v2ray1_ng | 6",
                 "🇨🇦CA | vless | @vless_vmess | 8",
                 "🇺🇸US | vless | @V2RayTz | 19",
                 "🇩🇪DE | ss | @VmessProtocol | 16",
@@ -154,10 +154,10 @@
                 "🇨🇷CR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 7",
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 15",
-                "🇸🇪SE | vless | @ConfigsHUB | 14",
-                "🇺🇸US | vless | @proxystore11 | 13",
+                "🇨🇦CA | vless | @ConfigsHUB | 14",
+                "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
-                "🇲🇴MO | vmess | @Hope_Net | 18",
+                "🇫🇮FI | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇺🇸US | vless | @Outlinev2rayNG | 17",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 10",
@@ -230,7 +230,7 @@
                 "🇨🇦CA | vmess | @v2ray_swhil | 27",
                 "🇸🇪SE | vless | @proxyymeliii | 14",
                 "🇨🇷CR | vless | @MsV2ray | 14",
-                "🇺🇸US | vless | @v2ray1_ng | 6",
+                "🇨🇦CA | vless | @v2ray1_ng | 6",
                 "🇨🇦CA | vless | @vless_vmess | 8",
                 "🇺🇸US | vless | @V2RayTz | 19",
                 "🇩🇪DE | ss | @VmessProtocol | 16",
@@ -238,10 +238,10 @@
                 "🇨🇷CR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 7",
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 15",
-                "🇸🇪SE | vless | @ConfigsHUB | 14",
-                "🇺🇸US | vless | @proxystore11 | 13",
+                "🇨🇦CA | vless | @ConfigsHUB | 14",
+                "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
-                "🇲🇴MO | vmess | @Hope_Net | 18",
+                "🇫🇮FI | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇺🇸US | vless | @Outlinev2rayNG | 17",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 10",
@@ -1326,7 +1326,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @v2ray1_ng | 6",
+            "tag": "🇨🇦CA | vless | @v2ray1_ng | 6",
             "type": "vless",
             "server": "www.discord.com",
             "server_port": 8443,
@@ -1512,11 +1512,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 14",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 14",
             "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 80,
-            "uuid": "telegram-id-ArV2ray",
+            "server": "162.159.135.79",
+            "server_port": 443,
+            "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1524,16 +1524,26 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "test38.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "path": "\/telegram-channel-proxy_mtm\/",
                 "headers": {
-                    "Host": "185.146.173.59"
+                    "Host": "test38.pages.dev"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxystore11 | 13",
+            "tag": "🇨🇦CA | vless | @proxystore11 | 13",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 443,
@@ -1598,11 +1608,11 @@
             }
         },
         {
-            "tag": "🇲🇴MO | vmess | @Hope_Net | 18",
+            "tag": "🇫🇮FI | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "27.109.160.174",
-            "server_port": 54866,
-            "uuid": "be77618a-737e-4260-cc87-e405073f91dc",
+            "server": "65.109.199.41",
+            "server_port": 2105,
+            "uuid": "79ab4609-837e-4d49-9a89-970516bcc7d8",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1612,13 +1622,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/免费节点分享TG频道@WSBVPN",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
