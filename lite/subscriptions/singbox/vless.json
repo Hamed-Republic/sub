@@ -132,8 +132,8 @@
                 "🇮🇷IR | vless | @prrofile_purple | 176",
                 "🇸🇪SE | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 14",
-                "🇨🇦CA | vless | @vmessorg | 32",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 14",
+                "🇺🇸US | vless | @vmessorg | 32",
+                "🇸🇪SE | vless | @v2rayNG_Matsuri | 14",
                 "🇨🇦CA | vless | @v2rayngvpn | 14",
                 "🇸🇪SE | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ShadowProxy66 | 30",
@@ -142,14 +142,14 @@
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇨🇦CA | vless | @v2ray1_ng | 6",
                 "🇨🇦CA | vless | @vless_vmess | 8",
-                "🏳️XX | vless | @V2RayTz | 19",
+                "🇩🇪DE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 125",
                 "🇨🇷CR | vless | @sinabigo | 6",
                 "🇨🇦CA | vless | @lrnbymaa | 7",
-                "🇮🇷IR | vless | @ConfigsHUB | 17",
-                "🇨🇦CA | vless | @proxystore11 | 13",
+                "🇸🇪SE | vless | @ConfigsHUB | 15",
+                "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @polproxy | 34",
-                "🇺🇸US | vless | @Outlinev2rayNG | 17",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 10",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 9",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -202,8 +202,8 @@
                 "🇮🇷IR | vless | @prrofile_purple | 176",
                 "🇸🇪SE | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 14",
-                "🇨🇦CA | vless | @vmessorg | 32",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 14",
+                "🇺🇸US | vless | @vmessorg | 32",
+                "🇸🇪SE | vless | @v2rayNG_Matsuri | 14",
                 "🇨🇦CA | vless | @v2rayngvpn | 14",
                 "🇸🇪SE | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ShadowProxy66 | 30",
@@ -212,14 +212,14 @@
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇨🇦CA | vless | @v2ray1_ng | 6",
                 "🇨🇦CA | vless | @vless_vmess | 8",
-                "🏳️XX | vless | @V2RayTz | 19",
+                "🇩🇪DE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 125",
                 "🇨🇷CR | vless | @sinabigo | 6",
                 "🇨🇦CA | vless | @lrnbymaa | 7",
-                "🇮🇷IR | vless | @ConfigsHUB | 17",
-                "🇨🇦CA | vless | @proxystore11 | 13",
+                "🇸🇪SE | vless | @ConfigsHUB | 15",
+                "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @polproxy | 34",
-                "🇺🇸US | vless | @Outlinev2rayNG | 17",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 10",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 9",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -285,7 +285,7 @@
         {
             "tag": "🇬🇧GB | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "13.43.232.233",
+            "server": "18.130.47.144",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -937,7 +937,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vmessorg | 32",
+            "tag": "🇺🇸US | vless | @vmessorg | 32",
             "type": "vless",
             "server": "joinbede1.vmessorg.site",
             "server_port": 80,
@@ -958,11 +958,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 14",
+            "tag": "🇸🇪SE | vless | @v2rayNG_Matsuri | 14",
             "type": "vless",
-            "server": "104.21.192.45",
-            "server_port": 443,
-            "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99",
+            "server": "join-vpncustomize.v2ray.motorcycles.",
+            "server_port": 80,
+            "uuid": "VPNCUSTOMiZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -970,29 +970,19 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "test57.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/freecodes",
+                "path": "\/",
                 "headers": {
-                    "Host": "test57.pages.dev"
+                    "Host": "join-vpncustomize.v2ray.motorcycles."
                 }
             }
         },
         {
             "tag": "🇨🇦CA | vless | @v2rayngvpn | 14",
             "type": "vless",
-            "server": "104.17.58.44",
-            "server_port": 443,
+            "server": "104.18.82.174",
+            "server_port": 8443,
             "uuid": "d674009a-4a87-4180-a8fe-9a54f66bd7c9",
             "flow": "",
             "packet_encoding": "xudp",
@@ -1207,9 +1197,9 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @V2RayTz | 19",
+            "tag": "🇩🇪DE | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "[2606:4700:3034::ac43:c124]",
+            "server": "154.197.75.80",
             "server_port": 80,
             "uuid": "47d34dbf-97b0-4475-9d67-229de3cff156",
             "flow": "",
@@ -1223,7 +1213,7 @@
                 "type": "ws",
                 "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev-Telegram:@UnlimitedDev",
                 "headers": {
-                    "Host": "[2606:4700:3034::ac43:c124]"
+                    "Host": "154.197.75.80"
                 }
             }
         },
@@ -1301,21 +1291,28 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @ConfigsHUB | 17",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "de6.flexnetch.store",
-            "server_port": 5615,
-            "uuid": "fba5ebfe-cf43-4719-91b7-129d160d3c1b",
+            "server": "185.146.173.59",
+            "server_port": 80,
+            "uuid": "--DIGiV2RAY---",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Digiv2ray-",
+                "headers": {
+                    "Host": "185.146.173.59"
+                }
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxystore11 | 13",
+            "tag": "🇺🇸US | vless | @proxystore11 | 13",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 443,
@@ -1377,11 +1374,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 17",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 17",
             "type": "vless",
-            "server": "172.67.20.220",
-            "server_port": 2096,
-            "uuid": "77a571fb-4fd2-4b37-8596-2b7d9728bb5c",
+            "server": "104.17.58.44",
+            "server_port": 443,
+            "uuid": "d674009a-4a87-4180-a8fe-9a54f66bd7c9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1391,7 +1388,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "vpnxw.pages.dev",
+                "server_name": "vpn.restia.love",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1403,7 +1400,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "vpnxw.pages.dev"
+                    "Host": "vpn.restia.love"
                 }
             }
         },
