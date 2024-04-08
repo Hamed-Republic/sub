@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | vless | @NIM_VPN_ir | 7",
+                "🇩🇪DE | vless | @NIM_VPN_ir | 8",
                 "🏳️XX | vless | @V2pedia | 18",
                 "🏳️XX | vless | @V2pedia | 21",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
@@ -120,7 +120,6 @@
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 5",
                 "🇮🇪IE | vless | @v2rayNG_Matsuri | 12",
                 "🇳🇱NL | vless | @v2ray_swhil | 12",
-                "🇩🇪DE | vless | @ConfigsHUB | 17",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -133,7 +132,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇩🇪DE | vless | @mehrosaboran | 3",
+                "🇩🇪DE | vless | @mehrosaboran | 4",
                 "🇩🇪DE | vless | @kiava | 3",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -166,7 +165,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | vless | @NIM_VPN_ir | 7",
+                "🇩🇪DE | vless | @NIM_VPN_ir | 8",
                 "🏳️XX | vless | @V2pedia | 18",
                 "🏳️XX | vless | @V2pedia | 21",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
@@ -180,7 +179,6 @@
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 5",
                 "🇮🇪IE | vless | @v2rayNG_Matsuri | 12",
                 "🇳🇱NL | vless | @v2ray_swhil | 12",
-                "🇩🇪DE | vless | @ConfigsHUB | 17",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -193,7 +191,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇩🇪DE | vless | @mehrosaboran | 3",
+                "🇩🇪DE | vless | @mehrosaboran | 4",
                 "🇩🇪DE | vless | @kiava | 3",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -242,7 +240,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | vless | @NIM_VPN_ir | 7",
+            "tag": "🇩🇪DE | vless | @NIM_VPN_ir | 8",
             "type": "vless",
             "server": "178.63.150.73",
             "server_port": 34455,
@@ -683,35 +681,6 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "91.107.171.107",
-            "server_port": 443,
-            "uuid": "61f57908-ab92-453c-8fb8-961d44b2c281",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "010101.peterwilbers.nl",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "fX78dtEUjdw_RmTf5BIyMvq9voW-qkb2pA9U8W7c0Q8",
-                    "short_id": "df5dbf32"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪DE | vless | @Capital_NET | 31",
             "type": "vless",
             "server": "142.132.183.55",
@@ -1074,7 +1043,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @mehrosaboran | 3",
+            "tag": "🇩🇪DE | vless | @mehrosaboran | 4",
             "type": "vless",
             "server": "88.198.129.113",
             "server_port": 47649,
