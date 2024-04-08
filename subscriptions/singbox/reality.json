@@ -120,6 +120,7 @@
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 5",
                 "🇮🇪IE | vless | @v2rayNG_Matsuri | 12",
                 "🇳🇱NL | vless | @v2ray_swhil | 12",
+                "🇩🇪DE | vless | @ConfigsHUB | 17",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -128,7 +129,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇳🇱NL | vless | @Capital_NET | 41",
+                "🇨🇦CA | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -179,6 +180,7 @@
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 5",
                 "🇮🇪IE | vless | @v2rayNG_Matsuri | 12",
                 "🇳🇱NL | vless | @v2ray_swhil | 12",
+                "🇩🇪DE | vless | @ConfigsHUB | 17",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -187,7 +189,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇳🇱NL | vless | @Capital_NET | 41",
+                "🇨🇦CA | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -681,6 +683,35 @@
             }
         },
         {
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "91.107.171.107",
+            "server_port": 443,
+            "uuid": "61f57908-ab92-453c-8fb8-961d44b2c281",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "010101.peterwilbers.nl",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "fX78dtEUjdw_RmTf5BIyMvq9voW-qkb2pA9U8W7c0Q8",
+                    "short_id": "df5dbf32"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪DE | vless | @Capital_NET | 31",
             "type": "vless",
             "server": "142.132.183.55",
@@ -927,7 +958,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @Capital_NET | 41",
+            "tag": "🇨🇦CA | vless | @Capital_NET | 41",
             "type": "vless",
             "server": "194.5.97.158",
             "server_port": 443,
