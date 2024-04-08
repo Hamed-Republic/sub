@@ -134,7 +134,7 @@
                 "🇸🇪SE | trojan | @PrivateVPNs | 19",
                 "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇺🇸US | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @mftizi | 19",
                 "🇫🇮FI | vmess | @oneclickvpnkeys | 9",
                 "🇮🇷IR | vless | @prrofile_purple | 186",
                 "🇨🇦CA | vless | @customv2ray | 13",
@@ -155,10 +155,10 @@
                 "🇩🇪DE | ss | @VmessProtocol | 14",
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇧🇷BR | ss | @OutlineVpnOfficial | 15",
-                "🇺🇸US | vmess | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
-                "🇺🇸US | vmess | @Hope_Net | 18",
+                "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇩🇪DE | vless | @Outlinev2rayNG | 16",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 9",
@@ -220,7 +220,7 @@
                 "🇸🇪SE | trojan | @PrivateVPNs | 19",
                 "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇺🇸US | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @mftizi | 19",
                 "🇫🇮FI | vmess | @oneclickvpnkeys | 9",
                 "🇮🇷IR | vless | @prrofile_purple | 186",
                 "🇨🇦CA | vless | @customv2ray | 13",
@@ -241,10 +241,10 @@
                 "🇩🇪DE | ss | @VmessProtocol | 14",
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇧🇷BR | ss | @OutlineVpnOfficial | 15",
-                "🇺🇸US | vmess | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
-                "🇺🇸US | vmess | @Hope_Net | 18",
+                "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇩🇪DE | vless | @Outlinev2rayNG | 16",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 9",
@@ -1022,7 +1022,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @mftizi | 19",
+            "tag": "🇨🇦CA | vmess | @mftizi | 19",
             "type": "vmess",
             "server": "cfcdn2.sanfencdn9.com",
             "server_port": 2052,
@@ -1499,20 +1499,24 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 19",
-            "type": "vmess",
-            "server": "64.176.199.51",
-            "server_port": 23534,
-            "uuid": "d7da6369-ea95-4ccf-c721-85200794a62e",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "104.18.202.232",
+            "server_port": 80,
+            "uuid": "c8aa3dce-77b8-4cca-b313-89ce5c015137",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram\/@vpnowl-@vpnowl-@vpnowl-@vpnowl-@vpnowl-@vpnowl\/",
+                "headers": {
+                    "Host": "104.18.202.232"
+                }
             }
         },
         {
@@ -1581,11 +1585,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 18",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "173.245.58.11",
-            "server_port": 443,
-            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
+            "server": "64.176.219.193",
+            "server_port": 48895,
+            "uuid": "1dd70a5f-fbbb-4e58-9d29-a40415853c80",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1595,23 +1599,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "vpnsupportfast.vpnsuortfast.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ivideos.sbs\/linkws",
-                "headers": {
-                    "Host": "vpnsupportfast.vpnsuortfast.workers.dev"
-                }
             }
         },
         {
