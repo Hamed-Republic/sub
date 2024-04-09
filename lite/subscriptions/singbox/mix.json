@@ -124,7 +124,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇺🇸US | vless | @proxy_kafee | 5",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇨🇦CA | vless | @Watashi_VPN | 0",
+                "🇺🇸US | vless | @Watashi_VPN | 0",
                 "🇪🇸ES | vless | @azadi_az_inja_migzare | 8",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇸🇪SE | vless | @V2rayNGn | 15",
@@ -146,14 +146,14 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 23",
                 "🇨🇦CA | vless | @proxyymeliii | 13",
-                "🇨🇦CA | vless | @v2ray1_ng | 12",
+                "🇮🇷IR | vmess | @v2ray1_ng | 11",
                 "🇨🇦CA | vless | @vless_vmess | 12",
-                "🇸🇪SE | vless | @V2RayTz | 14",
+                "🇸🇪SE | vless | @V2RayTz | 13",
                 "🇸🇪SE | vless | @DailyV2RY | 142",
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇧🇷BR | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 0",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇺🇸US | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
@@ -208,7 +208,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇺🇸US | vless | @proxy_kafee | 5",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇨🇦CA | vless | @Watashi_VPN | 0",
+                "🇺🇸US | vless | @Watashi_VPN | 0",
                 "🇪🇸ES | vless | @azadi_az_inja_migzare | 8",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇸🇪SE | vless | @V2rayNGn | 15",
@@ -230,14 +230,14 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 23",
                 "🇨🇦CA | vless | @proxyymeliii | 13",
-                "🇨🇦CA | vless | @v2ray1_ng | 12",
+                "🇮🇷IR | vmess | @v2ray1_ng | 11",
                 "🇨🇦CA | vless | @vless_vmess | 12",
-                "🇸🇪SE | vless | @V2RayTz | 14",
+                "🇸🇪SE | vless | @V2RayTz | 13",
                 "🇸🇪SE | vless | @DailyV2RY | 142",
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇧🇷BR | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 0",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇺🇸US | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
@@ -767,7 +767,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Watashi_VPN | 0",
+            "tag": "🇺🇸US | vless | @Watashi_VPN | 0",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 443,
@@ -1333,13 +1333,16 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray1_ng | 12",
-            "type": "vless",
-            "server": "104.18.202.232",
-            "server_port": 80,
-            "uuid": "c8aa3dce-77b8-4cca-b313-89ce5c015137",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇮🇷IR | vmess | @v2ray1_ng | 11",
+            "type": "vmess",
+            "server": "79.175.151.112",
+            "server_port": 58271,
+            "uuid": "6e83ef0f-70a7-4be8-979a-8bc7a41f4224",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1347,9 +1350,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/rohv2ray",
                 "headers": {
-                    "Host": "104.18.202.232"
+                    "Host": ""
                 }
             }
         },
@@ -1385,9 +1388,9 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2RayTz | 14",
+            "tag": "🇸🇪SE | vless | @V2RayTz | 13",
             "type": "vless",
-            "server": "185.146.173.95",
+            "server": "185.146.173.94",
             "server_port": 8880,
             "uuid": "6c2a5924-d5ff-4c16-a7bf-19085851c721",
             "flow": "",
@@ -1401,7 +1404,7 @@
                 "type": "ws",
                 "path": "\/@LIGHTNING6, @LIGHTNING6",
                 "headers": {
-                    "Host": "185.146.173.95"
+                    "Host": "185.146.173.94"
                 }
             }
         },
@@ -1489,11 +1492,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 0",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "23.227.60.130",
-            "server_port": 2087,
-            "uuid": "7e39754c-9924-498c-a4cf-5f13badf16a7",
+            "server": "104.24.177.7",
+            "server_port": 80,
+            "uuid": "aabc3ef9-6968-4311-81b8-8cd0414c1904",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1501,22 +1504,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "lan.moienmusic.space",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/Path\/\/",
+                "headers": {
+                    "Host": "104.24.177.7"
+                }
             }
         },
         {
