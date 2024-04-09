@@ -113,7 +113,7 @@
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 18",
                 "🇨🇦CA | vless | @ipV2Ray | 9",
                 "🇭🇰HK | vless | @melov2ray | 10",
-                "🇸🇪SE | vless | @V2pedia | 32",
+                "🇸🇪SE | vless | @V2pedia | 36",
                 "🇨🇦CA | vless | @frev2ray | 9",
                 "🇸🇪SE | vless | @ARv2ray | 17",
                 "🇺🇸US | vless | @shh_proxy | 14",
@@ -128,7 +128,7 @@
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇮🇷IR | vless | @V2rayCollector | 1",
-                "🇺🇸US | vmess | @azadi_az_inja_migzare | 2",
+                "🇩🇪DE | vless | @azadi_az_inja_migzare | 1",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇸🇪SE | vless | @V2rayNGn | 11",
                 "🇸🇪SE | trojan | @PrivateVPNs | 19",
@@ -153,9 +153,10 @@
                 "🇨🇦CA | vless | @vless_vmess | 10",
                 "🇸🇪SE | vless | @V2RayTz | 12",
                 "🇩🇪DE | ss | @VmessProtocol | 14",
+                "🇨🇦CA | vless | @DailyV2RY | 141",
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇧🇷BR | ss | @OutlineVpnOfficial | 15",
-                "🇺🇸US | vless | @ConfigsHUB | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
                 "🇺🇸US | vmess | @Hope_Net | 19",
@@ -199,7 +200,7 @@
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 18",
                 "🇨🇦CA | vless | @ipV2Ray | 9",
                 "🇭🇰HK | vless | @melov2ray | 10",
-                "🇸🇪SE | vless | @V2pedia | 32",
+                "🇸🇪SE | vless | @V2pedia | 36",
                 "🇨🇦CA | vless | @frev2ray | 9",
                 "🇸🇪SE | vless | @ARv2ray | 17",
                 "🇺🇸US | vless | @shh_proxy | 14",
@@ -214,7 +215,7 @@
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇮🇷IR | vless | @V2rayCollector | 1",
-                "🇺🇸US | vmess | @azadi_az_inja_migzare | 2",
+                "🇩🇪DE | vless | @azadi_az_inja_migzare | 1",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇸🇪SE | vless | @V2rayNGn | 11",
                 "🇸🇪SE | trojan | @PrivateVPNs | 19",
@@ -239,9 +240,10 @@
                 "🇨🇦CA | vless | @vless_vmess | 10",
                 "🇸🇪SE | vless | @V2RayTz | 12",
                 "🇩🇪DE | ss | @VmessProtocol | 14",
+                "🇨🇦CA | vless | @DailyV2RY | 141",
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇧🇷BR | ss | @OutlineVpnOfficial | 15",
-                "🇺🇸US | vless | @ConfigsHUB | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
                 "🇺🇸US | vmess | @Hope_Net | 19",
@@ -481,7 +483,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2pedia | 32",
+            "tag": "🇸🇪SE | vless | @V2pedia | 36",
             "type": "vless",
             "server": "185.146.173.59",
             "server_port": 8880,
@@ -875,16 +877,13 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @azadi_az_inja_migzare | 2",
-            "type": "vmess",
-            "server": "zula.ir",
-            "server_port": 2096,
-            "uuid": "856fcf9c-d86b-4d31-8af7-a88f06cafc13",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇩🇪DE | vless | @azadi_az_inja_migzare | 1",
+            "type": "vless",
+            "server": "188.40.202.25",
+            "server_port": 8443,
+            "uuid": "bdf90cae-da65-4bd7-9200-a5903c2eff13",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -892,19 +891,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "fragment2.karop.homes",
+                "server_name": "cdn.discordapp.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/VPNHOMES",
-                "headers": {
-                    "Host": "fragment2.karop.homes"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mrsV5dPIWx0dtPzo9u4FdkZi3Ly3hh8CGN-gHuZY4S8",
+                    "short_id": ""
                 }
             }
         },
@@ -1458,6 +1455,27 @@
             "plugin_opts": ""
         },
         {
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 141",
+            "type": "vless",
+            "server": "discord.gg",
+            "server_port": 80,
+            "uuid": "--DIGiV2RAY---",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Digiv2ray-",
+                "headers": {
+                    "Host": "discord.gg"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @sinabigo | 9",
             "type": "vless",
             "server": "172.66.44.197",
@@ -1499,11 +1517,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | vless | @ConfigsHUB | 15",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "Www.ZULA.iR",
-            "server_port": 8443,
-            "uuid": "8721355e-96d5-4bb9-a99b-b6119d6b1cd4",
+            "server": "discord.gg",
+            "server_port": 80,
+            "uuid": "DIGiV2RAY",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1511,21 +1529,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "uD2kp0fx53e15EHUFNo2LJ7mHRsDgTYET8xzmA7tXh40tR606ogTx280VN.PaGEs.dEv",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/Path\/Telegram@proxy_mtm\/",
+                "path": "\/Digiv2ray-",
                 "headers": {
-                    "Host": "uD2kp0fx53e15EHUFNo2LJ7mHRsDgTYET8xzmA7tXh40tR606ogTx280VN.PaGEs.dEv"
+                    "Host": "discord.gg"
                 }
             }
         },
@@ -1597,9 +1605,9 @@
         {
             "tag": "🇺🇸US | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "149.28.84.146",
-            "server_port": 32906,
-            "uuid": "adb6fe3a-c867-4a4c-eb4a-1d9f4fade0aa",
+            "server": "149.28.77.49",
+            "server_port": 31755,
+            "uuid": "06eb7d36-b496-4328-b7dd-245c13533b31",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
