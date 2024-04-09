@@ -120,7 +120,7 @@
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 8",
                 "🇸🇪SE | vless | @lightning6 | 32",
-                "🇺🇸US | vless | @V2rayNGmat | 10",
+                "🇨🇦CA | vless | @V2rayNGmat | 10",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇺🇸US | vless | @proxy_kafee | 5",
@@ -140,11 +140,12 @@
                 "🇨🇦CA | vless | @ServerNett | 26",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 23",
-                "🇨🇦CA | vless | @proxyymeliii | 13",
+                "🇩🇪DE | vless | @proxyymeliii | 11",
                 "🇨🇦CA | vless | @vless_vmess | 11",
                 "🇩🇪DE | vless | @V2RayTz | 19",
                 "🇸🇪SE | vless | @DailyV2RY | 151",
                 "🇨🇦CA | vless | @sinabigo | 9",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -162,7 +163,7 @@
                 "🇩🇪DE | vless | @freeconfigv2 | 11",
                 "🇸🇪SE | vless | @SvnTeam | 49",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇨🇦CA | vless | @V2FETCH | 3",
+                "🇺🇸US | vless | @V2FETCH | 3",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇺🇸US | vless | @TIKTOK_PROXY | 2",
                 "🏳️XX | vless | @TVCminer | 8"
@@ -186,7 +187,7 @@
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 8",
                 "🇸🇪SE | vless | @lightning6 | 32",
-                "🇺🇸US | vless | @V2rayNGmat | 10",
+                "🇨🇦CA | vless | @V2rayNGmat | 10",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇺🇸US | vless | @proxy_kafee | 5",
@@ -206,11 +207,12 @@
                 "🇨🇦CA | vless | @ServerNett | 26",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 23",
-                "🇨🇦CA | vless | @proxyymeliii | 13",
+                "🇩🇪DE | vless | @proxyymeliii | 11",
                 "🇨🇦CA | vless | @vless_vmess | 11",
                 "🇩🇪DE | vless | @V2RayTz | 19",
                 "🇸🇪SE | vless | @DailyV2RY | 151",
                 "🇨🇦CA | vless | @sinabigo | 9",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -228,7 +230,7 @@
                 "🇩🇪DE | vless | @freeconfigv2 | 11",
                 "🇸🇪SE | vless | @SvnTeam | 49",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇨🇦CA | vless | @V2FETCH | 3",
+                "🇺🇸US | vless | @V2FETCH | 3",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇺🇸US | vless | @TIKTOK_PROXY | 2",
                 "🏳️XX | vless | @TVCminer | 8"
@@ -587,7 +589,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayNGmat | 10",
+            "tag": "🇨🇦CA | vless | @V2rayNGmat | 10",
             "type": "vless",
             "server": "www.tegzitp.net",
             "server_port": 2096,
@@ -1145,34 +1147,17 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxyymeliii | 13",
+            "tag": "🇩🇪DE | vless | @proxyymeliii | 11",
             "type": "vless",
-            "server": "iranserver.com",
-            "server_port": 2083,
-            "uuid": "19cc2e18-0661-4988-92fe-95abbe23ff99",
+            "server": "king.ali.ger2.lol",
+            "server_port": 17722,
+            "uuid": "c71a4cd1-61e3-4b0c-9813-3c136e47f27a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "abo3.zirrr.com.tr",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "grpc2087",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
@@ -1284,6 +1269,27 @@
                 "path": "\/Telegram@SINABIGO@SINABIGO\/",
                 "headers": {
                     "Host": "Hagh.PaGes.DEv"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "104.18.202.232",
+            "server_port": 80,
+            "uuid": "c8aa3dce-77b8-4cca-b313-89ce5c015137",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "104.18.202.232"
                 }
             }
         },
@@ -1786,7 +1792,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2FETCH | 3",
+            "tag": "🇺🇸US | vless | @V2FETCH | 3",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
