@@ -124,7 +124,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇺🇸US | vless | @proxy_kafee | 6",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇨🇦CA | vless | @Watashi_VPN | 0",
+                "🇺🇸US | vless | @Watashi_VPN | 0",
                 "🇮🇷IR | vless | @V2rayCollector | 1",
                 "🇩🇪DE | vless | @azadi_az_inja_migzare | 4",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
@@ -142,10 +142,11 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 24",
                 "🇨🇦CA | vless | @proxyymeliii | 13",
                 "🇨🇦CA | vless | @vless_vmess | 10",
-                "🇸🇪SE | vless | @V2RayTz | 19",
+                "🇩🇪DE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 144",
                 "🇨🇦CA | vless | @sinabigo | 9",
-                "🇨🇦CA | vless | @proxystore11 | 13",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇺🇸US | vless | @proxystore11 | 12",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 9",
@@ -191,7 +192,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇺🇸US | vless | @proxy_kafee | 6",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇨🇦CA | vless | @Watashi_VPN | 0",
+                "🇺🇸US | vless | @Watashi_VPN | 0",
                 "🇮🇷IR | vless | @V2rayCollector | 1",
                 "🇩🇪DE | vless | @azadi_az_inja_migzare | 4",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
@@ -209,10 +210,11 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 24",
                 "🇨🇦CA | vless | @proxyymeliii | 13",
                 "🇨🇦CA | vless | @vless_vmess | 10",
-                "🇸🇪SE | vless | @V2RayTz | 19",
+                "🇩🇪DE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 144",
                 "🇨🇦CA | vless | @sinabigo | 9",
-                "🇨🇦CA | vless | @proxystore11 | 13",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇺🇸US | vless | @proxystore11 | 12",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 9",
@@ -585,7 +587,7 @@
             "type": "vless",
             "server": "185.146.173.59",
             "server_port": 8880,
-            "uuid": "1596c97b-3633-4628-8dad-30b4ec882516",
+            "uuid": "198cfbf8-8788-4bb1-ad55-2e42c9da5f55",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -740,7 +742,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Watashi_VPN | 0",
+            "tag": "🇺🇸US | vless | @Watashi_VPN | 0",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 443,
@@ -1232,23 +1234,31 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2RayTz | 19",
+            "tag": "🇩🇪DE | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 80,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "",
+            "server": "95.179.164.213",
+            "server_port": 443,
+            "uuid": "ItsLegendaryking",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
-                "headers": {
-                    "Host": "185.146.173.59"
+            "tls": {
+                "enabled": true,
+                "server_name": "納豆.例.jp",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "hyxpL3iXsbD1xhIQiAgCKSvCVX2_QQ5IWQYL5eFjnVI",
+                    "short_id": "1ce1ea6f"
                 }
             }
         },
@@ -1315,11 +1325,42 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxystore11 | 13",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "104.21.74.214",
+            "server_port": 8443,
+            "uuid": "83464e9f-6c5f-422d-8474-a24500f13c4a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "joinnett85.servernet.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @proxystore11 | 12",
             "type": "vless",
             "server": "Zula.ir",
-            "server_port": 443,
-            "uuid": "311ef6aa-88b9-472a-8894-304fc9b935c4",
+            "server_port": 8443,
+            "uuid": "7c8acd39-b620-4103-af4b-b94c44bf374f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1338,11 +1379,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/Proxystore11",
-                "headers": {
-                    "Host": "prx11.adminwp.eu.org"
-                }
+                "type": "grpc",
+                "service_name": "@PROXYSTORE11-@PROXYSTORE11-@PROXYSTORE11-@PROXYSTORE11-@PROXYSTORE11-@PROXYSTORE11-",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
