@@ -126,7 +126,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇺🇸US | vless | @proxy_kafee | 5",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇺🇸US | vless | @Watashi_VPN | 0",
+                "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇮🇷IR | vless | @V2rayCollector | 1",
                 "🇩🇪DE | vless | @azadi_az_inja_migzare | 4",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
@@ -139,7 +139,7 @@
                 "🇮🇷IR | vless | @prrofile_purple | 186",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 12",
-                "🇨🇦CA | vless | @vmessorg | 33",
+                "🇺🇸US | vless | @vmessorg | 33",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 19",
                 "🇨🇦CA | vless | @v2rayngvpn | 12",
                 "🇸🇪SE | vless | @FalconPolV2rayNG | 2",
@@ -155,8 +155,8 @@
                 "🇨🇦CA | vless | @DailyV2RY | 140",
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇧🇷BR | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vmess | @ConfigsHUB | 8",
-                "🇺🇸US | vless | @proxystore11 | 13",
+                "🇺🇸US | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
                 "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @polproxy | 34",
@@ -212,7 +212,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇺🇸US | vless | @proxy_kafee | 5",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇺🇸US | vless | @Watashi_VPN | 0",
+                "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇮🇷IR | vless | @V2rayCollector | 1",
                 "🇩🇪DE | vless | @azadi_az_inja_migzare | 4",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
@@ -225,7 +225,7 @@
                 "🇮🇷IR | vless | @prrofile_purple | 186",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 12",
-                "🇨🇦CA | vless | @vmessorg | 33",
+                "🇺🇸US | vless | @vmessorg | 33",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 19",
                 "🇨🇦CA | vless | @v2rayngvpn | 12",
                 "🇸🇪SE | vless | @FalconPolV2rayNG | 2",
@@ -241,8 +241,8 @@
                 "🇨🇦CA | vless | @DailyV2RY | 140",
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇧🇷BR | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vmess | @ConfigsHUB | 8",
-                "🇺🇸US | vless | @proxystore11 | 13",
+                "🇺🇸US | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
                 "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @polproxy | 34",
@@ -830,7 +830,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Watashi_VPN | 0",
+            "tag": "🇨🇦CA | vless | @Watashi_VPN | 0",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 443,
@@ -1134,7 +1134,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vmessorg | 33",
+            "tag": "🇺🇸US | vless | @vmessorg | 33",
             "type": "vless",
             "server": "joinbede1.vmessorg.site",
             "server_port": 80,
@@ -1521,16 +1521,13 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 8",
-            "type": "vmess",
-            "server": "172.67.155.82",
+            "tag": "🇺🇸US | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "162.159.32.35",
             "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "uuid": "2e19015e-e622-4544-9c12-f42533ce11e8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1538,7 +1535,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "kristin.makeup",
+                "server_name": "REsilience.NiREvil.IR",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1548,14 +1545,14 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/",
                 "headers": {
-                    "Host": "kristin.makeup"
+                    "Host": "REsilience.NiREvil.IR"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxystore11 | 13",
+            "tag": "🇨🇦CA | vless | @proxystore11 | 13",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 8443,
