@@ -107,9 +107,9 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇺🇸US | vmess | @mftizi | 19",
+                "🇨🇳CN | vmess | @mftizi | 19",
                 "🇮🇷IR | vmess | @v2ray1_ng | 11",
-                "🇺🇸US | vmess | @yaney_01 | 2",
+                "🇨🇦CA | vmess | @yaney_01 | 2",
                 "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
@@ -123,9 +123,9 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇺🇸US | vmess | @mftizi | 19",
+                "🇨🇳CN | vmess | @mftizi | 19",
                 "🇮🇷IR | vmess | @v2ray1_ng | 11",
-                "🇺🇸US | vmess | @yaney_01 | 2",
+                "🇨🇦CA | vmess | @yaney_01 | 2",
                 "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
@@ -171,11 +171,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @mftizi | 19",
+            "tag": "🇨🇳CN | vmess | @mftizi | 19",
             "type": "vmess",
-            "server": "cfcdn2.sanfencdn9.com",
-            "server_port": 2052,
-            "uuid": "6ad77d6b-7a45-4ed3-b65d-1c3ec0226603",
+            "server": "50022.baidu-cdn.top",
+            "server_port": 50022,
+            "uuid": "e80442e2-4577-4b33-8d9b-798d816974bd",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -185,13 +185,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/video\/u4eCZTxW",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
@@ -219,7 +212,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @yaney_01 | 2",
+            "tag": "🇨🇦CA | vmess | @yaney_01 | 2",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,
