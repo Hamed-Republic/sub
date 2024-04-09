@@ -133,7 +133,7 @@
                 "🇮🇷IR | vless | @prrofile_purple | 186",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 12",
-                "🇨🇦CA | vless | @vmessorg | 33",
+                "🇺🇸US | vless | @vmessorg | 33",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 19",
                 "🇨🇦CA | vless | @v2rayngvpn | 12",
                 "🇸🇪SE | vless | @FalconPolV2rayNG | 2",
@@ -146,6 +146,7 @@
                 "🇨🇦CA | vless | @vless_vmess | 10",
                 "🇸🇪SE | vless | @V2RayTz | 12",
                 "🇨🇦CA | vless | @sinabigo | 9",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇩🇪DE | vless | @Outlinev2rayNG | 16",
@@ -202,7 +203,7 @@
                 "🇮🇷IR | vless | @prrofile_purple | 186",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 12",
-                "🇨🇦CA | vless | @vmessorg | 33",
+                "🇺🇸US | vless | @vmessorg | 33",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 19",
                 "🇨🇦CA | vless | @v2rayngvpn | 12",
                 "🇸🇪SE | vless | @FalconPolV2rayNG | 2",
@@ -215,6 +216,7 @@
                 "🇨🇦CA | vless | @vless_vmess | 10",
                 "🇸🇪SE | vless | @V2RayTz | 12",
                 "🇨🇦CA | vless | @sinabigo | 9",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇩🇪DE | vless | @Outlinev2rayNG | 16",
@@ -959,7 +961,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vmessorg | 33",
+            "tag": "🇺🇸US | vless | @vmessorg | 33",
             "type": "vless",
             "server": "joinbede1.vmessorg.site",
             "server_port": 80,
@@ -1281,6 +1283,37 @@
                 "path": "\/Telegram@SINABIGO@SINABIGO\/",
                 "headers": {
                     "Host": "Hagh.PaGes.DEv"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
+            "type": "vless",
+            "server": "104.17.88.212",
+            "server_port": 443,
+            "uuid": "-------EVAY_VPN------",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "fre.sharkv2r.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
+                "headers": {
+                    "Host": "fre.sharkv2r.com"
                 }
             }
         },
