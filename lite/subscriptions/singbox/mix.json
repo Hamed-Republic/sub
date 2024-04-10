@@ -147,12 +147,12 @@
                 "🇸🇪SE | vless | @proxyymeliii | 11",
                 "🇨🇷CR | vmess | @v2ray1_ng | 12",
                 "🇨🇦CA | vless | @vless_vmess | 13",
-                "🇸🇪SE | vless | @V2RayTz | 17",
+                "🇨🇦CA | vless | @V2RayTz | 16",
                 "🇸🇪SE | vless | @DailyV2RY | 149",
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇧🇪BE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -178,7 +178,7 @@
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇨🇦CA | vless | @SvnTeam | 47",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 3",
+                "🇨🇦CA | vless | @V2FETCH | 3",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇺🇸US | vmess | @ROMAX_VPN | 7",
                 "🇺🇸US | vless | @TIKTOK_PROXY | 3",
@@ -232,12 +232,12 @@
                 "🇸🇪SE | vless | @proxyymeliii | 11",
                 "🇨🇷CR | vmess | @v2ray1_ng | 12",
                 "🇨🇦CA | vless | @vless_vmess | 13",
-                "🇸🇪SE | vless | @V2RayTz | 17",
+                "🇨🇦CA | vless | @V2RayTz | 16",
                 "🇸🇪SE | vless | @DailyV2RY | 149",
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇧🇪BE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -263,7 +263,7 @@
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇨🇦CA | vless | @SvnTeam | 47",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 3",
+                "🇨🇦CA | vless | @V2FETCH | 3",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇺🇸US | vmess | @ROMAX_VPN | 7",
                 "🇺🇸US | vless | @TIKTOK_PROXY | 3",
@@ -1348,11 +1348,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2RayTz | 17",
+            "tag": "🇨🇦CA | vless | @V2RayTz | 16",
             "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 80,
-            "uuid": "telegram-id-ArV2ray",
+            "server": "172.67.73.216",
+            "server_port": 443,
+            "uuid": "356d0a9e-c8fa-4996-8905-2060996ee581",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1360,12 +1360,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?Telegram=@V2RayTz,@V2RayTz",
-                "headers": {
-                    "Host": "185.146.173.59"
+            "tls": {
+                "enabled": true,
+                "server_name": "dm.irandtehran.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1452,11 +1462,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇧🇪BE | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "104.17.174.59",
+            "server": "be2-vless.sshmax.xyz",
             "server_port": 80,
-            "uuid": "c8aa3dce-77b8-4cca-b313-89ce5c015137",
+            "uuid": "43b27197-7a7e-4fe3-bc57-a6241ef738a3",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1466,9 +1476,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/vless",
                 "headers": {
-                    "Host": "104.17.174.59"
+                    "Host": "be2-vless.sshmax.xyz"
                 }
             }
         },
@@ -2180,7 +2190,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2FETCH | 3",
+            "tag": "🇨🇦CA | vless | @V2FETCH | 3",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
