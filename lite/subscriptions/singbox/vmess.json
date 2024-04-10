@@ -108,10 +108,10 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
+                "🇷🇺RU | vmess | @DeamNet_Proxy | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
                 "🇺🇸US | vmess | @ShadowProxy66 | 69",
                 "🇮🇷IR | vmess | @v2ray1_ng | 13",
-                "🇩🇪DE | vmess | @ConfigsHUB | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇫🇮FI | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
@@ -127,10 +127,10 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
+                "🇷🇺RU | vmess | @DeamNet_Proxy | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
                 "🇺🇸US | vmess | @ShadowProxy66 | 69",
                 "🇮🇷IR | vmess | @v2ray1_ng | 13",
-                "🇩🇪DE | vmess | @ConfigsHUB | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇫🇮FI | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
@@ -201,6 +201,30 @@
             }
         },
         {
+            "tag": "🇷🇺RU | vmess | @DeamNet_Proxy | 19",
+            "type": "vmess",
+            "server": "103.113.68.233",
+            "server_port": 8080,
+            "uuid": "fddb3781-7e15-4731-a933-94db110b4bbc",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": "103.113.68.233"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
             "type": "vmess",
             "server": "91.107.130.94",
@@ -262,33 +286,6 @@
                 "path": "\/rohv2ray",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vmess | @ConfigsHUB | 18",
-            "type": "vmess",
-            "server": "goli.varzeshimedia.com",
-            "server_port": 15740,
-            "uuid": "e4d4c8da-c7f2-4186-eadb-6f06dffa5051",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         },
