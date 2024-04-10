@@ -111,8 +111,9 @@
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
                 "🇺🇸US | vmess | @ShadowProxy66 | 69",
                 "🇮🇷IR | vmess | @v2ray1_ng | 13",
+                "🇩🇪DE | vmess | @ConfigsHUB | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇨🇦CA | vmess | @Hope_Net | 19",
+                "🇫🇮FI | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇺🇸US | vmess | @nofiltering2 | 3",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
@@ -129,8 +130,9 @@
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
                 "🇺🇸US | vmess | @ShadowProxy66 | 69",
                 "🇮🇷IR | vmess | @v2ray1_ng | 13",
+                "🇩🇪DE | vmess | @ConfigsHUB | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇨🇦CA | vmess | @Hope_Net | 19",
+                "🇫🇮FI | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇺🇸US | vmess | @nofiltering2 | 3",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
@@ -264,6 +266,33 @@
             }
         },
         {
+            "tag": "🇩🇪DE | vmess | @ConfigsHUB | 18",
+            "type": "vmess",
+            "server": "goli.varzeshimedia.com",
+            "server_port": 15740,
+            "uuid": "e4d4c8da-c7f2-4186-eadb-6f06dffa5051",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 4",
             "type": "vmess",
             "server": "104.26.8.210",
@@ -298,11 +327,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 19",
+            "tag": "🇫🇮FI | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "104.17.35.237",
-            "server_port": 2095,
-            "uuid": "474413f9-3c15-493f-88b2-50e0c4702dde",
+            "server": "65.109.199.41",
+            "server_port": 5244,
+            "uuid": "44ef4f92-58d9-41e0-9390-a40e153c6403",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -312,13 +341,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/video\/qYZue4zaWS",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
