@@ -144,15 +144,15 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 33",
                 "🇨🇦CA | vless | @ServerNett | 28",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 17",
+                "🇸🇪SE | vless | @v2ray_swhil | 12",
                 "🇸🇪SE | vless | @proxyymeliii | 12",
                 "🇨🇦CA | vless | @v2ray1_ng | 3",
                 "🇨🇦CA | vless | @V2RayTz | 14",
                 "🇸🇪SE | vless | @DailyV2RY | 159",
                 "🇨🇦CA | vless | @sinabigo | 10",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
-                "🇨🇦CA | vless | @proxystore11 | 13",
+                "🇨🇦CA | vmess | @ConfigsHUB | 4",
+                "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇺🇸US | vmess | @Hope_Net | 19",
@@ -177,7 +177,7 @@
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇨🇦CA | vless | @SvnTeam | 49",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 3",
+                "🇨🇦CA | vless | @V2FETCH | 3",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 3",
                 "🇺🇸US | vless | @TVCminer | 7",
@@ -226,15 +226,15 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 33",
                 "🇨🇦CA | vless | @ServerNett | 28",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 17",
+                "🇸🇪SE | vless | @v2ray_swhil | 12",
                 "🇸🇪SE | vless | @proxyymeliii | 12",
                 "🇨🇦CA | vless | @v2ray1_ng | 3",
                 "🇨🇦CA | vless | @V2RayTz | 14",
                 "🇸🇪SE | vless | @DailyV2RY | 159",
                 "🇨🇦CA | vless | @sinabigo | 10",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
-                "🇨🇦CA | vless | @proxystore11 | 13",
+                "🇨🇦CA | vmess | @ConfigsHUB | 4",
+                "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇺🇸US | vmess | @Hope_Net | 19",
@@ -259,7 +259,7 @@
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇨🇦CA | vless | @SvnTeam | 49",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 3",
+                "🇨🇦CA | vless | @V2FETCH | 3",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 3",
                 "🇺🇸US | vless | @TVCminer | 7",
@@ -1284,24 +1284,17 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray_swhil | 17",
+            "tag": "🇸🇪SE | vless | @v2ray_swhil | 12",
             "type": "vless",
-            "server": "discord.gg",
-            "server_port": 80,
-            "uuid": "DIGiV2RAY",
+            "server": "185.146.173.96",
+            "server_port": 8880,
+            "uuid": "7cafd755-f433-49bb-b4bd-7f3963c0d959",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Digiv2ray-",
-                "headers": {
-                    "Host": "discord.gg"
-                }
             }
         },
         {
@@ -1450,28 +1443,41 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "mci.VPNPROSEC.com",
-            "server_port": 80,
-            "uuid": "SVNTEAM",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 4",
+            "type": "vmess",
+            "server": "172.67.132.209",
+            "server_port": 443,
+            "uuid": "33653184-91f3-4f3f-b707-2fc21e9adeb8",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "pl1-vmess.sshmax.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/SvnTeam-TeleGram-ChaNnel-VIP",
+                "path": "\/vmess",
                 "headers": {
-                    "Host": "mci.VPNPROSEC.com"
+                    "Host": "pl1-vmess.sshmax.xyz"
                 }
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxystore11 | 13",
+            "tag": "🇺🇸US | vless | @proxystore11 | 13",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 8443,
@@ -2163,7 +2169,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2FETCH | 3",
+            "tag": "🇨🇦CA | vless | @V2FETCH | 3",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
