@@ -138,14 +138,15 @@
                 "🇺🇸US | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ServerNett | 28",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 24",
+                "🇨🇦CA | vless | @v2ray_swhil | 22",
                 "🇸🇪SE | vless | @proxyymeliii | 12",
-                "🇨🇦CA | vless | @vless_vmess | 11",
+                "🇨🇦CA | vless | @v2ray1_ng | 11",
+                "🇺🇸US | vless | @vless_vmess | 11",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇹🇷TR | vless | @DailyV2RY | 154",
                 "🇨🇦CA | vless | @sinabigo | 10",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 34",
@@ -207,14 +208,15 @@
                 "🇺🇸US | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ServerNett | 28",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 24",
+                "🇨🇦CA | vless | @v2ray_swhil | 22",
                 "🇸🇪SE | vless | @proxyymeliii | 12",
-                "🇨🇦CA | vless | @vless_vmess | 11",
+                "🇨🇦CA | vless | @v2ray1_ng | 11",
+                "🇺🇸US | vless | @vless_vmess | 11",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇹🇷TR | vless | @DailyV2RY | 154",
                 "🇨🇦CA | vless | @sinabigo | 10",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 34",
@@ -324,7 +326,7 @@
         {
             "tag": "🇬🇧GB | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "13.42.96.208",
+            "server": "18.171.118.96",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1119,7 +1121,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray_swhil | 24",
+            "tag": "🇨🇦CA | vless | @v2ray_swhil | 22",
             "type": "vless",
             "server": "162.159.135.79",
             "server_port": 443,
@@ -1171,7 +1173,28 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vless_vmess | 11",
+            "tag": "🇨🇦CA | vless | @v2ray1_ng | 11",
+            "type": "vless",
+            "server": "104.18.202.232",
+            "server_port": 80,
+            "uuid": "c8aa3dce-77b8-4cca-b313-89ce5c015137",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "104.18.202.232"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @vless_vmess | 11",
             "type": "vless",
             "server": "Www.ZULA.iR",
             "server_port": 8443,
@@ -1306,11 +1329,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "discord.gg",
-            "server_port": 80,
-            "uuid": "44c989e0-59aa-478e-bbd5-c7addeaad4ff",
+            "server": "www.speedtest.net",
+            "server_port": 2086,
+            "uuid": "e10b0b82-4839-4539-94a0-66233ddf93a6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1322,7 +1345,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "discord.gg"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
