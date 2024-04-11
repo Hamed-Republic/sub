@@ -121,9 +121,9 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 10",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
-                "🇺🇸US | vless | @proxy_kafee | 10",
+                "🇨🇦CA | vless | @proxy_kafee | 10",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇺🇸US | vless | @Watashi_VPN | 0",
+                "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 0",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇸🇪SE | vless | @V2rayNGn | 19",
@@ -142,7 +142,8 @@
                 "🇨🇦CA | vless | @V2RayTz | 14",
                 "🇸🇪SE | vless | @DailyV2RY | 159",
                 "🇨🇦CA | vless | @sinabigo | 10",
-                "🇺🇸US | vless | @proxystore11 | 13",
+                "🇩🇪DE | vless | @ConfigsHUB | 5",
+                "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 36",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
@@ -188,9 +189,9 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 10",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
-                "🇺🇸US | vless | @proxy_kafee | 10",
+                "🇨🇦CA | vless | @proxy_kafee | 10",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇺🇸US | vless | @Watashi_VPN | 0",
+                "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 0",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇸🇪SE | vless | @V2rayNGn | 19",
@@ -209,7 +210,8 @@
                 "🇨🇦CA | vless | @V2RayTz | 14",
                 "🇸🇪SE | vless | @DailyV2RY | 159",
                 "🇨🇦CA | vless | @sinabigo | 10",
-                "🇺🇸US | vless | @proxystore11 | 13",
+                "🇩🇪DE | vless | @ConfigsHUB | 5",
+                "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 36",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
@@ -630,7 +632,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxy_kafee | 10",
+            "tag": "🇨🇦CA | vless | @proxy_kafee | 10",
             "type": "vless",
             "server": "Www.ZULA.iR",
             "server_port": 8443,
@@ -692,7 +694,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Watashi_VPN | 0",
+            "tag": "🇨🇦CA | vless | @Watashi_VPN | 0",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 443,
@@ -1209,7 +1211,36 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxystore11 | 13",
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 5",
+            "type": "vless",
+            "server": "95.164.68.37",
+            "server_port": 8443,
+            "uuid": "ce3f2a75-28fe-48f0-a35c-56166017f8d3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "104.21.70.42",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "UPDaAp6tkfjOWDDIAJXNtNqRRriaSQm_C8mcAQQP8nw",
+                    "short_id": "fabb696169ae2a95"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @proxystore11 | 13",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 8443,
