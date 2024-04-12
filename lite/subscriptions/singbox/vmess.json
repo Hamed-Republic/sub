@@ -108,10 +108,9 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 9",
                 "🇺🇸US | vmess | @ShadowProxy66 | 33",
-                "🇨🇦CA | vmess | @ConfigsHUB | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
@@ -125,10 +124,9 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 9",
                 "🇺🇸US | vmess | @ShadowProxy66 | 33",
-                "🇨🇦CA | vmess | @ConfigsHUB | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
@@ -197,11 +195,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 19",
             "type": "vmess",
-            "server": "104.17.197.31",
+            "server": "141.101.115.235",
             "server_port": 443,
-            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -214,7 +212,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "quiet-moon-132a.xetag42714.workers.dev",
+                "server_name": "nina.bond",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -224,9 +222,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/jahfkjha.cfd\/linkws",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": "quiet-moon-132a.xetag42714.workers.dev"
+                    "Host": "nina.bond"
                 }
             }
         },
@@ -295,40 +293,6 @@
                 "path": "\/linkws",
                 "headers": {
                     "Host": "glweidf.cfd"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 14",
-            "type": "vmess",
-            "server": "104.21.15.36",
-            "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "linde06.indiavideo.sbs"
                 }
             }
         },
