@@ -139,11 +139,12 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇺🇸US | vless | @v2ray_swhil | 15",
                 "🇸🇪SE | vless | @proxyymeliii | 12",
-                "🇨🇦CA | vless | @v2ray1_ng | 3",
+                "🇸🇪SE | vless | @v2ray1_ng | 2",
+                "🇸🇪SE | vless | @V2RayTz | 14",
                 "🇸🇪SE | vless | @DailyV2RY | 159",
                 "🇨🇦CA | vless | @sinabigo | 10",
-                "🇺🇸US | vless | @ConfigsHUB | 19",
-                "🇨🇦CA | vless | @proxystore11 | 13",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 36",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
@@ -152,7 +153,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @Capoit | 18",
                 "🇨🇦CA | vless | @FreakConfig | 5",
-                "🇺🇸US | vless | @flyv2ray | 18",
+                "🇨🇦CA | vless | @flyv2ray | 18",
                 "🇬🇧GB | vless | @FAKEOFTVC | 1",
                 "🇺🇸US | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -166,7 +167,7 @@
                 "🇺🇸US | vless | @V2FETCH | 3",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 3",
-                "🇺🇸US | vless | @TVCminer | 3",
+                "🇸🇪SE | vless | @TVCminer | 2",
                 "🇪🇸ES | vless | @raze_vpn | 2"
             ]
         },
@@ -207,11 +208,12 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇺🇸US | vless | @v2ray_swhil | 15",
                 "🇸🇪SE | vless | @proxyymeliii | 12",
-                "🇨🇦CA | vless | @v2ray1_ng | 3",
+                "🇸🇪SE | vless | @v2ray1_ng | 2",
+                "🇸🇪SE | vless | @V2RayTz | 14",
                 "🇸🇪SE | vless | @DailyV2RY | 159",
                 "🇨🇦CA | vless | @sinabigo | 10",
-                "🇺🇸US | vless | @ConfigsHUB | 19",
-                "🇨🇦CA | vless | @proxystore11 | 13",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 36",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
@@ -220,7 +222,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @Capoit | 18",
                 "🇨🇦CA | vless | @FreakConfig | 5",
-                "🇺🇸US | vless | @flyv2ray | 18",
+                "🇨🇦CA | vless | @flyv2ray | 18",
                 "🇬🇧GB | vless | @FAKEOFTVC | 1",
                 "🇺🇸US | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -234,7 +236,7 @@
                 "🇺🇸US | vless | @V2FETCH | 3",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 3",
-                "🇺🇸US | vless | @TVCminer | 3",
+                "🇸🇪SE | vless | @TVCminer | 2",
                 "🇪🇸ES | vless | @raze_vpn | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -1138,11 +1140,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray1_ng | 3",
+            "tag": "🇸🇪SE | vless | @v2ray1_ng | 2",
             "type": "vless",
-            "server": "discord.gg",
-            "server_port": 443,
-            "uuid": "12f1f2bf-fc80-4bc0-a6b2-c0c82a8d9225",
+            "server": "185.146.173.59",
+            "server_port": 80,
+            "uuid": "Telegram-ipV2Ray",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1150,21 +1152,32 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "zu3-g6cd-server.onflashdrive.app",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "185.146.173.59"
                 }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @V2RayTz | 14",
+            "type": "vless",
+            "server": "185.146.173.96",
+            "server_port": 8880,
+            "uuid": "444dd74b-01c3-4e09-ab4a-2e850dfe6e51",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@V2ray1_ng",
+                "path": "\/@LIGHTNING6, @LIGHTNING6",
                 "headers": {
-                    "Host": "zu3-g6cd-server.onflashdrive.app"
+                    "Host": "185.146.173.96"
                 }
             }
         },
@@ -1221,21 +1234,28 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "kir.com",
-            "server_port": 443,
-            "uuid": "هر-کدوم-از-کانفیگ-هام-رفت-تو-این-چنل-فیلتر-شد",
+            "server": "172.67.163.123",
+            "server_port": 80,
+            "uuid": "SVNTEAM",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/SvnTeam-TeleGram-ChaNnel-VIP",
+                "headers": {
+                    "Host": "172.67.163.123"
+                }
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxystore11 | 13",
+            "tag": "🇺🇸US | vless | @proxystore11 | 13",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 8443,
@@ -1482,7 +1502,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @flyv2ray | 18",
+            "tag": "🇨🇦CA | vless | @flyv2ray | 18",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 443,
@@ -1867,11 +1887,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @TVCminer | 3",
+            "tag": "🇸🇪SE | vless | @TVCminer | 2",
             "type": "vless",
-            "server": "162.159.7.219",
-            "server_port": 443,
-            "uuid": "d674009a-4a87-4180-a8fe-9a54f66bd7c9",
+            "server": "185.146.173.20",
+            "server_port": 2052,
+            "uuid": "9110e2f1-88e5-4a58-8b10-982c5b8138ff",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1879,21 +1899,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "vpn.restia.love",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "vpn.restia.love"
+                    "Host": "185.146.173.20"
                 }
             }
         },
