@@ -126,7 +126,6 @@
                 "🇳🇱NL | vless | @v2ray_swhil | 14",
                 "🇩🇪DE | vless | @VmessProtocol | 2",
                 "🏳️XX | vless | @DailyV2RY | 152",
-                "🇩🇪DE | vless | @ConfigsHUB | 4",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -190,7 +189,6 @@
                 "🇳🇱NL | vless | @v2ray_swhil | 14",
                 "🇩🇪DE | vless | @VmessProtocol | 2",
                 "🏳️XX | vless | @DailyV2RY | 152",
-                "🇩🇪DE | vless | @ConfigsHUB | 4",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -854,35 +852,6 @@
                     "enabled": true,
                     "public_key": "98m4UxvbCz2Uu9twbXVDMiP3S6VSg0KFIOpUVsK9pwI",
                     "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 4",
-            "type": "vless",
-            "server": "116.203.47.128",
-            "server_port": 29253,
-            "uuid": "f5512b61-d706-4438-8d03-1817f0aba9e0",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "canva.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "eS-KEoBKsWjjBTpMY6kr5eZbre-UPBGAiqmeNPLRkXg",
-                    "short_id": "5038468e"
                 }
             }
         },
