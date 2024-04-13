@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇮🇸IS | vless | @EliV2ray | 0",
+                "🇮🇸IS | vless | @EliV2ray | 2",
                 "🏳️XX | vless | @V2pedia | 27",
                 "🏳️XX | vless | @V2pedia | 35",
                 "🇫🇮FI | vless | @ARv2ray | 9",
@@ -128,7 +128,6 @@
                 "🇫🇮FI | vless | @ShadowProxy66 | 22",
                 "🇳🇱NL | vless | @v2ray_swhil | 14",
                 "🇩🇪DE | vless | @VmessProtocol | 5",
-                "🏳️XX | vless | @DailyV2RY | 149",
                 "🏳️XX | vless | @v2rayng_vpnrog | 2",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -174,7 +173,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇮🇸IS | vless | @EliV2ray | 0",
+                "🇮🇸IS | vless | @EliV2ray | 2",
                 "🏳️XX | vless | @V2pedia | 27",
                 "🏳️XX | vless | @V2pedia | 35",
                 "🇫🇮FI | vless | @ARv2ray | 9",
@@ -196,7 +195,6 @@
                 "🇫🇮FI | vless | @ShadowProxy66 | 22",
                 "🇳🇱NL | vless | @v2ray_swhil | 14",
                 "🇩🇪DE | vless | @VmessProtocol | 5",
-                "🏳️XX | vless | @DailyV2RY | 149",
                 "🏳️XX | vless | @v2rayng_vpnrog | 2",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -258,7 +256,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇮🇸IS | vless | @EliV2ray | 0",
+            "tag": "🇮🇸IS | vless | @EliV2ray | 2",
             "type": "vless",
             "server": "89.221.224.166",
             "server_port": 8443,
@@ -934,35 +932,6 @@
                     "enabled": true,
                     "public_key": "UPDaAp6tkfjOWDDIAJXNtNqRRriaSQm_C8mcAQQP8nw",
                     "short_id": "fabb696169ae2a95"
-                }
-            }
-        },
-        {
-            "tag": "🏳️XX | vless | @DailyV2RY | 149",
-            "type": "vless",
-            "server": "[::ffff:74cb:2f80]",
-            "server_port": 29253,
-            "uuid": "f5512b61-d706-4438-8d03-1817f0aba9e0",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "canva.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "eS-KEoBKsWjjBTpMY6kr5eZbre-UPBGAiqmeNPLRkXg",
-                    "short_id": "5038468e"
                 }
             }
         },
