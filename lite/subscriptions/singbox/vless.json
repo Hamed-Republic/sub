@@ -142,11 +142,10 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 5",
                 "🇸🇪SE | vless | @vless_vmess | 12",
                 "🇸🇪SE | vless | @V2RayTz | 18",
-                "🇨🇦CA | vless | @DailyV2RY | 146",
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
-                "🇳🇱NL | vless | @ConfigsHUB | 19",
-                "🇨🇦CA | vless | @proxystore11 | 14",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇺🇸US | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 28",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -211,11 +210,10 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 5",
                 "🇸🇪SE | vless | @vless_vmess | 12",
                 "🇸🇪SE | vless | @V2RayTz | 18",
-                "🇨🇦CA | vless | @DailyV2RY | 146",
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
-                "🇳🇱NL | vless | @ConfigsHUB | 19",
-                "🇨🇦CA | vless | @proxystore11 | 14",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇺🇸US | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 28",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -1210,37 +1208,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 146",
-            "type": "vless",
-            "server": "172.66.45.35",
-            "server_port": 443,
-            "uuid": "6d8b85f4-2cc4-447f-b9b7-491eac9a19b0",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "18b0d264.daily-configs.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "18b0d264.daily-configs.pages.dev"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @sinabigo | 9",
             "type": "vless",
             "server": "198.41.209.216",
@@ -1293,11 +1260,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "188.114.98.220",
+            "server": "cdnjs.com",
             "server_port": 443,
-            "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99",
+            "uuid": "ce3c9dca-d97b-4102-91d4-59761b9c786c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1307,7 +1274,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "test57.pages.dev",
+                "server_name": "burnabyhighstar.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1317,14 +1284,14 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/freecodes",
+                "path": "\/hajmi",
                 "headers": {
-                    "Host": "test57.pages.dev"
+                    "Host": "burnabyhighstar.com"
                 }
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxystore11 | 14",
+            "tag": "🇺🇸US | vless | @proxystore11 | 14",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 8443,
