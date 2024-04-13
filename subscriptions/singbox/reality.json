@@ -109,7 +109,7 @@
                 "🇮🇸IS | vless | @EliV2ray | 2",
                 "🏳️XX | vless | @V2pedia | 27",
                 "🏳️XX | vless | @V2pedia | 35",
-                "🇫🇮FI | vless | @ARv2ray | 10",
+                "🇫🇮FI | vless | @ARv2ray | 11",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
@@ -126,7 +126,7 @@
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 21",
                 "🇩🇪DE | vless | @ShadowProxy66 | 29",
                 "🇫🇮FI | vless | @ShadowProxy66 | 30",
-                "🇳🇱NL | vless | @v2ray_swhil | 15",
+                "🇩🇪DE | vless | @v2ray_swhil | 4",
                 "🇩🇪DE | vless | @VmessProtocol | 5",
                 "🏳️XX | vless | @v2rayng_vpnrog | 2",
                 "🇩🇪DE | vless | @Capital_NET | 31",
@@ -137,7 +137,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇳🇱NL | vless | @Capital_NET | 41",
+                "🇨🇦CA | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -175,7 +175,7 @@
                 "🇮🇸IS | vless | @EliV2ray | 2",
                 "🏳️XX | vless | @V2pedia | 27",
                 "🏳️XX | vless | @V2pedia | 35",
-                "🇫🇮FI | vless | @ARv2ray | 10",
+                "🇫🇮FI | vless | @ARv2ray | 11",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
@@ -192,7 +192,7 @@
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 21",
                 "🇩🇪DE | vless | @ShadowProxy66 | 29",
                 "🇫🇮FI | vless | @ShadowProxy66 | 30",
-                "🇳🇱NL | vless | @v2ray_swhil | 15",
+                "🇩🇪DE | vless | @v2ray_swhil | 4",
                 "🇩🇪DE | vless | @VmessProtocol | 5",
                 "🏳️XX | vless | @v2rayng_vpnrog | 2",
                 "🇩🇪DE | vless | @Capital_NET | 31",
@@ -203,7 +203,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇳🇱NL | vless | @Capital_NET | 41",
+                "🇨🇦CA | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -362,7 +362,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vless | @ARv2ray | 10",
+            "tag": "🇫🇮FI | vless | @ARv2ray | 11",
             "type": "vless",
             "server": "135.181.210.55",
             "server_port": 443,
@@ -876,11 +876,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @v2ray_swhil | 15",
+            "tag": "🇩🇪DE | vless | @v2ray_swhil | 4",
             "type": "vless",
-            "server": "allrevolt.r8volt.com",
-            "server_port": 8443,
-            "uuid": "ae5aed77-be23-4f6c-bd51-c73745038952",
+            "server": "91.107.135.76",
+            "server_port": 2087,
+            "uuid": "49640cba-7b63-40bb-b2ae-38d9294b0e69",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -890,7 +890,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "maps.google.com",
+                "server_name": "greenpepper.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -899,9 +899,16 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "NbtOWq_km9k_SKgCJatXla3Jl7gGKVbjQ-GAtGg4bEk",
-                    "short_id": "bfde1c85a6a4112a"
+                    "public_key": "Zs-U9bKNImrNgq-YOI1Aiil6-9gc9sCUPAxiXP0vHAw",
+                    "short_id": "ecc664bf"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1209,7 +1216,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @Capital_NET | 41",
+            "tag": "🇨🇦CA | vless | @Capital_NET | 41",
             "type": "vless",
             "server": "194.5.97.158",
             "server_port": 443,
