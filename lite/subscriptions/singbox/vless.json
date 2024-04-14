@@ -141,10 +141,11 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 3",
                 "🇨🇦CA | vless | @vless_vmess | 12",
                 "🇨🇦CA | vless | @V2RayTz | 19",
-                "🇨🇦CA | vless | @VmessProtocol | 14",
+                "🏳️XX | vless | @VmessProtocol | 14",
                 "🇸🇪SE | vless | @DailyV2RY | 127",
                 "🇨🇦CA | vless | @sinabigo | 8",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
+                "🇸🇪SE | vless | @ConfigsHUB | 13",
                 "🇨🇦CA | vless | @proxystore11 | 16",
                 "🇨🇦CA | vless | @polproxy | 24",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 16",
@@ -209,10 +210,11 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 3",
                 "🇨🇦CA | vless | @vless_vmess | 12",
                 "🇨🇦CA | vless | @V2RayTz | 19",
-                "🇨🇦CA | vless | @VmessProtocol | 14",
+                "🏳️XX | vless | @VmessProtocol | 14",
                 "🇸🇪SE | vless | @DailyV2RY | 127",
                 "🇨🇦CA | vless | @sinabigo | 8",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
+                "🇸🇪SE | vless | @ConfigsHUB | 13",
                 "🇨🇦CA | vless | @proxystore11 | 16",
                 "🇨🇦CA | vless | @polproxy | 24",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 16",
@@ -1157,7 +1159,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @VmessProtocol | 14",
+            "tag": "🏳️XX | vless | @VmessProtocol | 14",
             "type": "vless",
             "server": "ppl.arzonhost.ir",
             "server_port": 2082,
@@ -1247,6 +1249,27 @@
                 "path": "\/Digiv2ray-",
                 "headers": {
                     "Host": "discord.gg"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 13",
+            "type": "vless",
+            "server": "185.146.173.94",
+            "server_port": 8880,
+            "uuid": "a34471e3-175d-4155-bd5d-ce3ac79cd43a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@LIGHTNING6, @LIGHTNING6",
+                "headers": {
+                    "Host": "185.146.173.94"
                 }
             }
         },
