@@ -108,6 +108,7 @@
                 "URL-TEST",
                 "🇨🇦CA | vless | @EliV2ray | 9",
                 "🇨🇦CA | vless | @Parsashonam | 7",
+                "🇨🇦CA | vless | @v2_team | 5",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 12",
                 "🇮🇪IE | vless | @VlessConfig | 19",
                 "🇨🇦CA | vless | @ipV2Ray | 19",
@@ -148,7 +149,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 16",
                 "🇸🇪SE | vless | @DailyV2RY | 131",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @ConfigsHUB | 17",
                 "🇸🇪SE | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @polproxy | 20",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
@@ -168,7 +169,7 @@
                 "🇨🇦CA | vless | @freeconfigv2 | 2",
                 "🇨🇦CA | vless | @SvnTeam | 49",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 4",
                 "🇸🇪SE | vless | @TVCminer | 2"
@@ -180,6 +181,7 @@
             "outbounds": [
                 "🇨🇦CA | vless | @EliV2ray | 9",
                 "🇨🇦CA | vless | @Parsashonam | 7",
+                "🇨🇦CA | vless | @v2_team | 5",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 12",
                 "🇮🇪IE | vless | @VlessConfig | 19",
                 "🇨🇦CA | vless | @ipV2Ray | 19",
@@ -220,7 +222,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 16",
                 "🇸🇪SE | vless | @DailyV2RY | 131",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @ConfigsHUB | 17",
                 "🇸🇪SE | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @polproxy | 20",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
@@ -240,7 +242,7 @@
                 "🇨🇦CA | vless | @freeconfigv2 | 2",
                 "🇨🇦CA | vless | @SvnTeam | 49",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 4",
                 "🇸🇪SE | vless | @TVCminer | 2"
@@ -315,6 +317,37 @@
                 "headers": {
                     "Host": "www.visa.com"
                 }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @v2_team | 5",
+            "type": "vless",
+            "server": "join.v2team.cfd",
+            "server_port": 2096,
+            "uuid": "da05348d-3f05-436a-8e19-9edf050800fb",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "V2ray-NAPSTERNET-IRANCELL-iran-fair-MKH.Snappfoodd.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@V2_TEAM,Telegram:@V2_TEAM,Telegram:@V2_TEAM,Telegram:@V2_TEAMTelegram:@V2_TEAM,Telegram:@V2_TEAM,Telegram:@V2_TEAM,Telegram:@V2_TEAMTelegram:@V2_TEAM,Telegram:@V2_TEAM,Telegram:@V2_TEAM,Telegram:@V2_TEAMgonTelegram:@V2_TEAM,Telegram:@V2_TEAM,Telegram:@V2_TEAM,Telegram:@V2_TEAM,Telegram:@V2_TEAM,Telegram:@V2_TEAM,Telegram:@V2_TEAM,Telegram:@V2_TEAM,Telegram:@V2_TEAM",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1337,11 +1370,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "join-zedmodeon.kanal-asli-zedmodeon.shop.",
+            "server": "185.146.173.59",
             "server_port": 80,
-            "uuid": "1c6a9e90-520b-4559-9f47-a2c62e84f8cd",
+            "uuid": "Telegram-ipV2Ray",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1351,9 +1384,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/JOIN-ZEDMODEON-@ZEDMODEON-ZEDMODEON",
+                "path": "\/Telegram-ipV2Ray",
                 "headers": {
-                    "Host": "join-zedmodeon.kanal-asli-zedmodeon.shop."
+                    "Host": "185.146.173.59"
                 }
             }
         },
@@ -1627,8 +1660,8 @@
             "tag": "🇨🇳CN | vless | @mehrosaboran | 5",
             "type": "vless",
             "server": "103.184.45.90",
-            "server_port": 80,
-            "uuid": "--DIGiV2RAY---",
+            "server_port": 8880,
+            "uuid": "f4a4aa04-226c-44ef-a59a-da89f6596c9d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1638,7 +1671,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Digiv2ray-",
+                "path": "\/@LIGHTNING6, @LIGHTNING6",
                 "headers": {
                     "Host": "103.184.45.90"
                 }
@@ -1891,7 +1924,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
+            "tag": "🇺🇸US | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
