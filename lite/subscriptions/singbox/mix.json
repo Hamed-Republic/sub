@@ -155,7 +155,7 @@
                 "🇩🇪DE | vless | @sinabigo | 8",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇧🇷BR | ss | @OutlineVpnOfficial | 15",
-                "🇳🇱NL | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇸🇪SE | vless | @free1_vpn | 1",
@@ -240,7 +240,7 @@
                 "🇩🇪DE | vless | @sinabigo | 8",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇧🇷BR | ss | @OutlineVpnOfficial | 15",
-                "🇳🇱NL | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇸🇪SE | vless | @free1_vpn | 1",
@@ -1522,34 +1522,17 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇳🇱NL | vless | @ConfigsHUB | 17",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "188.114.97.12",
-            "server_port": 443,
-            "uuid": "3f435429-081a-41e0-8e77-f21e8a51fbbf",
+            "server": "104.25.39.206",
+            "server_port": 8880,
+            "uuid": "30a28c3a-d026-433d-86b8-d43bf4ee3519",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "VirgInIaVpn.PaGes.DeV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed",
-                "headers": {
-                    "Host": "VirgInIaVpn.PaGes.DeV"
-                }
             }
         },
         {
