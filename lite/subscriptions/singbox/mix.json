@@ -147,15 +147,16 @@
                 "🇨🇦CA | vless | @ServerNett | 16",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 0",
+                "🇩🇪DE | vless | @proxyymeliii | 16",
                 "🇸🇪SE | vless | @MsV2ray | 9",
                 "🇸🇪SE | vless | @v2ray1_ng | 12",
                 "🇨🇦CA | vless | @vless_vmess | 9",
                 "🇨🇦CA | vless | @V2RayTz | 19",
-                "🇨🇦CA | vless | @VmessProtocol | 16",
+                "🏳️XX | vless | @VmessProtocol | 16",
                 "🇸🇪SE | vless | @DailyV2RY | 137",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇺🇸US | vmess | @ConfigsHUB | 17",
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇸🇪SE | vless | @free1_vpn | 1",
@@ -232,15 +233,16 @@
                 "🇨🇦CA | vless | @ServerNett | 16",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 0",
+                "🇩🇪DE | vless | @proxyymeliii | 16",
                 "🇸🇪SE | vless | @MsV2ray | 9",
                 "🇸🇪SE | vless | @v2ray1_ng | 12",
                 "🇨🇦CA | vless | @vless_vmess | 9",
                 "🇨🇦CA | vless | @V2RayTz | 19",
-                "🇨🇦CA | vless | @VmessProtocol | 16",
+                "🏳️XX | vless | @VmessProtocol | 16",
                 "🇸🇪SE | vless | @DailyV2RY | 137",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇺🇸US | vmess | @ConfigsHUB | 17",
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇸🇪SE | vless | @free1_vpn | 1",
@@ -398,7 +400,7 @@
         {
             "tag": "🇨🇦CA | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "15.223.61.121",
+            "server": "15.156.49.130",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -907,7 +909,7 @@
         {
             "tag": "🇩🇪DE | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "3.71.236.170",
+            "server": "52.28.130.157",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -1346,6 +1348,20 @@
             }
         },
         {
+            "tag": "🇩🇪DE | vless | @proxyymeliii | 16",
+            "type": "vless",
+            "server": "217.196.101.18",
+            "server_port": 53899,
+            "uuid": "526f4724-204a-4d79-a098-bd58475cdbcd",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇸🇪SE | vless | @MsV2ray | 9",
             "type": "vless",
             "server": "Back.MsV2ray.online",
@@ -1440,7 +1456,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @VmessProtocol | 16",
+            "tag": "🏳️XX | vless | @VmessProtocol | 16",
             "type": "vless",
             "server": "ppl.arzonhost.ir",
             "server_port": 2082,
@@ -1513,23 +1529,36 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "172.67.163.123",
-            "server_port": 2082,
-            "uuid": "2327919d2b6e497fa0bb3b412a1b06e4",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 17",
+            "type": "vmess",
+            "server": "hms082.gwdef.sbs",
+            "server_port": 443,
+            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "gwdef.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/SvnTeam-TeleGram-ChaNnel-VIP",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "172.67.163.123"
+                    "Host": "gwdef.sbs"
                 }
             }
         },
@@ -1673,9 +1702,9 @@
         {
             "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 16",
             "type": "vless",
-            "server": "st-gb-1.brocdn.com",
-            "server_port": 443,
-            "uuid": "5a23974d-d620-11ee-aaa8-00505603e70d",
+            "server": "iranserver.com",
+            "server_port": 80,
+            "uuid": "2021653d-536c-4ebd-b8b0-44ea932803d7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1683,21 +1712,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "st-gb-1.brocdn.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/websocket",
+                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed",
                 "headers": {
-                    "Host": "st-gb-1.brocdn.com"
+                    "Host": "iranserver.com"
                 }
             }
         },
