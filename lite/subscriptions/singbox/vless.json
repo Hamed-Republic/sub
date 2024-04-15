@@ -142,10 +142,10 @@
                 "🇨🇦CA | vless | @ServerNett | 15",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 0",
-                "🇸🇪SE | vless | @MsV2ray | 10",
+                "🇸🇪SE | vless | @MsV2ray | 9",
                 "🇸🇪SE | vless | @v2ray1_ng | 12",
                 "🇳🇱NL | vless | @vless_vmess | 13",
-                "🇨🇦CA | vless | @VmessProtocol | 16",
+                "🏳️XX | vless | @VmessProtocol | 16",
                 "🇨🇦CA | vless | @DailyV2RY | 130",
                 "🇩🇪DE | vless | @sinabigo | 8",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
@@ -214,10 +214,10 @@
                 "🇨🇦CA | vless | @ServerNett | 15",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 0",
-                "🇸🇪SE | vless | @MsV2ray | 10",
+                "🇸🇪SE | vless | @MsV2ray | 9",
                 "🇸🇪SE | vless | @v2ray1_ng | 12",
                 "🇳🇱NL | vless | @vless_vmess | 13",
-                "🇨🇦CA | vless | @VmessProtocol | 16",
+                "🏳️XX | vless | @VmessProtocol | 16",
                 "🇨🇦CA | vless | @DailyV2RY | 130",
                 "🇩🇪DE | vless | @sinabigo | 8",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
@@ -1207,10 +1207,10 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @MsV2ray | 10",
+            "tag": "🇸🇪SE | vless | @MsV2ray | 9",
             "type": "vless",
             "server": "Back.MsV2ray.online",
-            "server_port": 80,
+            "server_port": 2095,
             "uuid": "-ComeBack-MsV2ray-",
             "flow": "",
             "packet_encoding": "xudp",
@@ -1221,7 +1221,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/MsV2ray-MsV2ray-MsV2ray-MsV2ray",
+                "path": "\/kos",
                 "headers": {
                     "Host": "Back.MsV2ray.online"
                 }
@@ -1280,7 +1280,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @VmessProtocol | 16",
+            "tag": "🏳️XX | vless | @VmessProtocol | 16",
             "type": "vless",
             "server": "ppl.arzonhost.ir",
             "server_port": 2082,
@@ -1369,9 +1369,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "172.66.213.38",
-            "server_port": 8443,
-            "uuid": "3------EVAY_VPN------",
+            "server": "162.159.195.143",
+            "server_port": 443,
+            "uuid": "90cd4a77-141a-43c9-991b-08263cfe9c10",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1381,7 +1381,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "fre.sharkv2r.com",
+                "server_name": "syq-8y3.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1391,9 +1391,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn",
+                "path": "\/",
                 "headers": {
-                    "Host": "fre.sharkv2r.com"
+                    "Host": "syq-8y3.pages.dev"
                 }
             }
         },
