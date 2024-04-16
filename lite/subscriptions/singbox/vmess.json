@@ -109,10 +109,11 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
-                "🇺🇸US | vmess | @ConfigsHUB | 1",
+                "🇹🇼TW | vmess | @ConfigsHUB | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🏳️XX | vmess | @Hope_Net | 11",
                 "🇨🇦CA | vmess | @v2Line | 11",
+                "🇨🇦CA | vmess | @FAKEOFTVC | 0",
                 "🇨🇦CA | vmess | @nofiltering2 | 3"
             ]
         },
@@ -123,10 +124,11 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
-                "🇺🇸US | vmess | @ConfigsHUB | 1",
+                "🇹🇼TW | vmess | @ConfigsHUB | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🏳️XX | vmess | @Hope_Net | 11",
                 "🇨🇦CA | vmess | @v2Line | 11",
+                "🇨🇦CA | vmess | @FAKEOFTVC | 0",
                 "🇨🇦CA | vmess | @nofiltering2 | 3"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -218,11 +220,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 1",
+            "tag": "🇹🇼TW | vmess | @ConfigsHUB | 18",
             "type": "vmess",
-            "server": "64.176.219.18",
-            "server_port": 50706,
-            "uuid": "a98f5505-8bb1-4d92-e435-21906d9ab89a",
+            "server": "nb24.ntbq.dynu.net",
+            "server_port": 4443,
+            "uuid": "1cc969d3-1df8-4794-a5cc-9231fe0e4710",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -333,6 +335,40 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "kellie.makeup"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @FAKEOFTVC | 0",
+            "type": "vmess",
+            "server": "172.67.207.26",
+            "server_port": 443,
+            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "glweidf.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "glweidf.sbs"
                 }
             }
         },
