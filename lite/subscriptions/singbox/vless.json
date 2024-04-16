@@ -130,7 +130,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 14",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
-                "🇨🇦CA | vless | @prrofile_purple | 195",
+                "🇨🇦CA | vless | @prrofile_purple | 185",
                 "🇨🇦CA | vless | @customv2ray | 11",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | vless | @vmessorg | 35",
@@ -142,7 +142,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 1",
                 "🇮🇷IR | vless | @proxyymeliii | 16",
-                "🇸🇪SE | vless | @MsV2ray | 10",
+                "🇸🇪SE | vless | @MsV2ray | 9",
                 "🇸🇪SE | vless | @v2ray1_ng | 13",
                 "🇨🇦CA | vless | @vless_vmess | 9",
                 "🇸🇪SE | vless | @V2RayTz | 19",
@@ -150,7 +150,7 @@
                 "🇳🇱NL | vless | @DailyV2RY | 144",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
-                "🇺🇸US | vless | @ConfigsHUB | 18",
+                "🇮🇷IR | vless | @ConfigsHUB | 16",
                 "🇮🇷IR | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 11",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 17",
@@ -203,7 +203,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 14",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
-                "🇨🇦CA | vless | @prrofile_purple | 195",
+                "🇨🇦CA | vless | @prrofile_purple | 185",
                 "🇨🇦CA | vless | @customv2ray | 11",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | vless | @vmessorg | 35",
@@ -215,7 +215,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 1",
                 "🇮🇷IR | vless | @proxyymeliii | 16",
-                "🇸🇪SE | vless | @MsV2ray | 10",
+                "🇸🇪SE | vless | @MsV2ray | 9",
                 "🇸🇪SE | vless | @v2ray1_ng | 13",
                 "🇨🇦CA | vless | @vless_vmess | 9",
                 "🇸🇪SE | vless | @V2RayTz | 19",
@@ -223,7 +223,7 @@
                 "🇳🇱NL | vless | @DailyV2RY | 144",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
-                "🇺🇸US | vless | @ConfigsHUB | 18",
+                "🇮🇷IR | vless | @ConfigsHUB | 16",
                 "🇮🇷IR | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 11",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 17",
@@ -898,11 +898,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @prrofile_purple | 195",
+            "tag": "🇨🇦CA | vless | @prrofile_purple | 185",
             "type": "vless",
-            "server": "162.159.135.234",
-            "server_port": 80,
-            "uuid": "2f984b6d-dfd4-4a5a-8578-635c792d4d08",
+            "server": "104.24.183.89",
+            "server_port": 443,
+            "uuid": "2e19015e-e622-4544-9c12-f42533ce11e8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -910,11 +910,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "REsilience.NiREvil.IR",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "162.159.135.234"
+                    "Host": "REsilience.NiREvil.IR"
                 }
             }
         },
@@ -1220,10 +1230,10 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @MsV2ray | 10",
+            "tag": "🇸🇪SE | vless | @MsV2ray | 9",
             "type": "vless",
             "server": "Back.MsV2ray.online",
-            "server_port": 80,
+            "server_port": 2095,
             "uuid": "-ComeBack-MsV2ray-",
             "flow": "",
             "packet_encoding": "xudp",
@@ -1418,12 +1428,12 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @ConfigsHUB | 18",
+            "tag": "🇮🇷IR | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "www.data.gov.uk",
+            "server": "185.231.180.26",
             "server_port": 443,
-            "uuid": "cefffd1d-cc58-4560-b4d1-44f1af528f30",
-            "flow": "",
+            "uuid": "807f4b82-91d6-44cb-80ff-dfc7f5dc9f6c",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1432,7 +1442,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.data.gov.uk",
+                "server_name": "vIrGiNiAvPn-uK.pAgEs.dEv",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1442,9 +1452,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=2560",
+                "path": "\/",
                 "headers": {
-                    "Host": "www.data.gov.uk"
+                    "Host": "vIrGiNiAvPn-uK.pAgEs.dEv"
                 }
             }
         },
