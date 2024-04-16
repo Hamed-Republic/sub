@@ -141,7 +141,7 @@
                 "🇨🇦CA | vless | @vmessorg | 35",
                 "🇨🇦CA | vless | @v2rayngvpn | 14",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
-                "🇨🇦CA | vless | @ShadowProxy66 | 37",
+                "🇨🇦CA | vless | @ShadowProxy66 | 46",
                 "🇨🇦CA | vless | @ServerNett | 16",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 1",
@@ -159,7 +159,7 @@
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇮🇷IR | vless | @free1_vpn | 0",
-                "🇮🇷IR | vmess | @Hope_Net | 15",
+                "🇨🇦CA | vmess | @Hope_Net | 14",
                 "🇨🇦CA | vless | @polproxy | 11",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
                 "🏳️XX | vless | @v2rayng_vpnrog | 6",
@@ -225,7 +225,7 @@
                 "🇨🇦CA | vless | @vmessorg | 35",
                 "🇨🇦CA | vless | @v2rayngvpn | 14",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
-                "🇨🇦CA | vless | @ShadowProxy66 | 37",
+                "🇨🇦CA | vless | @ShadowProxy66 | 46",
                 "🇨🇦CA | vless | @ServerNett | 16",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 1",
@@ -243,7 +243,7 @@
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇮🇷IR | vless | @free1_vpn | 0",
-                "🇮🇷IR | vmess | @Hope_Net | 15",
+                "🇨🇦CA | vmess | @Hope_Net | 14",
                 "🇨🇦CA | vless | @polproxy | 11",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
                 "🏳️XX | vless | @v2rayng_vpnrog | 6",
@@ -1135,7 +1135,7 @@
         {
             "tag": "🇨🇦CA | vless | @v2rayngvpn | 14",
             "type": "vless",
-            "server": "104.26.15.85",
+            "server": "104.22.1.87",
             "server_port": 80,
             "uuid": "c8aa3dce-77b8-4cca-b313-89ce5c015137",
             "flow": "",
@@ -1147,9 +1147,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/@Alpha_v2ray_fazayi,@Alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@Alpha_v2ray_fazayi\/",
                 "headers": {
-                    "Host": "104.26.15.85"
+                    "Host": "104.22.1.87"
                 }
             }
         },
@@ -1185,7 +1185,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ShadowProxy66 | 37",
+            "tag": "🇨🇦CA | vless | @ShadowProxy66 | 46",
             "type": "vless",
             "server": "cdnjs.com",
             "server_port": 443,
@@ -1651,11 +1651,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @Hope_Net | 15",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 14",
             "type": "vmess",
-            "server": "79.175.151.112",
-            "server_port": 58271,
-            "uuid": "6e83ef0f-70a7-4be8-979a-8bc7a41f4224",
+            "server": "505.outline-vpn.cloud",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1666,11 +1666,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "kellie.makeup",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/rohv2ray",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": ""
+                    "Host": "kellie.makeup"
                 }
             }
         },
