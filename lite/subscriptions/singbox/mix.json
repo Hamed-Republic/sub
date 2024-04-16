@@ -153,11 +153,11 @@
                 "🇨🇦CA | vless | @DailyV2RY | 147",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇪🇪EE | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 12",
+                "🇨🇦CA | vless | @ConfigsHUB | 13",
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇮🇷IR | vless | @free1_vpn | 0",
-                "🇨🇦CA | vmess | @Hope_Net | 13",
+                "🇨🇦CA | vmess | @Hope_Net | 12",
                 "🇨🇦CA | vless | @polproxy | 11",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
                 "🏳️XX | vless | @v2rayng_vpnrog | 6",
@@ -235,11 +235,11 @@
                 "🇨🇦CA | vless | @DailyV2RY | 147",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇪🇪EE | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 12",
+                "🇨🇦CA | vless | @ConfigsHUB | 13",
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇮🇷IR | vless | @free1_vpn | 0",
-                "🇨🇦CA | vmess | @Hope_Net | 13",
+                "🇨🇦CA | vmess | @Hope_Net | 12",
                 "🇨🇦CA | vless | @polproxy | 11",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
                 "🏳️XX | vless | @v2rayng_vpnrog | 6",
@@ -1472,11 +1472,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 12",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 13",
             "type": "vless",
-            "server": "172.67.219.167",
-            "server_port": 8880,
-            "uuid": "e6663d5f-35a8-419f-8a1a-6b873b320b7f",
+            "server": "162.159.135.234",
+            "server_port": 80,
+            "uuid": "5cb97c62-c57f-4a88-ac2c-4eb496c34ce1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1486,9 +1486,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@LIGHTNING6, @LIGHTNING6",
+                "path": "\/",
                 "headers": {
-                    "Host": "172.67.219.167"
+                    "Host": "162.159.135.234"
                 }
             }
         },
@@ -1575,11 +1575,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 13",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 12",
             "type": "vmess",
-            "server": "c7.610710.xyz",
-            "server_port": 8443,
-            "uuid": "0200841c-53bb-4a08-aaaf-c149225b4473",
+            "server": "www.frostylagoon.lol",
+            "server_port": 443,
+            "uuid": "11887bdc-8ebc-4718-aec5-c2e1646c08ef",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1592,7 +1592,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "c7.610710.xyz",
+                "server_name": "fi1.xv2ray.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1602,9 +1602,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/vmess",
                 "headers": {
-                    "Host": "c7.610710.xyz"
+                    "Host": "fi1.xv2ray.net"
                 }
             }
         },
