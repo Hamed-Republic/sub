@@ -134,9 +134,8 @@
                 "🇺🇸US | vmess | @oneclickvpnkeys | 7",
                 "🇺🇸US | vmess | @ShadowProxy66 | 32",
                 "🇺🇸US | vmess | @ShadowProxy66 | 33",
-                "🇺🇸US | vmess | @vless_vmess | 8",
                 "🏳️XX | vmess | @DailyV2RY | 150",
-                "🇺🇸US | vmess | @ConfigsHUB | 10",
+                "🇺🇸US | vmess | @ConfigsHUB | 18",
                 "🇳🇱NL | vmess | @yaney_01 | 0",
                 "🇺🇸US | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
@@ -197,9 +196,8 @@
                 "🇺🇸US | vmess | @oneclickvpnkeys | 7",
                 "🇺🇸US | vmess | @ShadowProxy66 | 32",
                 "🇺🇸US | vmess | @ShadowProxy66 | 33",
-                "🇺🇸US | vmess | @vless_vmess | 8",
                 "🏳️XX | vmess | @DailyV2RY | 150",
-                "🇺🇸US | vmess | @ConfigsHUB | 10",
+                "🇺🇸US | vmess | @ConfigsHUB | 18",
                 "🇳🇱NL | vmess | @yaney_01 | 0",
                 "🇺🇸US | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
@@ -917,40 +915,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @vless_vmess | 8",
-            "type": "vmess",
-            "server": "jahfkjha.cfd",
-            "server_port": 443,
-            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "jahfkjha.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "jahfkjha.cfd"
-                }
-            }
-        },
-        {
             "tag": "🏳️XX | vmess | @DailyV2RY | 150",
             "type": "vmess",
             "server": "vmess.diskstation.eu",
@@ -975,11 +939,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 10",
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 18",
             "type": "vmess",
-            "server": "104.21.15.36",
-            "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "server": "174.136.205.46",
+            "server_port": 39027,
+            "uuid": "26419143-8a06-43ab-d58c-bea7b7da8203",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -989,23 +953,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "linde06.indiavideo.sbs"
-                }
             }
         },
         {
