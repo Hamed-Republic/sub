@@ -133,7 +133,7 @@
                 "🇸🇪SE | vless | @V2rayNGn | 15",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
                 "🇨🇦CA | vless | @prrofile_purple | 194",
-                "🇨🇦CA | vless | @customv2ray | 12",
+                "🇨🇦CA | vless | @customv2ray | 11",
                 "🇨🇦CA | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 34",
                 "🇨🇦CA | vless | @v2rayngvpn | 13",
@@ -150,7 +150,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 159",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
-                "🇸🇪SE | vless | @ConfigsHUB | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 12",
                 "🇨🇦CA | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -168,7 +168,7 @@
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
                 "🇨🇦CA | vless | @SvnTeam | 49",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @ROMAX_VPN | 5",
                 "🇸🇪SE | vless | @TVCminer | 14"
@@ -205,7 +205,7 @@
                 "🇸🇪SE | vless | @V2rayNGn | 15",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
                 "🇨🇦CA | vless | @prrofile_purple | 194",
-                "🇨🇦CA | vless | @customv2ray | 12",
+                "🇨🇦CA | vless | @customv2ray | 11",
                 "🇨🇦CA | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 34",
                 "🇨🇦CA | vless | @v2rayngvpn | 13",
@@ -222,7 +222,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 159",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
-                "🇸🇪SE | vless | @ConfigsHUB | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 12",
                 "🇨🇦CA | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -240,7 +240,7 @@
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
                 "🇨🇦CA | vless | @SvnTeam | 49",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @ROMAX_VPN | 5",
                 "🇸🇪SE | vless | @TVCminer | 14"
@@ -982,11 +982,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @customv2ray | 12",
+            "tag": "🇨🇦CA | vless | @customv2ray | 11",
             "type": "vless",
-            "server": "104.18.158.102",
-            "server_port": 80,
-            "uuid": "17fafaf9-7402-40eb-87ae-a75944c84c52",
+            "server": "www.visa.com",
+            "server_port": 443,
+            "uuid": "da6b3b85-65ca-4436-86ee-afb8b9fb5aa2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -994,12 +994,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/@my_proxii",
-                "headers": {
-                    "Host": "104.18.158.102"
+            "tls": {
+                "enabled": true,
+                "server_name": "pc.v2oti.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1399,11 +1409,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 15",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "Join-VPNCUSTOMIZE.V2ray.motorcycles",
-            "server_port": 80,
-            "uuid": "a0ff1c34-ccf7-4c9b-a197-024d9b07165c",
+            "server": "104.18.158.102",
+            "server_port": 443,
+            "uuid": "c2ec17cc-e5a9-4f4a-88dc-496e3215dbab",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1411,11 +1421,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "sALAm-wOrD.pagEs.deV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=1024",
+                "path": "\/Telegram-V2ray_Alpha\/",
                 "headers": {
-                    "Host": "Join-VPNCUSTOMIZE.V2ray.motorcycles"
+                    "Host": "sALAm-wOrD.pagEs.deV"
                 }
             }
         },
@@ -1884,7 +1904,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2FETCH | 2",
+            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
