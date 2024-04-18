@@ -149,14 +149,13 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 3",
                 "🇸🇪SE | vless | @proxyymeliii | 17",
                 "🇸🇪SE | vless | @MsV2ray | 9",
-                "🇮🇷IR | vless | @v2ray1_ng | 9",
                 "🇨🇦CA | vless | @V2RayTz | 14",
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇫🇷FR | vless | @DailyV2RY | 117",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇺🇸US | vmess | @ConfigsHUB | 19",
                 "🇮🇷IR | vmess | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @Hope_Net | 11",
@@ -181,7 +180,7 @@
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇺🇸US | vless | @ROMAX_VPN | 5",
+                "🇨🇦CA | vless | @ROMAX_VPN | 5",
                 "🇸🇪SE | vless | @TVCminer | 14"
             ]
         },
@@ -232,14 +231,13 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 3",
                 "🇸🇪SE | vless | @proxyymeliii | 17",
                 "🇸🇪SE | vless | @MsV2ray | 9",
-                "🇮🇷IR | vless | @v2ray1_ng | 9",
                 "🇨🇦CA | vless | @V2RayTz | 14",
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇫🇷FR | vless | @DailyV2RY | 117",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇺🇸US | vmess | @ConfigsHUB | 19",
                 "🇮🇷IR | vmess | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @Hope_Net | 11",
@@ -264,7 +262,7 @@
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇺🇸US | vless | @ROMAX_VPN | 5",
+                "🇨🇦CA | vless | @ROMAX_VPN | 5",
                 "🇸🇪SE | vless | @TVCminer | 14"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -1390,20 +1388,6 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @v2ray1_ng | 9",
-            "type": "vless",
-            "server": "79.175.177.111",
-            "server_port": 24669,
-            "uuid": "c5d89dde-0cc3-4c98-b053-95fffd5be364",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @V2RayTz | 14",
             "type": "vless",
             "server": "104.17.169.114",
@@ -1549,33 +1533,26 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "172.66.44.181",
-            "server_port": 443,
-            "uuid": "cc771b27-27ad-4bf3-bc42-f42cd673edbe",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "143.244.153.8",
+            "server_port": 80,
+            "uuid": "003d8cf3-8a1c-4aa5-a87a-feb24452f742",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "vpnmarket-8bm.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "vpnmarket-8bm.pages.dev"
+                    "Host": ""
                 }
             }
         },
@@ -2243,7 +2220,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @ROMAX_VPN | 5",
+            "tag": "🇨🇦CA | vless | @ROMAX_VPN | 5",
             "type": "vless",
             "server": "172.66.213.38",
             "server_port": 2082,
