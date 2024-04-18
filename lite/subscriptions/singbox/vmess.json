@@ -108,9 +108,9 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
+                "🇫🇮FI | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 0",
-                "🇨🇦CA | vmess | @DailyV2RY | 108",
                 "🇮🇷IR | vmess | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vmess | @Hope_Net | 10",
@@ -124,9 +124,9 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
+                "🇫🇮FI | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 0",
-                "🇨🇦CA | vmess | @DailyV2RY | 108",
                 "🇮🇷IR | vmess | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vmess | @Hope_Net | 10",
@@ -195,11 +195,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 19",
             "type": "vmess",
-            "server": "hms082.gwdef.sbs",
+            "server": "slime-rhinestone-spy.glitch.me",
             "server_port": 443,
-            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
+            "uuid": "1d5fb496-19fb-48fb-9880-a147326dee62",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -212,7 +212,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "gwdef.sbs",
+                "server_name": "slime-rhinestone-spy.glitch.me",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -222,10 +222,27 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/1d5fb496-19fb-48fb-9880-a147326dee62-vmess",
                 "headers": {
-                    "Host": "gwdef.sbs"
+                    "Host": "slime-rhinestone-spy.glitch.me"
                 }
+            }
+        },
+        {
+            "tag": "🇫🇮FI | vmess | @oneclickvpnkeys | 6",
+            "type": "vmess",
+            "server": "65.109.199.41",
+            "server_port": 3363,
+            "uuid": "925b52b4-7fb2-48e8-9569-d1f953bdc632",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -259,40 +276,6 @@
                 "path": "\/linkws",
                 "headers": {
                     "Host": "obdii.cfd"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @DailyV2RY | 108",
-            "type": "vmess",
-            "server": "hms02opi.fxiaomi.sbs",
-            "server_port": 443,
-            "uuid": "6c168fcc-2231-4f3b-8c1e-f6391692df4a",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hms02.fxiaomi.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/link",
-                "headers": {
-                    "Host": "hms02.fxiaomi.sbs"
                 }
             }
         },
