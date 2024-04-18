@@ -154,8 +154,8 @@
                 "🇫🇮FI | vless | @VmessProtocol | 15",
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
-                "🇬🇧GB | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vmess | @ConfigsHUB | 19",
+                "🇫🇮FI | ss | @OutlineVpnOfficial | 17",
+                "🇫🇮FI | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @Hope_Net | 7",
@@ -234,8 +234,8 @@
                 "🇫🇮FI | vless | @VmessProtocol | 15",
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
-                "🇬🇧GB | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vmess | @ConfigsHUB | 19",
+                "🇫🇮FI | ss | @OutlineVpnOfficial | 17",
+                "🇫🇮FI | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @Hope_Net | 7",
@@ -1492,21 +1492,21 @@
             }
         },
         {
-            "tag": "🇬🇧GB | ss | @OutlineVpnOfficial | 15",
+            "tag": "🇫🇮FI | ss | @OutlineVpnOfficial | 17",
             "type": "shadowsocks",
-            "server": "51.195.149.115",
-            "server_port": 45816,
-            "method": "aes-256-gcm",
-            "password": "KkDzY101Oe",
+            "server": "fl3.dart-vpn.com",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "X7eoEBrARWsBUiVfchVEdH",
             "plugin": "",
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
+            "tag": "🇫🇮FI | vmess | @ConfigsHUB | 19",
             "type": "vmess",
-            "server": "104.17.25.1",
-            "server_port": 80,
-            "uuid": "83c19463-f966-4adb-a7d8-b127825ffab2",
+            "server": "nine.crowvpn.sbs",
+            "server_port": 34697,
+            "uuid": "4dc8871c-337c-4804-8d61-15c6a0de9ffa",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1516,13 +1516,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "104.17.25.1"
-                }
             }
         },
         {

@@ -111,7 +111,7 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 30",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 2",
-                "🇨🇦CA | vmess | @ConfigsHUB | 19",
+                "🇫🇮FI | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @Hope_Net | 7",
                 "🇺🇸US | vmess | @v2Line | 10",
@@ -127,7 +127,7 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 30",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 2",
-                "🇨🇦CA | vmess | @ConfigsHUB | 19",
+                "🇫🇮FI | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @Hope_Net | 7",
                 "🇺🇸US | vmess | @v2Line | 10",
@@ -287,11 +287,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
+            "tag": "🇫🇮FI | vmess | @ConfigsHUB | 19",
             "type": "vmess",
-            "server": "104.17.25.1",
-            "server_port": 80,
-            "uuid": "83c19463-f966-4adb-a7d8-b127825ffab2",
+            "server": "nine.crowvpn.sbs",
+            "server_port": 34697,
+            "uuid": "4dc8871c-337c-4804-8d61-15c6a0de9ffa",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -301,13 +301,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "104.17.25.1"
-                }
             }
         },
         {
