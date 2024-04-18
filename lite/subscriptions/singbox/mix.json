@@ -125,7 +125,7 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 13",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 26",
-                "🇨🇦CA | vless | @proxy_kafee | 10",
+                "🇨🇦CA | vless | @proxy_kafee | 8",
                 "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 4",
@@ -155,7 +155,7 @@
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇫🇮FI | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vmess | @ConfigsHUB | 5",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @Hope_Net | 9",
@@ -177,7 +177,7 @@
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
                 "🇨🇦CA | vless | @SvnTeam | 37",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @ROMAX_VPN | 5",
                 "🇸🇪SE | vless | @TVCminer | 16"
@@ -206,7 +206,7 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 13",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 26",
-                "🇨🇦CA | vless | @proxy_kafee | 10",
+                "🇨🇦CA | vless | @proxy_kafee | 8",
                 "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 4",
@@ -236,7 +236,7 @@
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇫🇮FI | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vmess | @ConfigsHUB | 5",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @Hope_Net | 9",
@@ -258,7 +258,7 @@
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
                 "🇨🇦CA | vless | @SvnTeam | 37",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @ROMAX_VPN | 5",
                 "🇸🇪SE | vless | @TVCminer | 16"
@@ -769,7 +769,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxy_kafee | 10",
+            "tag": "🇨🇦CA | vless | @proxy_kafee | 8",
             "type": "vless",
             "server": "104.21.192.45",
             "server_port": 443,
@@ -1504,13 +1504,16 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "zula.ir",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 5",
+            "type": "vmess",
+            "server": "changupmecca.com",
             "server_port": 443,
-            "uuid": "d9b3134e-007e-41e0-a146-8c53977e27f5",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "uuid": "dfbbc8de-8a4f-407d-8069-6de38d83c4e1",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1518,7 +1521,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "academivpn1-bo7.pages.dev",
+                "server_name": "cpisub7.CPIForpERsiA.UK",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1528,9 +1531,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-FreeVirGoolNet\/",
+                "path": "\/hdfy4c1.iraniancpi.uk\/WgCmp8pxRWBtLTlTL",
                 "headers": {
-                    "Host": "academivpn1-bo7.pages.dev"
+                    "Host": "cpisub7.CPIForpERsiA.UK"
                 }
             }
         },
@@ -2116,7 +2119,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2FETCH | 2",
+            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
