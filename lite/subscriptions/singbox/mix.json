@@ -134,7 +134,7 @@
                 "🇫🇷FR | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇫🇮FI | vmess | @oneclickvpnkeys | 6",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇨🇦CA | vless | @prrofile_purple | 184",
                 "🇨🇦CA | vless | @customv2ray | 11",
@@ -156,7 +156,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 15",
-                "🇫🇮FI | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇮🇷IR | vmess | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vmess | @Hope_Net | 10",
@@ -181,7 +181,7 @@
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇨🇦CA | vless | @ROMAX_VPN | 5",
+                "🇺🇸US | vless | @ROMAX_VPN | 5",
                 "🇸🇪SE | vless | @TVCminer | 14"
             ]
         },
@@ -217,7 +217,7 @@
                 "🇫🇷FR | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇫🇮FI | vmess | @oneclickvpnkeys | 6",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇨🇦CA | vless | @prrofile_purple | 184",
                 "🇨🇦CA | vless | @customv2ray | 11",
@@ -239,7 +239,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 15",
-                "🇫🇮FI | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇮🇷IR | vmess | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vmess | @Hope_Net | 10",
@@ -264,7 +264,7 @@
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇨🇦CA | vless | @ROMAX_VPN | 5",
+                "🇺🇸US | vless | @ROMAX_VPN | 5",
                 "🇸🇪SE | vless | @TVCminer | 14"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -438,7 +438,7 @@
             "type": "vless",
             "server": "dnschecker.org",
             "server_port": 443,
-            "uuid": "bc512543-7c1f-44ea-9edb-4c922f554000",
+            "uuid": "f3563049-f464-44d6-a736-f06641381326",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -983,11 +983,11 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vmess | @oneclickvpnkeys | 6",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
             "type": "vmess",
-            "server": "65.109.199.41",
-            "server_port": 3363,
-            "uuid": "925b52b4-7fb2-48e8-9569-d1f953bdc632",
+            "server": "zula.ir",
+            "server_port": 2052,
+            "uuid": "726a2899-b33f-4116-8abd-581932352830",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -997,6 +997,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -1539,11 +1546,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇫🇮FI | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "download.vindonews.com.tr",
+            "server": "accolade.toptechnonews.com",
             "server_port": 443,
-            "uuid": "74075426-1dbb-43fc-bd60-7a7fb2151520",
+            "uuid": "f4f69ee1-09df-4ca2-a002-89ee0ec8156a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1553,7 +1560,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "download.vindonews.com.tr",
+                "server_name": "accolade.toptechnonews.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1563,9 +1570,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/shKnXn0unRfyM0WOB3HI9X",
+                "path": "\/nimws",
                 "headers": {
-                    "Host": "download.vindonews.com.tr"
+                    "Host": "accolade.toptechnonews.com"
                 }
             }
         },
@@ -1688,9 +1695,9 @@
         {
             "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 17",
             "type": "vless",
-            "server": "confingland-uae.pages.dev",
+            "server": "104.18.158.102",
             "server_port": 443,
-            "uuid": "3554d65d-738b-474c-80ea-ebf1e26f5a08",
+            "uuid": "c2ec17cc-e5a9-4f4a-88dc-496e3215dbab",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1700,7 +1707,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "confingland-uae.pages.Dev",
+                "server_name": "sALAm-wOrD.pagEs.deV",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1710,9 +1717,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/QJXZLKrI0afqLBAA",
+                "path": "\/@my_proxii",
                 "headers": {
-                    "Host": "confingland-uae.pages.Dev"
+                    "Host": "sALAm-wOrD.pagEs.deV"
                 }
             }
         },
@@ -2233,7 +2240,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ROMAX_VPN | 5",
+            "tag": "🇺🇸US | vless | @ROMAX_VPN | 5",
             "type": "vless",
             "server": "172.66.213.38",
             "server_port": 2082,
