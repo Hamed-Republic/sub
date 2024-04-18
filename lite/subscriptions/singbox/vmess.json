@@ -108,12 +108,11 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇫🇮FI | vmess | @oneclickvpnkeys | 6",
-                "🇨🇦CA | vmess | @V2rayng_Fast | 0",
+                "🇨🇦CA | vmess | @V2rayng_Fast | 1",
                 "🇮🇷IR | vmess | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇨🇦CA | vmess | @Hope_Net | 10",
+                "🇺🇸US | vmess | @Hope_Net | 11",
                 "🇨🇦CA | vmess | @v2Line | 11",
                 "🇨🇦CA | vmess | @nofiltering2 | 3"
             ]
@@ -124,12 +123,11 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇫🇮FI | vmess | @oneclickvpnkeys | 6",
-                "🇨🇦CA | vmess | @V2rayng_Fast | 0",
+                "🇨🇦CA | vmess | @V2rayng_Fast | 1",
                 "🇮🇷IR | vmess | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇨🇦CA | vmess | @Hope_Net | 10",
+                "🇺🇸US | vmess | @Hope_Net | 11",
                 "🇨🇦CA | vmess | @v2Line | 11",
                 "🇨🇦CA | vmess | @nofiltering2 | 3"
             ],
@@ -195,40 +193,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 19",
-            "type": "vmess",
-            "server": "slime-rhinestone-spy.glitch.me",
-            "server_port": 443,
-            "uuid": "1d5fb496-19fb-48fb-9880-a147326dee62",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "slime-rhinestone-spy.glitch.me",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/1d5fb496-19fb-48fb-9880-a147326dee62-vmess",
-                "headers": {
-                    "Host": "slime-rhinestone-spy.glitch.me"
-                }
-            }
-        },
-        {
             "tag": "🇫🇮FI | vmess | @oneclickvpnkeys | 6",
             "type": "vmess",
             "server": "65.109.199.41",
@@ -246,7 +210,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @V2rayng_Fast | 0",
+            "tag": "🇨🇦CA | vmess | @V2rayng_Fast | 1",
             "type": "vmess",
             "server": "172.67.71.160",
             "server_port": 443,
@@ -331,11 +295,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 10",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 11",
             "type": "vmess",
-            "server": "ca-full.privateip.net",
+            "server": "us2-full.privateip.net",
             "server_port": 443,
-            "uuid": "03cd8171-7f94-4d36-8855-29b465cc8757",
+            "uuid": "70efb8a1-444f-4f4a-9420-c0fe2b34f05a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -348,7 +312,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ca-full.privateip.net",
+                "server_name": "us2-full.privateip.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -360,7 +324,7 @@
                 "type": "ws",
                 "path": "\/RACEVPN",
                 "headers": {
-                    "Host": "ca-full.privateip.net"
+                    "Host": "us2-full.privateip.net"
                 }
             }
         },
