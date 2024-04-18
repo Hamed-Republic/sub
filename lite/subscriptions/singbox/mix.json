@@ -154,13 +154,13 @@
                 "🇨🇦CA | vless | @V2RayTz | 11",
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇸🇪SE | vless | @DailyV2RY | 138",
-                "🇨🇦CA | vless | @sinabigo | 5",
+                "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇩🇪DE | vless | @ConfigsHUB | 18",
                 "🇮🇷IR | vmess | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🏳️XX | vmess | @Hope_Net | 13",
+                "🇨🇦CA | vmess | @Hope_Net | 12",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
@@ -173,7 +173,7 @@
                 "🇸🇪SE | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇨🇦CA | vmess | @nofiltering2 | 3",
-                "🇨🇦CA | vless | @proxy_mtm | 8",
+                "🇺🇸US | vless | @proxy_mtm | 8",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🏳️XX | ss | @kingofilter | 1",
                 "🇺🇸US | vless | @GozargahVPN | 14",
@@ -238,13 +238,13 @@
                 "🇨🇦CA | vless | @V2RayTz | 11",
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇸🇪SE | vless | @DailyV2RY | 138",
-                "🇨🇦CA | vless | @sinabigo | 5",
+                "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇩🇪DE | vless | @ConfigsHUB | 18",
                 "🇮🇷IR | vmess | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🏳️XX | vmess | @Hope_Net | 13",
+                "🇨🇦CA | vmess | @Hope_Net | 12",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
@@ -257,7 +257,7 @@
                 "🇸🇪SE | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇨🇦CA | vmess | @nofiltering2 | 3",
-                "🇨🇦CA | vless | @proxy_mtm | 8",
+                "🇺🇸US | vless | @proxy_mtm | 8",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🏳️XX | ss | @kingofilter | 1",
                 "🇺🇸US | vless | @GozargahVPN | 14",
@@ -1480,11 +1480,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @sinabigo | 5",
+            "tag": "🇨🇦CA | vless | @sinabigo | 4",
             "type": "vless",
-            "server": "104.18.202.231",
-            "server_port": 80,
-            "uuid": "c8aa3dce-77b8-4cca-b313-89ce5c015137",
+            "server": "104.31.16.162",
+            "server_port": 2083,
+            "uuid": "ffffffff-17ad-45e7-aaa1-f2baaa08e930",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1492,11 +1492,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "watashi.free.jppublic.moh539.link",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Path\/Telegram@SINABIGO\/",
+                "path": "\/Telegram@SINABIGO\/",
                 "headers": {
-                    "Host": "104.18.202.231"
+                    "Host": "watashi.free.jppublic.moh539.link"
                 }
             }
         },
@@ -1532,12 +1542,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "172.66.213.38",
-            "server_port": 8443,
-            "uuid": "24------EVAY_VPN------",
-            "flow": "",
+            "server": "v62.rid2.tech",
+            "server_port": 53738,
+            "uuid": "d2dc05c9-9f41-4c4f-ab0f-c1e4e5dcaa1d",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1546,20 +1556,25 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "pop.loveiran01.com",
+                "server_name": "www.speedtest.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-dm1-4Eqpep-XzWg5h7KYrgsKADuNMN0FCAU1vrheH8",
+                    "short_id": "24424cdb"
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
-                "headers": {
-                    "Host": "pop.loveiran01.com"
-                }
+                "type": "grpc",
+                "service_name": "r",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1614,9 +1629,9 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 13",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 12",
             "type": "vmess",
-            "server": "megaan.homes",
+            "server": "zula.ir",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
@@ -1631,7 +1646,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "megaan.homes",
+                "server_name": "martina.quest",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1643,7 +1658,7 @@
                 "type": "ws",
                 "path": "\/linkvws",
                 "headers": {
-                    "Host": "megaan.homes"
+                    "Host": "martina.quest"
                 }
             }
         },
@@ -1982,7 +1997,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxy_mtm | 8",
+            "tag": "🇺🇸US | vless | @proxy_mtm | 8",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 443,
