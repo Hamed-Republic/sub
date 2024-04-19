@@ -148,7 +148,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 117",
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇩🇪DE | vless | @Outlinev2rayNG | 18",
@@ -217,7 +217,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 117",
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇩🇪DE | vless | @Outlinev2rayNG | 18",
@@ -1314,11 +1314,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "172.67.197.64",
-            "server_port": 443,
-            "uuid": "38a2070d-a256-48f3-891b-c9b68b01c8f7",
+            "server": "172.67.65.180",
+            "server_port": 8080,
+            "uuid": "aa2dc840-be38-4b4d-a002-ba234999fd55",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1326,21 +1326,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "folani.iiipok.WorkErS.dEv",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/jd.wxgqlfx.top:443\/?ed",
+                "path": "\/",
                 "headers": {
-                    "Host": "folani.iiipok.WorkErS.dEv"
+                    "Host": "cdn-allxn--b6gaceuorg.l4o117en.workers.dev"
                 }
             }
         },
