@@ -122,7 +122,7 @@
                 "🇹🇷TR | vless | @v2rayNG_Matsuri | 20",
                 "🇩🇪DE | vless | @VmessProtocol | 4",
                 "🇩🇪DE | vless | @VmessProtocol | 11",
-                "🇩🇪DE | vless | @DailyV2RY | 98",
+                "🇩🇪DE | vless | @ConfigsHUB | 5",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -180,7 +180,7 @@
                 "🇹🇷TR | vless | @v2rayNG_Matsuri | 20",
                 "🇩🇪DE | vless | @VmessProtocol | 4",
                 "🇩🇪DE | vless | @VmessProtocol | 11",
-                "🇩🇪DE | vless | @DailyV2RY | 98",
+                "🇩🇪DE | vless | @ConfigsHUB | 5",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -751,11 +751,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @DailyV2RY | 98",
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 5",
             "type": "vless",
-            "server": "www.morfin.bio",
-            "server_port": 443,
-            "uuid": "ItsLegendaryking",
+            "server": "64.226.86.225",
+            "server_port": 52589,
+            "uuid": "bc52b95c-1adf-42ed-fdb1-d73ab9db2601",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -765,7 +765,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "wordpress.org",
+                "server_name": "www.speedtest.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -774,16 +774,9 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "CPo_y1T_w2IAfg31IiKxtbOXwz9r5ETSTG_fXbPdukg",
-                    "short_id": "09a51424"
+                    "public_key": "PXljyYeN3wFaYzMeHC0AFEFIJqUrbNm5FuAuvvOYIHU",
+                    "short_id": "57a6cefb"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
