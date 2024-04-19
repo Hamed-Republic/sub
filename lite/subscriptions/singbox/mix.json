@@ -124,10 +124,10 @@
                 "🇸🇪SE | vless | @lightning6 | 21",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 26",
-                "🇨🇦CA | vless | @proxy_kafee | 10",
+                "🇨🇦CA | vless | @proxy_kafee | 8",
                 "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇨🇦CA | vless | @ProxyForOpeta | 3",
+                "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇸🇪SE | vless | @V2rayNGn | 13",
                 "🇫🇷FR | trojan | @PrivateVPNs | 19",
                 "🇮🇪IE | trojan | @DirectVPN | 19",
@@ -157,9 +157,10 @@
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇮🇳IN | ss | @OutlineVpnOfficial | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇳🇱NL | vmess | @Hope_Net | 13",
+                "🇹🇷TR | vmess | @Hope_Net | 14",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 19",
                 "🇸🇪SE | vless | @v2rayng_vpnrog | 7",
@@ -209,10 +210,10 @@
                 "🇸🇪SE | vless | @lightning6 | 21",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 26",
-                "🇨🇦CA | vless | @proxy_kafee | 10",
+                "🇨🇦CA | vless | @proxy_kafee | 8",
                 "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇨🇦CA | vless | @ProxyForOpeta | 3",
+                "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇸🇪SE | vless | @V2rayNGn | 13",
                 "🇫🇷FR | trojan | @PrivateVPNs | 19",
                 "🇮🇪IE | trojan | @DirectVPN | 19",
@@ -242,9 +243,10 @@
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇮🇳IN | ss | @OutlineVpnOfficial | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇳🇱NL | vmess | @Hope_Net | 13",
+                "🇹🇷TR | vmess | @Hope_Net | 14",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 19",
                 "🇸🇪SE | vless | @v2rayng_vpnrog | 7",
@@ -726,7 +728,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxy_kafee | 10",
+            "tag": "🇨🇦CA | vless | @proxy_kafee | 8",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 443,
@@ -819,7 +821,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ProxyForOpeta | 3",
+            "tag": "🇨🇦CA | vless | @ProxyForOpeta | 4",
             "type": "vless",
             "server": "www.visa.com",
             "server_port": 8080,
@@ -1534,6 +1536,37 @@
             "plugin_opts": ""
         },
         {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "104.21.202.139",
+            "server_port": 443,
+            "uuid": "780c8b60-b213-47d6-9962-390c0b99e979",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "NGINX-a.pages.DEV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "NGINX-a.pages.DEV"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @proxystore11 | 13",
             "type": "vless",
             "server": "172.67.218.147",
@@ -1589,11 +1622,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vmess | @Hope_Net | 13",
+            "tag": "🇹🇷TR | vmess | @Hope_Net | 14",
             "type": "vmess",
-            "server": "188.114.98.255",
-            "server_port": 80,
-            "uuid": "218b2320-f993-11ee-b737-205c6d5f5d78",
+            "server": "154.53.164.40",
+            "server_port": 54503,
+            "uuid": "a3ec8a6e-bd2d-43d7-f056-97042778e4ec",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1603,13 +1636,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "188.114.98.255"
-                }
             }
         },
         {
