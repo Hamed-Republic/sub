@@ -120,7 +120,6 @@
                 "🇨🇦CA | vless | @shh_proxy | 25",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
                 "🇨🇦CA | vless | @rxv2ray | 20",
-                "🇸🇪SE | vless | @free_v2rayyy | 9",
                 "🇸🇪SE | vless | @lightning6 | 20",
                 "🇨🇦CA | vless | @V2rayNGmat | 11",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -151,7 +150,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 104",
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
-                "🇺🇸US | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -195,7 +194,6 @@
                 "🇨🇦CA | vless | @shh_proxy | 25",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
                 "🇨🇦CA | vless | @rxv2ray | 20",
-                "🇸🇪SE | vless | @free_v2rayyy | 9",
                 "🇸🇪SE | vless | @lightning6 | 20",
                 "🇨🇦CA | vless | @V2rayNGmat | 11",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -226,7 +224,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 104",
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
-                "🇺🇸US | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -368,7 +366,7 @@
         {
             "tag": "🇮🇪IE | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "54.73.220.67",
+            "server": "34.245.243.223",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -615,27 +613,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "nl.RxV2ray.space"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @free_v2rayyy | 9",
-            "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 80,
-            "uuid": "96e11f1a-6823-434f-84a3-0f1d8e90e48b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram:@free_v2rayyy-Telegram:@free_v2rayyy-Telegram:@free_v2rayyy-Telegram:@free_v2rayyy-Telegram:@free_v2rayyy-Telegram:@free_v2rayyy",
-                "headers": {
-                    "Host": "185.146.173.59"
                 }
             }
         },
@@ -1396,11 +1373,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "tunnel.prsico.ir",
-            "server_port": 2083,
-            "uuid": "b14e6774-c983-42d0-abc8-02d13b10aff0",
+            "server": "104.17.42.10",
+            "server_port": 443,
+            "uuid": "664f5f11-1231-486d-b416-b7b3ecdae76a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1410,7 +1387,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "paris.prsico.ir",
+                "server_name": "HETZNER-D.pages.DEV",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1420,9 +1397,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/whois",
+                "path": "\/",
                 "headers": {
-                    "Host": "paris.prsico.ir"
+                    "Host": "HETZNER-D.pages.DEV"
                 }
             }
         },
