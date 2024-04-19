@@ -117,7 +117,7 @@
                 "🇨🇦CA | vless | @V2pedia | 53",
                 "🇨🇦CA | vless | @frev2ray | 6",
                 "🇸🇪SE | vless | @ARv2ray | 16",
-                "🇸🇪SE | vless | @shh_proxy | 27",
+                "🇸🇪SE | vless | @shh_proxy | 26",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
                 "🇨🇦CA | vless | @rxv2ray | 20",
                 "🇸🇪SE | vless | @free_v2rayyy | 5",
@@ -144,12 +144,12 @@
                 "🇸🇪SE | vless | @MsV2ray | 10",
                 "🇨🇦CA | vless | @v2ray1_ng | 9",
                 "🇨🇦CA | vless | @vless_vmess | 12",
-                "🇸🇪SE | vless | @V2RayTz | 14",
+                "🇷🇺RU | vless | @V2RayTz | 15",
                 "🇫🇮FI | vless | @VmessProtocol | 15",
                 "🇬🇧GB | vless | @DailyV2RY | 86",
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
-                "🇮🇷IR | vless | @ConfigsHUB | 7",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 19",
@@ -187,7 +187,7 @@
                 "🇨🇦CA | vless | @V2pedia | 53",
                 "🇨🇦CA | vless | @frev2ray | 6",
                 "🇸🇪SE | vless | @ARv2ray | 16",
-                "🇸🇪SE | vless | @shh_proxy | 27",
+                "🇸🇪SE | vless | @shh_proxy | 26",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
                 "🇨🇦CA | vless | @rxv2ray | 20",
                 "🇸🇪SE | vless | @free_v2rayyy | 5",
@@ -214,12 +214,12 @@
                 "🇸🇪SE | vless | @MsV2ray | 10",
                 "🇨🇦CA | vless | @v2ray1_ng | 9",
                 "🇨🇦CA | vless | @vless_vmess | 12",
-                "🇸🇪SE | vless | @V2RayTz | 14",
+                "🇷🇺RU | vless | @V2RayTz | 15",
                 "🇫🇮FI | vless | @VmessProtocol | 15",
                 "🇬🇧GB | vless | @DailyV2RY | 86",
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
-                "🇮🇷IR | vless | @ConfigsHUB | 7",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 19",
@@ -536,7 +536,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @shh_proxy | 27",
+            "tag": "🇸🇪SE | vless | @shh_proxy | 26",
             "type": "vless",
             "server": "185.146.173.59",
             "server_port": 80,
@@ -1256,11 +1256,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2RayTz | 14",
+            "tag": "🇷🇺RU | vless | @V2RayTz | 15",
             "type": "vless",
-            "server": "185.146.173.95",
-            "server_port": 8880,
-            "uuid": "3e557936-1eb2-4211-822f-7afd7885df87",
+            "server": "185.148.105.52",
+            "server_port": 80,
+            "uuid": "8121f877-ad2b-44c2-be98-4764ec09895c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1270,9 +1270,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@LIGHTNING6, @LIGHTNING6, @LIGHTNING6, @LIGHTNING6,@LIGHTNING6,@LIGHTNING6,@LIGHTNING6,@LIGHTNING6,@LIGHTNING6,@LIGHTNING6, @LIGHTNING6, @LIGHTNING6",
+                "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.95"
+                    "Host": "185.148.105.52"
                 }
             }
         },
@@ -1340,11 +1340,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @ConfigsHUB | 7",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "rxopu1289.q.rxteam.ir",
-            "server_port": 57081,
-            "uuid": "662ad6b6-b1df-4376-98bb-679aeb645352",
+            "server": "185.146.173.59",
+            "server_port": 80,
+            "uuid": "5dec7b76-6a15-44c3-cfed-2603f18f7cc6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1352,14 +1352,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "rxopu1289.q.rxteam.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
+                "headers": {
+                    "Host": "185.146.173.59"
                 }
             }
         },
