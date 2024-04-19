@@ -155,8 +155,8 @@
                 "🇸🇪SE | vless | @DailyV2RY | 117",
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
-                "🇫🇮FI | ss | @OutlineVpnOfficial | 17",
-                "🇨🇷CR | vless | @ConfigsHUB | 18",
+                "🇬🇧GB | ss | @OutlineVpnOfficial | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vmess | @Hope_Net | 4",
@@ -180,7 +180,7 @@
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇺🇸US | vless | @ROMAX_VPN | 5",
+                "🇨🇦CA | vless | @ROMAX_VPN | 5",
                 "🇸🇪SE | vless | @TVCminer | 16"
             ]
         },
@@ -237,8 +237,8 @@
                 "🇸🇪SE | vless | @DailyV2RY | 117",
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
-                "🇫🇮FI | ss | @OutlineVpnOfficial | 17",
-                "🇨🇷CR | vless | @ConfigsHUB | 18",
+                "🇬🇧GB | ss | @OutlineVpnOfficial | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vmess | @Hope_Net | 4",
@@ -262,7 +262,7 @@
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇺🇸US | vless | @ROMAX_VPN | 5",
+                "🇨🇦CA | vless | @ROMAX_VPN | 5",
                 "🇸🇪SE | vless | @TVCminer | 16"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -1517,27 +1517,44 @@
             }
         },
         {
-            "tag": "🇫🇮FI | ss | @OutlineVpnOfficial | 17",
+            "tag": "🇬🇧GB | ss | @OutlineVpnOfficial | 15",
             "type": "shadowsocks",
-            "server": "fl3.dart-vpn.com",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "X7eoEBrARWsBUiVfchVEdH",
+            "server": "51.195.149.115",
+            "server_port": 45816,
+            "method": "aes-256-gcm",
+            "password": "KkDzY101Oe",
             "plugin": "",
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇷CR | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "190.93.247.155",
-            "server_port": 443,
-            "uuid": "a6f13e20-3a0e-45eb-8fc8-d0b8f29bc211",
+            "server": "172.66.213.38",
+            "server_port": 8443,
+            "uuid": "30------EVAY_VPN------",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "pop.loveiran01.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
+                "headers": {
+                    "Host": "pop.loveiran01.com"
+                }
             }
         },
         {
@@ -2177,7 +2194,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @ROMAX_VPN | 5",
+            "tag": "🇨🇦CA | vless | @ROMAX_VPN | 5",
             "type": "vless",
             "server": "172.66.213.38",
             "server_port": 2082,
