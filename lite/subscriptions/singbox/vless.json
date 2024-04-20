@@ -136,7 +136,7 @@
                 "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 32",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 21",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 24",
                 "🇸🇪SE | vless | @v2rayngvpn | 15",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🏳️XX | vless | @ServerNett | 17",
@@ -151,7 +151,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 102",
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
-                "🇸🇪SE | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
@@ -212,7 +212,7 @@
                 "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 32",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 21",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 24",
                 "🇸🇪SE | vless | @v2rayngvpn | 15",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🏳️XX | vless | @ServerNett | 17",
@@ -227,7 +227,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 102",
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
-                "🇸🇪SE | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
@@ -1030,7 +1030,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 21",
+            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 24",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8443,
@@ -1391,11 +1391,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 17",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 80,
-            "uuid": "8d2d4598-bc43-4758-8e00-0e92b9abad33",
+            "server": "104.25.221.166",
+            "server_port": 443,
+            "uuid": "d9b3134e-007e-41e0-a146-8c53977e27f5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1403,11 +1403,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "academivpn1-bo7.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.59"
+                    "Host": "academivpn1-bo7.pages.dev"
                 }
             }
         },
