@@ -156,10 +156,10 @@
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 13",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇺🇸US | trojan | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇩🇪DE | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 6",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
@@ -179,7 +179,7 @@
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
                 "🇨🇦CA | vless | @SvnTeam | 37",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇳🇱NL | vless | @ROMAX_VPN | 2",
                 "🇳🇱NL | vless | @TIKTOK_PROXY | 1",
@@ -241,10 +241,10 @@
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 13",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇺🇸US | trojan | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇩🇪DE | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 6",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
@@ -264,7 +264,7 @@
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
                 "🇨🇦CA | vless | @SvnTeam | 37",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇳🇱NL | vless | @ROMAX_VPN | 2",
                 "🇳🇱NL | vless | @TIKTOK_PROXY | 1",
@@ -1528,13 +1528,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "104.31.16.162",
-            "server_port": 2083,
-            "uuid": "ffffffff-17ad-45e7-aaa1-f2baaa08e930",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇺🇸US | trojan | @ConfigsHUB | 18",
+            "type": "trojan",
+            "server": "us.blazeppn.info",
+            "server_port": 443,
+            "password": "xxoo",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1542,19 +1540,12 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "watashi.free.jppublic.moh539.link",
+                "server_name": "telewebion.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-channel-proxy_mtm\/",
-                "headers": {
-                    "Host": "watashi.free.jppublic.moh539.link"
                 }
             }
         },
@@ -1614,11 +1605,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
+            "tag": "🇩🇪DE | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "205.234.233.22",
-            "server_port": 5129,
-            "uuid": "2e504818-e2e2-4183-eb75-0d1175a947de",
+            "server": "199.247.3.99",
+            "server_port": 2548,
+            "uuid": "b1dc771f-6f4c-471c-daeb-a704713bb2dd",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -2164,7 +2155,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2FETCH | 2",
+            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
