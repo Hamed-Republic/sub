@@ -125,6 +125,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇨🇦CA | vless | @proxy_kafee | 12",
                 "🇸🇪SE | vless | @v2logy | 11",
+                "🇳🇱NL | vless | @azadi_az_inja_migzare | 1",
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 12",
                 "🇳🇱NL | vless | @Outline_Vpn | 18",
@@ -150,7 +151,7 @@
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
-                "🇺🇸US | vless | @v2rayng_config_amin | 7",
+                "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇷🇺RU | vless | @Capoit | 8",
                 "🇩🇪DE | vless | @FreakConfig | 4",
@@ -195,6 +196,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇨🇦CA | vless | @proxy_kafee | 12",
                 "🇸🇪SE | vless | @v2logy | 11",
+                "🇳🇱NL | vless | @azadi_az_inja_migzare | 1",
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 12",
                 "🇳🇱NL | vless | @Outline_Vpn | 18",
@@ -220,7 +222,7 @@
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
-                "🇺🇸US | vless | @v2rayng_config_amin | 7",
+                "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇷🇺RU | vless | @Capoit | 8",
                 "🇩🇪DE | vless | @FreakConfig | 4",
@@ -723,6 +725,37 @@
                 "path": "\/JOIN-ZEDMODEON-@ZEDMODEON",
                 "headers": {
                     "Host": "join-zedmodeon.kanal-asli-zedmodeon.shop."
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vless | @azadi_az_inja_migzare | 1",
+            "type": "vless",
+            "server": "188.114.99.99",
+            "server_port": 443,
+            "uuid": "a4e893cd-f8fc-4438-a239-abb9f25f5507",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Let-Her-Cook.segaro.tech",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/pool.ntp",
+                "headers": {
+                    "Host": "Let-Her-Cook.segaro.tech"
                 }
             }
         },
@@ -1243,7 +1276,7 @@
             "type": "vless",
             "server": "185.146.173.59",
             "server_port": 80,
-            "uuid": "-----DIGIV2RAY",
+            "uuid": "e6cfb781-74e0-45d0-b3d0-00622f012ea8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1253,7 +1286,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Digiv2ray-",
+                "path": "\/?ed=2053",
                 "headers": {
                     "Host": "185.146.173.59"
                 }
@@ -1415,7 +1448,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @v2rayng_config_amin | 7",
+            "tag": "🇨🇦CA | vless | @v2rayng_config_amin | 7",
             "type": "vless",
             "server": "mtn--join.outline-vpn.cloud",
             "server_port": 443,
