@@ -107,7 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇨🇦CA | vless | @EliV2ray | 18",
-                "🇨🇦CA | vless | @Parsashonam | 9",
+                "🇨🇦CA | vless | @Parsashonam | 11",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 15",
                 "🇸🇪SE | vless | @VlessConfig | 19",
@@ -148,7 +148,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 6",
@@ -179,7 +179,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇨🇦CA | vless | @EliV2ray | 18",
-                "🇨🇦CA | vless | @Parsashonam | 9",
+                "🇨🇦CA | vless | @Parsashonam | 11",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 15",
                 "🇸🇪SE | vless | @VlessConfig | 19",
@@ -220,7 +220,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 6",
@@ -297,7 +297,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Parsashonam | 9",
+            "tag": "🇨🇦CA | vless | @Parsashonam | 11",
             "type": "vless",
             "server": "www.visa.com",
             "server_port": 8080,
@@ -1317,11 +1317,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
             "server": "www.speedtest.net",
-            "server_port": 8443,
-            "uuid": "25d0ee2d-4190-52be-b892-45811c6ba210",
+            "server_port": 8080,
+            "uuid": "%50a%72sa%73%68%6fna%6d-48",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1329,21 +1329,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "folani.iiipok.WOrKeRs.DEV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/vless-ws\/",
+                "path": "\/?Telegram:@Archive_Android,Telegram:@Archive_Android,Telegram:@Archive_Android,Telegram:@Archive_Android,Telegram:@Archive_Android,Telegram:@Archive_Android,Telegram:@Archive_Android,Telegram:@Archive_Android",
                 "headers": {
-                    "Host": "folani.iiipok.WOrKeRs.DEV"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
