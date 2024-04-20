@@ -131,6 +131,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 13",
                 "🇸🇪SE | vless | @Outline_Vpn | 18",
+                "🇮🇷IR | vless | @prrofile_purple | 195",
                 "🇨🇦CA | vless | @customv2ray | 12",
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
                 "🇨🇦CA | vless | @vmessorg | 32",
@@ -149,7 +150,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 108",
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 6",
-                "🇨🇦CA | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 7",
@@ -166,7 +167,7 @@
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
                 "🇨🇦CA | vless | @SvnTeam | 40",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇳🇱NL | vless | @ROMAX_VPN | 2",
                 "🇳🇱NL | vless | @TIKTOK_PROXY | 1",
@@ -203,6 +204,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 13",
                 "🇸🇪SE | vless | @Outline_Vpn | 18",
+                "🇮🇷IR | vless | @prrofile_purple | 195",
                 "🇨🇦CA | vless | @customv2ray | 12",
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
                 "🇨🇦CA | vless | @vmessorg | 32",
@@ -221,7 +223,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 108",
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 6",
-                "🇨🇦CA | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 7",
@@ -238,7 +240,7 @@
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
                 "🇨🇦CA | vless | @SvnTeam | 40",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇳🇱NL | vless | @ROMAX_VPN | 2",
                 "🇳🇱NL | vless | @TIKTOK_PROXY | 1",
@@ -900,6 +902,27 @@
             }
         },
         {
+            "tag": "🇮🇷IR | vless | @prrofile_purple | 195",
+            "type": "vless",
+            "server": "188.212.97.47",
+            "server_port": 4002,
+            "uuid": "58820474-3eef-42e4-9c13-44f3efcaedd1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "188.212.97.47"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @customv2ray | 12",
             "type": "vless",
             "server": "speedtest.org",
@@ -1349,7 +1372,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 443,
@@ -1373,7 +1396,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-proxy_mtm\/",
+                "path": "\/Telegram-FreeVirGoolNet\/",
                 "headers": {
                     "Host": "academivpn1-bo7.pages.dev"
                 }
@@ -1832,7 +1855,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
+            "tag": "🇺🇸US | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
