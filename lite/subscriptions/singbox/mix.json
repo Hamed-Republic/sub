@@ -158,7 +158,7 @@
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 11",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🏳️XX | vmess | @Hope_Net | 19",
@@ -245,7 +245,7 @@
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 11",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🏳️XX | vmess | @Hope_Net | 19",
@@ -402,7 +402,7 @@
         {
             "tag": "🇸🇪SE | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "13.53.89.194",
+            "server": "13.53.32.209",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -961,7 +961,7 @@
         {
             "tag": "🇸🇪SE | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "13.50.3.236",
+            "server": "13.48.201.209",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1000,9 +1000,9 @@
         {
             "tag": "🇨🇳CN | vmess | @mftizi | 19",
             "type": "vmess",
-            "server": "data-jp-v1.usabooks.com.cn",
-            "server_port": 20301,
-            "uuid": "b1478e24-4916-3abe-8f17-15931012ecbe",
+            "server": "hkjcdn03.dorabbb.top",
+            "server_port": 44805,
+            "uuid": "1528295e-c497-43ac-a08d-c040662b9344",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1012,13 +1012,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/debian",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
@@ -1594,11 +1587,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "104.25.221.166",
+            "server": "www.speedtest.net",
             "server_port": 443,
-            "uuid": "d9b3134e-007e-41e0-a146-8c53977e27f5",
+            "uuid": "25d0ee2d-4190-52be-b892-45811c6ba210",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1608,7 +1601,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "academivpn1-bo7.pages.dev",
+                "server_name": "folani.iiipok.WOrkERS.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1618,9 +1611,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/vless-ws\/",
                 "headers": {
-                    "Host": "academivpn1-bo7.pages.dev"
+                    "Host": "folani.iiipok.WOrkERS.dev"
                 }
             }
         },
