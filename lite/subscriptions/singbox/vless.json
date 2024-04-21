@@ -143,7 +143,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇨🇦CA | vless | @DailyV2RY | 127",
                 "🇨🇦CA | vless | @sinabigo | 3",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇭CH | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 9",
                 "🇨🇦CA | vless | @fnet00 | 0",
                 "🇨🇦CA | vless | @polproxy | 5",
@@ -212,7 +212,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇨🇦CA | vless | @DailyV2RY | 127",
                 "🇨🇦CA | vless | @sinabigo | 3",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇭CH | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 9",
                 "🇨🇦CA | vless | @fnet00 | 0",
                 "🇨🇦CA | vless | @polproxy | 5",
@@ -1206,11 +1206,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇭CH | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "www.ZuLa.ir",
-            "server_port": 2096,
-            "uuid": "8721355e-96d5-4bb9-a99b-b6119d6b1cd4",
+            "server": "5.196.128.84",
+            "server_port": 2082,
+            "uuid": "ab3dd97c-e98a-4264-be90-613b9b0c30b8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1218,21 +1218,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "S3lBNf04KTPltic8C1EfLqq73QtMKz7zlYH9qRC0U6GM8x174e8w8DSLaK.Pages.DeV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-proxy_mtm\/",
+                "path": "\/",
                 "headers": {
-                    "Host": "S3lBNf04KTPltic8C1EfLqq73QtMKz7zlYH9qRC0U6GM8x174e8w8DSLaK.Pages.DeV"
+                    "Host": "5.196.128.84"
                 }
             }
         },

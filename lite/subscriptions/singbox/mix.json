@@ -151,10 +151,10 @@
                 "🇨🇦CA | vless | @DailyV2RY | 127",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇭CH | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇯🇵JP | vmess | @Hope_Net | 19",
+                "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @fnet00 | 0",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
@@ -233,10 +233,10 @@
                 "🇨🇦CA | vless | @DailyV2RY | 127",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇭CH | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇯🇵JP | vmess | @Hope_Net | 19",
+                "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @fnet00 | 0",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
@@ -1422,11 +1422,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇭CH | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "www.ZuLa.ir",
-            "server_port": 2096,
-            "uuid": "8721355e-96d5-4bb9-a99b-b6119d6b1cd4",
+            "server": "5.196.128.84",
+            "server_port": 2082,
+            "uuid": "ab3dd97c-e98a-4264-be90-613b9b0c30b8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1434,21 +1434,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "S3lBNf04KTPltic8C1EfLqq73QtMKz7zlYH9qRC0U6GM8x174e8w8DSLaK.Pages.DeV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-proxy_mtm\/",
+                "path": "\/",
                 "headers": {
-                    "Host": "S3lBNf04KTPltic8C1EfLqq73QtMKz7zlYH9qRC0U6GM8x174e8w8DSLaK.Pages.DeV"
+                    "Host": "5.196.128.84"
                 }
             }
         },
@@ -1518,11 +1508,11 @@
             }
         },
         {
-            "tag": "🇯🇵JP | vmess | @Hope_Net | 19",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "152.69.197.60",
-            "server_port": 1069,
-            "uuid": "ac8e26fe-8150-4b60-ae64-82fc77eba2cf",
+            "server": "172.64.80.1",
+            "server_port": 2095,
+            "uuid": "0eb4c78e-c7fa-4c08-9306-aab80db9fb9f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1532,6 +1522,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/video.cgi",
+                "headers": {
+                    "Host": "172.64.80.1"
+                }
             }
         },
         {
