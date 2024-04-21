@@ -165,7 +165,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇵🇱PL | vmess | @v2Line | 10",
                 "🇷🇺RU | vless | @Capoit | 13",
-                "🇨🇦CA | vless | @FreakConfig | 5",
+                "🇺🇸US | vless | @FreakConfig | 5",
                 "🇮🇷IR | vless | @IRN_VPN | 0",
                 "🇨🇦CA | vless | @flyv2ray | 15",
                 "🇸🇪SE | vless | @mehrosaboran | 5",
@@ -247,7 +247,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇵🇱PL | vmess | @v2Line | 10",
                 "🇷🇺RU | vless | @Capoit | 13",
-                "🇨🇦CA | vless | @FreakConfig | 5",
+                "🇺🇸US | vless | @FreakConfig | 5",
                 "🇮🇷IR | vless | @IRN_VPN | 0",
                 "🇨🇦CA | vless | @flyv2ray | 15",
                 "🇸🇪SE | vless | @mehrosaboran | 5",
@@ -1389,9 +1389,9 @@
         {
             "tag": "🇨🇦CA | vless | @vless_vmess | 13",
             "type": "vless",
-            "server": "104.17.42.10",
-            "server_port": 443,
-            "uuid": "664f5f11-1231-486d-b416-b7b3ecdae76a",
+            "server": "172.67.163.123",
+            "server_port": 8080,
+            "uuid": "5e287656-5005-4c1d-b803-b781ac46d700",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1399,21 +1399,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "HETZNER-D.pages.DEV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/SvnTeam-VipConfig-net",
                 "headers": {
-                    "Host": "HETZNER-D.pages.DEV"
+                    "Host": "172.67.163.123"
                 }
             }
         },
@@ -1810,7 +1800,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 5",
+            "tag": "🇺🇸US | vless | @FreakConfig | 5",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 443,
