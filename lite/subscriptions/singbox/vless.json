@@ -137,9 +137,9 @@
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 7",
-                "🇸🇪SE | vless | @proxyymeliii | 17",
+                "🇸🇪SE | vless | @proxyymeliii | 16",
                 "🇸🇪SE | vless | @MsV2ray | 13",
-                "🇨🇦CA | vless | @v2ray1_ng | 6",
+                "🇨🇦CA | vless | @v2ray1_ng | 12",
                 "🇨🇦CA | vless | @vless_vmess | 13",
                 "🇸🇪SE | vless | @V2RayTz | 9",
                 "🇩🇪DE | vless | @VmessProtocol | 16",
@@ -208,9 +208,9 @@
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 7",
-                "🇸🇪SE | vless | @proxyymeliii | 17",
+                "🇸🇪SE | vless | @proxyymeliii | 16",
                 "🇸🇪SE | vless | @MsV2ray | 13",
-                "🇨🇦CA | vless | @v2ray1_ng | 6",
+                "🇨🇦CA | vless | @v2ray1_ng | 12",
                 "🇨🇦CA | vless | @vless_vmess | 13",
                 "🇸🇪SE | vless | @V2RayTz | 9",
                 "🇩🇪DE | vless | @VmessProtocol | 16",
@@ -1051,11 +1051,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @proxyymeliii | 17",
+            "tag": "🇸🇪SE | vless | @proxyymeliii | 16",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.filj.top",
             "server_port": 8880,
-            "uuid": "cacb4210-2dbf-4cde-9610-114fd3ba6d7d",
+            "uuid": "10a2e26b-dabe-4638-aec7-28f82394ca54",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1093,11 +1093,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray1_ng | 6",
+            "tag": "🇨🇦CA | vless | @v2ray1_ng | 12",
             "type": "vless",
-            "server": "visa.com",
-            "server_port": 2096,
-            "uuid": "13732170-05c7-4bd6-acd6-9ed74b4d1c1b",
+            "server": "discord.gg",
+            "server_port": 80,
+            "uuid": "cb87def4-e2fd-4da1-a2ec-57ff2120fd9b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1105,21 +1105,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "kanal-falcunargo-rmarat.falcunar.asso.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed",
+                "path": "\/",
                 "headers": {
-                    "Host": "kanal-falcunargo-rmarat.falcunar.asso.eu.org"
+                    "Host": "discord.gg"
                 }
             }
         },
