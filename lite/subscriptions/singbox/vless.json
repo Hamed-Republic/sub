@@ -119,7 +119,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
                 "🇨🇦CA | vless | @rxv2ray | 20",
                 "🇸🇪SE | vless | @free_v2rayyy | 7",
-                "🇸🇪SE | vless | @lightning6 | 15",
+                "🇸🇪SE | vless | @lightning6 | 14",
                 "🇨🇦CA | vless | @V2rayNGmat | 11",
                 "🇩🇪DE | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -132,7 +132,7 @@
                 "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇨🇦CA | vless | @prrofile_purple | 194",
                 "🇨🇦CA | vless | @customv2ray | 12",
-                "🇨🇦CA | vless | @UnlimitedDev | 16",
+                "🇨🇦CA | vless | @UnlimitedDev | 14",
                 "🇨🇦CA | vless | @vmessorg | 34",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 23",
                 "🇨🇦CA | vless | @v2rayngvpn | 15",
@@ -142,7 +142,6 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 9",
                 "🇸🇪SE | vless | @proxyymeliii | 15",
-                "🇸🇪SE | vless | @MsV2ray | 15",
                 "🇨🇦CA | vless | @v2ray1_ng | 20",
                 "🇨🇦CA | vless | @vless_vmess | 11",
                 "🇸🇪SE | vless | @V2RayTz | 19",
@@ -188,7 +187,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
                 "🇨🇦CA | vless | @rxv2ray | 20",
                 "🇸🇪SE | vless | @free_v2rayyy | 7",
-                "🇸🇪SE | vless | @lightning6 | 15",
+                "🇸🇪SE | vless | @lightning6 | 14",
                 "🇨🇦CA | vless | @V2rayNGmat | 11",
                 "🇩🇪DE | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -201,7 +200,7 @@
                 "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇨🇦CA | vless | @prrofile_purple | 194",
                 "🇨🇦CA | vless | @customv2ray | 12",
-                "🇨🇦CA | vless | @UnlimitedDev | 16",
+                "🇨🇦CA | vless | @UnlimitedDev | 14",
                 "🇨🇦CA | vless | @vmessorg | 34",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 23",
                 "🇨🇦CA | vless | @v2rayngvpn | 15",
@@ -211,7 +210,6 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 9",
                 "🇸🇪SE | vless | @proxyymeliii | 15",
-                "🇸🇪SE | vless | @MsV2ray | 15",
                 "🇨🇦CA | vless | @v2ray1_ng | 20",
                 "🇨🇦CA | vless | @vless_vmess | 11",
                 "🇸🇪SE | vless | @V2RayTz | 19",
@@ -576,11 +574,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @lightning6 | 15",
+            "tag": "🇸🇪SE | vless | @lightning6 | 14",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.filj.top",
-            "server_port": 8080,
-            "uuid": "79af0f95-3c36-4517-a6c0-97dca5299142",
+            "server_port": 8880,
+            "uuid": "0a2bd287-7839-48ee-9206-de93eb951a1a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -927,11 +925,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @UnlimitedDev | 16",
+            "tag": "🇨🇦CA | vless | @UnlimitedDev | 14",
             "type": "vless",
             "server": "bia-to.unlimiteddev.motorcycles.",
             "server_port": 80,
-            "uuid": "2021653d-536c-4ebd-b8b0-44ea932803d7",
+            "uuid": "e7519e3a-f12c-45ab-9cbb-ee263d5868dc",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1193,27 +1191,6 @@
                 "path": "\/@LIGHTNING6, @LIGHTNING6",
                 "headers": {
                     "Host": "LIGHTNING6-joinbede.filj.top"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @MsV2ray | 15",
-            "type": "vless",
-            "server": "Back.MsV2ray.online",
-            "server_port": 80,
-            "uuid": "MsV2ray-MsV2ray-MsV2ray-",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/MsV2ray-MsV2ray-MsV2ray-MsV2ray",
-                "headers": {
-                    "Host": "Back.MsV2ray.online"
                 }
             }
         },
