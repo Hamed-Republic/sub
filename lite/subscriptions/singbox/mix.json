@@ -133,14 +133,14 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 15",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
+                "🇬🇧GB | trojan | @oneclickvpnkeys | 10",
                 "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇨🇦CA | vless | @prrofile_purple | 192",
-                "🇨🇦CA | vless | @customv2ray | 15",
+                "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 14",
                 "🇨🇦CA | vless | @vmessorg | 29",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 20",
-                "🇨🇦CA | vless | @v2rayngvpn | 16",
+                "🇨🇦CA | vless | @v2rayngvpn | 15",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇺🇸US | vmess | @ShadowProxy66 | 5",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
@@ -215,14 +215,14 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 15",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
+                "🇬🇧GB | trojan | @oneclickvpnkeys | 10",
                 "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇨🇦CA | vless | @prrofile_purple | 192",
-                "🇨🇦CA | vless | @customv2ray | 15",
+                "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 14",
                 "🇨🇦CA | vless | @vmessorg | 29",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 20",
-                "🇨🇦CA | vless | @v2rayngvpn | 16",
+                "🇨🇦CA | vless | @v2rayngvpn | 15",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇺🇸US | vmess | @ShadowProxy66 | 5",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
@@ -930,16 +930,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
-            "type": "vmess",
-            "server": "172.67.207.26",
-            "server_port": 443,
-            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇬🇧GB | trojan | @oneclickvpnkeys | 10",
+            "type": "trojan",
+            "server": "uk01.freeflyingcloud.xyz",
+            "server_port": 22252,
+            "password": "0d5b3d65-e71e-4235-bf68-ea753ad87cc2",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -947,19 +942,12 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "glweidf.sbs",
+                "server_name": "uk01.freeflyingcloud.xyz",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "glweidf.sbs"
                 }
             }
         },
@@ -1016,11 +1004,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @customv2ray | 15",
+            "tag": "🇨🇦CA | vless | @customv2ray | 9",
             "type": "vless",
-            "server": "172.66.45.20",
-            "server_port": 443,
-            "uuid": "02e9d15c-530b-441e-a90e-7fff4f249ff0",
+            "server": "104.18.37.228",
+            "server_port": 8080,
+            "uuid": "49715d61-c947-4e11-ae05-9848c5f2100c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1028,21 +1016,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "6ebebefa.ali321.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/melov2ray",
                 "headers": {
-                    "Host": "6ebebefa.ali321.pages.dev"
+                    "Host": "104.18.37.228"
                 }
             }
         },
@@ -1120,11 +1098,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayngvpn | 16",
+            "tag": "🇨🇦CA | vless | @v2rayngvpn | 15",
             "type": "vless",
-            "server": "172.66.213.38",
-            "server_port": 2052,
-            "uuid": "65b8f6d3-f347-48d4-bfff-bac8e5bf5d1d",
+            "server": "172.66.47.125",
+            "server_port": 443,
+            "uuid": "79473718-0451-41c3-a0a2-9f6d21c99f75",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1132,11 +1110,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "9052b030.joinmahdiserver-90p.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/t.me-DarkVPNpro-t.me-DarkVPNpro-t.me-DarkVPNpro-t.me-DarkVPNpro-t.me-DarkVPNpro-t.me-DarkVPNpro-t.me-DarkVPNpro-t.me-DarkVPNpro-t.me-DarkVPNpro-t.me-DarkVPNpro-t.me-DarkVPNpro-t.me-DarkVPNpro-t.me-DarkVPNpro-t.me-DarkVPNpro-t.me-DarkVPNpro-t.me-DarkVPNpro",
+                "path": "\/",
                 "headers": {
-                    "Host": "172.66.213.38"
+                    "Host": "9052b030.joinmahdiserver-90p.pages.dev"
                 }
             }
         },
