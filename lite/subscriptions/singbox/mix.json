@@ -124,7 +124,7 @@
                 "🇩🇪DE | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
-                "🇸🇪SE | vless | @proxy_kafee | 10",
+                "🇮🇷IR | vless | @proxy_kafee | 7",
                 "🇬🇧GB | vmess | @azadi_az_inja_migzare | 0",
                 "🇸🇪SE | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 18",
@@ -146,7 +146,7 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 11",
                 "🇸🇪SE | vless | @proxyymeliii | 18",
                 "🇸🇪SE | vless | @MsV2ray | 17",
-                "🇨🇦CA | vmess | @v2ray1_ng | 18",
+                "🇨🇦CA | vless | @v2ray1_ng | 19",
                 "🇨🇦CA | vless | @vless_vmess | 14",
                 "🏳️XX | vless | @V2RayTz | 15",
                 "🇺🇸US | vless | @DailyV2RY | 156",
@@ -205,7 +205,7 @@
                 "🇩🇪DE | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
-                "🇸🇪SE | vless | @proxy_kafee | 10",
+                "🇮🇷IR | vless | @proxy_kafee | 7",
                 "🇬🇧GB | vmess | @azadi_az_inja_migzare | 0",
                 "🇸🇪SE | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 18",
@@ -227,7 +227,7 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 11",
                 "🇸🇪SE | vless | @proxyymeliii | 18",
                 "🇸🇪SE | vless | @MsV2ray | 17",
-                "🇨🇦CA | vmess | @v2ray1_ng | 18",
+                "🇨🇦CA | vless | @v2ray1_ng | 19",
                 "🇨🇦CA | vless | @vless_vmess | 14",
                 "🏳️XX | vless | @V2RayTz | 15",
                 "🇺🇸US | vless | @DailyV2RY | 156",
@@ -736,24 +736,17 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @proxy_kafee | 10",
+            "tag": "🇮🇷IR | vless | @proxy_kafee | 7",
             "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 80,
-            "uuid": "Telegram-ipV2Ray-oud",
+            "server": "ir078.v2netservice.uk",
+            "server_port": 8080,
+            "uuid": "be6f0e61-5bf1-49cc-9083-4314957ea07a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-ipV2Ray",
-                "headers": {
-                    "Host": "185.146.173.59"
-                }
             }
         },
         {
@@ -1260,16 +1253,13 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @v2ray1_ng | 18",
-            "type": "vmess",
-            "server": "104.21.15.212",
-            "server_port": 443,
-            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @v2ray1_ng | 19",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2087,
+            "uuid": "0843fd03-f2d1-455a-bdb7-6463a3c0a136",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1277,7 +1267,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "glweidf.sbs",
+                "server_name": "kinghooman.vpnboy.cloud",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1287,9 +1277,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/",
                 "headers": {
-                    "Host": "glweidf.sbs"
+                    "Host": "kinghooman.vpnboy.cloud"
                 }
             }
         },
