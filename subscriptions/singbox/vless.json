@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @EliV2ray | 0",
+                "🇺🇸US | vless | @EliV2ray | 0",
                 "🇸🇪SE | vless | @EliV2ray | 1",
                 "🇸🇪SE | vless | @EliV2ray | 2",
                 "🇷🇺RU | vless | @EliV2ray | 3",
@@ -436,6 +436,7 @@
                 "🇸🇪SE | vless | @proxyymeliii | 13",
                 "🇸🇪SE | vless | @proxyymeliii | 15",
                 "🇸🇪SE | vless | @proxyymeliii | 16",
+                "🇸🇪SE | vless | @proxyymeliii | 17",
                 "🇸🇪SE | vless | @MsV2ray | 5",
                 "🇸🇪SE | vless | @MsV2ray | 6",
                 "🇸🇪SE | vless | @MsV2ray | 8",
@@ -631,7 +632,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @EliV2ray | 0",
+                "🇺🇸US | vless | @EliV2ray | 0",
                 "🇸🇪SE | vless | @EliV2ray | 1",
                 "🇸🇪SE | vless | @EliV2ray | 2",
                 "🇷🇺RU | vless | @EliV2ray | 3",
@@ -961,6 +962,7 @@
                 "🇸🇪SE | vless | @proxyymeliii | 13",
                 "🇸🇪SE | vless | @proxyymeliii | 15",
                 "🇸🇪SE | vless | @proxyymeliii | 16",
+                "🇸🇪SE | vless | @proxyymeliii | 17",
                 "🇸🇪SE | vless | @MsV2ray | 5",
                 "🇸🇪SE | vless | @MsV2ray | 6",
                 "🇸🇪SE | vless | @MsV2ray | 8",
@@ -1172,7 +1174,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | @EliV2ray | 0",
+            "tag": "🇺🇸US | vless | @EliV2ray | 0",
             "type": "vless",
             "server": "www.you.com",
             "server_port": 443,
@@ -9418,6 +9420,27 @@
             "transport": {
                 "type": "ws",
                 "path": "\/@LIGHTNING6, @LIGHTNING6, @LIGHTNING6, @LIGHTNING6",
+                "headers": {
+                    "Host": "LIGHTNING6-joinbede.filj.top"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @proxyymeliii | 17",
+            "type": "vless",
+            "server": "LIGHTNING6-joinbede.filj.top",
+            "server_port": 8880,
+            "uuid": "dadc9927-28d1-4506-bf13-c1392bddd6db",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@LIGHTNING6, @LIGHTNING6",
                 "headers": {
                     "Host": "LIGHTNING6-joinbede.filj.top"
                 }
