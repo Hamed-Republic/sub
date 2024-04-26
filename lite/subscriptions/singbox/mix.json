@@ -155,7 +155,7 @@
                 "🇨🇦CA | vless | @lrnbymaa | 20",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇩🇪DE | vmess | @Hope_Net | 19",
+                "🇭🇰HK | vmess | @Hope_Net | 19",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 19",
                 "🇸🇪SE | vless | @v2rayng_vpnrog | 9",
@@ -233,7 +233,7 @@
                 "🇨🇦CA | vless | @lrnbymaa | 20",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇩🇪DE | vmess | @Hope_Net | 19",
+                "🇭🇰HK | vmess | @Hope_Net | 19",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 19",
                 "🇸🇪SE | vless | @v2rayng_vpnrog | 9",
@@ -1507,11 +1507,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @Hope_Net | 19",
+            "tag": "🇭🇰HK | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "199.247.3.99",
-            "server_port": 2635,
-            "uuid": "efc57cff-bc4b-42e3-ff01-942f81037a43",
+            "server": "47.242.22.171",
+            "server_port": 28681,
+            "uuid": "3b1072ce-d096-46c2-a3e7-08b4f58538f5",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1521,6 +1521,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
