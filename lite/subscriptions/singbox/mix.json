@@ -110,7 +110,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 20",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 16",
-                "🇬🇧GB | vless | @VlessConfig | 19",
+                "🇮🇪IE | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 25",
                 "🇸🇪SE | vless | @ipV2Ray | 13",
                 "🇨🇦CA | vless | @melov2ray | 10",
@@ -158,14 +158,14 @@
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @fnet00 | 1",
-                "🇸🇪SE | vless | @polproxy | 7",
+                "🇨🇦CA | vless | @polproxy | 7",
                 "🇸🇪SE | vless | @v2rayng_vpnrog | 9",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇨🇦CA | vless | @flyv2ray | 24",
-                "🇨🇳CN | vless | @mehrosaboran | 12",
+                "🇸🇪SE | vless | @mehrosaboran | 14",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇮🇷IR | vmess | @nofiltering2 | 1",
                 "🇨🇦CA | vless | @proxy_mtm | 3",
@@ -190,7 +190,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 20",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 16",
-                "🇬🇧GB | vless | @VlessConfig | 19",
+                "🇮🇪IE | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 25",
                 "🇸🇪SE | vless | @ipV2Ray | 13",
                 "🇨🇦CA | vless | @melov2ray | 10",
@@ -238,14 +238,14 @@
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @fnet00 | 1",
-                "🇸🇪SE | vless | @polproxy | 7",
+                "🇨🇦CA | vless | @polproxy | 7",
                 "🇸🇪SE | vless | @v2rayng_vpnrog | 9",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇨🇦CA | vless | @flyv2ray | 24",
-                "🇨🇳CN | vless | @mehrosaboran | 12",
+                "🇸🇪SE | vless | @mehrosaboran | 14",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇮🇷IR | vmess | @nofiltering2 | 1",
                 "🇨🇦CA | vless | @proxy_mtm | 3",
@@ -396,9 +396,9 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @VlessConfig | 19",
+            "tag": "🇮🇪IE | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "13.42.253.128",
+            "server": "34.240.81.160",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -868,7 +868,7 @@
         {
             "tag": "🇬🇧GB | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "18.171.71.57",
+            "server": "3.11.96.120",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -1375,9 +1375,9 @@
         {
             "tag": "🇸🇪SE | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "185.146.173.95",
-            "server_port": 8880,
-            "uuid": "c58f045f-02e2-448c-af36-f6fbc62aba85",
+            "server": "185.146.173.59",
+            "server_port": 80,
+            "uuid": "Telegram-ipV2Ray-uia",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1387,9 +1387,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@LIGHTNING6, @LIGHTNING6, @LIGHTNING6, @LIGHTNING6,@LIGHTNING6,@LIGHTNING6,@LIGHTNING6,@LIGHTNING6",
+                "path": "\/Telegram-ipV2Ray?Telegram=@V2RayTz,@V2RayTz",
                 "headers": {
-                    "Host": "185.146.173.95"
+                    "Host": "185.146.173.59"
                 }
             }
         },
@@ -1621,11 +1621,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @polproxy | 7",
+            "tag": "🇨🇦CA | vless | @polproxy | 7",
             "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 80,
-            "uuid": "c67f8314-0d2a-4814-832a-e5365ba28248",
+            "server": "check-host.net",
+            "server_port": 2087,
+            "uuid": "89a9412c-b310-470d-ad72-233b11524bcd",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1633,12 +1633,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/polproxy",
-                "headers": {
-                    "Host": "185.146.173.59"
+            "tls": {
+                "enabled": true,
+                "server_name": "nazanfilternaknlashii.bluemoien.space",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1819,11 +1829,11 @@
             }
         },
         {
-            "tag": "🇨🇳CN | vless | @mehrosaboran | 12",
+            "tag": "🇸🇪SE | vless | @mehrosaboran | 14",
             "type": "vless",
-            "server": "103.184.44.89",
-            "server_port": 8880,
-            "uuid": "5795e1cb-a420-43ac-98df-61328394395c",
+            "server": "185.146.173.95",
+            "server_port": 80,
+            "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1833,9 +1843,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@LIGHTNING6, @LIGHTNING6, @LIGHTNING6, @LIGHTNING6,@LIGHTNING6,@LIGHTNING6,@LIGHTNING6,@LIGHTNING6",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
-                    "Host": "103.184.44.89"
+                    "Host": "185.146.173.95"
                 }
             }
         },
