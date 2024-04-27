@@ -110,7 +110,6 @@
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 14",
                 "🇫🇷FR | vless | @VlessConfig | 19",
-                "🇸🇪SE | vless | @VPNCUSTOMIZE | 25",
                 "🇸🇪SE | vless | @ipV2Ray | 13",
                 "🇨🇦CA | vless | @melov2ray | 10",
                 "🇨🇦CA | vless | @V2pedia | 55",
@@ -119,7 +118,7 @@
                 "🇸🇪SE | vless | @shh_proxy | 28",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
                 "🇨🇦CA | vless | @rxv2ray | 20",
-                "🇸🇪SE | vless | @free_v2rayyy | 10",
+                "🇸🇪SE | vless | @free_v2rayyy | 11",
                 "🇸🇪SE | vless | @lightning6 | 13",
                 "🇨🇦CA | vless | @V2rayNGmat | 3",
                 "🇩🇪DE | vless | @vpn_xw | 2",
@@ -169,7 +168,7 @@
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇨🇦CA | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 2",
-                "🇸🇪SE | vless | @flyv2ray | 28",
+                "🇸🇪SE | vless | @flyv2ray | 27",
                 "🇨🇳CN | vless | @mehrosaboran | 4",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇮🇷IR | vmess | @nofiltering2 | 1",
@@ -181,7 +180,7 @@
                 "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
-                "🇺🇸US | vless | @TIKTOK_PROXY | 0",
+                "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 20",
                 "🇵🇱PL | vless | @raze_vpn | 6"
             ]
@@ -194,7 +193,6 @@
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 14",
                 "🇫🇷FR | vless | @VlessConfig | 19",
-                "🇸🇪SE | vless | @VPNCUSTOMIZE | 25",
                 "🇸🇪SE | vless | @ipV2Ray | 13",
                 "🇨🇦CA | vless | @melov2ray | 10",
                 "🇨🇦CA | vless | @V2pedia | 55",
@@ -203,7 +201,7 @@
                 "🇸🇪SE | vless | @shh_proxy | 28",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
                 "🇨🇦CA | vless | @rxv2ray | 20",
-                "🇸🇪SE | vless | @free_v2rayyy | 10",
+                "🇸🇪SE | vless | @free_v2rayyy | 11",
                 "🇸🇪SE | vless | @lightning6 | 13",
                 "🇨🇦CA | vless | @V2rayNGmat | 3",
                 "🇩🇪DE | vless | @vpn_xw | 2",
@@ -253,7 +251,7 @@
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇨🇦CA | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 2",
-                "🇸🇪SE | vless | @flyv2ray | 28",
+                "🇸🇪SE | vless | @flyv2ray | 27",
                 "🇨🇳CN | vless | @mehrosaboran | 4",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇮🇷IR | vmess | @nofiltering2 | 1",
@@ -265,7 +263,7 @@
                 "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
-                "🇺🇸US | vless | @TIKTOK_PROXY | 0",
+                "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 20",
                 "🇵🇱PL | vless | @raze_vpn | 6"
             ],
@@ -390,27 +388,6 @@
                 "path": "\/telegram-channel-vlessconfig-ws",
                 "headers": {
                     "Host": "telegram-channel-vlessconfig.sohala.uk"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @VPNCUSTOMIZE | 25",
-            "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 2095,
-            "uuid": "VPNCUSTOMiZE",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "185.146.173.59"
                 }
             }
         },
@@ -616,7 +593,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @free_v2rayyy | 10",
+            "tag": "🇸🇪SE | vless | @free_v2rayyy | 11",
             "type": "vless",
             "server": "185.146.173.59",
             "server_port": 80,
@@ -641,7 +618,7 @@
             "type": "vless",
             "server": "LIGHTNING6-joinbede.filj.top",
             "server_port": 8880,
-            "uuid": "c58f045f-02e2-448c-af36-f6fbc62aba85",
+            "uuid": "9f5467eb-d3dd-4630-b02d-51884a79738b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1460,9 +1437,9 @@
         {
             "tag": "🇨🇦CA | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "104.18.12.130",
-            "server_port": 8080,
-            "uuid": "Parsashonam-57",
+            "server": "104.21.69.44",
+            "server_port": 2095,
+            "uuid": "814e8286-de57-49a5-980a-4cfe8da4e976",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1474,7 +1451,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "104.18.12.130"
+                    "Host": "104.21.69.44"
                 }
             }
         },
@@ -1883,11 +1860,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @flyv2ray | 28",
+            "tag": "🇸🇪SE | vless | @flyv2ray | 27",
             "type": "vless",
             "server": "185.146.173.59",
             "server_port": 80,
-            "uuid": "Telegram-ipV2Ray-tsv",
+            "uuid": "42df4e24-8bd8-450b-9e7a-04dfb075faa3",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1897,7 +1874,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-ipV2Ray",
+                "path": "\/",
                 "headers": {
                     "Host": "185.146.173.59"
                 }
@@ -2167,7 +2144,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @TIKTOK_PROXY | 0",
+            "tag": "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
             "type": "vless",
             "server": "104.21.40.63",
             "server_port": 443,
