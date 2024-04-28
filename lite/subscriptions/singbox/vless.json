@@ -129,7 +129,7 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 20",
                 "🇸🇪SE | vless | @ProxyForOpeta | 1",
                 "🇫🇷FR | vless | @V2rayNGn | 22",
-                "🇮🇷IR | vless | @Outline_Vpn | 17",
+                "🇸🇪SE | vless | @Outline_Vpn | 17",
                 "🇨🇦CA | vless | @prrofile_purple | 191",
                 "🇨🇦CA | vless | @customv2ray | 7",
                 "🇨🇦CA | vless | @UnlimitedDev | 14",
@@ -151,20 +151,20 @@
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 7",
-                "🇮🇷IR | vless | @Outlinev2rayNG | 18",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 18",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 9",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 11",
                 "🇸🇪SE | vless | @flyv2ray | 25",
-                "🇺🇸US | vless | @mehrosaboran | 9",
+                "🇳🇱NL | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vless | @kingofilter | 6",
                 "🇺🇸US | vless | @GozargahVPN | 16",
                 "🇸🇪SE | vless | @SvnTeam | 31",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 20",
@@ -198,7 +198,7 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 20",
                 "🇸🇪SE | vless | @ProxyForOpeta | 1",
                 "🇫🇷FR | vless | @V2rayNGn | 22",
-                "🇮🇷IR | vless | @Outline_Vpn | 17",
+                "🇸🇪SE | vless | @Outline_Vpn | 17",
                 "🇨🇦CA | vless | @prrofile_purple | 191",
                 "🇨🇦CA | vless | @customv2ray | 7",
                 "🇨🇦CA | vless | @UnlimitedDev | 14",
@@ -220,20 +220,20 @@
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 7",
-                "🇮🇷IR | vless | @Outlinev2rayNG | 18",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 18",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 9",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 11",
                 "🇸🇪SE | vless | @flyv2ray | 25",
-                "🇺🇸US | vless | @mehrosaboran | 9",
+                "🇳🇱NL | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vless | @kingofilter | 6",
                 "🇺🇸US | vless | @GozargahVPN | 16",
                 "🇸🇪SE | vless | @SvnTeam | 31",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 20",
@@ -847,11 +847,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @Outline_Vpn | 17",
+            "tag": "🇸🇪SE | vless | @Outline_Vpn | 17",
             "type": "vless",
-            "server": "85.133.237.132",
-            "server_port": 57081,
-            "uuid": "662ad6b6-b1df-4376-98bb-679aeb645352",
+            "server": "185.146.173.59",
+            "server_port": 8080,
+            "uuid": "e0e98e56-57e2-44a5-b79d-1d84fee416ae",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -859,14 +859,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "rxopu1289.q.rxteam.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "185.146.173.59"
                 }
             }
         },
@@ -1416,17 +1413,24 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @Outlinev2rayNG | 18",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 18",
             "type": "vless",
-            "server": "217.60.249.101",
+            "server": "zula.ir",
             "server_port": 2095,
-            "uuid": "2a4bfe79-b301-c477-a6a7-8929023b1e91",
+            "uuid": "0757ab97-5f10-408e-9d4a-d68811cdf864",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "zula.ir"
+                }
             }
         },
         {
@@ -1563,7 +1567,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @mehrosaboran | 9",
+            "tag": "🇳🇱NL | vless | @mehrosaboran | 9",
             "type": "vless",
             "server": "188.114.98.224",
             "server_port": 8880,
@@ -1768,7 +1772,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2FETCH | 2",
+            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
