@@ -145,7 +145,7 @@
                 "🇸🇪SE | vless | @MsV2ray | 14",
                 "🇳🇱NL | vless | @vless_vmess | 12",
                 "🇸🇪SE | vless | @V2RayTz | 16",
-                "🇩🇪DE | vless | @DailyV2RY | 147",
+                "🇨🇦CA | vless | @DailyV2RY | 139",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
                 "🏳️XX | vless | @proxystore11 | 3",
@@ -215,7 +215,7 @@
                 "🇸🇪SE | vless | @MsV2ray | 14",
                 "🇳🇱NL | vless | @vless_vmess | 12",
                 "🇸🇪SE | vless | @V2RayTz | 16",
-                "🇩🇪DE | vless | @DailyV2RY | 147",
+                "🇨🇦CA | vless | @DailyV2RY | 139",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
                 "🏳️XX | vless | @proxystore11 | 3",
@@ -1266,17 +1266,24 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @DailyV2RY | 147",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 139",
             "type": "vless",
-            "server": "bo2.bia2bax.shop",
-            "server_port": 51202,
-            "uuid": "ff5fbc2f-d272-4799-bcc8-c02e3b0e5589",
+            "server": "104.17.169.114",
+            "server_port": 80,
+            "uuid": "07464341-d0d4-4561-9740-3328bca9fc57",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev-Telegram:@UnlimitedDev",
+                "headers": {
+                    "Host": "104.17.169.114"
+                }
             }
         },
         {
