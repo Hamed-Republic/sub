@@ -143,7 +143,7 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 18",
                 "🇺🇸US | vless | @v2rayngvpn | 13",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
-                "🇨🇦CA | vless | @ShadowProxy66 | 12",
+                "🇨🇦CA | vless | @ShadowProxy66 | 6",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 19",
                 "🇮🇷IR | vmess | @proxyymeliii | 18",
@@ -155,10 +155,10 @@
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 17",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇰🇷KR | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 19",
+                "🇸🇪SE | vless | @Outlinev2rayNG | 19",
                 "🇸🇪SE | vless | @v2rayng_vpnrog | 6",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -225,7 +225,7 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 18",
                 "🇺🇸US | vless | @v2rayngvpn | 13",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
-                "🇨🇦CA | vless | @ShadowProxy66 | 12",
+                "🇨🇦CA | vless | @ShadowProxy66 | 6",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 19",
                 "🇮🇷IR | vmess | @proxyymeliii | 18",
@@ -237,10 +237,10 @@
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 17",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇰🇷KR | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 19",
+                "🇸🇪SE | vless | @Outlinev2rayNG | 19",
                 "🇸🇪SE | vless | @v2rayng_vpnrog | 6",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -1193,11 +1193,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ShadowProxy66 | 12",
+            "tag": "🇨🇦CA | vless | @ShadowProxy66 | 6",
             "type": "vless",
-            "server": "104.21.237.55",
-            "server_port": 2053,
-            "uuid": "e95d51c4-b8aa-464e-9524-89f3655ed33a",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "c0cf878e-08b3-4e10-b055-b334da6a6f71",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1205,21 +1205,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "x.cr0047.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/vless-ws\/",
+                "path": "\/",
                 "headers": {
-                    "Host": "x.cr0047.workers.dev"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
@@ -1510,11 +1500,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
+            "tag": "🇰🇷KR | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "149.28.228.215",
-            "server_port": 22195,
-            "uuid": "f865bc43-b129-443e-d00a-7d303b25c4a2",
+            "server": "64.110.82.226",
+            "server_port": 58186,
+            "uuid": "3fdf9d48-578a-42dc-9fdd-0dfcefa3d0c5",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1524,6 +1514,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -1572,11 +1569,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 19",
+            "tag": "🇸🇪SE | vless | @Outlinev2rayNG | 19",
             "type": "vless",
-            "server": "172.66.47.89",
-            "server_port": 443,
-            "uuid": "c0b3afcf-b7a1-44c5-a552-bb1329304b7f",
+            "server": "join-VPNCUSTOMIZE.V2ray.motorcycles.",
+            "server_port": 2095,
+            "uuid": "Join--VPNCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1584,21 +1581,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "pardazeshvpn-tg5.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/VPNCUSTOMIZE?ed=1024",
                 "headers": {
-                    "Host": "pardazeshvpn-tg5.pages.dev"
+                    "Host": "join-VPNCUSTOMIZE.V2ray.motorcycles."
                 }
             }
         },
@@ -1772,9 +1759,9 @@
         {
             "tag": "🇸🇪SE | vless | @flyv2ray | 18",
             "type": "vless",
-            "server": "185.146.173.32",
+            "server": "join-VPNCUSTOMIZE.V2ray.motorcycles.",
             "server_port": 2095,
-            "uuid": "1ad8e077-56fe-47aa-98ad-4d6d72b5f51d",
+            "uuid": "4a4494eb-0340-40c4-ba4e-7a07c16a0a59",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1784,9 +1771,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/VPNCUSTOMIZE?ed=1024",
                 "headers": {
-                    "Host": "185.146.173.32"
+                    "Host": "join-VPNCUSTOMIZE.V2ray.motorcycles."
                 }
             }
         },
