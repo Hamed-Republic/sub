@@ -142,7 +142,7 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 21",
                 "🇸🇪SE | vless | @MsV2ray | 8",
                 "🇺🇸US | vless | @v2ray1_ng | 4",
-                "🇨🇦CA | vless | @vless_vmess | 9",
+                "🇸🇪SE | vless | @vless_vmess | 8",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🏳️XX | vless | @proxystore11 | 3",
@@ -210,7 +210,7 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 21",
                 "🇸🇪SE | vless | @MsV2ray | 8",
                 "🇺🇸US | vless | @v2ray1_ng | 4",
-                "🇨🇦CA | vless | @vless_vmess | 9",
+                "🇸🇪SE | vless | @vless_vmess | 8",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🏳️XX | vless | @proxystore11 | 3",
@@ -1178,11 +1178,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vless_vmess | 9",
+            "tag": "🇸🇪SE | vless | @vless_vmess | 8",
             "type": "vless",
-            "server": "104.24.95.58",
-            "server_port": 2096,
-            "uuid": "7b0cd783-4d2a-4d4a-a1bb-66a98e3a85cb",
+            "server": "185.146.173.59",
+            "server_port": 80,
+            "uuid": "a49672ff-8770-4fdb-b4bd-f0394d7f5e82",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1190,21 +1190,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "0a6b0c0a.expressvpnfree021-4j0.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "0a6b0c0a.expressvpnfree021-4j0.pages.dev"
+                    "Host": "185.146.173.59"
                 }
             }
         },
