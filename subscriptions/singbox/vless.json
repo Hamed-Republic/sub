@@ -107,7 +107,6 @@
             "outbounds": [
                 "URL-TEST",
                 "🇨🇦CA | vless | @EliV2ray | 0",
-                "🇨🇦CA | vless | @EliV2ray | 2",
                 "🇨🇦CA | vless | @EliV2ray | 4",
                 "🇨🇦CA | vless | @EliV2ray | 5",
                 "🇨🇦CA | vless | @Parsashonam | 0",
@@ -175,8 +174,8 @@
                 "🇩🇪DE | vless | @melov2ray | 2",
                 "🇺🇸US | vless | @melov2ray | 3",
                 "🇨🇦CA | vless | @melov2ray | 4",
-                "🇨🇦CA | vless | @melov2ray | 6",
-                "🇨🇦CA | vless | @melov2ray | 7",
+                "🇺🇸US | vless | @melov2ray | 6",
+                "🇺🇸US | vless | @melov2ray | 7",
                 "🇺🇸US | vless | @melov2ray | 9",
                 "🇺🇸US | vless | @melov2ray | 10",
                 "🇺🇸US | vless | @V2pedia | 42",
@@ -192,7 +191,7 @@
                 "🇨🇦CA | vless | @frev2ray | 0",
                 "🇧🇿BZ | vless | @frev2ray | 1",
                 "🇸🇪SE | vless | @frev2ray | 3",
-                "🇬🇧GB | vless | @frev2ray | 7",
+                "🏳️XX | vless | @frev2ray | 7",
                 "🇺🇸US | vless | @frev2ray | 8",
                 "🇸🇪SE | vless | @ARv2ray | 5",
                 "🇸🇪SE | vless | @ARv2ray | 6",
@@ -620,7 +619,6 @@
             "type": "urltest",
             "outbounds": [
                 "🇨🇦CA | vless | @EliV2ray | 0",
-                "🇨🇦CA | vless | @EliV2ray | 2",
                 "🇨🇦CA | vless | @EliV2ray | 4",
                 "🇨🇦CA | vless | @EliV2ray | 5",
                 "🇨🇦CA | vless | @Parsashonam | 0",
@@ -688,8 +686,8 @@
                 "🇩🇪DE | vless | @melov2ray | 2",
                 "🇺🇸US | vless | @melov2ray | 3",
                 "🇨🇦CA | vless | @melov2ray | 4",
-                "🇨🇦CA | vless | @melov2ray | 6",
-                "🇨🇦CA | vless | @melov2ray | 7",
+                "🇺🇸US | vless | @melov2ray | 6",
+                "🇺🇸US | vless | @melov2ray | 7",
                 "🇺🇸US | vless | @melov2ray | 9",
                 "🇺🇸US | vless | @melov2ray | 10",
                 "🇺🇸US | vless | @V2pedia | 42",
@@ -705,7 +703,7 @@
                 "🇨🇦CA | vless | @frev2ray | 0",
                 "🇧🇿BZ | vless | @frev2ray | 1",
                 "🇸🇪SE | vless | @frev2ray | 3",
-                "🇬🇧GB | vless | @frev2ray | 7",
+                "🏳️XX | vless | @frev2ray | 7",
                 "🇺🇸US | vless | @frev2ray | 8",
                 "🇸🇪SE | vless | @ARv2ray | 5",
                 "🇸🇪SE | vless | @ARv2ray | 6",
@@ -1163,27 +1161,6 @@
             "transport": {
                 "type": "ws",
                 "path": "\/telegram-@EliV2ray,telegram-@EliV2ray,telegram-@EliV2ray,telegram-@EliV2ray?ed=80",
-                "headers": {
-                    "Host": "172.66.213.38"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @EliV2ray | 2",
-            "type": "vless",
-            "server": "172.66.213.38",
-            "server_port": 80,
-            "uuid": "159eebd7-209e-48cc-b652-43060c7ef5ec",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-@EliV2ray,telegram-@EliV2ray,telegram-@EliV2ray,telegram-@EliV2ray?ed=80security=none",
                 "headers": {
                     "Host": "172.66.213.38"
                 }
@@ -2882,7 +2859,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 6",
+            "tag": "🇺🇸US | vless | @melov2ray | 6",
             "type": "vless",
             "server": "chat.openai.com",
             "server_port": 8080,
@@ -2903,7 +2880,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 7",
+            "tag": "🇺🇸US | vless | @melov2ray | 7",
             "type": "vless",
             "server": "help.melov2ray.shop",
             "server_port": 443,
@@ -3344,7 +3321,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @frev2ray | 7",
+            "tag": "🏳️XX | vless | @frev2ray | 7",
             "type": "vless",
             "server": "kalafmobile.varzon-pc3.GAMErme.IR",
             "server_port": 443,
