@@ -135,11 +135,11 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 29",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 18",
-                "🇨🇦CA | vless | @v2rayngvpn | 15",
+                "🇨🇦CA | vless | @v2rayngvpn | 14",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ShadowProxy66 | 12",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 20",
+                "🇨🇦CA | vless | @v2ray_swhil | 19",
                 "🇸🇪SE | vless | @proxyymeliii | 19",
                 "🇸🇪SE | vless | @MsV2ray | 8",
                 "🇨🇦CA | vless | @v2ray1_ng | 5",
@@ -164,9 +164,9 @@
                 "🇸🇪SE | vless | @SvnTeam | 33",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 2",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇺🇸US | vless | @TIKTOK_PROXY | 0",
+                "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 21",
                 "🇵🇱PL | vless | @raze_vpn | 7"
             ]
@@ -204,11 +204,11 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 29",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 18",
-                "🇨🇦CA | vless | @v2rayngvpn | 15",
+                "🇨🇦CA | vless | @v2rayngvpn | 14",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ShadowProxy66 | 12",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 20",
+                "🇨🇦CA | vless | @v2ray_swhil | 19",
                 "🇸🇪SE | vless | @proxyymeliii | 19",
                 "🇸🇪SE | vless | @MsV2ray | 8",
                 "🇨🇦CA | vless | @v2ray1_ng | 5",
@@ -233,9 +233,9 @@
                 "🇸🇪SE | vless | @SvnTeam | 33",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 2",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇺🇸US | vless | @TIKTOK_PROXY | 0",
+                "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 21",
                 "🇵🇱PL | vless | @raze_vpn | 7"
             ],
@@ -983,11 +983,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayngvpn | 15",
+            "tag": "🇨🇦CA | vless | @v2rayngvpn | 14",
             "type": "vless",
-            "server": "104.31.16.50",
+            "server": "172.67.156.210",
             "server_port": 443,
-            "uuid": "739aef27-7cf4-4457-839c-449e707d64ea",
+            "uuid": "66dfb5f2-1c63-4d82-94a7-0915bedd93b9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -997,7 +997,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "sqvsjpkqkfw5lgfvcznq.digikala.network",
+                "server_name": "knocked.aurorainiceland.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1007,9 +1007,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/12979\/Digi-Atl",
+                "path": "\/nimws?ed=@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi",
                 "headers": {
-                    "Host": "sqvsjpkqkfw5lgfvcznq.digikala.network"
+                    "Host": "knocked.aurorainiceland.com"
                 }
             }
         },
@@ -1107,11 +1107,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray_swhil | 20",
+            "tag": "🇨🇦CA | vless | @v2ray_swhil | 19",
             "type": "vless",
-            "server": "172.64.229.28",
-            "server_port": 8443,
-            "uuid": "86cb9a9b-dc2e-45d6-b35d-7ce1daa32a15",
+            "server": "discord.gg",
+            "server_port": 80,
+            "uuid": "cb87def4-e2fd-4da1-a2ec-57ff2120fd9b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1119,21 +1119,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "dns68.shift.cloudns.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/Path\/Telegram@V2ray_Alpha\/",
+                "path": "\/",
                 "headers": {
-                    "Host": "dns68.shift.cloudns.org"
+                    "Host": "discord.gg"
                 }
             }
         },
@@ -1781,7 +1771,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
+            "tag": "🇺🇸US | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
@@ -1826,7 +1816,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @TIKTOK_PROXY | 0",
+            "tag": "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
             "type": "vless",
             "server": "104.21.40.63",
             "server_port": 443,
