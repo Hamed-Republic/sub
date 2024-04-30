@@ -110,7 +110,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 17",
                 "🇨🇦CA | vless | @v2_team | 5",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 11",
-                "🇮🇪IE | vless | @VlessConfig | 19",
+                "🇺🇸US | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 11",
                 "🇨🇦CA | vless | @V2pedia | 60",
@@ -130,10 +130,9 @@
                 "🏳️XX | vless | @ProxyForOpeta | 2",
                 "🇫🇷FR | vless | @V2rayNGn | 26",
                 "🇸🇪SE | trojan | @PrivateVPNs | 19",
-                "🇬🇧GB | trojan | @DirectVPN | 19",
+                "🇮🇪IE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🏳️XX | vmess | @oneclickvpnkeys | 5",
                 "🇨🇦CA | vless | @Outline_Vpn | 16",
                 "🇸🇪SE | vless | @prrofile_purple | 180",
@@ -191,7 +190,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 17",
                 "🇨🇦CA | vless | @v2_team | 5",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 11",
-                "🇮🇪IE | vless | @VlessConfig | 19",
+                "🇺🇸US | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 11",
                 "🇨🇦CA | vless | @V2pedia | 60",
@@ -211,10 +210,9 @@
                 "🏳️XX | vless | @ProxyForOpeta | 2",
                 "🇫🇷FR | vless | @V2rayNGn | 26",
                 "🇸🇪SE | trojan | @PrivateVPNs | 19",
-                "🇬🇧GB | trojan | @DirectVPN | 19",
+                "🇮🇪IE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🏳️XX | vmess | @oneclickvpnkeys | 5",
                 "🇨🇦CA | vless | @Outline_Vpn | 16",
                 "🇸🇪SE | vless | @prrofile_purple | 180",
@@ -378,9 +376,9 @@
             }
         },
         {
-            "tag": "🇮🇪IE | vless | @VlessConfig | 19",
+            "tag": "🇺🇸US | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "52.17.42.190",
+            "server": "44.222.0.22",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -774,7 +772,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 443,
-            "uuid": "6b6f3be5-aa91-41ed-acba-2391b8b0bb31",
+            "uuid": "9348a023-9a1e-434b-93f5-fe4fd1d06e0c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -784,7 +782,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "armandooliver.pages.dev",
+                "server_name": "drossawethkingdom.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -796,7 +794,7 @@
                 "type": "ws",
                 "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "armandooliver.pages.dev"
+                    "Host": "drossawethkingdom.pages.dev"
                 }
             }
         },
@@ -841,7 +839,7 @@
         {
             "tag": "🇸🇪SE | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "16.170.51.229",
+            "server": "51.21.96.143",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -861,9 +859,9 @@
             }
         },
         {
-            "tag": "🇬🇧GB | trojan | @DirectVPN | 19",
+            "tag": "🇮🇪IE | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "13.41.145.206",
+            "server": "52.209.73.90",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -920,30 +918,6 @@
                 "path": "\/db00",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
-            "type": "vmess",
-            "server": "118ejob.ir",
-            "server_port": 80,
-            "uuid": "7ee48bb4-08de-4132-8e23-c7696b1ed6c2",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess",
-                "headers": {
-                    "Host": "118ejob.ir"
                 }
             }
         },
@@ -1224,9 +1198,9 @@
         {
             "tag": "🇨🇦CA | vless | @v2ray_swhil | 21",
             "type": "vless",
-            "server": "172.64.229.28",
-            "server_port": 8443,
-            "uuid": "86cb9a9b-dc2e-45d6-b35d-7ce1daa32a15",
+            "server": "discord.gg",
+            "server_port": 80,
+            "uuid": "cb87def4-e2fd-4da1-a2ec-57ff2120fd9b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1234,21 +1208,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "dns68.shift.cloudns.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/Path\/Telegram@V2ray_Alpha\/",
+                "path": "\/",
                 "headers": {
-                    "Host": "dns68.shift.cloudns.org"
+                    "Host": "discord.gg"
                 }
             }
         },
