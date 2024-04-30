@@ -135,7 +135,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 17",
                 "🇨🇦CA | vless | @vmessorg | 26",
                 "🇺🇸US | vless | @v2rayngvpn | 13",
-                "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
+                "🇩🇪DE | vless | @FalconPolV2rayNG | 0",
                 "🇨🇦CA | vless | @ShadowProxy66 | 6",
                 "🇨🇦CA | vless | @ServerNett | 18",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
@@ -155,7 +155,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 2",
-                "🇸🇪SE | vless | @flyv2ray | 18",
+                "🇨🇦CA | vless | @flyv2ray | 18",
                 "🇸🇪SE | vless | @mehrosaboran | 4",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇨🇦CA | vless | @proxy_mtm | 6",
@@ -204,7 +204,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 17",
                 "🇨🇦CA | vless | @vmessorg | 26",
                 "🇺🇸US | vless | @v2rayngvpn | 13",
-                "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
+                "🇩🇪DE | vless | @FalconPolV2rayNG | 0",
                 "🇨🇦CA | vless | @ShadowProxy66 | 6",
                 "🇨🇦CA | vless | @ServerNett | 18",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
@@ -224,7 +224,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 2",
-                "🇸🇪SE | vless | @flyv2ray | 18",
+                "🇨🇦CA | vless | @flyv2ray | 18",
                 "🇸🇪SE | vless | @mehrosaboran | 4",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇨🇦CA | vless | @proxy_mtm | 6",
@@ -971,11 +971,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
+            "tag": "🇩🇪DE | vless | @FalconPolV2rayNG | 0",
             "type": "vless",
-            "server": "Www.ZULA.iR",
-            "server_port": 8443,
-            "uuid": "8721355e-96d5-4bb9-a99b-b6119d6b1cd4",
+            "server": "154.197.75.80",
+            "server_port": 80,
+            "uuid": "23867814-e6ff-433f-8ffe-b0786f3789e7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -983,21 +983,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "uD2kp0fx53e15EHUFNo2LJ7mHRsDgTYET8xzmA7tXh40tR606ogTx280VN.PaGEs.dEv",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/Path\/Telegram@V2ray_Alpha\/",
+                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev-Telegram:@UnlimitedDev",
                 "headers": {
-                    "Host": "uD2kp0fx53e15EHUFNo2LJ7mHRsDgTYET8xzmA7tXh40tR606ogTx280VN.PaGEs.dEv"
+                    "Host": "154.197.75.80"
                 }
             }
         },
@@ -1509,11 +1499,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @flyv2ray | 18",
+            "tag": "🇨🇦CA | vless | @flyv2ray | 18",
             "type": "vless",
-            "server": "join-VPNCUSTOMIZE.V2ray.motorcycles.",
-            "server_port": 2095,
-            "uuid": "VPNCUSTOMIZE",
+            "server": "zula.ir",
+            "server_port": 8080,
+            "uuid": "dccdb83c-dd89-4a81-8a0d-72f53dd8b188",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1523,9 +1513,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/VPNCUSTOMIZE?ed=1024",
+                "path": "\/t.me\/V2rayFa-V2rayng-v2rayNgfree-telegram-t.me\/V2rayfa_telegram",
                 "headers": {
-                    "Host": "join-VPNCUSTOMIZE.V2ray.motorcycles."
+                    "Host": "zula.ir"
                 }
             }
         },
