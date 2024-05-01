@@ -158,7 +158,7 @@
                 "🇨🇦CA | vless | @proxystore11 | 2",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇺🇸US | vmess | @Hope_Net | 18",
+                "🇮🇷IR | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 14",
@@ -176,7 +176,7 @@
                 "🇸🇪SE | vless | @SvnTeam | 33",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
@@ -240,7 +240,7 @@
                 "🇨🇦CA | vless | @proxystore11 | 2",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇺🇸US | vmess | @Hope_Net | 18",
+                "🇮🇷IR | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 14",
@@ -258,7 +258,7 @@
                 "🇸🇪SE | vless | @SvnTeam | 33",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
@@ -1529,11 +1529,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 18",
+            "tag": "🇮🇷IR | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "172.67.174.92",
-            "server_port": 2053,
-            "uuid": "f8d2fd33-ab8e-4004-f97d-10dde80af010",
+            "server": "217.60.247.88",
+            "server_port": 20161,
+            "uuid": "da1fcb09-9a4c-4741-af0f-b1546034bf6c",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1543,23 +1543,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "qin14.rong1104.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/qin14",
-                "headers": {
-                    "Host": "qin14.rong1104.uk"
-                }
             }
         },
         {
@@ -2009,7 +1992,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
+            "tag": "🇺🇸US | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
