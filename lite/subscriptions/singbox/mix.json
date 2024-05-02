@@ -154,6 +154,7 @@
                 "🇨🇦CA | vless | @proxystore11 | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
+                "🇮🇳IN | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇨🇦CA | vless | @polproxy | 6",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -233,6 +234,7 @@
                 "🇨🇦CA | vless | @proxystore11 | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
+                "🇮🇳IN | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇨🇦CA | vless | @polproxy | 6",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -1463,6 +1465,30 @@
                 "path": "\/JAR0HGBT6mwTVcbf?ed=2560",
                 "headers": {
                     "Host": "bIA-paIn-bacHE.PAGeS.DEv"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇳IN | vmess | @Hope_Net | 19",
+            "type": "vmess",
+            "server": "13.201.236.209",
+            "server_port": 53837,
+            "uuid": "252b7ece-80eb-4c7b-93f4-cb0166e53325",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
