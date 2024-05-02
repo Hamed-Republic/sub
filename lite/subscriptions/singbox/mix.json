@@ -152,7 +152,7 @@
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇫🇷FR | vmess | @Hope_Net | 19",
+                "🇬🇧GB | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
@@ -168,10 +168,10 @@
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇬🇧GB | ss | @proxy_mtm | 12",
                 "🏳️XX | vless | @vpn_go67 | 23",
-                "🇨🇦CA | vless | @kingofilter | 5",
+                "🏳️XX | vless | @kingofilter | 8",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
@@ -229,7 +229,7 @@
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇫🇷FR | vmess | @Hope_Net | 19",
+                "🇬🇧GB | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
@@ -245,10 +245,10 @@
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇬🇧GB | ss | @proxy_mtm | 12",
                 "🏳️XX | vless | @vpn_go67 | 23",
-                "🇨🇦CA | vless | @kingofilter | 5",
+                "🏳️XX | vless | @kingofilter | 8",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
@@ -1421,11 +1421,11 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vmess | @Hope_Net | 19",
+            "tag": "🇬🇧GB | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "162.19.25.207",
-            "server_port": 44513,
-            "uuid": "4552bdb6-e008-43ac-926d-c6c6c5a6fc76",
+            "server": "154.62.185.2",
+            "server_port": 18134,
+            "uuid": "0da00a40-7dc6-413f-f8dd-6ed42dd50c06",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1829,11 +1829,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @kingofilter | 5",
+            "tag": "🏳️XX | vless | @kingofilter | 8",
             "type": "vless",
-            "server": "divide.footballlovernews.com",
-            "server_port": 443,
-            "uuid": "d15f5947-f95c-4cc4-b8e0-20219e4bc2d1",
+            "server": "Iran.poloo.ir",
+            "server_port": 2052,
+            "uuid": "c1ce4c07-4e02-4475-82ad-944c474d7519",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1841,21 +1841,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "divide.footballlovernews.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/divide",
+                "path": "\/",
                 "headers": {
-                    "Host": "divide.footballlovernews.com"
+                    "Host": "Iran.poloo.ir"
                 }
             }
         },
@@ -1910,7 +1900,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
+            "tag": "🇺🇸US | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
