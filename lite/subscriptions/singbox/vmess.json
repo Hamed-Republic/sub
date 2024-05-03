@@ -108,12 +108,12 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇬🇧GB | vmess | @oneclickvpnkeys | 7",
+                "🇳🇱NL | vmess | @oneclickvpnkeys | 7",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 26",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 19",
-                "🇨🇦CA | vmess | @v2Line | 7",
-                "🇨🇦CA | vmess | @FAKEOFTVC | 0",
+                "🇺🇸US | vmess | @v2Line | 7",
+                "🇺🇸US | vmess | @FAKEOFTVC | 0",
                 "🏳️XX | vmess | @ROMAX_VPN | 1"
             ]
         },
@@ -123,12 +123,12 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇬🇧GB | vmess | @oneclickvpnkeys | 7",
+                "🇳🇱NL | vmess | @oneclickvpnkeys | 7",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 26",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 19",
-                "🇨🇦CA | vmess | @v2Line | 7",
-                "🇨🇦CA | vmess | @FAKEOFTVC | 0",
+                "🇺🇸US | vmess | @v2Line | 7",
+                "🇺🇸US | vmess | @FAKEOFTVC | 0",
                 "🏳️XX | vmess | @ROMAX_VPN | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -193,11 +193,11 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vmess | @oneclickvpnkeys | 7",
+            "tag": "🇳🇱NL | vmess | @oneclickvpnkeys | 7",
             "type": "vmess",
-            "server": "54.38.212.91",
-            "server_port": 80,
-            "uuid": "9e660680-e7bb-4725-f1c9-84d1fdbbf5c6",
+            "server": "188.114.97.7",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -208,11 +208,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": ""
+                    "Host": "linde06.indiavideo.sbs"
                 }
             }
         },
@@ -285,7 +295,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @v2Line | 7",
+            "tag": "🇺🇸US | vmess | @v2Line | 7",
             "type": "vmess",
             "server": "w.outline-vpn.cloud",
             "server_port": 2086,
@@ -309,7 +319,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @FAKEOFTVC | 0",
+            "tag": "🇺🇸US | vmess | @FAKEOFTVC | 0",
             "type": "vmess",
             "server": "cf.hy2.one",
             "server_port": 2052,
