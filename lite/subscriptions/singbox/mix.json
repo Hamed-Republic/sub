@@ -155,10 +155,10 @@
                 "🇨🇦CA | vless | @proxystore11 | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇳🇱NL | vmess | @Hope_Net | 19",
+                "🇯🇵JP | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇨🇦CA | vless | @polproxy | 6",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 17",
+                "🇺🇸US | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 8",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -236,10 +236,10 @@
                 "🇨🇦CA | vless | @proxystore11 | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇳🇱NL | vmess | @Hope_Net | 19",
+                "🇯🇵JP | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇨🇦CA | vless | @polproxy | 6",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 17",
+                "🇺🇸US | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 8",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -1490,11 +1490,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vmess | @Hope_Net | 19",
+            "tag": "🇯🇵JP | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "156.253.5.63",
-            "server_port": 15843,
-            "uuid": "63d39605-332b-4e67-aa33-aa142d897730",
+            "server": "152.69.197.74",
+            "server_port": 12345,
+            "uuid": "b8a6bf58-485a-4046-b386-b3661bf65eff",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1504,6 +1504,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/bb",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -1569,7 +1576,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 17",
+            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 17",
             "type": "vless",
             "server": "chat.openai.com",
             "server_port": 8080,
