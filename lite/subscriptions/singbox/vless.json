@@ -132,7 +132,7 @@
                 "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 25",
-                "🇸🇪SE | vless | @v2rayngvpn | 16",
+                "🇨🇦CA | vless | @v2rayngvpn | 15",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 0",
                 "🇸🇪SE | vless | @ServerNett | 19",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
@@ -166,9 +166,9 @@
                 "🇸🇪SE | vless | @SvnTeam | 33",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇺🇸US | vless | @TIKTOK_PROXY | 0",
+                "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 21",
                 "🇵🇱PL | vless | @raze_vpn | 10"
             ]
@@ -203,7 +203,7 @@
                 "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 25",
-                "🇸🇪SE | vless | @v2rayngvpn | 16",
+                "🇨🇦CA | vless | @v2rayngvpn | 15",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 0",
                 "🇸🇪SE | vless | @ServerNett | 19",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
@@ -237,9 +237,9 @@
                 "🇸🇪SE | vless | @SvnTeam | 33",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇺🇸US | vless | @TIKTOK_PROXY | 0",
+                "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 21",
                 "🇵🇱PL | vless | @raze_vpn | 10"
             ],
@@ -869,11 +869,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @v2rayngvpn | 16",
+            "tag": "🇨🇦CA | vless | @v2rayngvpn | 15",
             "type": "vless",
-            "server": "185.146.173.32",
-            "server_port": 2052,
-            "uuid": "0811015a-99a3-4cae-9d56-c3ad37f6cc72",
+            "server": "172.66.0.189",
+            "server_port": 443,
+            "uuid": "76241e82-8ded-416a-9d4c-84d5a0989149",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -881,11 +881,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "PoriyA-wArPhIDdiFY-PaNEL.PAGeS.dEV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@V2RAXX-@V2RAXX",
+                "path": "\/Tel-@warphiddify-DYCw2jQDSfqAtrxR?ed=2560",
                 "headers": {
-                    "Host": "185.146.173.32"
+                    "Host": "PoriyA-wArPhIDdiFY-PaNEL.PAGeS.dEV"
                 }
             }
         },
@@ -1511,9 +1521,9 @@
         {
             "tag": "🇩🇪DE | vless | @kiava | 6",
             "type": "vless",
-            "server": "3.77.151.153",
-            "server_port": 2087,
-            "uuid": "4882ab86-4383-4ce3-96dc-edde92ab7b6e",
+            "server": "35.156.202.181",
+            "server_port": 2082,
+            "uuid": "87c86835-d800-40d1-8903-6676869884d6",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1523,22 +1533,22 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.tgju.org",
+                "server_name": "mail.google.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "randomized"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "eiX6rafEOu1xTvqWtOR__vMD3UimIyb05mK_9UeqcBg",
-                    "short_id": "e0a50eb1"
+                    "public_key": "af0bgH4-m3NbjsyY0k1ffXn3bE3rrcK2lZNo5vmJxHQ",
+                    "short_id": "6d1a3ecd"
                 }
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "www.tgju.org",
+                "service_name": "kiava",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -1745,7 +1755,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2FETCH | 2",
+            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
@@ -1790,7 +1800,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @TIKTOK_PROXY | 0",
+            "tag": "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
             "type": "vless",
             "server": "104.21.40.63",
             "server_port": 443,
