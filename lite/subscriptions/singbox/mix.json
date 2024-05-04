@@ -121,7 +121,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇨🇦CA | vless | @rxv2ray | 18",
                 "🇸🇪SE | vless | @lightning6 | 15",
-                "🇺🇸US | vless | @vpn_xw | 0",
+                "🇨🇦CA | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 25",
                 "🇺🇸US | vless | @v2logy | 15",
@@ -132,7 +132,6 @@
                 "🇺🇸US | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇱🇹LT | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇨🇦CA | vless | @Outline_Vpn | 15",
                 "🇨🇦CA | vless | @prrofile_purple | 182",
@@ -202,7 +201,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇨🇦CA | vless | @rxv2ray | 18",
                 "🇸🇪SE | vless | @lightning6 | 15",
-                "🇺🇸US | vless | @vpn_xw | 0",
+                "🇨🇦CA | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 25",
                 "🇺🇸US | vless | @v2logy | 15",
@@ -213,7 +212,6 @@
                 "🇺🇸US | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇱🇹LT | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇨🇦CA | vless | @Outline_Vpn | 15",
                 "🇨🇦CA | vless | @prrofile_purple | 182",
@@ -531,7 +529,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ARV2ray?ed=2056",
                 "headers": {
                     "Host": "185.146.173.58"
                 }
@@ -635,7 +633,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @vpn_xw | 0",
+            "tag": "🇨🇦CA | vless | @vpn_xw | 0",
             "type": "vless",
             "server": "ashburn.omega-dic.workers.dev",
             "server_port": 443,
@@ -743,7 +741,7 @@
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
-            "uuid": "529d4659-07f6-43e1-9009-bf4d9eeb4872",
+            "uuid": "eb568fe2-ecd2-4352-b359-29d61ebac97a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -883,30 +881,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇱🇹LT | vmess | @DeamNet_Proxy | 19",
-            "type": "vmess",
-            "server": "94.131.14.177",
-            "server_port": 80,
-            "uuid": "ea2928cb-f9cc-4747-ab60-d23abe3ba1e6",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess",
-                "headers": {
-                    "Host": "94.131.14.177"
                 }
             }
         },
