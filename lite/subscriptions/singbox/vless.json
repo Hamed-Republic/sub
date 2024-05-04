@@ -122,7 +122,7 @@
                 "🇨🇦CA | vless | @rxv2ray | 16",
                 "🇨🇦CA | vless | @free_v2rayyy | 12",
                 "🇸🇪SE | vless | @lightning6 | 15",
-                "🇨🇦CA | vless | @vpn_xw | 0",
+                "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 25",
                 "🇺🇸US | vless | @v2logy | 15",
@@ -162,6 +162,7 @@
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @GozargahVPN | 16",
+                "🇸🇪SE | vless | @freeconfigv2 | 1",
                 "🇸🇪SE | vless | @SvnTeam | 33",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
@@ -192,7 +193,7 @@
                 "🇨🇦CA | vless | @rxv2ray | 16",
                 "🇨🇦CA | vless | @free_v2rayyy | 12",
                 "🇸🇪SE | vless | @lightning6 | 15",
-                "🇨🇦CA | vless | @vpn_xw | 0",
+                "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 25",
                 "🇺🇸US | vless | @v2logy | 15",
@@ -232,6 +233,7 @@
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @GozargahVPN | 16",
+                "🇸🇪SE | vless | @freeconfigv2 | 1",
                 "🇸🇪SE | vless | @SvnTeam | 33",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
@@ -644,7 +646,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vpn_xw | 0",
+            "tag": "🇺🇸US | vless | @vpn_xw | 0",
             "type": "vless",
             "server": "ashburn.omega-dic.workers.dev",
             "server_port": 443,
@@ -1677,6 +1679,35 @@
                 "path": "\/Telegram:,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,",
                 "headers": {
                     "Host": "www.GozargahVPN.top"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @freeconfigv2 | 1",
+            "type": "vless",
+            "server": "185.139.228.13",
+            "server_port": 2083,
+            "uuid": "282bed58-1451-419f-a5b3-ed6f65ab8850",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "x-Zv8k40O3rJ8sjJknVpimNI4dhEk3WRCyKeRb5NeEU",
+                    "short_id": "b756e372b9623b22"
                 }
             }
         },
