@@ -171,10 +171,10 @@
                 "🇨🇦CA | vless | @melov2ray | 2",
                 "🇺🇸US | vless | @melov2ray | 4",
                 "🇨🇦CA | vless | @melov2ray | 5",
-                "🇺🇸US | vless | @melov2ray | 7",
+                "🇨🇦CA | vless | @melov2ray | 7",
                 "🏳️XX | vless | @melov2ray | 8",
                 "🇩🇪DE | vless | @melov2ray | 10",
-                "🇺🇸US | vless | @melov2ray | 11",
+                "🇨🇦CA | vless | @melov2ray | 11",
                 "🏳️XX | vless | @melov2ray | 12",
                 "🏳️XX | vless | @V2pedia | 39",
                 "🇨🇦CA | vless | @V2pedia | 40",
@@ -510,7 +510,6 @@
                 "🇺🇸US | vless | @v2ray1_ng | 5",
                 "🇺🇸US | vless | @v2ray1_ng | 6",
                 "🇨🇦CA | vless | @v2ray1_ng | 7",
-                "🇮🇷IR | vmess | @v2ray1_ng | 8",
                 "🇺🇸US | vless | @vless_vmess | 2",
                 "🇺🇸US | vmess | @vless_vmess | 4",
                 "🇺🇸US | vless | @vless_vmess | 11",
@@ -608,7 +607,6 @@
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇸🇪SE | vless | @polproxy | 6",
                 "🇸🇪SE | vless | @polproxy | 7",
-                "🇺🇸US | vless | @polproxy | 8",
                 "🇺🇸US | vless | @Outlinev2rayNG | 0",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 3",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 5",
@@ -816,10 +814,10 @@
                 "🇨🇦CA | vless | @melov2ray | 2",
                 "🇺🇸US | vless | @melov2ray | 4",
                 "🇨🇦CA | vless | @melov2ray | 5",
-                "🇺🇸US | vless | @melov2ray | 7",
+                "🇨🇦CA | vless | @melov2ray | 7",
                 "🏳️XX | vless | @melov2ray | 8",
                 "🇩🇪DE | vless | @melov2ray | 10",
-                "🇺🇸US | vless | @melov2ray | 11",
+                "🇨🇦CA | vless | @melov2ray | 11",
                 "🏳️XX | vless | @melov2ray | 12",
                 "🏳️XX | vless | @V2pedia | 39",
                 "🇨🇦CA | vless | @V2pedia | 40",
@@ -1155,7 +1153,6 @@
                 "🇺🇸US | vless | @v2ray1_ng | 5",
                 "🇺🇸US | vless | @v2ray1_ng | 6",
                 "🇨🇦CA | vless | @v2ray1_ng | 7",
-                "🇮🇷IR | vmess | @v2ray1_ng | 8",
                 "🇺🇸US | vless | @vless_vmess | 2",
                 "🇺🇸US | vmess | @vless_vmess | 4",
                 "🇺🇸US | vless | @vless_vmess | 11",
@@ -1253,7 +1250,6 @@
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇸🇪SE | vless | @polproxy | 6",
                 "🇸🇪SE | vless | @polproxy | 7",
-                "🇺🇸US | vless | @polproxy | 8",
                 "🇺🇸US | vless | @Outlinev2rayNG | 0",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 3",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 5",
@@ -2982,7 +2978,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @melov2ray | 7",
+            "tag": "🇨🇦CA | vless | @melov2ray | 7",
             "type": "vless",
             "server": "chat.openai.com",
             "server_port": 8080,
@@ -3070,7 +3066,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @melov2ray | 11",
+            "tag": "🇨🇦CA | vless | @melov2ray | 11",
             "type": "vless",
             "server": "chat.openai.com",
             "server_port": 8080,
@@ -11054,23 +11050,6 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @v2ray1_ng | 8",
-            "type": "vmess",
-            "server": "178.239.150.170",
-            "server_port": 80,
-            "uuid": "2b7ce1d2-0372-4104-aa06-f7d999f26e1d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "🇺🇸US | vless | @vless_vmess | 2",
             "type": "vless",
             "server": "w3.org",
@@ -13237,27 +13216,6 @@
                 "path": "\/telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy",
                 "headers": {
                     "Host": "185.146.173.58"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @polproxy | 8",
-            "type": "vless",
-            "server": "zula.ir",
-            "server_port": 80,
-            "uuid": "8cb7fc94-dd58-4b8d-987c-b434cb2cb31d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY",
-                "headers": {
-                    "Host": "zula.ir"
                 }
             }
         },
