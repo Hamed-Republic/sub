@@ -110,7 +110,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 17",
                 "🇨🇦CA | vless | @v2_team | 3",
                 "🇷🇺RU | vless | @NIM_VPN_ir | 8",
-                "🇮🇪IE | vless | @VlessConfig | 19",
+                "🇺🇸US | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 19",
                 "🇸🇪SE | vless | @ipV2Ray | 19",
                 "🏳️XX | vless | @melov2ray | 12",
@@ -146,6 +146,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 12",
                 "🇨🇦CA | vless | @DailyV2RY | 159",
                 "🇨🇦CA | vless | @sinabigo | 1",
+                "🇸🇪SE | vless | @lrnbymaa | 16",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇨🇦CA | vless | @polproxy | 7",
@@ -155,7 +156,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 16",
                 "🇸🇪SE | vless | @FreakConfig | 6",
-                "🇸🇪SE | vless | @flyv2ray | 15",
+                "🇨🇦CA | vless | @flyv2ray | 15",
                 "🇨🇳CN | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 5",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -178,7 +179,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 17",
                 "🇨🇦CA | vless | @v2_team | 3",
                 "🇷🇺RU | vless | @NIM_VPN_ir | 8",
-                "🇮🇪IE | vless | @VlessConfig | 19",
+                "🇺🇸US | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 19",
                 "🇸🇪SE | vless | @ipV2Ray | 19",
                 "🏳️XX | vless | @melov2ray | 12",
@@ -214,6 +215,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 12",
                 "🇨🇦CA | vless | @DailyV2RY | 159",
                 "🇨🇦CA | vless | @sinabigo | 1",
+                "🇸🇪SE | vless | @lrnbymaa | 16",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇨🇦CA | vless | @polproxy | 7",
@@ -223,7 +225,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 16",
                 "🇸🇪SE | vless | @FreakConfig | 6",
-                "🇸🇪SE | vless | @flyv2ray | 15",
+                "🇨🇦CA | vless | @flyv2ray | 15",
                 "🇨🇳CN | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 5",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -362,9 +364,9 @@
             }
         },
         {
-            "tag": "🇮🇪IE | vless | @VlessConfig | 19",
+            "tag": "🇺🇸US | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "52.16.232.13",
+            "server": "44.208.58.98",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1235,6 +1237,27 @@
             }
         },
         {
+            "tag": "🇸🇪SE | vless | @lrnbymaa | 16",
+            "type": "vless",
+            "server": "CUSTOMIZEV2ray.V2ray.motorcycles",
+            "server_port": 2095,
+            "uuid": "ad88ec60-27b9-46b8-8604-be686577fe5e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/V2rayCUSTOMIZE?ed=1024",
+                "headers": {
+                    "Host": "CUSTOMIZEV2ray.V2ray.motorcycles"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @proxystore11 | 10",
             "type": "vless",
             "server": "time.is",
@@ -1485,11 +1508,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @flyv2ray | 15",
+            "tag": "🇨🇦CA | vless | @flyv2ray | 15",
             "type": "vless",
-            "server": "185.146.173.59",
+            "server": "162.159.134.234",
             "server_port": 8080,
-            "uuid": "0ccb48ee-612f-4a55-b853-a85b62f0c8bd",
+            "uuid": "7d00a83a-e359-4172-90bf-623d060b85a8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1501,7 +1524,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.59"
+                    "Host": "162.159.134.234"
                 }
             }
         },
