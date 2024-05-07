@@ -151,9 +151,10 @@
                 "🏳️XX | vmess | @yaney_01 | 3",
                 "🏳️XX | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇨🇳CN | vmess | @Hope_Net | 0",
-                "🇺🇸US | vmess | @Hope_Net | 1",
-                "🇨🇳CN | vmess | @Hope_Net | 3",
+                "🇫🇷FR | vmess | @Hope_Net | 0",
+                "🇨🇳CN | vmess | @Hope_Net | 1",
+                "🇺🇸US | vmess | @Hope_Net | 3",
+                "🇨🇳CN | vmess | @Hope_Net | 5",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 2",
                 "🇺🇸US | vmess | @v2Line | 0",
                 "🇺🇸US | vmess | @v2Line | 1",
@@ -214,9 +215,10 @@
                 "🏳️XX | vmess | @yaney_01 | 3",
                 "🏳️XX | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇨🇳CN | vmess | @Hope_Net | 0",
-                "🇺🇸US | vmess | @Hope_Net | 1",
-                "🇨🇳CN | vmess | @Hope_Net | 3",
+                "🇫🇷FR | vmess | @Hope_Net | 0",
+                "🇨🇳CN | vmess | @Hope_Net | 1",
+                "🇺🇸US | vmess | @Hope_Net | 3",
+                "🇨🇳CN | vmess | @Hope_Net | 5",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 2",
                 "🇺🇸US | vmess | @v2Line | 0",
                 "🇺🇸US | vmess | @v2Line | 1",
@@ -1348,7 +1350,41 @@
             }
         },
         {
-            "tag": "🇨🇳CN | vmess | @Hope_Net | 0",
+            "tag": "🇫🇷FR | vmess | @Hope_Net | 0",
+            "type": "vmess",
+            "server": "fr-full.privateip.net",
+            "server_port": 443,
+            "uuid": "f25be958-7d9d-4e4b-a3e4-d82c3b06d16a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "fr-full.privateip.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/RACEVPN",
+                "headers": {
+                    "Host": "fr-full.privateip.net"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇳CN | vmess | @Hope_Net | 1",
             "type": "vmess",
             "server": "2.sg.zz.xxxxx.x-t-fuckword.network",
             "server_port": 60301,
@@ -1365,7 +1401,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 1",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 3",
             "type": "vmess",
             "server": "c23s801.jamjams.net",
             "server_port": 61173,
@@ -1382,7 +1418,7 @@
             }
         },
         {
-            "tag": "🇨🇳CN | vmess | @Hope_Net | 3",
+            "tag": "🇨🇳CN | vmess | @Hope_Net | 5",
             "type": "vmess",
             "server": "4.game.speed.zz.001.oooooooooo.icu",
             "server_port": 25842,
