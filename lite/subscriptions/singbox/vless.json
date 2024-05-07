@@ -117,12 +117,12 @@
                 "🇸🇪SE | vless | @V2pedia | 53",
                 "🇨🇦CA | vless | @frev2ray | 11",
                 "🇸🇪SE | vless | @ARv2ray | 18",
-                "🇸🇪SE | vless | @shh_proxy | 22",
+                "🇸🇪SE | vless | @shh_proxy | 21",
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇨🇦CA | vless | @rxv2ray | 18",
                 "🇸🇪SE | vless | @lightning6 | 15",
                 "🇩🇪DE | vless | @V2rayNGmat | 1",
-                "🇨🇦CA | vless | @vpn_xw | 0",
+                "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 19",
                 "🇺🇸US | vless | @v2logy | 15",
@@ -142,7 +142,6 @@
                 "🇩🇪DE | vless | @vless_vmess | 15",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇳🇱NL | vless | @V2RayTz | 19",
-                "🇨🇦CA | vless | @VmessProtocol | 13",
                 "🇸🇪SE | vless | @DailyV2RY | 178",
                 "🇨🇦CA | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
@@ -186,12 +185,12 @@
                 "🇸🇪SE | vless | @V2pedia | 53",
                 "🇨🇦CA | vless | @frev2ray | 11",
                 "🇸🇪SE | vless | @ARv2ray | 18",
-                "🇸🇪SE | vless | @shh_proxy | 22",
+                "🇸🇪SE | vless | @shh_proxy | 21",
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇨🇦CA | vless | @rxv2ray | 18",
                 "🇸🇪SE | vless | @lightning6 | 15",
                 "🇩🇪DE | vless | @V2rayNGmat | 1",
-                "🇨🇦CA | vless | @vpn_xw | 0",
+                "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 19",
                 "🇺🇸US | vless | @v2logy | 15",
@@ -211,7 +210,6 @@
                 "🇩🇪DE | vless | @vless_vmess | 15",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇳🇱NL | vless | @V2RayTz | 19",
-                "🇨🇦CA | vless | @VmessProtocol | 13",
                 "🇸🇪SE | vless | @DailyV2RY | 178",
                 "🇨🇦CA | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
@@ -514,7 +512,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @shh_proxy | 22",
+            "tag": "🇸🇪SE | vless | @shh_proxy | 21",
             "type": "vless",
             "server": "185.146.173.185",
             "server_port": 2095,
@@ -647,7 +645,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vpn_xw | 0",
+            "tag": "🇺🇸US | vless | @vpn_xw | 0",
             "type": "vless",
             "server": "ashburn.omega-dic.workers.dev",
             "server_port": 443,
@@ -1132,37 +1130,6 @@
                 "path": "\/V2rayCUSTOMIZE?ed=1024",
                 "headers": {
                     "Host": "188.114.98.224"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @VmessProtocol | 13",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "008dba6e-7a4f-45c8-a410-c571f43a7d05",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "garywelch.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=2560",
-                "headers": {
-                    "Host": "garywelch.pages.dev"
                 }
             }
         },
