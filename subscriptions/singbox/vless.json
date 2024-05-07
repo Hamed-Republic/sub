@@ -106,12 +106,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇳🇱NL | vless | @EliV2ray | 0",
+                "🇸🇪SE | vless | @EliV2ray | 0",
                 "🇳🇱NL | vless | @EliV2ray | 1",
-                "🇨🇦CA | vless | @EliV2ray | 2",
+                "🇳🇱NL | vless | @EliV2ray | 2",
                 "🇳🇱NL | vless | @EliV2ray | 3",
-                "🇨🇦CA | vless | @EliV2ray | 5",
-                "🇳🇱NL | vless | @EliV2ray | 6",
+                "🇨🇦CA | vless | @EliV2ray | 4",
+                "🇳🇱NL | vless | @EliV2ray | 5",
+                "🇨🇦CA | vless | @EliV2ray | 7",
+                "🇳🇱NL | vless | @EliV2ray | 8",
                 "🏳️XX | vless | @Parsashonam | 0",
                 "🇨🇦CA | vless | @Parsashonam | 1",
                 "🇨🇦CA | vless | @Parsashonam | 2",
@@ -168,7 +170,7 @@
                 "🇨🇦CA | vless | @melov2ray | 2",
                 "🇺🇸US | vless | @melov2ray | 4",
                 "🇨🇦CA | vless | @melov2ray | 5",
-                "🇨🇦CA | vless | @melov2ray | 7",
+                "🇺🇸US | vless | @melov2ray | 7",
                 "🏳️XX | vless | @melov2ray | 8",
                 "🇩🇪DE | vless | @melov2ray | 10",
                 "🇺🇸US | vless | @melov2ray | 11",
@@ -176,7 +178,7 @@
                 "🏳️XX | vless | @V2pedia | 39",
                 "🇨🇦CA | vless | @V2pedia | 40",
                 "🇨🇼CW | vless | @V2pedia | 41",
-                "🇨🇦CA | vless | @V2pedia | 42",
+                "🇺🇸US | vless | @V2pedia | 42",
                 "🇺🇸US | vless | @V2pedia | 43",
                 "🏳️XX | vless | @V2pedia | 44",
                 "🇺🇸US | vless | @V2pedia | 45",
@@ -645,12 +647,14 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇳🇱NL | vless | @EliV2ray | 0",
+                "🇸🇪SE | vless | @EliV2ray | 0",
                 "🇳🇱NL | vless | @EliV2ray | 1",
-                "🇨🇦CA | vless | @EliV2ray | 2",
+                "🇳🇱NL | vless | @EliV2ray | 2",
                 "🇳🇱NL | vless | @EliV2ray | 3",
-                "🇨🇦CA | vless | @EliV2ray | 5",
-                "🇳🇱NL | vless | @EliV2ray | 6",
+                "🇨🇦CA | vless | @EliV2ray | 4",
+                "🇳🇱NL | vless | @EliV2ray | 5",
+                "🇨🇦CA | vless | @EliV2ray | 7",
+                "🇳🇱NL | vless | @EliV2ray | 8",
                 "🏳️XX | vless | @Parsashonam | 0",
                 "🇨🇦CA | vless | @Parsashonam | 1",
                 "🇨🇦CA | vless | @Parsashonam | 2",
@@ -707,7 +711,7 @@
                 "🇨🇦CA | vless | @melov2ray | 2",
                 "🇺🇸US | vless | @melov2ray | 4",
                 "🇨🇦CA | vless | @melov2ray | 5",
-                "🇨🇦CA | vless | @melov2ray | 7",
+                "🇺🇸US | vless | @melov2ray | 7",
                 "🏳️XX | vless | @melov2ray | 8",
                 "🇩🇪DE | vless | @melov2ray | 10",
                 "🇺🇸US | vless | @melov2ray | 11",
@@ -715,7 +719,7 @@
                 "🏳️XX | vless | @V2pedia | 39",
                 "🇨🇦CA | vless | @V2pedia | 40",
                 "🇨🇼CW | vless | @V2pedia | 41",
-                "🇨🇦CA | vless | @V2pedia | 42",
+                "🇺🇸US | vless | @V2pedia | 42",
                 "🇺🇸US | vless | @V2pedia | 43",
                 "🏳️XX | vless | @V2pedia | 44",
                 "🇺🇸US | vless | @V2pedia | 45",
@@ -1200,7 +1204,49 @@
             "type": "dns"
         },
         {
-            "tag": "🇳🇱NL | vless | @EliV2ray | 0",
+            "tag": "🇸🇪SE | vless | @EliV2ray | 0",
+            "type": "vless",
+            "server": "185.146.173.58",
+            "server_port": 8080,
+            "uuid": "b81cb092-a25e-4745-9532-fcef181f8023",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Eliv2ray-Succubus,@Eliv2ray-Succubus,@Eliv2ray-Succubus,@Eliv2ray-Succubus?ed=8080",
+                "headers": {
+                    "Host": "185.146.173.58"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vless | @EliV2ray | 1",
+            "type": "vless",
+            "server": "188.114.98.224",
+            "server_port": 80,
+            "uuid": "-ELiV2Ray-ELiV2Ray-ELiV2Ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Eli.V2ray.motorcycles",
+                "headers": {
+                    "Host": "188.114.98.224"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vless | @EliV2ray | 2",
             "type": "vless",
             "server": "188.114.96.91",
             "server_port": 80,
@@ -1221,7 +1267,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @EliV2ray | 1",
+            "tag": "🇳🇱NL | vless | @EliV2ray | 3",
             "type": "vless",
             "server": "188.114.98.224",
             "server_port": 80,
@@ -1242,7 +1288,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @EliV2ray | 2",
+            "tag": "🇨🇦CA | vless | @EliV2ray | 4",
             "type": "vless",
             "server": "172.67.161.77",
             "server_port": 80,
@@ -1263,7 +1309,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @EliV2ray | 3",
+            "tag": "🇳🇱NL | vless | @EliV2ray | 5",
             "type": "vless",
             "server": "188.114.98.224",
             "server_port": 80,
@@ -1284,7 +1330,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @EliV2ray | 5",
+            "tag": "🇨🇦CA | vless | @EliV2ray | 7",
             "type": "vless",
             "server": "104.21.44.106",
             "server_port": 80,
@@ -1305,7 +1351,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @EliV2ray | 6",
+            "tag": "🇳🇱NL | vless | @EliV2ray | 8",
             "type": "vless",
             "server": "188.114.98.224",
             "server_port": 80,
@@ -2704,7 +2750,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 7",
+            "tag": "🇺🇸US | vless | @melov2ray | 7",
             "type": "vless",
             "server": "chat.openai.com",
             "server_port": 8080,
@@ -2922,7 +2968,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2pedia | 42",
+            "tag": "🇺🇸US | vless | @V2pedia | 42",
             "type": "vless",
             "server": "www.visa.com",
             "server_port": 443,
