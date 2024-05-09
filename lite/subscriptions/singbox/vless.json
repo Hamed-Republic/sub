@@ -146,7 +146,6 @@
                 "🇸🇪SE | vless | @vless_vmess | 16",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 19",
-                "🇨🇦CA | vless | @VmessProtocol | 14",
                 "🇸🇪SE | vless | @DailyV2RY | 154",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
@@ -218,7 +217,6 @@
                 "🇸🇪SE | vless | @vless_vmess | 16",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 19",
-                "🇨🇦CA | vless | @VmessProtocol | 14",
                 "🇸🇪SE | vless | @DailyV2RY | 154",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
@@ -1280,37 +1278,6 @@
                 "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev-Telegram:@UnlimitedDev",
                 "headers": {
                     "Host": "104.20.254.143"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @VmessProtocol | 14",
-            "type": "vless",
-            "server": "104.26.15.16",
-            "server_port": 443,
-            "uuid": "5007dc3f-0270-4ed8-a210-1a1d7952756d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "bIA-paIn-bacHE.PAGeS.DEv",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-proxy_mtm\/?ed=2560",
-                "headers": {
-                    "Host": "bIA-paIn-bacHE.PAGeS.DEv"
                 }
             }
         },
