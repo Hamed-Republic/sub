@@ -111,7 +111,7 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
                 "🇺🇸US | vmess | @vless_vmess | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 6",
+                "🇭🇰HK | vmess | @Hope_Net | 8",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇨🇦CA | vmess | @kingofilter | 3",
@@ -127,7 +127,7 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
                 "🇺🇸US | vmess | @vless_vmess | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 6",
+                "🇭🇰HK | vmess | @Hope_Net | 8",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇨🇦CA | vmess | @kingofilter | 3",
@@ -277,13 +277,13 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 6",
+            "tag": "🇭🇰HK | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "us-full.privateip.net",
-            "server_port": 443,
-            "uuid": "b4561965-3487-4701-b604-8c0347d8b3d4",
+            "server": "20.24.77.204",
+            "server_port": 60028,
+            "uuid": "9d7fb490-f159-3b56-8e8a-614c45c299d1",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 2,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -292,21 +292,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "us-full.privateip.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/RACEVPN",
+                "path": "\/",
                 "headers": {
-                    "Host": "us-full.privateip.net"
+                    "Host": "20.24.77.204"
                 }
             }
         },
