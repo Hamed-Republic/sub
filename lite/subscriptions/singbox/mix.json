@@ -127,7 +127,7 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 29",
-                "🇬🇧GB | trojan | @PrivateVPNs | 19",
+                "🇮🇪IE | trojan | @PrivateVPNs | 19",
                 "🇺🇸US | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
@@ -166,9 +166,10 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇸🇪SE | vless | @mehrosaboran | 6",
+                "🇸🇪SE | vless | @mehrosaboran | 5",
                 "🏳️XX | vless | @kiava | 4",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
+                "🏳️XX | vless | @proxy_mtm | 4",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vless | @kingofilter | 3",
                 "🇺🇸US | vless | @GozargahVPN | 16",
@@ -208,7 +209,7 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 29",
-                "🇬🇧GB | trojan | @PrivateVPNs | 19",
+                "🇮🇪IE | trojan | @PrivateVPNs | 19",
                 "🇺🇸US | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
@@ -247,9 +248,10 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇸🇪SE | vless | @mehrosaboran | 6",
+                "🇸🇪SE | vless | @mehrosaboran | 5",
                 "🏳️XX | vless | @kiava | 4",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
+                "🏳️XX | vless | @proxy_mtm | 4",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vless | @kingofilter | 3",
                 "🇺🇸US | vless | @GozargahVPN | 16",
@@ -821,9 +823,9 @@
             }
         },
         {
-            "tag": "🇬🇧GB | trojan | @PrivateVPNs | 19",
+            "tag": "🇮🇪IE | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "18.132.75.196",
+            "server": "34.249.161.33",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -845,7 +847,7 @@
         {
             "tag": "🇺🇸US | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "3.19.126.33",
+            "server": "44.227.38.233",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1265,9 +1267,9 @@
         {
             "tag": "🇨🇦CA | vless | @vless_vmess | 15",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 2087,
-            "uuid": "a6fa9485-41e7-4bfb-9c6d-8336b5a66f47",
+            "server": "104.16.54.150",
+            "server_port": 443,
+            "uuid": "5007dc3f-0270-4ed8-a210-1a1d7952756d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1277,7 +1279,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "dl.parhamtraberthos.ir",
+                "server_name": "BIa-pAIN-bAche.PagEs.DeV",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1287,9 +1289,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/new_proxy_channel?ed=2560",
+                "path": "\/",
                 "headers": {
-                    "Host": "dl.parhamtraberthos.ir"
+                    "Host": "BIa-pAIN-bAche.PagEs.DeV"
                 }
             }
         },
@@ -1799,7 +1801,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @mehrosaboran | 6",
+            "tag": "🇸🇪SE | vless | @mehrosaboran | 5",
             "type": "vless",
             "server": "185.146.173.58",
             "server_port": 80,
@@ -1872,6 +1874,20 @@
                 "headers": {
                     "Host": "glweidf.cfd"
                 }
+            }
+        },
+        {
+            "tag": "🏳️XX | vless | @proxy_mtm | 4",
+            "type": "vless",
+            "server": "[2a01:4f9:c011:1622::1]",
+            "server_port": 12535,
+            "uuid": "Parsashonam-10",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
