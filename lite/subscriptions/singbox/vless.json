@@ -139,7 +139,7 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 24",
                 "🇸🇪SE | vless | @proxyymeliii | 35",
                 "🇨🇷CR | vless | @v2ray1_ng | 5",
-                "🇺🇸US | vless | @vless_vmess | 15",
+                "🇨🇦CA | vless | @vless_vmess | 15",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇮🇷IR | vless | @DailyV2RY | 127",
@@ -209,7 +209,7 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 24",
                 "🇸🇪SE | vless | @proxyymeliii | 35",
                 "🇨🇷CR | vless | @v2ray1_ng | 5",
-                "🇺🇸US | vless | @vless_vmess | 15",
+                "🇨🇦CA | vless | @vless_vmess | 15",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇮🇷IR | vless | @DailyV2RY | 127",
@@ -451,7 +451,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2056",
                 "headers": {
                     "Host": "185.146.173.237"
                 }
@@ -1104,7 +1104,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @vless_vmess | 15",
+            "tag": "🇨🇦CA | vless | @vless_vmess | 15",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2087,
@@ -1168,15 +1168,22 @@
         {
             "tag": "🇸🇪SE | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "185.146.173.94",
-            "server_port": 8880,
-            "uuid": "113%62670%38-12%332-4%371b-%38f02%2d6bc%37a1d%65342%38",
+            "server": "185.146.173.40",
+            "server_port": 80,
+            "uuid": "tel%65gra%6d-id%2dArV%32ray",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "headers": {
+                    "Host": "185.146.173.40"
+                }
             }
         },
         {
