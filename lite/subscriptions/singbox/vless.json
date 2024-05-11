@@ -107,7 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇸🇪SE | vless | @EliV2ray | 17",
-                "🇨🇦CA | vless | @Parsashonam | 17",
+                "🇨🇦CA | vless | @Parsashonam | 14",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 3",
                 "🇸🇪SE | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 24",
@@ -126,7 +126,7 @@
                 "🇮🇷IR | vless | @proxy_kafee | 1",
                 "🇸🇪SE | vless | @v2logy | 16",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🏳️XX | vless | @ProxyForOpeta | 2",
+                "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 29",
                 "🇳🇱NL | vless | @Outline_Vpn | 19",
                 "🇨🇦CA | vless | @prrofile_purple | 195",
@@ -179,7 +179,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇸🇪SE | vless | @EliV2ray | 17",
-                "🇨🇦CA | vless | @Parsashonam | 17",
+                "🇨🇦CA | vless | @Parsashonam | 14",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 3",
                 "🇸🇪SE | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 24",
@@ -198,7 +198,7 @@
                 "🇮🇷IR | vless | @proxy_kafee | 1",
                 "🇸🇪SE | vless | @v2logy | 16",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🏳️XX | vless | @ProxyForOpeta | 2",
+                "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 29",
                 "🇳🇱NL | vless | @Outline_Vpn | 19",
                 "🇨🇦CA | vless | @prrofile_purple | 195",
@@ -287,11 +287,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Parsashonam | 17",
+            "tag": "🇨🇦CA | vless | @Parsashonam | 14",
             "type": "vless",
             "server": "www.visa.com",
             "server_port": 8080,
-            "uuid": "Parsashonam-63",
+            "uuid": "Parsashonam-64",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -747,17 +747,34 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @ProxyForOpeta | 2",
+            "tag": "🇨🇦CA | vless | @ProxyForOpeta | 1",
             "type": "vless",
-            "server": "[2a01:4f9:3080:5738:20c:29ff:fecb:1711]",
-            "server_port": 14282,
-            "uuid": "38d2957b-8528-4ad6-916b-0121c2440249",
+            "server": "www.visa.com",
+            "server_port": 443,
+            "uuid": "Parsashonam-64",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mail.offch.blog",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=2560",
+                "headers": {
+                    "Host": "mail.offch.blog"
+                }
             }
         },
         {
