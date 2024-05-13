@@ -108,11 +108,11 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @ShadowProxy66 | 11",
-                "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 17",
+                "🇺🇸US | vmess | @ShadowProxy66 | 11",
+                "🇺🇸US | vmess | @yaney_01 | 5",
+                "🇬🇧GB | vmess | @Hope_Net | 15",
                 "🇵🇱PL | vmess | @v2Line | 10",
-                "🇨🇦CA | vmess | @nofiltering2 | 1",
+                "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🇩🇪DE | vmess | @kingofilter | 3",
                 "🏳️XX | vmess | @ROMAX_VPN | 1"
             ]
@@ -123,11 +123,11 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @ShadowProxy66 | 11",
-                "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 17",
+                "🇺🇸US | vmess | @ShadowProxy66 | 11",
+                "🇺🇸US | vmess | @yaney_01 | 5",
+                "🇬🇧GB | vmess | @Hope_Net | 15",
                 "🇵🇱PL | vmess | @v2Line | 10",
-                "🇨🇦CA | vmess | @nofiltering2 | 1",
+                "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🇩🇪DE | vmess | @kingofilter | 3",
                 "🏳️XX | vmess | @ROMAX_VPN | 1"
             ],
@@ -186,7 +186,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 11",
+            "tag": "🇺🇸US | vmess | @ShadowProxy66 | 11",
             "type": "vmess",
             "server": "hms24.ivideos.sbs",
             "server_port": 443,
@@ -220,7 +220,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
+            "tag": "🇺🇸US | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,
@@ -254,11 +254,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 17",
+            "tag": "🇬🇧GB | vmess | @Hope_Net | 15",
             "type": "vmess",
-            "server": "104.21.4.14",
-            "server_port": 2086,
-            "uuid": "e690ff9e-1676-4be3-d136-dcae586cb1e7",
+            "server": "uk2-full.privateip.net",
+            "server_port": 443,
+            "uuid": "36112366-6c82-43ce-92b0-1a442a1a7156",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -269,11 +269,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "uk2-full.privateip.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/RACEVPN",
                 "headers": {
-                    "Host": ""
+                    "Host": "uk2-full.privateip.net"
                 }
             }
         },
@@ -295,7 +305,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @nofiltering2 | 1",
+            "tag": "🇺🇸US | vmess | @nofiltering2 | 1",
             "type": "vmess",
             "server": "172.67.74.4",
             "server_port": 443,
