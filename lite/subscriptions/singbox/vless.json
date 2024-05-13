@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇳🇱NL | vless | @EliV2ray | 19",
+                "🇺🇸US | vless | @EliV2ray | 19",
                 "🇨🇦CA | vless | @Parsashonam | 15",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 3",
                 "🇩🇪DE | vless | @VlessConfig | 19",
@@ -135,8 +135,8 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 11",
                 "🇨🇦CA | vless | @vmessorg | 13",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 6",
-                "🇨🇦CA | vless | @v2rayngvpn | 15",
-                "🇺🇸US | vless | @FalconPolV2rayNG | 1",
+                "🇮🇷IR | vless | @v2rayngvpn | 13",
+                "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇸🇪SE | vless | @ServerNett | 25",
                 "🇨🇦CA | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
@@ -166,7 +166,7 @@
                 "🇨🇦CA | vless | @SvnTeam | 23",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 22"
@@ -176,7 +176,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇳🇱NL | vless | @EliV2ray | 19",
+                "🇺🇸US | vless | @EliV2ray | 19",
                 "🇨🇦CA | vless | @Parsashonam | 15",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 3",
                 "🇩🇪DE | vless | @VlessConfig | 19",
@@ -205,8 +205,8 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 11",
                 "🇨🇦CA | vless | @vmessorg | 13",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 6",
-                "🇨🇦CA | vless | @v2rayngvpn | 15",
-                "🇺🇸US | vless | @FalconPolV2rayNG | 1",
+                "🇮🇷IR | vless | @v2rayngvpn | 13",
+                "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇸🇪SE | vless | @ServerNett | 25",
                 "🇨🇦CA | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
@@ -236,7 +236,7 @@
                 "🇨🇦CA | vless | @SvnTeam | 23",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 22"
@@ -262,7 +262,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇳🇱NL | vless | @EliV2ray | 19",
+            "tag": "🇺🇸US | vless | @EliV2ray | 19",
             "type": "vless",
             "server": "188.114.98.56",
             "server_port": 80,
@@ -925,28 +925,21 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayngvpn | 15",
+            "tag": "🇮🇷IR | vless | @v2rayngvpn | 13",
             "type": "vless",
-            "server": "172.66.44.146",
-            "server_port": 80,
-            "uuid": "fc464eac-30de-4eb8-bfd7-da0d04c89329",
+            "server": "89.235.116.44",
+            "server_port": 443,
+            "uuid": "e235a709-75fb-4ecc-a4b6-1e81765dff60",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/t.me-DarkVPNpro-t.me-DarkVPNpro-t.me-DarkVPNpro-t.me-DarkVPNpro-t.me-DarkVPNpro-t.me-DarkVPNpro-t.me-DarkVPNpro-t.me-DarkVPNpro-t.me-DarkVPNpro-t.me-DarkVPNpro-t.me-DarkVPNpro-t.me-DarkVPNpro-t.me-DarkVPNpro-t.me-DarkVPNpro\/",
-                "headers": {
-                    "Host": "172.66.44.146"
-                }
             }
         },
         {
-            "tag": "🇺🇸US | vless | @FalconPolV2rayNG | 1",
+            "tag": "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
             "type": "vless",
             "server": "104.26.15.16",
             "server_port": 443,
@@ -1740,7 +1733,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2FETCH | 2",
+            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
