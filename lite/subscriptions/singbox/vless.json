@@ -135,21 +135,20 @@
                 "🇮🇷IR | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @vmessorg | 13",
                 "🇺🇸US | vless | @v2rayNG_Matsuri | 6",
-                "🇮🇷IR | vless | @v2rayngvpn | 14",
+                "🇮🇷IR | vless | @v2rayngvpn | 13",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇸🇪SE | vless | @ServerNett | 25",
                 "🇨🇦CA | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 23",
-                "🇨🇦CA | vless | @v2ray1_ng | 6",
                 "🇨🇦CA | vless | @vless_vmess | 13",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 15",
-                "🇮🇷IR | vless | @DailyV2RY | 148",
+                "🇸🇪SE | vless | @DailyV2RY | 147",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 8",
-                "🇨🇦CA | vless | @proxystore11 | 15",
+                "🏳️XX | vless | @proxystore11 | 13",
                 "🇸🇪SE | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @polproxy | 15",
                 "🇮🇷IR | vless | @Outlinev2rayNG | 16",
@@ -205,21 +204,20 @@
                 "🇮🇷IR | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @vmessorg | 13",
                 "🇺🇸US | vless | @v2rayNG_Matsuri | 6",
-                "🇮🇷IR | vless | @v2rayngvpn | 14",
+                "🇮🇷IR | vless | @v2rayngvpn | 13",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇸🇪SE | vless | @ServerNett | 25",
                 "🇨🇦CA | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 23",
-                "🇨🇦CA | vless | @v2ray1_ng | 6",
                 "🇨🇦CA | vless | @vless_vmess | 13",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 15",
-                "🇮🇷IR | vless | @DailyV2RY | 148",
+                "🇸🇪SE | vless | @DailyV2RY | 147",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 8",
-                "🇨🇦CA | vless | @proxystore11 | 15",
+                "🏳️XX | vless | @proxystore11 | 13",
                 "🇸🇪SE | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @polproxy | 15",
                 "🇮🇷IR | vless | @Outlinev2rayNG | 16",
@@ -918,11 +916,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @v2rayngvpn | 14",
+            "tag": "🇮🇷IR | vless | @v2rayngvpn | 13",
             "type": "vless",
-            "server": "185.58.240.176",
-            "server_port": 14914,
-            "uuid": "4045e75a-165c-4a3d-b684-a0b521bbcb20",
+            "server": "95.38.102.7",
+            "server_port": 4001,
+            "uuid": "2b18f835-0920-4619-9a36-b709382b08be",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1067,37 +1065,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray1_ng | 6",
-            "type": "vless",
-            "server": "172.66.47.88",
-            "server_port": 443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "12148Df7.miKApaGE.PAgeS.Dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-FILTERK0SH\/",
-                "headers": {
-                    "Host": "12148Df7.miKApaGE.PAgeS.Dev"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @vless_vmess | 13",
             "type": "vless",
             "server": "172.64.87.176",
@@ -1212,17 +1179,24 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @DailyV2RY | 148",
+            "tag": "🇸🇪SE | vless | @DailyV2RY | 147",
             "type": "vless",
-            "server": "84.47.234.106",
-            "server_port": 13446,
-            "uuid": "e240547f-5a80-4cee-a318-779c320a1d8e",
+            "server": "185.146.173.185",
+            "server_port": 2095,
+            "uuid": "0c0267fc-6bd7-4e32-bb36-bad954efeb12",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "185.146.173.185"
+                }
             }
         },
         {
@@ -1278,27 +1252,17 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxystore11 | 15",
+            "tag": "🏳️XX | vless | @proxystore11 | 13",
             "type": "vless",
-            "server": "time.is",
-            "server_port": 443,
-            "uuid": "0a48e54b-659e-4b3c-95e6-14da04954f25",
+            "server": "ir.proxystorepanel.eu.org",
+            "server_port": 80,
+            "uuid": "da140f7f-3f1b-418d-97b1-1525ed6e4d64",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ir.proxystorepanel.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             },
             "transport": {
                 "type": "ws",
