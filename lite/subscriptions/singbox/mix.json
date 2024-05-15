@@ -106,10 +106,10 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇪SE | vless | @EliV2ray | 13",
                 "🇸🇪SE | vless | @Parsashonam | 21",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 3",
                 "🇬🇧GB | vless | @VlessConfig | 19",
+                "🇸🇪SE | vless | @VPNCUSTOMIZE | 26",
                 "🇸🇪SE | vless | @ipV2Ray | 10",
                 "🇺🇸US | vless | @V2pedia | 49",
                 "🇨🇦CA | vless | @frev2ray | 6",
@@ -132,7 +132,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vless | @Outline_Vpn | 16",
-                "🇨🇦CA | vless | @prrofile_purple | 177",
+                "🇸🇪SE | vless | @prrofile_purple | 186",
                 "🇮🇷IR | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @vmessorg | 11",
                 "🇨🇷CR | vless | @v2rayNG_Matsuri | 6",
@@ -153,7 +153,6 @@
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 18",
                 "🏳️XX | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇸🇪SE | vless | @free1_vpn | 0",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇸🇪SE | vless | @polproxy | 15",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 19",
@@ -185,10 +184,10 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇪SE | vless | @EliV2ray | 13",
                 "🇸🇪SE | vless | @Parsashonam | 21",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 3",
                 "🇬🇧GB | vless | @VlessConfig | 19",
+                "🇸🇪SE | vless | @VPNCUSTOMIZE | 26",
                 "🇸🇪SE | vless | @ipV2Ray | 10",
                 "🇺🇸US | vless | @V2pedia | 49",
                 "🇨🇦CA | vless | @frev2ray | 6",
@@ -211,7 +210,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vless | @Outline_Vpn | 16",
-                "🇨🇦CA | vless | @prrofile_purple | 177",
+                "🇸🇪SE | vless | @prrofile_purple | 186",
                 "🇮🇷IR | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @vmessorg | 11",
                 "🇨🇷CR | vless | @v2rayNG_Matsuri | 6",
@@ -232,7 +231,6 @@
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 18",
                 "🏳️XX | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇸🇪SE | vless | @free1_vpn | 0",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇸🇪SE | vless | @polproxy | 15",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 19",
@@ -278,27 +276,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇸🇪SE | vless | @EliV2ray | 13",
-            "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 8080,
-            "uuid": "a6b95a69-687d-4d28-8437-adeae2715e9c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@Eliv2ray-Succubus,@Eliv2ray-Succubus,@Eliv2ray-Succubus,@Eliv2ray-Succubus?ed=8080",
-                "headers": {
-                    "Host": "185.146.173.58"
-                }
-            }
         },
         {
             "tag": "🇸🇪SE | vless | @Parsashonam | 21",
@@ -370,6 +347,27 @@
                 "path": "\/telegram-channel-vlessconfig-ws",
                 "headers": {
                     "Host": "telegram-channel-vlessconfig.sohala.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @VPNCUSTOMIZE | 26",
+            "type": "vless",
+            "server": "Channel-VPNCUSTOMIZE.V2ray.motorcycles",
+            "server_port": 2095,
+            "uuid": "JOIN-VPNCUSTOMIZE",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/V2rayCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE?ed=1024",
+                "headers": {
+                    "Host": "Channel-VPNCUSTOMIZE.V2ray.motorcycles"
                 }
             }
         },
@@ -869,11 +867,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @prrofile_purple | 177",
+            "tag": "🇸🇪SE | vless | @prrofile_purple | 186",
             "type": "vless",
-            "server": "zula.ir",
+            "server": "185.146.173.89",
             "server_port": 80,
-            "uuid": "fae062df-b57c-4575-bb75-cff9859b2f04",
+            "uuid": "6ec52bc7-fcd7-4841-ab69-70d6e03a6eda",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -883,9 +881,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@custom_config",
+                "path": "\/@V2rayGodVip=Telegram\/",
                 "headers": {
-                    "Host": "zula.ir"
+                    "Host": "185.146.173.89"
                 }
             }
         },
@@ -1399,27 +1397,6 @@
                 "path": "\/66",
                 "headers": {
                     "Host": "104.26.8.210"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @free1_vpn | 0",
-            "type": "vless",
-            "server": "185.146.173.89",
-            "server_port": 80,
-            "uuid": "6ec52bc7-fcd7-4841-ab69-70d6e03a6eda",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@V2rayGodVip=Telegram\/",
-                "headers": {
-                    "Host": "185.146.173.89"
                 }
             }
         },
