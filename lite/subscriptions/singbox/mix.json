@@ -106,7 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇪SE | vless | @EliV2ray | 14",
                 "🇸🇪SE | vless | @Parsashonam | 20",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇬🇧GB | vless | @VlessConfig | 19",
@@ -124,7 +123,7 @@
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 14",
                 "🇸🇪SE | vless | @DigiV2ray | 17",
                 "🇺🇸US | vless | @v2logy | 16",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 31",
                 "🇬🇧GB | trojan | @PrivateVPNs | 19",
@@ -143,7 +142,7 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 18",
                 "🇸🇪SE | vless | @ServerNett | 21",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 19",
+                "🇨🇦CA | vless | @v2ray_swhil | 20",
                 "🇸🇪SE | vless | @proxyymeliii | 25",
                 "🇸🇪SE | vless | @MsV2ray | 4",
                 "🇨🇦CA | vless | @v2ray1_ng | 5",
@@ -166,7 +165,6 @@
                 "🇨🇦CA | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @Capoit | 12",
                 "🇨🇦CA | vless | @FreakConfig | 1",
-                "🇸🇪SE | vless | @flyv2ray | 18",
                 "🇸🇪SE | vless | @mehrosaboran | 5",
                 "🏳️XX | vless | @kiava | 6",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
@@ -187,7 +185,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇪SE | vless | @EliV2ray | 14",
                 "🇸🇪SE | vless | @Parsashonam | 20",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇬🇧GB | vless | @VlessConfig | 19",
@@ -205,7 +202,7 @@
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 14",
                 "🇸🇪SE | vless | @DigiV2ray | 17",
                 "🇺🇸US | vless | @v2logy | 16",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 31",
                 "🇬🇧GB | trojan | @PrivateVPNs | 19",
@@ -224,7 +221,7 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 18",
                 "🇸🇪SE | vless | @ServerNett | 21",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 19",
+                "🇨🇦CA | vless | @v2ray_swhil | 20",
                 "🇸🇪SE | vless | @proxyymeliii | 25",
                 "🇸🇪SE | vless | @MsV2ray | 4",
                 "🇨🇦CA | vless | @v2ray1_ng | 5",
@@ -247,7 +244,6 @@
                 "🇨🇦CA | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @Capoit | 12",
                 "🇨🇦CA | vless | @FreakConfig | 1",
-                "🇸🇪SE | vless | @flyv2ray | 18",
                 "🇸🇪SE | vless | @mehrosaboran | 5",
                 "🏳️XX | vless | @kiava | 6",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
@@ -282,27 +278,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇸🇪SE | vless | @EliV2ray | 14",
-            "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 8080,
-            "uuid": "49bf08c5-1c1a-4ddd-886f-a36e41394e6e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@Eliv2ray-Succubus,@Eliv2ray-Succubus,@Eliv2ray-Succubus,@Eliv2ray-Succubus?ed=8080",
-                "headers": {
-                    "Host": "185.146.173.58"
-                }
-            }
         },
         {
             "tag": "🇸🇪SE | vless | @Parsashonam | 20",
@@ -342,7 +317,7 @@
         {
             "tag": "🇬🇧GB | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "18.171.50.129",
+            "server": "13.43.38.43",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -501,7 +476,7 @@
             "type": "vless",
             "server": "185.146.173.185",
             "server_port": 2095,
-            "uuid": "ad657e39-5f41-4f9b-9f12-815936d5c19b",
+            "uuid": "92ff0884-98e1-42e8-9f83-5b82471003de",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -669,7 +644,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -734,7 +709,7 @@
         {
             "tag": "🇬🇧GB | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "13.42.161.120",
+            "server": "13.42.92.41",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -1125,11 +1100,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray_swhil | 19",
+            "tag": "🇨🇦CA | vless | @v2ray_swhil | 20",
             "type": "vless",
-            "server": "162.159.134.234",
-            "server_port": 8080,
-            "uuid": "d9a0b062-fb9d-4605-96e4-e7f2944e23e2",
+            "server": "time.is",
+            "server_port": 443,
+            "uuid": "0a48e54b-659e-4b3c-95e6-14da04954f25",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1137,11 +1112,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "ir.proxystorepanel.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "162.159.134.234"
+                    "Host": "ir.proxystorepanel.eu.org"
                 }
             }
         },
@@ -1460,7 +1445,7 @@
             "tag": "🇸🇪SE | vmess | @Hope_Net | 6",
             "type": "vmess",
             "server": "se1.vpnjantit.com",
-            "server_port": 10000,
+            "server_port": 10001,
             "uuid": "68737d4a-12d6-11ef-b1df-00163c623140",
             "security": "auto",
             "alter_id": 0,
@@ -1471,6 +1456,16 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             },
             "transport": {
                 "type": "ws",
@@ -1706,27 +1701,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "pardazesh-tgws.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @flyv2ray | 18",
-            "type": "vless",
-            "server": "185.146.173.185",
-            "server_port": 2095,
-            "uuid": "92ff0884-98e1-42e8-9f83-5b82471003de",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "185.146.173.185"
                 }
             }
         },
