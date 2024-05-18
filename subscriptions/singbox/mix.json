@@ -163,12 +163,12 @@
                 "🇸🇪SE | vless | @ipV2Ray | 8",
                 "🇸🇪SE | vless | @ipV2Ray | 9",
                 "🇨🇦CA | vless | @melov2ray | 0",
-                "🇺🇸US | vless | @melov2ray | 1",
+                "🇨🇦CA | vless | @melov2ray | 1",
                 "🇨🇦CA | vless | @melov2ray | 2",
                 "🇨🇦CA | vless | @melov2ray | 3",
                 "🇨🇦CA | vless | @melov2ray | 4",
                 "🇺🇸US | vless | @melov2ray | 5",
-                "🇺🇸US | vless | @melov2ray | 6",
+                "🇨🇦CA | vless | @melov2ray | 6",
                 "🇨🇦CA | vless | @melov2ray | 7",
                 "🇨🇦CA | vless | @melov2ray | 8",
                 "🇨🇦CA | vless | @melov2ray | 9",
@@ -347,7 +347,7 @@
                 "🇫🇷FR | trojan | @DirectVPN | 14",
                 "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇸🇪SE | trojan | @DirectVPN | 16",
-                "TVCldpmzojryg",
+                "TVCaugknotzzs",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 5",
                 "🇨🇳CN | vmess | @mftizi | 6",
@@ -575,7 +575,7 @@
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🏳️XX | vmess | @Hope_Net | 0",
                 "🏳️XX | vmess | @Hope_Net | 1",
-                "🇺🇸US | vmess | @Hope_Net | 3",
+                "🏳️XX | vmess | @Hope_Net | 2",
                 "🇸🇪SE | vless | @polproxy | 1",
                 "🇺🇸US | vless | @polproxy | 2",
                 "🇺🇸US | vless | @polproxy | 3",
@@ -782,12 +782,12 @@
                 "🇸🇪SE | vless | @ipV2Ray | 8",
                 "🇸🇪SE | vless | @ipV2Ray | 9",
                 "🇨🇦CA | vless | @melov2ray | 0",
-                "🇺🇸US | vless | @melov2ray | 1",
+                "🇨🇦CA | vless | @melov2ray | 1",
                 "🇨🇦CA | vless | @melov2ray | 2",
                 "🇨🇦CA | vless | @melov2ray | 3",
                 "🇨🇦CA | vless | @melov2ray | 4",
                 "🇺🇸US | vless | @melov2ray | 5",
-                "🇺🇸US | vless | @melov2ray | 6",
+                "🇨🇦CA | vless | @melov2ray | 6",
                 "🇨🇦CA | vless | @melov2ray | 7",
                 "🇨🇦CA | vless | @melov2ray | 8",
                 "🇨🇦CA | vless | @melov2ray | 9",
@@ -966,7 +966,7 @@
                 "🇫🇷FR | trojan | @DirectVPN | 14",
                 "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇸🇪SE | trojan | @DirectVPN | 16",
-                "TVCldpmzojryg",
+                "TVCaugknotzzs",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 5",
                 "🇨🇳CN | vmess | @mftizi | 6",
@@ -1194,7 +1194,7 @@
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🏳️XX | vmess | @Hope_Net | 0",
                 "🏳️XX | vmess | @Hope_Net | 1",
-                "🇺🇸US | vmess | @Hope_Net | 3",
+                "🏳️XX | vmess | @Hope_Net | 2",
                 "🇸🇪SE | vless | @polproxy | 1",
                 "🇺🇸US | vless | @polproxy | 2",
                 "🇺🇸US | vless | @polproxy | 3",
@@ -2781,7 +2781,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @melov2ray | 1",
+            "tag": "🇨🇦CA | vless | @melov2ray | 1",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -2886,7 +2886,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @melov2ray | 6",
+            "tag": "🇨🇦CA | vless | @melov2ray | 6",
             "type": "vless",
             "server": "chat.openai.com",
             "server_port": 8080,
@@ -6919,7 +6919,7 @@
             }
         },
         {
-            "tag": "TVCldpmzojryg",
+            "tag": "TVCaugknotzzs",
             "type": "trojan",
             "server": "",
             "server_port": 0,
@@ -12323,6 +12323,30 @@
         {
             "tag": "🏳️XX | vmess | @Hope_Net | 0",
             "type": "vmess",
+            "server": "hk-iv.sserver.top",
+            "server_port": 80,
+            "uuid": "8d0ceab5-1008-300f-996f-0751e11038f1",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ws",
+                "headers": {
+                    "Host": "hk-iv.sserver.top"
+                }
+            }
+        },
+        {
+            "tag": "🏳️XX | vmess | @Hope_Net | 1",
+            "type": "vmess",
             "server": "zzcm09.bdate.xyz",
             "server_port": 1510,
             "uuid": "b9ecdb44-236b-30a7-94f2-f464993d84cf",
@@ -12345,7 +12369,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 1",
+            "tag": "🏳️XX | vmess | @Hope_Net | 2",
             "type": "vmess",
             "server": "cm.mj-cn.cyou",
             "server_port": 16627,
@@ -12365,40 +12389,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "cm.mj-cn.cyou"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 3",
-            "type": "vmess",
-            "server": "172.67.170.103",
-            "server_port": 443,
-            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "glweidf.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "glweidf.sbs"
                 }
             }
         },
