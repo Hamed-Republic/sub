@@ -119,6 +119,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇸🇪SE | vless | @rxv2ray | 16",
                 "🇸🇪SE | vless | @lightning6 | 17",
+                "🇩🇪DE | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 17",
                 "🇨🇦CA | vless | @proxy_kafee | 0",
                 "🇺🇸US | vless | @v2logy | 16",
@@ -144,7 +145,7 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 17",
                 "🇸🇪SE | vless | @proxyymeliii | 23",
                 "🇨🇦CA | vless | @v2ray1_ng | 5",
-                "🇺🇸US | vless | @vless_vmess | 14",
+                "🇨🇦CA | vless | @vless_vmess | 14",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 16",
@@ -168,7 +169,7 @@
                 "🇨🇳CN | vless | @mehrosaboran | 5",
                 "🏳️XX | vless | @kiava | 7",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
-                "🇨🇦CA | vless | @proxy_mtm | 3",
+                "🇨🇦CA | vless | @proxy_mtm | 4",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇦CA | trojan | @kingofilter | 0",
                 "🇨🇷CR | vless | @GozargahVPN | 16",
@@ -198,6 +199,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇸🇪SE | vless | @rxv2ray | 16",
                 "🇸🇪SE | vless | @lightning6 | 17",
+                "🇩🇪DE | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 17",
                 "🇨🇦CA | vless | @proxy_kafee | 0",
                 "🇺🇸US | vless | @v2logy | 16",
@@ -223,7 +225,7 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 17",
                 "🇸🇪SE | vless | @proxyymeliii | 23",
                 "🇨🇦CA | vless | @v2ray1_ng | 5",
-                "🇺🇸US | vless | @vless_vmess | 14",
+                "🇨🇦CA | vless | @vless_vmess | 14",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 16",
@@ -247,7 +249,7 @@
                 "🇨🇳CN | vless | @mehrosaboran | 5",
                 "🏳️XX | vless | @kiava | 7",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
-                "🇨🇦CA | vless | @proxy_mtm | 3",
+                "🇨🇦CA | vless | @proxy_mtm | 4",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇦CA | trojan | @kingofilter | 0",
                 "🇨🇷CR | vless | @GozargahVPN | 16",
@@ -563,6 +565,20 @@
                 "headers": {
                     "Host": "LIGHTNING6-joinbed.filj.top"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @vpn_xw | 0",
+            "type": "vless",
+            "server": "vpn-xw.unoix.co",
+            "server_port": 26833,
+            "uuid": "2e5bd822-eada-4ee2-8001-f4b57ac4c8f2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -1164,7 +1180,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @vless_vmess | 14",
+            "tag": "🇨🇦CA | vless | @vless_vmess | 14",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -1796,7 +1812,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxy_mtm | 3",
+            "tag": "🇨🇦CA | vless | @proxy_mtm | 4",
             "type": "vless",
             "server": "188.114.98.224",
             "server_port": 80,
