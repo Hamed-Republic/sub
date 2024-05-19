@@ -123,14 +123,14 @@
                 "🇸🇪SE | vless | @DigiV2ray | 17",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇺🇸US | vless | @v2logy | 16",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 33",
                 "🇫🇷FR | trojan | @PrivateVPNs | 18",
                 "🇫🇷FR | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 6",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 5",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
                 "🇸🇪SE | vmess | @prrofile_purple | 186",
                 "🇸🇪SE | vless | @customv2ray | 11",
@@ -164,11 +164,11 @@
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇬🇧GB | vmess | @v2Line | 8",
                 "🇺🇸US | vless | @Capoit | 15",
-                "🇺🇸US | vless | @FreakConfig | 3",
+                "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇸🇪SE | vless | @flyv2ray | 13",
                 "🇨🇳CN | vless | @mehrosaboran | 5",
                 "🏳️XX | vless | @kiava | 7",
-                "🇺🇸US | vmess | @nofiltering2 | 1",
+                "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇦CA | trojan | @kingofilter | 0",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
@@ -201,14 +201,14 @@
                 "🇸🇪SE | vless | @DigiV2ray | 17",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇺🇸US | vless | @v2logy | 16",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 33",
                 "🇫🇷FR | trojan | @PrivateVPNs | 18",
                 "🇫🇷FR | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 6",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 5",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
                 "🇸🇪SE | vmess | @prrofile_purple | 186",
                 "🇸🇪SE | vless | @customv2ray | 11",
@@ -242,11 +242,11 @@
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇬🇧GB | vmess | @v2Line | 8",
                 "🇺🇸US | vless | @Capoit | 15",
-                "🇺🇸US | vless | @FreakConfig | 3",
+                "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇸🇪SE | vless | @flyv2ray | 13",
                 "🇨🇳CN | vless | @mehrosaboran | 5",
                 "🏳️XX | vless | @kiava | 7",
-                "🇺🇸US | vmess | @nofiltering2 | 1",
+                "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇦CA | trojan | @kingofilter | 0",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
@@ -668,7 +668,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -809,11 +809,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 6",
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 5",
             "type": "vmess",
-            "server": "147.185.161.125",
-            "server_port": 443,
-            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
+            "server": "38.75.137.27",
+            "server_port": 22324,
+            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -823,23 +823,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ep-sunset-9b11.kekic13319.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ivideos.sbs\/linkws",
-                "headers": {
-                    "Host": "ep-sunset-9b11.kekic13319.workers.dev"
-                }
             }
         },
         {
@@ -1689,7 +1672,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @FreakConfig | 3",
+            "tag": "🇨🇦CA | vless | @FreakConfig | 3",
             "type": "vless",
             "server": "188.114.96.2",
             "server_port": 443,
@@ -1793,7 +1776,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @nofiltering2 | 1",
+            "tag": "🇨🇦CA | vmess | @nofiltering2 | 1",
             "type": "vmess",
             "server": "172.67.74.4",
             "server_port": 443,
