@@ -113,7 +113,7 @@
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 20",
                 "🇸🇪SE | vless | @ipV2Ray | 13",
                 "🇨🇦CA | vless | @melov2ray | 4",
-                "🇺🇸US | vless | @V2pedia | 38",
+                "🇸🇪SE | vless | @V2pedia | 30",
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇸🇪SE | vless | @ARv2ray | 20",
                 "🇸🇪SE | vless | @shh_proxy | 29",
@@ -122,7 +122,8 @@
                 "🇸🇪SE | vless | @free_v2rayyy | 2",
                 "🇸🇪SE | vless | @lightning6 | 17",
                 "🇸🇪SE | vless | @DigiV2ray | 17",
-                "🇨🇦CA | vless | @proxy_kafee | 1",
+                "🇨🇦CA | vless | @proxy_kafee | 0",
+                "🇺🇸US | vless | @v2logy | 16",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 0",
                 "🇸🇪SE | vless | @V2rayNGn | 31",
@@ -146,7 +147,7 @@
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @polproxy | 12",
-                "🇸🇪SE | vless | @Outlinev2rayNG | 18",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 18",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 8",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 18",
@@ -175,7 +176,7 @@
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 20",
                 "🇸🇪SE | vless | @ipV2Ray | 13",
                 "🇨🇦CA | vless | @melov2ray | 4",
-                "🇺🇸US | vless | @V2pedia | 38",
+                "🇸🇪SE | vless | @V2pedia | 30",
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇸🇪SE | vless | @ARv2ray | 20",
                 "🇸🇪SE | vless | @shh_proxy | 29",
@@ -184,7 +185,8 @@
                 "🇸🇪SE | vless | @free_v2rayyy | 2",
                 "🇸🇪SE | vless | @lightning6 | 17",
                 "🇸🇪SE | vless | @DigiV2ray | 17",
-                "🇨🇦CA | vless | @proxy_kafee | 1",
+                "🇨🇦CA | vless | @proxy_kafee | 0",
+                "🇺🇸US | vless | @v2logy | 16",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 0",
                 "🇸🇪SE | vless | @V2rayNGn | 31",
@@ -208,7 +210,7 @@
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @polproxy | 12",
-                "🇸🇪SE | vless | @Outlinev2rayNG | 18",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 18",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 8",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 18",
@@ -396,11 +398,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2pedia | 38",
+            "tag": "🇸🇪SE | vless | @V2pedia | 30",
             "type": "vless",
-            "server": "blockchain-explorer.win7bitcasino1.com.",
-            "server_port": 80,
-            "uuid": "8a608a40-c6b7-46b0-a12d-7cd9f7a36198",
+            "server": "join-zedmodeon.kanal-asli-zedmodeon.shop.",
+            "server_port": 2095,
+            "uuid": "0870314f-9920-4223-aaf4-7211857d78ac",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -410,9 +412,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON",
+                "path": "\/ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
                 "headers": {
-                    "Host": "blockchain-explorer.win7bitcasino1.com."
+                    "Host": "join-zedmodeon.kanal-asli-zedmodeon.shop."
                 }
             }
         },
@@ -595,11 +597,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxy_kafee | 1",
+            "tag": "🇨🇦CA | vless | @proxy_kafee | 0",
             "type": "vless",
-            "server": "104.18.202.232",
-            "server_port": 443,
-            "uuid": "8b7efacf-8e83-4e51-ab55-1263baccd4b2",
+            "server": "172.67.217.107",
+            "server_port": 80,
+            "uuid": "7143e704-5957-42db-bd38-670062722461",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -607,21 +609,32 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "7f905f51.garywelch.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "172.67.217.107"
                 }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @v2logy | 16",
+            "type": "vless",
+            "server": "blockchain-explorer.win7bitcasino1.com.",
+            "server_port": 80,
+            "uuid": "8a608a40-c6b7-46b0-a12d-7cd9f7a36198",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=2560",
+                "path": "\/ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON",
                 "headers": {
-                    "Host": "7f905f51.garywelch.pages.dev"
+                    "Host": "blockchain-explorer.win7bitcasino1.com."
                 }
             }
         },
@@ -1212,11 +1225,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @Outlinev2rayNG | 18",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 18",
             "type": "vless",
-            "server": "185.146.173.32",
-            "server_port": 8080,
-            "uuid": "Telegram-V2RAXX",
+            "server": "104.21.65.133",
+            "server_port": 80,
+            "uuid": "ab9d484a-98cd-4032-9931-a015366c41fc",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1226,9 +1239,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@V2RAXX-@V2RAXX",
+                "path": "\/VpnBigBang-Speed.ir.shop.com",
                 "headers": {
-                    "Host": "185.146.173.32"
+                    "Host": "104.21.65.133"
                 }
             }
         },
