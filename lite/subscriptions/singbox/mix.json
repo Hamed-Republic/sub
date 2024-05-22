@@ -145,10 +145,10 @@
                 "🇸🇪SE | vless | @ServerNett | 11",
                 "🇸🇪SE | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 2",
-                "🇸🇪SE | vless | @proxyymeliii | 21",
+                "🇨🇦CA | vless | @v2ray_swhil | 3",
+                "🇨🇦CA | vless | @proxyymeliii | 21",
                 "🇩🇪DE | vless | @v2ray1_ng | 8",
-                "🇸🇪SE | vless | @V2RayTz | 17",
+                "🇨🇦CA | vless | @V2RayTz | 16",
                 "🇨🇦CA | vless | @VmessProtocol | 13",
                 "🇨🇦CA | vless | @DailyV2RY | 82",
                 "🇨🇦CA | vless | @sinabigo | 6",
@@ -224,10 +224,10 @@
                 "🇸🇪SE | vless | @ServerNett | 11",
                 "🇸🇪SE | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 2",
-                "🇸🇪SE | vless | @proxyymeliii | 21",
+                "🇨🇦CA | vless | @v2ray_swhil | 3",
+                "🇨🇦CA | vless | @proxyymeliii | 21",
                 "🇩🇪DE | vless | @v2ray1_ng | 8",
-                "🇸🇪SE | vless | @V2RayTz | 17",
+                "🇨🇦CA | vless | @V2RayTz | 16",
                 "🇨🇦CA | vless | @VmessProtocol | 13",
                 "🇨🇦CA | vless | @DailyV2RY | 82",
                 "🇨🇦CA | vless | @sinabigo | 6",
@@ -1181,7 +1181,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray_swhil | 2",
+            "tag": "🇨🇦CA | vless | @v2ray_swhil | 3",
             "type": "vless",
             "server": "check-host.net",
             "server_port": 80,
@@ -1202,11 +1202,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @proxyymeliii | 21",
+            "tag": "🇨🇦CA | vless | @proxyymeliii | 21",
             "type": "vless",
-            "server": "LIGHTNING6-joinbed.filj.top",
-            "server_port": 8880,
-            "uuid": "3e38bb56-8143-4ab7-908b-586cd16aa9b6",
+            "server": "104.16.54.14",
+            "server_port": 443,
+            "uuid": "3cdbc462-6272-4c2a-9a2d-1525a81c7dfa",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1214,11 +1214,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "xeeqi.kevani8800.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray",
+                "path": "\/",
                 "headers": {
-                    "Host": "LIGHTNING6-joinbed.filj.top"
+                    "Host": "xeeqi.kevani8800.workers.dev"
                 }
             }
         },
@@ -1252,11 +1262,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2RayTz | 17",
+            "tag": "🇨🇦CA | vless | @V2RayTz | 16",
             "type": "vless",
-            "server": "185.146.173.22",
+            "server": "104.18.203.232",
             "server_port": 2095,
-            "uuid": "DIGIV2RAY",
+            "uuid": "DIGiV2RAy",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1268,7 +1278,7 @@
                 "type": "ws",
                 "path": "\/DIGIV2RAY-DigiV2ray-digiv2ray?ed=1024",
                 "headers": {
-                    "Host": "185.146.173.22"
+                    "Host": "104.18.203.232"
                 }
             }
         },
@@ -1540,9 +1550,9 @@
         {
             "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 11",
             "type": "vless",
-            "server": "198.41.198.76",
-            "server_port": 443,
-            "uuid": "38a2070d-a256-48f3-891b-c9b68b01c8f7",
+            "server": "172.67.217.107",
+            "server_port": 80,
+            "uuid": "7143e704-5957-42db-bd38-670062722461",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1550,21 +1560,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "jd.wxgqlfx.top",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "jd.wxgqlfx.top"
+                    "Host": "172.67.217.107"
                 }
             }
         },
