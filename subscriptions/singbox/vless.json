@@ -176,7 +176,7 @@
                 "🇨🇦CA | vless | @melov2ray | 4",
                 "🇸🇪SE | vless | @melov2ray | 5",
                 "🇨🇦CA | vless | @melov2ray | 6",
-                "🇨🇦CA | vless | @melov2ray | 7",
+                "🇺🇸US | vless | @melov2ray | 7",
                 "🇨🇦CA | vless | @melov2ray | 8",
                 "🇨🇦CA | vless | @melov2ray | 9",
                 "🇸🇪SE | vless | @V2pedia | 7",
@@ -188,7 +188,7 @@
                 "🏳️XX | vless | @V2pedia | 14",
                 "🇸🇪SE | vless | @V2pedia | 15",
                 "🏳️XX | vless | @V2pedia | 16",
-                "🇨🇦CA | vless | @V2pedia | 17",
+                "🇺🇸US | vless | @V2pedia | 17",
                 "🇸🇪SE | vless | @V2pedia | 18",
                 "🏳️XX | vless | @V2pedia | 19",
                 "🇺🇸US | vless | @V2pedia | 20",
@@ -380,6 +380,7 @@
                 "🇺🇸US | vless | @vmessorg | 2",
                 "🇺🇸US | vless | @vmessorg | 3",
                 "🇺🇸US | vless | @vmessorg | 4",
+                "🇺🇸US | vless | @vmessorg | 6",
                 "🇺🇸US | vless | @v2rayNG_Matsuri | 0",
                 "🇺🇸US | vless | @v2rayNG_Matsuri | 1",
                 "🇺🇸US | vless | @v2rayNG_Matsuri | 2",
@@ -463,7 +464,7 @@
                 "🇸🇪SE | vless | @V2RayTz | 9",
                 "🇸🇪SE | vless | @V2RayTz | 10",
                 "🇸🇪SE | vless | @V2RayTz | 11",
-                "TVCkhxoastftz",
+                "TVCrqjsjaurng",
                 "🇺🇸US | vless | @V2RayTz | 16",
                 "🇺🇸US | vless | @VmessProtocol | 0",
                 "🇺🇸US | vless | @VmessProtocol | 5",
@@ -687,7 +688,7 @@
                 "🇨🇦CA | vless | @melov2ray | 4",
                 "🇸🇪SE | vless | @melov2ray | 5",
                 "🇨🇦CA | vless | @melov2ray | 6",
-                "🇨🇦CA | vless | @melov2ray | 7",
+                "🇺🇸US | vless | @melov2ray | 7",
                 "🇨🇦CA | vless | @melov2ray | 8",
                 "🇨🇦CA | vless | @melov2ray | 9",
                 "🇸🇪SE | vless | @V2pedia | 7",
@@ -699,7 +700,7 @@
                 "🏳️XX | vless | @V2pedia | 14",
                 "🇸🇪SE | vless | @V2pedia | 15",
                 "🏳️XX | vless | @V2pedia | 16",
-                "🇨🇦CA | vless | @V2pedia | 17",
+                "🇺🇸US | vless | @V2pedia | 17",
                 "🇸🇪SE | vless | @V2pedia | 18",
                 "🏳️XX | vless | @V2pedia | 19",
                 "🇺🇸US | vless | @V2pedia | 20",
@@ -891,6 +892,7 @@
                 "🇺🇸US | vless | @vmessorg | 2",
                 "🇺🇸US | vless | @vmessorg | 3",
                 "🇺🇸US | vless | @vmessorg | 4",
+                "🇺🇸US | vless | @vmessorg | 6",
                 "🇺🇸US | vless | @v2rayNG_Matsuri | 0",
                 "🇺🇸US | vless | @v2rayNG_Matsuri | 1",
                 "🇺🇸US | vless | @v2rayNG_Matsuri | 2",
@@ -974,7 +976,7 @@
                 "🇸🇪SE | vless | @V2RayTz | 9",
                 "🇸🇪SE | vless | @V2RayTz | 10",
                 "🇸🇪SE | vless | @V2RayTz | 11",
-                "TVCkhxoastftz",
+                "TVCrqjsjaurng",
                 "🇺🇸US | vless | @V2RayTz | 16",
                 "🇺🇸US | vless | @VmessProtocol | 0",
                 "🇺🇸US | vless | @VmessProtocol | 5",
@@ -2797,7 +2799,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 7",
+            "tag": "🇺🇸US | vless | @melov2ray | 7",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -3124,7 +3126,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2pedia | 17",
+            "tag": "🇺🇸US | vless | @V2pedia | 17",
             "type": "vless",
             "server": "discord.com.",
             "server_port": 80,
@@ -7588,6 +7590,27 @@
             }
         },
         {
+            "tag": "🇺🇸US | vless | @vmessorg | 6",
+            "type": "vless",
+            "server": "104.18.14.118",
+            "server_port": 80,
+            "uuid": "42b4677d-0557-4a8d-a3a5-7cb928a31e54",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg",
+                "headers": {
+                    "Host": "104.18.14.118"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | vless | @v2rayNG_Matsuri | 0",
             "type": "vless",
             "server": "zula.ir",
@@ -9712,7 +9735,7 @@
             }
         },
         {
-            "tag": "TVCkhxoastftz",
+            "tag": "TVCrqjsjaurng",
             "type": "vless",
             "server": "",
             "server_port": 0,
