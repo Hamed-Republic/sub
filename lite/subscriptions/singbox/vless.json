@@ -107,7 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
-                "🇬🇧GB | vless | @VlessConfig | 18",
+                "🇮🇪IE | vless | @VlessConfig | 18",
                 "🇸🇪SE | vless | @ipV2Ray | 13",
                 "🇸🇪SE | vless | @melov2ray | 10",
                 "🇸🇪SE | vless | @V2pedia | 18",
@@ -124,10 +124,9 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 31",
-                "🇨🇦CA | vless | @Outline_Vpn | 19",
+                "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇨🇦CA | vless | @prrofile_purple | 193",
-                "🇨🇦CA | vless | @customv2ray | 11",
-                "🇨🇦CA | vless | @UnlimitedDev | 9",
+                "🇨🇦CA | vless | @UnlimitedDev | 10",
                 "🇨🇦CA | vless | @vmessorg | 6",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 10",
                 "🇸🇪SE | vless | @v2rayngvpn | 13",
@@ -152,7 +151,7 @@
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 11",
                 "🇸🇪SE | vless | @flyv2ray | 16",
-                "🇨🇳CN | vless | @mehrosaboran | 4",
+                "🇨🇳CN | vless | @mehrosaboran | 6",
                 "🏳️XX | vless | @kiava | 7",
                 "🇨🇦CA | vless | @proxy_mtm | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -168,7 +167,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
-                "🇬🇧GB | vless | @VlessConfig | 18",
+                "🇮🇪IE | vless | @VlessConfig | 18",
                 "🇸🇪SE | vless | @ipV2Ray | 13",
                 "🇸🇪SE | vless | @melov2ray | 10",
                 "🇸🇪SE | vless | @V2pedia | 18",
@@ -185,10 +184,9 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 31",
-                "🇨🇦CA | vless | @Outline_Vpn | 19",
+                "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇨🇦CA | vless | @prrofile_purple | 193",
-                "🇨🇦CA | vless | @customv2ray | 11",
-                "🇨🇦CA | vless | @UnlimitedDev | 9",
+                "🇨🇦CA | vless | @UnlimitedDev | 10",
                 "🇨🇦CA | vless | @vmessorg | 6",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 10",
                 "🇸🇪SE | vless | @v2rayngvpn | 13",
@@ -213,7 +211,7 @@
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 11",
                 "🇸🇪SE | vless | @flyv2ray | 16",
-                "🇨🇳CN | vless | @mehrosaboran | 4",
+                "🇨🇳CN | vless | @mehrosaboran | 6",
                 "🏳️XX | vless | @kiava | 7",
                 "🇨🇦CA | vless | @proxy_mtm | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -258,9 +256,9 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @VlessConfig | 18",
+            "tag": "🇮🇪IE | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "18.175.98.54",
+            "server": "18.200.220.52",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -645,11 +643,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outline_Vpn | 19",
+            "tag": "🇨🇦CA | vless | @Outline_Vpn | 18",
             "type": "vless",
-            "server": "104.18.203.232",
-            "server_port": 8880,
-            "uuid": "d3354ef2-17eb-46e3-b7e9-c2ecf13e6851",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "c0cf878e-08b3-4e10-b055-b334da6a6f71",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -661,7 +659,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "104.18.203.232"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
@@ -697,32 +695,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @customv2ray | 11",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "c0cf878e-08b3-4e10-b055-b334da6a6f71",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @UnlimitedDev | 9",
+            "tag": "🇨🇦CA | vless | @UnlimitedDev | 10",
             "type": "vless",
             "server": "104.17.169.114",
             "server_port": 80,
-            "uuid": "daf7c573-72b6-4954-b3ca-7aa36f00b3f2",
+            "uuid": "ca1579b9-afe2-4267-915f-49a395cb3142",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1359,11 +1336,11 @@
             }
         },
         {
-            "tag": "🇨🇳CN | vless | @mehrosaboran | 4",
+            "tag": "🇨🇳CN | vless | @mehrosaboran | 6",
             "type": "vless",
             "server": "103.184.44.104",
             "server_port": 8880,
-            "uuid": "30db1fb7-b7fc-464e-a414-53e36e0098a7",
+            "uuid": "fe04082c-3ed6-40fc-ac9e-f11487996e39",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
