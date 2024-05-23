@@ -112,7 +112,7 @@
                 "🇸🇪SE | vless | @ipV2Ray | 13",
                 "🇨🇦CA | vless | @melov2ray | 9",
                 "🏳️XX | vless | @V2pedia | 16",
-                "🇧🇿BZ | vless | @frev2ray | 0",
+                "🇮🇷IR | vless | @frev2ray | 0",
                 "🇸🇪SE | vless | @ARv2ray | 20",
                 "🇸🇪SE | vless | @shh_proxy | 29",
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
@@ -137,7 +137,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 4",
                 "🇸🇪SE | vless | @proxyymeliii | 21",
-                "🇨🇦CA | vless | @v2ray1_ng | 7",
+                "🇩🇪DE | vless | @v2ray1_ng | 8",
                 "🇨🇦CA | vless | @V2RayTz | 16",
                 "🇸🇪SE | vless | @DailyV2RY | 82",
                 "🇨🇦CA | vless | @sinabigo | 6",
@@ -173,7 +173,7 @@
                 "🇸🇪SE | vless | @ipV2Ray | 13",
                 "🇨🇦CA | vless | @melov2ray | 9",
                 "🏳️XX | vless | @V2pedia | 16",
-                "🇧🇿BZ | vless | @frev2ray | 0",
+                "🇮🇷IR | vless | @frev2ray | 0",
                 "🇸🇪SE | vless | @ARv2ray | 20",
                 "🇸🇪SE | vless | @shh_proxy | 29",
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
@@ -198,7 +198,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 4",
                 "🇸🇪SE | vless | @proxyymeliii | 21",
-                "🇨🇦CA | vless | @v2ray1_ng | 7",
+                "🇩🇪DE | vless | @v2ray1_ng | 8",
                 "🇨🇦CA | vless | @V2RayTz | 16",
                 "🇸🇪SE | vless | @DailyV2RY | 82",
                 "🇨🇦CA | vless | @sinabigo | 6",
@@ -373,7 +373,7 @@
             }
         },
         {
-            "tag": "🇧🇿BZ | vless | @frev2ray | 0",
+            "tag": "🇮🇷IR | vless | @frev2ray | 0",
             "type": "vless",
             "server": "bloo-NEtflix23.maj.gamerme.IR",
             "server_port": 80,
@@ -958,12 +958,12 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray1_ng | 7",
+            "tag": "🇩🇪DE | vless | @v2ray1_ng | 8",
             "type": "vless",
-            "server": "188.114.97.3",
-            "server_port": 443,
-            "uuid": "fb853741-88ef-4aa0-ba2f-999f04535960",
-            "flow": "",
+            "server": "128.140.54.142",
+            "server_port": 57458,
+            "uuid": "42c626b8-171d-4e11-9582-09f1b07c45d8",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -972,19 +972,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "HovEyda-ARIAMEHR-KinG.PAgEs.Dev",
+                "server_name": "zula.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-proxy_mtm-telegram-proxy_mtm?ed=2560",
-                "headers": {
-                    "Host": "HovEyda-ARIAMEHR-KinG.PAgEs.Dev"
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "PpfDUc1F8zQGeaDUcnSQSqzwy_a654XoT7KT2HsCykk",
+                    "short_id": "5a93d4ff"
                 }
             }
         },
