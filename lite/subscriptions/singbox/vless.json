@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇸🇪SE | vless | @EliV2ray | 9",
                 "🇸🇪SE | vless | @Parsashonam | 13",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇮🇪IE | vless | @VlessConfig | 16",
@@ -124,7 +125,7 @@
                 "🇸🇪SE | vless | @DigiV2ray | 15",
                 "🇨🇦CA | vless | @proxy_kafee | 1",
                 "🇸🇪SE | vless | @v2logy | 16",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 31",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
@@ -134,7 +135,7 @@
                 "🇨🇦CA | vless | @vmessorg | 6",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 13",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
-                "🇸🇪SE | vless | @ServerNett | 13",
+                "🇨🇦CA | vless | @ServerNett | 12",
                 "🇸🇪SE | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 6",
@@ -147,7 +148,7 @@
                 "🇨🇦CA | vless | @proxystore11 | 3",
                 "🇸🇪SE | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @polproxy | 8",
-                "🇺🇸US | vless | @Outlinev2rayNG | 11",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 12",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 13",
@@ -168,6 +169,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇸🇪SE | vless | @EliV2ray | 9",
                 "🇸🇪SE | vless | @Parsashonam | 13",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇮🇪IE | vless | @VlessConfig | 16",
@@ -186,7 +188,7 @@
                 "🇸🇪SE | vless | @DigiV2ray | 15",
                 "🇨🇦CA | vless | @proxy_kafee | 1",
                 "🇸🇪SE | vless | @v2logy | 16",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 31",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
@@ -196,7 +198,7 @@
                 "🇨🇦CA | vless | @vmessorg | 6",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 13",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
-                "🇸🇪SE | vless | @ServerNett | 13",
+                "🇨🇦CA | vless | @ServerNett | 12",
                 "🇸🇪SE | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 6",
@@ -209,7 +211,7 @@
                 "🇨🇦CA | vless | @proxystore11 | 3",
                 "🇸🇪SE | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @polproxy | 8",
-                "🇺🇸US | vless | @Outlinev2rayNG | 11",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 12",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 13",
@@ -244,6 +246,27 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇸🇪SE | vless | @EliV2ray | 9",
+            "type": "vless",
+            "server": "185.146.173.1",
+            "server_port": 80,
+            "uuid": "d5657059-28ce-4646-bebc-aaa7278bb7fc",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@ELiV2RAY-@ELiV2RAY-@ELiV2RAY,V2ray.motorcycles.Elmahstyle.ir",
+                "headers": {
+                    "Host": "185.146.173.1"
+                }
+            }
         },
         {
             "tag": "🇸🇪SE | vless | @Parsashonam | 13",
@@ -647,7 +670,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -867,11 +890,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ServerNett | 13",
+            "tag": "🇨🇦CA | vless | @ServerNett | 12",
             "type": "vless",
-            "server": "185.146.173.122",
-            "server_port": 8080,
-            "uuid": "c6a3239b-15f2-45d5-9e87-bb9d60e23746",
+            "server": "check-host.net",
+            "server_port": 8443,
+            "uuid": "6f4eb3da-4062-4747-91f8-3e843b2891b0",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -879,12 +902,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "185.146.173.122"
+            "tls": {
+                "enabled": true,
+                "server_name": "hesha.servernet.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1180,7 +1213,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 11",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 12",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
