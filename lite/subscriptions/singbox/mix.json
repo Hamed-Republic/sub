@@ -106,7 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇪SE | vless | @EliV2ray | 4",
                 "🇸🇪SE | vless | @Parsashonam | 16",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇺🇸US | vless | @VlessConfig | 17",
@@ -147,7 +146,7 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 10",
                 "🇨🇦CA | vless | @vless_vmess | 8",
                 "🇨🇦CA | vless | @V2RayTz | 18",
-                "🇺🇸US | vless | @VmessProtocol | 16",
+                "🇨🇦CA | vless | @VmessProtocol | 16",
                 "🇨🇦CA | vless | @DailyV2RY | 142",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇩🇪DE | vless | @lrnbymaa | 26",
@@ -155,7 +154,7 @@
                 "🇨🇦CA | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇪SE | vless | @free1_vpn | 0",
-                "🏳️XX | vmess | @Hope_Net | 6",
+                "🇸🇪SE | vmess | @Hope_Net | 4",
                 "🇸🇪SE | vless | @polproxy | 9",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
@@ -166,7 +165,7 @@
                 "🇸🇪SE | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @flyv2ray | 16",
                 "🇮🇷IR | vless | @FAKEOFTVC | 1",
-                "🇸🇪SE | vless | @mehrosaboran | 5",
+                "🇸🇪SE | vless | @mehrosaboran | 6",
                 "🏳️XX | vless | @kiava | 8",
                 "🇸🇪SE | vless | @proxy_mtm | 5",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -183,7 +182,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇪SE | vless | @EliV2ray | 4",
                 "🇸🇪SE | vless | @Parsashonam | 16",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇺🇸US | vless | @VlessConfig | 17",
@@ -224,7 +222,7 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 10",
                 "🇨🇦CA | vless | @vless_vmess | 8",
                 "🇨🇦CA | vless | @V2RayTz | 18",
-                "🇺🇸US | vless | @VmessProtocol | 16",
+                "🇨🇦CA | vless | @VmessProtocol | 16",
                 "🇨🇦CA | vless | @DailyV2RY | 142",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇩🇪DE | vless | @lrnbymaa | 26",
@@ -232,7 +230,7 @@
                 "🇨🇦CA | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇪SE | vless | @free1_vpn | 0",
-                "🏳️XX | vmess | @Hope_Net | 6",
+                "🇸🇪SE | vmess | @Hope_Net | 4",
                 "🇸🇪SE | vless | @polproxy | 9",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
@@ -243,7 +241,7 @@
                 "🇸🇪SE | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @flyv2ray | 16",
                 "🇮🇷IR | vless | @FAKEOFTVC | 1",
-                "🇸🇪SE | vless | @mehrosaboran | 5",
+                "🇸🇪SE | vless | @mehrosaboran | 6",
                 "🏳️XX | vless | @kiava | 8",
                 "🇸🇪SE | vless | @proxy_mtm | 5",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -274,27 +272,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇸🇪SE | vless | @EliV2ray | 4",
-            "type": "vless",
-            "server": "185.146.173.1",
-            "server_port": 80,
-            "uuid": "285ad466-705a-42ef-b7f1-6303303e67c0",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@ELiV2RAY-@ELiV2RAY-@ELiV2RAY,V2ray.motorcycles.Elmahstyle.ir",
-                "headers": {
-                    "Host": "185.146.173.1"
-                }
-            }
         },
         {
             "tag": "🇸🇪SE | vless | @Parsashonam | 16",
@@ -1264,7 +1241,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @VmessProtocol | 16",
+            "tag": "🇨🇦CA | vless | @VmessProtocol | 16",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 443,
@@ -1454,13 +1431,13 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 6",
+            "tag": "🇸🇪SE | vmess | @Hope_Net | 4",
             "type": "vmess",
-            "server": "vfly5.xyz",
-            "server_port": 443,
-            "uuid": "825136bb-fc0a-4f43-8307-dc2e36f27e2d",
+            "server": "web.mobilemostafa.ir",
+            "server_port": 8080,
+            "uuid": "4739c52b-c1a3-450a-822d-f9dbbbec2f3b",
             "security": "auto",
-            "alter_id": 64,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -1469,21 +1446,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "vfly5.xyz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/myblog",
+                "path": "\/mesh-vmws\/package.zip",
                 "headers": {
-                    "Host": "vfly5.xyz"
+                    "Host": ""
                 }
             }
         },
@@ -1745,7 +1712,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @mehrosaboran | 5",
+            "tag": "🇸🇪SE | vless | @mehrosaboran | 6",
             "type": "vless",
             "server": "185.146.173.94",
             "server_port": 80,
