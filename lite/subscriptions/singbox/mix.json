@@ -132,7 +132,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
-                "🇨🇦CA | vless | @prrofile_purple | 191",
+                "🇨🇦CA | vless | @prrofile_purple | 181",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 12",
                 "🇨🇦CA | vless | @vmessorg | 6",
@@ -154,7 +154,7 @@
                 "🇨🇦CA | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇪SE | vless | @free1_vpn | 0",
-                "🏳️XX | vmess | @Hope_Net | 9",
+                "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇸🇪SE | vless | @polproxy | 9",
                 "🇺🇸US | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
@@ -208,7 +208,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
-                "🇨🇦CA | vless | @prrofile_purple | 191",
+                "🇨🇦CA | vless | @prrofile_purple | 181",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 12",
                 "🇨🇦CA | vless | @vmessorg | 6",
@@ -230,7 +230,7 @@
                 "🇨🇦CA | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇪SE | vless | @free1_vpn | 0",
-                "🏳️XX | vmess | @Hope_Net | 9",
+                "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇸🇪SE | vless | @polproxy | 9",
                 "🇺🇸US | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
@@ -857,11 +857,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @prrofile_purple | 191",
+            "tag": "🇨🇦CA | vless | @prrofile_purple | 181",
             "type": "vless",
-            "server": "104.18.202.232",
-            "server_port": 443,
-            "uuid": "17a7bf97-fef5-4101-a5c5-7c730fabeeee",
+            "server": "172.66.213.5",
+            "server_port": 8080,
+            "uuid": "2e3f29f2-8a9b-48a6-81be-6725742145d6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -869,21 +869,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "bpb-worker-panel-h5f.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=2560",
+                "path": "\/?ed=2053",
                 "headers": {
-                    "Host": "bpb-worker-panel-h5f.pages.dev"
+                    "Host": "172.66.213.5"
                 }
             }
         },
@@ -1419,13 +1409,13 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 9",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "app.ssfree.ru",
+            "server": "visa.com",
             "server_port": 443,
-            "uuid": "51433202-dca8-11ec-a58f-000017022008",
+            "uuid": "f5f123f8-123e-40bf-b1c1-1c9f0c3dcfbd",
             "security": "auto",
-            "alter_id": 64,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -1436,7 +1426,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "app.ssfree.ru",
+                "server_name": "de3.v2vmess.site",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1446,9 +1436,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/getweather",
+                "path": "\/vmess",
                 "headers": {
-                    "Host": "app.ssfree.ru"
+                    "Host": "de3.v2vmess.site"
                 }
             }
         },
@@ -1714,7 +1704,7 @@
             "type": "vless",
             "server": "103.184.44.104",
             "server_port": 8880,
-            "uuid": "57f1f009-d3ce-4144-a3e3-5cda8f7e5607",
+            "uuid": "244ad12a-68f2-42a3-aba6-02124f2d916d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
