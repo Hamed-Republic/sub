@@ -110,7 +110,7 @@
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇨🇦CA | vless | @VlessConfig | 17",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 25",
-                "🇸🇪SE | vless | @ipV2Ray | 15",
+                "🇸🇪SE | vless | @ipV2Ray | 13",
                 "🇨🇦CA | vless | @melov2ray | 8",
                 "🇨🇦CA | vless | @V2pedia | 10",
                 "🇮🇷IR | vless | @frev2ray | 1",
@@ -141,7 +141,8 @@
                 "🇸🇪SE | vless | @proxyymeliii | 24",
                 "🇨🇦CA | vless | @v2ray1_ng | 6",
                 "🇨🇦CA | vless | @vless_vmess | 7",
-                "🇸🇪SE | vless | @V2RayTz | 15",
+                "🇨🇦CA | vless | @V2RayTz | 17",
+                "🇳🇴NO | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 89",
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 29",
@@ -151,7 +152,7 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 4",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 13",
-                "🇺🇸US | vless | @FreakConfig | 8",
+                "🇨🇦CA | vless | @FreakConfig | 8",
                 "🇸🇪SE | vless | @flyv2ray | 17",
                 "🇨🇦CA | vless | @mehrosaboran | 5",
                 "🏳️XX | vless | @kiava | 10",
@@ -172,7 +173,7 @@
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇨🇦CA | vless | @VlessConfig | 17",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 25",
-                "🇸🇪SE | vless | @ipV2Ray | 15",
+                "🇸🇪SE | vless | @ipV2Ray | 13",
                 "🇨🇦CA | vless | @melov2ray | 8",
                 "🇨🇦CA | vless | @V2pedia | 10",
                 "🇮🇷IR | vless | @frev2ray | 1",
@@ -203,7 +204,8 @@
                 "🇸🇪SE | vless | @proxyymeliii | 24",
                 "🇨🇦CA | vless | @v2ray1_ng | 6",
                 "🇨🇦CA | vless | @vless_vmess | 7",
-                "🇸🇪SE | vless | @V2RayTz | 15",
+                "🇨🇦CA | vless | @V2RayTz | 17",
+                "🇳🇴NO | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 89",
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 29",
@@ -213,7 +215,7 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 4",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 13",
-                "🇺🇸US | vless | @FreakConfig | 8",
+                "🇨🇦CA | vless | @FreakConfig | 8",
                 "🇸🇪SE | vless | @flyv2ray | 17",
                 "🇨🇦CA | vless | @mehrosaboran | 5",
                 "🏳️XX | vless | @kiava | 10",
@@ -333,11 +335,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ipV2Ray | 15",
+            "tag": "🇸🇪SE | vless | @ipV2Ray | 13",
             "type": "vless",
             "server": "185.146.173.58",
             "server_port": 80,
-            "uuid": "Telegram-ipV2Ray-uyz",
+            "uuid": "Telegram-ipV2Ray-tre",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1054,11 +1056,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2RayTz | 15",
+            "tag": "🇨🇦CA | vless | @V2RayTz | 17",
             "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 80,
-            "uuid": "%61%65%65%62%66%31%37%62%2d%34%66%34%34%2d%34%36%35%66%2d%61%33%62%36%2d%66%38%33%35%64%32%39%38%34%39%35%66",
+            "server": "172.67.208.41",
+            "server_port": 443,
+            "uuid": "%32%66%64%37%33%64%66%38%2d%36%34%39%65%2d%34%64%63%36%2d%66%63%30%61%2d%61%37%64%35%30%36%61%63%30%30%63%66",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1066,11 +1068,50 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "72.morgensport.nl",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
+                "path": "\/VMESSKHODAM,VMESSKHODAM,VMESSKHODAM,VMESSKHODAM,VMESSKHODAM,VMESSKHODAM,VMESSKHODAM,VMESSKHODAM,VMESSKHODAM,VMESSKHODAM,VMESSKHODAM,VMESSKHODAM,VMESSKHODAM,VMESSKHODAM,VMESSKHODAM,VMESSKHODAM,VMESSKHODAM,VMESSKHODAM",
                 "headers": {
-                    "Host": "185.146.173.58"
+                    "Host": "72.morgensport.nl"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇴NO | vless | @VmessProtocol | 19",
+            "type": "vless",
+            "server": "185.125.171.13",
+            "server_port": 443,
+            "uuid": "a09373e2-e120-457d-9ec9-ea7fe8bedb52",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "partner.g2.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
                 }
             }
         },
@@ -1295,7 +1336,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @FreakConfig | 8",
+            "tag": "🇨🇦CA | vless | @FreakConfig | 8",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
