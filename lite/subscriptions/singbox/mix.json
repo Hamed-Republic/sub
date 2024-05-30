@@ -109,6 +109,7 @@
                 "🇸🇪SE | vless | @Parsashonam | 14",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇨🇦CA | vless | @VlessConfig | 17",
+                "🇸🇪SE | vless | @VPNCUSTOMIZE | 24",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 8",
                 "🇨🇦CA | vless | @V2pedia | 13",
@@ -124,7 +125,6 @@
                 "🇨🇦CA | vless | @proxy_kafee | 1",
                 "🇨🇦CA | vless | @v2logy | 15",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇸🇪SE | vless | @ProxyForOpeta | 3",
                 "🇩🇪DE | vless | @V2rayNGn | 36",
                 "🇩🇪DE | trojan | @PrivateVPNs | 17",
                 "🇨🇦CA | trojan | @DirectVPN | 17",
@@ -149,9 +149,9 @@
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 33",
                 "🇸🇪SE | vless | @V2RayTz | 14",
                 "🇨🇦CA | vless | @DailyV2RY | 100",
-                "🇮🇷IR | vless | @sinabigo | 4",
+                "🇮🇷IR | vless | @sinabigo | 5",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @proxystore11 | 4",
+                "🇺🇸US | vless | @proxystore11 | 4",
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 5",
                 "🇺🇦UA | vless | @VPNCLOP | 1",
@@ -185,6 +185,7 @@
                 "🇸🇪SE | vless | @Parsashonam | 14",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇨🇦CA | vless | @VlessConfig | 17",
+                "🇸🇪SE | vless | @VPNCUSTOMIZE | 24",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 8",
                 "🇨🇦CA | vless | @V2pedia | 13",
@@ -200,7 +201,6 @@
                 "🇨🇦CA | vless | @proxy_kafee | 1",
                 "🇨🇦CA | vless | @v2logy | 15",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇸🇪SE | vless | @ProxyForOpeta | 3",
                 "🇩🇪DE | vless | @V2rayNGn | 36",
                 "🇩🇪DE | trojan | @PrivateVPNs | 17",
                 "🇨🇦CA | trojan | @DirectVPN | 17",
@@ -225,9 +225,9 @@
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 33",
                 "🇸🇪SE | vless | @V2RayTz | 14",
                 "🇨🇦CA | vless | @DailyV2RY | 100",
-                "🇮🇷IR | vless | @sinabigo | 4",
+                "🇮🇷IR | vless | @sinabigo | 5",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @proxystore11 | 4",
+                "🇺🇸US | vless | @proxystore11 | 4",
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 5",
                 "🇺🇦UA | vless | @VPNCLOP | 1",
@@ -336,6 +336,27 @@
                 "path": "\/telegram-channel-vlessconfig-ws",
                 "headers": {
                     "Host": "telegram-channel-vlessconfig.sohala.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @VPNCUSTOMIZE | 24",
+            "type": "vless",
+            "server": "telegram-VPNCUSTOMIZE.kellekcollection.com",
+            "server_port": 8080,
+            "uuid": "bbf2f191-fd7c-4a2a-ad09-ca5daa745b21",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Join--VPNCUSTOMIZE.V2ray.re",
+                "headers": {
+                    "Host": "telegram-VPNCUSTOMIZE.kellekcollection.com"
                 }
             }
         },
@@ -681,27 +702,6 @@
                 "path": "\/?ed=2560",
                 "headers": {
                     "Host": "7f905f51.garywelch.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @ProxyForOpeta | 3",
-            "type": "vless",
-            "server": "telegram-VPNCUSTOMIZE.kellekcollection.com",
-            "server_port": 8080,
-            "uuid": "bbf2f191-fd7c-4a2a-ad09-ca5daa745b21",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Join--VPNCUSTOMIZE.V2ray.re",
-                "headers": {
-                    "Host": "telegram-VPNCUSTOMIZE.kellekcollection.com"
                 }
             }
         },
@@ -1236,7 +1236,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @sinabigo | 4",
+            "tag": "🇮🇷IR | vless | @sinabigo | 5",
             "type": "vless",
             "server": "iSpeedtop.demotek.net",
             "server_port": 28646,
@@ -1260,7 +1260,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @proxystore11 | 4",
+            "tag": "🇺🇸US | vless | @proxystore11 | 4",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 443,
