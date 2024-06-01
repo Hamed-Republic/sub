@@ -131,7 +131,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 8",
                 "🇨🇦CA | vless | @Outline_Vpn | 18",
-                "🇨🇦CA | vless | @prrofile_purple | 188",
+                "🇩🇪DE | vless | @prrofile_purple | 169",
                 "🇨🇦CA | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | vless | @vmessorg | 8",
@@ -145,7 +145,7 @@
                 "🇸🇪SE | vless | @v2ray1_ng | 8",
                 "🇮🇷IR | vless | @vless_vmess | 9",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 41",
-                "🇩🇪DE | vless | @V2RayTz | 11",
+                "🇸🇪SE | vless | @V2RayTz | 10",
                 "🇨🇦CA | vless | @DailyV2RY | 120",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇩🇪DE | vless | @lrnbymaa | 30",
@@ -203,7 +203,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 8",
                 "🇨🇦CA | vless | @Outline_Vpn | 18",
-                "🇨🇦CA | vless | @prrofile_purple | 188",
+                "🇩🇪DE | vless | @prrofile_purple | 169",
                 "🇨🇦CA | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | vless | @vmessorg | 8",
@@ -217,7 +217,7 @@
                 "🇸🇪SE | vless | @v2ray1_ng | 8",
                 "🇮🇷IR | vless | @vless_vmess | 9",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 41",
-                "🇩🇪DE | vless | @V2RayTz | 11",
+                "🇸🇪SE | vless | @V2RayTz | 10",
                 "🇨🇦CA | vless | @DailyV2RY | 120",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇩🇪DE | vless | @lrnbymaa | 30",
@@ -804,11 +804,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @prrofile_purple | 188",
+            "tag": "🇩🇪DE | vless | @prrofile_purple | 169",
             "type": "vless",
-            "server": "104.26.7.95",
-            "server_port": 80,
-            "uuid": "1f98b5cc-140f-46b4-987f-6936da9f2238",
+            "server": "join--vpncustomize.v2ray.re",
+            "server_port": 8080,
+            "uuid": "Join-VPNCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -818,9 +818,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net\/",
+                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
                 "headers": {
-                    "Host": "104.26.7.95"
+                    "Host": "join--vpncustomize.v2ray.re"
                 }
             }
         },
@@ -1130,17 +1130,24 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @V2RayTz | 11",
+            "tag": "🇸🇪SE | vless | @V2RayTz | 10",
             "type": "vless",
-            "server": "162.55.188.244",
-            "server_port": 29947,
-            "uuid": "6b99dce7-99b0-4e80-97a6-2f517b048409",
+            "server": "185.146.173.94",
+            "server_port": 2095,
+            "uuid": "b597162b-c542-490a-a5d7-88b1242e358b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "185.146.173.94"
+                }
             }
         },
         {
