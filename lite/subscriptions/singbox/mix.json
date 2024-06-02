@@ -154,7 +154,7 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 29",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @proxystore11 | 2",
+                "🇺🇸US | vless | @proxystore11 | 2",
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇩🇪DE | vmess | @Hope_Net | 4",
                 "🇺🇸US | vless | @fnet00 | 1",
@@ -168,7 +168,7 @@
                 "🇺🇸US | vless | @FreakConfig | 11",
                 "🇸🇪SE | vless | @flyv2ray | 17",
                 "🇺🇸US | vless | @FAKEOFTVC | 4",
-                "🇸🇪SE | vless | @mehrosaboran | 5",
+                "🇨🇳CN | vless | @mehrosaboran | 6",
                 "🇺🇸US | vless | @kiava | 9",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🇺🇸US | vless | @proxy_mtm | 0",
@@ -234,7 +234,7 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 29",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @proxystore11 | 2",
+                "🇺🇸US | vless | @proxystore11 | 2",
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇩🇪DE | vmess | @Hope_Net | 4",
                 "🇺🇸US | vless | @fnet00 | 1",
@@ -248,7 +248,7 @@
                 "🇺🇸US | vless | @FreakConfig | 11",
                 "🇸🇪SE | vless | @flyv2ray | 17",
                 "🇺🇸US | vless | @FAKEOFTVC | 4",
-                "🇸🇪SE | vless | @mehrosaboran | 5",
+                "🇨🇳CN | vless | @mehrosaboran | 6",
                 "🇺🇸US | vless | @kiava | 9",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🇺🇸US | vless | @proxy_mtm | 0",
@@ -1400,7 +1400,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @proxystore11 | 2",
+            "tag": "🇺🇸US | vless | @proxystore11 | 2",
             "type": "vless",
             "server": "188.114.97.3",
             "server_port": 443,
@@ -1770,11 +1770,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @mehrosaboran | 5",
+            "tag": "🇨🇳CN | vless | @mehrosaboran | 6",
             "type": "vless",
-            "server": "185.146.173.94",
-            "server_port": 2087,
-            "uuid": "3cdb6486-103a-4e98-b721-5324ca64f6a6",
+            "server": "103.184.44.104",
+            "server_port": 8880,
+            "uuid": "145a5f5c-aed2-4a87-8c33-d550f3455636",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1782,21 +1782,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "LiV2raya.yoyoyo.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray?ed=1024",
                 "headers": {
-                    "Host": "LiV2raya.yoyoyo.ir"
+                    "Host": "103.184.44.104"
                 }
             }
         },
