@@ -110,6 +110,7 @@
                 "🇸🇪SE | vless | @Parsashonam | 13",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇫🇷FR | vless | @VlessConfig | 17",
+                "🇸🇪SE | vless | @VPNCUSTOMIZE | 25",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇸🇪SE | vless | @melov2ray | 9",
                 "🇨🇦CA | vless | @frev2ray | 0",
@@ -123,7 +124,7 @@
                 "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 14",
                 "🇳🇱NL | tuic | @irancpi_vpn | 0",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 30",
                 "🇫🇷FR | trojan | @PrivateVPNs | 17",
@@ -153,7 +154,7 @@
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 18",
                 "🇩🇪DE | trojan | @proxystore11 | 2",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 9",
+                "🇺🇸US | vmess | @Hope_Net | 7",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 6",
@@ -186,6 +187,7 @@
                 "🇸🇪SE | vless | @Parsashonam | 13",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇫🇷FR | vless | @VlessConfig | 17",
+                "🇸🇪SE | vless | @VPNCUSTOMIZE | 25",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇸🇪SE | vless | @melov2ray | 9",
                 "🇨🇦CA | vless | @frev2ray | 0",
@@ -199,7 +201,7 @@
                 "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 14",
                 "🇳🇱NL | tuic | @irancpi_vpn | 0",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 30",
                 "🇫🇷FR | trojan | @PrivateVPNs | 17",
@@ -229,7 +231,7 @@
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 18",
                 "🇩🇪DE | trojan | @proxystore11 | 2",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 9",
+                "🇺🇸US | vmess | @Hope_Net | 7",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 6",
@@ -332,7 +334,7 @@
         {
             "tag": "🇫🇷FR | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "13.39.173.10",
+            "server": "35.181.238.163",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -357,6 +359,27 @@
                 "path": "\/telegram-channel-vlessconfig-ws",
                 "headers": {
                     "Host": "telegram-channel-vlessconfig.sohala.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @VPNCUSTOMIZE | 25",
+            "type": "vless",
+            "server": "VPNCUSTOMIZE.Elmahstyle.ir",
+            "server_port": 8080,
+            "uuid": "ff49a775-a816-4d46-b07c-30645642e5e2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
+                "headers": {
+                    "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
                 }
             }
         },
@@ -593,9 +616,9 @@
         {
             "tag": "🇨🇦CA | vless | @proxy_kafee | 3",
             "type": "vless",
-            "server": "104.20.66.92",
+            "server": "www.visa.com.sg",
             "server_port": 80,
-            "uuid": "SVNTEAM",
+            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -605,9 +628,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@SvnTeam@SvnTeam@SvnTeam@SvnTeam@SvnTeam@SvnTeam@SvnTeam@SvnTeam@SvnTeam@SvnTeam@SvnTeam@SvnTeam@SvnTeam@SvnTeam@SvnTeam@SvnTeam@SvnTeam@SvnTeam@SvnTeam@SvnTeam@SvnTeam@SvnTeam@SvnTeam@SvnTeam@SvnTeam@SvnTeam@SvnTeam@SvnTeam@SvnTeam@SvnTeam@SvnTeam@SvnTeam@SvnTeam@SvnTeam@SvnTeam@SvnTeam@SvnTeam@SvnTeam@SvnTeam@SvnTeam",
+                "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "104.20.66.92"
+                    "Host": "www.visa.com.sg"
                 }
             }
         },
@@ -656,7 +679,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -1390,11 +1413,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 9",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "104.26.6.65",
-            "server_port": 443,
-            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "31488365-7b6a-434a-8b7b-8f35012c6a22",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1405,21 +1428,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "mikasa.yaemiko.cloudns.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/ivideos.sbs\/linkws",
+                "path": "\/vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE",
                 "headers": {
-                    "Host": "mikasa.yaemiko.cloudns.org"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
