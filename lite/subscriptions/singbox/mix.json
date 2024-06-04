@@ -107,7 +107,6 @@
             "outbounds": [
                 "URL-TEST",
                 "🇸🇪SE | vless | @EliV2ray | 15",
-                "🇸🇪SE | vless | @Parsashonam | 13",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇸🇪SE | vless | @VlessConfig | 17",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 25",
@@ -124,9 +123,8 @@
                 "🇸🇪SE | vless | @proxy_kafee | 2",
                 "🇸🇪SE | vless | @v2logy | 14",
                 "🇳🇱NL | tuic | @irancpi_vpn | 0",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
-                "🇸🇪SE | vless | @V2rayNGn | 25",
                 "🇸🇪SE | trojan | @PrivateVPNs | 17",
                 "🇸🇪SE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
@@ -142,11 +140,12 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 14",
                 "🇸🇪SE | vless | @ServerNett | 9",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
+                "🇸🇪SE | vless | @v2ray_swhil | 10",
                 "🇨🇦CA | vless | @proxyymeliii | 16",
                 "🇩🇪DE | vless | @MsV2ray | 11",
                 "🇨🇦CA | vless | @v2ray1_ng | 2",
                 "🇨🇷CR | vmess | @vless_vmess | 3",
-                "🇦🇪AE | ss | @vmess_vless_v2rayng | 44",
+                "🇦🇪AE | ss | @vmess_vless_v2rayng | 48",
                 "🇨🇦CA | vless | @V2RayTz | 17",
                 "🇰🇷KR | trojan | @VmessProtocol | 16",
                 "🇸🇪SE | vless | @DailyV2RY | 180",
@@ -185,7 +184,6 @@
             "type": "urltest",
             "outbounds": [
                 "🇸🇪SE | vless | @EliV2ray | 15",
-                "🇸🇪SE | vless | @Parsashonam | 13",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇸🇪SE | vless | @VlessConfig | 17",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 25",
@@ -202,9 +200,8 @@
                 "🇸🇪SE | vless | @proxy_kafee | 2",
                 "🇸🇪SE | vless | @v2logy | 14",
                 "🇳🇱NL | tuic | @irancpi_vpn | 0",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
-                "🇸🇪SE | vless | @V2rayNGn | 25",
                 "🇸🇪SE | trojan | @PrivateVPNs | 17",
                 "🇸🇪SE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
@@ -220,11 +217,12 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 14",
                 "🇸🇪SE | vless | @ServerNett | 9",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
+                "🇸🇪SE | vless | @v2ray_swhil | 10",
                 "🇨🇦CA | vless | @proxyymeliii | 16",
                 "🇩🇪DE | vless | @MsV2ray | 11",
                 "🇨🇦CA | vless | @v2ray1_ng | 2",
                 "🇨🇷CR | vmess | @vless_vmess | 3",
-                "🇦🇪AE | ss | @vmess_vless_v2rayng | 44",
+                "🇦🇪AE | ss | @vmess_vless_v2rayng | 48",
                 "🇨🇦CA | vless | @V2RayTz | 17",
                 "🇰🇷KR | trojan | @VmessProtocol | 16",
                 "🇸🇪SE | vless | @DailyV2RY | 180",
@@ -295,27 +293,6 @@
                 "path": "\/@ELiV2RAY-@ELiV2RAY-@ELiV2RAY,V2ray.motorcycles.Elmahstyle.ir",
                 "headers": {
                     "Host": "185.146.173.94"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @Parsashonam | 13",
-            "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 8080,
-            "uuid": "Parsashonam-84",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "185.146.173.58"
                 }
             }
         },
@@ -671,7 +648,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -713,27 +690,6 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2rayNGn | 25",
-            "type": "vless",
-            "server": "VPNCUSTOMIZE.Elmahstyle.ir",
-            "server_port": 8080,
-            "uuid": "b9369d06-9622-432f-aa19-38243f22ef9e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
-                "headers": {
-                    "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
-                }
-            }
-        },
-        {
             "tag": "🇸🇪SE | trojan | @PrivateVPNs | 17",
             "type": "trojan",
             "server": "13.60.110.254",
@@ -758,7 +714,7 @@
         {
             "tag": "🇸🇪SE | trojan | @DirectVPN | 17",
             "type": "trojan",
-            "server": "51.21.46.36",
+            "server": "13.49.10.175",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1113,6 +1069,27 @@
             }
         },
         {
+            "tag": "🇸🇪SE | vless | @v2ray_swhil | 10",
+            "type": "vless",
+            "server": "185.146.173.179",
+            "server_port": 2095,
+            "uuid": "---DIGIV2Ray---",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/DIGIV2RAY-DigiV2ray-digiv2ray?ed=1024",
+                "headers": {
+                    "Host": "185.146.173.179"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @proxyymeliii | 16",
             "type": "vless",
             "server": "ch.ni-ham.info",
@@ -1213,7 +1190,7 @@
             }
         },
         {
-            "tag": "🇦🇪AE | ss | @vmess_vless_v2rayng | 44",
+            "tag": "🇦🇪AE | ss | @vmess_vless_v2rayng | 48",
             "type": "shadowsocks",
             "server": "51.112.118.115",
             "server_port": 443,
