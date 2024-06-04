@@ -156,7 +156,7 @@
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 22",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 23",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 24",
-                "🇺🇸US | vless | @VPNCUSTOMIZE | 27",
+                "🇨🇦CA | vless | @VPNCUSTOMIZE | 27",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 28",
                 "🇸🇪SE | vless | @ipV2Ray | 1",
                 "🇨🇷CR | vless | @ipV2Ray | 2",
@@ -583,7 +583,6 @@
                 "🇺🇸US | vless | @kiava | 7",
                 "🇺🇸US | vless | @kiava | 8",
                 "🇺🇸US | vless | @kiava | 9",
-                "🇺🇸US | vless | @kiava | 10",
                 "🏳️XX | vless | @vpn_go67 | 9",
                 "🏳️XX | vless | @vpn_go67 | 10",
                 "🏳️XX | vless | @vpn_go67 | 11",
@@ -691,7 +690,7 @@
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 22",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 23",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 24",
-                "🇺🇸US | vless | @VPNCUSTOMIZE | 27",
+                "🇨🇦CA | vless | @VPNCUSTOMIZE | 27",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 28",
                 "🇸🇪SE | vless | @ipV2Ray | 1",
                 "🇨🇷CR | vless | @ipV2Ray | 2",
@@ -1118,7 +1117,6 @@
                 "🇺🇸US | vless | @kiava | 7",
                 "🇺🇸US | vless | @kiava | 8",
                 "🇺🇸US | vless | @kiava | 9",
-                "🇺🇸US | vless | @kiava | 10",
                 "🏳️XX | vless | @vpn_go67 | 9",
                 "🏳️XX | vless | @vpn_go67 | 10",
                 "🏳️XX | vless | @vpn_go67 | 11",
@@ -2465,7 +2463,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @VPNCUSTOMIZE | 27",
+            "tag": "🇨🇦CA | vless | @VPNCUSTOMIZE | 27",
             "type": "vless",
             "server": "188.114.98.224",
             "server_port": 8080,
@@ -12911,37 +12909,6 @@
                 "path": "\/kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava",
                 "headers": {
                     "Host": "blog.iranserver.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @kiava | 10",
-            "type": "vless",
-            "server": "blog.iranserver.com",
-            "server_port": 443,
-            "uuid": "42cb119a-73ec-4275-aaeb-4498e952ed60",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ws-vm-de.kiava.fun",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=2560",
-                "headers": {
-                    "Host": "ws-vm-de.kiava.fun"
                 }
             }
         },
