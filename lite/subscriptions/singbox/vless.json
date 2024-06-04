@@ -118,12 +118,12 @@
                 "🇨🇷CR | vless | @shh_proxy | 24",
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇸🇪SE | vless | @lightning6 | 17",
-                "🇨🇦CA | vless | @V2rayNGmat | 6",
+                "🇺🇸US | vless | @V2rayNGmat | 6",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 19",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 14",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 2",
                 "🇩🇪DE | vless | @V2rayNGn | 30",
                 "🇸🇪SE | vless | @Outline_Vpn | 19",
@@ -139,7 +139,6 @@
                 "🇩🇪DE | vless | @MsV2ray | 11",
                 "🇨🇦CA | vless | @v2ray1_ng | 1",
                 "🇨🇦CA | vless | @vless_vmess | 6",
-                "🇫🇮FI | vless | @vmess_vless_v2rayng | 44",
                 "🇸🇪SE | vless | @V2RayTz | 13",
                 "🇺🇸US | vless | @VmessProtocol | 17",
                 "🇸🇪SE | vless | @DailyV2RY | 105",
@@ -181,12 +180,12 @@
                 "🇨🇷CR | vless | @shh_proxy | 24",
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇸🇪SE | vless | @lightning6 | 17",
-                "🇨🇦CA | vless | @V2rayNGmat | 6",
+                "🇺🇸US | vless | @V2rayNGmat | 6",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 19",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 14",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 2",
                 "🇩🇪DE | vless | @V2rayNGn | 30",
                 "🇸🇪SE | vless | @Outline_Vpn | 19",
@@ -202,7 +201,6 @@
                 "🇩🇪DE | vless | @MsV2ray | 11",
                 "🇨🇦CA | vless | @v2ray1_ng | 1",
                 "🇨🇦CA | vless | @vless_vmess | 6",
-                "🇫🇮FI | vless | @vmess_vless_v2rayng | 44",
                 "🇸🇪SE | vless | @V2RayTz | 13",
                 "🇺🇸US | vless | @VmessProtocol | 17",
                 "🇸🇪SE | vless | @DailyV2RY | 105",
@@ -523,7 +521,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayNGmat | 6",
+            "tag": "🇺🇸US | vless | @V2rayNGmat | 6",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 80,
@@ -628,7 +626,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -1023,27 +1021,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "cfdy.yueuzi.dynv6.net"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮FI | vless | @vmess_vless_v2rayng | 44",
-            "type": "vless",
-            "server": "65.109.195.204",
-            "server_port": 2093,
-            "uuid": "8f8edd9c-9d4b-4c31-9eb5-770cdc57be8d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "65.109.195.204"
                 }
             }
         },
