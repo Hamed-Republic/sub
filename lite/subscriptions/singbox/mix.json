@@ -118,7 +118,7 @@
                 "🇨🇷CR | vless | @shh_proxy | 24",
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇸🇪SE | vless | @lightning6 | 17",
-                "🇨🇦CA | vless | @V2rayNGmat | 6",
+                "🇺🇸US | vless | @V2rayNGmat | 6",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 19",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
@@ -135,6 +135,7 @@
                 "🇩🇪DE | vless | @Outline_Vpn | 19",
                 "🇩🇪DE | vless | @prrofile_purple | 184",
                 "🇨🇦CA | vmess | @customv2ray | 13",
+                "🇸🇪SE | vless | @UnlimitedDev | 10",
                 "🇨🇦CA | vless | @vmessorg | 9",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 15",
                 "🇨🇦CA | vless | @ShadowProxy66 | 14",
@@ -196,7 +197,7 @@
                 "🇨🇷CR | vless | @shh_proxy | 24",
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇸🇪SE | vless | @lightning6 | 17",
-                "🇨🇦CA | vless | @V2rayNGmat | 6",
+                "🇺🇸US | vless | @V2rayNGmat | 6",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 19",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
@@ -213,6 +214,7 @@
                 "🇩🇪DE | vless | @Outline_Vpn | 19",
                 "🇩🇪DE | vless | @prrofile_purple | 184",
                 "🇨🇦CA | vmess | @customv2ray | 13",
+                "🇸🇪SE | vless | @UnlimitedDev | 10",
                 "🇨🇦CA | vless | @vmessorg | 9",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 15",
                 "🇨🇦CA | vless | @ShadowProxy66 | 14",
@@ -553,7 +555,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayNGmat | 6",
+            "tag": "🇺🇸US | vless | @V2rayNGmat | 6",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 80,
@@ -933,6 +935,27 @@
                 "path": "\/@HosseinStore_Za\/@HosseinStore_Za\/@HosseinStore_Za\/@HosseinStore_Za\/@HosseinStore_Za\/@HosseinStore_Za\/@HosseinStore_Za",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @UnlimitedDev | 10",
+            "type": "vless",
+            "server": "join-unlimiteddev-vpn.unlimiteddev.site",
+            "server_port": 8080,
+            "uuid": "UnlimitedDev-----------1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080",
+                "headers": {
+                    "Host": "join-unlimiteddev-vpn.unlimiteddev.site"
                 }
             }
         },
