@@ -130,7 +130,6 @@
                 "🇸🇪SE | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇨🇦CA | vless | @prrofile_purple | 183",
@@ -153,7 +152,7 @@
                 "🇺🇸US | vless | @sinabigo | 3",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 18",
                 "🇩🇪DE | trojan | @proxystore11 | 4",
-                "🇺🇸US | vmess | @yaney_01 | 5",
+                "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇬🇧GB | vmess | @Hope_Net | 6",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
@@ -206,7 +205,6 @@
                 "🇸🇪SE | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇨🇦CA | vless | @prrofile_purple | 183",
@@ -229,7 +227,7 @@
                 "🇺🇸US | vless | @sinabigo | 3",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 18",
                 "🇩🇪DE | trojan | @proxystore11 | 4",
-                "🇺🇸US | vmess | @yaney_01 | 5",
+                "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇬🇧GB | vmess | @Hope_Net | 6",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
@@ -794,40 +792,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
-            "type": "vmess",
-            "server": "104.16.60.8",
-            "server_port": 8443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "subhk.osafari599.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linde06.indiavideo.sbs\/linkws",
-                "headers": {
-                    "Host": "subhk.osafari599.workers.dev"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
             "type": "vmess",
             "server": "855.outline-vpn.cloud",
@@ -1356,7 +1320,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @yaney_01 | 5",
+            "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,
@@ -1468,9 +1432,9 @@
         {
             "tag": "🇺🇸US | vless | @Outlinev2rayNG | 13",
             "type": "vless",
-            "server": "104.16.80.131",
+            "server": "104.18.202.232",
             "server_port": 443,
-            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "uuid": "17a7bf97-fef5-4101-a5c5-7c730fabeeee",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1480,7 +1444,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mmdv2.pages.dev",
+                "server_name": "bpb-worker-panel-h5f.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1490,9 +1454,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed",
+                "path": "\/telegram-proxy_mtm\/",
                 "headers": {
-                    "Host": "mmdv2.pages.dev"
+                    "Host": "bpb-worker-panel-h5f.pages.dev"
                 }
             }
         },
