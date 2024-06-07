@@ -156,8 +156,8 @@
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 16",
                 "🇩🇪DE | trojan | @proxystore11 | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇺🇸US | vmess | @Hope_Net | 3",
+                "🇺🇸US | vless | @free1_vpn | 0",
+                "🇩🇪DE | vmess | @Hope_Net | 4",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 14",
@@ -235,8 +235,8 @@
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 16",
                 "🇩🇪DE | trojan | @proxystore11 | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇺🇸US | vmess | @Hope_Net | 3",
+                "🇺🇸US | vless | @free1_vpn | 0",
+                "🇩🇪DE | vmess | @Hope_Net | 4",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 14",
@@ -1426,7 +1426,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @free1_vpn | 0",
+            "tag": "🇺🇸US | vless | @free1_vpn | 0",
             "type": "vless",
             "server": "188.114.96.3",
             "server_port": 443,
@@ -1457,11 +1457,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 3",
+            "tag": "🇩🇪DE | vmess | @Hope_Net | 4",
             "type": "vmess",
-            "server": "us2-full.privateip.net",
-            "server_port": 443,
-            "uuid": "c9e7de6a-fde7-4cbe-8adf-081239a0143d",
+            "server": "91.107.247.152",
+            "server_port": 2222,
+            "uuid": "154a3a61-4813-4e7d-b9d7-b5e98ef9d419",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1471,23 +1471,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "us2-full.privateip.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/RACEVPN",
-                "headers": {
-                    "Host": "us2-full.privateip.net"
-                }
             }
         },
         {
