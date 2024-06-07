@@ -128,7 +128,7 @@
                 "🇸🇪SE | vless | @V2rayNGn | 17",
                 "🇺🇦UA | vless | @Outline_Vpn | 19",
                 "🇨🇦CA | vless | @prrofile_purple | 184",
-                "🇨🇦CA | vless | @customv2ray | 14",
+                "🇸🇪SE | vless | @customv2ray | 13",
                 "🇸🇪SE | vless | @UnlimitedDev | 12",
                 "🇨🇦CA | vless | @vmessorg | 10",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 14",
@@ -136,8 +136,8 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 29",
                 "🇸🇪SE | vless | @ServerNett | 5",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 19",
-                "🇸🇪SE | vless | @proxyymeliii | 33",
+                "🇨🇦CA | vless | @v2ray_swhil | 18",
+                "🇨🇦CA | vless | @proxyymeliii | 31",
                 "🇩🇪DE | vless | @MsV2ray | 11",
                 "🇨🇦CA | vless | @v2ray1_ng | 5",
                 "🇨🇦CA | vless | @vless_vmess | 13",
@@ -193,7 +193,7 @@
                 "🇸🇪SE | vless | @V2rayNGn | 17",
                 "🇺🇦UA | vless | @Outline_Vpn | 19",
                 "🇨🇦CA | vless | @prrofile_purple | 184",
-                "🇨🇦CA | vless | @customv2ray | 14",
+                "🇸🇪SE | vless | @customv2ray | 13",
                 "🇸🇪SE | vless | @UnlimitedDev | 12",
                 "🇨🇦CA | vless | @vmessorg | 10",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 14",
@@ -201,8 +201,8 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 29",
                 "🇸🇪SE | vless | @ServerNett | 5",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 19",
-                "🇸🇪SE | vless | @proxyymeliii | 33",
+                "🇨🇦CA | vless | @v2ray_swhil | 18",
+                "🇨🇦CA | vless | @proxyymeliii | 31",
                 "🇩🇪DE | vless | @MsV2ray | 11",
                 "🇨🇦CA | vless | @v2ray1_ng | 5",
                 "🇨🇦CA | vless | @vless_vmess | 13",
@@ -727,11 +727,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @customv2ray | 14",
+            "tag": "🇸🇪SE | vless | @customv2ray | 13",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2096,
-            "uuid": "b41e1631-ceb3-47c9-ba87-c65a46f2f5a8",
+            "server": "Next.salarvand.org",
+            "server_port": 2087,
+            "uuid": "86ed8559-9f58-4a10-9cc1-59bfe8db7f09",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -741,7 +741,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "vpNeRor.SAjadHADadi.WEbsiTe",
+                "server_name": "Gr-next.cgnm.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -751,9 +751,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/ws",
                 "headers": {
-                    "Host": "vpNeRor.SAjadHADadi.WEbsiTe"
+                    "Host": "Gr-next.cgnm.ir"
                 }
             }
         },
@@ -945,7 +945,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray_swhil | 19",
+            "tag": "🇨🇦CA | vless | @v2ray_swhil | 18",
             "type": "vless",
             "server": "104.21.74.214",
             "server_port": 2082,
@@ -966,11 +966,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @proxyymeliii | 33",
+            "tag": "🇨🇦CA | vless | @proxyymeliii | 31",
             "type": "vless",
-            "server": "LIGHTNING6-joinbed.filj.top",
-            "server_port": 8880,
-            "uuid": "849d3c18-f0ee-4c9d-a1ff-bd2d2c2e0b70",
+            "server": "ch.ni-ham.info",
+            "server_port": 2053,
+            "uuid": "634641db-b26c-4f1b-9b4e-69b933f8b85d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -978,11 +978,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "ajghrr.f-vipo.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray",
+                "path": "\/?ed=2087",
                 "headers": {
-                    "Host": "LIGHTNING6-joinbed.filj.top"
+                    "Host": "ajghrr.f-vipo.ir"
                 }
             }
         },
