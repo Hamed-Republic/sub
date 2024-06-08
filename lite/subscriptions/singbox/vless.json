@@ -116,17 +116,17 @@
                 "🇸🇪SE | vless | @shh_proxy | 24",
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇸🇪SE | vless | @free_v2rayyy | 15",
-                "🇺🇸US | vless | @V2rayNGmat | 1",
+                "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 18",
                 "🇨🇦CA | vless | @proxy_kafee | 2",
                 "🇸🇪SE | vless | @v2logy | 13",
                 "🇮🇷IR | vless | @servermomo | 3",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🏳️XX | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 19",
                 "🇺🇸US | vless | @Outline_Vpn | 19",
-                "🇺🇸US | vless | @prrofile_purple | 183",
+                "🇨🇦CA | vless | @prrofile_purple | 173",
                 "🏳️XX | vless | @customv2ray | 15",
                 "🇸🇪SE | vless | @UnlimitedDev | 14",
                 "🇨🇦CA | vless | @vmessorg | 10",
@@ -182,17 +182,17 @@
                 "🇸🇪SE | vless | @shh_proxy | 24",
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇸🇪SE | vless | @free_v2rayyy | 15",
-                "🇺🇸US | vless | @V2rayNGmat | 1",
+                "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 18",
                 "🇨🇦CA | vless | @proxy_kafee | 2",
                 "🇸🇪SE | vless | @v2logy | 13",
                 "🇮🇷IR | vless | @servermomo | 3",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🏳️XX | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 19",
                 "🇺🇸US | vless | @Outline_Vpn | 19",
-                "🇺🇸US | vless | @prrofile_purple | 183",
+                "🇨🇦CA | vless | @prrofile_purple | 173",
                 "🏳️XX | vless | @customv2ray | 15",
                 "🇸🇪SE | vless | @UnlimitedDev | 14",
                 "🇨🇦CA | vless | @vmessorg | 10",
@@ -484,7 +484,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayNGmat | 1",
+            "tag": "🇨🇦CA | vless | @V2rayNGmat | 1",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 80,
@@ -610,7 +610,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -714,11 +714,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @prrofile_purple | 183",
+            "tag": "🇨🇦CA | vless | @prrofile_purple | 173",
             "type": "vless",
-            "server": "172.64.111.69",
-            "server_port": 443,
-            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "server": "104.21.74.214",
+            "server_port": 2082,
+            "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -726,21 +726,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "mmdv2.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/TELEGRAM-PROXY_MTM\/",
                 "headers": {
-                    "Host": "mmdv2.pages.dev"
+                    "Host": "104.21.74.214"
                 }
             }
         },
@@ -1190,9 +1180,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "104.24.196.20",
-            "server_port": 80,
-            "uuid": "a35017af-d228-44bd-885c-e5951ce09df6",
+            "server": "104.21.7.27",
+            "server_port": 443,
+            "uuid": "ec880e3c-2817-4b89-9887-ccc1fb7e3a52",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1200,11 +1190,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "steel.footballlovernews.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Mmdv2rayng-V2rayngmmd-telegram-mmd_v2rayng?ed=80",
+                "path": "\/steel",
                 "headers": {
-                    "Host": "104.24.196.20"
+                    "Host": "steel.footballlovernews.com"
                 }
             }
         },
