@@ -124,7 +124,7 @@
                 "🇨🇦CA | vless | @proxy_kafee | 2",
                 "🇸🇪SE | vless | @v2logy | 13",
                 "🇮🇷IR | vless | @servermomo | 3",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇮🇷IR | vless | @ProxyForOpeta | 4",
                 "🇸🇪SE | vless | @V2rayNGn | 17",
                 "🇺🇸US | vless | @Outline_Vpn | 19",
@@ -148,7 +148,8 @@
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 24",
                 "🇨🇦CA | vless | @ConfigsHUB | 19",
-                "🇺🇸US | vless | @free1_vpn | 0",
+                "🇮🇷IR | vless | @proxystore11 | 4",
+                "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 6",
                 "🇮🇷IR | vless | @Outlinev2rayNG | 11",
@@ -191,7 +192,7 @@
                 "🇨🇦CA | vless | @proxy_kafee | 2",
                 "🇸🇪SE | vless | @v2logy | 13",
                 "🇮🇷IR | vless | @servermomo | 3",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇮🇷IR | vless | @ProxyForOpeta | 4",
                 "🇸🇪SE | vless | @V2rayNGn | 17",
                 "🇺🇸US | vless | @Outline_Vpn | 19",
@@ -215,7 +216,8 @@
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 24",
                 "🇨🇦CA | vless | @ConfigsHUB | 19",
-                "🇺🇸US | vless | @free1_vpn | 0",
+                "🇮🇷IR | vless | @proxystore11 | 4",
+                "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 6",
                 "🇮🇷IR | vless | @Outlinev2rayNG | 11",
@@ -521,7 +523,7 @@
             "type": "vless",
             "server": "LIGHTNING6-joinbed.filj.top",
             "server_port": 8880,
-            "uuid": "a6c4c333-9416-45b8-ad2f-774cd3efd724",
+            "uuid": "713706db-55ee-45c8-a977-8b72b9998600",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -664,7 +666,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -1211,9 +1213,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "b.liopiol.ir",
-            "server_port": 2087,
-            "uuid": "2deb6940-0b30-47f3-b06b-46498a120464",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "3a4b13e3-5f1a-44e9-9feb-3578a76acb4c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1221,26 +1223,30 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "b.liopiol.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray?ed",
+                "path": "\/vless",
                 "headers": {
-                    "Host": "b.liopiol.ir"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | vless | @free1_vpn | 0",
+            "tag": "🇮🇷IR | vless | @proxystore11 | 4",
+            "type": "vless",
+            "server": "185.215.231.223",
+            "server_port": 47148,
+            "uuid": "df31dad5-9cda-4fa1-a846-3b52da26e14d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @free1_vpn | 0",
             "type": "vless",
             "server": "188.114.96.3",
             "server_port": 443,
