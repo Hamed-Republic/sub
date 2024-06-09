@@ -108,10 +108,10 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
                 "🇹🇼TW | vmess | @oneclickvpnkeys | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 2",
+                "🇨🇦CA | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 8"
             ]
@@ -122,10 +122,10 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
                 "🇹🇼TW | vmess | @oneclickvpnkeys | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 2",
+                "🇨🇦CA | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 8"
             ],
@@ -184,11 +184,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
             "type": "vmess",
-            "server": "104.16.61.8",
-            "server_port": 80,
-            "uuid": "2a8a10fb-9ca3-367e-a234-cf09f841be4f",
+            "server": "172.67.169.212",
+            "server_port": 8080,
+            "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -201,9 +201,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/v149-dskds65",
+                "path": "\/",
                 "headers": {
-                    "Host": "104.16.61.8"
+                    "Host": "172.67.169.212"
                 }
             }
         },
@@ -259,7 +259,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 2",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 4",
             "type": "vmess",
             "server": "104.17.78.61",
             "server_port": 2052,
