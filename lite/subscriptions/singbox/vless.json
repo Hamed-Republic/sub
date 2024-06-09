@@ -121,7 +121,7 @@
                 "🇨🇦CA | vless | @proxy_kafee | 1",
                 "🇸🇪SE | vless | @v2logy | 14",
                 "🇮🇷IR | vless | @servermomo | 3",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 21",
                 "🇮🇷IR | vless | @Outline_Vpn | 19",
@@ -129,7 +129,7 @@
                 "🇸🇪SE | vless | @customv2ray | 13",
                 "🇸🇪SE | vless | @UnlimitedDev | 9",
                 "🇨🇦CA | vless | @vmessorg | 10",
-                "🇺🇸US | vless | @v2rayNG_Matsuri | 22",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 22",
                 "🇨🇦CA | vless | @ShadowProxy66 | 34",
                 "🇸🇪SE | vless | @ServerNett | 7",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
@@ -144,7 +144,6 @@
                 "🇸🇪SE | vless | @DailyV2RY | 128",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇩🇪DE | vless | @lrnbymaa | 24",
-                "🇮🇷IR | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 2",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇺🇸US | vless | @fnet00 | 1",
@@ -185,7 +184,7 @@
                 "🇨🇦CA | vless | @proxy_kafee | 1",
                 "🇸🇪SE | vless | @v2logy | 14",
                 "🇮🇷IR | vless | @servermomo | 3",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 21",
                 "🇮🇷IR | vless | @Outline_Vpn | 19",
@@ -193,7 +192,7 @@
                 "🇸🇪SE | vless | @customv2ray | 13",
                 "🇸🇪SE | vless | @UnlimitedDev | 9",
                 "🇨🇦CA | vless | @vmessorg | 10",
-                "🇺🇸US | vless | @v2rayNG_Matsuri | 22",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 22",
                 "🇨🇦CA | vless | @ShadowProxy66 | 34",
                 "🇸🇪SE | vless | @ServerNett | 7",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
@@ -208,7 +207,6 @@
                 "🇸🇪SE | vless | @DailyV2RY | 128",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇩🇪DE | vless | @lrnbymaa | 24",
-                "🇮🇷IR | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 2",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇺🇸US | vless | @fnet00 | 1",
@@ -595,7 +593,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -776,7 +774,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @v2rayNG_Matsuri | 22",
+            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 22",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2052,
@@ -1154,37 +1152,6 @@
                 "headers": {
                     "Host": "Join--VPNCUSTOMIZE.V2ray.re"
                 }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "2.189.59.2",
-            "server_port": 443,
-            "uuid": "UnlimitedDev—Channel-688843",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "mci.unlimiteddev-vpn.Com.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Channel:@UnlimitedDev",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
