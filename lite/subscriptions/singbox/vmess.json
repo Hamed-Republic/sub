@@ -108,7 +108,8 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
+                "🇹🇼TW | vmess | @oneclickvpnkeys | 5",
+                "🇩🇪DE | vmess | @proxyymeliii | 30",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 6",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
@@ -121,7 +122,8 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
+                "🇹🇼TW | vmess | @oneclickvpnkeys | 5",
+                "🇩🇪DE | vmess | @proxyymeliii | 30",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 6",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
@@ -182,11 +184,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
+            "tag": "🇹🇼TW | vmess | @oneclickvpnkeys | 5",
             "type": "vmess",
-            "server": "cfcdn3.sanfencdn9.com",
-            "server_port": 2052,
-            "uuid": "bf475e6c-a607-415e-a7f7-45c889320633",
+            "server": "in06.dns2024.org",
+            "server_port": 61017,
+            "uuid": "9eac8830-5da5-3ee2-a4b2-b49598275623",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -196,13 +198,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/video\/9TfVEyku",
-                "headers": {
-                    "Host": ""
-                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vmess | @proxyymeliii | 30",
+            "type": "vmess",
+            "server": "194.87.148.205",
+            "server_port": 8081,
+            "uuid": "0cc2352d-6540-4805-ad14-722db9192d41",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
