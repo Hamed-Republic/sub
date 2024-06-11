@@ -108,9 +108,9 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @ShadowProxy66 | 19",
+                "🇺🇸US | vmess | @ShadowProxy66 | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇧🇷BR | vmess | @Hope_Net | 12",
+                "🇳🇴NO | vmess | @Hope_Net | 9",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 8",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6"
@@ -122,9 +122,9 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @ShadowProxy66 | 19",
+                "🇺🇸US | vmess | @ShadowProxy66 | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇧🇷BR | vmess | @Hope_Net | 12",
+                "🇳🇴NO | vmess | @Hope_Net | 9",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 8",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6"
@@ -184,7 +184,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 19",
+            "tag": "🇺🇸US | vmess | @ShadowProxy66 | 19",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 443,
@@ -252,13 +252,13 @@
             }
         },
         {
-            "tag": "🇧🇷BR | vmess | @Hope_Net | 12",
+            "tag": "🇳🇴NO | vmess | @Hope_Net | 9",
             "type": "vmess",
-            "server": "80.240.124.8",
-            "server_port": 80,
-            "uuid": "3e57354f-ff12-4536-81f9-c6155ef18b69",
+            "server": "46.29.219.44",
+            "server_port": 443,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 64,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -267,11 +267,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "46.29.219.44",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@V2RAY_CONFIGS_POOL",
+                "path": "\/path\/191019072927",
                 "headers": {
-                    "Host": "sanapardaz.onthewifi.com"
+                    "Host": "46.29.219.44"
                 }
             }
         },
