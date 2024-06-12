@@ -134,8 +134,8 @@
                 "🏳️XX | vless | @customv2ray | 14",
                 "🇸🇪SE | vless | @UnlimitedDev | 11",
                 "🇨🇦CA | vless | @vmessorg | 9",
-                "🇸🇪SE | vless | @v2rayNG_Matsuri | 32",
-                "🇺🇸US | vmess | @ShadowProxy66 | 19",
+                "🇫🇮FI | vless | @v2rayNG_Matsuri | 25",
+                "🇨🇦CA | vmess | @ShadowProxy66 | 19",
                 "🇸🇪SE | vless | @ServerNett | 6",
                 "🇺🇸US | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
@@ -152,7 +152,7 @@
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 21",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 18",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇨🇷CR | vless | @ConfigsHUB | 12",
                 "🇮🇷IR | vless | @proxystore11 | 0",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -209,8 +209,8 @@
                 "🏳️XX | vless | @customv2ray | 14",
                 "🇸🇪SE | vless | @UnlimitedDev | 11",
                 "🇨🇦CA | vless | @vmessorg | 9",
-                "🇸🇪SE | vless | @v2rayNG_Matsuri | 32",
-                "🇺🇸US | vmess | @ShadowProxy66 | 19",
+                "🇫🇮FI | vless | @v2rayNG_Matsuri | 25",
+                "🇨🇦CA | vmess | @ShadowProxy66 | 19",
                 "🇸🇪SE | vless | @ServerNett | 6",
                 "🇺🇸US | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
@@ -227,7 +227,7 @@
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 21",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 18",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇨🇷CR | vless | @ConfigsHUB | 12",
                 "🇮🇷IR | vless | @proxystore11 | 0",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -895,28 +895,36 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @v2rayNG_Matsuri | 32",
+            "tag": "🇫🇮FI | vless | @v2rayNG_Matsuri | 25",
             "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 80,
-            "uuid": "d8d3e2f7-bb0d-411d-9fba-9957885904b7",
-            "flow": "",
+            "server": "135.181.202.101",
+            "server_port": 10559,
+            "uuid": "44b1db28-a819-4914-9c6f-ee7c7599a894",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/vless",
-                "headers": {
-                    "Host": "185.146.173.59"
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "JTt7Au4cLeKLnQfD8O-yO19nS5u2CgP3fIO1DHlej1c",
+                    "short_id": "c5f1f156"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ShadowProxy66 | 19",
+            "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 19",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 443,
@@ -1294,11 +1302,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇷CR | vless | @ConfigsHUB | 12",
             "type": "vless",
-            "server": "185.146.173.35",
-            "server_port": 2095,
-            "uuid": "----DIGIV2RAY-----",
+            "server": "190.93.247.155",
+            "server_port": 443,
+            "uuid": "Parsashonam-85",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1306,11 +1314,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "mail.offch.blog",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/DIGIV2RAY--DigiV2ray--digiv2ray--DIGIV2RAY--DigiV2ray--digiv2ray--DigiV2ray--DigiV2ray?ed=1024",
+                "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "185.146.173.35"
+                    "Host": "mail.offch.blog"
                 }
             }
         },
