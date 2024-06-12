@@ -108,13 +108,12 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 19",
+                "🇨🇦CA | vmess | @vless_vmess | 16",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🏳️XX | vmess | @Hope_Net | 7",
+                "🇺🇸US | vmess | @Hope_Net | 7",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🇹🇷TR | vmess | @FreakConfig | 3",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6"
             ]
         },
@@ -124,13 +123,12 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 19",
+                "🇨🇦CA | vmess | @vless_vmess | 16",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🏳️XX | vmess | @Hope_Net | 7",
+                "🇺🇸US | vmess | @Hope_Net | 7",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🇹🇷TR | vmess | @FreakConfig | 3",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -188,40 +186,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
-            "type": "vmess",
-            "server": "172.67.164.164",
-            "server_port": 443,
-            "uuid": "a1655f51-1e20-4a92-8a11-b7ca30a7a353",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "afrhms07.xfixedfloat.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "afrhms07.xfixedfloat.cfd"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 19",
             "type": "vmess",
             "server": "zula.ir",
@@ -252,6 +216,30 @@
                 "path": "\/linkws",
                 "headers": {
                     "Host": "jahfkjha.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @vless_vmess | 16",
+            "type": "vmess",
+            "server": "188.114.97.3",
+            "server_port": 80,
+            "uuid": "b25f8da6-54a2-49b3-bacf-8403b4c36556",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
@@ -290,13 +278,13 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 7",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "v3.ssrsub.com",
-            "server_port": 18443,
-            "uuid": "f736834f-1fc8-4738-9884-9afe0eb0d818",
+            "server": "51.81.223.19",
+            "server_port": 443,
+            "uuid": "c0156451-4efb-45e2-84fc-8d315c4650db",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 32,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -307,19 +295,12 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "v3.ssrsub.com",
+                "server_name": "51.81.223.19",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/api\/v3\/download.getFile",
-                "headers": {
-                    "Host": "v3.ssrsub.com"
                 }
             }
         },
@@ -389,23 +370,6 @@
                 "headers": {
                     "Host": "xmivideo.cfd"
                 }
-            }
-        },
-        {
-            "tag": "🇹🇷TR | vmess | @FreakConfig | 3",
-            "type": "vmess",
-            "server": "213.142.149.116",
-            "server_port": 41858,
-            "uuid": "d2c7b321-5e48-4d28-80e2-f64c6ddfad96",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
