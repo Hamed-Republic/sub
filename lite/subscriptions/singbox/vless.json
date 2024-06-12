@@ -144,6 +144,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 134",
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 21",
+                "🇩🇪DE | vless | @ConfigsHUB | 18",
                 "🇮🇷IR | vless | @proxystore11 | 0",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 1",
@@ -204,6 +205,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 134",
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 21",
+                "🇩🇪DE | vless | @ConfigsHUB | 18",
                 "🇮🇷IR | vless | @proxystore11 | 0",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 1",
@@ -989,9 +991,9 @@
         {
             "tag": "🇸🇪SE | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 80,
-            "uuid": "%35%36%36%38%65%36%39%62%2d%65%63%63%39%2d%34%62%32%39%2d%38%61%30%34%2d%38%31%36%33%64%31%62%39%63%37%34%64",
+            "server": "185.146.173.220",
+            "server_port": 8080,
+            "uuid": "%66%37%35%66%33%66%62%33%2d%63%31%30%35%2d%34%33%35%63%2d%38%38%33%62%2d%65%64%36%64%31%30%38%39%62%62%30%32",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1001,9 +1003,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
+                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
                 "headers": {
-                    "Host": "185.146.173.58"
+                    "Host": "185.146.173.220"
                 }
             }
         },
@@ -1091,6 +1093,37 @@
                 "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
                 "headers": {
                     "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "3.73.231.117",
+            "server_port": 22222,
+            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telegram-channel-vlessconfig.sohala.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-channel-vlessconfig-ws",
+                "headers": {
+                    "Host": "telegram-channel-vlessconfig.sohala.uk"
                 }
             }
         },
