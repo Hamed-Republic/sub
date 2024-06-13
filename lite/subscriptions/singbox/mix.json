@@ -154,14 +154,14 @@
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇸🇪SE | vless | @ConfigsHUB | 15",
+                "🇸🇪SE | vless | @ConfigsHUB | 18",
                 "🇮🇷IR | vless | @proxystore11 | 1",
-                "🇨🇦CA | vmess | @yaney_01 | 5",
+                "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇺🇸US | vmess | @Hope_Net | 1",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇺🇸US | vless | @polproxy | 6",
-                "🇮🇷IR | vless | @Outlinev2rayNG | 16",
+                "🇺🇸US | vless | @Outlinev2rayNG | 16",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 6",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -233,14 +233,14 @@
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇸🇪SE | vless | @ConfigsHUB | 15",
+                "🇸🇪SE | vless | @ConfigsHUB | 18",
                 "🇮🇷IR | vless | @proxystore11 | 1",
-                "🇨🇦CA | vmess | @yaney_01 | 5",
+                "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇺🇸US | vmess | @Hope_Net | 1",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇺🇸US | vless | @polproxy | 6",
-                "🇮🇷IR | vless | @Outlinev2rayNG | 16",
+                "🇺🇸US | vless | @Outlinev2rayNG | 16",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 6",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -1315,7 +1315,7 @@
         {
             "tag": "🇫🇮FI | vless | @DailyV2RY | 143",
             "type": "vless",
-            "server": "37.27.81.118",
+            "server": "37.27.31.67",
             "server_port": 8080,
             "uuid": "1a0badbc-1566-40db-a8a8-4d3d8eca9059",
             "flow": "",
@@ -1389,11 +1389,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 15",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "185.146.173.18",
-            "server_port": 8080,
-            "uuid": "ea82ff3c-c9fe-4bb9-8348-f78ac8ef4394",
+            "server": "185.146.173.9",
+            "server_port": 2095,
+            "uuid": "b42be639-73b0-4d21-ac13-8e0248b5d915",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1403,9 +1403,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080",
+                "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.18"
+                    "Host": "185.146.173.9"
                 }
             }
         },
@@ -1424,7 +1424,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
+            "tag": "🇺🇸US | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,
@@ -1565,17 +1565,34 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @Outlinev2rayNG | 16",
+            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 16",
             "type": "vless",
-            "server": "snapptap.ir",
-            "server_port": 11166,
-            "uuid": "f4f79968-30ae-9f12-6e93-8a15dfa16c76",
+            "server": "104.21.7.50",
+            "server_port": 443,
+            "uuid": "85b5ac4c-364a-4703-90d3-158bace384cf",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "api2.htve.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "api2.htve.ir"
+                }
             }
         },
         {
