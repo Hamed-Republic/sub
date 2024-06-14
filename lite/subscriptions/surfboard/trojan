@@ -12,12 +12,13 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇫🇷FR | trojan | @PrivateVPNs | 16 = trojan, 15.236.110.85, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇫🇷FR | trojan | @DirectVPN | 16 = trojan, 13.36.252.182, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇹🇷TR | trojan | @oneclickvpnkeys | 6 = trojan, 95.164.116.35, 443, password = 1e269a95-135c-4710-b3a5-dd59a0a07d06, udp-delay = true, skip-cert-verify = false, sni = tr-full.privateip.net, ws = false
+🇫🇷FR | trojan | @DirectVPN | 16 = trojan, 13.39.203.116, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇹🇷TR | trojan | @oneclickvpnkeys | 8 = trojan, 95.164.116.35, 443, password = 1e269a95-135c-4710-b3a5-dd59a0a07d06, udp-delay = true, skip-cert-verify = false, sni = tr-full.privateip.net, ws = false
+🇹🇷TR | trojan | @ConfigsHUB | 19 = trojan, 207.211.215.169, 43118, password = ypDt8RkT7J, udp-delay = true, skip-cert-verify = false, sni = tpmwf.phooeyunfold.com, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | trojan | @PrivateVPNs | 16,🇫🇷FR | trojan | @DirectVPN | 16,🇹🇷TR | trojan | @oneclickvpnkeys | 6
-URL-TEST = url-test,🇫🇷FR | trojan | @PrivateVPNs | 16,🇫🇷FR | trojan | @DirectVPN | 16,🇹🇷TR | trojan | @oneclickvpnkeys | 6
-FALLBACK = fallback,🇫🇷FR | trojan | @PrivateVPNs | 16,🇫🇷FR | trojan | @DirectVPN | 16,🇹🇷TR | trojan | @oneclickvpnkeys | 6
+MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | trojan | @PrivateVPNs | 16,🇫🇷FR | trojan | @DirectVPN | 16,🇹🇷TR | trojan | @oneclickvpnkeys | 8,🇹🇷TR | trojan | @ConfigsHUB | 19
+URL-TEST = url-test,🇫🇷FR | trojan | @PrivateVPNs | 16,🇫🇷FR | trojan | @DirectVPN | 16,🇹🇷TR | trojan | @oneclickvpnkeys | 8,🇹🇷TR | trojan | @ConfigsHUB | 19
+FALLBACK = fallback,🇫🇷FR | trojan | @PrivateVPNs | 16,🇫🇷FR | trojan | @DirectVPN | 16,🇹🇷TR | trojan | @oneclickvpnkeys | 8,🇹🇷TR | trojan | @ConfigsHUB | 19
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
