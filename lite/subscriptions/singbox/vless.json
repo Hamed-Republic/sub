@@ -145,8 +145,8 @@
                 "🇸🇪SE | vless | @DailyV2RY | 58",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 26",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
-                "🇮🇷IR | vless | @proxystore11 | 1",
+                "🇸🇪SE | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @proxystore11 | 1",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇺🇸US | vless | @polproxy | 6",
@@ -156,7 +156,7 @@
                 "🇸🇪SE | vless | @Capoit | 15",
                 "🇺🇸US | vless | @FreakConfig | 2",
                 "🇸🇪SE | vless | @flyv2ray | 14",
-                "🏳️XX | vless | @FAKEOFTVC | 6",
+                "🏳️XX | vless | @FAKEOFTVC | 5",
                 "🇨🇳CN | vless | @mehrosaboran | 4",
                 "🇺🇸US | vless | @kiava | 8",
                 "🇺🇸US | vless | @proxy_mtm | 0",
@@ -210,8 +210,8 @@
                 "🇸🇪SE | vless | @DailyV2RY | 58",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 26",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
-                "🇮🇷IR | vless | @proxystore11 | 1",
+                "🇸🇪SE | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @proxystore11 | 1",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇺🇸US | vless | @polproxy | 6",
@@ -221,7 +221,7 @@
                 "🇸🇪SE | vless | @Capoit | 15",
                 "🇺🇸US | vless | @FreakConfig | 2",
                 "🇸🇪SE | vless | @flyv2ray | 14",
-                "🏳️XX | vless | @FAKEOFTVC | 6",
+                "🏳️XX | vless | @FAKEOFTVC | 5",
                 "🇨🇳CN | vless | @mehrosaboran | 4",
                 "🇺🇸US | vless | @kiava | 8",
                 "🇺🇸US | vless | @proxy_mtm | 0",
@@ -1150,11 +1150,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 8880,
-            "uuid": "f0e16573-e93d-417f-a32c-b9d6fbc7f97a",
+            "server": "185.146.173.58",
+            "server_port": 2052,
+            "uuid": "Telegram-ipV2Ray-hyt",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1164,24 +1164,31 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=2087",
+                "path": "\/Telegram-ipV2Ray",
                 "headers": {
-                    "Host": "zula.ir"
+                    "Host": "185.146.173.58"
                 }
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @proxystore11 | 1",
+            "tag": "🇨🇦CA | vless | @proxystore11 | 1",
             "type": "vless",
-            "server": "94.182.222.29",
-            "server_port": 12061,
-            "uuid": "6e435f9f-25df-4101-9a5c-736a6858b8cb",
+            "server": "188.114.98.224",
+            "server_port": 80,
+            "uuid": "-Telegram-id-ELiV2ray-",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/V2ray.vl",
+                "headers": {
+                    "Host": "188.114.98.224"
+                }
             }
         },
         {
@@ -1422,10 +1429,10 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @FAKEOFTVC | 6",
+            "tag": "🏳️XX | vless | @FAKEOFTVC | 5",
             "type": "vless",
-            "server": "icy-mountain-1847.hukinghumans.WORkErs.dEV",
-            "server_port": 80,
+            "server": "icy-mountain-1847.hukinghumans.wOrkErS.deV",
+            "server_port": 8443,
             "uuid": "8270f450-7143-548a-b311-4eeefe44f773",
             "flow": "",
             "packet_encoding": "xudp",
@@ -1434,11 +1441,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "icy-mountain-1847.hukinghumans.wOrkErS.deV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/vless-ws\/",
                 "headers": {
-                    "Host": "icy-mountain-1847.hukinghumans.WORkErs.dEV"
+                    "Host": "icy-mountain-1847.hukinghumans.wOrkErS.deV"
                 }
             }
         },
