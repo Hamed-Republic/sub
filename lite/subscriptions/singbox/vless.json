@@ -131,7 +131,7 @@
                 "🇨🇦CA | vless | @vmessorg | 10",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 21",
                 "🇨🇦CA | vless | @ShadowProxy66 | 23",
-                "🇸🇪SE | vless | @ServerNett | 9",
+                "🇸🇪SE | vless | @ServerNett | 8",
                 "🇨🇦CA | vless | @v2ray_swhil | 12",
                 "🇨🇦CA | vless | @v2ray1_ng | 4",
                 "🇨🇦CA | vless | @vless_vmess | 12",
@@ -140,7 +140,6 @@
                 "🇸🇪SE | vless | @DailyV2RY | 80",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 20",
-                "🇯🇵JP | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 3",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 1",
@@ -191,7 +190,7 @@
                 "🇨🇦CA | vless | @vmessorg | 10",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 21",
                 "🇨🇦CA | vless | @ShadowProxy66 | 23",
-                "🇸🇪SE | vless | @ServerNett | 9",
+                "🇸🇪SE | vless | @ServerNett | 8",
                 "🇨🇦CA | vless | @v2ray_swhil | 12",
                 "🇨🇦CA | vless | @v2ray1_ng | 4",
                 "🇨🇦CA | vless | @vless_vmess | 12",
@@ -200,7 +199,6 @@
                 "🇸🇪SE | vless | @DailyV2RY | 80",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 20",
-                "🇯🇵JP | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 3",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 1",
@@ -817,11 +815,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ServerNett | 9",
+            "tag": "🇸🇪SE | vless | @ServerNett | 8",
             "type": "vless",
             "server": "185.146.173.58",
             "server_port": 8080,
-            "uuid": "86326fab-c92f-44ed-8277-5bde4ae5314d",
+            "uuid": "33b89288-fbd6-4aeb-b367-ad339b7e12c1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1032,27 +1030,6 @@
                 "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
                 "headers": {
                     "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇯🇵JP | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "87.120.204.202",
-            "server_port": 443,
-            "uuid": "75b26bab-6917-43ba-a556-b1f30fe028d3",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "87.120.204.202"
                 }
             }
         },
