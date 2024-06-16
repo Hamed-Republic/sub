@@ -109,6 +109,7 @@
                 "🇸🇪SE | vless | @EliV2ray | 14",
                 "🇸🇪SE | vless | @Parsashonam | 12",
                 "🇮🇪IE | vless | @VlessConfig | 17",
+                "🇸🇪SE | vless | @VPNCUSTOMIZE | 33",
                 "🇸🇪SE | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 2",
                 "🇨🇦CA | vless | @frev2ray | 2",
@@ -140,11 +141,11 @@
                 "🇸🇪SE | vless | @DailyV2RY | 71",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 20",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 2",
-                "🇨🇦CA | vless | @polproxy | 6",
+                "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 17",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 7",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -168,6 +169,7 @@
                 "🇸🇪SE | vless | @EliV2ray | 14",
                 "🇸🇪SE | vless | @Parsashonam | 12",
                 "🇮🇪IE | vless | @VlessConfig | 17",
+                "🇸🇪SE | vless | @VPNCUSTOMIZE | 33",
                 "🇸🇪SE | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 2",
                 "🇨🇦CA | vless | @frev2ray | 2",
@@ -199,11 +201,11 @@
                 "🇸🇪SE | vless | @DailyV2RY | 71",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 20",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 2",
-                "🇨🇦CA | vless | @polproxy | 6",
+                "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 17",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 7",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -284,7 +286,7 @@
         {
             "tag": "🇮🇪IE | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "54.247.137.226",
+            "server": "34.248.156.64",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -309,6 +311,27 @@
                 "path": "\/telegram-channel-vlessconfig-ws",
                 "headers": {
                     "Host": "telegram-channel-vlessconfig.sohala.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @VPNCUSTOMIZE | 33",
+            "type": "vless",
+            "server": "VPNCUSTOMIZE.Elmahstyle.ir",
+            "server_port": 8080,
+            "uuid": "c6642b90-1d93-48ac-a72f-4e875281cb73",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
+                "headers": {
+                    "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
                 }
             }
         },
@@ -1044,11 +1067,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "104.17.188.84",
-            "server_port": 80,
-            "uuid": "7d96f544-c496-41cf-dd61-337f0aff062a",
+            "server": "188.114.98.224",
+            "server_port": 8080,
+            "uuid": "c112e1bb-0d76-40bc-9c01-1ddeb2bb9ee5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1058,9 +1081,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/abcde",
+                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
                 "headers": {
-                    "Host": "104.17.188.84"
+                    "Host": "188.114.98.224"
                 }
             }
         },
@@ -1148,7 +1171,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @polproxy | 6",
+            "tag": "🇺🇸US | vless | @polproxy | 6",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2082,
