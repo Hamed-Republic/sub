@@ -151,13 +151,13 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇩🇪DE | vless | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇺🇸US | vmess | @Hope_Net | 7",
-                "🇺🇸US | vless | @fnet00 | 4",
-                "🇺🇸US | vless | @polproxy | 6",
+                "🇨🇦CA | vless | @fnet00 | 4",
+                "🇨🇦CA | vless | @polproxy | 6",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 14",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 7",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
@@ -226,13 +226,13 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇩🇪DE | vless | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇺🇸US | vmess | @Hope_Net | 7",
-                "🇺🇸US | vless | @fnet00 | 4",
-                "🇺🇸US | vless | @polproxy | 6",
+                "🇨🇦CA | vless | @fnet00 | 4",
+                "🇨🇦CA | vless | @polproxy | 6",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 14",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 7",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
@@ -1285,11 +1285,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 19",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "141.144.238.115",
-            "server_port": 443,
-            "uuid": "76ddbbc0-e7d8-404f-8a2e-761b7226ce65",
+            "server": "185.146.173.158",
+            "server_port": 8080,
+            "uuid": "----channel--ISVvpn----",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1297,21 +1297,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "chanel----selinc----selinc----selinc.hutzwrrj.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/telegram-ISVvpn,telegram-ISVvpn,telegram-ISVvpn,telegram-ISVvpn,telegram-ISVvpn,telegram-ISVvpn,telegram-ISVvpn,telegram-ISVvpn,telegram-ISVvpn,telegram-ISVvpn,telegram-ISVvpn,telegram-ISVvpn",
                 "headers": {
-                    "Host": "chanel----selinc----selinc----selinc.hutzwrrj.workers.dev"
+                    "Host": "185.146.173.158"
                 }
             }
         },
@@ -1436,7 +1426,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @fnet00 | 4",
+            "tag": "🇨🇦CA | vless | @fnet00 | 4",
             "type": "vless",
             "server": "b2n.ir",
             "server_port": 443,
@@ -1467,7 +1457,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @polproxy | 6",
+            "tag": "🇨🇦CA | vless | @polproxy | 6",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2082,
