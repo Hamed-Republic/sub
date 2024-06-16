@@ -148,7 +148,7 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇩🇪DE | vless | @ConfigsHUB | 18",
+                "🇸🇰SK | trojan | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
@@ -220,7 +220,7 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇩🇪DE | vless | @ConfigsHUB | 18",
+                "🇸🇰SK | trojan | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
@@ -1205,13 +1205,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "141.147.13.23",
+            "tag": "🇸🇰SK | trojan | @ConfigsHUB | 19",
+            "type": "trojan",
+            "server": "libertyzone.xyz",
             "server_port": 443,
-            "uuid": "76ddbbc0-e7d8-404f-8a2e-761b7226ce65",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "password": "fyy75RVvaT",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1219,7 +1217,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "chanel----selinc----selinc----selinc.hutzwrrj.workers.dev",
+                "server_name": "libertyzone.xyz",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1229,9 +1227,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/43574\/@persvpn",
                 "headers": {
-                    "Host": "chanel----selinc----selinc----selinc.hutzwrrj.workers.dev"
+                    "Host": "libertyzone.xyz"
                 }
             }
         },
