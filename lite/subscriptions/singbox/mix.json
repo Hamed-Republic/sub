@@ -150,19 +150,19 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
-                "🇨🇦CA | vmess | @Hope_Net | 3",
-                "🇺🇸US | vless | @fnet00 | 2",
-                "🇺🇸US | vless | @polproxy | 6",
-                "🇸🇪SE | vless | @Outlinev2rayNG | 16",
+                "🇺🇸US | vmess | @Hope_Net | 4",
+                "🇨🇦CA | vless | @fnet00 | 4",
+                "🇨🇦CA | vless | @polproxy | 6",
+                "🇺🇸US | vless | @Outlinev2rayNG | 16",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 7",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🇺🇸US | vless | @Capoit | 19",
+                "🇺🇸US | vless | @Capoit | 17",
                 "🇺🇸US | vless | @FreakConfig | 3",
                 "🇸🇪SE | vless | @flyv2ray | 13",
                 "🇨🇳CN | vless | @mehrosaboran | 0",
@@ -224,19 +224,19 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
-                "🇨🇦CA | vmess | @Hope_Net | 3",
-                "🇺🇸US | vless | @fnet00 | 2",
-                "🇺🇸US | vless | @polproxy | 6",
-                "🇸🇪SE | vless | @Outlinev2rayNG | 16",
+                "🇺🇸US | vmess | @Hope_Net | 4",
+                "🇨🇦CA | vless | @fnet00 | 4",
+                "🇨🇦CA | vless | @polproxy | 6",
+                "🇺🇸US | vless | @Outlinev2rayNG | 16",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 7",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🇺🇸US | vless | @Capoit | 19",
+                "🇺🇸US | vless | @Capoit | 17",
                 "🇺🇸US | vless | @FreakConfig | 3",
                 "🇸🇪SE | vless | @flyv2ray | 13",
                 "🇨🇳CN | vless | @mehrosaboran | 0",
@@ -754,7 +754,7 @@
         {
             "tag": "🇸🇪SE | trojan | @DirectVPN | 17",
             "type": "trojan",
-            "server": "13.49.195.210",
+            "server": "16.16.189.103",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1318,11 +1318,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 443,
-            "uuid": "9d653c49-f256-4754-baa3-65fdbd4deca2",
+            "server": "185.146.173.58",
+            "server_port": 2052,
+            "uuid": "Telegram-ipV2Ray-jiu",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1330,21 +1330,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "father.pinobin.ir.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/wg0kfQnpOT4hCy34",
+                "path": "\/Telegram-ipV2Ray",
                 "headers": {
-                    "Host": "father.pinobin.ir."
+                    "Host": "185.146.173.58"
                 }
             }
         },
@@ -1435,13 +1425,13 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 3",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 4",
             "type": "vmess",
-            "server": "crackthecode.ftp.sh",
-            "server_port": 443,
-            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
+            "server": "38.33.34.20",
+            "server_port": 38001,
+            "uuid": "b65da4af-a12a-4a59-9316-4549e12ba62c",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 64,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -1452,7 +1442,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "vcp3.dehel15354.woRKErS.Dev",
+                "server_name": "38.33.34.20",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1462,14 +1452,14 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/gwdef.sbs:443\/linkws",
+                "path": "\/path\/191019072927",
                 "headers": {
-                    "Host": "vcp3.dehel15354.woRKErS.Dev"
+                    "Host": "38.33.34.20"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | vless | @fnet00 | 2",
+            "tag": "🇨🇦CA | vless | @fnet00 | 4",
             "type": "vless",
             "server": "b2n.ir",
             "server_port": 443,
@@ -1500,7 +1490,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @polproxy | 6",
+            "tag": "🇨🇦CA | vless | @polproxy | 6",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2082,
@@ -1521,11 +1511,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @Outlinev2rayNG | 16",
+            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 16",
             "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 2083,
-            "uuid": "96e34ced-1246-46d6-cfe1-8b8e4a9decd8",
+            "server": "dl.join-apkphoenix-777.mywire.org",
+            "server_port": 80,
+            "uuid": "7bdbdbe9-fe3b-472f-9f8a-4739a5f0f607",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1533,21 +1523,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "arad.cgnm.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/Channel-@vpnserverrr?ed=1048",
+                "path": "\/",
                 "headers": {
-                    "Host": "arad.cgnm.ir"
+                    "Host": "dl.join-apkphoenix-777.mywire.org"
                 }
             }
         },
@@ -1670,7 +1650,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Capoit | 19",
+            "tag": "🇺🇸US | vless | @Capoit | 17",
             "type": "vless",
             "server": "188.114.97.3",
             "server_port": 443,
