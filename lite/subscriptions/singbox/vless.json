@@ -144,7 +144,6 @@
                 "🇨🇦CA | vless | @DailyV2RY | 41",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 25",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 6",
                 "🇺🇸US | vless | @free1_vpn | 1",
                 "🇺🇸US | vless | @fnet00 | 4",
@@ -157,7 +156,6 @@
                 "🇺🇸US | vless | @flyv2ray | 12",
                 "🇨🇳CN | vless | @mehrosaboran | 2",
                 "🇺🇸US | vless | @kiava | 8",
-                "🇺🇸US | vless | @proxy_mtm | 0",
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🇺🇸US | vless | @kingofilter | 5",
                 "🏳️XX | vless | @IBv2ray | 4",
@@ -207,7 +205,6 @@
                 "🇨🇦CA | vless | @DailyV2RY | 41",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 25",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 6",
                 "🇺🇸US | vless | @free1_vpn | 1",
                 "🇺🇸US | vless | @fnet00 | 4",
@@ -220,7 +217,6 @@
                 "🇺🇸US | vless | @flyv2ray | 12",
                 "🇨🇳CN | vless | @mehrosaboran | 2",
                 "🇺🇸US | vless | @kiava | 8",
-                "🇺🇸US | vless | @proxy_mtm | 0",
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🇺🇸US | vless | @kingofilter | 5",
                 "🏳️XX | vless | @IBv2ray | 4",
@@ -1149,37 +1145,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "zula.ir",
-            "server_port": 443,
-            "uuid": "e1b961d8-16f1-43b1-b431-60db4ee97b99",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "iran-random-hi-salam-test-ok-okay-en-fa-time-ir-nine-buy.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/0bti29SrXsIYkO1U?ed=2560",
-                "headers": {
-                    "Host": "iran-random-hi-salam-test-ok-okay-en-fa-time-ir-nine-buy.pages.dev"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @proxystore11 | 6",
             "type": "vless",
             "server": "188.114.98.224",
@@ -1466,27 +1431,6 @@
                 "path": "\/@kiava-TEL-@kiava-TEL-@kiava-TEL-@kiava-JOIN-@kiava-TEL-@kiava-JOIN-@kiava-TEL-@kiava-TEL-@kiava-JOIN-@kiava-TEL-@kiava?ed=1024",
                 "headers": {
                     "Host": "arzdigital.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @proxy_mtm | 0",
-            "type": "vless",
-            "server": "188.114.97.141",
-            "server_port": 2052,
-            "uuid": "Telegram-channel-proxy_mtm",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-proxy-mtm-telegram-proxy-mtm-telegram-proxy-mtm",
-                "headers": {
-                    "Host": "188.114.97.141"
                 }
             }
         },
