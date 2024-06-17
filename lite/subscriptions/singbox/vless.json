@@ -112,7 +112,6 @@
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 35",
                 "🇸🇪SE | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 2",
-                "🇨🇦CA | vless | @V2pedia | 21",
                 "🇸🇪SE | vless | @frev2ray | 2",
                 "🇸🇪SE | vless | @ARv2ray | 11",
                 "🇸🇪SE | vless | @shh_proxy | 29",
@@ -145,7 +144,6 @@
                 "🇨🇦CA | vless | @DailyV2RY | 41",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
-                "🇨🇦CA | vless | @ConfigsHUB | 11",
                 "🇨🇦CA | vless | @proxystore11 | 6",
                 "🇺🇸US | vless | @free1_vpn | 1",
                 "🇺🇸US | vless | @fnet00 | 4",
@@ -176,7 +174,6 @@
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 35",
                 "🇸🇪SE | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 2",
-                "🇨🇦CA | vless | @V2pedia | 21",
                 "🇸🇪SE | vless | @frev2ray | 2",
                 "🇸🇪SE | vless | @ARv2ray | 11",
                 "🇸🇪SE | vless | @shh_proxy | 29",
@@ -209,7 +206,6 @@
                 "🇨🇦CA | vless | @DailyV2RY | 41",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
-                "🇨🇦CA | vless | @ConfigsHUB | 11",
                 "🇨🇦CA | vless | @proxystore11 | 6",
                 "🇺🇸US | vless | @free1_vpn | 1",
                 "🇺🇸US | vless | @fnet00 | 4",
@@ -382,27 +378,6 @@
                 "path": "\/melov2ray\/melov2ray\/melov2ray\/melov2ray\/melov2ray\/melov2ray\/melov2ray",
                 "headers": {
                     "Host": "www.speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @V2pedia | 21",
-            "type": "vless",
-            "server": "back.msv2ray.online",
-            "server_port": 80,
-            "uuid": "324c4ba2-d51a-47d0-87f7-3ceff871066a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia",
-                "headers": {
-                    "Host": "back.msv2ray.online"
                 }
             }
         },
@@ -1158,37 +1133,6 @@
                 "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
                 "headers": {
                     "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 11",
-            "type": "vless",
-            "server": "188.114.97.141",
-            "server_port": 443,
-            "uuid": "d7bbfe83-b037-48ae-996c-b98ed0441ba2",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "e10c0e4b.oodaeq2.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/TELEGRAM-MARAMBASHI\/",
-                "headers": {
-                    "Host": "e10c0e4b.oodaeq2.pages.dev"
                 }
             }
         },
