@@ -143,7 +143,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 41",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
-                "🇩🇪DE | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
                 "🇺🇸US | vless | @fnet00 | 4",
@@ -205,7 +205,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 41",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
-                "🇩🇪DE | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
                 "🇺🇸US | vless | @fnet00 | 4",
@@ -1099,17 +1099,24 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "49.13.82.2",
-            "server_port": 8080,
-            "uuid": "99c517c7-606c-4091-99d0-0a19203d6835",
+            "server": "104.18.1.125",
+            "server_port": 2052,
+            "uuid": "416f18ec-11f3-4648-9693-8c6480d0662d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "104.18.1.125"
+                }
             }
         },
         {
@@ -1219,9 +1226,9 @@
         {
             "tag": "🇺🇸US | vless | @Outlinev2rayNG | 13",
             "type": "vless",
-            "server": "104.17.240.120",
+            "server": "104.20.115.188",
             "server_port": 443,
-            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "uuid": "10716279-b1ee-41d8-b63e-87782088305b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1231,7 +1238,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mmdv2.pages.dev",
+                "server_name": "heY.BACHEBiapaIn.Ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1241,9 +1248,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/cVld1tNyOQfi6EWx?ed=2560",
                 "headers": {
-                    "Host": "mmdv2.pages.dev"
+                    "Host": "heY.BACHEBiapaIn.Ir"
                 }
             }
         },
