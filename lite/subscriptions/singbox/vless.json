@@ -117,7 +117,7 @@
                 "🇸🇪SE | vless | @shh_proxy | 29",
                 "🇨🇦CA | vless | @Lockey_vpn | 16",
                 "🇸🇪SE | vless | @free_v2rayyy | 8",
-                "🇸🇪SE | vless | @lightning6 | 21",
+                "🇸🇪SE | vless | @lightning6 | 19",
                 "🇨🇦CA | vless | @V2rayNGmat | 9",
                 "🇩🇪DE | vless | @vpn_xw | 1",
                 "🇸🇪SE | vless | @DigiV2ray | 22",
@@ -125,10 +125,11 @@
                 "🇸🇪SE | vless | @v2logy | 10",
                 "🇸🇪SE | vless | @V2rayCollector | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇸🇪SE | vless | @V2rayNGn | 23",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
-                "🇸🇪SE | vless | @prrofile_purple | 184",
-                "🇨🇦CA | vless | @customv2ray | 12",
+                "🇮🇷IR | vless | @prrofile_purple | 174",
+                "🇮🇷IR | vless | @customv2ray | 14",
                 "🇨🇦CA | vless | @vmessorg | 10",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 22",
                 "🇨🇦CA | vless | @ShadowProxy66 | 4",
@@ -139,7 +140,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇺🇸US | vless | @VmessProtocol | 9",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇮🇷IR | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇺🇸US | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @fnet00 | 4",
@@ -176,7 +177,7 @@
                 "🇸🇪SE | vless | @shh_proxy | 29",
                 "🇨🇦CA | vless | @Lockey_vpn | 16",
                 "🇸🇪SE | vless | @free_v2rayyy | 8",
-                "🇸🇪SE | vless | @lightning6 | 21",
+                "🇸🇪SE | vless | @lightning6 | 19",
                 "🇨🇦CA | vless | @V2rayNGmat | 9",
                 "🇩🇪DE | vless | @vpn_xw | 1",
                 "🇸🇪SE | vless | @DigiV2ray | 22",
@@ -184,10 +185,11 @@
                 "🇸🇪SE | vless | @v2logy | 10",
                 "🇸🇪SE | vless | @V2rayCollector | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇸🇪SE | vless | @V2rayNGn | 23",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
-                "🇸🇪SE | vless | @prrofile_purple | 184",
-                "🇨🇦CA | vless | @customv2ray | 12",
+                "🇮🇷IR | vless | @prrofile_purple | 174",
+                "🇮🇷IR | vless | @customv2ray | 14",
                 "🇨🇦CA | vless | @vmessorg | 10",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 22",
                 "🇨🇦CA | vless | @ShadowProxy66 | 4",
@@ -198,7 +200,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇺🇸US | vless | @VmessProtocol | 9",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇮🇷IR | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇺🇸US | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @fnet00 | 4",
@@ -491,11 +493,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @lightning6 | 21",
+            "tag": "🇸🇪SE | vless | @lightning6 | 19",
             "type": "vless",
             "server": "LIGHTNING6-joinbed.filj.top",
             "server_port": 8880,
-            "uuid": "4b6f2cf4-f42c-4c78-a6ee-f410bdb4683e",
+            "uuid": "640bfb77-e3b5-43a6-95bb-bcc1e82b2cba",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -652,6 +654,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @ProxyForOpeta | 4",
+            "type": "vless",
+            "server": "emifree.bestgameir2.ir",
+            "server_port": 2083,
+            "uuid": "b316a340-e801-4225-a08c-c94a7f7733ca",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "emifree.bestgameir2.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/JoinChanel-proxyforopeta-telegram:@proxyforopeta-telegram-proxyforopeta-joinchanel@proxyforopeta.proxyforopeta.join-@proxyforopeta.telegram:@proxyforopeta-V2rayngmmd-telegram-free-v2ray?ed=2560",
+                "headers": {
+                    "Host": "emifree.bestgameir2.ir"
+                }
+            }
+        },
+        {
             "tag": "🇸🇪SE | vless | @V2rayNGn | 23",
             "type": "vless",
             "server": "VPNCUSTOMIZE.Elmahstyle.ir",
@@ -704,11 +737,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @prrofile_purple | 184",
+            "tag": "🇮🇷IR | vless | @prrofile_purple | 174",
             "type": "vless",
-            "server": "VPNCUSTOMIZE.Elmahstyle.ir",
-            "server_port": 8080,
-            "uuid": "19c08c07-a3b7-4c26-bcee-d7270f6d3422",
+            "server": "2.189.59.2",
+            "server_port": 443,
+            "uuid": "UnlimitedDev—Channel-688843",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -716,20 +749,30 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
-                "headers": {
-                    "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
+            "tls": {
+                "enabled": true,
+                "server_name": "mci.unlimiteddev-vpn.Com.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Channel:@UnlimitedDev",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @customv2ray | 12",
+            "tag": "🇮🇷IR | vless | @customv2ray | 14",
             "type": "vless",
-            "server": "dl.join-apkphoenix-777.mywire.org",
-            "server_port": 80,
-            "uuid": "7bdbdbe9-fe3b-472f-9f8a-4739a5f0f607",
+            "server": "2.189.59.2",
+            "server_port": 443,
+            "uuid": "40fa4717-fa98-4c2b-8bf7-cf55605b1ed3",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -737,12 +780,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "dl.join-apkphoenix-777.mywire.org"
+            "tls": {
+                "enabled": true,
+                "server_name": "mci.unlimiteddev-vpn.Com.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Channel:@UnlimitedDev",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -995,17 +1048,34 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "85.133.200.41",
-            "server_port": 6890,
-            "uuid": "4fabe6bd-5223-408d-840c-027b5a7ca137",
+            "server": "104.19.47.116",
+            "server_port": 443,
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mmdv2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "mmdv2.pages.dev"
+                }
             }
         },
         {
