@@ -119,7 +119,7 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 9",
                 "🇨🇦CA | vless | @vpn_xw | 1",
                 "🇸🇪SE | vless | @DigiV2ray | 22",
-                "🇨🇷CR | vless | @proxy_kafee | 3",
+                "🇨🇷CR | vless | @proxy_kafee | 5",
                 "🇸🇪SE | vless | @v2logy | 10",
                 "🇸🇪SE | vless | @V2rayCollector | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
@@ -128,6 +128,7 @@
                 "🇸🇪SE | vless | @prrofile_purple | 184",
                 "🇨🇦CA | vless | @customv2ray | 12",
                 "🇨🇦CA | vless | @vmessorg | 10",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 21",
                 "🇨🇦CA | vless | @ShadowProxy66 | 5",
                 "🇸🇪SE | vless | @ServerNett | 8",
                 "🇺🇸US | vless | @v2ray1_ng | 6",
@@ -136,7 +137,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 23",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 6",
                 "🇺🇸US | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @fnet00 | 4",
@@ -144,8 +145,8 @@
                 "🇨🇦CA | vless | @Outlinev2rayNG | 14",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇺🇸US | vless | @Capoit | 17",
-                "🇺🇸US | vless | @FreakConfig | 4",
+                "🇨🇦CA | vless | @Capoit | 17",
+                "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇺🇸US | vless | @flyv2ray | 12",
                 "🇨🇳CN | vless | @mehrosaboran | 2",
                 "🇺🇸US | vless | @kiava | 8",
@@ -175,7 +176,7 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 9",
                 "🇨🇦CA | vless | @vpn_xw | 1",
                 "🇸🇪SE | vless | @DigiV2ray | 22",
-                "🇨🇷CR | vless | @proxy_kafee | 3",
+                "🇨🇷CR | vless | @proxy_kafee | 5",
                 "🇸🇪SE | vless | @v2logy | 10",
                 "🇸🇪SE | vless | @V2rayCollector | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
@@ -184,6 +185,7 @@
                 "🇸🇪SE | vless | @prrofile_purple | 184",
                 "🇨🇦CA | vless | @customv2ray | 12",
                 "🇨🇦CA | vless | @vmessorg | 10",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 21",
                 "🇨🇦CA | vless | @ShadowProxy66 | 5",
                 "🇸🇪SE | vless | @ServerNett | 8",
                 "🇺🇸US | vless | @v2ray1_ng | 6",
@@ -192,7 +194,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 23",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 6",
                 "🇺🇸US | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @fnet00 | 4",
@@ -200,8 +202,8 @@
                 "🇨🇦CA | vless | @Outlinev2rayNG | 14",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇺🇸US | vless | @Capoit | 17",
-                "🇺🇸US | vless | @FreakConfig | 4",
+                "🇨🇦CA | vless | @Capoit | 17",
+                "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇺🇸US | vless | @flyv2ray | 12",
                 "🇨🇳CN | vless | @mehrosaboran | 2",
                 "🇺🇸US | vless | @kiava | 8",
@@ -527,7 +529,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @proxy_kafee | 3",
+            "tag": "🇨🇷CR | vless | @proxy_kafee | 5",
             "type": "vless",
             "server": "190.93.247.155",
             "server_port": 2095,
@@ -726,6 +728,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 21",
+            "type": "vless",
+            "server": "104.19.7.174",
+            "server_port": 443,
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mmdv2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "mmdv2.pages.dev"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @ShadowProxy66 | 5",
             "type": "vless",
             "server": "cdn.discordapp.com",
@@ -917,11 +950,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "104.22.36.243",
-            "server_port": 2053,
-            "uuid": "770e8a1b-980e-474d-b583-2e4e98acb854",
+            "server": "188.114.96.6",
+            "server_port": 443,
+            "uuid": "52b15ac7-8d4d-4250-ba8c-200d52bc4af0",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -931,7 +964,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "notls.11111111.eu.org",
+                "server_name": "DisVpn.us.kg",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -941,9 +974,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-@V2ray_Alpha\/?ed=2560",
+                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
                 "headers": {
-                    "Host": "notls.11111111.eu.org"
+                    "Host": "DisVpn.us.kg"
                 }
             }
         },
@@ -1123,7 +1156,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Capoit | 17",
+            "tag": "🇨🇦CA | vless | @Capoit | 17",
             "type": "vless",
             "server": "188.114.97.3",
             "server_port": 443,
@@ -1154,7 +1187,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @FreakConfig | 4",
+            "tag": "🇨🇦CA | vless | @FreakConfig | 4",
             "type": "vless",
             "server": "188.114.96.3",
             "server_port": 443,
