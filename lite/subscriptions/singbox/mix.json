@@ -143,7 +143,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 23",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇺🇸US | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
@@ -211,7 +211,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 23",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇺🇸US | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
@@ -1087,23 +1087,36 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 2052,
-            "uuid": "b224f76f-ef31-4c9d-9a82-2507a95a1c28",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "188.114.99.183",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-configMs",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "185.146.173.58"
+                    "Host": "linde06.indiavideo.sbs"
                 }
             }
         },
