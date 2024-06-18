@@ -134,7 +134,7 @@
                 "🇸🇪SE | vless | @prrofile_purple | 184",
                 "🇨🇦CA | vless | @customv2ray | 12",
                 "🇨🇦CA | vless | @vmessorg | 8",
-                "🇨🇦CA | vless | @ShadowProxy66 | 4",
+                "🇨🇦CA | vless | @ShadowProxy66 | 5",
                 "🇸🇪SE | vless | @ServerNett | 8",
                 "🇨🇦CA | vmess | @v2ray_swhil | 10",
                 "🇺🇸US | vless | @v2ray1_ng | 6",
@@ -144,11 +144,11 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 23",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
-                "🇺🇸US | vmess | @Hope_Net | 4",
+                "🇨🇦CA | vmess | @Hope_Net | 3",
                 "🇨🇦CA | vless | @fnet00 | 4",
                 "🇨🇦CA | vless | @polproxy | 6",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 14",
@@ -202,7 +202,7 @@
                 "🇸🇪SE | vless | @prrofile_purple | 184",
                 "🇨🇦CA | vless | @customv2ray | 12",
                 "🇨🇦CA | vless | @vmessorg | 8",
-                "🇨🇦CA | vless | @ShadowProxy66 | 4",
+                "🇨🇦CA | vless | @ShadowProxy66 | 5",
                 "🇸🇪SE | vless | @ServerNett | 8",
                 "🇨🇦CA | vmess | @v2ray_swhil | 10",
                 "🇺🇸US | vless | @v2ray1_ng | 6",
@@ -212,11 +212,11 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 23",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
-                "🇺🇸US | vmess | @Hope_Net | 4",
+                "🇨🇦CA | vmess | @Hope_Net | 3",
                 "🇨🇦CA | vless | @fnet00 | 4",
                 "🇨🇦CA | vless | @polproxy | 6",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 14",
@@ -873,7 +873,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ShadowProxy66 | 4",
+            "tag": "🇨🇦CA | vless | @ShadowProxy66 | 5",
             "type": "vless",
             "server": "cdn.discordapp.com",
             "server_port": 8880,
@@ -1108,33 +1108,26 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "172.66.46.224",
-            "server_port": 443,
-            "uuid": "a8a09765-7681-47ba-9ea0-e0ae79d51088",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "104.21.8.157",
+            "server_port": 2082,
+            "uuid": "112ac36f-3f53-4e26-8371-d25c028e1b9a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "t-netplus-4vx.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/TELEGRAM-MARAMBASHI\/",
+                "path": "\/",
                 "headers": {
-                    "Host": "t-netplus-4vx.pages.dev"
+                    "Host": ""
                 }
             }
         },
@@ -1225,13 +1218,13 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 4",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 3",
             "type": "vmess",
-            "server": "129.146.46.181",
-            "server_port": 52408,
-            "uuid": "a797ff7b-8161-40a6-d577-1b2c213b3885",
+            "server": "free.qdns.live",
+            "server_port": 80,
+            "uuid": "ad6afad6-5659-3f25-9477-029735d5401c",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 2,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -1239,6 +1232,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "free.qdns.live"
+                }
             }
         },
         {
