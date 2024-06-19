@@ -118,9 +118,9 @@
                 "🇸🇪SE | vless | @free_v2rayyy | 10",
                 "🇸🇪SE | vless | @lightning6 | 19",
                 "🇨🇦CA | vless | @V2rayNGmat | 9",
-                "🇩🇪DE | vless | @vpn_xw | 3",
+                "🇩🇪DE | vless | @vpn_xw | 2",
                 "🇸🇪SE | vless | @DigiV2ray | 26",
-                "🇨🇷CR | vless | @proxy_kafee | 3",
+                "🇨🇷CR | vless | @proxy_kafee | 5",
                 "🇸🇪SE | vless | @v2logy | 9",
                 "🇮🇷IR | vless | @servermomo | 1",
                 "🇸🇪SE | vless | @azadi_az_inja_migzare | 0",
@@ -148,10 +148,10 @@
                 "🇨🇦CA | vless | @VmessProtocol | 9",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 15",
-                "🇮🇷IR | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇬🇧GB | vmess | @Hope_Net | 11",
+                "🇨🇦CA | vmess | @Hope_Net | 11",
                 "🇨🇦CA | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇲🇾MY | vless | @Outlinev2rayNG | 18",
@@ -188,9 +188,9 @@
                 "🇸🇪SE | vless | @free_v2rayyy | 10",
                 "🇸🇪SE | vless | @lightning6 | 19",
                 "🇨🇦CA | vless | @V2rayNGmat | 9",
-                "🇩🇪DE | vless | @vpn_xw | 3",
+                "🇩🇪DE | vless | @vpn_xw | 2",
                 "🇸🇪SE | vless | @DigiV2ray | 26",
-                "🇨🇷CR | vless | @proxy_kafee | 3",
+                "🇨🇷CR | vless | @proxy_kafee | 5",
                 "🇸🇪SE | vless | @v2logy | 9",
                 "🇮🇷IR | vless | @servermomo | 1",
                 "🇸🇪SE | vless | @azadi_az_inja_migzare | 0",
@@ -218,10 +218,10 @@
                 "🇨🇦CA | vless | @VmessProtocol | 9",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 15",
-                "🇮🇷IR | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇬🇧GB | vmess | @Hope_Net | 11",
+                "🇨🇦CA | vmess | @Hope_Net | 11",
                 "🇨🇦CA | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇲🇾MY | vless | @Outlinev2rayNG | 18",
@@ -534,7 +534,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @vpn_xw | 3",
+            "tag": "🇩🇪DE | vless | @vpn_xw | 2",
             "type": "vless",
             "server": "35.159.153.57",
             "server_port": 8880,
@@ -569,7 +569,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @proxy_kafee | 3",
+            "tag": "🇨🇷CR | vless | @proxy_kafee | 5",
             "type": "vless",
             "server": "190.93.247.155",
             "server_port": 2095,
@@ -1206,17 +1206,34 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇮🇷IR | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "85.133.200.41",
-            "server_port": 6890,
-            "uuid": "4fabe6bd-5223-408d-840c-027b5a7ca137",
+            "server": "www.visa.com.sg",
+            "server_port": 8443,
+            "uuid": "9a39f63e-28c8-4560-af18-b01b9916ef1b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "pardazesh-tgws.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Tel-proxy_mtm\/?ed=2560",
+                "headers": {
+                    "Host": "pardazesh-tgws.pages.dev"
+                }
             }
         },
         {
@@ -1275,13 +1292,13 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vmess | @Hope_Net | 11",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 11",
             "type": "vmess",
-            "server": "83.142.225.59",
-            "server_port": 30000,
-            "uuid": "5267ca71-97e6-44c8-8fb5-9fe4afe0954e",
+            "server": "104.19.38.62",
+            "server_port": 2086,
+            "uuid": "29eebb60-b27b-4a9d-bba5-947763d9205e",
             "security": "auto",
-            "alter_id": 64,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -1290,21 +1307,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/path\/292806223002",
+                "path": "\/29eebb60-b27b-4a9d-bba5-947763d9205e-vm",
                 "headers": {
-                    "Host": ""
+                    "Host": "104.19.38.62"
                 }
             }
         },
