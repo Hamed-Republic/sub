@@ -127,13 +127,12 @@
                 "🇸🇪SE | vless | @azadi_az_inja_migzare | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇸🇪SE | vless | @V2rayNGn | 23",
+                "🇸🇪SE | vless | @V2rayNGn | 20",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇸🇪SE | vless | @prrofile_purple | 183",
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇸🇪SE | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 10",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 26",
                 "🇸🇪SE | vless | @ShadowProxy66 | 13",
                 "🇸🇪SE | vless | @ServerNett | 5",
                 "🇸🇪SE | vless | @proxyymeliii | 30",
@@ -143,7 +142,7 @@
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 26",
-                "🇩🇪DE | vless | @ConfigsHUB | 17",
+                "🇫🇷FR | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇺🇸US | vless | @free1_vpn | 1",
                 "🇺🇸US | vless | @fnet00 | 5",
@@ -189,13 +188,12 @@
                 "🇸🇪SE | vless | @azadi_az_inja_migzare | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇸🇪SE | vless | @V2rayNGn | 23",
+                "🇸🇪SE | vless | @V2rayNGn | 20",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇸🇪SE | vless | @prrofile_purple | 183",
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇸🇪SE | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 10",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 26",
                 "🇸🇪SE | vless | @ShadowProxy66 | 13",
                 "🇸🇪SE | vless | @ServerNett | 5",
                 "🇸🇪SE | vless | @proxyymeliii | 30",
@@ -205,7 +203,7 @@
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 26",
-                "🇩🇪DE | vless | @ConfigsHUB | 17",
+                "🇫🇷FR | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇺🇸US | vless | @free1_vpn | 1",
                 "🇺🇸US | vless | @fnet00 | 5",
@@ -710,11 +708,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2rayNGn | 23",
+            "tag": "🇸🇪SE | vless | @V2rayNGn | 20",
             "type": "vless",
             "server": "VPNCUSTOMIZE.Elmahstyle.ir",
             "server_port": 8080,
-            "uuid": "281e71f2-3f92-4be7-ae48-038c6d5a6fdb",
+            "uuid": "-_VPNCUSTOMIZE_-",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -842,37 +840,6 @@
                 "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080",
                 "headers": {
                     "Host": "104.18.228.32"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 26",
-            "type": "vless",
-            "server": "104.16.137.88",
-            "server_port": 443,
-            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "mmdv2.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "mmdv2.pages.dev"
                 }
             }
         },
@@ -1106,32 +1073,17 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 17",
+            "tag": "🇫🇷FR | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "162.55.56.225",
-            "server_port": 443,
-            "uuid": "350e9274-7fc4-4264-bf4d-22d39d731865",
-            "flow": "xtls-rprx-vision",
+            "server": "15.188.202.201",
+            "server_port": 8880,
+            "uuid": "b02c0d8b-63e2-4a16-a6b8-6dcb5dd14aa7",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "wordpress.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "B8qEfLWB6ViX4KohhTWtZxr_qU4_g8dqty-rfrmKoBw",
-                    "short_id": ""
-                }
             }
         },
         {
