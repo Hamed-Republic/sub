@@ -111,7 +111,7 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
                 "🇨🇦CA | vmess | @v2ray_swhil | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 11",
+                "🇨🇦CA | vmess | @Hope_Net | 10",
                 "🇺🇸US | vmess | @v2Line | 8",
                 "🇺🇸US | vmess | @ROMAX_VPN | 5"
             ]
@@ -125,7 +125,7 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
                 "🇨🇦CA | vmess | @v2ray_swhil | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 11",
+                "🇨🇦CA | vmess | @Hope_Net | 10",
                 "🇺🇸US | vmess | @v2Line | 8",
                 "🇺🇸US | vmess | @ROMAX_VPN | 5"
             ],
@@ -293,11 +293,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 11",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 10",
             "type": "vmess",
-            "server": "lzyjc.779917.xyz",
-            "server_port": 80,
-            "uuid": "557dd7d1-9085-4f39-970f-7d2bb79b164e",
+            "server": "188.114.97.3",
+            "server_port": 443,
+            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -308,11 +308,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "afrhms16v.bestxray.buzz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "lzyjc.779917.xyz"
+                    "Host": "afrhms16v.bestxray.buzz"
                 }
             }
         },
