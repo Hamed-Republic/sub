@@ -1044,9 +1044,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 443,
-            "uuid": "275791c2-2fcd-477e-aa34-5fd4aabc0e16",
+            "server": "162.159.133.233",
+            "server_port": 80,
+            "uuid": "c550bbb3-e061-404a-8471-dd5b5e0e5938",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1054,21 +1054,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "FOod.pinobIN.Ir.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/YwIG9FgZvsHrfa2f?ed=2560",
+                "path": "\/",
                 "headers": {
-                    "Host": "FOod.pinobIN.Ir."
+                    "Host": "162.159.133.233"
                 }
             }
         },

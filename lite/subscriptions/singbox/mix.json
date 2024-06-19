@@ -152,7 +152,7 @@
                 "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 10",
+                "🇺🇦UA | vmess | @Hope_Net | 9",
                 "🇺🇸US | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 18",
@@ -222,7 +222,7 @@
                 "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 10",
+                "🇺🇦UA | vmess | @Hope_Net | 9",
                 "🇺🇸US | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 18",
@@ -1229,9 +1229,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 443,
-            "uuid": "275791c2-2fcd-477e-aa34-5fd4aabc0e16",
+            "server": "162.159.133.233",
+            "server_port": 80,
+            "uuid": "c550bbb3-e061-404a-8471-dd5b5e0e5938",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1239,21 +1239,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "FOod.pinobIN.Ir.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/YwIG9FgZvsHrfa2f?ed=2560",
+                "path": "\/",
                 "headers": {
-                    "Host": "FOod.pinobIN.Ir."
+                    "Host": "162.159.133.233"
                 }
             }
         },
@@ -1313,11 +1303,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 10",
+            "tag": "🇺🇦UA | vmess | @Hope_Net | 9",
             "type": "vmess",
-            "server": "188.114.97.3",
-            "server_port": 443,
-            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
+            "server": "141.105.130.201",
+            "server_port": 36561,
+            "uuid": "7e2d4115-adf5-4d26-aa5e-a5167ec99a50",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1327,23 +1317,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "afrhms16v.bestxray.buzz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "afrhms16v.bestxray.buzz"
-                }
             }
         },
         {
