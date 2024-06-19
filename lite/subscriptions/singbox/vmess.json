@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
+                "🇺🇦UA | vmess | @oneclickvpnkeys | 3",
                 "🇨🇦CA | vmess | @v2ray_swhil | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇬🇧GB | vmess | @Hope_Net | 10",
@@ -122,7 +122,7 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
+                "🇺🇦UA | vmess | @oneclickvpnkeys | 3",
                 "🇨🇦CA | vmess | @v2ray_swhil | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇬🇧GB | vmess | @Hope_Net | 10",
@@ -184,11 +184,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
+            "tag": "🇺🇦UA | vmess | @oneclickvpnkeys | 3",
             "type": "vmess",
-            "server": "cdn.polyfill.io",
-            "server_port": 443,
-            "uuid": "268796f0-0c74-4ba3-a1b7-9d0cd40659dc",
+            "server": "141.105.130.201",
+            "server_port": 36561,
+            "uuid": "7e2d4115-adf5-4d26-aa5e-a5167ec99a50",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -198,23 +198,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "tls.redbullplus.xyz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/life",
-                "headers": {
-                    "Host": "tls.redbullplus.xyz"
-                }
             }
         },
         {
