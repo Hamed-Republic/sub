@@ -152,7 +152,6 @@
                 "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇦UA | vmess | @Hope_Net | 10",
                 "🇺🇸US | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 18",
@@ -223,7 +222,6 @@
                 "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇦UA | vmess | @Hope_Net | 10",
                 "🇺🇸US | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 18",
@@ -1231,9 +1229,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "162.159.10.111",
+            "server": "188.114.96.6",
             "server_port": 443,
-            "uuid": "10716279-b1ee-41d8-b63e-87782088305b",
+            "uuid": "52b15ac7-8d4d-4250-ba8c-200d52bc4af0",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1243,7 +1241,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "Hey.bAcHebiapAin.IR",
+                "server_name": "DisVpn.us.kg",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1253,9 +1251,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
                 "headers": {
-                    "Host": "Hey.bAcHebiapAin.IR"
+                    "Host": "DisVpn.us.kg"
                 }
             }
         },
@@ -1312,23 +1310,6 @@
                 "headers": {
                     "Host": "104.26.8.210"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇦UA | vmess | @Hope_Net | 10",
-            "type": "vmess",
-            "server": "141.105.130.201",
-            "server_port": 36561,
-            "uuid": "7e2d4115-adf5-4d26-aa5e-a5167ec99a50",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
