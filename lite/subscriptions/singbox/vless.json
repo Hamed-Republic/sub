@@ -141,7 +141,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 7",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 29",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇺🇸US | vless | @free1_vpn | 1",
                 "🇸🇪SE | vless | @fnet00 | 4",
@@ -151,7 +151,7 @@
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 17",
                 "🇺🇸US | vless | @FreakConfig | 4",
-                "🇸🇪SE | vless | @flyv2ray | 13",
+                "🇸🇪SE | vless | @flyv2ray | 12",
                 "🇸🇪SE | vless | @mehrosaboran | 3",
                 "🇺🇸US | vless | @kiava | 9",
                 "🏳️XX | vless | @vpn_go67 | 21",
@@ -201,7 +201,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 7",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 29",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇺🇸US | vless | @free1_vpn | 1",
                 "🇸🇪SE | vless | @fnet00 | 4",
@@ -211,7 +211,7 @@
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 17",
                 "🇺🇸US | vless | @FreakConfig | 4",
-                "🇸🇪SE | vless | @flyv2ray | 13",
+                "🇸🇪SE | vless | @flyv2ray | 12",
                 "🇸🇪SE | vless | @mehrosaboran | 3",
                 "🇺🇸US | vless | @kiava | 9",
                 "🏳️XX | vless | @vpn_go67 | 21",
@@ -1060,11 +1060,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "188.114.96.3",
-            "server_port": 443,
-            "uuid": "b40b0d81-18ac-427e-83d9-98dcf0e17004",
+            "server": "162.159.152.56",
+            "server_port": 80,
+            "uuid": "7d96f544-c496-41cf-dd61-337f0aff062a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1072,21 +1072,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "join-v2rey.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
+                "path": "\/abcde",
                 "headers": {
-                    "Host": "join-v2rey.pages.dev"
+                    "Host": "162.159.152.56"
                 }
             }
         },
@@ -1318,11 +1308,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @flyv2ray | 13",
+            "tag": "🇸🇪SE | vless | @flyv2ray | 12",
             "type": "vless",
-            "server": "185.146.173.92",
-            "server_port": 2095,
-            "uuid": "336831bf-1675-40e4-8f86-9c8c0a290413",
+            "server": "VPNCUSTOMIZE.Elmahstyle.ir",
+            "server_port": 8080,
+            "uuid": "42a96958-dc6d-48df-98be-f79d918e8ce0",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1332,9 +1322,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
                 "headers": {
-                    "Host": "185.146.173.92"
+                    "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
                 }
             }
         },
