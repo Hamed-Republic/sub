@@ -107,7 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇸🇪SE | vless | @EliV2ray | 23",
-                "🇸🇪SE | vless | @VlessConfig | 16",
+                "🇩🇪DE | vless | @VlessConfig | 15",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 30",
                 "🇸🇪SE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 1",
@@ -171,7 +171,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇸🇪SE | vless | @EliV2ray | 23",
-                "🇸🇪SE | vless | @VlessConfig | 16",
+                "🇩🇪DE | vless | @VlessConfig | 15",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 30",
                 "🇸🇪SE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 1",
@@ -271,9 +271,9 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @VlessConfig | 16",
+            "tag": "🇩🇪DE | vless | @VlessConfig | 15",
             "type": "vless",
-            "server": "51.20.195.201",
+            "server": "18.194.32.203",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1036,9 +1036,9 @@
         {
             "tag": "🇸🇪SE | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "185.146.173.158",
+            "server": "185.146.173.58",
             "server_port": 80,
-            "uuid": "%63%63%64%30%63%32%33%39%2d%39%65%31%37%2d%34%63%37%33%2d%39%63%37%36%2d%30%33%34%33%32%39%61%65%65%63%32%30",
+            "uuid": "%54%65%6c%65%67%72%61%6d%2d%69%70%56%32%52%61%79%2d%7a%65%77",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1048,9 +1048,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
+                "path": "\/Telegram-ipV2Ray",
                 "headers": {
-                    "Host": "185.146.173.158"
+                    "Host": "185.146.173.58"
                 }
             }
         },
@@ -1120,9 +1120,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "joinmahdiserver.tvcmmggv.workers.dev",
-            "server_port": 443,
-            "uuid": "ff48b92f-951b-46c1-b6d7-e42b3939066a",
+            "server": "www.visa.com.sg",
+            "server_port": 8443,
+            "uuid": "9a39f63e-28c8-4560-af18-b01b9916ef1b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1132,7 +1132,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "joinmahdiserver.tvcmmggv.workers.dev",
+                "server_name": "pardazesh-tgws.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1142,9 +1142,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Tel-proxy_mtm\/?ed=2560",
                 "headers": {
-                    "Host": "joinmahdiserver.tvcmmggv.workers.dev"
+                    "Host": "pardazesh-tgws.pages.dev"
                 }
             }
         },
