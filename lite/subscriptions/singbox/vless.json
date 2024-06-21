@@ -141,7 +141,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 7",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 29",
-                "🇫🇷FR | vless | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇺🇸US | vless | @free1_vpn | 1",
                 "🇸🇪SE | vless | @fnet00 | 4",
@@ -201,7 +201,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 7",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 29",
-                "🇫🇷FR | vless | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇺🇸US | vless | @free1_vpn | 1",
                 "🇸🇪SE | vless | @fnet00 | 4",
@@ -1060,17 +1060,24 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vless | @ConfigsHUB | 19",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "15.237.237.92",
-            "server_port": 8880,
-            "uuid": "b02c0d8b-63e2-4a16-a6b8-6dcb5dd14aa7",
+            "server": "185.146.173.37",
+            "server_port": 2095,
+            "uuid": "6e120725-a945-49c9-a645-7be05fa2fbdb",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "185.146.173.37"
+                }
             }
         },
         {
