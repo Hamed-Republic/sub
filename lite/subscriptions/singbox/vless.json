@@ -141,7 +141,7 @@
                 "🇩🇪DE | vless | @VmessProtocol | 6",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 29",
-                "🇸🇪SE | vless | @ConfigsHUB | 17",
+                "🇩🇪DE | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇺🇸US | vless | @free1_vpn | 1",
                 "🇸🇪SE | vless | @fnet00 | 4",
@@ -201,7 +201,7 @@
                 "🇩🇪DE | vless | @VmessProtocol | 6",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 29",
-                "🇸🇪SE | vless | @ConfigsHUB | 17",
+                "🇩🇪DE | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇺🇸US | vless | @free1_vpn | 1",
                 "🇸🇪SE | vless | @fnet00 | 4",
@@ -466,7 +466,7 @@
             "type": "vless",
             "server": "LIGHTNING6-joinbed.filj.top",
             "server_port": 8880,
-            "uuid": "db05a6b6-3c8f-46ce-8bcd-5b2d149d2162",
+            "uuid": "2d5f4f7f-ce02-43b4-9759-d5f04e0a2036",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1036,24 +1036,17 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 17",
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 80,
-            "uuid": "Telegram-ipV2Ray-iop",
+            "server": "78.46.204.85",
+            "server_port": 8080,
+            "uuid": "4b31342a-c76d-402d-86c4-08a1ecb9f43a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-ipV2Ray",
-                "headers": {
-                    "Host": "185.146.173.58"
-                }
             }
         },
         {
