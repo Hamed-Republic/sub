@@ -139,7 +139,7 @@
                 "🇨🇷CR | vless | @v2rayNG_Matsuri | 28",
                 "🇨🇦CA | vless | @ShadowProxy66 | 3",
                 "🇸🇪SE | vless | @ServerNett | 5",
-                "🇮🇷IR | vless | @v2ray_swhil | 6",
+                "🇸🇪SE | vless | @v2ray_swhil | 7",
                 "🇨🇦CA | vless | @proxyymeliii | 34",
                 "🇨🇦CA | vless | @v2ray1_ng | 9",
                 "🇨🇦CA | vless | @vless_vmess | 15",
@@ -148,14 +148,14 @@
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇫🇷FR | vless | @VmessProtocol | 6",
                 "🇨🇦CA | vless | @DailyV2RY | 135",
-                "🇨🇦CA | vless | @sinabigo | 3",
+                "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 32",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇸🇪SE | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇺🇸US | vmess | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
-                "🇺🇸US | vmess | @Hope_Net | 9",
+                "🇨🇦CA | vmess | @Hope_Net | 9",
                 "🇸🇪SE | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 16",
@@ -215,7 +215,7 @@
                 "🇨🇷CR | vless | @v2rayNG_Matsuri | 28",
                 "🇨🇦CA | vless | @ShadowProxy66 | 3",
                 "🇸🇪SE | vless | @ServerNett | 5",
-                "🇮🇷IR | vless | @v2ray_swhil | 6",
+                "🇸🇪SE | vless | @v2ray_swhil | 7",
                 "🇨🇦CA | vless | @proxyymeliii | 34",
                 "🇨🇦CA | vless | @v2ray1_ng | 9",
                 "🇨🇦CA | vless | @vless_vmess | 15",
@@ -224,14 +224,14 @@
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇫🇷FR | vless | @VmessProtocol | 6",
                 "🇨🇦CA | vless | @DailyV2RY | 135",
-                "🇨🇦CA | vless | @sinabigo | 3",
+                "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 32",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇸🇪SE | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇺🇸US | vmess | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
-                "🇺🇸US | vmess | @Hope_Net | 9",
+                "🇨🇦CA | vmess | @Hope_Net | 9",
                 "🇸🇪SE | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 16",
@@ -1007,17 +1007,24 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @v2ray_swhil | 6",
+            "tag": "🇸🇪SE | vless | @v2ray_swhil | 7",
             "type": "vless",
-            "server": "185.46.0.192",
-            "server_port": 2053,
-            "uuid": "2ec5db96-c091-4401-9528-35c1ec513de1",
+            "server": "185.146.173.58",
+            "server_port": 2086,
+            "uuid": "9a279347-749d-4478-8ff6-abd151b23e34",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/AAWED",
+                "headers": {
+                    "Host": "185.146.173.58"
+                }
             }
         },
         {
@@ -1235,7 +1242,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @sinabigo | 3",
+            "tag": "🇨🇦CA | vless | @sinabigo | 4",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2052,
@@ -1287,11 +1294,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 17",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "185.146.173.37",
+            "server": "www.Speedtest.Net",
             "server_port": 2095,
-            "uuid": "c8e3f489-777f-4b89-9e5a-ce90a5e9bb10",
+            "uuid": "DIGIv2rAY",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1301,9 +1308,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/DIGIV2RAY--DigiV2ray--digiv2ray--DIGIV2RAY--DigiV2ray--digiv2ray--DigiV2ray--DigiV2ray?ed=1024",
                 "headers": {
-                    "Host": "185.146.173.37"
+                    "Host": "www.Speedtest.Net"
                 }
             }
         },
@@ -1407,7 +1414,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 9",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 9",
             "type": "vmess",
             "server": "104.20.247.178",
             "server_port": 80,
