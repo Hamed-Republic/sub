@@ -124,20 +124,21 @@
                 "🇩🇪DE | vless | @servermomo | 2",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🏳️XX | vless | @ProxyForOpeta | 4",
+                "🇸🇪SE | vless | @V2rayNGn | 23",
                 "🇬🇧GB | trojan | @PrivateVPNs | 18",
                 "🇬🇧GB | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
                 "🇨🇦CA | vless | @Outline_Vpn | 18",
-                "🇸🇪SE | vless | @prrofile_purple | 172",
+                "🇸🇪SE | vless | @prrofile_purple | 174",
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇸🇪SE | vless | @UnlimitedDev | 16",
                 "🇨🇦CA | vless | @vmessorg | 13",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 29",
                 "🇨🇦CA | vless | @ShadowProxy66 | 2",
                 "🇸🇪SE | vless | @ServerNett | 6",
-                "🇺🇸US | vless | @v2ray_swhil | 6",
+                "🇮🇷IR | vless | @v2ray_swhil | 7",
                 "🇨🇦CA | vless | @proxyymeliii | 35",
                 "🇨🇦CA | vless | @v2ray1_ng | 10",
                 "🇨🇦CA | vless | @vless_vmess | 15",
@@ -199,20 +200,21 @@
                 "🇩🇪DE | vless | @servermomo | 2",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🏳️XX | vless | @ProxyForOpeta | 4",
+                "🇸🇪SE | vless | @V2rayNGn | 23",
                 "🇬🇧GB | trojan | @PrivateVPNs | 18",
                 "🇬🇧GB | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
                 "🇨🇦CA | vless | @Outline_Vpn | 18",
-                "🇸🇪SE | vless | @prrofile_purple | 172",
+                "🇸🇪SE | vless | @prrofile_purple | 174",
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇸🇪SE | vless | @UnlimitedDev | 16",
                 "🇨🇦CA | vless | @vmessorg | 13",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 29",
                 "🇨🇦CA | vless | @ShadowProxy66 | 2",
                 "🇸🇪SE | vless | @ServerNett | 6",
-                "🇺🇸US | vless | @v2ray_swhil | 6",
+                "🇮🇷IR | vless | @v2ray_swhil | 7",
                 "🇨🇦CA | vless | @proxyymeliii | 35",
                 "🇨🇦CA | vless | @v2ray1_ng | 10",
                 "🇨🇦CA | vless | @vless_vmess | 15",
@@ -673,6 +675,27 @@
             }
         },
         {
+            "tag": "🇸🇪SE | vless | @V2rayNGn | 23",
+            "type": "vless",
+            "server": "VPNCUSTOMIZE.Elmahstyle.ir",
+            "server_port": 8080,
+            "uuid": "d34ea5ed-6742-4449-a5b1-3723a5b4d98e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
+                "headers": {
+                    "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
+                }
+            }
+        },
+        {
             "tag": "🇬🇧GB | trojan | @PrivateVPNs | 18",
             "type": "trojan",
             "server": "18.170.159.228",
@@ -816,11 +839,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @prrofile_purple | 172",
+            "tag": "🇸🇪SE | vless | @prrofile_purple | 174",
             "type": "vless",
             "server": "185.146.173.58",
             "server_port": 2052,
-            "uuid": "befc8a7a-cb75-4be6-b5d7-f8b88eafcbcf",
+            "uuid": "Telegram-ipV2Ray-zqo",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -830,7 +853,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-VPNwedbaz---VPNwedbaz---VPNwedbaz---VPNwedbaz---VPNwedbaz---VPNwedbaz---VPNwedbaz---VPNwedbaz---VPNwedbaz---VPNwedbaz---VPNwedbaz---VPNwedbaz---VPNwedbaz",
+                "path": "\/Telegram-ipV2Ray",
                 "headers": {
                     "Host": "185.146.173.58"
                 }
@@ -963,34 +986,17 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @v2ray_swhil | 6",
+            "tag": "🇮🇷IR | vless | @v2ray_swhil | 7",
             "type": "vless",
-            "server": "172.64.111.69",
-            "server_port": 443,
-            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "server": "185.46.0.192",
+            "server_port": 2053,
+            "uuid": "2ec5db96-c091-4401-9528-35c1ec513de1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "mmdv2.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "mmdv2.pages.dev"
-                }
             }
         },
         {
@@ -1266,9 +1272,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "172.66.44.55",
+            "server": "104.18.202.232",
             "server_port": 443,
-            "uuid": "104380d8-f859-421a-bd11-29b2c9fbfa99",
+            "uuid": "17a7bf97-fef5-4101-a5c5-7c730fabeeee",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1278,7 +1284,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "famil-5c8.pages.dev",
+                "server_name": "bpb-worker-panel-h5f.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1288,9 +1294,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/telegram-proxy_mtm\/",
                 "headers": {
-                    "Host": "famil-5c8.pages.dev"
+                    "Host": "bpb-worker-panel-h5f.pages.dev"
                 }
             }
         },
