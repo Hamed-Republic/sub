@@ -125,9 +125,6 @@
                 "🇮🇷IR | vmess | @vless_vmess | 1",
                 "🇺🇸US | vmess | @vmess_vless_v2rayng | 3",
                 "🏳️XX | vmess | @DailyV2RY | 144",
-                "🇺🇸US | vmess | @ConfigsHUB | 0",
-                "🇺🇸US | vmess | @ConfigsHUB | 7",
-                "🇺🇸US | vmess | @ConfigsHUB | 9",
                 "🇹🇷TR | vmess | @proxystore11 | 1",
                 "🇺🇸US | vmess | @proxystore11 | 12",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
@@ -178,9 +175,6 @@
                 "🇮🇷IR | vmess | @vless_vmess | 1",
                 "🇺🇸US | vmess | @vmess_vless_v2rayng | 3",
                 "🏳️XX | vmess | @DailyV2RY | 144",
-                "🇺🇸US | vmess | @ConfigsHUB | 0",
-                "🇺🇸US | vmess | @ConfigsHUB | 7",
-                "🇺🇸US | vmess | @ConfigsHUB | 9",
                 "🇹🇷TR | vmess | @proxystore11 | 1",
                 "🇺🇸US | vmess | @proxystore11 | 12",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
@@ -709,108 +703,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 0",
-            "type": "vmess",
-            "server": "172.67.191.45",
-            "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "nezuko.raidenshogun.cloudns.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws\/obdii.cfd",
-                "headers": {
-                    "Host": "nezuko.raidenshogun.cloudns.org"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 7",
-            "type": "vmess",
-            "server": "172.67.131.108",
-            "server_port": 443,
-            "uuid": "1052f24e-7b09-45eb-b0c5-d858eb124192",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "glweidf.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "glweidf.cfd"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 9",
-            "type": "vmess",
-            "server": "104.21.4.6",
-            "server_port": 443,
-            "uuid": "1052f24e-7b09-45eb-b0c5-d858eb124192",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "glweidf.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "glweidf.cfd"
-                }
             }
         },
         {
