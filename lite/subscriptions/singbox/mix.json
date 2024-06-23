@@ -131,9 +131,9 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
-                "🇨🇦CA | vless | @Outline_Vpn | 19",
+                "🇩🇪DE | vless | @Outline_Vpn | 19",
                 "🇮🇷IR | vless | @prrofile_purple | 184",
-                "🇨🇦CA | vless | @customv2ray | 16",
+                "🇮🇷IR | vless | @customv2ray | 15",
                 "🇸🇪SE | vless | @UnlimitedDev | 17",
                 "🇨🇦CA | vless | @vmessorg | 12",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 31",
@@ -145,7 +145,7 @@
                 "🇨🇦CA | vless | @MTConfig | 8",
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 0",
                 "🇸🇪SE | vless | @V2RayTz | 19",
-                "🇫🇷FR | trojan | @VmessProtocol | 3",
+                "🇫🇷FR | trojan | @VmessProtocol | 4",
                 "🇨🇦CA | vless | @DailyV2RY | 179",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
@@ -160,7 +160,7 @@
                 "🇺🇸US | vless | @v2rayng_vpnrog | 12",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 8",
-                "🇺🇸US | vless | @Capoit | 13",
+                "🇺🇸US | vless | @Capoit | 15",
                 "🇺🇸US | vless | @FreakConfig | 4",
                 "🇸🇪SE | vless | @flyv2ray | 17",
                 "🇮🇷IR | vless | @FAKEOFTVC | 3",
@@ -206,9 +206,9 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
-                "🇨🇦CA | vless | @Outline_Vpn | 19",
+                "🇩🇪DE | vless | @Outline_Vpn | 19",
                 "🇮🇷IR | vless | @prrofile_purple | 184",
-                "🇨🇦CA | vless | @customv2ray | 16",
+                "🇮🇷IR | vless | @customv2ray | 15",
                 "🇸🇪SE | vless | @UnlimitedDev | 17",
                 "🇨🇦CA | vless | @vmessorg | 12",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 31",
@@ -220,7 +220,7 @@
                 "🇨🇦CA | vless | @MTConfig | 8",
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 0",
                 "🇸🇪SE | vless | @V2RayTz | 19",
-                "🇫🇷FR | trojan | @VmessProtocol | 3",
+                "🇫🇷FR | trojan | @VmessProtocol | 4",
                 "🇨🇦CA | vless | @DailyV2RY | 179",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
@@ -235,7 +235,7 @@
                 "🇺🇸US | vless | @v2rayng_vpnrog | 12",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 8",
-                "🇺🇸US | vless | @Capoit | 13",
+                "🇺🇸US | vless | @Capoit | 15",
                 "🇺🇸US | vless | @FreakConfig | 4",
                 "🇸🇪SE | vless | @flyv2ray | 17",
                 "🇮🇷IR | vless | @FAKEOFTVC | 3",
@@ -834,34 +834,17 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outline_Vpn | 19",
+            "tag": "🇩🇪DE | vless | @Outline_Vpn | 19",
             "type": "vless",
-            "server": "104.20.115.188",
-            "server_port": 443,
-            "uuid": "10716279-b1ee-41d8-b63e-87782088305b",
+            "server": "49.13.82.2",
+            "server_port": 8080,
+            "uuid": "99c517c7-606c-4091-99d0-0a19203d6835",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "heY.BACHEBiapaIn.Ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/cVld1tNyOQfi6EWx?ed=2560",
-                "headers": {
-                    "Host": "heY.BACHEBiapaIn.Ir"
-                }
             }
         },
         {
@@ -879,11 +862,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @customv2ray | 16",
+            "tag": "🇮🇷IR | vless | @customv2ray | 15",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 443,
-            "uuid": "9c2f4be2-3dbb-48d3-b78b-85e3e884d2ce",
+            "server": "Ipv.acangame.ir",
+            "server_port": 52852,
+            "uuid": "776cdd74-3071-43b4-bbe1-effbd4a2266e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -891,22 +874,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "snapp.pinobin.ir.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "ws",
-                "path": "\/i9dmr8hSfQIsLEox?ed",
-                "headers": {
-                    "Host": "snapp.pinobin.ir."
-                }
+                "type": "grpc",
+                "service_name": "Tel-@GH_v2rayng Tel-@GH_v2rayng Tel-@GH_v2rayng Tel-@GH_v2rayng Tel-@GH_v2rayng Tel-@GH_v2rayng Tel-@GH_v2rayng Tel-@GH_v2rayng",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1201,7 +1174,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | trojan | @VmessProtocol | 3",
+            "tag": "🇫🇷FR | trojan | @VmessProtocol | 4",
             "type": "trojan",
             "server": "51.158.217.195",
             "server_port": 43118,
@@ -1308,9 +1281,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "104.17.148.22",
-            "server_port": 2095,
-            "uuid": "cfb6d9ad-7a14-4061-b159-8902fd73bb41",
+            "server": "188.114.96.6",
+            "server_port": 443,
+            "uuid": "13ba9154-0ace-443b-b38a-5349031d4e1d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1318,11 +1291,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "DisVpn.us.kg",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/DIGIV2RAY--DigiV2ray--digiv2ray--DIGIV2RAY--DigiV2ray--digiv2ray--DigiV2ray--DigiV2ray?ed=1024",
+                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
                 "headers": {
-                    "Host": "104.17.148.22"
+                    "Host": "DisVpn.us.kg"
                 }
             }
         },
@@ -1573,7 +1556,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Capoit | 13",
+            "tag": "🇺🇸US | vless | @Capoit | 15",
             "type": "vless",
             "server": "188.114.97.3",
             "server_port": 443,
