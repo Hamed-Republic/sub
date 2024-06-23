@@ -109,12 +109,12 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 5",
-                "🇳🇱NL | vmess | @ConfigsHUB | 18",
+                "🇨🇦CA | vmess | @ConfigsHUB | 16",
                 "🇺🇸US | vmess | @proxystore11 | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 8",
-                "🇨🇦CA | vmess | @v2Line | 8",
-                "🇨🇦CA | vmess | @ROMAX_VPN | 5"
+                "🇺🇸US | vmess | @v2Line | 8",
+                "🇺🇸US | vmess | @ROMAX_VPN | 5"
             ]
         },
         {
@@ -124,12 +124,12 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 5",
-                "🇳🇱NL | vmess | @ConfigsHUB | 18",
+                "🇨🇦CA | vmess | @ConfigsHUB | 16",
                 "🇺🇸US | vmess | @proxystore11 | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 8",
-                "🇨🇦CA | vmess | @v2Line | 8",
-                "🇨🇦CA | vmess | @ROMAX_VPN | 5"
+                "🇺🇸US | vmess | @v2Line | 8",
+                "🇺🇸US | vmess | @ROMAX_VPN | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -210,11 +210,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vmess | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 16",
             "type": "vmess",
-            "server": "5.42.100.206",
-            "server_port": 58933,
-            "uuid": "e4f60c1c-50e5-4d4a-b087-47ab29a46eed",
+            "server": "104.21.15.36",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -224,6 +224,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "linde06.indiavideo.sbs"
+                }
             }
         },
         {
@@ -319,7 +336,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @v2Line | 8",
+            "tag": "🇺🇸US | vmess | @v2Line | 8",
             "type": "vmess",
             "server": "104.21.83.108",
             "server_port": 443,
@@ -353,7 +370,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ROMAX_VPN | 5",
+            "tag": "🇺🇸US | vmess | @ROMAX_VPN | 5",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 443,
