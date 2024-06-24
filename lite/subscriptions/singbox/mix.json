@@ -136,7 +136,7 @@
                 "🇨🇦CA | vless | @customv2ray | 16",
                 "🇸🇪SE | vless | @UnlimitedDev | 17",
                 "🇨🇦CA | vless | @vmessorg | 12",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 26",
+                "🇺🇸US | vless | @v2rayNG_Matsuri | 26",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 9",
                 "🇸🇪SE | vless | @ServerNett | 6",
                 "🇮🇷IR | vless | @v2ray_swhil | 8",
@@ -150,7 +150,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vmess | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
@@ -212,7 +212,7 @@
                 "🇨🇦CA | vless | @customv2ray | 16",
                 "🇸🇪SE | vless | @UnlimitedDev | 17",
                 "🇨🇦CA | vless | @vmessorg | 12",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 26",
+                "🇺🇸US | vless | @v2rayNG_Matsuri | 26",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 9",
                 "🇸🇪SE | vless | @ServerNett | 6",
                 "🇮🇷IR | vless | @v2ray_swhil | 8",
@@ -226,7 +226,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vmess | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
@@ -920,9 +920,9 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 26",
+            "tag": "🇺🇸US | vless | @v2rayNG_Matsuri | 26",
             "type": "vless",
-            "server": "104.19.7.174",
+            "server": "162.159.246.186",
             "server_port": 443,
             "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
             "flow": "",
@@ -944,7 +944,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/TELEGRAM-MARAMBASHI\/",
                 "headers": {
                     "Host": "mmdv2.pages.dev"
                 }
@@ -1269,36 +1269,23 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 17",
-            "type": "vmess",
-            "server": "104.21.15.36",
-            "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "172.66.44.135",
+            "server_port": 80,
+            "uuid": "5df7962e-f9fe-41e6-ab49-ed96ccb856a7",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/",
                 "headers": {
-                    "Host": "linde06.indiavideo.sbs"
+                    "Host": "172.66.44.135"
                 }
             }
         },
