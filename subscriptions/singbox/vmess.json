@@ -150,8 +150,6 @@
                 "🇺🇸US | vmess | @v2Line | 5",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇺🇸US | vmess | @v2Line | 7",
-                "🇮🇳IN | vmess | @v2Line | 9",
-                "🇺🇸US | vmess | @v2Line | 10",
                 "🇺🇸US | vmess | @ROMAX_VPN | 0",
                 "🇺🇸US | vmess | @ROMAX_VPN | 2",
                 "🇺🇸US | vmess | @ROMAX_VPN | 3",
@@ -207,8 +205,6 @@
                 "🇺🇸US | vmess | @v2Line | 5",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇺🇸US | vmess | @v2Line | 7",
-                "🇮🇳IN | vmess | @v2Line | 9",
-                "🇺🇸US | vmess | @v2Line | 10",
                 "🇺🇸US | vmess | @ROMAX_VPN | 0",
                 "🇺🇸US | vmess | @ROMAX_VPN | 2",
                 "🇺🇸US | vmess | @ROMAX_VPN | 3",
@@ -1455,74 +1451,6 @@
                 "path": "\/v118-fccxmxm35",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇮🇳IN | vmess | @v2Line | 9",
-            "type": "vmess",
-            "server": "in-full.privateip.net",
-            "server_port": 443,
-            "uuid": "a2081592-fb7a-4b0a-b93b-33ddf0825410",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/RACEVPN",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @v2Line | 10",
-            "type": "vmess",
-            "server": "104.21.44.106",
-            "server_port": 443,
-            "uuid": "93ea486a-bada-42a4-ac38-d088b320fa1e",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "xmivideo.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "xmivideo.cfd"
                 }
             }
         },
