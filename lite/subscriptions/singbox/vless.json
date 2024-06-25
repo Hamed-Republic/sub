@@ -143,7 +143,6 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 157",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @free1_vpn | 1",
                 "🇸🇪SE | vless | @fnet00 | 7",
@@ -207,7 +206,6 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 157",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @free1_vpn | 1",
                 "🇸🇪SE | vless | @fnet00 | 7",
@@ -1106,27 +1104,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "172.67.55.192"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "zula.ir",
-            "server_port": 80,
-            "uuid": "83cbebec-9582-4f99-927a-b14d57e7b5f7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "zula.ir"
                 }
             }
         },
