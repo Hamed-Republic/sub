@@ -123,12 +123,12 @@
                 "🇩🇪DE | vless | @servermomo | 1",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 7",
-                "🇸🇪SE | vless | @V2rayNGn | 5",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇸🇪SE | vless | @prrofile_purple | 185",
                 "🇨🇦CA | vless | @customv2ray | 16",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | vless | @vmessorg | 11",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 23",
                 "🇸🇪SE | vless | @ServerNett | 13",
                 "🇸🇪SE | vless | @v2ray_swhil | 10",
                 "🇸🇪SE | vless | @proxyymeliii | 41",
@@ -138,13 +138,12 @@
                 "🇸🇪SE | vless | @V2RayTz | 15",
                 "🇨🇷CR | vless | @DailyV2RY | 87",
                 "🇨🇦CA | vless | @sinabigo | 1",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇸🇪SE | vless | @proxystore11 | 10",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 9",
                 "🇸🇪SE | vless | @polproxy | 8",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 17",
-                "🇨🇦CA | vless | @v2rayng_vpnrog | 11",
+                "🇺🇸US | vless | @Outlinev2rayNG | 17",
+                "🇺🇸US | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 16",
                 "🇲🇾MY | vless | @FreakConfig | 5",
@@ -181,12 +180,12 @@
                 "🇩🇪DE | vless | @servermomo | 1",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 7",
-                "🇸🇪SE | vless | @V2rayNGn | 5",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇸🇪SE | vless | @prrofile_purple | 185",
                 "🇨🇦CA | vless | @customv2ray | 16",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | vless | @vmessorg | 11",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 23",
                 "🇸🇪SE | vless | @ServerNett | 13",
                 "🇸🇪SE | vless | @v2ray_swhil | 10",
                 "🇸🇪SE | vless | @proxyymeliii | 41",
@@ -196,13 +195,12 @@
                 "🇸🇪SE | vless | @V2RayTz | 15",
                 "🇨🇷CR | vless | @DailyV2RY | 87",
                 "🇨🇦CA | vless | @sinabigo | 1",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇸🇪SE | vless | @proxystore11 | 10",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 9",
                 "🇸🇪SE | vless | @polproxy | 8",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 17",
-                "🇨🇦CA | vless | @v2rayng_vpnrog | 11",
+                "🇺🇸US | vless | @Outlinev2rayNG | 17",
+                "🇺🇸US | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 16",
                 "🇲🇾MY | vless | @FreakConfig | 5",
@@ -643,27 +641,6 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2rayNGn | 5",
-            "type": "vless",
-            "server": "VPNCUSTOMIZE.Elmahstyle.ir",
-            "server_port": 8080,
-            "uuid": "Bia_to_VPNCUSTOMIZE",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
-                "headers": {
-                    "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @Outline_Vpn | 19",
             "type": "vless",
             "server": "www.speedtest.net",
@@ -775,6 +752,27 @@
                 "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080",
                 "headers": {
                     "Host": "104.21.78.161"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 23",
+            "type": "vless",
+            "server": "172.66.44.135",
+            "server_port": 80,
+            "uuid": "5df7962e-f9fe-41e6-ab49-ed96ccb856a7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "172.66.44.135"
                 }
             }
         },
@@ -991,37 +989,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "eagle.hafezdivan.online.",
-            "server_port": 443,
-            "uuid": "c416be20-32b3-467f-83c2-735e04d639f7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "eagle.hafezdivan.online.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "eagle.hafezdivan.online."
-                }
-            }
-        },
-        {
             "tag": "🇸🇪SE | vless | @proxystore11 | 10",
             "type": "vless",
             "server": "185.146.173.37",
@@ -1116,7 +1083,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 17",
+            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 17",
             "type": "vless",
             "server": "eagle.Hafezdivan.Online.",
             "server_port": 80,
@@ -1137,7 +1104,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayng_vpnrog | 11",
+            "tag": "🇺🇸US | vless | @v2rayng_vpnrog | 11",
             "type": "vless",
             "server": "188.114.98.224",
             "server_port": 2095,
