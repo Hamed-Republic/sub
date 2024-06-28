@@ -114,14 +114,13 @@
                 "🇨🇳CN | vmess | @mftizi | 16",
                 "🇺🇸US | vmess | @mftizi | 17",
                 "🇨🇳CN | vmess | @mftizi | 18",
-                "🇸🇪SE | vmess | @DeamNet_Proxy | 11",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 11",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 14",
                 "🇱🇺LU | vmess | @DeamNet_Proxy | 16",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 0",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 1",
                 "🇭🇰HK | vmess | @oneclickvpnkeys | 2",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 4",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 5",
                 "🇺🇸US | vmess | @ShadowProxy66 | 4",
                 "🇺🇸US | vmess | @ShadowProxy66 | 5",
                 "🇺🇸US | vmess | @ShadowProxy66 | 6",
@@ -136,8 +135,8 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 15",
                 "🇺🇸US | vmess | @ShadowProxy66 | 16",
                 "🇮🇷IR | vmess | @vless_vmess | 5",
+                "🏳️XX | vmess | @DailyV2RY | 75",
                 "🇺🇸US | vmess | @DailyV2RY | 82",
-                "🏳️XX | vmess | @DailyV2RY | 88",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -165,7 +164,8 @@
                 "🇺🇸US | vmess | @FAKEOFTVC | 3",
                 "🇺🇸US | vmess | @ROMAX_VPN | 0",
                 "🇺🇸US | vmess | @ROMAX_VPN | 2",
-                "🇺🇸US | vmess | @ROMAX_VPN | 4"
+                "🇺🇸US | vmess | @ROMAX_VPN | 4",
+                "🇺🇸US | vmess | @ROMAX_VPN | 5"
             ]
         },
         {
@@ -180,14 +180,13 @@
                 "🇨🇳CN | vmess | @mftizi | 16",
                 "🇺🇸US | vmess | @mftizi | 17",
                 "🇨🇳CN | vmess | @mftizi | 18",
-                "🇸🇪SE | vmess | @DeamNet_Proxy | 11",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 11",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 14",
                 "🇱🇺LU | vmess | @DeamNet_Proxy | 16",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 0",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 1",
                 "🇭🇰HK | vmess | @oneclickvpnkeys | 2",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 4",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 5",
                 "🇺🇸US | vmess | @ShadowProxy66 | 4",
                 "🇺🇸US | vmess | @ShadowProxy66 | 5",
                 "🇺🇸US | vmess | @ShadowProxy66 | 6",
@@ -202,8 +201,8 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 15",
                 "🇺🇸US | vmess | @ShadowProxy66 | 16",
                 "🇮🇷IR | vmess | @vless_vmess | 5",
+                "🏳️XX | vmess | @DailyV2RY | 75",
                 "🇺🇸US | vmess | @DailyV2RY | 82",
-                "🏳️XX | vmess | @DailyV2RY | 88",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -231,7 +230,8 @@
                 "🇺🇸US | vmess | @FAKEOFTVC | 3",
                 "🇺🇸US | vmess | @ROMAX_VPN | 0",
                 "🇺🇸US | vmess | @ROMAX_VPN | 2",
-                "🇺🇸US | vmess | @ROMAX_VPN | 4"
+                "🇺🇸US | vmess | @ROMAX_VPN | 4",
+                "🇺🇸US | vmess | @ROMAX_VPN | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -411,7 +411,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vmess | @DeamNet_Proxy | 11",
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 11",
             "type": "vmess",
             "server": "vlscdn.nimaxmusic.ir",
             "server_port": 2052,
@@ -598,40 +598,6 @@
                 "path": "\/linkws",
                 "headers": {
                     "Host": "obdii.cfd"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 5",
-            "type": "vmess",
-            "server": "zula.ir",
-            "server_port": 443,
-            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "jahfkjha.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "jahfkjha.cfd"
                 }
             }
         },
@@ -1011,6 +977,23 @@
             }
         },
         {
+            "tag": "🏳️XX | vmess | @DailyV2RY | 75",
+            "type": "vmess",
+            "server": null,
+            "server_port": 0,
+            "uuid": null,
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇺🇸US | vmess | @DailyV2RY | 82",
             "type": "vmess",
             "server": "npmjs.com",
@@ -1042,23 +1025,6 @@
                 "headers": {
                     "Host": "hdfy1c2.freeairlaines.com"
                 }
-            }
-        },
-        {
-            "tag": "🏳️XX | vmess | @DailyV2RY | 88",
-            "type": "vmess",
-            "server": null,
-            "server_port": 0,
-            "uuid": null,
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -1906,6 +1872,40 @@
                 "path": "\/ivideos.sbs\/linkws",
                 "headers": {
                     "Host": "mikasa.yaemiko.cloudns.org"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @ROMAX_VPN | 5",
+            "type": "vmess",
+            "server": "zula.ir",
+            "server_port": 443,
+            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "jahfkjha.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "jahfkjha.cfd"
                 }
             }
         }
