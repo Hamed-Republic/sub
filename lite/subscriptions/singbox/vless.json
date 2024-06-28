@@ -130,7 +130,6 @@
                 "🇨🇦CA | vless | @vmessorg | 11",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 23",
                 "🇸🇪SE | vless | @ServerNett | 13",
-                "🇸🇪SE | vless | @v2ray_swhil | 10",
                 "🇸🇪SE | vless | @proxyymeliii | 41",
                 "🇮🇷IR | vless | @vless_vmess | 12",
                 "🇨🇦CA | vless | @MTConfig | 8",
@@ -138,6 +137,7 @@
                 "🇸🇪SE | vless | @V2RayTz | 15",
                 "🇨🇷CR | vless | @DailyV2RY | 87",
                 "🇨🇦CA | vless | @sinabigo | 1",
+                "🇸🇪SE | vless | @ConfigsHUB | 18",
                 "🇸🇪SE | vless | @proxystore11 | 10",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 9",
@@ -187,7 +187,6 @@
                 "🇨🇦CA | vless | @vmessorg | 11",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 23",
                 "🇸🇪SE | vless | @ServerNett | 13",
-                "🇸🇪SE | vless | @v2ray_swhil | 10",
                 "🇸🇪SE | vless | @proxyymeliii | 41",
                 "🇮🇷IR | vless | @vless_vmess | 12",
                 "🇨🇦CA | vless | @MTConfig | 8",
@@ -195,6 +194,7 @@
                 "🇸🇪SE | vless | @V2RayTz | 15",
                 "🇨🇷CR | vless | @DailyV2RY | 87",
                 "🇨🇦CA | vless | @sinabigo | 1",
+                "🇸🇪SE | vless | @ConfigsHUB | 18",
                 "🇸🇪SE | vless | @proxystore11 | 10",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 9",
@@ -798,27 +798,6 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @v2ray_swhil | 10",
-            "type": "vless",
-            "server": "185.146.173.146",
-            "server_port": 80,
-            "uuid": "1ba939cd-b055-43bb-a35d-e011cb7c3ac8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Join--HAJIMAMADVPN",
-                "headers": {
-                    "Host": "185.146.173.146"
-                }
-            }
-        },
-        {
             "tag": "🇸🇪SE | vless | @proxyymeliii | 41",
             "type": "vless",
             "server": "VPNCUSTOMIZE.Elmahstyle.ir",
@@ -985,6 +964,27 @@
                 "path": "\/telegram-@SiNABiGO\/?ed=2560",
                 "headers": {
                     "Host": "4d3d6f00.garywelch.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "185.146.173.37",
+            "server_port": 2095,
+            "uuid": "6e94bfa2-e3e2-443d-ad69-d6fcfcaf14f2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "185.146.173.37"
                 }
             }
         },
@@ -1268,9 +1268,9 @@
         {
             "tag": "🇸🇪SE | vless | @mehrosaboran | 2",
             "type": "vless",
-            "server": "185.146.173.38",
-            "server_port": 80,
-            "uuid": "telegram-id-ArV2ray",
+            "server": "185.146.173.200",
+            "server_port": 8880,
+            "uuid": "732a1a68-0d41-477a-9d8a-186faae69953",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1280,9 +1280,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray?ed=1024",
                 "headers": {
-                    "Host": "185.146.173.38"
+                    "Host": "185.146.173.200"
                 }
             }
         },
