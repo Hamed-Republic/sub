@@ -148,7 +148,7 @@
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 17",
-                "🇺🇸US | trojan | @ConfigsHUB | 13",
+                "🇨🇦CA | vmess | @ConfigsHUB | 12",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -220,7 +220,7 @@
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 17",
-                "🇺🇸US | trojan | @ConfigsHUB | 13",
+                "🇨🇦CA | vmess | @ConfigsHUB | 12",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -1204,31 +1204,26 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | trojan | @ConfigsHUB | 13",
-            "type": "trojan",
-            "server": "us.eaxeg.be",
-            "server_port": 443,
-            "password": "ab602e02-624b-44f0-a51b-25ed53f70048",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 12",
+            "type": "vmess",
+            "server": "104.20.36.139",
+            "server_port": 80,
+            "uuid": "2d14e84b-226b-412a-9a3c-ffce70b02bdf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "us.eaxeg.be",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/q7ugFVneYzh1SQ9N70H4Y2aW",
+                "path": "\/vmess",
                 "headers": {
-                    "Host": "us.eaxeg.be"
+                    "Host": ""
                 }
             }
         },
