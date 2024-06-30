@@ -123,7 +123,7 @@
                 "🇩🇪DE | vless | @servermomo | 1",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 6",
-                "🇸🇪SE | vless | @V2rayNGn | 28",
+                "🇸🇪SE | vless | @V2rayNGn | 26",
                 "🇩🇪DE | trojan | @PrivateVPNs | 16",
                 "🇸🇪SE | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
@@ -147,7 +147,7 @@
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 17",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @ConfigsHUB | 17",
                 "🇮🇷IR | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -192,7 +192,7 @@
                 "🇩🇪DE | vless | @servermomo | 1",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 6",
-                "🇸🇪SE | vless | @V2rayNGn | 28",
+                "🇸🇪SE | vless | @V2rayNGn | 26",
                 "🇩🇪DE | trojan | @PrivateVPNs | 16",
                 "🇸🇪SE | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
@@ -216,7 +216,7 @@
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 17",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @ConfigsHUB | 17",
                 "🇮🇷IR | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -675,11 +675,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2rayNGn | 28",
+            "tag": "🇸🇪SE | vless | @V2rayNGn | 26",
             "type": "vless",
             "server": "VPNCUSTOMIZE.Elmahstyle.ir",
             "server_port": 8080,
-            "uuid": "Channel_VPNCUSTOMIZE",
+            "uuid": "source_VPNCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1218,23 +1218,36 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "185.146.173.95",
-            "server_port": 2095,
-            "uuid": "32961a93-a811-412a-b5f0-3cb7ccef4a6c",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 17",
+            "type": "vmess",
+            "server": "188.114.97.79",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "185.146.173.95"
+                    "Host": "linde06.indiavideo.sbs"
                 }
             }
         },
