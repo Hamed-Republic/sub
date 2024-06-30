@@ -118,9 +118,9 @@
                 "🇸🇪SE | vmess | @DeamNet_Proxy | 11",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 14",
                 "🇱🇺LU | vmess | @DeamNet_Proxy | 16",
-                "🇹🇷TR | vmess | @oneclickvpnkeys | 0",
-                "🏳️XX | vmess | @oneclickvpnkeys | 4",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 5",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 0",
+                "🇹🇷TR | vmess | @oneclickvpnkeys | 1",
+                "🏳️XX | vmess | @oneclickvpnkeys | 5",
                 "🇺🇸US | vmess | @ShadowProxy66 | 11",
                 "🇺🇸US | vmess | @ShadowProxy66 | 12",
                 "🇺🇸US | vmess | @ShadowProxy66 | 15",
@@ -129,9 +129,11 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 18",
                 "🇺🇸US | vmess | @ShadowProxy66 | 19",
                 "🇺🇸US | vmess | @ShadowProxy66 | 20",
+                "🇺🇸US | vmess | @v2ray1_ng | 0",
                 "🇮🇷IR | vmess | @vless_vmess | 5",
                 "🏳️XX | vmess | @DailyV2RY | 97",
                 "🇺🇸US | vmess | @DailyV2RY | 104",
+                "🇺🇸US | vmess | @ConfigsHUB | 13",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -180,9 +182,9 @@
                 "🇸🇪SE | vmess | @DeamNet_Proxy | 11",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 14",
                 "🇱🇺LU | vmess | @DeamNet_Proxy | 16",
-                "🇹🇷TR | vmess | @oneclickvpnkeys | 0",
-                "🏳️XX | vmess | @oneclickvpnkeys | 4",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 5",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 0",
+                "🇹🇷TR | vmess | @oneclickvpnkeys | 1",
+                "🏳️XX | vmess | @oneclickvpnkeys | 5",
                 "🇺🇸US | vmess | @ShadowProxy66 | 11",
                 "🇺🇸US | vmess | @ShadowProxy66 | 12",
                 "🇺🇸US | vmess | @ShadowProxy66 | 15",
@@ -191,9 +193,11 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 18",
                 "🇺🇸US | vmess | @ShadowProxy66 | 19",
                 "🇺🇸US | vmess | @ShadowProxy66 | 20",
+                "🇺🇸US | vmess | @v2ray1_ng | 0",
                 "🇮🇷IR | vmess | @vless_vmess | 5",
                 "🏳️XX | vmess | @DailyV2RY | 97",
                 "🇺🇸US | vmess | @DailyV2RY | 104",
+                "🇺🇸US | vmess | @ConfigsHUB | 13",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -509,7 +513,24 @@
             }
         },
         {
-            "tag": "🇹🇷TR | vmess | @oneclickvpnkeys | 0",
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 0",
+            "type": "vmess",
+            "server": "50.114.243.61",
+            "server_port": 43834,
+            "uuid": "b246e34d-bbd1-4016-8f74-ea461c37e411",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇹🇷TR | vmess | @oneclickvpnkeys | 1",
             "type": "vmess",
             "server": "45.89.52.114",
             "server_port": 13701,
@@ -526,7 +547,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @oneclickvpnkeys | 4",
+            "tag": "🏳️XX | vmess | @oneclickvpnkeys | 5",
             "type": "vmess",
             "server": "fgzlwxmo1829.dopraxrocks.com",
             "server_port": 8880,
@@ -546,40 +567,6 @@
                 "path": "\/2.v2ray.debian.org.fxp.debian.org.speedtest.net.らわなさらわ.madariran.filegear-sg.me",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 5",
-            "type": "vmess",
-            "server": "172.67.164.164",
-            "server_port": 443,
-            "uuid": "a1655f51-1e20-4a92-8a11-b7ca30a7a353",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "afrhms07.xfixedfloat.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "afrhms07.xfixedfloat.cfd"
                 }
             }
         },
@@ -789,6 +776,40 @@
             }
         },
         {
+            "tag": "🇺🇸US | vmess | @v2ray1_ng | 0",
+            "type": "vmess",
+            "server": "172.67.175.56",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "obdii.cfd"
+                }
+            }
+        },
+        {
             "tag": "🇮🇷IR | vmess | @vless_vmess | 5",
             "type": "vmess",
             "server": "95.38.248.217",
@@ -853,6 +874,40 @@
                 "path": "\/link",
                 "headers": {
                     "Host": "hms02.fxiaomi.sbs"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 13",
+            "type": "vmess",
+            "server": "104.19.47.23",
+            "server_port": 8443,
+            "uuid": "39135a39-e6ca-43df-a360-d859eea58d86",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hk01.linkitnow.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "hk01.linkitnow.net"
                 }
             }
         },
