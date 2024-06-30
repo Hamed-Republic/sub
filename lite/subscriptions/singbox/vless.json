@@ -117,6 +117,7 @@
                 "🇸🇪SE | vless | @shh_proxy | 27",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇸🇪SE | vless | @free_v2rayyy | 9",
+                "🇸🇪SE | vless | @lightning6 | 18",
                 "🇸🇪SE | vless | @DigiV2ray | 20",
                 "🇸🇪SE | vless | @v2logy | 12",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
@@ -133,14 +134,13 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 25",
                 "🇸🇪SE | vless | @ServerNett | 14",
                 "🇨🇦CA | vless | @v2ray_swhil | 13",
-                "🇸🇪SE | vless | @proxyymeliii | 47",
+                "🇸🇪SE | vless | @proxyymeliii | 44",
                 "🇨🇦CA | vless | @v2ray1_ng | 12",
                 "🇮🇷IR | vless | @vless_vmess | 10",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
-                "🇮🇷IR | vless | @ConfigsHUB | 17",
                 "🇮🇷IR | vless | @proxystore11 | 11",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 9",
@@ -176,6 +176,7 @@
                 "🇸🇪SE | vless | @shh_proxy | 27",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇸🇪SE | vless | @free_v2rayyy | 9",
+                "🇸🇪SE | vless | @lightning6 | 18",
                 "🇸🇪SE | vless | @DigiV2ray | 20",
                 "🇸🇪SE | vless | @v2logy | 12",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
@@ -192,14 +193,13 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 25",
                 "🇸🇪SE | vless | @ServerNett | 14",
                 "🇨🇦CA | vless | @v2ray_swhil | 13",
-                "🇸🇪SE | vless | @proxyymeliii | 47",
+                "🇸🇪SE | vless | @proxyymeliii | 44",
                 "🇨🇦CA | vless | @v2ray1_ng | 12",
                 "🇮🇷IR | vless | @vless_vmess | 10",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
-                "🇮🇷IR | vless | @ConfigsHUB | 17",
                 "🇮🇷IR | vless | @proxystore11 | 11",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 9",
@@ -477,6 +477,27 @@
                 "path": "\/Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy",
                 "headers": {
                     "Host": "185.146.173.58"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @lightning6 | 18",
+            "type": "vless",
+            "server": "LIGHTNING6-joinbed.filj.top",
+            "server_port": 8880,
+            "uuid": "732a1a68-0d41-477a-9d8a-186faae69953",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray?ed=1024",
+                "headers": {
+                    "Host": "LIGHTNING6-joinbed.filj.top"
                 }
             }
         },
@@ -865,11 +886,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @proxyymeliii | 47",
+            "tag": "🇸🇪SE | vless | @proxyymeliii | 44",
             "type": "vless",
             "server": "VPNCUSTOMIZE.Elmahstyle.ir",
             "server_port": 8080,
-            "uuid": "Its_VPNCUSTOMIZE",
+            "uuid": "Telegram_VPNCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1029,20 +1050,6 @@
                 "headers": {
                     "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
                 }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "zedmodeon-zedmodeon-zedmodeon-zedmodeon-zedmodeon.kanal-asli-zedmodeon.shop",
-            "server_port": 1004,
-            "uuid": "5cfcdf55-0802-42c3-812a-a8c3e04b64a1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
