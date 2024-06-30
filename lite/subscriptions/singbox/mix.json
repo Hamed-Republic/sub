@@ -148,7 +148,7 @@
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vmess | @ConfigsHUB | 7",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -161,7 +161,7 @@
                 "🇺🇸US | vmess | @v2Line | 8",
                 "🇺🇸US | vless | @Capoit | 16",
                 "🇺🇸US | vless | @FreakConfig | 6",
-                "🇸🇪SE | vless | @flyv2ray | 12",
+                "🇺🇸US | vless | @flyv2ray | 13",
                 "🇺🇸US | vmess | @FAKEOFTVC | 3",
                 "🇸🇪SE | vless | @mehrosaboran | 6",
                 "🇺🇸US | vless | @kiava | 9",
@@ -220,7 +220,7 @@
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vmess | @ConfigsHUB | 7",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -233,7 +233,7 @@
                 "🇺🇸US | vmess | @v2Line | 8",
                 "🇺🇸US | vless | @Capoit | 16",
                 "🇺🇸US | vless | @FreakConfig | 6",
-                "🇸🇪SE | vless | @flyv2ray | 12",
+                "🇺🇸US | vless | @flyv2ray | 13",
                 "🇺🇸US | vmess | @FAKEOFTVC | 3",
                 "🇸🇪SE | vless | @mehrosaboran | 6",
                 "🇺🇸US | vless | @kiava | 9",
@@ -1204,13 +1204,16 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "162.159.152.152",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 7",
+            "type": "vmess",
+            "server": "172.67.191.45",
             "server_port": 443,
-            "uuid": "df58f7ea-c79e-4659-93fc-e600354dd4f1",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1218,7 +1221,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "join-v2rey.pages.dev",
+                "server_name": "nezuko.raidenshogun.cloudns.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1228,9 +1231,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
+                "path": "\/linkws\/obdii.cfd",
                 "headers": {
-                    "Host": "join-v2rey.pages.dev"
+                    "Host": "nezuko.raidenshogun.cloudns.org"
                 }
             }
         },
@@ -1572,11 +1575,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @flyv2ray | 12",
+            "tag": "🇺🇸US | vless | @flyv2ray | 13",
             "type": "vless",
-            "server": "VPNCUSTOMIZE.Elmahstyle.ir",
-            "server_port": 8080,
-            "uuid": "Bia_to_VPNCUSTOMIZE",
+            "server": "xpnteam-mci-soed-hajiali.parsafoom.ir",
+            "server_port": 2087,
+            "uuid": "HEMAYAT-XPNTEAM-TELEGRAM",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1584,12 +1587,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
-                "headers": {
-                    "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
+            "tls": {
+                "enabled": true,
+                "server_name": "xpnteam-mci-soed-hajiali.parsafoom.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@XpnTeam,Telegram:@XpnTeam,Telegram:@XpnTeam,Telegram:@XpnTeam,Telegram:@XpnTeam,Telegram:@XpnTeam,Telegram:@XpnTeam,Telegram:@XpnTeam,Telegram:@XpnTeam,Telegram:@XpnTeam,Telegram:@XpnTeam,Telegram:@XpnTeam",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
