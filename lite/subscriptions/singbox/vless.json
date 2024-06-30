@@ -107,7 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇸🇪SE | vless | @EliV2ray | 5",
-                "🇸🇪SE | vless | @Parsashonam | 3",
+                "🇸🇪SE | vless | @Parsashonam | 2",
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 31",
                 "🇸🇪SE | vless | @ipV2Ray | 19",
@@ -136,12 +136,13 @@
                 "🇸🇪SE | vless | @proxyymeliii | 47",
                 "🇨🇦CA | vless | @v2ray1_ng | 12",
                 "🇨🇦CA | vless | @vless_vmess | 11",
+                "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇮🇷IR | vless | @DailyV2RY | 105",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🏳️XX | vless | @proxystore11 | 11",
-                "🇨🇦CA | vless | @free1_vpn | 0",
+                "🇲🇾MY | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 9",
                 "🇸🇪SE | vless | @polproxy | 8",
                 "🇩🇪DE | vless | @Outlinev2rayNG | 15",
@@ -165,7 +166,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇸🇪SE | vless | @EliV2ray | 5",
-                "🇸🇪SE | vless | @Parsashonam | 3",
+                "🇸🇪SE | vless | @Parsashonam | 2",
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 31",
                 "🇸🇪SE | vless | @ipV2Ray | 19",
@@ -194,12 +195,13 @@
                 "🇸🇪SE | vless | @proxyymeliii | 47",
                 "🇨🇦CA | vless | @v2ray1_ng | 12",
                 "🇨🇦CA | vless | @vless_vmess | 11",
+                "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇮🇷IR | vless | @DailyV2RY | 105",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🏳️XX | vless | @proxystore11 | 11",
-                "🇨🇦CA | vless | @free1_vpn | 0",
+                "🇲🇾MY | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 9",
                 "🇸🇪SE | vless | @polproxy | 8",
                 "🇩🇪DE | vless | @Outlinev2rayNG | 15",
@@ -259,11 +261,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @Parsashonam | 3",
+            "tag": "🇸🇪SE | vless | @Parsashonam | 2",
             "type": "vless",
             "server": "185.146.173.39",
             "server_port": 8080,
-            "uuid": "Parsashonam-98",
+            "uuid": "Parsashonam-99",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -946,6 +948,27 @@
             }
         },
         {
+            "tag": "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
+            "type": "vless",
+            "server": "185.146.173.58",
+            "server_port": 8080,
+            "uuid": "67aaeabb-cb78-44b0-913c-2afb628811fd",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/servernet",
+                "headers": {
+                    "Host": "185.146.173.58"
+                }
+            }
+        },
+        {
             "tag": "🇸🇪SE | vless | @V2RayTz | 19",
             "type": "vless",
             "server": "185.146.173.200",
@@ -1047,7 +1070,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @free1_vpn | 0",
+            "tag": "🇲🇾MY | vless | @free1_vpn | 0",
             "type": "vless",
             "server": "172.66.45.32",
             "server_port": 443,
