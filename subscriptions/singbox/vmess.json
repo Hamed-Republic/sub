@@ -115,7 +115,7 @@
                 "🇨🇳CN | vmess | @mftizi | 17",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 11",
+                "🇸🇪SE | vmess | @DeamNet_Proxy | 11",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 14",
                 "🇱🇺LU | vmess | @DeamNet_Proxy | 16",
                 "🇰🇷KR | vmess | @oneclickvpnkeys | 2",
@@ -133,6 +133,7 @@
                 "🇺🇸US | vmess | @v2ray1_ng | 1",
                 "🇮🇷IR | vmess | @vless_vmess | 5",
                 "🇺🇸US | vmess | @DailyV2RY | 101",
+                "🇳🇱NL | vmess | @ConfigsHUB | 8",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -175,7 +176,7 @@
                 "🇨🇳CN | vmess | @mftizi | 17",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 11",
+                "🇸🇪SE | vmess | @DeamNet_Proxy | 11",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 14",
                 "🇱🇺LU | vmess | @DeamNet_Proxy | 16",
                 "🇰🇷KR | vmess | @oneclickvpnkeys | 2",
@@ -193,6 +194,7 @@
                 "🇺🇸US | vmess | @v2ray1_ng | 1",
                 "🇮🇷IR | vmess | @vless_vmess | 5",
                 "🇺🇸US | vmess | @DailyV2RY | 101",
+                "🇳🇱NL | vmess | @ConfigsHUB | 8",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -423,7 +425,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 11",
+            "tag": "🇸🇪SE | vmess | @DeamNet_Proxy | 11",
             "type": "vmess",
             "server": "vlscdn.nimaxmusic.ir",
             "server_port": 2052,
@@ -874,6 +876,23 @@
                 "headers": {
                     "Host": "hms02.fxiaomi.sbs"
                 }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vmess | @ConfigsHUB | 8",
+            "type": "vmess",
+            "server": "154.47.21.56",
+            "server_port": 8099,
+            "uuid": "fa1897db-1925-4c86-a495-939a959af900",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
