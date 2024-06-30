@@ -114,7 +114,6 @@
                 "🏳️XX | vless | @prrofile_purple | 180",
                 "🇸🇪SE | vless | @VmessProtocol | 1",
                 "🇳🇴NO | vless | @VmessProtocol | 2",
-                "🇩🇪DE | vless | @ConfigsHUB | 11",
                 "🇩🇪DE | vless | @Outlinev2rayNG | 15",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -158,7 +157,6 @@
                 "🏳️XX | vless | @prrofile_purple | 180",
                 "🇸🇪SE | vless | @VmessProtocol | 1",
                 "🇳🇴NO | vless | @VmessProtocol | 2",
-                "🇩🇪DE | vless | @ConfigsHUB | 11",
                 "🇩🇪DE | vless | @Outlinev2rayNG | 15",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -452,35 +450,6 @@
                     "enabled": true,
                     "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
                     "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 11",
-            "type": "vless",
-            "server": "5.75.205.37",
-            "server_port": 443,
-            "uuid": "18ddb4f0-e657-4d89-b61a-2a5f887a1978",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "blog.phantomcloud.xyz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Nl6JYHU2nlOr2w6kZuAYluzsT3OwyLc1s2Go-zZ6PhY",
-                    "short_id": "0e610ce6"
                 }
             }
         },
