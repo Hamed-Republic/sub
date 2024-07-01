@@ -141,9 +141,8 @@
                 "🇨🇦CA | vless | @DailyV2RY | 129",
                 "🇸🇪SE | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
-                "🇸🇪SE | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇮🇷IR | vless | @proxystore11 | 11",
-                "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 9",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 16",
@@ -200,9 +199,8 @@
                 "🇨🇦CA | vless | @DailyV2RY | 129",
                 "🇸🇪SE | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
-                "🇸🇪SE | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇮🇷IR | vless | @proxystore11 | 11",
-                "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 9",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 16",
@@ -1083,59 +1081,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "185.146.173.158",
-            "server_port": 443,
-            "uuid": "fb7980a3-d21b-4f39-baf3-f49a2226e6b9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "pl1.vless.site",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vless?ed=@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi?ed",
-                "headers": {
-                    "Host": "pl1.vless.site"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vless | @proxystore11 | 11",
-            "type": "vless",
-            "server": "193.151.151.92",
-            "server_port": 80,
-            "uuid": "c74dbb0f-e49f-4557-830f-6fbcec09f017",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@V2Graphy\/giveaway\/ws2?ed=2560",
-                "headers": {
-                    "Host": "193.151.151.92"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @free1_vpn | 0",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
             "server": "172.66.45.32",
             "server_port": 443,
@@ -1162,6 +1108,27 @@
                 "path": "\/",
                 "headers": {
                     "Host": "t-netplus-4vx.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vless | @proxystore11 | 11",
+            "type": "vless",
+            "server": "193.151.151.92",
+            "server_port": 80,
+            "uuid": "c74dbb0f-e49f-4557-830f-6fbcec09f017",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@V2Graphy\/giveaway\/ws2?ed=2560",
+                "headers": {
+                    "Host": "193.151.151.92"
                 }
             }
         },
