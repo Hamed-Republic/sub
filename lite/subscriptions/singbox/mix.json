@@ -107,7 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇸🇪SE | vless | @EliV2ray | 2",
-                "🇸🇪SE | vless | @Parsashonam | 2",
+                "🇨🇦CA | vless | @Parsashonam | 1",
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇸🇪SE | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 3",
@@ -175,7 +175,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇸🇪SE | vless | @EliV2ray | 2",
-                "🇸🇪SE | vless | @Parsashonam | 2",
+                "🇨🇦CA | vless | @Parsashonam | 1",
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇸🇪SE | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 3",
@@ -279,11 +279,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @Parsashonam | 2",
+            "tag": "🇨🇦CA | vless | @Parsashonam | 1",
             "type": "vless",
-            "server": "185.146.173.39",
-            "server_port": 8080,
-            "uuid": "Parsashonam-99",
+            "server": "104.21.19.124",
+            "server_port": 8880,
+            "uuid": "Parsashonam-0",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -295,7 +295,7 @@
                 "type": "ws",
                 "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "185.146.173.39"
+                    "Host": "104.21.19.124"
                 }
             }
         },
@@ -1208,9 +1208,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "104.24.196.20",
-            "server_port": 2053,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "server": "eagle.hafezdivan.online.",
+            "server_port": 443,
+            "uuid": "c416be20-32b3-467f-83c2-735e04d639f7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1220,7 +1220,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "936a99B4.Vde5-MlX81LANeo.pAgES.dEv",
+                "server_name": "eagle.hafezdivan.online.",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1230,9 +1230,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net\/",
+                "path": "\/Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net\/?ed=2560",
                 "headers": {
-                    "Host": "936a99B4.Vde5-MlX81LANeo.pAgES.dEv"
+                    "Host": "eagle.hafezdivan.online."
                 }
             }
         },
