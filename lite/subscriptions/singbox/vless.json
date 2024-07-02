@@ -132,7 +132,6 @@
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇨🇦CA | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 13",
-                "🇸🇪SE | vless | @ShadowProxy66 | 24",
                 "🇸🇪SE | vless | @ServerNett | 13",
                 "🇨🇦CA | vless | @v2ray_swhil | 12",
                 "🇸🇪SE | vless | @proxyymeliii | 50",
@@ -143,14 +142,14 @@
                 "🇰🇷KR | vless | @VmessProtocol | 7",
                 "🇨🇦CA | vless | @DailyV2RY | 111",
                 "🇸🇪SE | vless | @sinabigo | 0",
-                "🇸🇪SE | vless | @lrnbymaa | 37",
+                "🇸🇪SE | vless | @lrnbymaa | 34",
                 "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇮🇷IR | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 9",
                 "🇸🇪SE | vless | @polproxy | 7",
-                "🇲🇾MY | vless | @Outlinev2rayNG | 17",
-                "TVClistklfmyk",
+                "🇺🇸US | vless | @Outlinev2rayNG | 17",
+                "TVCsahqbmymuc",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 3",
                 "🇸🇪SE | vless | @FreakConfig | 8",
@@ -195,7 +194,6 @@
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇨🇦CA | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 13",
-                "🇸🇪SE | vless | @ShadowProxy66 | 24",
                 "🇸🇪SE | vless | @ServerNett | 13",
                 "🇨🇦CA | vless | @v2ray_swhil | 12",
                 "🇸🇪SE | vless | @proxyymeliii | 50",
@@ -206,14 +204,14 @@
                 "🇰🇷KR | vless | @VmessProtocol | 7",
                 "🇨🇦CA | vless | @DailyV2RY | 111",
                 "🇸🇪SE | vless | @sinabigo | 0",
-                "🇸🇪SE | vless | @lrnbymaa | 37",
+                "🇸🇪SE | vless | @lrnbymaa | 34",
                 "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇮🇷IR | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 9",
                 "🇸🇪SE | vless | @polproxy | 7",
-                "🇲🇾MY | vless | @Outlinev2rayNG | 17",
-                "TVClistklfmyk",
+                "🇺🇸US | vless | @Outlinev2rayNG | 17",
+                "TVCsahqbmymuc",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 3",
                 "🇸🇪SE | vless | @FreakConfig | 8",
@@ -852,27 +850,6 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ShadowProxy66 | 24",
-            "type": "vless",
-            "server": "185.146.173.237",
-            "server_port": 2095,
-            "uuid": "eb2eb93c-9652-43a7-96e4-9c3cd9be814b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/VPN_PROXY66.VPN_PROXY66",
-                "headers": {
-                    "Host": "185.146.173.237"
-                }
-            }
-        },
-        {
             "tag": "🇸🇪SE | vless | @ServerNett | 13",
             "type": "vless",
             "server": "185.146.173.58",
@@ -1123,11 +1100,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @lrnbymaa | 37",
+            "tag": "🇸🇪SE | vless | @lrnbymaa | 34",
             "type": "vless",
             "server": "VPNCUSTOMIZE.Elmahstyle.ir",
             "server_port": 8080,
-            "uuid": "Source_VPNCUSTOMIZE",
+            "uuid": "Telegram_VPNCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1146,9 +1123,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "b41cc2f5-f06b-4042-a3b4-cf859c974deb",
+            "server": "172.67.68.101",
+            "server_port": 443,
+            "uuid": "a64f0cea-ca89-40e6-b316-b3badff1eb90",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1156,11 +1133,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "IsaA1.pAgEs.DEV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET?ed=1024",
+                "path": "\/AyF2ZnYOCu2tsaS0?ed=2560",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "IsaA1.pAgEs.DEV"
                 }
             }
         },
@@ -1259,11 +1246,11 @@
             }
         },
         {
-            "tag": "🇲🇾MY | vless | @Outlinev2rayNG | 17",
+            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 17",
             "type": "vless",
-            "server": "172.66.47.44",
-            "server_port": 443,
-            "uuid": "826e43d2-dbe9-41a6-bbf8-3aed2f93f5d4",
+            "server": "eagle.Hafezdivan.Online.",
+            "server_port": 80,
+            "uuid": "c416be20-32b3-467f-83c2-735e04d639f7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1271,26 +1258,16 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "pardazeshvpn-tg20.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-@V2ray_Alpha\/",
+                "path": "\/Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net\/",
                 "headers": {
-                    "Host": "pardazeshvpn-tg20.pages.dev"
+                    "Host": "eagle.Hafezdivan.Online."
                 }
             }
         },
         {
-            "tag": "TVClistklfmyk",
+            "tag": "TVCsahqbmymuc",
             "type": "vless",
             "server": "",
             "server_port": 0,
