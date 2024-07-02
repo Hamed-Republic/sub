@@ -128,7 +128,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇸🇪SE | vless | @V2rayNGn | 37",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
-                "🇸🇪SE | vless | @prrofile_purple | 187",
+                "🇮🇷IR | vless | @prrofile_purple | 177",
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇨🇦CA | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 13",
@@ -144,13 +144,13 @@
                 "🇨🇦CA | vless | @DailyV2RY | 96",
                 "🇸🇪SE | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 34",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 14",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 9",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 18",
-                "TVCyquxycrjqi",
+                "🇲🇾MY | vless | @v2rayng_vpnrog | 10",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 3",
                 "🇸🇪SE | vless | @FreakConfig | 9",
@@ -191,7 +191,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇸🇪SE | vless | @V2rayNGn | 37",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
-                "🇸🇪SE | vless | @prrofile_purple | 187",
+                "🇮🇷IR | vless | @prrofile_purple | 177",
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇨🇦CA | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 13",
@@ -207,13 +207,13 @@
                 "🇨🇦CA | vless | @DailyV2RY | 96",
                 "🇸🇪SE | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 34",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 14",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 9",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 18",
-                "TVCyquxycrjqi",
+                "🇲🇾MY | vless | @v2rayng_vpnrog | 10",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 3",
                 "🇸🇪SE | vless | @FreakConfig | 9",
@@ -758,24 +758,17 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @prrofile_purple | 187",
+            "tag": "🇮🇷IR | vless | @prrofile_purple | 177",
             "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 80,
-            "uuid": "Telegram-ipV2Ray-zew",
+            "server": "85.9.122.36",
+            "server_port": 28588,
+            "uuid": "telegram-id-v2Rez",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-ipV2Ray",
-                "headers": {
-                    "Host": "185.146.173.58"
-                }
             }
         },
         {
@@ -1144,11 +1137,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 14",
             "type": "vless",
-            "server": "www.zula.ir",
-            "server_port": 8080,
-            "uuid": "4c9cefc9-1754-4249-bb7e-be938be34c9e",
+            "server": "172.66.44.135",
+            "server_port": 80,
+            "uuid": "5df7962e-f9fe-41e6-ab49-ed96ccb856a7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1158,9 +1151,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,V2ray,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers?ed=2560",
+                "path": "\/Telegram-proxy_mtm",
                 "headers": {
-                    "Host": "www.zula.ir"
+                    "Host": "172.66.44.135"
                 }
             }
         },
@@ -1280,17 +1273,24 @@
             }
         },
         {
-            "tag": "TVCyquxycrjqi",
+            "tag": "🇲🇾MY | vless | @v2rayng_vpnrog | 10",
             "type": "vless",
-            "server": "",
-            "server_port": 0,
-            "uuid": "",
+            "server": "172.66.44.135",
+            "server_port": 80,
+            "uuid": "5df7962e-f9fe-41e6-ab49-ed96ccb856a7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "172.66.44.135"
+                }
             }
         },
         {
