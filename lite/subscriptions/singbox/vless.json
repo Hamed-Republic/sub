@@ -144,13 +144,13 @@
                 "🇨🇦CA | vless | @DailyV2RY | 107",
                 "🇸🇪SE | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇮🇷IR | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 9",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇲🇾MY | vless | @Outlinev2rayNG | 17",
-                "TVClqlfksbows",
+                "TVCezlzrppxly",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 3",
                 "🇸🇪SE | vless | @FreakConfig | 8",
@@ -207,13 +207,13 @@
                 "🇨🇦CA | vless | @DailyV2RY | 107",
                 "🇸🇪SE | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇮🇷IR | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 9",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇲🇾MY | vless | @Outlinev2rayNG | 17",
-                "TVClqlfksbows",
+                "TVCezlzrppxly",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 3",
                 "🇸🇪SE | vless | @FreakConfig | 8",
@@ -1154,11 +1154,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "www.Speedtest.Net",
-            "server_port": 2095,
-            "uuid": "cfb6d9ad-7a14-4061-b159-8902fd73bb52",
+            "server": "172.66.47.126",
+            "server_port": 443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1166,11 +1166,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "00e463Dc.beSTVPn-4xi.PAgES.dEv",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/DIGIV2RAY--DigiV2ray--digiv2ray--DIGIV2RAY--DigiV2ray--digiv2ray--DigiV2ray--DigiV2ray?ed=1024",
+                "path": "\/TELEGRAM-MARAMBASHI-MARAMBASHI\/",
                 "headers": {
-                    "Host": "www.Speedtest.Net"
+                    "Host": "00e463Dc.beSTVPn-4xi.PAgES.dEv"
                 }
             }
         },
@@ -1300,7 +1310,7 @@
             }
         },
         {
-            "tag": "TVClqlfksbows",
+            "tag": "TVCezlzrppxly",
             "type": "vless",
             "server": "",
             "server_port": 0,
