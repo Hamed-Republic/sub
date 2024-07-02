@@ -131,7 +131,6 @@
                 "🇺🇸US | vmess | @v2ray1_ng | 3",
                 "🇮🇷IR | vmess | @vless_vmess | 5",
                 "🏳️XX | vmess | @DailyV2RY | 84",
-                "🏳️XX | vmess | @ConfigsHUB | 15",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -153,7 +152,7 @@
                 "🇺🇸US | vmess | @v2Line | 3",
                 "🇺🇸US | vmess | @v2Line | 4",
                 "🇹🇷TR | vmess | @v2Line | 5",
-                "🇯🇵JP | vmess | @v2Line | 7",
+                "🏳️XX | vmess | @nofiltering2 | 2",
                 "🇺🇸US | vmess | @SINABIGO | 1",
                 "🇺🇸US | vmess | @ROMAX_VPN | 0",
                 "🇺🇸US | vmess | @ROMAX_VPN | 2",
@@ -190,7 +189,6 @@
                 "🇺🇸US | vmess | @v2ray1_ng | 3",
                 "🇮🇷IR | vmess | @vless_vmess | 5",
                 "🏳️XX | vmess | @DailyV2RY | 84",
-                "🏳️XX | vmess | @ConfigsHUB | 15",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -212,7 +210,7 @@
                 "🇺🇸US | vmess | @v2Line | 3",
                 "🇺🇸US | vmess | @v2Line | 4",
                 "🇹🇷TR | vmess | @v2Line | 5",
-                "🇯🇵JP | vmess | @v2Line | 7",
+                "🏳️XX | vmess | @nofiltering2 | 2",
                 "🇺🇸US | vmess | @SINABIGO | 1",
                 "🇺🇸US | vmess | @ROMAX_VPN | 0",
                 "🇺🇸US | vmess | @ROMAX_VPN | 2",
@@ -800,40 +798,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🏳️XX | vmess | @ConfigsHUB | 15",
-            "type": "vmess",
-            "server": "::ffff:0e66:e42b",
-            "server_port": 443,
-            "uuid": "62aa5f80-0328-4004-a375-7f5a59df4022",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram\/XV2ray",
-                "headers": {
-                    "Host": "pages.dev"
-                }
             }
         },
         {
@@ -1433,11 +1397,11 @@
             }
         },
         {
-            "tag": "🇯🇵JP | vmess | @v2Line | 7",
+            "tag": "🏳️XX | vmess | @nofiltering2 | 2",
             "type": "vmess",
-            "server": "jp-full.privateip.net",
-            "server_port": 443,
-            "uuid": "124fe4ff-0ee4-4189-bd99-ed1a317b42dd",
+            "server": "[::ffff:3981:337d]",
+            "server_port": 19534,
+            "uuid": "9500739f-0299-47ec-9d3d-2cfec6d5cde1",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1447,23 +1411,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/RACEVPN",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
