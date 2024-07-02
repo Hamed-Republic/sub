@@ -114,6 +114,7 @@
                 "🇺🇸US | vmess | @mftizi | 14",
                 "🇺🇸US | vmess | @mftizi | 15",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 16",
                 "🇭🇰HK | vmess | @oneclickvpnkeys | 2",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 3",
                 "🇺🇸US | vmess | @customv2ray | 12",
@@ -130,6 +131,7 @@
                 "🇺🇸US | vmess | @v2ray1_ng | 3",
                 "🇮🇷IR | vmess | @vless_vmess | 5",
                 "🏳️XX | vmess | @DailyV2RY | 84",
+                "🏳️XX | vmess | @ConfigsHUB | 15",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -171,6 +173,7 @@
                 "🇺🇸US | vmess | @mftizi | 14",
                 "🇺🇸US | vmess | @mftizi | 15",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 16",
                 "🇭🇰HK | vmess | @oneclickvpnkeys | 2",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 3",
                 "🇺🇸US | vmess | @customv2ray | 12",
@@ -187,6 +190,7 @@
                 "🇺🇸US | vmess | @v2ray1_ng | 3",
                 "🇮🇷IR | vmess | @vless_vmess | 5",
                 "🏳️XX | vmess | @DailyV2RY | 84",
+                "🏳️XX | vmess | @ConfigsHUB | 15",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -390,6 +394,30 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 16",
+            "type": "vmess",
+            "server": "172.67.185.79",
+            "server_port": 8080,
+            "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "172.67.185.79"
+                }
             }
         },
         {
@@ -772,6 +800,40 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🏳️XX | vmess | @ConfigsHUB | 15",
+            "type": "vmess",
+            "server": "::ffff:0e66:e42b",
+            "server_port": 443,
+            "uuid": "62aa5f80-0328-4004-a375-7f5a59df4022",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram\/XV2ray",
+                "headers": {
+                    "Host": "pages.dev"
+                }
             }
         },
         {
