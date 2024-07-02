@@ -130,6 +130,10 @@
                 "🇹🇷TR | vmess | @ShadowProxy66 | 21",
                 "🇺🇸US | vmess | @v2ray1_ng | 3",
                 "🇮🇷IR | vmess | @vless_vmess | 5",
+                "🇺🇸US | vmess | @DailyV2RY | 71",
+                "🏳️XX | vmess | @DailyV2RY | 72",
+                "🇮🇷IR | vmess | @ConfigsHUB | 9",
+                "🇨🇼CW | vmess | @ConfigsHUB | 13",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -146,11 +150,12 @@
                 "🇺🇸US | vmess | @v2rayng_config_amin | 0",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 3",
                 "🇺🇸US | vmess | @v2Line | 0",
-                "🇬🇧GB | vmess | @v2Line | 1",
-                "🇳🇱NL | vmess | @v2Line | 2",
-                "🇺🇸US | vmess | @v2Line | 3",
+                "🇺🇸US | vmess | @v2Line | 1",
+                "🇬🇧GB | vmess | @v2Line | 2",
+                "🇳🇱NL | vmess | @v2Line | 3",
                 "🇺🇸US | vmess | @v2Line | 4",
-                "🇹🇷TR | vmess | @v2Line | 5",
+                "🇺🇸US | vmess | @v2Line | 5",
+                "🇹🇷TR | vmess | @v2Line | 6",
                 "🏳️XX | vmess | @nofiltering2 | 2",
                 "🇺🇸US | vmess | @SINABIGO | 1",
                 "🇺🇸US | vmess | @ROMAX_VPN | 0",
@@ -187,6 +192,10 @@
                 "🇹🇷TR | vmess | @ShadowProxy66 | 21",
                 "🇺🇸US | vmess | @v2ray1_ng | 3",
                 "🇮🇷IR | vmess | @vless_vmess | 5",
+                "🇺🇸US | vmess | @DailyV2RY | 71",
+                "🏳️XX | vmess | @DailyV2RY | 72",
+                "🇮🇷IR | vmess | @ConfigsHUB | 9",
+                "🇨🇼CW | vmess | @ConfigsHUB | 13",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -203,11 +212,12 @@
                 "🇺🇸US | vmess | @v2rayng_config_amin | 0",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 3",
                 "🇺🇸US | vmess | @v2Line | 0",
-                "🇬🇧GB | vmess | @v2Line | 1",
-                "🇳🇱NL | vmess | @v2Line | 2",
-                "🇺🇸US | vmess | @v2Line | 3",
+                "🇺🇸US | vmess | @v2Line | 1",
+                "🇬🇧GB | vmess | @v2Line | 2",
+                "🇳🇱NL | vmess | @v2Line | 3",
                 "🇺🇸US | vmess | @v2Line | 4",
-                "🇹🇷TR | vmess | @v2Line | 5",
+                "🇺🇸US | vmess | @v2Line | 5",
+                "🇹🇷TR | vmess | @v2Line | 6",
                 "🏳️XX | vmess | @nofiltering2 | 2",
                 "🇺🇸US | vmess | @SINABIGO | 1",
                 "🇺🇸US | vmess | @ROMAX_VPN | 0",
@@ -782,6 +792,91 @@
             }
         },
         {
+            "tag": "🇺🇸US | vmess | @DailyV2RY | 71",
+            "type": "vmess",
+            "server": "45.32.201.78",
+            "server_port": 8881,
+            "uuid": "db5afae4-ac23-41a6-8378-f307a9a47436",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🏳️XX | vmess | @DailyV2RY | 72",
+            "type": "vmess",
+            "server": null,
+            "server_port": 0,
+            "uuid": null,
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vmess | @ConfigsHUB | 9",
+            "type": "vmess",
+            "server": "pro.iranspeed.shop",
+            "server_port": 80,
+            "uuid": "00aa4fc2-f7ec-482b-b71a-2fd071e0dc60",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇼CW | vmess | @ConfigsHUB | 13",
+            "type": "vmess",
+            "server": "mAIl.IRansPEeD.ShoP",
+            "server_port": 443,
+            "uuid": "00aa4fc2-f7ec-482b-b71a-2fd071e0dc60",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "M1.IrANSPEed.sHOP",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/QUeMEWutZAndOVVMwhRJqh28",
+                "headers": {
+                    "Host": "M1.IrANSPEed.sHOP"
+                }
+            }
+        },
+        {
             "tag": "🇳🇱NL | vmess | @yaney_01 | 1",
             "type": "vmess",
             "server": "45.199.138.217",
@@ -1220,6 +1315,40 @@
         {
             "tag": "🇺🇸US | vmess | @v2Line | 0",
             "type": "vmess",
+            "server": "172.67.175.56",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "obdii.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @v2Line | 1",
+            "type": "vmess",
             "server": "172.67.71.160",
             "server_port": 443,
             "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
@@ -1252,7 +1381,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vmess | @v2Line | 1",
+            "tag": "🇬🇧GB | vmess | @v2Line | 2",
             "type": "vmess",
             "server": "217.160.45.31",
             "server_port": 8880,
@@ -1276,7 +1405,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vmess | @v2Line | 2",
+            "tag": "🇳🇱NL | vmess | @v2Line | 3",
             "type": "vmess",
             "server": "154.47.21.54",
             "server_port": 8099,
@@ -1293,7 +1422,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2Line | 3",
+            "tag": "🇺🇸US | vmess | @v2Line | 4",
             "type": "vmess",
             "server": "172.67.71.160",
             "server_port": 443,
@@ -1327,7 +1456,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2Line | 4",
+            "tag": "🇺🇸US | vmess | @v2Line | 5",
             "type": "vmess",
             "server": "104.21.83.108",
             "server_port": 443,
@@ -1361,7 +1490,7 @@
             }
         },
         {
-            "tag": "🇹🇷TR | vmess | @v2Line | 5",
+            "tag": "🇹🇷TR | vmess | @v2Line | 6",
             "type": "vmess",
             "server": "45.89.52.114",
             "server_port": 13701,
