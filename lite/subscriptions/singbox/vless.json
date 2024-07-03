@@ -126,11 +126,11 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇸🇪SE | vless | @V2rayNGn | 46",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
-                "🇸🇪SE | vless | @prrofile_purple | 184",
+                "🇨🇷CR | vless | @prrofile_purple | 184",
                 "🇨🇦CA | vless | @UnlimitedDev | 17",
                 "🇨🇦CA | vless | @vmessorg | 13",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 19",
-                "🇸🇪SE | vless | @ServerNett | 10",
+                "🇸🇪SE | vless | @ServerNett | 12",
                 "🇨🇦CA | vless | @v2ray_swhil | 13",
                 "🇸🇪SE | vless | @proxyymeliii | 44",
                 "🇨🇦CA | vless | @v2ray1_ng | 13",
@@ -139,7 +139,7 @@
                 "🇩🇪DE | vless | @V2RayTz | 19",
                 "🇸🇪SE | vless | @DailyV2RY | 102",
                 "🇨🇦CA | vless | @sinabigo | 1",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 9",
                 "🇸🇪SE | vless | @polproxy | 7",
@@ -182,11 +182,11 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇸🇪SE | vless | @V2rayNGn | 46",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
-                "🇸🇪SE | vless | @prrofile_purple | 184",
+                "🇨🇷CR | vless | @prrofile_purple | 184",
                 "🇨🇦CA | vless | @UnlimitedDev | 17",
                 "🇨🇦CA | vless | @vmessorg | 13",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 19",
-                "🇸🇪SE | vless | @ServerNett | 10",
+                "🇸🇪SE | vless | @ServerNett | 12",
                 "🇨🇦CA | vless | @v2ray_swhil | 13",
                 "🇸🇪SE | vless | @proxyymeliii | 44",
                 "🇨🇦CA | vless | @v2ray1_ng | 13",
@@ -195,7 +195,7 @@
                 "🇩🇪DE | vless | @V2RayTz | 19",
                 "🇸🇪SE | vless | @DailyV2RY | 102",
                 "🇨🇦CA | vless | @sinabigo | 1",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 9",
                 "🇸🇪SE | vless | @polproxy | 7",
@@ -278,7 +278,7 @@
         {
             "tag": "🇸🇪SE | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "13.51.99.47",
+            "server": "13.60.164.164",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -682,11 +682,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @prrofile_purple | 184",
+            "tag": "🇨🇷CR | vless | @prrofile_purple | 184",
             "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 8080,
-            "uuid": "9dbaf43b-2029-4900-ad41-8dce8be516d5",
+            "server": "190.93.247.155",
+            "server_port": 80,
+            "uuid": "Join-Telegram-Picumin",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -696,9 +696,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
+                "path": "\/robots.txt?ed=2560",
                 "headers": {
-                    "Host": "185.146.173.58"
+                    "Host": "190.93.247.155"
                 }
             }
         },
@@ -766,7 +766,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ServerNett | 10",
+            "tag": "🇸🇪SE | vless | @ServerNett | 12",
             "type": "vless",
             "server": "185.146.173.58",
             "server_port": 2095,
@@ -1000,11 +1000,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "104.19.179.196",
+            "server": "185.146.173.82",
             "server_port": 443,
-            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "uuid": "60a68613-8891-4e5d-de7c-ba2161724056",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1014,7 +1014,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mmdv2.pages.dev",
+                "server_name": "DNS-GAME.MpoTehran.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1024,9 +1024,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Free V2RAY\/@Alfred_Config\/@Alfred_Config\/@Alfred_Config TEL @Alfred_Config @V2ray\/@Alfred_Config\/@Alfred_Config\/@Alfred_Config",
                 "headers": {
-                    "Host": "mmdv2.pages.dev"
+                    "Host": "DNS-GAME.MpoTehran.ir"
                 }
             }
         },
