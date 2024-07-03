@@ -120,7 +120,7 @@
                 "🇸🇪SE | vless | @free_v2rayyy | 11",
                 "🇸🇪SE | vless | @lightning6 | 19",
                 "🇸🇪SE | vless | @DigiV2ray | 26",
-                "🇸🇪SE | vless | @proxy_kafee | 3",
+                "🇸🇪SE | vless | @proxy_kafee | 5",
                 "🇸🇪SE | vless | @v2logy | 12",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
@@ -140,12 +140,12 @@
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 34",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 9",
                 "🇸🇪SE | vless | @polproxy | 7",
-                "🇲🇾MY | vless | @Outlinev2rayNG | 16",
+                "🇨🇴CO | vless | @Outlinev2rayNG | 16",
                 "🇲🇾MY | vless | @v2rayng_vpnrog | 9",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇲🇾MY | vless | @FreakConfig | 10",
@@ -179,7 +179,7 @@
                 "🇸🇪SE | vless | @free_v2rayyy | 11",
                 "🇸🇪SE | vless | @lightning6 | 19",
                 "🇸🇪SE | vless | @DigiV2ray | 26",
-                "🇸🇪SE | vless | @proxy_kafee | 3",
+                "🇸🇪SE | vless | @proxy_kafee | 5",
                 "🇸🇪SE | vless | @v2logy | 12",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
@@ -199,12 +199,12 @@
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 34",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 9",
                 "🇸🇪SE | vless | @polproxy | 7",
-                "🇲🇾MY | vless | @Outlinev2rayNG | 16",
+                "🇨🇴CO | vless | @Outlinev2rayNG | 16",
                 "🇲🇾MY | vless | @v2rayng_vpnrog | 9",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇲🇾MY | vless | @FreakConfig | 10",
@@ -544,7 +544,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @proxy_kafee | 3",
+            "tag": "🇸🇪SE | vless | @proxy_kafee | 5",
             "type": "vless",
             "server": "185.146.173.58",
             "server_port": 80,
@@ -1032,11 +1032,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 80,
-            "uuid": "80dd674e-5fd1-44f6-9244-3995828cdde5",
+            "server": "188.114.98.224",
+            "server_port": 2095,
+            "uuid": "cfb6d9ad-7a14-4061-b159-8902fd73bb54",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1046,9 +1046,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy",
+                "path": "\/DIGIV2RAY--DigiV2ray--digiv2ray--DIGIV2RAY--DigiV2ray--digiv2ray--DigiV2ray--DigiV2ray?ed=1024",
                 "headers": {
-                    "Host": "185.146.173.58"
+                    "Host": "188.114.98.224"
                 }
             }
         },
@@ -1147,11 +1147,11 @@
             }
         },
         {
-            "tag": "🇲🇾MY | vless | @Outlinev2rayNG | 16",
+            "tag": "🇨🇴CO | vless | @Outlinev2rayNG | 16",
             "type": "vless",
-            "server": "172.66.47.126",
-            "server_port": 443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "server": "nl.hosting-ip.com",
+            "server_port": 8880,
+            "uuid": "CHannel_ExpressVPN_420",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1159,21 +1159,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "00e463Dc.beSTVPn-4xi.PAgES.dEv",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/yuyg5ujoovohfscy?ed=2560",
+                "path": "\/Join--ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420V2ray.re",
                 "headers": {
-                    "Host": "00e463Dc.beSTVPn-4xi.PAgES.dEv"
+                    "Host": "nl.hosting-ip.com"
                 }
             }
         },
