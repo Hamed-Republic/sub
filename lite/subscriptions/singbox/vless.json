@@ -138,6 +138,7 @@
                 "🇨🇦CA | vless | @vless_vmess | 8",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇨🇦CA | vless | @V2RayTz | 18",
+                "🇨🇦CA | vless | @DailyV2RY | 77",
                 "🇨🇦CA | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 34",
                 "🇸🇪SE | vless | @ConfigsHUB | 19",
@@ -195,6 +196,7 @@
                 "🇨🇦CA | vless | @vless_vmess | 8",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇨🇦CA | vless | @V2RayTz | 18",
+                "🇨🇦CA | vless | @DailyV2RY | 77",
                 "🇨🇦CA | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 34",
                 "🇸🇪SE | vless | @ConfigsHUB | 19",
@@ -986,6 +988,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 77",
+            "type": "vless",
+            "server": "172.66.44.86",
+            "server_port": 443,
+            "uuid": "cc771b27-27ad-4bf3-bc42-f42cd673edbe",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "nooshin-2d9.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "nooshin-2d9.pages.dev"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @sinabigo | 0",
             "type": "vless",
             "server": "www.Speedtest.Net",
@@ -1030,9 +1063,9 @@
         {
             "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "185.146.173.95",
-            "server_port": 2095,
-            "uuid": "97600abd-ea19-4cc0-9e6a-8dedfd623691",
+            "server": "VPNCUSTOMIZE.Elmahstyle.ir",
+            "server_port": 8080,
+            "uuid": "Join_bede_VPNCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1042,9 +1075,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram - @XvProxy - Telegram - @XvProxy",
+                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
                 "headers": {
-                    "Host": "185.146.173.95"
+                    "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
                 }
             }
         },

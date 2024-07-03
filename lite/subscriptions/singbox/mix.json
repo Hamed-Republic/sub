@@ -146,7 +146,7 @@
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇦🇪AE | ss | @VmessProtocol | 8",
-                "🇺🇸US | vmess | @DailyV2RY | 72",
+                "🇨🇦CA | vless | @DailyV2RY | 77",
                 "🇨🇦CA | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 34",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 17",
@@ -154,7 +154,7 @@
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇺🇸US | vmess | @Hope_Net | 8",
+                "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇸🇪SE | vless | @fnet00 | 9",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇲🇾MY | vless | @Outlinev2rayNG | 15",
@@ -219,7 +219,7 @@
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇦🇪AE | ss | @VmessProtocol | 8",
-                "🇺🇸US | vmess | @DailyV2RY | 72",
+                "🇨🇦CA | vless | @DailyV2RY | 77",
                 "🇨🇦CA | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 34",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 17",
@@ -227,7 +227,7 @@
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇺🇸US | vmess | @Hope_Net | 8",
+                "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇸🇪SE | vless | @fnet00 | 9",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇲🇾MY | vless | @Outlinev2rayNG | 15",
@@ -1169,20 +1169,34 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | vmess | @DailyV2RY | 72",
-            "type": "vmess",
-            "server": "45.32.201.78",
-            "server_port": 8881,
-            "uuid": "db5afae4-ac23-41a6-8378-f307a9a47436",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 77",
+            "type": "vless",
+            "server": "172.66.44.86",
+            "server_port": 443,
+            "uuid": "cc771b27-27ad-4bf3-bc42-f42cd673edbe",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "nooshin-2d9.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "nooshin-2d9.pages.dev"
+                }
             }
         },
         {
@@ -1240,9 +1254,9 @@
         {
             "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "185.146.173.95",
-            "server_port": 2095,
-            "uuid": "97600abd-ea19-4cc0-9e6a-8dedfd623691",
+            "server": "VPNCUSTOMIZE.Elmahstyle.ir",
+            "server_port": 8080,
+            "uuid": "Join_bede_VPNCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1252,9 +1266,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram - @XvProxy - Telegram - @XvProxy",
+                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
                 "headers": {
-                    "Host": "185.146.173.95"
+                    "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
                 }
             }
         },
@@ -1345,7 +1359,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 8",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 8",
             "type": "vmess",
             "server": "russia.com",
             "server_port": 2095,
