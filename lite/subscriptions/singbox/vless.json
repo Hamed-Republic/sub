@@ -122,24 +122,23 @@
                 "🇸🇪SE | vless | @v2logy | 12",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇨🇦CA | vless | @ProxyForOpeta | 3",
+                "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇸🇪SE | vless | @V2rayNGn | 46",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇨🇷CR | vless | @prrofile_purple | 184",
                 "🇨🇦CA | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 13",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 19",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 20",
                 "🇸🇪SE | vless | @ServerNett | 12",
-                "🇨🇦CA | vless | @v2ray_swhil | 9",
+                "🇨🇦CA | vless | @v2ray_swhil | 7",
                 "🇸🇪SE | vless | @proxyymeliii | 44",
-                "🇨🇦CA | vless | @v2ray1_ng | 13",
                 "🇨🇦CA | vless | @vless_vmess | 9",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 3",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇸🇪SE | vless | @DailyV2RY | 85",
                 "🇨🇦CA | vless | @sinabigo | 1",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
-                "🇸🇪SE | vless | @fnet00 | 9",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
+                "🇸🇪SE | vless | @fnet00 | 8",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇲🇾MY | vless | @Outlinev2rayNG | 17",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 10",
@@ -176,24 +175,23 @@
                 "🇸🇪SE | vless | @v2logy | 12",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇨🇦CA | vless | @ProxyForOpeta | 3",
+                "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇸🇪SE | vless | @V2rayNGn | 46",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇨🇷CR | vless | @prrofile_purple | 184",
                 "🇨🇦CA | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 13",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 19",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 20",
                 "🇸🇪SE | vless | @ServerNett | 12",
-                "🇨🇦CA | vless | @v2ray_swhil | 9",
+                "🇨🇦CA | vless | @v2ray_swhil | 7",
                 "🇸🇪SE | vless | @proxyymeliii | 44",
-                "🇨🇦CA | vless | @v2ray1_ng | 13",
                 "🇨🇦CA | vless | @vless_vmess | 9",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 3",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇸🇪SE | vless | @DailyV2RY | 85",
                 "🇨🇦CA | vless | @sinabigo | 1",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
-                "🇸🇪SE | vless | @fnet00 | 9",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
+                "🇸🇪SE | vless | @fnet00 | 8",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇲🇾MY | vless | @Outlinev2rayNG | 17",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 10",
@@ -594,7 +592,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ProxyForOpeta | 3",
+            "tag": "🇨🇦CA | vless | @ProxyForOpeta | 4",
             "type": "vless",
             "server": "proxyforopeta.liongame1.ir",
             "server_port": 2083,
@@ -720,11 +718,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 19",
+            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 20",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 8080,
-            "uuid": "Join_VPNCUSTOMIZE",
+            "server": "188.114.96.54",
+            "server_port": 2096,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -732,11 +730,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "EB043Cc5.MKhalILi.PAGeS.dEV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
+                "path": "\/",
                 "headers": {
-                    "Host": "zula.ir"
+                    "Host": "EB043Cc5.MKhalILi.PAGeS.dEV"
                 }
             }
         },
@@ -762,59 +770,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray_swhil | 9",
-            "type": "vless",
-            "server": "172.66.46.251",
-            "server_port": 443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "bBF9c21A.tECHNeTbpb.paGEs.Dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-@V2ray_Alpha\/?ed=2560",
-                "headers": {
-                    "Host": "bBF9c21A.tECHNeTbpb.paGEs.Dev"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @proxyymeliii | 44",
-            "type": "vless",
-            "server": "VPNCUSTOMIZE.Elmahstyle.ir",
-            "server_port": 8080,
-            "uuid": "telegram_VPNCUSTOMIZE",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
-                "headers": {
-                    "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @v2ray1_ng | 13",
+            "tag": "🇨🇦CA | vless | @v2ray_swhil | 7",
             "type": "vless",
             "server": "www.visa.com.sg",
             "server_port": 8443,
@@ -841,6 +797,27 @@
                 "path": "\/Tel-proxy_mtm\/?ed=2560",
                 "headers": {
                     "Host": "pardazesh-tgws.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @proxyymeliii | 44",
+            "type": "vless",
+            "server": "VPNCUSTOMIZE.Elmahstyle.ir",
+            "server_port": 8080,
+            "uuid": "telegram_VPNCUSTOMIZE",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
+                "headers": {
+                    "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
                 }
             }
         },
@@ -960,11 +937,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "104.17.83.58",
+            "server": "www.speedtest.net",
             "server_port": 443,
-            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "uuid": "8b7efacf-8e83-4e51-ab55-1263baccd4b2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -974,7 +951,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mmdv2.pages.dev",
+                "server_name": "7f905f51.garywelch.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -984,18 +961,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/TELEGRAM-MARAMBASHI\/",
                 "headers": {
-                    "Host": "mmdv2.pages.dev"
+                    "Host": "7f905f51.garywelch.pages.dev"
                 }
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @fnet00 | 9",
+            "tag": "🇸🇪SE | vless | @fnet00 | 8",
             "type": "vless",
             "server": "185.146.173.58",
             "server_port": 2052,
-            "uuid": "26a3c8df-d0c7-4408-a02d-e1659c7be1a8",
+            "uuid": "b224f76f-ef31-4c9d-9a82-2507a95a1c28",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
