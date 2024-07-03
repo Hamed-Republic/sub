@@ -150,7 +150,7 @@
                 "🇨🇦CA | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 34",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 17",
-                "🇫🇷FR | trojan | @ConfigsHUB | 14",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -223,7 +223,7 @@
                 "🇨🇦CA | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 34",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 17",
-                "🇫🇷FR | trojan | @ConfigsHUB | 14",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -1238,24 +1238,23 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇫🇷FR | trojan | @ConfigsHUB | 14",
-            "type": "trojan",
-            "server": "13.39.137.66",
-            "server_port": 22222,
-            "password": "telegram-id-directvpn",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "185.146.173.95",
+            "server_port": 2095,
+            "uuid": "97600abd-ea19-4cc0-9e6a-8dedfd623691",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram - @XvProxy - Telegram - @XvProxy",
+                "headers": {
+                    "Host": "185.146.173.95"
                 }
             }
         },
