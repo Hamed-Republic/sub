@@ -150,7 +150,7 @@
                 "🇨🇦CA | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 34",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 17",
-                "🇺🇸US | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -168,7 +168,6 @@
                 "🇨🇷CR | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🇸🇪SE | vless | @kingofilter | 6",
-                "🏳️XX | vless | @freeconfigv2 | 2",
                 "🏳️XX | vless | @IBv2ray | 4",
                 "🇺🇸US | vmess | @SINABIGO | 1",
                 "🏳️XX | vless | @V2FETCH | 7",
@@ -224,7 +223,7 @@
                 "🇨🇦CA | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 34",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 17",
-                "🇺🇸US | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -242,7 +241,6 @@
                 "🇨🇷CR | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🇸🇪SE | vless | @kingofilter | 6",
-                "🏳️XX | vless | @freeconfigv2 | 2",
                 "🏳️XX | vless | @IBv2ray | 4",
                 "🇺🇸US | vmess | @SINABIGO | 1",
                 "🏳️XX | vless | @V2FETCH | 7",
@@ -1240,11 +1238,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "172.64.101.233",
-            "server_port": 443,
-            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "server": "www.Speedtest.Net",
+            "server_port": 2095,
+            "uuid": "cfb6d9ad-7a14-4061-b159-8902fd73bb54",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1252,21 +1250,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "mmdv2.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net",
+                "path": "\/DIGIV2RAY--DigiV2ray--digiv2ray--DIGIV2RAY--DigiV2ray--digiv2ray--DigiV2ray--DigiV2ray?ed=1024",
                 "headers": {
-                    "Host": "mmdv2.pages.dev"
+                    "Host": "www.Speedtest.Net"
                 }
             }
         },
@@ -1705,35 +1693,6 @@
                 "path": "\/Telegram-ipV2Ray",
                 "headers": {
                     "Host": "185.146.173.58"
-                }
-            }
-        },
-        {
-            "tag": "🏳️XX | vless | @freeconfigv2 | 2",
-            "type": "vless",
-            "server": "tele.jokerv2ray.store",
-            "server_port": 15557,
-            "uuid": "945a6635-9884-46e4-b7e8-78fb7c79359b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "telegram-id.jokerv2ray.store",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "7XKXjQ8Y3TxGnBhqERCzRqVeWI2Mf7BpZ6cJulAI7yA",
-                    "short_id": "7dd63855"
                 }
             }
         },
