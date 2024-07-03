@@ -116,7 +116,6 @@
                 "🇸🇪SE | vless | @ARv2ray | 15",
                 "🇸🇪SE | vless | @shh_proxy | 28",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
-                "🇸🇪SE | vless | @free_v2rayyy | 11",
                 "🇸🇪SE | vless | @lightning6 | 19",
                 "🇸🇪SE | vless | @DigiV2ray | 26",
                 "🇸🇪SE | vless | @proxy_kafee | 4",
@@ -140,7 +139,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 78",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 34",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 9",
                 "🇸🇪SE | vless | @polproxy | 7",
@@ -173,7 +172,6 @@
                 "🇸🇪SE | vless | @ARv2ray | 15",
                 "🇸🇪SE | vless | @shh_proxy | 28",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
-                "🇸🇪SE | vless | @free_v2rayyy | 11",
                 "🇸🇪SE | vless | @lightning6 | 19",
                 "🇸🇪SE | vless | @DigiV2ray | 26",
                 "🇸🇪SE | vless | @proxy_kafee | 4",
@@ -197,7 +195,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 78",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 34",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 9",
                 "🇸🇪SE | vless | @polproxy | 7",
@@ -452,27 +450,6 @@
                 "path": "\/@LOCKEY_VPN-@LOCKEY_VPN-@LOCKEY_VPN-@LOCKEY_VPN-V2",
                 "headers": {
                     "Host": "198.41.206.124"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @free_v2rayyy | 11",
-            "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 80,
-            "uuid": "582ba1dc-d210-443b-a748-27a98f3a3ee8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy",
-                "headers": {
-                    "Host": "185.146.173.58"
                 }
             }
         },
@@ -1011,7 +988,7 @@
             "type": "vless",
             "server": "VPNCUSTOMIZE.Elmahstyle.ir",
             "server_port": 8080,
-            "uuid": "Telegram_VPNCUSTOMIZE",
+            "uuid": "telegram_VPNCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1028,11 +1005,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "104.18.5.2",
-            "server_port": 2096,
-            "uuid": "85b94f20-e563-498b-9d4b-a75438a51101",
+            "server": "188.114.98.224",
+            "server_port": 8080,
+            "uuid": "Source_VPNCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1040,21 +1017,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "VFIvE-teLeGram.PAGEs.Dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/TElEGRAM-MARAMBASHI-MARAMBASHI",
+                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
                 "headers": {
-                    "Host": "VFIvE-teLeGram.PAGEs.Dev"
+                    "Host": "188.114.98.224"
                 }
             }
         },
