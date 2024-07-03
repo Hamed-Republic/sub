@@ -140,16 +140,16 @@
                 "🇸🇪SE | vless | @ServerNett | 10",
                 "🇨🇦CA | vless | @v2ray_swhil | 12",
                 "🇸🇪SE | vless | @proxyymeliii | 50",
-                "🇨🇦CA | vless | @v2ray1_ng | 11",
+                "🇸🇪SE | vless | @v2ray1_ng | 11",
                 "🇨🇦CA | vless | @vless_vmess | 8",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 2",
-                "🇨🇷CR | vless | @V2RayTz | 18",
+                "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇦🇪AE | ss | @VmessProtocol | 9",
                 "🇨🇦CA | vless | @DailyV2RY | 78",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 34",
                 "🇩🇰DK | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇩🇪DE | trojan | @proxystore11 | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -214,16 +214,16 @@
                 "🇸🇪SE | vless | @ServerNett | 10",
                 "🇨🇦CA | vless | @v2ray_swhil | 12",
                 "🇸🇪SE | vless | @proxyymeliii | 50",
-                "🇨🇦CA | vless | @v2ray1_ng | 11",
+                "🇸🇪SE | vless | @v2ray1_ng | 11",
                 "🇨🇦CA | vless | @vless_vmess | 8",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 2",
-                "🇨🇷CR | vless | @V2RayTz | 18",
+                "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇦🇪AE | ss | @VmessProtocol | 9",
                 "🇨🇦CA | vless | @DailyV2RY | 78",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 34",
                 "🇩🇰DK | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇩🇪DE | trojan | @proxystore11 | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -1026,11 +1026,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray1_ng | 11",
+            "tag": "🇸🇪SE | vless | @v2ray1_ng | 11",
             "type": "vless",
-            "server": "www.visa.com.sg",
-            "server_port": 8443,
-            "uuid": "9a39f63e-28c8-4560-af18-b01b9916ef1b",
+            "server": "185.146.173.58",
+            "server_port": 8080,
+            "uuid": "efc3a5bd-2dfd-4942-af6c-5a03302e2731",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1038,21 +1038,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "pardazesh-tgws.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/Tel-proxy_mtm\/?ed=2560",
+                "path": "\/servernet",
                 "headers": {
-                    "Host": "pardazesh-tgws.pages.dev"
+                    "Host": "185.146.173.58"
                 }
             }
         },
@@ -1109,11 +1099,11 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2RayTz | 18",
+            "tag": "🇸🇪SE | vless | @V2RayTz | 18",
             "type": "vless",
-            "server": "190.93.244.96",
-            "server_port": 2087,
-            "uuid": "6c1b7db4-6c3a-4c05-ad0e-8c6207146d49",
+            "server": "185.146.173.58",
+            "server_port": 80,
+            "uuid": "Telegram-NUFiLTER",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1121,21 +1111,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "fd.lightningp.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray",
+                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
                 "headers": {
-                    "Host": "fd.lightningp.ir"
+                    "Host": "185.146.173.58"
                 }
             }
         },
@@ -1233,11 +1213,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "104.17.83.58",
-            "server_port": 443,
-            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "server": "188.114.98.223",
+            "server_port": 2095,
+            "uuid": "cfb6d9ad-7a14-4061-b159-8902fd73bb56",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1245,21 +1225,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "mmdv2.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/DIGIV2RAY--DigiV2ray--digiv2ray--DIGIV2RAY--DigiV2ray--digiv2ray--DigiV2ray--DigiV2ray?ed=1024",
                 "headers": {
-                    "Host": "mmdv2.pages.dev"
+                    "Host": "188.114.98.223"
                 }
             }
         },
