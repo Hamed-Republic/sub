@@ -216,9 +216,9 @@
         {
             "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
             "type": "vmess",
-            "server": "104.17.25.1",
+            "server": "104.16.53.5",
             "server_port": 80,
-            "uuid": "83c19463-f966-4adb-a7d8-b127825ffab2",
+            "uuid": "5ea4a644-07e9-4ad0-860d-50bd9b6e7f94",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -231,9 +231,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/vmess",
                 "headers": {
-                    "Host": "104.17.25.1"
+                    "Host": ""
                 }
             }
         },
