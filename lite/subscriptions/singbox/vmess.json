@@ -113,7 +113,7 @@
                 "🇮🇷IR | vmess | @vless_vmess | 9",
                 "🇺🇸US | vmess | @DailyV2RY | 84",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🏳️XX | vmess | @Hope_Net | 7",
+                "🇳🇱NL | vmess | @Hope_Net | 6",
                 "🇺🇸US | vmess | @v2Line | 5",
                 "🏳️XX | vmess | @nofiltering2 | 2",
                 "🇺🇸US | vmess | @kingofilter | 8",
@@ -132,7 +132,7 @@
                 "🇮🇷IR | vmess | @vless_vmess | 9",
                 "🇺🇸US | vmess | @DailyV2RY | 84",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🏳️XX | vmess | @Hope_Net | 7",
+                "🇳🇱NL | vmess | @Hope_Net | 6",
                 "🇺🇸US | vmess | @v2Line | 5",
                 "🏳️XX | vmess | @nofiltering2 | 2",
                 "🇺🇸US | vmess | @kingofilter | 8",
@@ -320,11 +320,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 7",
+            "tag": "🇳🇱NL | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "mci.mosi.mosipro.ml",
-            "server_port": 443,
-            "uuid": "d2b191ce-58b4-4950-b847-3eda9a1f64f7",
+            "server": "154.47.21.54",
+            "server_port": 8099,
+            "uuid": "fa1897db-1925-4c86-a495-939a959af900",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -334,23 +334,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Dusseldorf.kotick.site",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/speedtest",
-                "headers": {
-                    "Host": "Dusseldorf.kotick.site"
-                }
             }
         },
         {
