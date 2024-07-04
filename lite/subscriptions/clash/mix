@@ -131,7 +131,7 @@ proxies:
   - {"name":"🏳️XX | vmess | @nofiltering2 | 2","type":"vmess","server":"[::ffff:3981:337d]","port":"19534","cipher":"auto","uuid":"9500739f-0299-47ec-9d3d-2cfec6d5cde1","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇬🇧GB | ss | @proxy_mtm | 3","type":"ss","server":"series-a1.samanehha.co","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸US | vmess | @SINABIGO | 2","type":"vmess","server":"Lousaper.digifashop.ir.","port":"443","cipher":"auto","uuid":"28dc623f-3ee7-4969-849b-d4a7af58078c","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/@RaFaV2ray","headers":{"host":""}}}
-  - {"name":"🇨🇦CA | vmess | @ROMAX_VPN | 4","type":"vmess","server":"172.67.74.4","port":"443","cipher":"auto","uuid":"441da342-ce90-441e-bff9-d2ceb55e68ca","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ivideos.sbs/linkws","headers":{"host":"mikasa.yaemiko.cloudns.org"}}}
+  - {"name":"🇺🇸US | vmess | @ROMAX_VPN | 4","type":"vmess","server":"172.67.74.4","port":"443","cipher":"auto","uuid":"441da342-ce90-441e-bff9-d2ceb55e68ca","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ivideos.sbs/linkws","headers":{"host":"mikasa.yaemiko.cloudns.org"}}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -151,7 +151,7 @@ proxy-groups:
       - '🏳️XX | vmess | @nofiltering2 | 2'
       - '🇬🇧GB | ss | @proxy_mtm | 3'
       - '🇺🇸US | vmess | @SINABIGO | 2'
-      - '🇨🇦CA | vmess | @ROMAX_VPN | 4'
+      - '🇺🇸US | vmess | @ROMAX_VPN | 4'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -171,7 +171,7 @@ proxy-groups:
       - '🏳️XX | vmess | @nofiltering2 | 2'
       - '🇬🇧GB | ss | @proxy_mtm | 3'
       - '🇺🇸US | vmess | @SINABIGO | 2'
-      - '🇨🇦CA | vmess | @ROMAX_VPN | 4'
+      - '🇺🇸US | vmess | @ROMAX_VPN | 4'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -190,7 +190,7 @@ proxy-groups:
       - '🏳️XX | vmess | @nofiltering2 | 2'
       - '🇬🇧GB | ss | @proxy_mtm | 3'
       - '🇺🇸US | vmess | @SINABIGO | 2'
-      - '🇨🇦CA | vmess | @ROMAX_VPN | 4'
+      - '🇺🇸US | vmess | @ROMAX_VPN | 4'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
