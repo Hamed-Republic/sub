@@ -149,7 +149,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 112",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇮🇪IE | ss | @OutlineVpnOfficial | 19",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🏳️XX | vmess | @Hope_Net | 5",
@@ -160,7 +160,7 @@
                 "🇩🇪DE | vmess | @v2Line | 3",
                 "🇺🇸US | vless | @FreakConfig | 13",
                 "🇺🇸US | vless | @flyv2ray | 6",
-                "🇮🇷IR | vless | @FAKEOFTVC | 10",
+                "🇺🇸US | ss | @FAKEOFTVC | 10",
                 "🇸🇪SE | vless | @mehrosaboran | 5",
                 "🇺🇸US | vless | @kiava | 8",
                 "🏳️XX | vmess | @nofiltering2 | 2",
@@ -222,7 +222,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 112",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇮🇪IE | ss | @OutlineVpnOfficial | 19",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🏳️XX | vmess | @Hope_Net | 5",
@@ -233,7 +233,7 @@
                 "🇩🇪DE | vmess | @v2Line | 3",
                 "🇺🇸US | vless | @FreakConfig | 13",
                 "🇺🇸US | vless | @flyv2ray | 6",
-                "🇮🇷IR | vless | @FAKEOFTVC | 10",
+                "🇺🇸US | ss | @FAKEOFTVC | 10",
                 "🇸🇪SE | vless | @mehrosaboran | 5",
                 "🇺🇸US | vless | @kiava | 8",
                 "🏳️XX | vmess | @nofiltering2 | 2",
@@ -333,7 +333,7 @@
         {
             "tag": "🇫🇷FR | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "35.181.38.57",
+            "server": "13.39.27.59",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -728,7 +728,7 @@
         {
             "tag": "🇫🇷FR | trojan | @PrivateVPNs | 17",
             "type": "trojan",
-            "server": "13.38.232.27",
+            "server": "52.47.61.82",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -1265,23 +1265,36 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "www.Speedtest.Net",
-            "server_port": 2095,
-            "uuid": "cfb6d9ad-7a14-4061-b159-8902fd73bb58",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 18",
+            "type": "vmess",
+            "server": "zula.ir",
+            "server_port": 443,
+            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "jahfkjha.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/DIGIV2RAY--DigiV2ray--digiv2ray--DIGIV2RAY--DigiV2ray--digiv2ray--DigiV2ray--DigiV2ray?ed=1024",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "www.Speedtest.Net"
+                    "Host": "jahfkjha.cfd"
                 }
             }
         },
@@ -1398,9 +1411,9 @@
         {
             "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 16",
             "type": "vless",
-            "server": "104.19.221.227",
-            "server_port": 443,
-            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "server": "104.18.181.1",
+            "server_port": 8080,
+            "uuid": "f50e0469-3e74-4583-96bc-b6baa355093d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1408,21 +1421,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "mmdv2.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080",
                 "headers": {
-                    "Host": "mmdv2.pages.dev"
+                    "Host": "104.18.181.1"
                 }
             }
         },
@@ -1546,25 +1549,14 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @FAKEOFTVC | 10",
-            "type": "vless",
-            "server": "188.121.97.171",
-            "server_port": 8880,
-            "uuid": "6a418a48-e719-4a43-9eca-e552d917052a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
-                "headers": {
-                    "Host": "188.121.97.171"
-                }
-            }
+            "tag": "🇺🇸US | ss | @FAKEOFTVC | 10",
+            "type": "shadowsocks",
+            "server": "205.134.180.139",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "lWaGPVFjmnag",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇸🇪SE | vless | @mehrosaboran | 5",
