@@ -148,7 +148,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 31",
                 "🇭🇰HK | ss | @OutlineVpnOfficial | 19",
-                "🇨🇦CA | trojan | @ConfigsHUB | 18",
+                "🇸🇪SE | vless | @ConfigsHUB | 18",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇬SG | vmess | @Hope_Net | 4",
@@ -219,7 +219,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 31",
                 "🇭🇰HK | ss | @OutlineVpnOfficial | 19",
-                "🇨🇦CA | trojan | @ConfigsHUB | 18",
+                "🇸🇪SE | vless | @ConfigsHUB | 18",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇬SG | vmess | @Hope_Net | 4",
@@ -1236,24 +1236,23 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | trojan | @ConfigsHUB | 18",
-            "type": "trojan",
-            "server": "3.97.151.70",
-            "server_port": 22222,
-            "password": "telegram-id-directvpn",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "185.146.173.43",
+            "server_port": 2095,
+            "uuid": "cfb6d9ad-7a14-4061-b159-8902fd73bb58",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "transport": {
+                "type": "ws",
+                "path": "\/DIGIV2RAY--DigiV2ray--digiv2ray--DIGIV2RAY--DigiV2ray--digiv2ray--DigiV2ray--DigiV2ray?ed=1024",
+                "headers": {
+                    "Host": "185.146.173.43"
                 }
             }
         },
