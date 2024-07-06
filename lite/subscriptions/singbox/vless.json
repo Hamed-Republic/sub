@@ -139,11 +139,10 @@
                 "🏳️XX | vless | @MTConfig | 13",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇨🇦CA | vless | @V2RayTz | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
-                "🇨🇦CA | vless | @v2rayng_vpnrog | 10",
+                "🇺🇸US | vless | @v2rayng_vpnrog | 10",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @FreakConfig | 12",
                 "🇩🇪DE | vless | @flyv2ray | 0",
@@ -195,11 +194,10 @@
                 "🏳️XX | vless | @MTConfig | 13",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇨🇦CA | vless | @V2RayTz | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
-                "🇨🇦CA | vless | @v2rayng_vpnrog | 10",
+                "🇺🇸US | vless | @v2rayng_vpnrog | 10",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @FreakConfig | 12",
                 "🇩🇪DE | vless | @flyv2ray | 0",
@@ -1008,37 +1006,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "104.24.196.20",
-            "server_port": 2053,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "936a99B4.Vde5-MlX81LANeo.pAgES.dEv",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/KkhHL0gsSoZ7M6id\/ZGU1Lm1lcmxpbm56Lmxpbms=?ed=2560",
-                "headers": {
-                    "Host": "936a99B4.Vde5-MlX81LANeo.pAgES.dEv"
-                }
-            }
-        },
-        {
             "tag": "🇸🇪SE | vless | @proxystore11 | 4",
             "type": "vless",
             "server": "185.146.173.237",
@@ -1102,7 +1069,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayng_vpnrog | 10",
+            "tag": "🇺🇸US | vless | @v2rayng_vpnrog | 10",
             "type": "vless",
             "server": "188.114.98.224",
             "server_port": 2095,

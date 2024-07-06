@@ -147,13 +147,13 @@
                 "🇨🇦CA | vless | @V2RayTz | 15",
                 "🇬🇧GB | trojan | @VmessProtocol | 10",
                 "🇰🇿KZ | ss | @OutlineVpnOfficial | 19",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🏳️XX | vmess | @Hope_Net | 5",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
-                "🇨🇦CA | vless | @v2rayng_vpnrog | 10",
+                "🇺🇸US | vless | @v2rayng_vpnrog | 10",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 3",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇩🇪DE | vmess | @v2Line | 3",
@@ -217,13 +217,13 @@
                 "🇨🇦CA | vless | @V2RayTz | 15",
                 "🇬🇧GB | trojan | @VmessProtocol | 10",
                 "🇰🇿KZ | ss | @OutlineVpnOfficial | 19",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🏳️XX | vmess | @Hope_Net | 5",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
-                "🇨🇦CA | vless | @v2rayng_vpnrog | 10",
+                "🇺🇸US | vless | @v2rayng_vpnrog | 10",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 3",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇩🇪DE | vmess | @v2Line | 3",
@@ -1197,13 +1197,16 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "104.24.196.20",
-            "server_port": 2053,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "zula.ir",
+            "server_port": 443,
+            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1211,7 +1214,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "936a99B4.Vde5-MlX81LANeo.pAgES.dEv",
+                "server_name": "jahfkjha.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1221,9 +1224,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/KkhHL0gsSoZ7M6id\/ZGU1Lm1lcmxpbm56Lmxpbms=?ed=2560",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "936a99B4.Vde5-MlX81LANeo.pAgES.dEv"
+                    "Host": "jahfkjha.cfd"
                 }
             }
         },
@@ -1359,7 +1362,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayng_vpnrog | 10",
+            "tag": "🇺🇸US | vless | @v2rayng_vpnrog | 10",
             "type": "vless",
             "server": "188.114.98.224",
             "server_port": 2095,
