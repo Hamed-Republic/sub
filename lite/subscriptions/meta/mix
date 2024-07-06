@@ -154,6 +154,7 @@ proxies:
   - {"name":"🇬🇧GB | trojan | @VmessProtocol | 10","type":"trojan","server":"23.106.32.171","port":443,"udp":false,"password":"F9D3CpxDl8a3ezeZNSBSAa2RcZNSBSAa2RcY8IyagD67Yn3S30ZTElRj4wFX5On3S30ZT","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"scarily.golfland.club"}
   - {"name":"🇨🇦CA | vless | @DailyV2RY | 81","type":"vless","server":"172.64.146.118","port":8443,"udp":false,"uuid":"ecc19b72-2cc8-4690-b23d-960d3e3c6d40","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"pardazeshvpn-tg24.pages.dev","ws-opts":{"path":"/","headers":{"host":"pardazeshvpn-tg24.pages.dev"}}}
   - {"name":"🇳🇱NL | ss | @OutlineVpnOfficial | 19","type":"ss","server":"193.29.139.251","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇷🇺RU | vless | @ConfigsHUB | 15","type":"vless","server":"193.233.114.4","port":443,"udp":true,"uuid":"b34c6ee4-0d00-42bd-80e7-498473e17494","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"discord.com","grpc-opts":{"grpc-service-name":"@set_v2ray"},"reality-opts":{"public-key":"een7poSoq6eFDvfwDNdGN75DsJrluUh6Vv15SMWLDX8","short-id":"00e2953a"}}
   - {"name":"🇸🇬SG | vmess | @Hope_Net | 4","type":"vmess","server":"sg-full.privateip.net","port":"443","cipher":"auto","uuid":"ecb90d6e-1bbf-42ec-a742-822fad6936da","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/RACEVPN","headers":{"host":""}}}
   - {"name":"🇸🇪SE | vless | @polproxy | 7","type":"vless","server":"185.146.173.58","port":80,"udp":false,"uuid":"de3be989-68d0-401f-8ba4-94c97373c468","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy?ed=2048","headers":{"host":"Kanal-polproxy.Vipnufilter.Online."}}}
   - {"name":"🇸🇪SE | vless | @Outlinev2rayNG | 15","type":"vless","server":"185.146.173.58","port":80,"udp":false,"uuid":"80dd674e-5fd1-44f6-9244-3995828cdde5","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy?ed=2048","headers":{"host":"2.V2rayV2ray-_-_-V2ray.irantech.Org."}}}
@@ -209,6 +210,7 @@ proxy-groups:
       - '🇬🇧GB | trojan | @VmessProtocol | 10'
       - '🇨🇦CA | vless | @DailyV2RY | 81'
       - '🇳🇱NL | ss | @OutlineVpnOfficial | 19'
+      - '🇷🇺RU | vless | @ConfigsHUB | 15'
       - '🇸🇬SG | vmess | @Hope_Net | 4'
       - '🇸🇪SE | vless | @polproxy | 7'
       - '🇸🇪SE | vless | @Outlinev2rayNG | 15'
@@ -264,6 +266,7 @@ proxy-groups:
       - '🇬🇧GB | trojan | @VmessProtocol | 10'
       - '🇨🇦CA | vless | @DailyV2RY | 81'
       - '🇳🇱NL | ss | @OutlineVpnOfficial | 19'
+      - '🇷🇺RU | vless | @ConfigsHUB | 15'
       - '🇸🇬SG | vmess | @Hope_Net | 4'
       - '🇸🇪SE | vless | @polproxy | 7'
       - '🇸🇪SE | vless | @Outlinev2rayNG | 15'
@@ -318,6 +321,7 @@ proxy-groups:
       - '🇬🇧GB | trojan | @VmessProtocol | 10'
       - '🇨🇦CA | vless | @DailyV2RY | 81'
       - '🇳🇱NL | ss | @OutlineVpnOfficial | 19'
+      - '🇷🇺RU | vless | @ConfigsHUB | 15'
       - '🇸🇬SG | vmess | @Hope_Net | 4'
       - '🇸🇪SE | vless | @polproxy | 7'
       - '🇸🇪SE | vless | @Outlinev2rayNG | 15'
