@@ -112,10 +112,9 @@
                 "🇨🇦CA | vmess | @customv2ray | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇬SG | vmess | @Hope_Net | 4",
-                "🇺🇸US | vmess | @v2rayng_config_amin | 3",
-                "🇩🇪DE | vmess | @v2Line | 3",
-                "🏳️XX | vmess | @nofiltering2 | 1",
-                "🇺🇸US | vmess | @ROMAX_VPN | 4"
+                "🇨🇦CA | vmess | @v2rayng_config_amin | 3",
+                "🏳️XX | vmess | @v2Line | 3",
+                "🏳️XX | vmess | @ROMAX_VPN | 4"
             ]
         },
         {
@@ -128,10 +127,9 @@
                 "🇨🇦CA | vmess | @customv2ray | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇬SG | vmess | @Hope_Net | 4",
-                "🇺🇸US | vmess | @v2rayng_config_amin | 3",
-                "🇩🇪DE | vmess | @v2Line | 3",
-                "🏳️XX | vmess | @nofiltering2 | 1",
-                "🇺🇸US | vmess | @ROMAX_VPN | 4"
+                "🇨🇦CA | vmess | @v2rayng_config_amin | 3",
+                "🏳️XX | vmess | @v2Line | 3",
+                "🏳️XX | vmess | @ROMAX_VPN | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -297,7 +295,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2rayng_config_amin | 3",
+            "tag": "🇨🇦CA | vmess | @v2rayng_config_amin | 3",
             "type": "vmess",
             "server": "505.outline-vpn.cloud",
             "server_port": 443,
@@ -331,7 +329,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @v2Line | 3",
+            "tag": "🏳️XX | vmess | @v2Line | 3",
             "type": "vmess",
             "server": "217.160.45.31",
             "server_port": 8880,
@@ -355,24 +353,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @nofiltering2 | 1",
-            "type": "vmess",
-            "server": "[::ffff:3981:337d]",
-            "server_port": 19534,
-            "uuid": "9500739f-0299-47ec-9d3d-2cfec6d5cde1",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @ROMAX_VPN | 4",
+            "tag": "🏳️XX | vmess | @ROMAX_VPN | 4",
             "type": "vmess",
             "server": "172.67.74.4",
             "server_port": 443,
