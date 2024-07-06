@@ -107,7 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇨🇦CA | vless | @EliV2ray | 7",
-                "🇨🇦CA | vless | @Parsashonam | 1",
+                "🇨🇦CA | vless | @Parsashonam | 3",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 6",
                 "🇫🇷FR | vless | @VlessConfig | 15",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 33",
@@ -147,7 +147,7 @@
                 "🇳🇴NO | vless | @VmessProtocol | 10",
                 "🇸🇪SE | vless | @DailyV2RY | 105",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇨🇦CA | vmess | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🏳️XX | vmess | @Hope_Net | 5",
@@ -178,7 +178,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇨🇦CA | vless | @EliV2ray | 7",
-                "🇨🇦CA | vless | @Parsashonam | 1",
+                "🇨🇦CA | vless | @Parsashonam | 3",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 6",
                 "🇫🇷FR | vless | @VlessConfig | 15",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 33",
@@ -218,7 +218,7 @@
                 "🇳🇴NO | vless | @VmessProtocol | 10",
                 "🇸🇪SE | vless | @DailyV2RY | 105",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇨🇦CA | vmess | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🏳️XX | vmess | @Hope_Net | 5",
@@ -295,7 +295,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Parsashonam | 1",
+            "tag": "🇨🇦CA | vless | @Parsashonam | 3",
             "type": "vless",
             "server": "104.21.19.124",
             "server_port": 8880,
@@ -1223,36 +1223,23 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 18",
-            "type": "vmess",
-            "server": "104.19.48.17",
-            "server_port": 8443,
-            "uuid": "39135a39-e6ca-43df-a360-d859eea58d86",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "eagle.Hafezdivan.Online.",
+            "server_port": 80,
+            "uuid": "c416be20-32b3-467f-83c2-735e04d639f7",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "hk01.linkitnow.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net\/",
                 "headers": {
-                    "Host": "hk01.linkitnow.net"
+                    "Host": "eagle.Hafezdivan.Online."
                 }
             }
         },
