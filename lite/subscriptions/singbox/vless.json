@@ -1000,9 +1000,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 2096,
-            "uuid": "8ae167dc-c09c-47f3-802f-daedbd307eae",
+            "server": "mtn.VPNPROSEC.com",
+            "server_port": 80,
+            "uuid": "98e241f4-9c11-426d-b006-0ab43592fe60",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1010,21 +1010,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "q.zibashoporg.com.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/?ed=2052",
                 "headers": {
-                    "Host": "q.zibashoporg.com."
+                    "Host": "mtn.VPNPROSEC.com"
                 }
             }
         },
