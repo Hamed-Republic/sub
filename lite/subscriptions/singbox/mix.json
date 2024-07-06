@@ -145,14 +145,15 @@
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇨🇦CA | vless | @V2RayTz | 15",
                 "🇳🇴NO | vless | @VmessProtocol | 10",
-                "🇸🇪SE | vless | @DailyV2RY | 105",
+                "🇨🇦CA | vless | @DailyV2RY | 115",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇰🇿KZ | ss | @OutlineVpnOfficial | 19",
+                "🇳🇴NO | vless | @ConfigsHUB | 15",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🏳️XX | vmess | @Hope_Net | 5",
                 "🇸🇪SE | vless | @polproxy | 7",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 17",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 16",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 10",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 3",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -216,14 +217,15 @@
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇨🇦CA | vless | @V2RayTz | 15",
                 "🇳🇴NO | vless | @VmessProtocol | 10",
-                "🇸🇪SE | vless | @DailyV2RY | 105",
+                "🇨🇦CA | vless | @DailyV2RY | 115",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇰🇿KZ | ss | @OutlineVpnOfficial | 19",
+                "🇳🇴NO | vless | @ConfigsHUB | 15",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🏳️XX | vmess | @Hope_Net | 5",
                 "🇸🇪SE | vless | @polproxy | 7",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 17",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 16",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 10",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 3",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -1176,11 +1178,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @DailyV2RY | 105",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 115",
             "type": "vless",
-            "server": "185.146.173.37",
-            "server_port": 80,
-            "uuid": "1759dd49-3e82-4abb-a9ea-0b097037e09d",
+            "server": "104.18.5.2",
+            "server_port": 2096,
+            "uuid": "85b94f20-e563-498b-9d4b-a75438a51101",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1188,11 +1190,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "VFIvE-teLeGram.PAGEs.Dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "path": "\/5fz4m1ggihzpkyya?ed=2560",
                 "headers": {
-                    "Host": "185.146.173.37"
+                    "Host": "VFIvE-teLeGram.PAGEs.Dev"
                 }
             }
         },
@@ -1218,23 +1230,41 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
+            "tag": "🇰🇿KZ | ss | @OutlineVpnOfficial | 19",
+            "type": "shadowsocks",
+            "server": "103.106.3.170",
+            "server_port": 27179,
+            "method": "chacha20-ietf-poly1305",
+            "password": "pM9IbADqbb5tsSTjebQRbc",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇳🇴NO | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "www.Speedtest.Net",
-            "server_port": 2095,
-            "uuid": "cfb6d9ad-7a14-4061-b159-8902fd73bb58",
-            "flow": "",
+            "server": "185.125.171.13",
+            "server_port": 443,
+            "uuid": "a09373e2-e120-457d-9ec9-ea7fe8bedb52",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/DIGIV2RAY--DigiV2ray--digiv2ray--DIGIV2RAY--DigiV2ray--digiv2ray--DigiV2ray--DigiV2ray?ed=1024",
-                "headers": {
-                    "Host": "www.Speedtest.Net"
+            "tls": {
+                "enabled": true,
+                "server_name": "partner.g2.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
                 }
             }
         },
@@ -1349,11 +1379,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 17",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 16",
             "type": "vless",
-            "server": "172.64.87.52",
-            "server_port": 443,
-            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "server": "172.67.171.59",
+            "server_port": 80,
+            "uuid": "03a6f521-cba5-4cf5-92e8-196df9c11ae0",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1361,21 +1391,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "mmdv2.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/vless",
                 "headers": {
-                    "Host": "mmdv2.pages.dev"
+                    "Host": "172.67.171.59"
                 }
             }
         },
