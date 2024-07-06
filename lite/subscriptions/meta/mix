@@ -152,8 +152,8 @@ proxies:
   - {"name":"🇮🇷IR | vless | @V2RayTz | 17","type":"vless","server":"2.189.59.2","port":443,"udp":false,"uuid":"b96e76e8-0b06-4cdc-af76-2481ab186aa3","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"mci.unlimiteddev-vpn.Com.","grpc-opts":{"grpc-service-name":"Channel:@UnlimitedDev"}}
   - {"name":"🇬🇧GB | trojan | @VmessProtocol | 10","type":"trojan","server":"23.106.32.171","port":443,"udp":false,"password":"F9D3CpxDl8a3ezeZNSBSAa2RcZNSBSAa2RcY8IyagD67Yn3S30ZTElRj4wFX5On3S30ZT","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"scarily.golfland.club"}
   - {"name":"🇺🇸US | vmess | @DailyV2RY | 105","type":"vmess","server":"155.138.247.68","port":"8881","cipher":"auto","uuid":"db5afae4-ac23-41a6-8378-f307a9a47436","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇵🇱PL | ss | @OutlineVpnOfficial | 19","type":"ss","server":"77.83.246.55","port":1080,"password":"3pURuTUf-lFgg5qWg8euFA","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇦CA | vless | @ConfigsHUB | 19","type":"vless","server":"mtn.VPNPROSEC.com","port":80,"udp":false,"uuid":"98e241f4-9c11-426d-b006-0ab43592fe60","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/?ed=2052","headers":{"host":"amo.zibashoporg.com."}}}
+  - {"name":"🇵🇹PT | ss | @OutlineVpnOfficial | 19","type":"ss","server":"31.129.22.73","port":1080,"password":"3pURuTUf-lFgg5qWg8euFA","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇦CA | vless | @ConfigsHUB | 19","type":"vless","server":"172.66.47.2","port":443,"udp":false,"uuid":"bcf50589-9654-4331-93a6-da896914ec47","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"de4ecf6b.isvphp-4g8.pages.dev","ws-opts":{"path":"/Telegram-@V2ray_Alpha/?ed=2048","headers":{"host":"de4ecf6b.isvphp-4g8.pages.dev"}}}
   - {"name":"🇸🇬SG | vmess | @Hope_Net | 4","type":"vmess","server":"sg-full.privateip.net","port":"443","cipher":"auto","uuid":"ecb90d6e-1bbf-42ec-a742-822fad6936da","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/RACEVPN","headers":{"host":""}}}
   - {"name":"🇸🇪SE | vless | @polproxy | 7","type":"vless","server":"185.146.173.58","port":80,"udp":false,"uuid":"de3be989-68d0-401f-8ba4-94c97373c468","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy?ed=2048","headers":{"host":"Kanal-polproxy.Vipnufilter.Online."}}}
   - {"name":"🇨🇦CA | vless | @Outlinev2rayNG | 15","type":"vless","server":"172.66.44.55","port":443,"udp":false,"uuid":"104380d8-f859-421a-bd11-29b2c9fbfa99","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"famil-5c8.pages.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"famil-5c8.pages.dev"}}}
@@ -207,7 +207,7 @@ proxy-groups:
       - '🇮🇷IR | vless | @V2RayTz | 17'
       - '🇬🇧GB | trojan | @VmessProtocol | 10'
       - '🇺🇸US | vmess | @DailyV2RY | 105'
-      - '🇵🇱PL | ss | @OutlineVpnOfficial | 19'
+      - '🇵🇹PT | ss | @OutlineVpnOfficial | 19'
       - '🇨🇦CA | vless | @ConfigsHUB | 19'
       - '🇸🇬SG | vmess | @Hope_Net | 4'
       - '🇸🇪SE | vless | @polproxy | 7'
@@ -262,7 +262,7 @@ proxy-groups:
       - '🇮🇷IR | vless | @V2RayTz | 17'
       - '🇬🇧GB | trojan | @VmessProtocol | 10'
       - '🇺🇸US | vmess | @DailyV2RY | 105'
-      - '🇵🇱PL | ss | @OutlineVpnOfficial | 19'
+      - '🇵🇹PT | ss | @OutlineVpnOfficial | 19'
       - '🇨🇦CA | vless | @ConfigsHUB | 19'
       - '🇸🇬SG | vmess | @Hope_Net | 4'
       - '🇸🇪SE | vless | @polproxy | 7'
@@ -316,7 +316,7 @@ proxy-groups:
       - '🇮🇷IR | vless | @V2RayTz | 17'
       - '🇬🇧GB | trojan | @VmessProtocol | 10'
       - '🇺🇸US | vmess | @DailyV2RY | 105'
-      - '🇵🇱PL | ss | @OutlineVpnOfficial | 19'
+      - '🇵🇹PT | ss | @OutlineVpnOfficial | 19'
       - '🇨🇦CA | vless | @ConfigsHUB | 19'
       - '🇸🇬SG | vmess | @Hope_Net | 4'
       - '🇸🇪SE | vless | @polproxy | 7'

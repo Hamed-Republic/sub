@@ -147,9 +147,10 @@
                 "🇺🇸US | vless | @FreakConfig | 12",
                 "🇩🇪DE | vless | @flyv2ray | 6",
                 "🇮🇷IR | vless | @FAKEOFTVC | 4",
-                "🇺🇸US | vless | @mehrosaboran | 5",
+                "🇺🇸US | vless | @mehrosaboran | 6",
                 "🇺🇸US | vless | @kiava | 8",
                 "🏳️XX | vless | @vpn_go67 | 21",
+                "🇺🇸US | vless | @SvnTeam | 5",
                 "🏳️XX | vless | @IBv2ray | 4",
                 "🏳️XX | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7"
@@ -200,9 +201,10 @@
                 "🇺🇸US | vless | @FreakConfig | 12",
                 "🇩🇪DE | vless | @flyv2ray | 6",
                 "🇮🇷IR | vless | @FAKEOFTVC | 4",
-                "🇺🇸US | vless | @mehrosaboran | 5",
+                "🇺🇸US | vless | @mehrosaboran | 6",
                 "🇺🇸US | vless | @kiava | 8",
                 "🏳️XX | vless | @vpn_go67 | 21",
+                "🇺🇸US | vless | @SvnTeam | 5",
                 "🏳️XX | vless | @IBv2ray | 4",
                 "🏳️XX | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7"
@@ -1000,9 +1002,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "mtn.VPNPROSEC.com",
-            "server_port": 80,
-            "uuid": "98e241f4-9c11-426d-b006-0ab43592fe60",
+            "server": "172.66.47.2",
+            "server_port": 443,
+            "uuid": "bcf50589-9654-4331-93a6-da896914ec47",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1010,11 +1012,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "de4ecf6b.isvphp-4g8.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=2052",
+                "path": "\/Telegram-@V2ray_Alpha\/",
                 "headers": {
-                    "Host": "mtn.VPNPROSEC.com"
+                    "Host": "de4ecf6b.isvphp-4g8.pages.dev"
                 }
             }
         },
@@ -1230,7 +1242,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @mehrosaboran | 5",
+            "tag": "🇺🇸US | vless | @mehrosaboran | 6",
             "type": "vless",
             "server": "www.Speedtest.Net",
             "server_port": 2095,
@@ -1305,6 +1317,27 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @SvnTeam | 5",
+            "type": "vless",
+            "server": "mtn.VPNPROSEC.com",
+            "server_port": 80,
+            "uuid": "SVNTEAM",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=443",
+                "headers": {
+                    "Host": "mtn.VPNPROSEC.com"
+                }
             }
         },
         {
