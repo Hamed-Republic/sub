@@ -110,7 +110,6 @@
                 "🇨🇦CA | vless | @Parsashonam | 3",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 7",
                 "🇮🇪IE | vless | @VlessConfig | 17",
-                "🇸🇪SE | vless | @VPNCUSTOMIZE | 22",
                 "🇸🇪SE | vless | @ipV2Ray | 11",
                 "🇨🇦CA | vless | @melov2ray | 4",
                 "🇨🇷CR | vless | @V2pedia | 8",
@@ -118,7 +117,6 @@
                 "🇩🇪DE | vless | @ARv2ray | 13",
                 "🇸🇪SE | vless | @shh_proxy | 28",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
-                "🇸🇪SE | vless | @free_v2rayyy | 8",
                 "🇸🇪SE | vless | @lightning6 | 17",
                 "🇸🇪SE | vless | @DigiV2ray | 25",
                 "🇨🇷CR | vless | @proxy_kafee | 3",
@@ -143,7 +141,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @VmessProtocol | 10",
                 "🇸🇪SE | vless | @lrnbymaa | 28",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇸🇪SE | vless | @proxystore11 | 5",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 16",
@@ -169,7 +167,6 @@
                 "🇨🇦CA | vless | @Parsashonam | 3",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 7",
                 "🇮🇪IE | vless | @VlessConfig | 17",
-                "🇸🇪SE | vless | @VPNCUSTOMIZE | 22",
                 "🇸🇪SE | vless | @ipV2Ray | 11",
                 "🇨🇦CA | vless | @melov2ray | 4",
                 "🇨🇷CR | vless | @V2pedia | 8",
@@ -177,7 +174,6 @@
                 "🇩🇪DE | vless | @ARv2ray | 13",
                 "🇸🇪SE | vless | @shh_proxy | 28",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
-                "🇸🇪SE | vless | @free_v2rayyy | 8",
                 "🇸🇪SE | vless | @lightning6 | 17",
                 "🇸🇪SE | vless | @DigiV2ray | 25",
                 "🇨🇷CR | vless | @proxy_kafee | 3",
@@ -202,7 +198,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @VmessProtocol | 10",
                 "🇸🇪SE | vless | @lrnbymaa | 28",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇸🇪SE | vless | @proxystore11 | 5",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 16",
@@ -305,7 +301,7 @@
         {
             "tag": "🇮🇪IE | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "34.255.128.111",
+            "server": "54.247.115.224",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -330,27 +326,6 @@
                 "path": "\/telegram-channel-vlessconfig-ws",
                 "headers": {
                     "Host": "telegram-channel-vlessconfig.sohala.uk"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @VPNCUSTOMIZE | 22",
-            "type": "vless",
-            "server": "VPNCUSTOMIZE.Elmahstyle.ir",
-            "server_port": 8080,
-            "uuid": "Join_bede_VPNCUSTOMIZE",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
-                "headers": {
-                    "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
                 }
             }
         },
@@ -513,27 +488,6 @@
                 "path": "\/@LOCKEY_VPN-@LOCKEY_VPN-@LOCKEY_VPN-@LOCKEY_VPN-V2",
                 "headers": {
                     "Host": "198.41.206.124"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @free_v2rayyy | 8",
-            "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 80,
-            "uuid": "80dd674e-5fd1-44f6-9244-3995828cdde5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy",
-                "headers": {
-                    "Host": "185.146.173.58"
                 }
             }
         },
@@ -1130,11 +1084,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "104.19.230.57",
+            "server": "104.24.20.71",
             "server_port": 443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "uuid": "9902fc94-31f9-4afe-b37a-82f5790b3d2a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1144,7 +1098,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "523afb17.IRS23.pAgES.Dev",
+                "server_name": "de1-moryvpnbot.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1154,9 +1108,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-proxy_mtm\/?ed=2560",
+                "path": "\/TELEGRAM-MARAMBASHI-MARAMBASHI\/",
                 "headers": {
-                    "Host": "523afb17.IRS23.pAgES.Dev"
+                    "Host": "de1-moryvpnbot.pages.dev"
                 }
             }
         },
