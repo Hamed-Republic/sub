@@ -151,7 +151,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 105",
                 "🇸🇪SE | vless | @lrnbymaa | 28",
                 "🇷🇸RS | ss | @OutlineVpnOfficial | 19",
-                "🇩🇪DE | vless | @ConfigsHUB | 14",
+                "🇨🇦CA | vless | @ConfigsHUB | 12",
                 "🇸🇪SE | vless | @proxystore11 | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇬SG | vmess | @Hope_Net | 4",
@@ -224,7 +224,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 105",
                 "🇸🇪SE | vless | @lrnbymaa | 28",
                 "🇷🇸RS | ss | @OutlineVpnOfficial | 19",
-                "🇩🇪DE | vless | @ConfigsHUB | 14",
+                "🇨🇦CA | vless | @ConfigsHUB | 12",
                 "🇸🇪SE | vless | @proxystore11 | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇬SG | vmess | @Hope_Net | 4",
@@ -1320,31 +1320,23 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 14",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 12",
             "type": "vless",
-            "server": "141.95.75.212",
-            "server_port": 443,
-            "uuid": "200e059b-51ec-4825-8e95-5e49db5d22ad",
-            "flow": "xtls-rprx-vision",
+            "server": "www.speedtest.net",
+            "server_port": 8880,
+            "uuid": "93422b5c-b160-4173-9222-9d259e1f8baf",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "analytics.google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "yiHA11T4BplJbQxAfsQkiiAzAmyxWau-KR7dQptwjDU",
-                    "short_id": "c741ad33"
+            "transport": {
+                "type": "ws",
+                "path": "\/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6",
+                "headers": {
+                    "Host": "www.speedtest.net"
                 }
             }
         },
