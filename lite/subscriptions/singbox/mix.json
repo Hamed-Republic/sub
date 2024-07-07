@@ -149,13 +149,13 @@
                 "🇬🇧GB | trojan | @VmessProtocol | 10",
                 "🇸🇪SE | vless | @DailyV2RY | 110",
                 "🇷🇸RS | ss | @OutlineVpnOfficial | 19",
-                "🇮🇷IR | vless | @ConfigsHUB | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇸🇪SE | vless | @proxystore11 | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇬SG | vmess | @Hope_Net | 4",
                 "🇸🇪SE | vless | @polproxy | 7",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 15",
-                "🇨🇦CA | vless | @v2rayng_vpnrog | 11",
+                "🇺🇸US | vless | @Outlinev2rayNG | 15",
+                "🇺🇸US | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 3",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 1",
@@ -163,7 +163,7 @@
                 "🇩🇪DE | vless | @flyv2ray | 8",
                 "🇸🇪SE | vless | @FAKEOFTVC | 5",
                 "🇺🇸US | vless | @mehrosaboran | 5",
-                "🇺🇸US | vless | @kiava | 8",
+                "🇺🇸US | vless | @kiava | 7",
                 "🇬🇧GB | ss | @proxy_mtm | 0",
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🇺🇸US | vless | @SvnTeam | 5",
@@ -220,13 +220,13 @@
                 "🇬🇧GB | trojan | @VmessProtocol | 10",
                 "🇸🇪SE | vless | @DailyV2RY | 110",
                 "🇷🇸RS | ss | @OutlineVpnOfficial | 19",
-                "🇮🇷IR | vless | @ConfigsHUB | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇸🇪SE | vless | @proxystore11 | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇬SG | vmess | @Hope_Net | 4",
                 "🇸🇪SE | vless | @polproxy | 7",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 15",
-                "🇨🇦CA | vless | @v2rayng_vpnrog | 11",
+                "🇺🇸US | vless | @Outlinev2rayNG | 15",
+                "🇺🇸US | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 3",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 1",
@@ -234,7 +234,7 @@
                 "🇩🇪DE | vless | @flyv2ray | 8",
                 "🇸🇪SE | vless | @FAKEOFTVC | 5",
                 "🇺🇸US | vless | @mehrosaboran | 5",
-                "🇺🇸US | vless | @kiava | 8",
+                "🇺🇸US | vless | @kiava | 7",
                 "🇬🇧GB | ss | @proxy_mtm | 0",
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🇺🇸US | vless | @SvnTeam | 5",
@@ -1263,17 +1263,34 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇮🇷IR | vless | @ConfigsHUB | 15",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "god.xcuse.shop",
-            "server_port": 14786,
-            "uuid": "94b65f00-ecd3-441e-90db-ebd7b0fee84c",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "8b7efacf-8e83-4e51-ab55-1263baccd4b2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "7f905f51.garywelch.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "7f905f51.garywelch.pages.dev"
+                }
             }
         },
         {
@@ -1387,7 +1404,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 15",
+            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 15",
             "type": "vless",
             "server": "172.66.44.55",
             "server_port": 443,
@@ -1418,7 +1435,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayng_vpnrog | 11",
+            "tag": "🇺🇸US | vless | @v2rayng_vpnrog | 11",
             "type": "vless",
             "server": "188.114.98.224",
             "server_port": 2095,
@@ -1645,11 +1662,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @kiava | 8",
+            "tag": "🇺🇸US | vless | @kiava | 7",
             "type": "vless",
             "server": "serverpars.com",
             "server_port": 8880,
-            "uuid": "1785f360-efb6-4a65-974e-3274135d35d3",
+            "uuid": "a9c0613e-7b12-4c89-cb8b-6fb83c41ed33",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1659,7 +1676,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava",
+                "path": "\/join-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava",
                 "headers": {
                     "Host": "serverpars.com"
                 }
