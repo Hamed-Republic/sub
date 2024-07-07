@@ -110,9 +110,10 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇭CH | vmess | @oneclickvpnkeys | 5",
                 "🇨🇦CA | vmess | @customv2ray | 17",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇬SG | vmess | @Hope_Net | 4",
-                "🇨🇦CA | vmess | @v2rayng_config_amin | 3",
+                "🇺🇸US | vmess | @v2rayng_config_amin | 3",
                 "🇺🇸US | vmess | @v2Line | 1",
                 "🇺🇸US | vmess | @ROMAX_VPN | 4"
             ]
@@ -125,9 +126,10 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇭CH | vmess | @oneclickvpnkeys | 5",
                 "🇨🇦CA | vmess | @customv2ray | 17",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇬SG | vmess | @Hope_Net | 4",
-                "🇨🇦CA | vmess | @v2rayng_config_amin | 3",
+                "🇺🇸US | vmess | @v2rayng_config_amin | 3",
                 "🇺🇸US | vmess | @v2Line | 1",
                 "🇺🇸US | vmess | @ROMAX_VPN | 4"
             ],
@@ -227,6 +229,40 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "104.21.15.212",
+            "server_port": 443,
+            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "glweidf.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "glweidf.sbs"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
@@ -295,7 +331,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @v2rayng_config_amin | 3",
+            "tag": "🇺🇸US | vmess | @v2rayng_config_amin | 3",
             "type": "vmess",
             "server": "505.outline-vpn.cloud",
             "server_port": 443,
