@@ -138,14 +138,14 @@
                 "🏳️XX | vless | @MTConfig | 13",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇮🇷IR | vless | @V2RayTz | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 5",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @FreakConfig | 12",
-                "🇩🇪DE | vless | @flyv2ray | 6",
+                "🇩🇪DE | vless | @flyv2ray | 8",
                 "🇮🇷IR | vless | @FAKEOFTVC | 4",
                 "🇺🇸US | vless | @mehrosaboran | 5",
                 "🇺🇸US | vless | @kiava | 8",
@@ -192,14 +192,14 @@
                 "🏳️XX | vless | @MTConfig | 13",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇮🇷IR | vless | @V2RayTz | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 5",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @FreakConfig | 12",
-                "🇩🇪DE | vless | @flyv2ray | 6",
+                "🇩🇪DE | vless | @flyv2ray | 8",
                 "🇮🇷IR | vless | @FAKEOFTVC | 4",
                 "🇺🇸US | vless | @mehrosaboran | 5",
                 "🇺🇸US | vless | @kiava | 8",
@@ -1000,11 +1000,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "eagle.Hafezdivan.Online.",
-            "server_port": 80,
-            "uuid": "c416be20-32b3-467f-83c2-735e04d639f7",
+            "server": "172.64.87.52",
+            "server_port": 443,
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1012,11 +1012,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "mmdv2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/TELEGRAM-MARAMBASHI-MARAMBASHI\/",
+                "path": "\/Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net\/",
                 "headers": {
-                    "Host": "eagle.Hafezdivan.Online."
+                    "Host": "mmdv2.pages.dev"
                 }
             }
         },
@@ -1175,7 +1185,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @flyv2ray | 6",
+            "tag": "🇩🇪DE | vless | @flyv2ray | 8",
             "type": "vless",
             "server": "188.245.69.77",
             "server_port": 443,
