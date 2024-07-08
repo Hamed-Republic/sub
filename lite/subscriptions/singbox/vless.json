@@ -140,8 +140,8 @@
                 "🇨🇦CA | vless | @vless_vmess | 7",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇨🇦CA | vless | @V2RayTz | 18",
-                "🇨🇦CA | vless | @VmessProtocol | 12",
-                "🇮🇷IR | vless | @ConfigsHUB | 17",
+                "🇳🇱NL | vless | @VmessProtocol | 12",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
@@ -196,8 +196,8 @@
                 "🇨🇦CA | vless | @vless_vmess | 7",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇨🇦CA | vless | @V2RayTz | 18",
-                "🇨🇦CA | vless | @VmessProtocol | 12",
-                "🇮🇷IR | vless | @ConfigsHUB | 17",
+                "🇳🇱NL | vless | @VmessProtocol | 12",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
@@ -1049,11 +1049,42 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @VmessProtocol | 12",
+            "tag": "🇳🇱NL | vless | @VmessProtocol | 12",
             "type": "vless",
-            "server": "104.16.61.8",
-            "server_port": 80,
-            "uuid": "378ac207-38d3-4401-ba96-3a7931968bc5",
+            "server": "hidd2.parthianempire.org",
+            "server_port": 443,
+            "uuid": "19c80ce9-0935-41b9-b077-277621316a87",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hidd2.parthianempire.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/L7rg6DtGQXTjd07ui73LZgwx8s",
+                "headers": {
+                    "Host": "hidd2.parthianempire.org"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "zula.ir",
+            "server_port": 2095,
+            "uuid": "---DIGIV2RAY--",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1063,24 +1094,10 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/http",
+                "path": "\/DigiconnecT?ed=1024",
                 "headers": {
-                    "Host": "104.16.61.8"
+                    "Host": "zula.ir"
                 }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "217.60.245.4",
-            "server_port": 2083,
-            "uuid": "6c28de4c-b62f-48f9-8cb5-cfdb5a53e2c0",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
