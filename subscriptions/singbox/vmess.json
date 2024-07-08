@@ -123,6 +123,8 @@
                 "🇩🇪DE | vmess | @ShadowProxy66 | 15",
                 "🇺🇸US | vmess | @ShadowProxy66 | 19",
                 "🏳️XX | vmess | @DailyV2RY | 99",
+                "🇺🇸US | vmess | @ConfigsHUB | 3",
+                "🇳🇱NL | vmess | @ConfigsHUB | 7",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -167,6 +169,8 @@
                 "🇩🇪DE | vmess | @ShadowProxy66 | 15",
                 "🇺🇸US | vmess | @ShadowProxy66 | 19",
                 "🏳️XX | vmess | @DailyV2RY | 99",
+                "🇺🇸US | vmess | @ConfigsHUB | 3",
+                "🇳🇱NL | vmess | @ConfigsHUB | 7",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -580,6 +584,47 @@
             "server": null,
             "server_port": 0,
             "uuid": null,
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 3",
+            "type": "vmess",
+            "server": "162.159.129.17",
+            "server_port": 80,
+            "uuid": "62aa5f80-0328-4004-a375-7f5a59df4022",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/T,E,L,E,G,R,A,M,X,V,2,R,A,Y",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vmess | @ConfigsHUB | 7",
+            "type": "vmess",
+            "server": "154.47.21.27",
+            "server_port": 8099,
+            "uuid": "fa1897db-1925-4c86-a495-939a959af900",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
