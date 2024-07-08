@@ -131,8 +131,7 @@
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇨🇦CA | vless | @UnlimitedDev | 24",
                 "🇨🇦CA | vless | @vmessorg | 12",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 10",
-                "🇩🇪DE | vless | @ShadowProxy66 | 27",
+                "🇸🇪SE | vless | @ShadowProxy66 | 30",
                 "🇸🇪SE | vless | @ServerNett | 11",
                 "🇸🇪SE | vless | @v2ray_swhil | 13",
                 "🇮🇷IR | vless | @v2ray1_ng | 12",
@@ -142,7 +141,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 12",
                 "🇸🇪SE | vless | @DailyV2RY | 127",
                 "🇳🇱NL | vless | @sinabigo | 2",
-                "🇨🇦CA | vless | @ConfigsHUB | 11",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 13",
@@ -189,8 +188,7 @@
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇨🇦CA | vless | @UnlimitedDev | 24",
                 "🇨🇦CA | vless | @vmessorg | 12",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 10",
-                "🇩🇪DE | vless | @ShadowProxy66 | 27",
+                "🇸🇪SE | vless | @ShadowProxy66 | 30",
                 "🇸🇪SE | vless | @ServerNett | 11",
                 "🇸🇪SE | vless | @v2ray_swhil | 13",
                 "🇮🇷IR | vless | @v2ray1_ng | 12",
@@ -200,7 +198,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 12",
                 "🇸🇪SE | vless | @DailyV2RY | 127",
                 "🇳🇱NL | vless | @sinabigo | 2",
-                "🇨🇦CA | vless | @ConfigsHUB | 11",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 13",
@@ -841,11 +839,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 10",
+            "tag": "🇸🇪SE | vless | @ShadowProxy66 | 30",
             "type": "vless",
-            "server": "172.67.137.11",
-            "server_port": 2052,
-            "uuid": "416f18ec-11f3-4648-9693-8c6480d0662d",
+            "server": "185.146.173.237",
+            "server_port": 8880,
+            "uuid": "82fdc77c-5def-4930-89a6-afb5cc609d4b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -855,24 +853,10 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/VPN_PROXY66.VPN_PROXY66",
                 "headers": {
-                    "Host": "172.67.137.11"
+                    "Host": "185.146.173.237"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @ShadowProxy66 | 27",
-            "type": "vless",
-            "server": "159.100.17.71",
-            "server_port": 12393,
-            "uuid": "fa8ec474-39d3-481f-9281-1fb6fce4ef10",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -986,22 +970,15 @@
         {
             "tag": "🇨🇦CA | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "104.17.148.22",
-            "server_port": 2095,
-            "uuid": "%74%65%6c%65%67%72%61%6d%2d%69%64%2d%41%72%56%32%72%61%79",
+            "server": "104.22.13.192",
+            "server_port": 80,
+            "uuid": "%2d%2d%53%68%68%2d%50%72%6f%78%79%2d%2d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry",
-                "headers": {
-                    "Host": "104.17.148.22"
-                }
             }
         },
         {
@@ -1086,7 +1063,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 11",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
             "server": "www.parsvds.ir",
             "server_port": 8080,
