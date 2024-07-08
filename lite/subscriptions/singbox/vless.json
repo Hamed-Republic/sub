@@ -115,10 +115,10 @@
                 "🇨🇷CR | vless | @V2pedia | 8",
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇨🇦CA | vless | @ARv2ray | 14",
-                "🇸🇪SE | vless | @shh_proxy | 26",
+                "🇸🇪SE | vless | @shh_proxy | 27",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇸🇪SE | vless | @free_v2rayyy | 6",
-                "🇨🇦CA | vless | @lightning6 | 16",
+                "🇨🇦CA | vless | @lightning6 | 18",
                 "🇸🇪SE | vless | @DigiV2ray | 25",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 12",
@@ -143,7 +143,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 11",
                 "🇨🇦CA | vless | @DailyV2RY | 108",
                 "🇸🇪SE | vless | @lrnbymaa | 28",
-                "🇫🇷FR | vless | @ConfigsHUB | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 12",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -173,10 +173,10 @@
                 "🇨🇷CR | vless | @V2pedia | 8",
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇨🇦CA | vless | @ARv2ray | 14",
-                "🇸🇪SE | vless | @shh_proxy | 26",
+                "🇸🇪SE | vless | @shh_proxy | 27",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇸🇪SE | vless | @free_v2rayyy | 6",
-                "🇨🇦CA | vless | @lightning6 | 16",
+                "🇨🇦CA | vless | @lightning6 | 18",
                 "🇸🇪SE | vless | @DigiV2ray | 25",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 12",
@@ -201,7 +201,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 11",
                 "🇨🇦CA | vless | @DailyV2RY | 108",
                 "🇸🇪SE | vless | @lrnbymaa | 28",
-                "🇫🇷FR | vless | @ConfigsHUB | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 12",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -437,11 +437,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @shh_proxy | 26",
+            "tag": "🇸🇪SE | vless | @shh_proxy | 27",
             "type": "vless",
             "server": "185.146.173.37",
             "server_port": 2095,
-            "uuid": "8f23ff68-5568-4086-b7ae-1f11032a4cca",
+            "uuid": "feb7b2e8-7abc-4ada-96fc-d2fdcc369bbb",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -500,7 +500,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @lightning6 | 16",
+            "tag": "🇨🇦CA | vless | @lightning6 | 18",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
@@ -1133,12 +1133,12 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vless | @ConfigsHUB | 15",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "217.69.6.24",
+            "server": "104.18.202.232",
             "server_port": 443,
-            "uuid": "ce5b494d-4a57-4873-a632-8b4f8625179b",
-            "flow": "xtls-rprx-vision",
+            "uuid": "17a7bf97-fef5-4101-a5c5-7c730fabeeee",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1147,25 +1147,20 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "cdn.discordapp.com",
+                "server_name": "bpb-worker-panel-h5f.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "HE1w37dsB_bntFV6QIDmlXIcx7ZUTgw9b3hahBommVo",
-                    "short_id": "71dbea41"
                 }
             },
             "transport": {
-                "type": "http",
-                "host": [
-                    "cdn.discordapp.com"
-                ],
-                "path": "\/"
+                "type": "ws",
+                "path": "\/TELEGRAM-MARAMBASHI-MARAMBASHI\/",
+                "headers": {
+                    "Host": "bpb-worker-panel-h5f.pages.dev"
+                }
             }
         },
         {
