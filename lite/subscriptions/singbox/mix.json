@@ -149,8 +149,8 @@
                 "🇨🇦CA | vless | @DailyV2RY | 108",
                 "🇸🇪SE | vless | @lrnbymaa | 28",
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 19",
-                "🇨🇷CR | vless | @ConfigsHUB | 18",
-                "🇸🇪SE | vless | @proxystore11 | 3",
+                "🇩🇪DE | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @proxystore11 | 2",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇬SG | vmess | @Hope_Net | 4",
                 "🇸🇪SE | vless | @polproxy | 7",
@@ -220,8 +220,8 @@
                 "🇨🇦CA | vless | @DailyV2RY | 108",
                 "🇸🇪SE | vless | @lrnbymaa | 28",
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 19",
-                "🇨🇷CR | vless | @ConfigsHUB | 18",
-                "🇸🇪SE | vless | @proxystore11 | 3",
+                "🇩🇪DE | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @proxystore11 | 2",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇬SG | vmess | @Hope_Net | 4",
                 "🇸🇪SE | vless | @polproxy | 7",
@@ -1254,32 +1254,25 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇷CR | vless | @ConfigsHUB | 18",
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "190.93.244.0",
-            "server_port": 8080,
-            "uuid": "636b1684-b26c-4a9c-bc6e-8e1197a36d74",
+            "server": "A8.boutiquemad.ir",
+            "server_port": 9528,
+            "uuid": "3fa4c645-f6a7-4a02-85ee-7289530a6d1e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "190.93.244.0"
-                }
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @proxystore11 | 3",
+            "tag": "🇨🇦CA | vless | @proxystore11 | 2",
             "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 2095,
-            "uuid": "11e81251-ea65-48bc-bfd4-c4d38ef0f8cc",
+            "server": "104.21.65.133",
+            "server_port": 80,
+            "uuid": "8fba3304-bb4e-418e-868f-b27b33109135",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1289,9 +1282,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/servernet",
+                "path": "\/SvnTeamV2ray",
                 "headers": {
-                    "Host": "185.146.173.58"
+                    "Host": "104.21.65.133"
                 }
             }
         },
