@@ -118,7 +118,7 @@
                 "🇨🇦CA | vless | @shh_proxy | 25",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇸🇪SE | vless | @free_v2rayyy | 6",
-                "🇨🇦CA | vless | @lightning6 | 16",
+                "🇨🇦CA | vless | @lightning6 | 18",
                 "🇸🇪SE | vless | @DigiV2ray | 25",
                 "🇨🇦CA | vless | @proxy_kafee | 2",
                 "🇸🇪SE | vless | @v2logy | 12",
@@ -177,7 +177,7 @@
                 "🇨🇦CA | vless | @shh_proxy | 25",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇸🇪SE | vless | @free_v2rayyy | 6",
-                "🇨🇦CA | vless | @lightning6 | 16",
+                "🇨🇦CA | vless | @lightning6 | 18",
                 "🇸🇪SE | vless | @DigiV2ray | 25",
                 "🇨🇦CA | vless | @proxy_kafee | 2",
                 "🇸🇪SE | vless | @v2logy | 12",
@@ -512,7 +512,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @lightning6 | 16",
+            "tag": "🇨🇦CA | vless | @lightning6 | 18",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
@@ -1044,8 +1044,8 @@
             "tag": "🇨🇦CA | vless | @V2RayTz | 18",
             "type": "vless",
             "server": "104.17.148.22",
-            "server_port": 80,
-            "uuid": "%74%65%6c%65%67%72%61%6d%2d%69%64%2d%41%72%56%32%72%61%79",
+            "server_port": 2087,
+            "uuid": "%33%62%38%34%65%31%31%32%2d%66%39%35%33%2d%34%61%35%66%2d%38%31%37%34%2d%30%64%30%38%36%63%33%35%62%32%39%31",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1053,11 +1053,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "LiV2ry.lightning1.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray",
                 "headers": {
-                    "Host": "104.17.148.22"
+                    "Host": "LiV2ry.lightning1.ir"
                 }
             }
         },
@@ -1137,9 +1147,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "8b7efacf-8e83-4e51-ab55-1263baccd4b2",
+            "server": "www.Speedtest.Net",
+            "server_port": 2095,
+            "uuid": "---DIGIV2RAY--",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1147,21 +1157,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "7f905f51.garywelch.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/TELEGRAM-MARAMBASHI\/",
+                "path": "\/DigiconnecT?ed=1024",
                 "headers": {
-                    "Host": "7f905f51.garywelch.pages.dev"
+                    "Host": "www.Speedtest.Net"
                 }
             }
         },
