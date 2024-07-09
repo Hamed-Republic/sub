@@ -142,9 +142,10 @@
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇸🇪SE | vless | @VmessProtocol | 9",
+                "🇸🇪SE | vless | @DailyV2RY | 153",
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 21",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇸🇪SE | vless | @fnet00 | 6",
                 "🇸🇪SE | vless | @polproxy | 7",
@@ -204,9 +205,10 @@
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇸🇪SE | vless | @VmessProtocol | 9",
+                "🇸🇪SE | vless | @DailyV2RY | 153",
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 21",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇸🇪SE | vless | @fnet00 | 6",
                 "🇸🇪SE | vless | @polproxy | 7",
@@ -1101,6 +1103,27 @@
             }
         },
         {
+            "tag": "🇸🇪SE | vless | @DailyV2RY | 153",
+            "type": "vless",
+            "server": "185.146.173.37",
+            "server_port": 80,
+            "uuid": "1759dd49-3e82-4abb-a9ea-0b097037e09d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "headers": {
+                    "Host": "185.146.173.37"
+                }
+            }
+        },
+        {
             "tag": "🇳🇱NL | vless | @sinabigo | 2",
             "type": "vless",
             "server": "109.176.207.43",
@@ -1151,11 +1174,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "104.17.157.120",
-            "server_port": 443,
-            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "server": "www.speedtest.net",
+            "server_port": 8080,
+            "uuid": "f3b30ea0-3239-448a-a43c-6bb5522b1325",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1163,21 +1186,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "mmdv2.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/SHHPROXY?ed=8080",
                 "headers": {
-                    "Host": "mmdv2.pages.dev"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
