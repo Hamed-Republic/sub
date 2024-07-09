@@ -114,7 +114,7 @@
                 "🇨🇦CA | vless | @melov2ray | 9",
                 "🇨🇷CR | vless | @V2pedia | 10",
                 "🇨🇦CA | vless | @frev2ray | 1",
-                "🇨🇦CA | vless | @ARv2ray | 15",
+                "🇸🇬SG | vless | @ARv2ray | 17",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇸🇪SE | vless | @free_v2rayyy | 8",
                 "🇨🇦CA | vless | @lightning6 | 16",
@@ -122,7 +122,7 @@
                 "🇨🇦CA | vless | @proxy_kafee | 2",
                 "🇸🇪SE | vless | @v2logy | 12",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
-                "🇨🇦CA | vless | @V2rayCollector | 14",
+                "🇨🇦CA | vless | @V2rayCollector | 19",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇸🇪SE | vless | @V2rayNGn | 37",
@@ -136,9 +136,10 @@
                 "🇸🇪SE | vless | @ServerNett | 11",
                 "🇸🇪SE | vless | @v2ray_swhil | 11",
                 "🇮🇷IR | vless | @v2ray1_ng | 12",
-                "🇨🇦CA | vless | @vless_vmess | 4",
+                "🇨🇦CA | vless | @vless_vmess | 5",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇨🇦CA | vless | @V2RayTz | 19",
+                "🇨🇦CA | vless | @VmessProtocol | 11",
                 "🇨🇦CA | vless | @DailyV2RY | 134",
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇨🇦CA | vless | @ConfigsHUB | 15",
@@ -172,7 +173,7 @@
                 "🇨🇦CA | vless | @melov2ray | 9",
                 "🇨🇷CR | vless | @V2pedia | 10",
                 "🇨🇦CA | vless | @frev2ray | 1",
-                "🇨🇦CA | vless | @ARv2ray | 15",
+                "🇸🇬SG | vless | @ARv2ray | 17",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇸🇪SE | vless | @free_v2rayyy | 8",
                 "🇨🇦CA | vless | @lightning6 | 16",
@@ -180,7 +181,7 @@
                 "🇨🇦CA | vless | @proxy_kafee | 2",
                 "🇸🇪SE | vless | @v2logy | 12",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
-                "🇨🇦CA | vless | @V2rayCollector | 14",
+                "🇨🇦CA | vless | @V2rayCollector | 19",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇸🇪SE | vless | @V2rayNGn | 37",
@@ -194,9 +195,10 @@
                 "🇸🇪SE | vless | @ServerNett | 11",
                 "🇸🇪SE | vless | @v2ray_swhil | 11",
                 "🇮🇷IR | vless | @v2ray1_ng | 12",
-                "🇨🇦CA | vless | @vless_vmess | 4",
+                "🇨🇦CA | vless | @vless_vmess | 5",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇨🇦CA | vless | @V2RayTz | 19",
+                "🇨🇦CA | vless | @VmessProtocol | 11",
                 "🇨🇦CA | vless | @DailyV2RY | 134",
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇨🇦CA | vless | @ConfigsHUB | 15",
@@ -416,10 +418,10 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ARv2ray | 15",
+            "tag": "🇸🇬SG | vless | @ARv2ray | 17",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2095,
+            "server": "ArV2ray.mehpow.IR",
+            "server_port": 443,
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
@@ -428,12 +430,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry",
-                "headers": {
-                    "Host": "www.speedtest.net"
+            "tls": {
+                "enabled": true,
+                "server_name": "1V.bahrane.IR",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -602,7 +614,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayCollector | 14",
+            "tag": "🇨🇦CA | vless | @V2rayCollector | 19",
             "type": "vless",
             "server": "172.66.46.224",
             "server_port": 443,
@@ -949,7 +961,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vless_vmess | 4",
+            "tag": "🇨🇦CA | vless | @vless_vmess | 5",
             "type": "vless",
             "server": "188.114.97.141",
             "server_port": 443,
@@ -1022,6 +1034,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @VmessProtocol | 11",
+            "type": "vless",
+            "server": "www.visa.com.sg",
+            "server_port": 2096,
+            "uuid": "f3dc958a-1f2c-4d10-b781-b2deeaabecce",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "free1.fylink.tech",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "free1.fylink.tech"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @DailyV2RY | 134",
             "type": "vless",
             "server": "172.64.146.118",
@@ -1084,9 +1127,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "104.24.179.164",
-            "server_port": 443,
-            "uuid": "c0e1f187-a2c5-44f9-a9c1-642e483dd890",
+            "server": "www.Speedtest.Net",
+            "server_port": 2095,
+            "uuid": "---DIGIV2RAY--",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1094,21 +1137,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "G2.NAnvAIIisaeEd.Ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/AOagIIfbJJ0hbXIwCE6mq",
+                "path": "\/DigiconnecT?ed=1024",
                 "headers": {
-                    "Host": "G2.NAnvAIIisaeEd.Ir"
+                    "Host": "www.Speedtest.Net"
                 }
             }
         },
