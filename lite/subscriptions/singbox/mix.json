@@ -136,7 +136,7 @@
                 "🇸🇬SG | vless | @prrofile_purple | 180",
                 "🇸🇪SE | vless | @customv2ray | 17",
                 "🇨🇦CA | vless | @UnlimitedDev | 24",
-                "🇨🇦CA | vless | @vmessorg | 11",
+                "🇨🇦CA | vless | @vmessorg | 10",
                 "🏳️XX | vless | @v2rayNG_Matsuri | 4",
                 "🇸🇪SE | vless | @ShadowProxy66 | 31",
                 "🇸🇪SE | vless | @ServerNett | 10",
@@ -150,8 +150,8 @@
                 "🇸🇪SE | vless | @DailyV2RY | 153",
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 21",
-                "🇵🇱PL | ss | @OutlineVpnOfficial | 19",
-                "🇨🇦CA | vmess | @ConfigsHUB | 7",
+                "🇸🇪SE | ss | @OutlineVpnOfficial | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 14",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 1",
@@ -210,7 +210,7 @@
                 "🇸🇬SG | vless | @prrofile_purple | 180",
                 "🇸🇪SE | vless | @customv2ray | 17",
                 "🇨🇦CA | vless | @UnlimitedDev | 24",
-                "🇨🇦CA | vless | @vmessorg | 11",
+                "🇨🇦CA | vless | @vmessorg | 10",
                 "🏳️XX | vless | @v2rayNG_Matsuri | 4",
                 "🇸🇪SE | vless | @ShadowProxy66 | 31",
                 "🇸🇪SE | vless | @ServerNett | 10",
@@ -224,8 +224,8 @@
                 "🇸🇪SE | vless | @DailyV2RY | 153",
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 21",
-                "🇵🇱PL | ss | @OutlineVpnOfficial | 19",
-                "🇨🇦CA | vmess | @ConfigsHUB | 7",
+                "🇸🇪SE | ss | @OutlineVpnOfficial | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 14",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 1",
@@ -958,11 +958,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vmessorg | 11",
+            "tag": "🇨🇦CA | vless | @vmessorg | 10",
             "type": "vless",
             "server": "104.16.229.250",
             "server_port": 8080,
-            "uuid": "1b3c9373-5013-4409-b5e7-b10a1a076f21",
+            "uuid": "a3cbe9f1-6299-4777-b757-010418e97495",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1288,26 +1288,23 @@
             }
         },
         {
-            "tag": "🇵🇱PL | ss | @OutlineVpnOfficial | 19",
+            "tag": "🇸🇪SE | ss | @OutlineVpnOfficial | 18",
             "type": "shadowsocks",
-            "server": "51.77.53.200",
-            "server_port": 9102,
-            "method": "aes-256-gcm",
-            "password": "e4FCWrgpkji3QY",
+            "server": "217.196.103.206",
+            "server_port": 29312,
+            "method": "chacha20-ietf-poly1305",
+            "password": "qgpdyzHj8rZW9fDxxkUHRI",
             "plugin": "",
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 7",
-            "type": "vmess",
-            "server": "104.21.83.208",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 14",
+            "type": "vless",
+            "server": "172.64.87.52",
             "server_port": 443,
-            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1315,7 +1312,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "afrhms16v.bestxray.buzz",
+                "server_name": "mmdv2.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1325,9 +1322,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/TELEGRAM-MARAMBASHI-MARAMBASHI\/",
                 "headers": {
-                    "Host": "afrhms16v.bestxray.buzz"
+                    "Host": "mmdv2.pages.dev"
                 }
             }
         },
