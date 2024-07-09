@@ -128,7 +128,6 @@
                 "🇺🇸US | vmess | @v2ray1_ng | 3",
                 "🏳️XX | vmess | @DailyV2RY | 117",
                 "🇺🇸US | vmess | @DailyV2RY | 123",
-                "🇺🇸US | vmess | @ConfigsHUB | 18",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -152,9 +151,7 @@
                 "🇺🇸US | vmess | @kingofilter | 10",
                 "🇺🇸US | vmess | @kingofilter | 12",
                 "🇺🇸US | vmess | @ROMAX_VPN | 0",
-                "🇺🇸US | vmess | @ROMAX_VPN | 2",
-                "🇺🇸US | vmess | @ROMAX_VPN | 3",
-                "🇺🇸US | vmess | @ROMAX_VPN | 4"
+                "🇺🇸US | vmess | @ROMAX_VPN | 2"
             ]
         },
         {
@@ -183,7 +180,6 @@
                 "🇺🇸US | vmess | @v2ray1_ng | 3",
                 "🏳️XX | vmess | @DailyV2RY | 117",
                 "🇺🇸US | vmess | @DailyV2RY | 123",
-                "🇺🇸US | vmess | @ConfigsHUB | 18",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -207,9 +203,7 @@
                 "🇺🇸US | vmess | @kingofilter | 10",
                 "🇺🇸US | vmess | @kingofilter | 12",
                 "🇺🇸US | vmess | @ROMAX_VPN | 0",
-                "🇺🇸US | vmess | @ROMAX_VPN | 2",
-                "🇺🇸US | vmess | @ROMAX_VPN | 3",
-                "🇺🇸US | vmess | @ROMAX_VPN | 4"
+                "🇺🇸US | vmess | @ROMAX_VPN | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -744,30 +738,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 18",
-            "type": "vmess",
-            "server": "162.159.129.17",
-            "server_port": 80,
-            "uuid": "62aa5f80-0328-4004-a375-7f5a59df4022",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/T,E,L,E,G,R,A,M,X,V,2,R,A,Y",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
@@ -1489,74 +1459,6 @@
                 "path": "\/linkws",
                 "headers": {
                     "Host": "jahfkjha.cfd"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @ROMAX_VPN | 3",
-            "type": "vmess",
-            "server": "npmjs.com",
-            "server_port": 443,
-            "uuid": "6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hdfy1c2.freeairlaines.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/QvtvPdDXXIlSdZMqnuxG",
-                "headers": {
-                    "Host": "hdfy1c2.freeairlaines.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @ROMAX_VPN | 4",
-            "type": "vmess",
-            "server": "172.67.74.4",
-            "server_port": 443,
-            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "mikasa.yaemiko.cloudns.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ivideos.sbs\/linkws",
-                "headers": {
-                    "Host": "mikasa.yaemiko.cloudns.org"
                 }
             }
         }
