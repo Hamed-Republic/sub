@@ -115,7 +115,6 @@
                 "🇨🇷CR | vless | @V2pedia | 10",
                 "🇨🇦CA | vless | @frev2ray | 2",
                 "🇸🇬SG | vless | @ARv2ray | 16",
-                "🇨🇦CA | vless | @shh_proxy | 26",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇸🇪SE | vless | @free_v2rayyy | 9",
                 "🇨🇦CA | vless | @lightning6 | 18",
@@ -134,17 +133,16 @@
                 "🇨🇦CA | vless | @vmessorg | 12",
                 "🏳️XX | vless | @v2rayNG_Matsuri | 4",
                 "🇸🇪SE | vless | @ShadowProxy66 | 25",
-                "🇸🇪SE | vless | @ServerNett | 9",
+                "🇸🇪SE | vless | @ServerNett | 8",
                 "🇸🇪SE | vless | @v2ray_swhil | 11",
-                "🇨🇦CA | vless | @vless_vmess | 6",
+                "🇨🇦CA | vless | @vless_vmess | 7",
                 "🇨🇦CA | vless | @MTConfig | 11",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇨🇦CA | vless | @V2RayTz | 19",
-                "🏳️XX | vless | @VmessProtocol | 8",
-                "🇨🇦CA | vless | @DailyV2RY | 165",
+                "🇸🇪SE | vless | @VmessProtocol | 9",
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 21",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 14",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇸🇪SE | vless | @fnet00 | 6",
                 "🇸🇪SE | vless | @polproxy | 7",
@@ -177,7 +175,6 @@
                 "🇨🇷CR | vless | @V2pedia | 10",
                 "🇨🇦CA | vless | @frev2ray | 2",
                 "🇸🇬SG | vless | @ARv2ray | 16",
-                "🇨🇦CA | vless | @shh_proxy | 26",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇸🇪SE | vless | @free_v2rayyy | 9",
                 "🇨🇦CA | vless | @lightning6 | 18",
@@ -196,17 +193,16 @@
                 "🇨🇦CA | vless | @vmessorg | 12",
                 "🏳️XX | vless | @v2rayNG_Matsuri | 4",
                 "🇸🇪SE | vless | @ShadowProxy66 | 25",
-                "🇸🇪SE | vless | @ServerNett | 9",
+                "🇸🇪SE | vless | @ServerNett | 8",
                 "🇸🇪SE | vless | @v2ray_swhil | 11",
-                "🇨🇦CA | vless | @vless_vmess | 6",
+                "🇨🇦CA | vless | @vless_vmess | 7",
                 "🇨🇦CA | vless | @MTConfig | 11",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇨🇦CA | vless | @V2RayTz | 19",
-                "🏳️XX | vless | @VmessProtocol | 8",
-                "🇨🇦CA | vless | @DailyV2RY | 165",
+                "🇸🇪SE | vless | @VmessProtocol | 9",
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 21",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 14",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇸🇪SE | vless | @fnet00 | 6",
                 "🇸🇪SE | vless | @polproxy | 7",
@@ -311,7 +307,7 @@
         {
             "tag": "🇮🇪IE | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "52.48.40.208",
+            "server": "52.210.131.116",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -452,27 +448,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @shh_proxy | 26",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2095,
-            "uuid": "2a0d8c31-94d9-46d6-80b2-41d604f9c9de",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/-@Shh_Proxy-@Shh_Proxy-@Shh_Proxy--@Shh_Proxy--",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                }
             }
         },
         {
@@ -898,7 +873,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ServerNett | 9",
+            "tag": "🇸🇪SE | vless | @ServerNett | 8",
             "type": "vless",
             "server": "185.146.173.58",
             "server_port": 8080,
@@ -940,7 +915,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vless_vmess | 6",
+            "tag": "🇨🇦CA | vless | @vless_vmess | 7",
             "type": "vless",
             "server": "188.114.97.141",
             "server_port": 443,
@@ -1044,26 +1019,12 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @VmessProtocol | 8",
+            "tag": "🇸🇪SE | vless | @VmessProtocol | 9",
             "type": "vless",
-            "server": "fc.mancity.lol",
-            "server_port": 4444,
-            "uuid": "de564f8c-5919-469f-ac24-9dd12b0e40c8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 165",
-            "type": "vless",
-            "server": "172.66.47.126",
-            "server_port": 443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-            "flow": "",
+            "server": "77.221.143.183",
+            "server_port": 33000,
+            "uuid": "d5e775de-0530-4062-a654-25dd2ba648d2",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1072,20 +1033,25 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "00e463Dc.beSTVPn-4xi.PAgES.dEv",
+                "server_name": "www.speedtest.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "JrN7nZEbUeBJFHTAKwtz5Dmd10SGgA8UCHEMLA2xOg0",
+                    "short_id": "be7f13dd"
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/yuyg5ujoovohfscy?ed=2560",
-                "headers": {
-                    "Host": "00e463Dc.beSTVPn-4xi.PAgES.dEv"
-                }
+                "type": "grpc",
+                "service_name": "b",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1139,11 +1105,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 14",
             "type": "vless",
-            "server": "185.146.173.68",
-            "server_port": 2095,
-            "uuid": "----DIGIV2RAY---",
+            "server": "104.18.28.171",
+            "server_port": 443,
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1151,11 +1117,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "mmdv2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/DigiconnecT?ed=1024",
+                "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.68"
+                    "Host": "mmdv2.pages.dev"
                 }
             }
         },
