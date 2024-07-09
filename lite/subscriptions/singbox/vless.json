@@ -141,7 +141,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 134",
                 "🇳🇱NL | vless | @sinabigo | 2",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🏳️XX | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 12",
@@ -199,7 +199,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 134",
                 "🇳🇱NL | vless | @sinabigo | 2",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🏳️XX | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 12",
@@ -1082,11 +1082,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
+            "tag": "🏳️XX | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "172.66.47.126",
-            "server_port": 443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "server": "SVNTEAM.VPNPROSEC.com",
+            "server_port": 80,
+            "uuid": "",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1094,21 +1094,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "00e463Dc.beSTVPn-4xi.PAgES.dEv",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/yuyg5ujoovohfscy?ed=2560",
+                "path": "\/?ed=443",
                 "headers": {
-                    "Host": "00e463Dc.beSTVPn-4xi.PAgES.dEv"
+                    "Host": "SVNTEAM.VPNPROSEC.com"
                 }
             }
         },
