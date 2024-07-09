@@ -114,12 +114,13 @@
                 "🇨🇦CA | vless | @melov2ray | 9",
                 "🇨🇷CR | vless | @V2pedia | 10",
                 "🇨🇦CA | vless | @frev2ray | 1",
-                "🇨🇦CA | vless | @ARv2ray | 15",
+                "🇨🇦CA | vless | @ARv2ray | 14",
+                "🇨🇦CA | vless | @shh_proxy | 26",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇩🇪DE | vless | @free_v2rayyy | 8",
-                "🇨🇦CA | vless | @lightning6 | 16",
+                "🇨🇦CA | vless | @lightning6 | 18",
                 "🇸🇪SE | vless | @DigiV2ray | 28",
-                "🇨🇦CA | vless | @proxy_kafee | 4",
+                "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 13",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @V2rayCollector | 19",
@@ -170,12 +171,13 @@
                 "🇨🇦CA | vless | @melov2ray | 9",
                 "🇨🇷CR | vless | @V2pedia | 10",
                 "🇨🇦CA | vless | @frev2ray | 1",
-                "🇨🇦CA | vless | @ARv2ray | 15",
+                "🇨🇦CA | vless | @ARv2ray | 14",
+                "🇨🇦CA | vless | @shh_proxy | 26",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇩🇪DE | vless | @free_v2rayyy | 8",
-                "🇨🇦CA | vless | @lightning6 | 16",
+                "🇨🇦CA | vless | @lightning6 | 18",
                 "🇸🇪SE | vless | @DigiV2ray | 28",
-                "🇨🇦CA | vless | @proxy_kafee | 4",
+                "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 13",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @V2rayCollector | 19",
@@ -412,7 +414,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ARv2ray | 15",
+            "tag": "🇨🇦CA | vless | @ARv2ray | 14",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2095,
@@ -426,7 +428,28 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry",
+                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @shh_proxy | 26",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2095,
+            "uuid": "a78114e8-a63a-4f0f-acf7-660e7cf4ea77",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/-@Shh_Proxy-@Shh_Proxy-@Shh_Proxy--@Shh_Proxy--",
                 "headers": {
                     "Host": "www.speedtest.net"
                 }
@@ -490,7 +513,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @lightning6 | 16",
+            "tag": "🇨🇦CA | vless | @lightning6 | 18",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
@@ -532,7 +555,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxy_kafee | 4",
+            "tag": "🇨🇦CA | vless | @proxy_kafee | 3",
             "type": "vless",
             "server": "172.66.46.251",
             "server_port": 443,
