@@ -126,7 +126,7 @@
                 "🇨🇦CA | vless | @V2rayCollector | 19",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
-                "🇸🇪SE | vless | @V2rayNGn | 32",
+                "🇸🇪SE | vless | @V2rayNGn | 29",
                 "🇫🇮FI | vless | @Outline_Vpn | 18",
                 "🇸🇬SG | vless | @prrofile_purple | 180",
                 "🇸🇪SE | vless | @customv2ray | 17",
@@ -144,7 +144,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 153",
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 21",
-                "🇩🇪DE | vless | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇸🇪SE | vless | @fnet00 | 6",
                 "🇸🇪SE | vless | @polproxy | 7",
@@ -188,7 +188,7 @@
                 "🇨🇦CA | vless | @V2rayCollector | 19",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
-                "🇸🇪SE | vless | @V2rayNGn | 32",
+                "🇸🇪SE | vless | @V2rayNGn | 29",
                 "🇫🇮FI | vless | @Outline_Vpn | 18",
                 "🇸🇬SG | vless | @prrofile_purple | 180",
                 "🇸🇪SE | vless | @customv2ray | 17",
@@ -206,7 +206,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 153",
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 21",
-                "🇩🇪DE | vless | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇸🇪SE | vless | @fnet00 | 6",
                 "🇸🇪SE | vless | @polproxy | 7",
@@ -724,11 +724,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2rayNGn | 32",
+            "tag": "🇸🇪SE | vless | @V2rayNGn | 29",
             "type": "vless",
             "server": "VPNCUSTOMIZE.Elmahstyle.ir",
             "server_port": 8080,
-            "uuid": "Join_Bede_VPNCUSTOMIZE",
+            "uuid": "join_Bede_VPNCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1148,17 +1148,24 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 19",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "142.132.188.82",
-            "server_port": 8080,
-            "uuid": "36c038c9-4afd-4bf1-91f9-a80669fb8b9c",
+            "server": "185.146.173.58",
+            "server_port": 2095,
+            "uuid": "8549a266-ddcf-4ee8-9fb8-3c2406e95e8e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/VMESSKHODAM-VMESSKHODAM-VMESSKHODAM-VMESSKHODAM-VMESSKHODAM-VMESSKHODAM-VMESSKHODAM\/VMESSKHODAM?ed=1024",
+                "headers": {
+                    "Host": "185.146.173.58"
+                }
             }
         },
         {
