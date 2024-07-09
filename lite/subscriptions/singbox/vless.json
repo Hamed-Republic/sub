@@ -125,7 +125,7 @@
                 "🇨🇦CA | vless | @V2rayCollector | 19",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
-                "🇸🇪SE | vless | @V2rayNGn | 23",
+                "🇸🇪SE | vless | @V2rayNGn | 32",
                 "🇫🇮FI | vless | @Outline_Vpn | 18",
                 "🇸🇬SG | vless | @prrofile_purple | 180",
                 "🇸🇪SE | vless | @customv2ray | 17",
@@ -144,7 +144,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 153",
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 21",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -186,7 +186,7 @@
                 "🇨🇦CA | vless | @V2rayCollector | 19",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
-                "🇸🇪SE | vless | @V2rayNGn | 23",
+                "🇸🇪SE | vless | @V2rayNGn | 32",
                 "🇫🇮FI | vless | @Outline_Vpn | 18",
                 "🇸🇬SG | vless | @prrofile_purple | 180",
                 "🇸🇪SE | vless | @customv2ray | 17",
@@ -205,7 +205,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 153",
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 21",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -701,11 +701,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2rayNGn | 23",
+            "tag": "🇸🇪SE | vless | @V2rayNGn | 32",
             "type": "vless",
             "server": "VPNCUSTOMIZE.Elmahstyle.ir",
             "server_port": 8080,
-            "uuid": "Join_bede_VPNCUSTOMIZE",
+            "uuid": "Join_Bede_VPNCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1139,11 +1139,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "188.114.97.3",
-            "server_port": 443,
-            "uuid": "fb853741-88ef-4aa0-ba2f-999f04535960",
+            "server": "104.20.3.147",
+            "server_port": 8080,
+            "uuid": "33d4eb72-a45b-41c9-9f2c-24b5394437d2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1151,21 +1151,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "HovEyda-ARIAMEHR-KinG.PAgEs.Dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/JOIN-Proxy_mtm\/",
+                "path": "\/",
                 "headers": {
-                    "Host": "HovEyda-ARIAMEHR-KinG.PAgEs.Dev"
+                    "Host": "104.20.3.147"
                 }
             }
         },
