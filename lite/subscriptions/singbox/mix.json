@@ -147,7 +147,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 134",
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 19",
-                "🇮🇷IR | vless | @ConfigsHUB | 13",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇬SG | vmess | @Hope_Net | 4",
@@ -217,7 +217,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 134",
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 19",
-                "🇮🇷IR | vless | @ConfigsHUB | 13",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇬SG | vmess | @Hope_Net | 4",
@@ -1211,17 +1211,34 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇮🇷IR | vless | @ConfigsHUB | 13",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "5.160.46.82",
+            "server": "172.66.47.126",
             "server_port": 443,
-            "uuid": "3c7ec707-301f-4502-96fe-d82bbd6deaf2",
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "00e463Dc.beSTVPn-4xi.PAgES.dEv",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/yuyg5ujoovohfscy?ed=2560",
+                "headers": {
+                    "Host": "00e463Dc.beSTVPn-4xi.PAgES.dEv"
+                }
             }
         },
         {
