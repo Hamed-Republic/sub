@@ -128,7 +128,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 27",
                 "🇫🇮FI | vless | @Outline_Vpn | 18",
-                "🏳️XX | vless | @prrofile_purple | 171",
+                "🇩🇪DE | vless | @prrofile_purple | 181",
                 "🇸🇪SE | vless | @customv2ray | 17",
                 "🇨🇦CA | vless | @UnlimitedDev | 19",
                 "🇨🇦CA | vless | @vmessorg | 11",
@@ -144,11 +144,11 @@
                 "🇨🇦CA | vless | @DailyV2RY | 147",
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇺🇸US | vless | @Outlinev2rayNG | 18",
-                "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
+                "🇺🇸US | vless | @v2rayng_vpnrog | 12",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @flyv2ray | 8",
                 "🇸🇪SE | vless | @FAKEOFTVC | 0",
@@ -187,7 +187,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 27",
                 "🇫🇮FI | vless | @Outline_Vpn | 18",
-                "🏳️XX | vless | @prrofile_purple | 171",
+                "🇩🇪DE | vless | @prrofile_purple | 181",
                 "🇸🇪SE | vless | @customv2ray | 17",
                 "🇨🇦CA | vless | @UnlimitedDev | 19",
                 "🇨🇦CA | vless | @vmessorg | 11",
@@ -203,11 +203,11 @@
                 "🇨🇦CA | vless | @DailyV2RY | 147",
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇺🇸US | vless | @Outlinev2rayNG | 18",
-                "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
+                "🇺🇸US | vless | @v2rayng_vpnrog | 12",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @flyv2ray | 8",
                 "🇸🇪SE | vless | @FAKEOFTVC | 0",
@@ -746,24 +746,17 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @prrofile_purple | 171",
+            "tag": "🇩🇪DE | vless | @prrofile_purple | 181",
             "type": "vless",
-            "server": "eagle.Hafezdivan.Online.",
-            "server_port": 80,
-            "uuid": "c416be20-32b3-467f-83c2-735e04d639f7",
+            "server": "159.69.251.197",
+            "server_port": 8080,
+            "uuid": "eb51d1f8-db44-4457-9c86-af7cfdb73c2a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net\/",
-                "headers": {
-                    "Host": "eagle.Hafezdivan.Online."
-                }
             }
         },
         {
@@ -1123,11 +1116,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "104.24.20.71",
-            "server_port": 443,
-            "uuid": "9902fc94-31f9-4afe-b37a-82f5790b3d2a",
+            "server": "iranserver.com",
+            "server_port": 80,
+            "uuid": "Telegram-ipV2Ray-kjo",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1135,21 +1128,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "de1-moryvpnbot.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Telegram-ipV2Ray",
                 "headers": {
-                    "Host": "de1-moryvpnbot.pages.dev"
+                    "Host": "iranserver.com"
                 }
             }
         },
@@ -1237,7 +1220,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
+            "tag": "🇺🇸US | vless | @v2rayng_vpnrog | 12",
             "type": "vless",
             "server": "Zula.ir.",
             "server_port": 80,
