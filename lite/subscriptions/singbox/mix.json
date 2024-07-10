@@ -106,7 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @EliV2ray | 16",
                 "🇨🇦CA | vless | @Parsashonam | 3",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 8",
                 "🇩🇪DE | vless | @VlessConfig | 16",
@@ -150,14 +149,14 @@
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 17",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vmess | @Hope_Net | 1",
                 "🇸🇪SE | vless | @polproxy | 6",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 11",
-                "🇨🇦CA | vmess | @v2rayng_config_amin | 3",
+                "🇺🇸US | vmess | @v2rayng_config_amin | 3",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 4",
                 "🇺🇸US | vless | @FreakConfig | 7",
@@ -167,7 +166,7 @@
                 "🇺🇸US | vless | @kiava | 7",
                 "🇬🇧GB | ss | @proxy_mtm | 1",
                 "🏳️XX | vless | @vpn_go67 | 21",
-                "🇺🇸US | vmess | @kingofilter | 13",
+                "🇺🇸US | vmess | @kingofilter | 14",
                 "🇺🇸US | vless | @SvnTeam | 18",
                 "🏳️XX | vless | @IBv2ray | 4",
                 "🏳️XX | vless | @VpnSkyy | 7",
@@ -179,7 +178,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @EliV2ray | 16",
                 "🇨🇦CA | vless | @Parsashonam | 3",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 8",
                 "🇩🇪DE | vless | @VlessConfig | 16",
@@ -223,14 +221,14 @@
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 17",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vmess | @Hope_Net | 1",
                 "🇸🇪SE | vless | @polproxy | 6",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 11",
-                "🇨🇦CA | vmess | @v2rayng_config_amin | 3",
+                "🇺🇸US | vmess | @v2rayng_config_amin | 3",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 4",
                 "🇺🇸US | vless | @FreakConfig | 7",
@@ -240,7 +238,7 @@
                 "🇺🇸US | vless | @kiava | 7",
                 "🇬🇧GB | ss | @proxy_mtm | 1",
                 "🏳️XX | vless | @vpn_go67 | 21",
-                "🇺🇸US | vmess | @kingofilter | 13",
+                "🇺🇸US | vmess | @kingofilter | 14",
                 "🇺🇸US | vless | @SvnTeam | 18",
                 "🏳️XX | vless | @IBv2ray | 4",
                 "🏳️XX | vless | @VpnSkyy | 7",
@@ -266,27 +264,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇨🇦CA | vless | @EliV2ray | 16",
-            "type": "vless",
-            "server": "iranserver.com",
-            "server_port": 8080,
-            "uuid": "adef69de-dc26-467f-8b12-1b83873f016e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev",
-                "headers": {
-                    "Host": "iranserver.com"
-                }
-            }
         },
         {
             "tag": "🇨🇦CA | vless | @Parsashonam | 3",
@@ -548,7 +525,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "c7e9a83a-5db1-4c81-b259-f3a5a456d061",
+            "uuid": "7fd6d230-45d0-431d-9b1c-fd2a49ca4c6a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1257,13 +1234,16 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 8080,
-            "uuid": "13581548-fc99-4130-bbee-9d5a92642e8e",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 18",
+            "type": "vmess",
+            "server": "162.159.129.17",
+            "server_port": 80,
+            "uuid": "62aa5f80-0328-4004-a375-7f5a59df4022",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1271,9 +1251,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/servernet",
+                "path": "\/T,E,L,E,G,R,A,M,X,V,2,R,A,Y",
                 "headers": {
-                    "Host": "185.146.173.58"
+                    "Host": ""
                 }
             }
         },
@@ -1450,7 +1430,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @v2rayng_config_amin | 3",
+            "tag": "🇺🇸US | vmess | @v2rayng_config_amin | 3",
             "type": "vmess",
             "server": "505.outline-vpn.cloud",
             "server_port": 443,
@@ -1708,7 +1688,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @kingofilter | 13",
+            "tag": "🇺🇸US | vmess | @kingofilter | 14",
             "type": "vmess",
             "server": "198.41.193.181",
             "server_port": 80,
