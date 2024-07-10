@@ -149,7 +149,7 @@
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇫🇷FR | vmess | @Hope_Net | 1",
@@ -221,7 +221,7 @@
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇫🇷FR | vmess | @Hope_Net | 1",
@@ -447,7 +447,7 @@
             "tag": "🇨🇦CA | vless | @ARv2ray | 18",
             "type": "vless",
             "server": "www.speedtest.net",
-            "server_port": 80,
+            "server_port": 2095,
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
@@ -458,7 +458,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry",
                 "headers": {
                     "Host": "www.speedtest.net"
                 }
@@ -1234,11 +1234,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "104.21.2.232",
-            "server_port": 443,
-            "uuid": "1f48f432-fff4-474f-c3a6-08cf1db5b709",
+            "server": "www.parsvds.ir",
+            "server_port": 8080,
+            "uuid": "VPNCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1246,22 +1246,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "pay.technator.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "ws",
-                "path": "\/image\/20992",
-                "headers": {
-                    "Host": "pay.technator.net"
-                }
+                "type": "grpc",
+                "service_name": "Telegram",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1578,9 +1568,9 @@
         {
             "tag": "🇺🇸US | vless | @mehrosaboran | 3",
             "type": "vless",
-            "server": "iranserver.com",
-            "server_port": 80,
-            "uuid": "Telegram-ipV2Ray-kjo",
+            "server": "www.speedtest.net",
+            "server_port": 8880,
+            "uuid": "32e3bed4-a636-4ac3-b1e3-30b94ac6cbb9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1590,9 +1580,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-ipV2Ray",
+                "path": "\/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6",
                 "headers": {
-                    "Host": "iranserver.com"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
