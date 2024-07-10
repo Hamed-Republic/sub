@@ -118,6 +118,7 @@
                 "🇨🇦CA | vless | @shh_proxy | 26",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇸🇪SE | vless | @free_v2rayyy | 9",
+                "🇨🇦CA | vless | @lightning6 | 19",
                 "🇸🇪SE | vless | @DigiV2ray | 29",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 11",
@@ -141,7 +142,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 7",
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
-                "🇦🇪AE | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇸🇪SE | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 19",
@@ -174,6 +175,7 @@
                 "🇨🇦CA | vless | @shh_proxy | 26",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇸🇪SE | vless | @free_v2rayyy | 9",
+                "🇨🇦CA | vless | @lightning6 | 19",
                 "🇸🇪SE | vless | @DigiV2ray | 29",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 11",
@@ -197,7 +199,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 7",
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
-                "🇦🇪AE | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇸🇪SE | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 19",
@@ -415,7 +417,7 @@
             "tag": "🇨🇦CA | vless | @ARv2ray | 18",
             "type": "vless",
             "server": "www.speedtest.net",
-            "server_port": 2095,
+            "server_port": 80,
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
@@ -426,7 +428,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
                     "Host": "www.speedtest.net"
                 }
@@ -485,6 +487,27 @@
                 "path": "\/Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy",
                 "headers": {
                     "Host": "185.146.173.58"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @lightning6 | 19",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8880,
+            "uuid": "c7e9a83a-5db1-4c81-b259-f3a5a456d061",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6",
+                "headers": {
+                    "Host": "www.speedtest.net"
                 }
             }
         },
@@ -960,8 +983,8 @@
             "tag": "🇸🇪SE | vless | @V2RayTz | 19",
             "type": "vless",
             "server": "185.146.173.58",
-            "server_port": 8080,
-            "uuid": "%63%65%39%63%65%37%37%62%2d%35%39%64%34%2d%34%35%35%66%2d%62%35%63%33%2d%65%37%32%66%35%33%32%39%65%30%61%35",
+            "server_port": 2095,
+            "uuid": "%37%37%37%64%36%64%35%37%2d%64%61%62%31%2d%34%34%32%65%2d%38%39%64%61%2d%36%33%32%31%33%31%30%38%61%30%39%37",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -971,7 +994,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/servernet",
                 "headers": {
                     "Host": "185.146.173.58"
                 }
@@ -1059,12 +1082,12 @@
             }
         },
         {
-            "tag": "🇦🇪AE | vless | @ConfigsHUB | 17",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "181.215.205.150",
+            "server": "104.21.2.232",
             "server_port": 443,
-            "uuid": "d75fd271-f66e-4254-a946-c03b728a20d8",
-            "flow": "xtls-rprx-vision",
+            "uuid": "1f48f432-fff4-474f-c3a6-08cf1db5b709",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1073,17 +1096,19 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "google.com",
+                "server_name": "pay.technator.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Gy0oFGb2U2ZrCqwa-NB5hk7nwVq8drkN8Ief0unfElo",
-                    "short_id": "dcc54853"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/image\/20992",
+                "headers": {
+                    "Host": "pay.technator.net"
                 }
             }
         },
