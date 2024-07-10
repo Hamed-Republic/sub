@@ -130,7 +130,7 @@
                 "🇫🇮FI | vless | @Outline_Vpn | 18",
                 "🏳️XX | vless | @prrofile_purple | 171",
                 "🇸🇪SE | vless | @customv2ray | 17",
-                "🇨🇦CA | vless | @UnlimitedDev | 17",
+                "🇨🇦CA | vless | @UnlimitedDev | 19",
                 "🇨🇦CA | vless | @vmessorg | 11",
                 "🇸🇪SE | vless | @ShadowProxy66 | 31",
                 "🇸🇪SE | vless | @ServerNett | 10",
@@ -144,7 +144,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 147",
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
-                "🇩🇪DE | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 18",
@@ -189,7 +189,7 @@
                 "🇫🇮FI | vless | @Outline_Vpn | 18",
                 "🏳️XX | vless | @prrofile_purple | 171",
                 "🇸🇪SE | vless | @customv2ray | 17",
-                "🇨🇦CA | vless | @UnlimitedDev | 17",
+                "🇨🇦CA | vless | @UnlimitedDev | 19",
                 "🇨🇦CA | vless | @vmessorg | 11",
                 "🇸🇪SE | vless | @ShadowProxy66 | 31",
                 "🇸🇪SE | vless | @ServerNett | 10",
@@ -203,7 +203,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 147",
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
-                "🇩🇪DE | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 18",
@@ -788,11 +788,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @UnlimitedDev | 17",
+            "tag": "🇨🇦CA | vless | @UnlimitedDev | 19",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
-            "uuid": "bdef915a-2a3a-4931-9267-64c3d99dbdef",
+            "uuid": "ac5c3b9b-01cd-42c6-b3f0-cc5d95717b3f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1130,17 +1130,34 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "188.245.52.140",
-            "server_port": 8080,
-            "uuid": "b45e25af-804a-400b-af73-e9253ecd26b7",
+            "server": "visa.com",
+            "server_port": 443,
+            "uuid": "d7bbfe83-b037-48ae-996c-b98ed0441ba2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "e10c0e4b.oodaeq2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net\/",
+                "headers": {
+                    "Host": "e10c0e4b.oodaeq2.pages.dev"
+                }
             }
         },
         {
@@ -1269,9 +1286,9 @@
         {
             "tag": "🇺🇸US | vless | @flyv2ray | 8",
             "type": "vless",
-            "server": "proxyforopetaa.bestgameir.ir",
-            "server_port": 2083,
-            "uuid": "1db8f20f-778d-4c66-921d-90fcbd01ab26",
+            "server": "www.parsvds.ir",
+            "server_port": 8080,
+            "uuid": "9e802d62-510f-4f64-b73c-5d116a7aea44",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1279,21 +1296,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "proxyforopetaa.bestgameir.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/JoinChanel-@proxyforopeta-telegram:@proxyforopeta-telegram-proxyforopeta-joinchanel@proxyforopeta.@proxyforopeta.join-@proxyforopeta.telegram:@proxyforopeta",
+                "path": "\/VPNCUSTOMIZE?ed=8080",
                 "headers": {
-                    "Host": "proxyforopetaa.bestgameir.ir"
+                    "Host": "www.parsvds.ir"
                 }
             }
         },
