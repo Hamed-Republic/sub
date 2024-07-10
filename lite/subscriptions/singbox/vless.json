@@ -114,11 +114,11 @@
                 "🇨🇷CR | vless | @V2pedia | 10",
                 "🇨🇦CA | vless | @frev2ray | 2",
                 "🇨🇦CA | vless | @ARv2ray | 18",
+                "🇨🇦CA | vless | @shh_proxy | 26",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇸🇪SE | vless | @free_v2rayyy | 9",
                 "🇨🇦CA | vless | @lightning6 | 20",
                 "🇸🇪SE | vless | @DigiV2ray | 28",
-                "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 13",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @V2rayCollector | 24",
@@ -128,7 +128,9 @@
                 "🇫🇮FI | vless | @Outline_Vpn | 18",
                 "🇩🇪DE | vless | @prrofile_purple | 172",
                 "🇸🇪SE | vless | @customv2ray | 17",
+                "🇨🇦CA | vless | @UnlimitedDev | 21",
                 "🇨🇦CA | vless | @vmessorg | 11",
+                "🏳️XX | vless | @v2rayNG_Matsuri | 4",
                 "🇸🇪SE | vless | @ShadowProxy66 | 31",
                 "🇸🇪SE | vless | @ServerNett | 10",
                 "🇸🇪SE | vless | @v2ray_swhil | 11",
@@ -170,11 +172,11 @@
                 "🇨🇷CR | vless | @V2pedia | 10",
                 "🇨🇦CA | vless | @frev2ray | 2",
                 "🇨🇦CA | vless | @ARv2ray | 18",
+                "🇨🇦CA | vless | @shh_proxy | 26",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇸🇪SE | vless | @free_v2rayyy | 9",
                 "🇨🇦CA | vless | @lightning6 | 20",
                 "🇸🇪SE | vless | @DigiV2ray | 28",
-                "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 13",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @V2rayCollector | 24",
@@ -184,7 +186,9 @@
                 "🇫🇮FI | vless | @Outline_Vpn | 18",
                 "🇩🇪DE | vless | @prrofile_purple | 172",
                 "🇸🇪SE | vless | @customv2ray | 17",
+                "🇨🇦CA | vless | @UnlimitedDev | 21",
                 "🇨🇦CA | vless | @vmessorg | 11",
+                "🏳️XX | vless | @v2rayNG_Matsuri | 4",
                 "🇸🇪SE | vless | @ShadowProxy66 | 31",
                 "🇸🇪SE | vless | @ServerNett | 10",
                 "🇸🇪SE | vless | @v2ray_swhil | 11",
@@ -412,6 +416,20 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @shh_proxy | 26",
+            "type": "vless",
+            "server": "104.22.13.192",
+            "server_port": 80,
+            "uuid": "2fd08a76-5ae7-47a7-b2a1-0c75612bc992",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇺🇸US | vless | @Lockey_vpn | 19",
             "type": "vless",
             "server": "198.41.206.124",
@@ -492,37 +510,6 @@
                 "path": "\/DIGIV2RAY--DigiV2ray--digiv2ray--DIGIV2RAY--DigiV2ray--digiv2ray--DigiV2ray--DigiV2ray?ed=1024",
                 "headers": {
                     "Host": "185.146.173.43"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @proxy_kafee | 3",
-            "type": "vless",
-            "server": "172.66.46.224",
-            "server_port": 443,
-            "uuid": "a8a09765-7681-47ba-9ea0-e0ae79d51088",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "t-netplus-4vx.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "t-netplus-4vx.pages.dev"
                 }
             }
         },
@@ -740,6 +727,27 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @UnlimitedDev | 21",
+            "type": "vless",
+            "server": "zula.ir",
+            "server_port": 8080,
+            "uuid": "eaf8036b-fbe2-4bf5-a184-7e70cd998b23",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080",
+                "headers": {
+                    "Host": "zula.ir"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @vmessorg | 11",
             "type": "vless",
             "server": "104.16.229.250",
@@ -758,6 +766,20 @@
                 "headers": {
                     "Host": "104.16.229.250"
                 }
+            }
+        },
+        {
+            "tag": "🏳️XX | vless | @v2rayNG_Matsuri | 4",
+            "type": "vless",
+            "server": "app.v.seatech.ir",
+            "server_port": 8081,
+            "uuid": "b8193a2e-f914-45d5-ced4-62ea5e02fcda",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -1006,9 +1028,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 2095,
-            "uuid": "----DIGIV2RAY---",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "687ba30b-840f-4578-8f51-be41787c9f6a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1018,9 +1040,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/DigiconnecT?ed=1024",
+                "path": "\/Telegram-configMs",
                 "headers": {
-                    "Host": "zula.ir"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
