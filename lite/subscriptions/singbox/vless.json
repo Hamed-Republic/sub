@@ -141,7 +141,7 @@
                 "🇮🇷IR | vless | @VmessProtocol | 10",
                 "🇨🇦CA | vless | @DailyV2RY | 153",
                 "🇸🇪SE | vless | @sinabigo | 1",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇩🇪DE | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 5",
@@ -158,6 +158,7 @@
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🇺🇸US | vless | @SvnTeam | 19",
                 "🏳️XX | vless | @IBv2ray | 4",
+                "🇺🇸US | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇺🇸US | vless | @TIKTOK_PROXY | 0"
             ]
@@ -201,7 +202,7 @@
                 "🇮🇷IR | vless | @VmessProtocol | 10",
                 "🇨🇦CA | vless | @DailyV2RY | 153",
                 "🇸🇪SE | vless | @sinabigo | 1",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇩🇪DE | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 5",
@@ -218,6 +219,7 @@
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🇺🇸US | vless | @SvnTeam | 19",
                 "🏳️XX | vless | @IBv2ray | 4",
+                "🇺🇸US | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇺🇸US | vless | @TIKTOK_PROXY | 0"
             ],
@@ -1054,11 +1056,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "www.Speedtest.Net",
-            "server_port": 2095,
-            "uuid": "DIGIV2RAy",
+            "server": "ZulA.iRsNAPPfood.IRDGKAlA.cOmDIVAR.IrvArzeSH313.IR.sHopShirvAn.IR",
+            "server_port": 2086,
+            "uuid": "2ef4db5f-3321-4611-9627-a81504f66530",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1067,11 +1069,11 @@
                 "max_streams": 32
             },
             "transport": {
-                "type": "ws",
-                "path": "\/DigiconnecT?ed=1024",
-                "headers": {
-                    "Host": "www.Speedtest.Net"
-                }
+                "type": "grpc",
+                "service_name": "Channel @v20reyng",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1490,6 +1492,27 @@
                 "path": "\/@V2RAXX-@V2RAXX",
                 "headers": {
                     "Host": "v2raxx.amalfatm.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @V2FETCH | 7",
+            "type": "vless",
+            "server": "zula.ir",
+            "server_port": 8080,
+            "uuid": "1f0c1961-5cc6-42ae-abb1-b5e4bc956dfc",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
+                "headers": {
+                    "Host": "zula.ir"
                 }
             }
         },
