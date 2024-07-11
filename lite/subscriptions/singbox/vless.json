@@ -112,7 +112,7 @@
                 "🇸🇪SE | vless | @ipV2Ray | 11",
                 "🇨🇦CA | vless | @melov2ray | 11",
                 "🇸🇪SE | vless | @V2pedia | 7",
-                "🇨🇦CA | vless | @frev2ray | 2",
+                "🇨🇦CA | vless | @frev2ray | 1",
                 "🇨🇦CA | vless | @ARv2ray | 18",
                 "🇨🇦CA | vless | @shh_proxy | 29",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
@@ -137,7 +137,7 @@
                 "🇮🇷IR | vless | @v2ray1_ng | 14",
                 "🇨🇦CA | vless | @vless_vmess | 11",
                 "🇨🇦CA | vless | @MTConfig | 11",
-                "🇨🇦CA | vless | @V2RayTz | 17",
+                "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇮🇷IR | vless | @VmessProtocol | 10",
                 "🇨🇦CA | vless | @DailyV2RY | 153",
                 "🇸🇪SE | vless | @sinabigo | 1",
@@ -172,7 +172,7 @@
                 "🇸🇪SE | vless | @ipV2Ray | 11",
                 "🇨🇦CA | vless | @melov2ray | 11",
                 "🇸🇪SE | vless | @V2pedia | 7",
-                "🇨🇦CA | vless | @frev2ray | 2",
+                "🇨🇦CA | vless | @frev2ray | 1",
                 "🇨🇦CA | vless | @ARv2ray | 18",
                 "🇨🇦CA | vless | @shh_proxy | 29",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
@@ -197,7 +197,7 @@
                 "🇮🇷IR | vless | @v2ray1_ng | 14",
                 "🇨🇦CA | vless | @vless_vmess | 11",
                 "🇨🇦CA | vless | @MTConfig | 11",
-                "🇨🇦CA | vless | @V2RayTz | 17",
+                "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇮🇷IR | vless | @VmessProtocol | 10",
                 "🇨🇦CA | vless | @DailyV2RY | 153",
                 "🇸🇪SE | vless | @sinabigo | 1",
@@ -378,11 +378,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @frev2ray | 2",
+            "tag": "🇨🇦CA | vless | @frev2ray | 1",
             "type": "vless",
-            "server": "188.114.98.224",
+            "server": "www.parsvds.ir",
             "server_port": 8080,
-            "uuid": "Tel_VPNCUSTOMIZE",
+            "uuid": "VPNCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -392,9 +392,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
+                "path": "\/VPNCUSTOMIZE?ed=8080",
                 "headers": {
-                    "Host": "188.114.98.224"
+                    "Host": "www.parsvds.ir"
                 }
             }
         },
@@ -952,9 +952,9 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2RayTz | 17",
+            "tag": "🇨🇦CA | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "188.114.97.2",
+            "server": "104.21.20.148",
             "server_port": 8080,
             "uuid": "%33%35%61%34%34%36%30%31%2d%36%39%66%34%2d%34%66%38%30%2d%61%32%38%37%2d%63%39%66%32%66%34%64%36%64%66%31%36",
             "flow": "",
@@ -968,7 +968,7 @@
                 "type": "ws",
                 "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080",
                 "headers": {
-                    "Host": "188.114.97.2"
+                    "Host": "104.21.20.148"
                 }
             }
         },
@@ -1062,9 +1062,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "162.159.129.17",
-            "server_port": 80,
-            "uuid": "7a5a4624-df8d-4955-bccc-b3fa6161411f",
+            "server": "104.18.202.232",
+            "server_port": 443,
+            "uuid": "17a7bf97-fef5-4101-a5c5-7c730fabeeee",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1072,11 +1072,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "bpb-worker-panel-h5f.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/T,E,L,E,G,R,A,M,X,V,2,R,A,Y?ed=2560",
+                "path": "\/TELEGRAM-MARAMBASHI-MARAMBASHI\/",
                 "headers": {
-                    "Host": "162.159.129.17"
+                    "Host": "bpb-worker-panel-h5f.pages.dev"
                 }
             }
         },
