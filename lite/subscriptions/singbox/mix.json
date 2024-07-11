@@ -150,19 +150,20 @@
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 15",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 15",
+                "🇮🇷IR | vmess | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇨🇦CA | vmess | @Hope_Net | 5",
+                "🇨🇦CA | vmess | @Hope_Net | 6",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 14",
-                "🇺🇸US | vless | @v2rayng_vpnrog | 11",
+                "🇨🇦CA | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 3",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 4",
                 "🇺🇸US | vless | @flyv2ray | 8",
                 "🇮🇷IR | vless | @FAKEOFTVC | 0",
-                "🇺🇸US | vless | @mehrosaboran | 5",
+                "🇺🇸US | vless | @mehrosaboran | 4",
                 "🇺🇸US | vless | @kiava | 7",
                 "🇺🇸US | vless | @proxy_mtm | 0",
                 "🏳️XX | vless | @vpn_go67 | 21",
@@ -221,19 +222,20 @@
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 15",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 15",
+                "🇮🇷IR | vmess | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇨🇦CA | vmess | @Hope_Net | 5",
+                "🇨🇦CA | vmess | @Hope_Net | 6",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 14",
-                "🇺🇸US | vless | @v2rayng_vpnrog | 11",
+                "🇨🇦CA | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 3",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 4",
                 "🇺🇸US | vless | @flyv2ray | 8",
                 "🇮🇷IR | vless | @FAKEOFTVC | 0",
-                "🇺🇸US | vless | @mehrosaboran | 5",
+                "🇺🇸US | vless | @mehrosaboran | 4",
                 "🇺🇸US | vless | @kiava | 7",
                 "🇺🇸US | vless | @proxy_mtm | 0",
                 "🏳️XX | vless | @vpn_go67 | 21",
@@ -1294,6 +1296,23 @@
             "plugin_opts": ""
         },
         {
+            "tag": "🇮🇷IR | vmess | @ConfigsHUB | 18",
+            "type": "vmess",
+            "server": "45.147.77.110",
+            "server_port": 13736,
+            "uuid": "5b24cb20-908c-435e-cb83-815950bea779",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🏳️XX | vless | @proxystore11 | 3",
             "type": "vless",
             "server": "z61.maduss.com",
@@ -1390,7 +1409,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 5",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 6",
             "type": "vmess",
             "server": "104.19.38.8",
             "server_port": 2086,
@@ -1456,7 +1475,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @v2rayng_vpnrog | 11",
+            "tag": "🇨🇦CA | vless | @v2rayng_vpnrog | 11",
             "type": "vless",
             "server": "104.18.41.138",
             "server_port": 8443,
@@ -1626,11 +1645,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @mehrosaboran | 5",
+            "tag": "🇺🇸US | vless | @mehrosaboran | 4",
             "type": "vless",
-            "server": "www.Speedtest.Net",
-            "server_port": 2095,
-            "uuid": "----DIGIV2RAY---",
+            "server": "iranserver.com",
+            "server_port": 80,
+            "uuid": "Telegram-ipV2Ray-kjo",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1640,9 +1659,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/DigiconnecT?ed=1024",
+                "path": "\/Telegram-ipV2Ray",
                 "headers": {
-                    "Host": "www.Speedtest.Net"
+                    "Host": "iranserver.com"
                 }
             }
         },
