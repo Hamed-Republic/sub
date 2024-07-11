@@ -138,9 +138,9 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 1",
                 "🇸🇪SE | vless | @ShadowProxy66 | 2",
                 "🇸🇪SE | vless | @ServerNett | 9",
-                "🇸🇪SE | vless | @v2ray_swhil | 12",
+                "🇸🇪SE | vless | @v2ray_swhil | 13",
                 "🇮🇷IR | vless | @v2ray1_ng | 14",
-                "🇨🇦CA | vless | @vless_vmess | 9",
+                "🇨🇦CA | vless | @vless_vmess | 10",
                 "🇨🇦CA | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 16",
                 "🇮🇷IR | vless | @VmessProtocol | 10",
@@ -148,11 +148,11 @@
                 "🇸🇪SE | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 15",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇺🇸US | vless | @ConfigsHUB | 14",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇨🇦CA | vmess | @Hope_Net | 6",
+                "🇺🇸US | vmess | @Hope_Net | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 14",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 11",
@@ -207,9 +207,9 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 1",
                 "🇸🇪SE | vless | @ShadowProxy66 | 2",
                 "🇸🇪SE | vless | @ServerNett | 9",
-                "🇸🇪SE | vless | @v2ray_swhil | 12",
+                "🇸🇪SE | vless | @v2ray_swhil | 13",
                 "🇮🇷IR | vless | @v2ray1_ng | 14",
-                "🇨🇦CA | vless | @vless_vmess | 9",
+                "🇨🇦CA | vless | @vless_vmess | 10",
                 "🇨🇦CA | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 16",
                 "🇮🇷IR | vless | @VmessProtocol | 10",
@@ -217,11 +217,11 @@
                 "🇸🇪SE | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 15",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇺🇸US | vless | @ConfigsHUB | 14",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇨🇦CA | vmess | @Hope_Net | 6",
+                "🇺🇸US | vmess | @Hope_Net | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 14",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 11",
@@ -998,7 +998,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @v2ray_swhil | 12",
+            "tag": "🇸🇪SE | vless | @v2ray_swhil | 13",
             "type": "vless",
             "server": "VPNCUSTOMIZE.Elmahstyle.ir",
             "server_port": 8080,
@@ -1033,7 +1033,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vless_vmess | 9",
+            "tag": "🇨🇦CA | vless | @vless_vmess | 10",
             "type": "vless",
             "server": "172.64.69.44",
             "server_port": 443,
@@ -1213,11 +1213,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇺🇸US | vless | @ConfigsHUB | 14",
             "type": "vless",
-            "server": "wWW.ZUla.IR",
-            "server_port": 2083,
-            "uuid": "b91b3053-9602-4a60-b848-ec0eafea2083",
+            "server": "72.52.178.23",
+            "server_port": 80,
+            "uuid": "e767898f-8a74-45ea-e708-9fe4e36957ea",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1225,21 +1225,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "i4ipfkReH2af2T1jUOfS89s4sRTYLdD6l0sfulUuHYjYOYQH0eBdG1o8Jgk.PAgeS-dEV.siTE",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=\/TELEGRAM-MARAMBASHI-MARAMBASHI\/?ed=2560",
+                "path": "\/",
                 "headers": {
-                    "Host": "i4ipfkReH2af2T1jUOfS89s4sRTYLdD6l0sfulUuHYjYOYQH0eBdG1o8Jgk.PAgeS-dEV.siTE"
+                    "Host": "72.52.178.23"
                 }
             }
         },
@@ -1340,11 +1330,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 6",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 5",
             "type": "vmess",
-            "server": "104.19.46.17",
-            "server_port": 2086,
-            "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+            "server": "66.81.247.246",
+            "server_port": 80,
+            "uuid": "28f8d51a-0e75-4fc3-a36e-03bf4e4d0910",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1357,9 +1347,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/github.com\/Alvin9999",
+                "path": "\/vmess",
                 "headers": {
-                    "Host": "104.19.46.17"
+                    "Host": ""
                 }
             }
         },
