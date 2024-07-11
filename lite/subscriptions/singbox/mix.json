@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇨🇦CA | vless | @Parsashonam | 5",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 8",
-                "🇮🇪IE | vless | @VlessConfig | 15",
+                "🇸🇪SE | vless | @VlessConfig | 15",
                 "🇸🇪SE | vless | @ipV2Ray | 11",
                 "🇨🇦CA | vless | @melov2ray | 11",
                 "🇸🇪SE | vless | @V2pedia | 7",
@@ -125,7 +125,7 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 25",
-                "🇮🇪IE | trojan | @PrivateVPNs | 15",
+                "🇸🇪SE | trojan | @PrivateVPNs | 15",
                 "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
@@ -147,8 +147,8 @@
                 "🇨🇦CA | vless | @DailyV2RY | 166",
                 "🇸🇪SE | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 15",
-                "🇵🇱PL | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇬🇧GB | ss | @OutlineVpnOfficial | 15",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -177,7 +177,7 @@
             "outbounds": [
                 "🇨🇦CA | vless | @Parsashonam | 5",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 8",
-                "🇮🇪IE | vless | @VlessConfig | 15",
+                "🇸🇪SE | vless | @VlessConfig | 15",
                 "🇸🇪SE | vless | @ipV2Ray | 11",
                 "🇨🇦CA | vless | @melov2ray | 11",
                 "🇸🇪SE | vless | @V2pedia | 7",
@@ -194,7 +194,7 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 25",
-                "🇮🇪IE | trojan | @PrivateVPNs | 15",
+                "🇸🇪SE | trojan | @PrivateVPNs | 15",
                 "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
@@ -216,8 +216,8 @@
                 "🇨🇦CA | vless | @DailyV2RY | 166",
                 "🇸🇪SE | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 15",
-                "🇵🇱PL | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇬🇧GB | ss | @OutlineVpnOfficial | 15",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -302,9 +302,9 @@
             }
         },
         {
-            "tag": "🇮🇪IE | vless | @VlessConfig | 15",
+            "tag": "🇸🇪SE | vless | @VlessConfig | 15",
             "type": "vless",
-            "server": "54.75.135.209",
+            "server": "13.51.82.76",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -420,7 +420,7 @@
             "tag": "🇨🇦CA | vless | @ARv2ray | 17",
             "type": "vless",
             "server": "www.speedtest.net",
-            "server_port": 80,
+            "server_port": 2095,
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
@@ -431,7 +431,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry",
                 "headers": {
                     "Host": "www.speedtest.net"
                 }
@@ -700,9 +700,9 @@
             }
         },
         {
-            "tag": "🇮🇪IE | trojan | @PrivateVPNs | 15",
+            "tag": "🇸🇪SE | trojan | @PrivateVPNs | 15",
             "type": "trojan",
-            "server": "52.209.60.12",
+            "server": "13.50.210.214",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -724,7 +724,7 @@
         {
             "tag": "🇸🇪SE | trojan | @DirectVPN | 15",
             "type": "trojan",
-            "server": "16.170.118.192",
+            "server": "13.50.26.9",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1203,21 +1203,21 @@
             }
         },
         {
-            "tag": "🇵🇱PL | ss | @OutlineVpnOfficial | 15",
+            "tag": "🇬🇧GB | ss | @OutlineVpnOfficial | 15",
             "type": "shadowsocks",
-            "server": "54.36.174.181",
-            "server_port": 5001,
+            "server": "51.68.206.229",
+            "server_port": 8118,
             "method": "aes-256-gcm",
-            "password": "Y6R9pAtvxxzmGC",
+            "password": "cdBIDV42DCwnfIN",
             "plugin": "",
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "WWW.zUla.ir",
-            "server_port": 2087,
-            "uuid": "b91b3053-9602-4a60-b848-ec0eafea2087",
+            "server": "185.146.173.68",
+            "server_port": 2095,
+            "uuid": "DIGIV2RAy",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1225,21 +1225,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "uJFIFu1ys91HlcdSYXeIiFfu33EC5vY6VbI629dAhwxQTzoI8qoRXXThhsN.pagES-DEV.SIte",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=\/TELEGRAM-MARAMBASHI-MARAMBASHI\/?ed=2560",
+                "path": "\/DigiconnecT?ed=1024",
                 "headers": {
-                    "Host": "uJFIFu1ys91HlcdSYXeIiFfu33EC5vY6VbI629dAhwxQTzoI8qoRXXThhsN.pagES-DEV.SIte"
+                    "Host": "185.146.173.68"
                 }
             }
         },
