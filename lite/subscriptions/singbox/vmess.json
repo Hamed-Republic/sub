@@ -338,9 +338,9 @@
         {
             "tag": "🇺🇸US | vmess | @kingofilter | 16",
             "type": "vmess",
-            "server": "198.41.193.181",
-            "server_port": 80,
-            "uuid": "92791642-1471-4b93-980a-81030985f3ce",
+            "server": "zula.ir",
+            "server_port": 2096,
+            "uuid": "0ea36531-40ec-4390-8104-7698eac9eb57",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -351,11 +351,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "kingo.hightechservice.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess",
+                "path": "\/",
                 "headers": {
-                    "Host": ""
+                    "Host": "kingo.hightechservice.ir"
                 }
             }
         },
