@@ -117,7 +117,6 @@
                 "🇨🇦CA | vless | @ARv2ray | 18",
                 "🇨🇦CA | vless | @shh_proxy | 27",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
-                "🇸🇪SE | vless | @free_v2rayyy | 9",
                 "🇨🇦CA | vless | @lightning6 | 19",
                 "🇸🇪SE | vless | @DigiV2ray | 29",
                 "🇸🇪SE | vless | @v2logy | 11",
@@ -141,12 +140,12 @@
                 "🇨🇦CA | vless | @VmessProtocol | 7",
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | vless | @ConfigsHUB | 17",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @polproxy | 6",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
-                "🇺🇸US | vless | @v2rayng_vpnrog | 11",
+                "🇨🇦CA | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @FreakConfig | 8",
                 "🇺🇸US | vless | @flyv2ray | 8",
@@ -175,7 +174,6 @@
                 "🇨🇦CA | vless | @ARv2ray | 18",
                 "🇨🇦CA | vless | @shh_proxy | 27",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
-                "🇸🇪SE | vless | @free_v2rayyy | 9",
                 "🇨🇦CA | vless | @lightning6 | 19",
                 "🇸🇪SE | vless | @DigiV2ray | 29",
                 "🇸🇪SE | vless | @v2logy | 11",
@@ -199,12 +197,12 @@
                 "🇨🇦CA | vless | @VmessProtocol | 7",
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | vless | @ConfigsHUB | 17",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @polproxy | 6",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
-                "🇺🇸US | vless | @v2rayng_vpnrog | 11",
+                "🇨🇦CA | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @FreakConfig | 8",
                 "🇺🇸US | vless | @flyv2ray | 8",
@@ -468,27 +466,6 @@
                 "path": "\/@LOCKEY_VPN-@LOCKEY_VPN-@LOCKEY_VPN-@LOCKEY_VPN-V2",
                 "headers": {
                     "Host": "198.41.206.124"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @free_v2rayyy | 9",
-            "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 80,
-            "uuid": "80dd674e-5fd1-44f6-9244-3995828cdde5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy",
-                "headers": {
-                    "Host": "185.146.173.58"
                 }
             }
         },
@@ -1063,11 +1040,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "172.66.46.224",
-            "server_port": 443,
-            "uuid": "a8a09765-7681-47ba-9ea0-e0ae79d51088",
+            "server": "irancell.zafarinocrm.ir",
+            "server_port": 80,
+            "uuid": "3fa4c645-f6a7-4a02-85ee-7289530a6d1e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1075,21 +1052,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "t-netplus-4vx.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "t-netplus-4vx.pages.dev"
+                    "Host": "irancell.zafarinocrm.ir"
                 }
             }
         },
@@ -1198,7 +1165,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @v2rayng_vpnrog | 11",
+            "tag": "🇨🇦CA | vless | @v2rayng_vpnrog | 11",
             "type": "vless",
             "server": "104.18.41.138",
             "server_port": 8443,
