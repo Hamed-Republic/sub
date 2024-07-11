@@ -146,11 +146,11 @@
                 "🇨🇦CA | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 7",
-                "🇺🇸US | vmess | @DailyV2RY | 165",
+                "🇺🇸US | vmess | @DailyV2RY | 176",
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 17",
-                "🇩🇪DE | trojan | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -220,11 +220,11 @@
                 "🇨🇦CA | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 7",
-                "🇺🇸US | vmess | @DailyV2RY | 165",
+                "🇺🇸US | vmess | @DailyV2RY | 176",
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 17",
-                "🇩🇪DE | trojan | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -1178,7 +1178,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DailyV2RY | 165",
+            "tag": "🇺🇸US | vmess | @DailyV2RY | 176",
             "type": "vmess",
             "server": "155.138.164.71",
             "server_port": 8881,
@@ -1255,11 +1255,13 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇩🇪DE | trojan | @ConfigsHUB | 19",
-            "type": "trojan",
-            "server": "3.77.112.216",
-            "server_port": 22222,
-            "password": "telegram-id-directvpn",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "104.18.164.217",
+            "server_port": 443,
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1267,12 +1269,19 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
+                "server_name": "mmdv2.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "mmdv2.pages.dev"
                 }
             }
         },
