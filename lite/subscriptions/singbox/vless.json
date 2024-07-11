@@ -131,7 +131,6 @@
                 "🇸🇪SE | vless | @customv2ray | 17",
                 "🇨🇦CA | vless | @UnlimitedDev | 18",
                 "🇨🇦CA | vless | @vmessorg | 9",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 1",
                 "🇸🇪SE | vless | @ShadowProxy66 | 2",
                 "🇸🇪SE | vless | @ServerNett | 11",
                 "🇸🇪SE | vless | @v2ray_swhil | 11",
@@ -146,6 +145,7 @@
                 "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @free1_vpn | 0",
+                "🇸🇪SE | vless | @fnet00 | 4",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇺🇸US | vless | @Outlinev2rayNG | 16",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 12",
@@ -191,7 +191,6 @@
                 "🇸🇪SE | vless | @customv2ray | 17",
                 "🇨🇦CA | vless | @UnlimitedDev | 18",
                 "🇨🇦CA | vless | @vmessorg | 9",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 1",
                 "🇸🇪SE | vless | @ShadowProxy66 | 2",
                 "🇸🇪SE | vless | @ServerNett | 11",
                 "🇸🇪SE | vless | @v2ray_swhil | 11",
@@ -206,6 +205,7 @@
                 "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @free1_vpn | 0",
+                "🇸🇪SE | vless | @fnet00 | 4",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇺🇸US | vless | @Outlinev2rayNG | 16",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 12",
@@ -813,37 +813,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 1",
-            "type": "vless",
-            "server": "allsms.rozfa.com",
-            "server_port": 443,
-            "uuid": "6a89dc04-7781-46fe-b35c-e14a6b6e60b8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "TeST-TESt-tEst-tESt.PagES.DEV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "TeST-TESt-tEst-tESt.PagES.DEV"
-                }
-            }
-        },
-        {
             "tag": "🇸🇪SE | vless | @ShadowProxy66 | 2",
             "type": "vless",
             "server": "185.146.173.237",
@@ -1093,9 +1062,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "wWW.ZUla.IR",
-            "server_port": 2083,
-            "uuid": "b91b3053-9602-4a60-b848-ec0eafea2083",
+            "server": "162.159.129.17",
+            "server_port": 80,
+            "uuid": "7a5a4624-df8d-4955-bccc-b3fa6161411f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1103,21 +1072,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "i4ipfkReH2af2T1jUOfS89s4sRTYLdD6l0sfulUuHYjYOYQH0eBdG1o8Jgk.PAgeS-dEV.siTE",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=\/TELEGRAM-MARAMBASHI-MARAMBASHI\/?ed=2560",
+                "path": "\/T,E,L,E,G,R,A,M,X,V,2,R,A,Y?ed=2560",
                 "headers": {
-                    "Host": "i4ipfkReH2af2T1jUOfS89s4sRTYLdD6l0sfulUuHYjYOYQH0eBdG1o8Jgk.PAgeS-dEV.siTE"
+                    "Host": "162.159.129.17"
                 }
             }
         },
@@ -1180,6 +1139,27 @@
                 "path": "\/?ed=2560",
                 "headers": {
                     "Host": "bpb-worker-panel3.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @fnet00 | 4",
+            "type": "vless",
+            "server": "185.146.173.58",
+            "server_port": 2052,
+            "uuid": "7e040bcf-4a9b-45d5-8b90-f8c539d7a29d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-configMs",
+                "headers": {
+                    "Host": "185.146.173.58"
                 }
             }
         },
