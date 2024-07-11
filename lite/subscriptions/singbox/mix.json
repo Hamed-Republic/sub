@@ -115,7 +115,7 @@
                 "🇨🇷CR | vless | @V2pedia | 10",
                 "🇨🇦CA | vless | @frev2ray | 2",
                 "🇨🇦CA | vless | @ARv2ray | 18",
-                "🇨🇦CA | vless | @shh_proxy | 27",
+                "🇨🇦CA | vless | @shh_proxy | 28",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇸🇪SE | vless | @free_v2rayyy | 8",
                 "🇨🇦CA | vless | @lightning6 | 19",
@@ -131,7 +131,7 @@
                 "🇨🇦CA | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇹🇷TR | vmess | @oneclickvpnkeys | 2",
+                "🇫🇷FR | vmess | @oneclickvpnkeys | 1",
                 "🇹🇷TR | vless | @Outline_Vpn | 18",
                 "🇮🇷IR | vless | @prrofile_purple | 181",
                 "🇸🇪SE | vless | @customv2ray | 17",
@@ -150,7 +150,7 @@
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 15",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 15",
-                "🇸🇪SE | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -188,7 +188,7 @@
                 "🇨🇷CR | vless | @V2pedia | 10",
                 "🇨🇦CA | vless | @frev2ray | 2",
                 "🇨🇦CA | vless | @ARv2ray | 18",
-                "🇨🇦CA | vless | @shh_proxy | 27",
+                "🇨🇦CA | vless | @shh_proxy | 28",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇸🇪SE | vless | @free_v2rayyy | 8",
                 "🇨🇦CA | vless | @lightning6 | 19",
@@ -204,7 +204,7 @@
                 "🇨🇦CA | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇹🇷TR | vmess | @oneclickvpnkeys | 2",
+                "🇫🇷FR | vmess | @oneclickvpnkeys | 1",
                 "🇹🇷TR | vless | @Outline_Vpn | 18",
                 "🇮🇷IR | vless | @prrofile_purple | 181",
                 "🇸🇪SE | vless | @customv2ray | 17",
@@ -223,7 +223,7 @@
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 15",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 15",
-                "🇸🇪SE | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -333,7 +333,7 @@
         {
             "tag": "🇨🇦CA | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "52.60.97.51",
+            "server": "15.223.11.36",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -449,7 +449,7 @@
             "tag": "🇨🇦CA | vless | @ARv2ray | 18",
             "type": "vless",
             "server": "www.speedtest.net",
-            "server_port": 2095,
+            "server_port": 80,
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
@@ -460,18 +460,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
                     "Host": "www.speedtest.net"
                 }
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @shh_proxy | 27",
+            "tag": "🇨🇦CA | vless | @shh_proxy | 28",
             "type": "vless",
             "server": "104.22.13.192",
             "server_port": 80,
-            "uuid": "--Shh-Proxy-",
+            "uuid": "--Shh-Proxy--",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -835,11 +835,11 @@
             }
         },
         {
-            "tag": "🇹🇷TR | vmess | @oneclickvpnkeys | 2",
+            "tag": "🇫🇷FR | vmess | @oneclickvpnkeys | 1",
             "type": "vmess",
-            "server": "45.89.52.114",
-            "server_port": 13701,
-            "uuid": "86a0c17d-1871-40e3-db65-2b9bf1a7650e",
+            "server": "23.162.152.6",
+            "server_port": 22324,
+            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1298,11 +1298,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 17",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "185.146.173.68",
-            "server_port": 2095,
-            "uuid": "-----DIGIV2RAY----",
+            "server": "www.parsvds.ir",
+            "server_port": 8080,
+            "uuid": "78c28b24-01f0-4ab3-9e1d-d7634c52beea",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1312,9 +1312,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/DigiconnecT?ed=1024",
+                "path": "\/SHHPROXY?ed=8080",
                 "headers": {
-                    "Host": "185.146.173.68"
+                    "Host": "www.parsvds.ir"
                 }
             }
         },
