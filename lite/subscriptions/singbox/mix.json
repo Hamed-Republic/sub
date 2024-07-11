@@ -124,7 +124,7 @@
                 "🇨🇦CA | vless | @V2rayCollector | 24",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
-                "🇸🇪SE | vless | @V2rayNGn | 25",
+                "🇸🇪SE | vless | @V2rayNGn | 22",
                 "🇸🇪SE | trojan | @PrivateVPNs | 15",
                 "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
@@ -148,15 +148,15 @@
                 "🇸🇪SE | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 15",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 15",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇺🇸US | vmess | @Hope_Net | 6",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
-                "🇺🇸US | vless | @v2rayng_vpnrog | 11",
-                "🇺🇸US | vmess | @v2rayng_config_amin | 3",
+                "🇨🇦CA | vless | @v2rayng_vpnrog | 11",
+                "🇨🇦CA | vmess | @v2rayng_config_amin | 3",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 4",
                 "🇺🇸US | vless | @flyv2ray | 8",
@@ -193,7 +193,7 @@
                 "🇨🇦CA | vless | @V2rayCollector | 24",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
-                "🇸🇪SE | vless | @V2rayNGn | 25",
+                "🇸🇪SE | vless | @V2rayNGn | 22",
                 "🇸🇪SE | trojan | @PrivateVPNs | 15",
                 "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
@@ -217,15 +217,15 @@
                 "🇸🇪SE | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 15",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 15",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇺🇸US | vmess | @Hope_Net | 6",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
-                "🇺🇸US | vless | @v2rayng_vpnrog | 11",
-                "🇺🇸US | vmess | @v2rayng_config_amin | 3",
+                "🇨🇦CA | vless | @v2rayng_vpnrog | 11",
+                "🇨🇦CA | vmess | @v2rayng_config_amin | 3",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 4",
                 "🇺🇸US | vless | @flyv2ray | 8",
@@ -304,7 +304,7 @@
         {
             "tag": "🇸🇪SE | vless | @VlessConfig | 15",
             "type": "vless",
-            "server": "13.51.82.76",
+            "server": "51.21.147.221",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -440,15 +440,22 @@
         {
             "tag": "🇨🇦CA | vless | @shh_proxy | 29",
             "type": "vless",
-            "server": "104.22.13.192",
-            "server_port": 80,
-            "uuid": "--Shh-Proxy--",
+            "server": "www.parsvds.ir",
+            "server_port": 8080,
+            "uuid": "dc8d6d5d-0696-480b-8676-ef76e025f7ed",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/SHHPROXY?ed=8080",
+                "headers": {
+                    "Host": "www.parsvds.ir"
+                }
             }
         },
         {
@@ -679,11 +686,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2rayNGn | 25",
+            "tag": "🇸🇪SE | vless | @V2rayNGn | 22",
             "type": "vless",
             "server": "VPNCUSTOMIZE.Elmahstyle.ir",
             "server_port": 8080,
-            "uuid": "Join_bede_VPNCUSTOMIZE",
+            "uuid": "Source_VPNCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -702,7 +709,7 @@
         {
             "tag": "🇸🇪SE | trojan | @PrivateVPNs | 15",
             "type": "trojan",
-            "server": "13.50.210.214",
+            "server": "13.48.229.76",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -1213,11 +1220,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "185.146.173.68",
-            "server_port": 2095,
-            "uuid": "DIGIV2RAy",
+            "server": "104.24.185.137",
+            "server_port": 8080,
+            "uuid": "Parsashonam-9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1227,9 +1234,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/DigiconnecT?ed=1024",
+                "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "185.146.173.68"
+                    "Host": "104.24.185.137"
                 }
             }
         },
@@ -1396,7 +1403,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @v2rayng_vpnrog | 11",
+            "tag": "🇨🇦CA | vless | @v2rayng_vpnrog | 11",
             "type": "vless",
             "server": "104.18.41.138",
             "server_port": 8443,
@@ -1427,7 +1434,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2rayng_config_amin | 3",
+            "tag": "🇨🇦CA | vmess | @v2rayng_config_amin | 3",
             "type": "vmess",
             "server": "505.outline-vpn.cloud",
             "server_port": 443,
