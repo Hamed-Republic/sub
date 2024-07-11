@@ -150,11 +150,11 @@
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 17",
-                "🇫🇷FR | vless | @ConfigsHUB | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇨🇦CA | vmess | @Hope_Net | 1",
+                "🇨🇦CA | vmess | @Hope_Net | 2",
                 "🇸🇪SE | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 15",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 11",
@@ -224,11 +224,11 @@
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 17",
-                "🇫🇷FR | vless | @ConfigsHUB | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇨🇦CA | vmess | @Hope_Net | 1",
+                "🇨🇦CA | vmess | @Hope_Net | 2",
                 "🇸🇪SE | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 15",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 11",
@@ -1259,11 +1259,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇫🇷FR | vless | @ConfigsHUB | 15",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "51.159.175.248",
-            "server_port": 443,
-            "uuid": "7ba714bc-e127-428b-8cde-2dc4e74588ba",
+            "server": "zula.ir",
+            "server_port": 2095,
+            "uuid": "-----DIGIV2RAY----",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1271,21 +1271,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "da071146-d0ef-4467-a07e-99fe04a40829.pub.instances.scw.cloud",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/2dc4e74588ba",
+                "path": "\/DigiconnecT?ed=1024",
                 "headers": {
-                    "Host": "da071146-d0ef-4467-a07e-99fe04a40829.pub.instances.scw.cloud"
+                    "Host": "zula.ir"
                 }
             }
         },
@@ -1386,7 +1376,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 1",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 2",
             "type": "vmess",
             "server": "104.20.239.88",
             "server_port": 80,
