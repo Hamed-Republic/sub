@@ -142,7 +142,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 10",
                 "🇨🇦CA | vless | @DailyV2RY | 120",
-                "🇨🇦CA | vless | @ConfigsHUB | 14",
+                "🇳🇱NL | vless | @ConfigsHUB | 16",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 5",
@@ -205,7 +205,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 10",
                 "🇨🇦CA | vless | @DailyV2RY | 120",
-                "🇨🇦CA | vless | @ConfigsHUB | 14",
+                "🇳🇱NL | vless | @ConfigsHUB | 16",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 5",
@@ -1120,12 +1120,12 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 14",
+            "tag": "🇳🇱NL | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "104.18.41.138",
-            "server_port": 8443,
-            "uuid": "9a39f63e-28c8-4560-af18-b01b9916ef1b",
-            "flow": "",
+            "server": "103.229.81.118",
+            "server_port": 443,
+            "uuid": "20e32d2b-2c6b-4d41-9b26-19e4e963b781",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1134,19 +1134,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "pardazesh-tgws.pages.dev",
+                "server_name": "google.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/TELEGRAM-MARAMBASHI-MARAMBASHI\/",
-                "headers": {
-                    "Host": "pardazesh-tgws.pages.dev"
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "KxR82IdwUTfNKYalbtZyhdW8T3Qy1vl5KIwaJ4LAe04",
+                    "short_id": "b0c7f249"
                 }
             }
         },
@@ -1257,9 +1255,9 @@
         {
             "tag": "🇺🇸US | vless | @Outlinev2rayNG | 15",
             "type": "vless",
-            "server": "www.parsvds.ir",
-            "server_port": 8080,
-            "uuid": "65e83037-ea8c-4cf9-a36b-1bf364bbb6fd",
+            "server": "162.159.129.17",
+            "server_port": 80,
+            "uuid": "7a5a4624-df8d-4955-bccc-b3fa6161411f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1269,9 +1267,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/VPNCUSTOMIZE?ed=8080",
+                "path": "\/T,E,L,E,G,R,A,M,X,V,2,R,A,Y?ed=2560",
                 "headers": {
-                    "Host": "www.parsvds.ir"
+                    "Host": "162.159.129.17"
                 }
             }
         },
