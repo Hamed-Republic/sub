@@ -148,14 +148,14 @@
                 "🏳️XX | vless | @DailyV2RY | 150",
                 "🇸🇪SE | vless | @sinabigo | 1",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇨🇦CA | vmess | @Hope_Net | 4",
+                "🇨🇦CA | vmess | @Hope_Net | 2",
                 "🇸🇪SE | vless | @fnet00 | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇺🇸US | vless | @Outlinev2rayNG | 16",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 16",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 12",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -163,7 +163,7 @@
                 "🇺🇸US | vless | @flyv2ray | 9",
                 "🇮🇷IR | vless | @FAKEOFTVC | 0",
                 "🇺🇸US | vless | @mehrosaboran | 4",
-                "🇺🇸US | vless | @kiava | 7",
+                "🇺🇸US | vless | @kiava | 8",
                 "🇺🇸US | vless | @proxy_mtm | 0",
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🇺🇸US | vless | @kingofilter | 13",
@@ -221,14 +221,14 @@
                 "🏳️XX | vless | @DailyV2RY | 150",
                 "🇸🇪SE | vless | @sinabigo | 1",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇨🇦CA | vmess | @Hope_Net | 4",
+                "🇨🇦CA | vmess | @Hope_Net | 2",
                 "🇸🇪SE | vless | @fnet00 | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇺🇸US | vless | @Outlinev2rayNG | 16",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 16",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 12",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -236,7 +236,7 @@
                 "🇺🇸US | vless | @flyv2ray | 9",
                 "🇮🇷IR | vless | @FAKEOFTVC | 0",
                 "🇺🇸US | vless | @mehrosaboran | 4",
-                "🇺🇸US | vless | @kiava | 7",
+                "🇺🇸US | vless | @kiava | 8",
                 "🇺🇸US | vless | @proxy_mtm | 0",
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🇺🇸US | vless | @kingofilter | 13",
@@ -1230,11 +1230,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "188.114.97.3",
-            "server_port": 443,
-            "uuid": "fb853741-88ef-4aa0-ba2f-999f04535960",
+            "server": "185.146.173.68",
+            "server_port": 2095,
+            "uuid": "DIGIV2RAy",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1242,21 +1242,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "HovEyda-ARIAMEHR-KinG.PAgEs.Dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/JOIN-Proxy_mtm\/",
+                "path": "\/DigiconnecT?ed=1024",
                 "headers": {
-                    "Host": "HovEyda-ARIAMEHR-KinG.PAgEs.Dev"
+                    "Host": "185.146.173.68"
                 }
             }
         },
@@ -1357,11 +1347,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 4",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 2",
             "type": "vmess",
-            "server": "104.19.47.36",
-            "server_port": 2086,
-            "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+            "server": "104.19.232.179",
+            "server_port": 2052,
+            "uuid": "c712c725-149f-414a-a684-1e17d137fe4f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1374,9 +1364,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/github.com\/Alvin9999",
+                "path": "\/video\/DDC4btA8wc\/",
                 "headers": {
-                    "Host": "104.19.47.36"
+                    "Host": "104.19.232.179"
                 }
             }
         },
@@ -1423,7 +1413,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 16",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 16",
             "type": "vless",
             "server": "avval.ir",
             "server_port": 8443,
@@ -1662,7 +1652,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @kiava | 7",
+            "tag": "🇺🇸US | vless | @kiava | 8",
             "type": "vless",
             "server": "serverpars.com",
             "server_port": 2052,
