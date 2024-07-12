@@ -147,15 +147,15 @@
                 "🇨🇦CA | vless | @DailyV2RY | 153",
                 "🇸🇪SE | vless | @sinabigo | 1",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
+                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 16",
-                "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
-                "🇨🇦CA | vless | @v2rayng_config_amin | 2",
+                "🇺🇸US | vless | @Outlinev2rayNG | 16",
+                "🇺🇸US | vless | @v2rayng_vpnrog | 12",
+                "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 5",
                 "🇸🇪SE | vless | @flyv2ray | 9",
@@ -218,15 +218,15 @@
                 "🇨🇦CA | vless | @DailyV2RY | 153",
                 "🇸🇪SE | vless | @sinabigo | 1",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
+                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 16",
-                "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
-                "🇨🇦CA | vless | @v2rayng_config_amin | 2",
+                "🇺🇸US | vless | @Outlinev2rayNG | 16",
+                "🇺🇸US | vless | @v2rayng_vpnrog | 12",
+                "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 5",
                 "🇸🇪SE | vless | @flyv2ray | 9",
@@ -1205,33 +1205,26 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
-            "type": "vless",
-            "server": "proxyforopetaa.bestgameir.ir",
-            "server_port": 2083,
-            "uuid": "eec0b5ba-5ebf-43a8-9671-c27c4552ca8b",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 18",
+            "type": "vmess",
+            "server": "104.21.8.157",
+            "server_port": 2082,
+            "uuid": "112ac36f-3f53-4e26-8371-d25c028e1b9a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "proxyforopetaa.bestgameir.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/JoinChanel-@proxyforopeta-telegram:@proxyforopeta-telegram-proxyforopeta-joinchanel@proxyforopeta.@proxyforopeta.join-@proxyforopeta.telegram:@proxyforopeta",
+                "path": "\/",
                 "headers": {
-                    "Host": "proxyforopetaa.bestgameir.ir"
+                    "Host": ""
                 }
             }
         },
@@ -1374,7 +1367,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 16",
+            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 16",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2087,
@@ -1405,7 +1398,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
+            "tag": "🇺🇸US | vless | @v2rayng_vpnrog | 12",
             "type": "vless",
             "server": "104.18.41.138",
             "server_port": 8443,
@@ -1436,7 +1429,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayng_config_amin | 2",
+            "tag": "🇺🇸US | vless | @v2rayng_config_amin | 2",
             "type": "vless",
             "server": "172.66.44.181",
             "server_port": 443,
