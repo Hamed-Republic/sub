@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @EliV2ray | 17",
+                "🇨🇦CA | vless | @EliV2ray | 18",
                 "🇨🇦CA | vless | @Parsashonam | 5",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 8",
                 "🇫🇷FR | vless | @VlessConfig | 15",
@@ -117,7 +117,7 @@
                 "🇩🇪DE | vless | @ARv2ray | 17",
                 "🇨🇦CA | vless | @shh_proxy | 29",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
-                "🇨🇦CA | vless | @free_v2rayyy | 7",
+                "🇨🇦CA | vless | @free_v2rayyy | 6",
                 "🇨🇦CA | vless | @lightning6 | 21",
                 "🇸🇪SE | vless | @DigiV2ray | 29",
                 "🇸🇪SE | vless | @v2logy | 10",
@@ -142,7 +142,7 @@
                 "🇮🇷IR | vless | @VmessProtocol | 10",
                 "🏳️XX | vless | @DailyV2RY | 150",
                 "🇸🇪SE | vless | @sinabigo | 1",
-                "🇮🇷IR | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 5",
@@ -169,7 +169,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @EliV2ray | 17",
+                "🇨🇦CA | vless | @EliV2ray | 18",
                 "🇨🇦CA | vless | @Parsashonam | 5",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 8",
                 "🇫🇷FR | vless | @VlessConfig | 15",
@@ -180,7 +180,7 @@
                 "🇩🇪DE | vless | @ARv2ray | 17",
                 "🇨🇦CA | vless | @shh_proxy | 29",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
-                "🇨🇦CA | vless | @free_v2rayyy | 7",
+                "🇨🇦CA | vless | @free_v2rayyy | 6",
                 "🇨🇦CA | vless | @lightning6 | 21",
                 "🇸🇪SE | vless | @DigiV2ray | 29",
                 "🇸🇪SE | vless | @v2logy | 10",
@@ -205,7 +205,7 @@
                 "🇮🇷IR | vless | @VmessProtocol | 10",
                 "🏳️XX | vless | @DailyV2RY | 150",
                 "🇸🇪SE | vless | @sinabigo | 1",
-                "🇮🇷IR | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 5",
@@ -248,7 +248,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | @EliV2ray | 17",
+            "tag": "🇨🇦CA | vless | @EliV2ray | 18",
             "type": "vless",
             "server": "iranserver.com",
             "server_port": 8080,
@@ -313,7 +313,7 @@
         {
             "tag": "🇫🇷FR | vless | @VlessConfig | 15",
             "type": "vless",
-            "server": "13.38.177.240",
+            "server": "13.39.26.255",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -504,7 +504,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @free_v2rayyy | 7",
+            "tag": "🇨🇦CA | vless | @free_v2rayyy | 6",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -1098,11 +1098,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @ConfigsHUB | 17",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "188.121.118.55",
-            "server_port": 443,
-            "uuid": "54ef4ecf-ff37-436a-be13-95c8a8a1114d",
+            "server": "www.Speedtest.Net",
+            "server_port": 2095,
+            "uuid": "DIGIV2RAy",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1110,21 +1110,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "vIrGiNiAvPn-nL.pAgEs.dEv",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/DigiconnecT?ed=1024",
                 "headers": {
-                    "Host": "vIrGiNiAvPn-nL.pAgEs.dEv"
+                    "Host": "www.Speedtest.Net"
                 }
             }
         },
@@ -1235,9 +1225,9 @@
         {
             "tag": "🇺🇸US | vless | @Outlinev2rayNG | 15",
             "type": "vless",
-            "server": "172.67.198.111",
+            "server": "188.114.97.141",
             "server_port": 443,
-            "uuid": "11e5b771-1d4d-4362-b4b5-e39e75981f01",
+            "uuid": "d7bbfe83-b037-48ae-996c-b98ed0441ba2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1247,7 +1237,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "3e8B07A5.PUb000bpB.PAGes.Dev",
+                "server_name": "e10c0e4b.oodaeq2.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1257,9 +1247,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/ZYgm9Gg9QBkAXfbG?ed=2560",
+                "path": "\/TELEGRAM-proxy_mtm\/",
                 "headers": {
-                    "Host": "3e8B07A5.PUb000bpB.PAGes.Dev"
+                    "Host": "e10c0e4b.oodaeq2.pages.dev"
                 }
             }
         },
