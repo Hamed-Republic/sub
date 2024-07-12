@@ -131,7 +131,7 @@
                 "🇮🇪IE | trojan | @DirectVPN | 13",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇫🇷FR | vmess | @oneclickvpnkeys | 3",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 2",
                 "🇹🇷TR | vless | @Outline_Vpn | 18",
                 "🇸🇪SE | vless | @prrofile_purple | 181",
                 "🇸🇪SE | vless | @customv2ray | 17",
@@ -150,7 +150,7 @@
                 "🇸🇪SE | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 12",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -206,7 +206,7 @@
                 "🇮🇪IE | trojan | @DirectVPN | 13",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇫🇷FR | vmess | @oneclickvpnkeys | 3",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 2",
                 "🇹🇷TR | vless | @Outline_Vpn | 18",
                 "🇸🇪SE | vless | @prrofile_purple | 181",
                 "🇸🇪SE | vless | @customv2ray | 17",
@@ -225,7 +225,7 @@
                 "🇸🇪SE | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 12",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -475,7 +475,7 @@
             "type": "vless",
             "server": "www.parsvds.ir",
             "server_port": 8080,
-            "uuid": "dc8d6d5d-0696-480b-8676-ef76e025f7ed",
+            "uuid": "625cbf50-ea54-481e-85d4-c02656eb5d69",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -670,9 +670,9 @@
         {
             "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "d8020643-38ab-4a07-882a-885377aab8ed",
+            "server": "zula.ir",
+            "server_port": 8080,
+            "uuid": "00114363-e4b7-4dab-a9bf-956ccadf84f7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -680,21 +680,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "darcymooney.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=2560",
+                "path": "\/t.me\/V2rayFa-V2rayng-v2rayNgfree-telegram-t.me\/V2rayfa_telegram",
                 "headers": {
-                    "Host": "darcymooney.pages.dev"
+                    "Host": "zula.ir"
                 }
             }
         },
@@ -814,9 +804,9 @@
         {
             "tag": "🇨🇦CA | vmess | @mftizi | 19",
             "type": "vmess",
-            "server": "cfcdn3.sanfencdn9.com",
-            "server_port": 2052,
-            "uuid": "3c5046b4-1a9c-427c-8a55-e355846a9e4a",
+            "server": "cfd.ipa.monster",
+            "server_port": 8080,
+            "uuid": "e608f1bb-e26d-4bc2-8f68-ac0e8a073c7f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -829,18 +819,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/video\/Zo98PYfE",
+                "path": "\/itdog?ed=2560",
                 "headers": {
                     "Host": ""
                 }
             }
         },
         {
-            "tag": "🇫🇷FR | vmess | @oneclickvpnkeys | 3",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 2",
             "type": "vmess",
-            "server": "23.162.152.6",
-            "server_port": 22324,
-            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+            "server": "188.114.97.3",
+            "server_port": 80,
+            "uuid": "b79a6959-6feb-43ba-b3c7-f1afae9ea32c",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -850,6 +840,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -1271,11 +1268,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "speedtest.org",
+            "server": "104.19.104.150",
             "server_port": 443,
-            "uuid": "1d86846c-5a27-43c8-8981-57bb75c82195",
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1285,7 +1282,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "iyjil.cfonni.info",
+                "server_name": "mmdv2.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1295,9 +1292,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/paradise",
+                "path": "\/?ed=2560\/TELEGRAM-MARAMBASHI-MARAMBASHI\/",
                 "headers": {
-                    "Host": "iyjil.cfonni.info"
+                    "Host": "mmdv2.pages.dev"
                 }
             }
         },
