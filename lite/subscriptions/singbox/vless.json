@@ -1100,9 +1100,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "www.Speedtest.Net",
-            "server_port": 2095,
-            "uuid": "DIGIV2RAy",
+            "server": "172.67.204.84",
+            "server_port": 2083,
+            "uuid": "b91b3053-9602-4a60-b848-ec0eafea2083",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1110,11 +1110,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "i4ipfkReH2af2T1jUOfS89s4sRTYLdD6l0sfulUuHYjYOYQH0eBdG1o8Jgk.PAgeS-dEV.siTE",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/DigiconnecT?ed=1024",
+                "path": "\/?ed=\/TELEGRAM-MARAMBASHI-MARAMBASHI\/?ed=2560",
                 "headers": {
-                    "Host": "www.Speedtest.Net"
+                    "Host": "i4ipfkReH2af2T1jUOfS89s4sRTYLdD6l0sfulUuHYjYOYQH0eBdG1o8Jgk.PAgeS-dEV.siTE"
                 }
             }
         },
