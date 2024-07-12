@@ -114,7 +114,7 @@
                 "🇨🇦CA | vless | @melov2ray | 13",
                 "🇸🇪SE | vless | @V2pedia | 7",
                 "🇨🇦CA | vless | @frev2ray | 1",
-                "🇩🇪DE | vless | @ARv2ray | 17",
+                "🇨🇦CA | vless | @ARv2ray | 17",
                 "🇨🇦CA | vless | @shh_proxy | 29",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇨🇦CA | vless | @free_v2rayyy | 5",
@@ -143,7 +143,7 @@
                 "🇮🇷IR | vless | @VmessProtocol | 10",
                 "🏳️XX | vless | @DailyV2RY | 132",
                 "🇸🇪SE | vless | @sinabigo | 1",
-                "🇮🇷IR | vless | @ConfigsHUB | 13",
+                "🇺🇸US | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 5",
@@ -178,7 +178,7 @@
                 "🇨🇦CA | vless | @melov2ray | 13",
                 "🇸🇪SE | vless | @V2pedia | 7",
                 "🇨🇦CA | vless | @frev2ray | 1",
-                "🇩🇪DE | vless | @ARv2ray | 17",
+                "🇨🇦CA | vless | @ARv2ray | 17",
                 "🇨🇦CA | vless | @shh_proxy | 29",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇨🇦CA | vless | @free_v2rayyy | 5",
@@ -207,7 +207,7 @@
                 "🇮🇷IR | vless | @VmessProtocol | 10",
                 "🏳️XX | vless | @DailyV2RY | 132",
                 "🇸🇪SE | vless | @sinabigo | 1",
-                "🇮🇷IR | vless | @ConfigsHUB | 13",
+                "🇺🇸US | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 5",
@@ -428,39 +428,24 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ARv2ray | 17",
+            "tag": "🇨🇦CA | vless | @ARv2ray | 17",
             "type": "vless",
-            "server": "94.130.104.103",
-            "server_port": 443,
+            "server": "www.speedtest.net",
+            "server_port": 2095,
             "uuid": "telegram-id-ArV2ray",
-            "flow": "xtls-rprx-vision",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "YL2D7AH8z3XwmI3w2wOItAaLxhADodJwVXQ5h4Rfi2w",
-                    "short_id": "1493c94d"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
             }
         },
         {
@@ -1131,11 +1116,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @ConfigsHUB | 13",
+            "tag": "🇺🇸US | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "185.143.233.5",
+            "server": "1-1-1-1.pc-guide.sbs",
             "server_port": 80,
-            "uuid": "57cbd1f6-f30f-4d84-ec7b-aefa613cd508",
+            "uuid": "652ae64c-d370-4edb-a271-0fbb0a72fc30",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1147,7 +1132,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "185.143.233.5"
+                    "Host": "1-1-1-1.pc-guide.sbs"
                 }
             }
         },
