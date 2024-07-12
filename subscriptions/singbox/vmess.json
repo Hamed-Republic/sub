@@ -121,6 +121,7 @@
                 "🇺🇸US | vmess | @DeamNet_Proxy | 10",
                 "🇮🇷IR | vmess | @oneclickvpnkeys | 1",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 2",
+                "🇮🇷IR | vmess | @prrofile_purple | 171",
                 "🇺🇸US | vmess | @v2ray1_ng | 10",
                 "🏳️XX | vmess | @DailyV2RY | 110",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
@@ -165,6 +166,7 @@
                 "🇺🇸US | vmess | @DeamNet_Proxy | 10",
                 "🇮🇷IR | vmess | @oneclickvpnkeys | 1",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 2",
+                "🇮🇷IR | vmess | @prrofile_purple | 171",
                 "🇺🇸US | vmess | @v2ray1_ng | 10",
                 "🏳️XX | vmess | @DailyV2RY | 110",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
@@ -545,6 +547,23 @@
                 "headers": {
                     "Host": ""
                 }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vmess | @prrofile_purple | 171",
+            "type": "vmess",
+            "server": "dl-g2.arashdownload.ir",
+            "server_port": 33431,
+            "uuid": "4a049f0e-ba67-4a36-853f-a74df24368ec",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
