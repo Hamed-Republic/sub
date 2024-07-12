@@ -109,7 +109,6 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 2",
-                "🇮🇩ID | vmess | @ConfigsHUB | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @v2Line | 5",
                 "🇺🇸US | vmess | @ROMAX_VPN | 1"
@@ -122,7 +121,6 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 2",
-                "🇮🇩ID | vmess | @ConfigsHUB | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @v2Line | 5",
                 "🇺🇸US | vmess | @ROMAX_VPN | 1"
@@ -207,30 +205,6 @@
             "transport": {
                 "type": "ws",
                 "path": "\/github.com\/Alvin9999",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇮🇩ID | vmess | @ConfigsHUB | 18",
-            "type": "vmess",
-            "server": "id1.ubaistore.my.id",
-            "server_port": 80,
-            "uuid": "7e872fff-2f77-4fa1-813b-70b2f41dd128",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmessws",
                 "headers": {
                     "Host": ""
                 }

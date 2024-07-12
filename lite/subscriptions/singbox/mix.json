@@ -127,8 +127,8 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 20",
-                "🇮🇪IE | trojan | @PrivateVPNs | 13",
-                "🇮🇪IE | trojan | @DirectVPN | 13",
+                "🇸🇪SE | trojan | @PrivateVPNs | 13",
+                "🇨🇦CA | trojan | @DirectVPN | 13",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 2",
@@ -150,13 +150,13 @@
                 "🇸🇪SE | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 12",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 17",
-                "🇮🇩ID | vmess | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇺🇸US | vless | @Outlinev2rayNG | 14",
+                "🇺🇸US | vless | @Outlinev2rayNG | 15",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 12",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -201,8 +201,8 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 20",
-                "🇮🇪IE | trojan | @PrivateVPNs | 13",
-                "🇮🇪IE | trojan | @DirectVPN | 13",
+                "🇸🇪SE | trojan | @PrivateVPNs | 13",
+                "🇨🇦CA | trojan | @DirectVPN | 13",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 2",
@@ -224,13 +224,13 @@
                 "🇸🇪SE | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 12",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 17",
-                "🇮🇩ID | vmess | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇺🇸US | vless | @Outlinev2rayNG | 14",
+                "🇺🇸US | vless | @Outlinev2rayNG | 15",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 12",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -335,7 +335,7 @@
         {
             "tag": "🇺🇸US | vless | @VlessConfig | 13",
             "type": "vless",
-            "server": "54.89.49.242",
+            "server": "100.29.55.217",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -739,9 +739,9 @@
             }
         },
         {
-            "tag": "🇮🇪IE | trojan | @PrivateVPNs | 13",
+            "tag": "🇸🇪SE | trojan | @PrivateVPNs | 13",
             "type": "trojan",
-            "server": "54.170.135.35",
+            "server": "13.51.179.122",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -761,9 +761,9 @@
             }
         },
         {
-            "tag": "🇮🇪IE | trojan | @DirectVPN | 13",
+            "tag": "🇨🇦CA | trojan | @DirectVPN | 13",
             "type": "trojan",
-            "server": "99.80.68.126",
+            "server": "15.157.194.104",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1266,26 +1266,33 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇮🇩ID | vmess | @ConfigsHUB | 18",
-            "type": "vmess",
-            "server": "id1.ubaistore.my.id",
-            "server_port": 80,
-            "uuid": "7e872fff-2f77-4fa1-813b-70b2f41dd128",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "104.24.196.20",
+            "server_port": 2053,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "936a99B4.Vde5-MlX81LANeo.pAgES.dEv",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/vmessws",
+                "path": "\/TELEGRAM-@MARAMBASHI-MARAMBASHI\/?ed=2560",
                 "headers": {
-                    "Host": ""
+                    "Host": "936a99B4.Vde5-MlX81LANeo.pAgES.dEv"
                 }
             }
         },
@@ -1428,7 +1435,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 14",
+            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 15",
             "type": "vless",
             "server": "www.parsvds.ir",
             "server_port": 8080,
