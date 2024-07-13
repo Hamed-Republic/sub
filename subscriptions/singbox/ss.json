@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇨🇦CA | ss | @DeamNet_Proxy | 17",
                 "🇳🇱NL | ss | @OutlineVpnOfficial | 1",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 3",
                 "🇳🇱NL | ss | @OutlineVpnOfficial | 4",
@@ -118,13 +119,14 @@
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 13",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 14",
                 "🇪🇸ES | ss | @OutlineVpnOfficial | 15",
-                "🇬🇧GB | ss | @kingofilter | 8"
+                "🇬🇧GB | ss | @kingofilter | 10"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇨🇦CA | ss | @DeamNet_Proxy | 17",
                 "🇳🇱NL | ss | @OutlineVpnOfficial | 1",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 3",
                 "🇳🇱NL | ss | @OutlineVpnOfficial | 4",
@@ -137,7 +139,7 @@
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 13",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 14",
                 "🇪🇸ES | ss | @OutlineVpnOfficial | 15",
-                "🇬🇧GB | ss | @kingofilter | 8"
+                "🇬🇧GB | ss | @kingofilter | 10"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -158,6 +160,16 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇨🇦CA | ss | @DeamNet_Proxy | 17",
+            "type": "shadowsocks",
+            "server": "134.195.196.178",
+            "server_port": 806,
+            "method": "chacha20-ietf-poly1305",
+            "password": "G!yBwPWH3Vao",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇳🇱NL | ss | @OutlineVpnOfficial | 1",
@@ -280,7 +292,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | @kingofilter | 8",
+            "tag": "🇬🇧GB | ss | @kingofilter | 10",
             "type": "shadowsocks",
             "server": "series-a1.samanehha.co",
             "server_port": 443,
