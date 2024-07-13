@@ -141,7 +141,7 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 9",
                 "🇸🇪SE | vless | @ServerNett | 12",
                 "🇸🇪SE | vless | @v2ray_swhil | 12",
-                "🇩🇪DE | vless | @v2ray1_ng | 13",
+                "🇩🇪DE | vless | @v2ray1_ng | 14",
                 "🇨🇦CA | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 10",
@@ -153,13 +153,13 @@
                 "🇨🇦CA | vmess | @Hope_Net | 4",
                 "🇸🇪SE | vless | @fnet00 | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇺🇸US | vless | @Outlinev2rayNG | 15",
+                "🇺🇸US | vless | @Outlinev2rayNG | 16",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 12",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 4",
                 "🇺🇸US | vless | @flyv2ray | 11",
-                "🇺🇸US | vless | @mehrosaboran | 4",
+                "🇺🇸US | vless | @mehrosaboran | 5",
                 "🇺🇸US | vless | @kiava | 8",
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🇺🇸US | vmess | @kingofilter | 14",
@@ -210,7 +210,7 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 9",
                 "🇸🇪SE | vless | @ServerNett | 12",
                 "🇸🇪SE | vless | @v2ray_swhil | 12",
-                "🇩🇪DE | vless | @v2ray1_ng | 13",
+                "🇩🇪DE | vless | @v2ray1_ng | 14",
                 "🇨🇦CA | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 10",
@@ -222,13 +222,13 @@
                 "🇨🇦CA | vmess | @Hope_Net | 4",
                 "🇸🇪SE | vless | @fnet00 | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇺🇸US | vless | @Outlinev2rayNG | 15",
+                "🇺🇸US | vless | @Outlinev2rayNG | 16",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 12",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 4",
                 "🇺🇸US | vless | @flyv2ray | 11",
-                "🇺🇸US | vless | @mehrosaboran | 4",
+                "🇺🇸US | vless | @mehrosaboran | 5",
                 "🇺🇸US | vless | @kiava | 8",
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🇺🇸US | vmess | @kingofilter | 14",
@@ -515,7 +515,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "ac35aae2-0121-43a1-ae64-2227a09dfea1",
+            "uuid": "edb6337e-ffca-45b9-954f-518551d1adc3",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1060,7 +1060,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @v2ray1_ng | 13",
+            "tag": "🇩🇪DE | vless | @v2ray1_ng | 14",
             "type": "vless",
             "server": "A10.boutiquemad.ir",
             "server_port": 9571,
@@ -1169,9 +1169,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "19821fd9-5249-479a-b205-cdd901717d7f",
+            "server": "104.18.202.232",
+            "server_port": 443,
+            "uuid": "e6aedcd2-24ad-4bdd-82c5-006d84179197",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1179,11 +1179,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "4d3d6f00.garywelch.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "4d3d6f00.garywelch.pages.dev"
                 }
             }
         },
@@ -1350,7 +1360,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 15",
+            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 16",
             "type": "vless",
             "server": "104.18.1.125",
             "server_port": 2082,
@@ -1517,7 +1527,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @mehrosaboran | 4",
+            "tag": "🇺🇸US | vless | @mehrosaboran | 5",
             "type": "vless",
             "server": "www.parsvds.ir",
             "server_port": 8080,
