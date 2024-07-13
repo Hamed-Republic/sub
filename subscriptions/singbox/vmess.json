@@ -117,7 +117,7 @@
                 "🏳️XX | vmess | @mftizi | 11",
                 "🇨🇳CN | vmess | @mftizi | 12",
                 "🏳️XX | vmess | @mftizi | 13",
-                "🏳️XX | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 14",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 0",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 1",
@@ -126,7 +126,8 @@
                 "🇺🇸US | vmess | @prrofile_purple | 160",
                 "🇮🇷IR | vmess | @prrofile_purple | 164",
                 "🇺🇸US | vmess | @v2ray1_ng | 11",
-                "🏳️XX | vmess | @DailyV2RY | 102",
+                "🇺🇸US | vmess | @DailyV2RY | 94",
+                "🇹🇷TR | vmess | @ConfigsHUB | 14",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -166,7 +167,7 @@
                 "🏳️XX | vmess | @mftizi | 11",
                 "🇨🇳CN | vmess | @mftizi | 12",
                 "🏳️XX | vmess | @mftizi | 13",
-                "🏳️XX | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 14",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 0",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 1",
@@ -175,7 +176,8 @@
                 "🇺🇸US | vmess | @prrofile_purple | 160",
                 "🇮🇷IR | vmess | @prrofile_purple | 164",
                 "🇺🇸US | vmess | @v2ray1_ng | 11",
-                "🏳️XX | vmess | @DailyV2RY | 102",
+                "🇺🇸US | vmess | @DailyV2RY | 94",
+                "🇹🇷TR | vmess | @ConfigsHUB | 14",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -442,7 +444,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @mftizi | 19",
+            "tag": "🇺🇸US | vmess | @mftizi | 19",
             "type": "vmess",
             "server": "cfd.ipa.monster",
             "server_port": 8080,
@@ -688,11 +690,45 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @DailyV2RY | 102",
+            "tag": "🇺🇸US | vmess | @DailyV2RY | 94",
             "type": "vmess",
-            "server": null,
-            "server_port": 0,
-            "uuid": null,
+            "server": "104.19.47.20",
+            "server_port": 8443,
+            "uuid": "39135a39-e6ca-43df-a360-d859eea58d86",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hk01.linkitnow.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "hk01.linkitnow.net"
+                }
+            }
+        },
+        {
+            "tag": "🇹🇷TR | vmess | @ConfigsHUB | 14",
+            "type": "vmess",
+            "server": "104.239.87.152",
+            "server_port": 34838,
+            "uuid": "3d7ec954-3fde-48f2-b02f-4a9e6d0836ad",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
