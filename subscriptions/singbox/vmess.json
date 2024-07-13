@@ -118,7 +118,7 @@
                 "🇨🇳CN | vmess | @mftizi | 12",
                 "🏳️XX | vmess | @mftizi | 13",
                 "🏳️XX | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 6",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 14",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 0",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 1",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 2",
@@ -127,8 +127,6 @@
                 "🇮🇷IR | vmess | @prrofile_purple | 164",
                 "🇺🇸US | vmess | @v2ray1_ng | 11",
                 "🏳️XX | vmess | @DailyV2RY | 102",
-                "🇺🇸US | vmess | @ConfigsHUB | 14",
-                "🇮🇷IR | vmess | @ConfigsHUB | 16",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -169,7 +167,7 @@
                 "🇨🇳CN | vmess | @mftizi | 12",
                 "🏳️XX | vmess | @mftizi | 13",
                 "🏳️XX | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 6",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 14",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 0",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 1",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 2",
@@ -178,8 +176,6 @@
                 "🇮🇷IR | vmess | @prrofile_purple | 164",
                 "🇺🇸US | vmess | @v2ray1_ng | 11",
                 "🏳️XX | vmess | @DailyV2RY | 102",
-                "🇺🇸US | vmess | @ConfigsHUB | 14",
-                "🇮🇷IR | vmess | @ConfigsHUB | 16",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -470,11 +466,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 6",
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 14",
             "type": "vmess",
-            "server": "104.21.15.212",
-            "server_port": 443,
-            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+            "server": "172.67.185.161",
+            "server_port": 8080,
+            "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -485,21 +481,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "glweidf.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/",
                 "headers": {
-                    "Host": "glweidf.sbs"
+                    "Host": "172.67.185.161"
                 }
             }
         },
@@ -707,47 +693,6 @@
             "server": null,
             "server_port": 0,
             "uuid": null,
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 14",
-            "type": "vmess",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "cc142606-f36d-4004-bd2d-c5c2aa7efd4d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/RACEVPN",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vmess | @ConfigsHUB | 16",
-            "type": "vmess",
-            "server": "45.147.77.110",
-            "server_port": 13736,
-            "uuid": "5b24cb20-908c-435e-cb83-815950bea779",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
