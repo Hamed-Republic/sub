@@ -111,7 +111,7 @@
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 9",
                 "🇸🇪SE | vless | @ipV2Ray | 12",
                 "🇨🇦CA | vless | @melov2ray | 10",
-                "🇸🇪SE | vless | @V2pedia | 10",
+                "🇸🇪SE | vless | @V2pedia | 11",
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇨🇦CA | vless | @ARv2ray | 16",
                 "🇨🇦CA | vless | @shh_proxy | 29",
@@ -139,7 +139,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 10",
                 "🇨🇦CA | vless | @DailyV2RY | 115",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 5",
@@ -169,7 +169,7 @@
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 9",
                 "🇸🇪SE | vless | @ipV2Ray | 12",
                 "🇨🇦CA | vless | @melov2ray | 10",
-                "🇸🇪SE | vless | @V2pedia | 10",
+                "🇸🇪SE | vless | @V2pedia | 11",
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇨🇦CA | vless | @ARv2ray | 16",
                 "🇨🇦CA | vless | @shh_proxy | 29",
@@ -197,7 +197,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 10",
                 "🇨🇦CA | vless | @DailyV2RY | 115",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 5",
@@ -353,7 +353,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2pedia | 10",
+            "tag": "🇸🇪SE | vless | @V2pedia | 11",
             "type": "vless",
             "server": "back.msv2ray.online",
             "server_port": 8080,
@@ -1002,11 +1002,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "19821fd9-5249-479a-b205-cdd901717d7f",
+            "server": "104.18.202.232",
+            "server_port": 443,
+            "uuid": "e6aedcd2-24ad-4bdd-82c5-006d84179197",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1014,11 +1014,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "4d3d6f00.garywelch.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "4d3d6f00.garywelch.pages.dev"
                 }
             }
         },
