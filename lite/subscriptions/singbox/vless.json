@@ -114,7 +114,7 @@
                 "🇨🇦CA | vless | @melov2ray | 10",
                 "🇸🇪SE | vless | @V2pedia | 11",
                 "🇨🇦CA | vless | @frev2ray | 1",
-                "🇨🇦CA | vless | @ARv2ray | 16",
+                "🇨🇦CA | vless | @ARv2ray | 15",
                 "🇨🇦CA | vless | @shh_proxy | 27",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
@@ -140,6 +140,7 @@
                 "🇨🇦CA | vless | @vless_vmess | 11",
                 "🇨🇦CA | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 19",
+                "🇺🇸US | vless | @DailyV2RY | 109",
                 "🇸🇪SE | vless | @lrnbymaa | 13",
                 "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 3",
@@ -174,7 +175,7 @@
                 "🇨🇦CA | vless | @melov2ray | 10",
                 "🇸🇪SE | vless | @V2pedia | 11",
                 "🇨🇦CA | vless | @frev2ray | 1",
-                "🇨🇦CA | vless | @ARv2ray | 16",
+                "🇨🇦CA | vless | @ARv2ray | 15",
                 "🇨🇦CA | vless | @shh_proxy | 27",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
@@ -200,6 +201,7 @@
                 "🇨🇦CA | vless | @vless_vmess | 11",
                 "🇨🇦CA | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 19",
+                "🇺🇸US | vless | @DailyV2RY | 109",
                 "🇸🇪SE | vless | @lrnbymaa | 13",
                 "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 3",
@@ -420,7 +422,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ARv2ray | 16",
+            "tag": "🇨🇦CA | vless | @ARv2ray | 15",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2095,
@@ -434,7 +436,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry",
+                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry",
                 "headers": {
                     "Host": "www.speedtest.net"
                 }
@@ -1014,6 +1016,37 @@
             }
         },
         {
+            "tag": "🇺🇸US | vless | @DailyV2RY | 109",
+            "type": "vless",
+            "server": "162.120.94.131",
+            "server_port": 2096,
+            "uuid": "1149be91-5a4f-47de-995f-66f8d7d64498",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "De99.SiMaNsAnAt.Ir.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "De99.SiMaNsAnAt.Ir."
+                }
+            }
+        },
+        {
             "tag": "🇸🇪SE | vless | @lrnbymaa | 13",
             "type": "vless",
             "server": "VPNCUSTOMIZE.Elmahstyle.ir",
@@ -1037,9 +1070,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "172.67.204.39",
-            "server_port": 443,
-            "uuid": "7f3b2f37-819e-49ee-9f5c-215467bfde61",
+            "server": "www.parsvds.ir",
+            "server_port": 2095,
+            "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1047,21 +1080,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "turkmenistan.armanibash.Shop.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/TELEGRAM-MARAMBASHI-MARAMBASHI\/",
+                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry",
                 "headers": {
-                    "Host": "turkmenistan.armanibash.Shop."
+                    "Host": "www.parsvds.ir"
                 }
             }
         },
