@@ -111,7 +111,7 @@
                 "🇩🇪DE | vless | @VlessConfig | 17",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 11",
                 "🇸🇪SE | vless | @ipV2Ray | 12",
-                "🇨🇦CA | vless | @melov2ray | 10",
+                "🇨🇦CA | vless | @melov2ray | 9",
                 "🇸🇪SE | vless | @V2pedia | 11",
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇨🇦CA | vless | @ARv2ray | 15",
@@ -141,6 +141,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇺🇸US | vless | @DailyV2RY | 109",
                 "🇸🇪SE | vless | @lrnbymaa | 13",
+                "🇸🇪SE | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 5",
@@ -149,6 +150,7 @@
                 "🇺🇸US | vless | @v2rayng_vpnrog | 13",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
+                "🇮🇷IR | vless | @FreakConfig | 9",
                 "🇺🇸US | vless | @flyv2ray | 10",
                 "🇺🇸US | vless | @mehrosaboran | 3",
                 "🇺🇸US | vless | @kiava | 8",
@@ -171,7 +173,7 @@
                 "🇩🇪DE | vless | @VlessConfig | 17",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 11",
                 "🇸🇪SE | vless | @ipV2Ray | 12",
-                "🇨🇦CA | vless | @melov2ray | 10",
+                "🇨🇦CA | vless | @melov2ray | 9",
                 "🇸🇪SE | vless | @V2pedia | 11",
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇨🇦CA | vless | @ARv2ray | 15",
@@ -201,6 +203,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇺🇸US | vless | @DailyV2RY | 109",
                 "🇸🇪SE | vless | @lrnbymaa | 13",
+                "🇸🇪SE | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 5",
@@ -209,6 +212,7 @@
                 "🇺🇸US | vless | @v2rayng_vpnrog | 13",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
+                "🇮🇷IR | vless | @FreakConfig | 9",
                 "🇺🇸US | vless | @flyv2ray | 10",
                 "🇺🇸US | vless | @mehrosaboran | 3",
                 "🇺🇸US | vless | @kiava | 8",
@@ -357,11 +361,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 10",
+            "tag": "🇨🇦CA | vless | @melov2ray | 9",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
-            "uuid": "1cb2e864-5e31-4a5b-8626-361d85ae2c51",
+            "uuid": "475175eb-b0c7-4d14-9047-bc06295a77c2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1035,6 +1039,27 @@
             }
         },
         {
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "185.146.173.68",
+            "server_port": 2095,
+            "uuid": "DIGIV2raY",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/DigiconnecT?ed=1024",
+                "headers": {
+                    "Host": "185.146.173.68"
+                }
+            }
+        },
+        {
             "tag": "🏳️XX | vless | @proxystore11 | 3",
             "type": "vless",
             "server": "z61.maduss.com",
@@ -1248,6 +1273,20 @@
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
                 }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vless | @FreakConfig | 9",
+            "type": "vless",
+            "server": "94.182.223.111",
+            "server_port": 57408,
+            "uuid": "dcc3148c-b082-4453-a785-1bb7d366d87b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {

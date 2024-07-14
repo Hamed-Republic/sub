@@ -111,7 +111,7 @@
                 "🇩🇪DE | vless | @VlessConfig | 17",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 11",
                 "🇸🇪SE | vless | @ipV2Ray | 12",
-                "🇨🇦CA | vless | @melov2ray | 10",
+                "🇨🇦CA | vless | @melov2ray | 9",
                 "🇸🇪SE | vless | @V2pedia | 11",
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇨🇦CA | vless | @ARv2ray | 15",
@@ -149,7 +149,7 @@
                 "🇺🇸US | vless | @DailyV2RY | 109",
                 "🇸🇪SE | vless | @lrnbymaa | 13",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vmess | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -161,6 +161,7 @@
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 2",
+                "🇮🇷IR | vless | @FreakConfig | 9",
                 "🇺🇸US | vless | @flyv2ray | 10",
                 "🇺🇸US | vless | @mehrosaboran | 3",
                 "🇺🇸US | vless | @kiava | 8",
@@ -185,7 +186,7 @@
                 "🇩🇪DE | vless | @VlessConfig | 17",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 11",
                 "🇸🇪SE | vless | @ipV2Ray | 12",
-                "🇨🇦CA | vless | @melov2ray | 10",
+                "🇨🇦CA | vless | @melov2ray | 9",
                 "🇸🇪SE | vless | @V2pedia | 11",
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇨🇦CA | vless | @ARv2ray | 15",
@@ -223,7 +224,7 @@
                 "🇺🇸US | vless | @DailyV2RY | 109",
                 "🇸🇪SE | vless | @lrnbymaa | 13",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vmess | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -235,6 +236,7 @@
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 2",
+                "🇮🇷IR | vless | @FreakConfig | 9",
                 "🇺🇸US | vless | @flyv2ray | 10",
                 "🇺🇸US | vless | @mehrosaboran | 3",
                 "🇺🇸US | vless | @kiava | 8",
@@ -385,11 +387,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 10",
+            "tag": "🇨🇦CA | vless | @melov2ray | 9",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
-            "uuid": "1cb2e864-5e31-4a5b-8626-361d85ae2c51",
+            "uuid": "475175eb-b0c7-4d14-9047-bc06295a77c2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1223,16 +1225,13 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
-            "type": "vmess",
-            "server": "162.159.129.17",
-            "server_port": 80,
-            "uuid": "62aa5f80-0328-4004-a375-7f5a59df4022",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "185.146.173.68",
+            "server_port": 2095,
+            "uuid": "DIGIV2raY",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1240,9 +1239,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/T,E,L,E,G,R,A,M,X,V,2,R,A,Y?ed=256",
+                "path": "\/DigiconnecT?ed=1024",
                 "headers": {
-                    "Host": ""
+                    "Host": "185.146.173.68"
                 }
             }
         },
@@ -1552,6 +1551,20 @@
                 "headers": {
                     "Host": "jahfkjha.cfd"
                 }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vless | @FreakConfig | 9",
+            "type": "vless",
+            "server": "94.182.223.111",
+            "server_port": 57408,
+            "uuid": "dcc3148c-b082-4453-a785-1bb7d366d87b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
