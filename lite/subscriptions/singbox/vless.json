@@ -141,6 +141,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇺🇸US | vless | @DailyV2RY | 109",
                 "🇸🇪SE | vless | @lrnbymaa | 13",
+                "🇨🇦CA | vless | @ConfigsHUB | 9",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 5",
@@ -201,6 +202,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇺🇸US | vless | @DailyV2RY | 109",
                 "🇸🇪SE | vless | @lrnbymaa | 13",
+                "🇨🇦CA | vless | @ConfigsHUB | 9",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 5",
@@ -1031,6 +1033,27 @@
                 "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
                 "headers": {
                     "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 9",
+            "type": "vless",
+            "server": "www.parsvds.ir",
+            "server_port": 8080,
+            "uuid": "e4360b65-e5d6-4e84-a65a-b0f324b65126",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/VPNCUSTOMIZE?ed=8080",
+                "headers": {
+                    "Host": "www.parsvds.ir"
                 }
             }
         },
