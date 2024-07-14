@@ -138,9 +138,8 @@
                 "🇨🇦CA | vless | @DailyV2RY | 98",
                 "🇨🇦CA | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 11",
-                "🇺🇸US | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🏳️XX | vless | @proxystore11 | 3",
-                "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
@@ -154,7 +153,7 @@
                 "🇺🇸US | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🇨🇷CR | vless | @GozargahVPN | 13",
-                "🇺🇸US | vless | @SvnTeam | 21",
+                "🇺🇸US | vless | @SvnTeam | 22",
                 "🏳️XX | vless | @IBv2ray | 4",
                 "🇺🇸US | vless | @V2FETCH | 3",
                 "🏳️XX | vless | @VpnSkyy | 7",
@@ -197,9 +196,8 @@
                 "🇨🇦CA | vless | @DailyV2RY | 98",
                 "🇨🇦CA | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 11",
-                "🇺🇸US | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🏳️XX | vless | @proxystore11 | 3",
-                "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
@@ -213,7 +211,7 @@
                 "🇺🇸US | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🇨🇷CR | vless | @GozargahVPN | 13",
-                "🇺🇸US | vless | @SvnTeam | 21",
+                "🇺🇸US | vless | @SvnTeam | 22",
                 "🏳️XX | vless | @IBv2ray | 4",
                 "🇺🇸US | vless | @V2FETCH | 3",
                 "🏳️XX | vless | @VpnSkyy | 7",
@@ -993,11 +991,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "www.paypal.com.cn",
-            "server_port": 80,
-            "uuid": "cefffd1d-cc58-4560-b4d1-44f1af528f30",
+            "server": "www.visa.com",
+            "server_port": 443,
+            "uuid": "c1978266-958c-4aa3-ba34-7eacac75aca1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1005,11 +1003,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "bpb-worker-panel3.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "www.paypal.com.cn"
+                    "Host": "bpb-worker-panel3.pages.dev"
                 }
             }
         },
@@ -1041,37 +1049,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "z61.maduss.com"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @free1_vpn | 0",
-            "type": "vless",
-            "server": "www.visa.com",
-            "server_port": 443,
-            "uuid": "c1978266-958c-4aa3-ba34-7eacac75aca1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "bpb-worker-panel3.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=2560",
-                "headers": {
-                    "Host": "bpb-worker-panel3.pages.dev"
                 }
             }
         },
@@ -1412,7 +1389,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @SvnTeam | 21",
+            "tag": "🇺🇸US | vless | @SvnTeam | 22",
             "type": "vless",
             "server": "mtn.VPNPROSEC.com",
             "server_port": 80,
