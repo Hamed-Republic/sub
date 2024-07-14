@@ -149,7 +149,7 @@
                 "🇺🇸US | vless | @DailyV2RY | 109",
                 "🇸🇪SE | vless | @lrnbymaa | 13",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 17",
-                "🇫🇮FI | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -223,7 +223,7 @@
                 "🇺🇸US | vless | @DailyV2RY | 109",
                 "🇸🇪SE | vless | @lrnbymaa | 13",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 17",
-                "🇫🇮FI | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -1223,31 +1223,26 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇫🇮FI | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "65.108.220.44",
-            "server_port": 2087,
-            "uuid": "50a24f6f-3190-477f-bccf-35289131ce5d",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "162.159.129.17",
+            "server_port": 80,
+            "uuid": "62aa5f80-0328-4004-a375-7f5a59df4022",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "5Lms4pr_aOtRLckiJRgDfiDjD4fuYpN4zBLiAUu_e10",
-                    "short_id": "fe3b7d814f0c2e0f"
+            "transport": {
+                "type": "ws",
+                "path": "\/T,E,L,E,G,R,A,M,X,V,2,R,A,Y?ed=256",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
