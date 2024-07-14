@@ -125,10 +125,9 @@
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 0",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 2",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 3",
+                "🇺🇸US | vmess | @prrofile_purple | 163",
                 "🇺🇸US | vmess | @prrofile_purple | 165",
                 "🇺🇸US | vmess | @prrofile_purple | 167",
-                "🇮🇷IR | vmess | @prrofile_purple | 171",
-                "🇺🇸US | vmess | @v2ray1_ng | 13",
                 "🇺🇸US | vmess | @DailyV2RY | 84",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
@@ -174,10 +173,9 @@
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 0",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 2",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 3",
+                "🇺🇸US | vmess | @prrofile_purple | 163",
                 "🇺🇸US | vmess | @prrofile_purple | 165",
                 "🇺🇸US | vmess | @prrofile_purple | 167",
-                "🇮🇷IR | vmess | @prrofile_purple | 171",
-                "🇺🇸US | vmess | @v2ray1_ng | 13",
                 "🇺🇸US | vmess | @DailyV2RY | 84",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
@@ -667,6 +665,30 @@
             }
         },
         {
+            "tag": "🇺🇸US | vmess | @prrofile_purple | 163",
+            "type": "vmess",
+            "server": "172.67.171.95",
+            "server_port": 80,
+            "uuid": "d723ded6-09f1-47ae-b5ec-ff04786897e9",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | vmess | @prrofile_purple | 165",
             "type": "vmess",
             "server": "172.67.171.56",
@@ -696,64 +718,6 @@
             "server": "188.114.97.3",
             "server_port": 80,
             "uuid": "b79a6959-6feb-43ba-b3c7-f1afae9ea32c",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vmess | @prrofile_purple | 171",
-            "type": "vmess",
-            "server": "2.189.59.2",
-            "server_port": 443,
-            "uuid": "62aa5f80-0328-4004-a375-7f5a59df4022",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram\/XV2ray",
-                "headers": {
-                    "Host": "pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @v2ray1_ng | 13",
-            "type": "vmess",
-            "server": "188.114.98.40",
-            "server_port": 80,
-            "uuid": "f491cbe4-7548-446c-8d3e-64008e3b1325",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
