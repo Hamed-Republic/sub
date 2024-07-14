@@ -111,7 +111,7 @@
                 "🇩🇪DE | vless | @VlessConfig | 17",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 11",
                 "🇸🇪SE | vless | @ipV2Ray | 12",
-                "🇨🇦CA | vless | @melov2ray | 9",
+                "🇸🇪SE | vless | @melov2ray | 7",
                 "🇸🇪SE | vless | @V2pedia | 11",
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇨🇦CA | vless | @ARv2ray | 15",
@@ -149,7 +149,7 @@
                 "🇺🇸US | vless | @DailyV2RY | 109",
                 "🇸🇪SE | vless | @lrnbymaa | 13",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 17",
-                "🇸🇪SE | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -186,7 +186,7 @@
                 "🇩🇪DE | vless | @VlessConfig | 17",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 11",
                 "🇸🇪SE | vless | @ipV2Ray | 12",
-                "🇨🇦CA | vless | @melov2ray | 9",
+                "🇸🇪SE | vless | @melov2ray | 7",
                 "🇸🇪SE | vless | @V2pedia | 11",
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇨🇦CA | vless | @ARv2ray | 15",
@@ -224,7 +224,7 @@
                 "🇺🇸US | vless | @DailyV2RY | 109",
                 "🇸🇪SE | vless | @lrnbymaa | 13",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 17",
-                "🇸🇪SE | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -387,24 +387,17 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 9",
+            "tag": "🇸🇪SE | vless | @melov2ray | 7",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "475175eb-b0c7-4d14-9047-bc06295a77c2",
+            "server": "185.146.173.58",
+            "server_port": 8080,
+            "uuid": "388de2f6-3920-45f9-945d-8059580c7367",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/melo\/is\/needed",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                }
             }
         },
         {
@@ -1225,11 +1218,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "185.146.173.68",
-            "server_port": 2095,
-            "uuid": "DIGIV2raY",
+            "server": "maz.maznet.cfd.",
+            "server_port": 2083,
+            "uuid": "fe978ed6-4840-4958-b547-3eb57ac728d1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1237,11 +1230,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "join20.maznet.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/DigiconnecT?ed=1024",
+                "path": "\/@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet",
                 "headers": {
-                    "Host": "185.146.173.68"
+                    "Host": "join20.maznet.cfd"
                 }
             }
         },
