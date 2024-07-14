@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇨🇦CA | vless | @EliV2ray | 11",
                 "🇮🇪IE | vless | @VlessConfig | 17",
-                "🇨🇦CA | vless | @VPNCUSTOMIZE | 11",
+                "🇨🇦CA | vless | @VPNCUSTOMIZE | 12",
                 "🇩🇪DE | vless | @ipV2Ray | 14",
                 "🇸🇪SE | vless | @melov2ray | 7",
                 "🇸🇪SE | vless | @V2pedia | 11",
@@ -169,7 +169,7 @@
             "outbounds": [
                 "🇨🇦CA | vless | @EliV2ray | 11",
                 "🇮🇪IE | vless | @VlessConfig | 17",
-                "🇨🇦CA | vless | @VPNCUSTOMIZE | 11",
+                "🇨🇦CA | vless | @VPNCUSTOMIZE | 12",
                 "🇩🇪DE | vless | @ipV2Ray | 14",
                 "🇸🇪SE | vless | @melov2ray | 7",
                 "🇸🇪SE | vless | @V2pedia | 11",
@@ -267,7 +267,7 @@
         {
             "tag": "🇮🇪IE | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "54.72.36.174",
+            "server": "46.137.75.28",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -296,7 +296,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @VPNCUSTOMIZE | 11",
+            "tag": "🇨🇦CA | vless | @VPNCUSTOMIZE | 12",
             "type": "vless",
             "server": "www.parsvds.ir",
             "server_port": 8080,
@@ -994,9 +994,9 @@
         {
             "tag": "🇨🇦CA | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "188.114.96.2",
+            "server": "188.114.97.2",
             "server_port": 8080,
-            "uuid": "%36%64%37%34%31%64%38%61%2d%61%66%32%62%2d%34%37%65%30%2d%61%34%33%31%2d%64%30%65%63%32%31%38%38%30%33%32%36",
+            "uuid": "%33%33%36%66%66%38%30%61%2d%37%39%35%37%2d%34%33%62%32%2d%61%63%64%31%2d%30%36%62%32%38%62%37%31%62%66%32%34",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1008,7 +1008,7 @@
                 "type": "ws",
                 "path": "\/SHHPROXY?ed=8080",
                 "headers": {
-                    "Host": "188.114.96.2"
+                    "Host": "188.114.97.2"
                 }
             }
         },
@@ -1036,9 +1036,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "104.19.230.57",
-            "server_port": 443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "server": "104.18.41.138",
+            "server_port": 8443,
+            "uuid": "9a39f63e-28c8-4560-af18-b01b9916ef1b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1048,7 +1048,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "523afb17.IRS23.pAgES.Dev",
+                "server_name": "pardazesh-tgws.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1058,9 +1058,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-@proxy_mtm\/?ed=2560",
+                "path": "\/Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net",
                 "headers": {
-                    "Host": "523afb17.IRS23.pAgES.Dev"
+                    "Host": "pardazesh-tgws.pages.dev"
                 }
             }
         },
