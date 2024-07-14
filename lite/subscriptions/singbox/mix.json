@@ -149,7 +149,7 @@
                 "🇺🇸US | vless | @DailyV2RY | 109",
                 "🇸🇪SE | vless | @lrnbymaa | 13",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -224,7 +224,7 @@
                 "🇺🇸US | vless | @DailyV2RY | 109",
                 "🇸🇪SE | vless | @lrnbymaa | 13",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -1233,11 +1233,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "avval.ir",
-            "server_port": 8443,
-            "uuid": "51d19c6d-d0bf-4e0b-8eef-9a1d3f13c7e6",
+            "server": "104.21.61.43",
+            "server_port": 443,
+            "uuid": "630c01ee-92db-4a15-9573-0955853ce362",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1247,7 +1247,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "vip-romax-tiktok.hsjsak.ir",
+                "server_name": "w26io.deonta-yancy.workers.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1257,9 +1257,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/vless-ws\/?ed",
+                "path": "\/",
                 "headers": {
-                    "Host": "vip-romax-tiktok.hsjsak.ir"
+                    "Host": "w26io.deonta-yancy.workers.dev"
                 }
             }
         },
