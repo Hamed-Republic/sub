@@ -133,7 +133,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
                 "🇨🇦CA | vless | @vmessorg | 9",
                 "🇨🇦CA | vless | @ShadowProxy66 | 29",
-                "🇸🇪SE | vless | @ServerNett | 12",
+                "🇸🇪SE | vless | @ServerNett | 11",
                 "🇸🇪SE | vless | @v2ray_swhil | 10",
                 "🇨🇦CA | vless | @v2ray1_ng | 12",
                 "🇨🇦CA | vless | @vless_vmess | 10",
@@ -152,7 +152,7 @@
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇮🇷IR | vless | @FreakConfig | 9",
                 "🇺🇸US | vless | @flyv2ray | 10",
-                "🇺🇸US | vless | @mehrosaboran | 3",
+                "🇺🇸US | vless | @mehrosaboran | 4",
                 "🇺🇸US | vless | @kiava | 8",
                 "🇺🇸US | vless | @proxy_mtm | 0",
                 "🏳️XX | vless | @vpn_go67 | 21",
@@ -195,7 +195,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
                 "🇨🇦CA | vless | @vmessorg | 9",
                 "🇨🇦CA | vless | @ShadowProxy66 | 29",
-                "🇸🇪SE | vless | @ServerNett | 12",
+                "🇸🇪SE | vless | @ServerNett | 11",
                 "🇸🇪SE | vless | @v2ray_swhil | 10",
                 "🇨🇦CA | vless | @v2ray1_ng | 12",
                 "🇨🇦CA | vless | @vless_vmess | 10",
@@ -214,7 +214,7 @@
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇮🇷IR | vless | @FreakConfig | 9",
                 "🇺🇸US | vless | @flyv2ray | 10",
-                "🇺🇸US | vless | @mehrosaboran | 3",
+                "🇺🇸US | vless | @mehrosaboran | 4",
                 "🇺🇸US | vless | @kiava | 8",
                 "🇺🇸US | vless | @proxy_mtm | 0",
                 "🏳️XX | vless | @vpn_go67 | 21",
@@ -869,7 +869,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ServerNett | 12",
+            "tag": "🇸🇪SE | vless | @ServerNett | 11",
             "type": "vless",
             "server": "185.146.173.58",
             "server_port": 8080,
@@ -1069,9 +1069,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "104.24.185.137",
-            "server_port": 8080,
-            "uuid": "Parsashonam-11",
+            "server": "104.21.61.43",
+            "server_port": 443,
+            "uuid": "630c01ee-92db-4a15-9573-0955853ce362",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1079,11 +1079,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "w26io.deonta-yancy.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=2560",
+                "path": "\/",
                 "headers": {
-                    "Host": "104.24.185.137"
+                    "Host": "w26io.deonta-yancy.workers.dev"
                 }
             }
         },
@@ -1339,7 +1349,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @mehrosaboran | 3",
+            "tag": "🇺🇸US | vless | @mehrosaboran | 4",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2095,
