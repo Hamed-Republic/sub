@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇨🇦CA | vless | @EliV2ray | 11",
                 "🇨🇦CA | vless | @Parsashonam | 9",
                 "🇮🇪IE | vless | @VlessConfig | 13",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 13",
@@ -128,7 +129,7 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇮🇪IE | trojan | @PrivateVPNs | 13",
-                "🇬🇧GB | trojan | @DirectVPN | 13",
+                "🇮🇪IE | trojan | @DirectVPN | 13",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
@@ -153,7 +154,7 @@
                 "🇨🇦CA | vmess | @Hope_Net | 4",
                 "🇸🇪SE | vless | @fnet00 | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 17",
+                "🇺🇸US | vless | @Outlinev2rayNG | 17",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -178,6 +179,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇨🇦CA | vless | @EliV2ray | 11",
                 "🇨🇦CA | vless | @Parsashonam | 9",
                 "🇮🇪IE | vless | @VlessConfig | 13",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 13",
@@ -200,7 +202,7 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇮🇪IE | trojan | @PrivateVPNs | 13",
-                "🇬🇧GB | trojan | @DirectVPN | 13",
+                "🇮🇪IE | trojan | @DirectVPN | 13",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
@@ -225,7 +227,7 @@
                 "🇨🇦CA | vmess | @Hope_Net | 4",
                 "🇸🇪SE | vless | @fnet00 | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 17",
+                "🇺🇸US | vless | @Outlinev2rayNG | 17",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -266,6 +268,27 @@
             "type": "dns"
         },
         {
+            "tag": "🇨🇦CA | vless | @EliV2ray | 11",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8080,
+            "uuid": "-Channel--ELiV2ray-",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ELENA--repo.steampowered.com?ed=8080",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @Parsashonam | 9",
             "type": "vless",
             "server": "104.21.19.124",
@@ -289,7 +312,7 @@
         {
             "tag": "🇮🇪IE | vless | @VlessConfig | 13",
             "type": "vless",
-            "server": "52.17.232.237",
+            "server": "3.251.213.253",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -771,9 +794,9 @@
             }
         },
         {
-            "tag": "🇬🇧GB | trojan | @DirectVPN | 13",
+            "tag": "🇮🇪IE | trojan | @DirectVPN | 13",
             "type": "trojan",
-            "server": "18.132.57.184",
+            "server": "3.250.251.43",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1381,7 +1404,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 17",
+            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 17",
             "type": "vless",
             "server": "172.67.177.201",
             "server_port": 443,
