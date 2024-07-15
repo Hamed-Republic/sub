@@ -120,7 +120,8 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"🇸🇪SE | vless | @VlessConfig | 15","type":"vless","server":"13.49.141.34","port":22222,"udp":false,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"telegram-channel-vlessconfig.sohala.uk","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
+  - {"name":"🇩🇪DE | vless | @VlessConfig | 15","type":"vless","server":"3.64.108.106","port":22222,"udp":false,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"telegram-channel-vlessconfig.sohala.uk","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
+  - {"name":"🇨🇦CA | vless | @VPNCUSTOMIZE | 15","type":"vless","server":"www.parsvds.ir","port":8080,"udp":false,"uuid":"65e83037-ea8c-4cf9-a36b-1bf364bbb6fd","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"VPNCUSTOMIZE?ed=8080","headers":{"host":"VPNcustomize-vpnCUSTOMIZE-VPNcustomize.CUSTOMIZEspeedtest.net."}}}
   - {"name":"🇸🇪SE | vless | @melov2ray | 7","type":"vless","server":"185.146.173.58","port":8080,"udp":false,"uuid":"388de2f6-3920-45f9-945d-8059580c7367","tls":false,"network":"httpupgrade","client-fingerprint":"chrome"}
   - {"name":"🇸🇪SE | vless | @V2pedia | 10","type":"vless","server":"185.146.173.158","port":80,"udp":false,"uuid":"eb0be87a-d75f-4b9a-b3d0-17e5daf1e586","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia?ed=2048","headers":{"host":"kubs.st1lol.ir"}}}
   - {"name":"🇨🇦CA | vless | @shh_proxy | 27","type":"vless","server":"www.parsvds.ir","port":8080,"udp":false,"uuid":"258febd2-8b8b-4225-b241-10d142ab1cd9","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"SHHPROXY?ed=8080","headers":{"host":"SHHproxy-shhPROXY-SHHproxy.joinTELEGRAM.net."}}}
@@ -171,7 +172,8 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇸🇪SE | vless | @VlessConfig | 15'
+      - '🇩🇪DE | vless | @VlessConfig | 15'
+      - '🇨🇦CA | vless | @VPNCUSTOMIZE | 15'
       - '🇸🇪SE | vless | @melov2ray | 7'
       - '🇸🇪SE | vless | @V2pedia | 10'
       - '🇨🇦CA | vless | @shh_proxy | 27'
@@ -222,7 +224,8 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇸🇪SE | vless | @VlessConfig | 15'
+      - '🇩🇪DE | vless | @VlessConfig | 15'
+      - '🇨🇦CA | vless | @VPNCUSTOMIZE | 15'
       - '🇸🇪SE | vless | @melov2ray | 7'
       - '🇸🇪SE | vless | @V2pedia | 10'
       - '🇨🇦CA | vless | @shh_proxy | 27'
@@ -272,7 +275,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇸🇪SE | vless | @VlessConfig | 15'
+      - '🇩🇪DE | vless | @VlessConfig | 15'
+      - '🇨🇦CA | vless | @VPNCUSTOMIZE | 15'
       - '🇸🇪SE | vless | @melov2ray | 7'
       - '🇸🇪SE | vless | @V2pedia | 10'
       - '🇨🇦CA | vless | @shh_proxy | 27'

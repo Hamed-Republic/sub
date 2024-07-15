@@ -107,12 +107,13 @@
             "outbounds": [
                 "URL-TEST",
                 "🇨🇦CA | vless | @EliV2ray | 15",
-                "🇸🇪SE | vless | @VlessConfig | 15",
+                "🇩🇪DE | vless | @VlessConfig | 15",
+                "🇨🇦CA | vless | @VPNCUSTOMIZE | 15",
                 "🇨🇦CA | vless | @ipV2Ray | 13",
                 "🇸🇪SE | vless | @melov2ray | 7",
                 "🇸🇪SE | vless | @V2pedia | 10",
                 "🇨🇦CA | vless | @frev2ray | 0",
-                "🇨🇦CA | vless | @ARv2ray | 16",
+                "🇨🇦CA | vless | @ARv2ray | 15",
                 "🇨🇦CA | vless | @shh_proxy | 27",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇨🇦CA | vless | @free_v2rayyy | 3",
@@ -169,12 +170,13 @@
             "type": "urltest",
             "outbounds": [
                 "🇨🇦CA | vless | @EliV2ray | 15",
-                "🇸🇪SE | vless | @VlessConfig | 15",
+                "🇩🇪DE | vless | @VlessConfig | 15",
+                "🇨🇦CA | vless | @VPNCUSTOMIZE | 15",
                 "🇨🇦CA | vless | @ipV2Ray | 13",
                 "🇸🇪SE | vless | @melov2ray | 7",
                 "🇸🇪SE | vless | @V2pedia | 10",
                 "🇨🇦CA | vless | @frev2ray | 0",
-                "🇨🇦CA | vless | @ARv2ray | 16",
+                "🇨🇦CA | vless | @ARv2ray | 15",
                 "🇨🇦CA | vless | @shh_proxy | 27",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇨🇦CA | vless | @free_v2rayyy | 3",
@@ -267,9 +269,9 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @VlessConfig | 15",
+            "tag": "🇩🇪DE | vless | @VlessConfig | 15",
             "type": "vless",
-            "server": "13.49.141.34",
+            "server": "3.64.108.106",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -294,6 +296,27 @@
                 "path": "\/telegram-channel-vlessconfig-ws",
                 "headers": {
                     "Host": "telegram-channel-vlessconfig.sohala.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @VPNCUSTOMIZE | 15",
+            "type": "vless",
+            "server": "www.parsvds.ir",
+            "server_port": 8080,
+            "uuid": "65e83037-ea8c-4cf9-a36b-1bf364bbb6fd",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/VPNCUSTOMIZE?ed=8080",
+                "headers": {
+                    "Host": "www.parsvds.ir"
                 }
             }
         },
@@ -375,10 +398,10 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ARv2ray | 16",
+            "tag": "🇨🇦CA | vless | @ARv2ray | 15",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 2087,
+            "server": "www.speedtest.net",
+            "server_port": 2095,
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
@@ -387,21 +410,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "Pf.bahrane.IR",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry",
                 "headers": {
-                    "Host": "Pf.bahrane.IR"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
@@ -983,9 +996,9 @@
         {
             "tag": "🇨🇦CA | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "104.21.94.168",
+            "server": "104.17.147.22",
             "server_port": 8080,
-            "uuid": "%38%31%65%30%61%31%34%36%2d%61%64%64%38%2d%34%34%61%61%2d%38%33%64%36%2d%62%31%34%31%37%64%31%62%34%66%37%62",
+            "uuid": "%37%32%34%37%34%38%37%33%2d%64%36%39%66%2d%34%64%35%35%2d%39%31%30%36%2d%36%38%64%34%62%32%63%63%39%38%61%66",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -997,7 +1010,7 @@
                 "type": "ws",
                 "path": "\/SHHPROXY?ed=8080",
                 "headers": {
-                    "Host": "104.21.94.168"
+                    "Host": "104.17.147.22"
                 }
             }
         },
