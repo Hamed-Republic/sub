@@ -116,7 +116,7 @@
                 "🇨🇦CA | vless | @shh_proxy | 27",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇨🇦CA | vless | @free_v2rayyy | 3",
-                "🇨🇦CA | vless | @lightning6 | 20",
+                "🇨🇦CA | vless | @lightning6 | 18",
                 "🇸🇪SE | vless | @DigiV2ray | 26",
                 "🇨🇦CA | vless | @proxy_kafee | 4",
                 "🇸🇬SG | vless | @v2logy | 11",
@@ -139,7 +139,7 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 40",
                 "🇸🇪SE | vless | @ServerNett | 6",
                 "🇨🇦CA | vless | @v2ray_swhil | 11",
-                "🇨🇦CA | vless | @v2ray1_ng | 11",
+                "🇺🇸US | vless | @v2ray1_ng | 12",
                 "🇨🇦CA | vless | @vless_vmess | 12",
                 "🇨🇦CA | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 19",
@@ -154,7 +154,7 @@
                 "🇨🇦CA | vmess | @Hope_Net | 4",
                 "🇸🇪SE | vless | @fnet00 | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇩🇪DE | vless | @Outlinev2rayNG | 16",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🇱🇹LT | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -190,7 +190,7 @@
                 "🇨🇦CA | vless | @shh_proxy | 27",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇨🇦CA | vless | @free_v2rayyy | 3",
-                "🇨🇦CA | vless | @lightning6 | 20",
+                "🇨🇦CA | vless | @lightning6 | 18",
                 "🇸🇪SE | vless | @DigiV2ray | 26",
                 "🇨🇦CA | vless | @proxy_kafee | 4",
                 "🇸🇬SG | vless | @v2logy | 11",
@@ -213,7 +213,7 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 40",
                 "🇸🇪SE | vless | @ServerNett | 6",
                 "🇨🇦CA | vless | @v2ray_swhil | 11",
-                "🇨🇦CA | vless | @v2ray1_ng | 11",
+                "🇺🇸US | vless | @v2ray1_ng | 12",
                 "🇨🇦CA | vless | @vless_vmess | 12",
                 "🇨🇦CA | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 19",
@@ -228,7 +228,7 @@
                 "🇨🇦CA | vmess | @Hope_Net | 4",
                 "🇸🇪SE | vless | @fnet00 | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇩🇪DE | vless | @Outlinev2rayNG | 16",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🇱🇹LT | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -483,11 +483,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @lightning6 | 20",
+            "tag": "🇨🇦CA | vless | @lightning6 | 18",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "cf5abeb0-af2f-4bfe-b1fc-5a2d46d589c7",
+            "uuid": "b766b662-2c8a-4de6-99e0-dfd120a74975",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -807,9 +807,9 @@
         {
             "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
             "type": "vmess",
-            "server": "104.21.15.36",
-            "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "server": "104.26.0.56",
+            "server_port": 2086,
+            "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -820,21 +820,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/github.com\/Alvin9999",
                 "headers": {
-                    "Host": "linde06.indiavideo.sbs"
+                    "Host": ""
                 }
             }
         },
@@ -1010,11 +1000,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray1_ng | 11",
+            "tag": "🇺🇸US | vless | @v2ray1_ng | 12",
             "type": "vless",
-            "server": "www.speedtest.net",
+            "server": "172.64.101.233",
             "server_port": 443,
-            "uuid": "8b7efacf-8e83-4e51-ab55-1263baccd4b2",
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1024,7 +1014,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "7f905f51.garywelch.pages.dev",
+                "server_name": "mmdv2.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1036,7 +1026,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "7f905f51.garywelch.pages.dev"
+                    "Host": "mmdv2.pages.dev"
                 }
             }
         },
@@ -1376,31 +1366,23 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @Outlinev2rayNG | 16",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 17",
             "type": "vless",
-            "server": "141.95.75.212",
-            "server_port": 443,
-            "uuid": "200e059b-51ec-4825-8e95-5e49db5d22ad",
-            "flow": "xtls-rprx-vision",
+            "server": "ip.v2catch.buzz",
+            "server_port": 2082,
+            "uuid": "416f18ec-11f3-4648-9693-8c6480d0662d",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "analytics.google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "yiHA11T4BplJbQxAfsQkiiAzAmyxWau-KR7dQptwjDU",
-                    "short_id": "c741ad33"
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "ip.v2catch.buzz"
                 }
             }
         },
