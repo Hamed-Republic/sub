@@ -107,7 +107,8 @@
             "outbounds": [
                 "URL-TEST",
                 "🇨🇦CA | vless | @EliV2ray | 16",
-                "🇺🇸US | vless | @VlessConfig | 13",
+                "🇨🇦CA | vless | @Parsashonam | 9",
+                "🇨🇦CA | vless | @VlessConfig | 13",
                 "🇨🇦CA | vless | @ipV2Ray | 13",
                 "🇨🇦CA | vless | @melov2ray | 5",
                 "🇸🇪SE | vless | @V2pedia | 12",
@@ -126,7 +127,7 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 5",
                 "🇮🇷IR | vless | @Outline_Vpn | 17",
-                "🇨🇦CA | vless | @prrofile_purple | 179",
+                "🇨🇦CA | vless | @prrofile_purple | 180",
                 "🇸🇪SE | vless | @customv2ray | 17",
                 "🇨🇦CA | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 10",
@@ -149,10 +150,10 @@
                 "🇱🇹LT | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇺🇸US | vless | @FreakConfig | 12",
+                "🇺🇸US | vless | @FreakConfig | 11",
                 "🇺🇸US | vless | @flyv2ray | 10",
                 "🇺🇸US | vless | @FAKEOFTVC | 0",
-                "🇺🇸US | vless | @mehrosaboran | 6",
+                "🇺🇸US | vless | @mehrosaboran | 5",
                 "🇺🇸US | vless | @kiava | 8",
                 "🇺🇸US | vless | @proxy_mtm | 0",
                 "🏳️XX | vless | @vpn_go67 | 21",
@@ -170,7 +171,8 @@
             "type": "urltest",
             "outbounds": [
                 "🇨🇦CA | vless | @EliV2ray | 16",
-                "🇺🇸US | vless | @VlessConfig | 13",
+                "🇨🇦CA | vless | @Parsashonam | 9",
+                "🇨🇦CA | vless | @VlessConfig | 13",
                 "🇨🇦CA | vless | @ipV2Ray | 13",
                 "🇨🇦CA | vless | @melov2ray | 5",
                 "🇸🇪SE | vless | @V2pedia | 12",
@@ -189,7 +191,7 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 5",
                 "🇮🇷IR | vless | @Outline_Vpn | 17",
-                "🇨🇦CA | vless | @prrofile_purple | 179",
+                "🇨🇦CA | vless | @prrofile_purple | 180",
                 "🇸🇪SE | vless | @customv2ray | 17",
                 "🇨🇦CA | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 10",
@@ -212,10 +214,10 @@
                 "🇱🇹LT | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇺🇸US | vless | @FreakConfig | 12",
+                "🇺🇸US | vless | @FreakConfig | 11",
                 "🇺🇸US | vless | @flyv2ray | 10",
                 "🇺🇸US | vless | @FAKEOFTVC | 0",
-                "🇺🇸US | vless | @mehrosaboran | 6",
+                "🇺🇸US | vless | @mehrosaboran | 5",
                 "🇺🇸US | vless | @kiava | 8",
                 "🇺🇸US | vless | @proxy_mtm | 0",
                 "🏳️XX | vless | @vpn_go67 | 21",
@@ -269,9 +271,30 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @VlessConfig | 13",
+            "tag": "🇨🇦CA | vless | @Parsashonam | 9",
             "type": "vless",
-            "server": "44.222.26.118",
+            "server": "104.21.19.124",
+            "server_port": 8880,
+            "uuid": "Parsashonam-8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=2560",
+                "headers": {
+                    "Host": "104.21.19.124"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @VlessConfig | 13",
+            "type": "vless",
+            "server": "15.157.33.131",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -709,11 +732,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @prrofile_purple | 179",
+            "tag": "🇨🇦CA | vless | @prrofile_purple | 180",
             "type": "vless",
-            "server": "162.159.135.249",
-            "server_port": 80,
-            "uuid": "7a5a4624-df8d-4955-bccc-b3fa6161411f",
+            "server": "www.Speedtest.Net",
+            "server_port": 2095,
+            "uuid": "-DIGIV2RAY",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -723,9 +746,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram\/XV2ray",
+                "path": "\/DigiconnecT?ed=1024",
                 "headers": {
-                    "Host": "162.159.135.249"
+                    "Host": "www.Speedtest.Net"
                 }
             }
         },
@@ -1300,11 +1323,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @FreakConfig | 12",
+            "tag": "🇺🇸US | vless | @FreakConfig | 11",
             "type": "vless",
-            "server": "avval.ir",
-            "server_port": 8443,
-            "uuid": "51d19c6d-d0bf-4e0b-8eef-9a1d3f13c7e6",
+            "server": "172.67.199.19",
+            "server_port": 2082,
+            "uuid": "416f18ec-11f3-4648-9693-8c6480d0662d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1312,21 +1335,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "vip-romax-tiktok.hsjsak.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "vip-romax-tiktok.hsjsak.ir"
+                    "Host": "172.67.199.19"
                 }
             }
         },
@@ -1373,11 +1386,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @mehrosaboran | 6",
+            "tag": "🇺🇸US | vless | @mehrosaboran | 5",
             "type": "vless",
             "server": "198.41.202.5",
             "server_port": 8880,
-            "uuid": "8d713d9e-db5c-4f2c-8c57-06674b97108d",
+            "uuid": "5807ae72-0a75-4f0e-b884-5bd35cd8be61",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
