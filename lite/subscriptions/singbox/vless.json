@@ -124,7 +124,7 @@
                 "🇺🇸US | vless | @servermomo | 1",
                 "🇨🇦CA | vless | @V2rayCollector | 9",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇨🇦CA | vless | @ProxyForOpeta | 5",
+                "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇨🇦CA | vless | @V2rayNGn | 9",
                 "🇮🇷IR | vless | @Outline_Vpn | 17",
                 "🇨🇦CA | vless | @prrofile_purple | 180",
@@ -149,16 +149,15 @@
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 14",
                 "🇱🇹LT | vless | @v2rayng_vpnrog | 11",
-                "🇨🇦CA | vless | @v2rayng_config_amin | 2",
+                "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @FreakConfig | 11",
                 "🇺🇸US | vless | @flyv2ray | 9",
                 "🇺🇸US | vless | @FAKEOFTVC | 1",
                 "🇺🇸US | vless | @mehrosaboran | 6",
                 "🇺🇸US | vless | @kiava | 8",
-                "🇺🇸US | vless | @proxy_mtm | 1",
+                "🇺🇸US | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 21",
-                "🇬🇧GB | vless | @kingofilter | 11",
                 "🇨🇷CR | vless | @GozargahVPN | 13",
                 "🇺🇸US | vless | @SvnTeam | 18",
                 "🏳️XX | vless | @IBv2ray | 4",
@@ -189,7 +188,7 @@
                 "🇺🇸US | vless | @servermomo | 1",
                 "🇨🇦CA | vless | @V2rayCollector | 9",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇨🇦CA | vless | @ProxyForOpeta | 5",
+                "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇨🇦CA | vless | @V2rayNGn | 9",
                 "🇮🇷IR | vless | @Outline_Vpn | 17",
                 "🇨🇦CA | vless | @prrofile_purple | 180",
@@ -214,16 +213,15 @@
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 14",
                 "🇱🇹LT | vless | @v2rayng_vpnrog | 11",
-                "🇨🇦CA | vless | @v2rayng_config_amin | 2",
+                "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @FreakConfig | 11",
                 "🇺🇸US | vless | @flyv2ray | 9",
                 "🇺🇸US | vless | @FAKEOFTVC | 1",
                 "🇺🇸US | vless | @mehrosaboran | 6",
                 "🇺🇸US | vless | @kiava | 8",
-                "🇺🇸US | vless | @proxy_mtm | 1",
+                "🇺🇸US | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 21",
-                "🇬🇧GB | vless | @kingofilter | 11",
                 "🇨🇷CR | vless | @GozargahVPN | 13",
                 "🇺🇸US | vless | @SvnTeam | 18",
                 "🏳️XX | vless | @IBv2ray | 4",
@@ -668,11 +666,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ProxyForOpeta | 5",
+            "tag": "🇨🇦CA | vless | @ProxyForOpeta | 4",
             "type": "vless",
             "server": "proxyforopeta.bestgameir2.ir",
             "server_port": 2083,
-            "uuid": "eec0b5ba-5ebf-43a8-9671-c27c4552ca8b",
+            "uuid": "b7e02936-595f-4fc5-8290-90026f3ea3f2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1286,7 +1284,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayng_config_amin | 2",
+            "tag": "🇺🇸US | vless | @v2rayng_config_amin | 2",
             "type": "vless",
             "server": "172.66.44.181",
             "server_port": 443,
@@ -1451,7 +1449,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxy_mtm | 1",
+            "tag": "🇺🇸US | vless | @proxy_mtm | 2",
             "type": "vless",
             "server": "check-host.net",
             "server_port": 80,
@@ -1505,27 +1503,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇬🇧GB | vless | @kingofilter | 11",
-            "type": "vless",
-            "server": "51.68.220.178",
-            "server_port": 80,
-            "uuid": "cb760ee3-de13-11ee-95c9-00505603e70d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/websocket",
-                "headers": {
-                    "Host": "51.68.220.178"
-                }
             }
         },
         {
