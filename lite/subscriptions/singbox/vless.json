@@ -147,14 +147,14 @@
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇺🇸US | vless | @Outlinev2rayNG | 15",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 15",
                 "🇱🇹LT | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @FreakConfig | 12",
                 "🇺🇸US | vless | @flyv2ray | 10",
                 "🇺🇸US | vless | @FAKEOFTVC | 0",
-                "🇺🇸US | vless | @mehrosaboran | 6",
+                "🇺🇸US | vless | @mehrosaboran | 5",
                 "🇺🇸US | vless | @kiava | 8",
                 "🇺🇸US | vless | @proxy_mtm | 0",
                 "🏳️XX | vless | @vpn_go67 | 21",
@@ -212,14 +212,14 @@
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇺🇸US | vless | @Outlinev2rayNG | 15",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 15",
                 "🇱🇹LT | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @FreakConfig | 12",
                 "🇺🇸US | vless | @flyv2ray | 10",
                 "🇺🇸US | vless | @FAKEOFTVC | 0",
-                "🇺🇸US | vless | @mehrosaboran | 6",
+                "🇺🇸US | vless | @mehrosaboran | 5",
                 "🇺🇸US | vless | @kiava | 8",
                 "🇺🇸US | vless | @proxy_mtm | 0",
                 "🏳️XX | vless | @vpn_go67 | 21",
@@ -1227,7 +1227,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 15",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 15",
             "type": "vless",
             "server": "172.66.47.2",
             "server_port": 2096,
@@ -1422,11 +1422,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @mehrosaboran | 6",
+            "tag": "🇺🇸US | vless | @mehrosaboran | 5",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2087,
-            "uuid": "bbe44f4e-f938-460c-b29b-9771ee7bf862",
+            "server": "198.41.202.5",
+            "server_port": 8880,
+            "uuid": "8d713d9e-db5c-4f2c-8c57-06674b97108d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1434,21 +1434,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "LiV2ry.lightning1.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray",
+                "path": "\/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6",
                 "headers": {
-                    "Host": "LiV2ry.lightning1.ir"
+                    "Host": "198.41.202.5"
                 }
             }
         },
