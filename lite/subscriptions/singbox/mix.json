@@ -108,7 +108,6 @@
                 "URL-TEST",
                 "🇨🇦CA | vless | @EliV2ray | 15",
                 "🇫🇷FR | vless | @VlessConfig | 15",
-                "🇨🇦CA | vless | @VPNCUSTOMIZE | 13",
                 "🇨🇦CA | vless | @ipV2Ray | 13",
                 "🇨🇦CA | vless | @melov2ray | 5",
                 "🇸🇪SE | vless | @V2pedia | 15",
@@ -129,7 +128,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 10",
                 "🇨🇦CA | vless | @V2rayNGn | 9",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
-                "🇫🇷FR | trojan | @DirectVPN | 13",
+                "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
@@ -184,7 +183,6 @@
             "outbounds": [
                 "🇨🇦CA | vless | @EliV2ray | 15",
                 "🇫🇷FR | vless | @VlessConfig | 15",
-                "🇨🇦CA | vless | @VPNCUSTOMIZE | 13",
                 "🇨🇦CA | vless | @ipV2Ray | 13",
                 "🇨🇦CA | vless | @melov2ray | 5",
                 "🇸🇪SE | vless | @V2pedia | 15",
@@ -205,7 +203,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 10",
                 "🇨🇦CA | vless | @V2rayNGn | 9",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
-                "🇫🇷FR | trojan | @DirectVPN | 13",
+                "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
@@ -322,27 +320,6 @@
                 "path": "\/telegram-channel-vlessconfig-ws",
                 "headers": {
                     "Host": "telegram-channel-vlessconfig.sohala.uk"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @VPNCUSTOMIZE | 13",
-            "type": "vless",
-            "server": "www.parsvds.ir",
-            "server_port": 8080,
-            "uuid": "Tel-VPNCUSTOMIZE",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/VPNCUSTOMIZE?ed=8080",
-                "headers": {
-                    "Host": "www.parsvds.ir"
                 }
             }
         },
@@ -785,9 +762,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | trojan | @DirectVPN | 13",
+            "tag": "🇸🇪SE | trojan | @DirectVPN | 15",
             "type": "trojan",
-            "server": "13.36.61.20",
+            "server": "13.51.50.217",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
