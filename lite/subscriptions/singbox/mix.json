@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇨🇦CA | vless | @EliV2ray | 15",
                 "🇫🇷FR | vless | @VlessConfig | 15",
                 "🇨🇦CA | vless | @ipV2Ray | 13",
                 "🇨🇦CA | vless | @melov2ray | 5",
@@ -114,7 +115,7 @@
                 "🇨🇦CA | vless | @ARv2ray | 16",
                 "🇨🇦CA | vless | @shh_proxy | 29",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
-                "🇨🇦CA | vless | @free_v2rayyy | 2",
+                "🇨🇦CA | vless | @free_v2rayyy | 3",
                 "🇨🇦CA | vless | @lightning6 | 20",
                 "🇸🇪SE | vless | @DigiV2ray | 26",
                 "🇨🇦CA | vless | @proxy_kafee | 4",
@@ -131,7 +132,7 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
-                "🇮🇷IR | vless | @Outline_Vpn | 17",
+                "🇸🇪SE | vless | @Outline_Vpn | 17",
                 "🇨🇦CA | vless | @prrofile_purple | 180",
                 "🇸🇪SE | vless | @customv2ray | 17",
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
@@ -148,14 +149,13 @@
                 "🇺🇸US | vmess | @DailyV2RY | 150",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
-                "🇫🇷FR | ss | @OutlineVpnOfficial | 18",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vmess | @Hope_Net | 4",
                 "🇸🇪SE | vless | @fnet00 | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 12",
+                "🇺🇸US | vless | @Outlinev2rayNG | 11",
                 "🇱🇹LT | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -180,6 +180,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇨🇦CA | vless | @EliV2ray | 15",
                 "🇫🇷FR | vless | @VlessConfig | 15",
                 "🇨🇦CA | vless | @ipV2Ray | 13",
                 "🇨🇦CA | vless | @melov2ray | 5",
@@ -188,7 +189,7 @@
                 "🇨🇦CA | vless | @ARv2ray | 16",
                 "🇨🇦CA | vless | @shh_proxy | 29",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
-                "🇨🇦CA | vless | @free_v2rayyy | 2",
+                "🇨🇦CA | vless | @free_v2rayyy | 3",
                 "🇨🇦CA | vless | @lightning6 | 20",
                 "🇸🇪SE | vless | @DigiV2ray | 26",
                 "🇨🇦CA | vless | @proxy_kafee | 4",
@@ -205,7 +206,7 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
-                "🇮🇷IR | vless | @Outline_Vpn | 17",
+                "🇸🇪SE | vless | @Outline_Vpn | 17",
                 "🇨🇦CA | vless | @prrofile_purple | 180",
                 "🇸🇪SE | vless | @customv2ray | 17",
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
@@ -222,14 +223,13 @@
                 "🇺🇸US | vmess | @DailyV2RY | 150",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
-                "🇫🇷FR | ss | @OutlineVpnOfficial | 18",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vmess | @Hope_Net | 4",
                 "🇸🇪SE | vless | @fnet00 | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 12",
+                "🇺🇸US | vless | @Outlinev2rayNG | 11",
                 "🇱🇹LT | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -268,6 +268,27 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇨🇦CA | vless | @EliV2ray | 15",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8080,
+            "uuid": "Channel-ELiV2ray-ELiV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ELENA--repo.steampowered.com?ed=8080",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
         },
         {
             "tag": "🇫🇷FR | vless | @VlessConfig | 15",
@@ -448,7 +469,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @free_v2rayyy | 2",
+            "tag": "🇨🇦CA | vless | @free_v2rayyy | 3",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -822,17 +843,24 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @Outline_Vpn | 17",
+            "tag": "🇸🇪SE | vless | @Outline_Vpn | 17",
             "type": "vless",
-            "server": "79.175.133.135",
-            "server_port": 41754,
-            "uuid": "a5469633-b780-4e13-815b-fa72582f8c4e",
+            "server": "185.146.173.58",
+            "server_port": 2095,
+            "uuid": "a3c48196-a190-48d8-9af2-c59b2d4c3b71",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/servernet",
+                "headers": {
+                    "Host": "185.146.173.58"
+                }
             }
         },
         {
@@ -1228,16 +1256,6 @@
             }
         },
         {
-            "tag": "🇫🇷FR | ss | @OutlineVpnOfficial | 18",
-            "type": "shadowsocks",
-            "server": "92.243.27.51",
-            "server_port": 9802,
-            "method": "chacha20-ietf-poly1305",
-            "password": "5YBFWHQqw9vutAvKas9Wd0",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
             "tag": "🏳️XX | vless | @proxystore11 | 3",
             "type": "vless",
             "server": "z61.maduss.com",
@@ -1400,11 +1418,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 12",
+            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 11",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8080,
-            "uuid": "d7e70e3d-f5bb-4510-bb42-bd06171f5b44",
+            "uuid": "telegram-id-PcV2ray",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1414,7 +1432,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/SHHPROXY?ed=8080",
+                "path": "\/telegram-PcV2ry",
                 "headers": {
                     "Host": "www.speedtest.net"
                 }
