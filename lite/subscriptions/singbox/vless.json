@@ -146,8 +146,8 @@
                 "🇨🇦CA | vless | @lrnbymaa | 10",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 13",
-                "🇨🇦CA | vless | @v2rayng_vpnrog | 10",
+                "🇮🇷IR | vless | @Outlinev2rayNG | 13",
+                "🇺🇸US | vless | @v2rayng_vpnrog | 10",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @FreakConfig | 11",
@@ -208,8 +208,8 @@
                 "🇨🇦CA | vless | @lrnbymaa | 10",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 13",
-                "🇨🇦CA | vless | @v2rayng_vpnrog | 10",
+                "🇮🇷IR | vless | @Outlinev2rayNG | 13",
+                "🇺🇸US | vless | @v2rayng_vpnrog | 10",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @FreakConfig | 11",
@@ -522,7 +522,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "8d713d9e-db5c-4f2c-8c57-06674b97108d",
+            "uuid": "dc27e46a-79bc-4207-b7db-5ae02b35a253",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1190,28 +1190,21 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 13",
+            "tag": "🇮🇷IR | vless | @Outlinev2rayNG | 13",
             "type": "vless",
-            "server": "104.21.21.41",
-            "server_port": 80,
-            "uuid": "c3539933-a451-4915-ac5f-7a99a666aba7",
+            "server": "88.135.46.45",
+            "server_port": 2053,
+            "uuid": "d0dcf0d5-dd3e-497d-e780-957c0e136439",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "104.21.21.41"
-                }
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayng_vpnrog | 10",
+            "tag": "🇺🇸US | vless | @v2rayng_vpnrog | 10",
             "type": "vless",
             "server": "104.24.20.71",
             "server_port": 443,
