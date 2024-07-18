@@ -111,7 +111,8 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @v2Line | 1",
+                "🇭🇰HK | vmess | @Hope_Net | 0",
+                "🇨🇦CA | vmess | @v2Line | 1",
                 "🇺🇸US | vmess | @FAKEOFTVC | 7",
                 "🇺🇸US | vmess | @kingofilter | 11"
             ]
@@ -125,7 +126,8 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @v2Line | 1",
+                "🇭🇰HK | vmess | @Hope_Net | 0",
+                "🇨🇦CA | vmess | @v2Line | 1",
                 "🇺🇸US | vmess | @FAKEOFTVC | 7",
                 "🇺🇸US | vmess | @kingofilter | 11"
             ],
@@ -269,7 +271,31 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2Line | 1",
+            "tag": "🇭🇰HK | vmess | @Hope_Net | 0",
+            "type": "vmess",
+            "server": "hrgdvpn.flycdnedc55.vip",
+            "server_port": 80,
+            "uuid": "00a1da14-d55f-5f75-e346-79b985e1a723",
+            "security": "auto",
+            "alter_id": 64,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/opt\/video\/images",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @v2Line | 1",
             "type": "vmess",
             "server": "172.67.175.56",
             "server_port": 443,
