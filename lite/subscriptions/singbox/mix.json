@@ -136,7 +136,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 3",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
-                "🇨🇦CA | vless | @prrofile_purple | 181",
+                "🇨🇦CA | vless | @prrofile_purple | 171",
                 "🇸🇪SE | vless | @customv2ray | 17",
                 "🇨🇦CA | vless | @vmessorg | 10",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 8",
@@ -169,7 +169,7 @@
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🇺🇸US | vmess | @kingofilter | 11",
                 "🇨🇷CR | vless | @GozargahVPN | 13",
-                "🇺🇸US | vless | @SvnTeam | 18",
+                "🇺🇸US | vless | @SvnTeam | 13",
                 "🏳️XX | vless | @IBv2ray | 4",
                 "🇸🇪SE | vless | @V2FETCH | 3",
                 "🏳️XX | vless | @VpnSkyy | 7",
@@ -210,7 +210,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 3",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
-                "🇨🇦CA | vless | @prrofile_purple | 181",
+                "🇨🇦CA | vless | @prrofile_purple | 171",
                 "🇸🇪SE | vless | @customv2ray | 17",
                 "🇨🇦CA | vless | @vmessorg | 10",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 8",
@@ -243,7 +243,7 @@
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🇺🇸US | vmess | @kingofilter | 11",
                 "🇨🇷CR | vless | @GozargahVPN | 13",
-                "🇺🇸US | vless | @SvnTeam | 18",
+                "🇺🇸US | vless | @SvnTeam | 13",
                 "🏳️XX | vless | @IBv2ray | 4",
                 "🇸🇪SE | vless | @V2FETCH | 3",
                 "🏳️XX | vless | @VpnSkyy | 7",
@@ -934,17 +934,24 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @prrofile_purple | 181",
+            "tag": "🇨🇦CA | vless | @prrofile_purple | 171",
             "type": "vless",
-            "server": "104.22.13.192",
-            "server_port": 80,
-            "uuid": "--Shh-Proxy-",
+            "server": "www.speedtest.net",
+            "server_port": 8080,
+            "uuid": "0be4c9a8-c427-477e-8c54-228b95bfd39d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/SHHPROXY?ed=8080",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
             }
         },
         {
@@ -1745,11 +1752,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @SvnTeam | 18",
+            "tag": "🇺🇸US | vless | @SvnTeam | 13",
             "type": "vless",
             "server": "mtn.VPNPROSEC.com",
             "server_port": 80,
-            "uuid": "SVNTEAMa",
+            "uuid": "SVNTEAM",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
