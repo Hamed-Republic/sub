@@ -134,7 +134,7 @@
                 "🇩🇪DE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
                 "🇨🇦CA | vless | @prrofile_purple | 178",
@@ -157,7 +157,7 @@
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 5",
+                "🇺🇸US | vmess | @Hope_Net | 6",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇺🇸US | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 10",
@@ -170,7 +170,6 @@
                 "🇺🇸US | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🇺🇸US | vmess | @kingofilter | 9",
-                "🇨🇷CR | vless | @GozargahVPN | 13",
                 "🇺🇸US | vless | @SvnTeam | 13",
                 "🏳️XX | vless | @IBv2ray | 4",
                 "🇸🇪SE | vless | @V2FETCH | 3",
@@ -210,7 +209,7 @@
                 "🇩🇪DE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
                 "🇨🇦CA | vless | @prrofile_purple | 178",
@@ -233,7 +232,7 @@
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 5",
+                "🇺🇸US | vmess | @Hope_Net | 6",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇺🇸US | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 10",
@@ -246,7 +245,6 @@
                 "🇺🇸US | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🇺🇸US | vmess | @kingofilter | 9",
-                "🇨🇷CR | vless | @GozargahVPN | 13",
                 "🇺🇸US | vless | @SvnTeam | 13",
                 "🏳️XX | vless | @IBv2ray | 4",
                 "🇸🇪SE | vless | @V2FETCH | 3",
@@ -883,11 +881,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 19",
             "type": "vmess",
-            "server": "172.67.199.121",
-            "server_port": 8080,
-            "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
+            "server": "108.181.200.220",
+            "server_port": 22751,
+            "uuid": "09fb03a6-5e49-4a59-e268-dbd1720f5eb1",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -902,7 +900,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "172.67.199.121"
+                    "Host": "108.181.200.220"
                 }
             }
         },
@@ -1427,7 +1425,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 5",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 6",
             "type": "vmess",
             "server": "denc36.xtooltech.cfd",
             "server_port": 443,
@@ -1781,37 +1779,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "kingo.hightechservice.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇷CR | vless | @GozargahVPN | 13",
-            "type": "vless",
-            "server": "My.GozargahVPN.top",
-            "server_port": 443,
-            "uuid": "b897d1a5-6a30-45bb-8244-bbae99672609",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.GozargahVPN.top",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram:,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,",
-                "headers": {
-                    "Host": "www.GozargahVPN.top"
                 }
             }
         },
