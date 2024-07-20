@@ -115,7 +115,7 @@
                 "🇺🇸US | vmess | @mftizi | 10",
                 "🇨🇳CN | vmess | @mftizi | 11",
                 "🇭🇰HK | vmess | @mftizi | 12",
-                "🇺🇸US | vmess | @mftizi | 13",
+                "🇨🇷CR | vmess | @mftizi | 13",
                 "🇨🇳CN | vmess | @mftizi | 14",
                 "🏳️XX | vmess | @mftizi | 15",
                 "🇨🇳CN | vmess | @mftizi | 16",
@@ -140,20 +140,20 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 33",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 35",
                 "🇺🇸US | vmess | @v2ray1_ng | 11",
-                "🇺🇸US | vmess | @vless_vmess | 2",
+                "🇺🇸US | vmess | @vless_vmess | 0",
+                "🇺🇸US | vmess | @vless_vmess | 3",
                 "🏳️XX | vmess | @DailyV2RY | 192",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
                 "🇨🇳CN | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 0",
-                "🇺🇸US | vmess | @Hope_Net | 1",
-                "🏳️XX | vmess | @Hope_Net | 3",
-                "🏳️XX | vmess | @Hope_Net | 5",
+                "🏳️XX | vmess | @Hope_Net | 1",
+                "🇺🇸US | vmess | @Hope_Net | 2",
+                "🇺🇸US | vmess | @Hope_Net | 3",
                 "🇺🇸US | vmess | @v2Line | 0",
                 "🇺🇸US | vmess | @v2Line | 1",
-                "🇸🇪SE | vmess | @FAKEOFTVC | 8",
+                "🇸🇪SE | vmess | @FAKEOFTVC | 9",
                 "🇺🇸US | vmess | @kingofilter | 1",
                 "🇺🇸US | vmess | @kingofilter | 3",
                 "🇺🇸US | vmess | @kingofilter | 5",
@@ -174,7 +174,7 @@
                 "🇺🇸US | vmess | @mftizi | 10",
                 "🇨🇳CN | vmess | @mftizi | 11",
                 "🇭🇰HK | vmess | @mftizi | 12",
-                "🇺🇸US | vmess | @mftizi | 13",
+                "🇨🇷CR | vmess | @mftizi | 13",
                 "🇨🇳CN | vmess | @mftizi | 14",
                 "🏳️XX | vmess | @mftizi | 15",
                 "🇨🇳CN | vmess | @mftizi | 16",
@@ -199,20 +199,20 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 33",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 35",
                 "🇺🇸US | vmess | @v2ray1_ng | 11",
-                "🇺🇸US | vmess | @vless_vmess | 2",
+                "🇺🇸US | vmess | @vless_vmess | 0",
+                "🇺🇸US | vmess | @vless_vmess | 3",
                 "🏳️XX | vmess | @DailyV2RY | 192",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
                 "🇨🇳CN | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 0",
-                "🇺🇸US | vmess | @Hope_Net | 1",
-                "🏳️XX | vmess | @Hope_Net | 3",
-                "🏳️XX | vmess | @Hope_Net | 5",
+                "🏳️XX | vmess | @Hope_Net | 1",
+                "🇺🇸US | vmess | @Hope_Net | 2",
+                "🇺🇸US | vmess | @Hope_Net | 3",
                 "🇺🇸US | vmess | @v2Line | 0",
                 "🇺🇸US | vmess | @v2Line | 1",
-                "🇸🇪SE | vmess | @FAKEOFTVC | 8",
+                "🇸🇪SE | vmess | @FAKEOFTVC | 9",
                 "🇺🇸US | vmess | @kingofilter | 1",
                 "🇺🇸US | vmess | @kingofilter | 3",
                 "🇺🇸US | vmess | @kingofilter | 5",
@@ -421,7 +421,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @mftizi | 13",
+            "tag": "🇨🇷CR | vmess | @mftizi | 13",
             "type": "vmess",
             "server": "cfcdn3.sanfencdn9.com",
             "server_port": 2052,
@@ -1062,7 +1062,31 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @vless_vmess | 2",
+            "tag": "🇺🇸US | vmess | @vless_vmess | 0",
+            "type": "vmess",
+            "server": "www.zula.ir",
+            "server_port": 80,
+            "uuid": "2e0ce6f3-7dc7-469a-9611-c8405a8ea5c1",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @vless_vmess | 3",
             "type": "vmess",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -1253,55 +1277,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 0",
-            "type": "vmess",
-            "server": "104.19.47.171",
-            "server_port": 8080,
-            "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/&Telegram🇨🇳@WangCai2",
-                "headers": {
-                    "Host": "104.19.47.171"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 1",
-            "type": "vmess",
-            "server": "172.64.175.213",
-            "server_port": 2086,
-            "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/github.com\/Alvin9999",
-                "headers": {
-                    "Host": "172.64.175.213"
-                }
-            }
-        },
-        {
-            "tag": "🏳️XX | vmess | @Hope_Net | 3",
+            "tag": "🏳️XX | vmess | @Hope_Net | 1",
             "type": "vmess",
             "server": "v2ray.wefuckgfw.ga",
             "server_port": 2096,
@@ -1335,11 +1311,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 5",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 2",
             "type": "vmess",
-            "server": "v1.tgfaka.com",
-            "server_port": 8443,
-            "uuid": "00b19c02-bc00-440a-a397-faf70ac3f44e",
+            "server": "104.19.47.171",
+            "server_port": 8080,
+            "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1350,21 +1326,35 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "v1.tgfaka.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "transport": {
+                "type": "ws",
+                "path": "\/&Telegram🇨🇳@WangCai2",
+                "headers": {
+                    "Host": "104.19.47.171"
                 }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @Hope_Net | 3",
+            "type": "vmess",
+            "server": "172.64.175.213",
+            "server_port": 2086,
+            "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             },
             "transport": {
                 "type": "ws",
-                "path": "\/api\/v3\/download.getFile",
+                "path": "\/github.com\/Alvin9999",
                 "headers": {
-                    "Host": "v1.tgfaka.com"
+                    "Host": "172.64.175.213"
                 }
             }
         },
@@ -1437,7 +1427,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vmess | @FAKEOFTVC | 8",
+            "tag": "🇸🇪SE | vmess | @FAKEOFTVC | 9",
             "type": "vmess",
             "server": "185.146.173.158",
             "server_port": 443,
