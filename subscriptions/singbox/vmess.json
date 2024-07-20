@@ -140,6 +140,7 @@
                 "🇨🇦CA | vmess | @ShadowProxy66 | 35",
                 "🇺🇸US | vmess | @v2ray1_ng | 11",
                 "🇺🇸US | vmess | @vless_vmess | 2",
+                "🏳️XX | vmess | @DailyV2RY | 172",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -197,6 +198,7 @@
                 "🇨🇦CA | vmess | @ShadowProxy66 | 35",
                 "🇺🇸US | vmess | @v2ray1_ng | 11",
                 "🇺🇸US | vmess | @vless_vmess | 2",
+                "🏳️XX | vmess | @DailyV2RY | 172",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -1062,6 +1064,23 @@
                 "headers": {
                     "Host": ""
                 }
+            }
+        },
+        {
+            "tag": "🏳️XX | vmess | @DailyV2RY | 172",
+            "type": "vmess",
+            "server": null,
+            "server_port": 0,
+            "uuid": null,
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
