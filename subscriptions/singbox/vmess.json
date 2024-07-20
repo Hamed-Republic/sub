@@ -120,27 +120,24 @@
                 "🏳️XX | vmess | @mftizi | 15",
                 "🇨🇳CN | vmess | @mftizi | 16",
                 "🏳️XX | vmess | @mftizi | 17",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 5",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 17",
-                "🇩🇪DE | vmess | @oneclickvpnkeys | 0",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 1",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 2",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 0",
+                "🇫🇷FR | vmess | @oneclickvpnkeys | 1",
+                "🇩🇪DE | vmess | @oneclickvpnkeys | 2",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 3",
-                "🇳🇱NL | vmess | @oneclickvpnkeys | 4",
-                "🇸🇪SE | vmess | @oneclickvpnkeys | 6",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 4",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 5",
+                "🇳🇱NL | vmess | @oneclickvpnkeys | 6",
                 "🇺🇸US | vmess | @ShadowProxy66 | 25",
                 "🇺🇸US | vmess | @ShadowProxy66 | 26",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 27",
                 "🇺🇸US | vmess | @ShadowProxy66 | 28",
                 "🇺🇸US | vmess | @ShadowProxy66 | 30",
-                "🇫🇷FR | vmess | @ShadowProxy66 | 31",
                 "🇺🇸US | vmess | @ShadowProxy66 | 32",
                 "🇺🇸US | vmess | @ShadowProxy66 | 33",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 35",
                 "🇺🇸US | vmess | @v2ray1_ng | 11",
                 "🇺🇸US | vmess | @vless_vmess | 0",
                 "🇺🇸US | vmess | @vless_vmess | 3",
-                "🇺🇸US | vmess | @DailyV2RY | 195",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -176,27 +173,24 @@
                 "🏳️XX | vmess | @mftizi | 15",
                 "🇨🇳CN | vmess | @mftizi | 16",
                 "🏳️XX | vmess | @mftizi | 17",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 5",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 17",
-                "🇩🇪DE | vmess | @oneclickvpnkeys | 0",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 1",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 2",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 0",
+                "🇫🇷FR | vmess | @oneclickvpnkeys | 1",
+                "🇩🇪DE | vmess | @oneclickvpnkeys | 2",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 3",
-                "🇳🇱NL | vmess | @oneclickvpnkeys | 4",
-                "🇸🇪SE | vmess | @oneclickvpnkeys | 6",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 4",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 5",
+                "🇳🇱NL | vmess | @oneclickvpnkeys | 6",
                 "🇺🇸US | vmess | @ShadowProxy66 | 25",
                 "🇺🇸US | vmess | @ShadowProxy66 | 26",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 27",
                 "🇺🇸US | vmess | @ShadowProxy66 | 28",
                 "🇺🇸US | vmess | @ShadowProxy66 | 30",
-                "🇫🇷FR | vmess | @ShadowProxy66 | 31",
                 "🇺🇸US | vmess | @ShadowProxy66 | 32",
                 "🇺🇸US | vmess | @ShadowProxy66 | 33",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 35",
                 "🇺🇸US | vmess | @v2ray1_ng | 11",
                 "🇺🇸US | vmess | @vless_vmess | 0",
                 "🇺🇸US | vmess | @vless_vmess | 3",
-                "🇺🇸US | vmess | @DailyV2RY | 195",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -514,11 +508,35 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 5",
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 0",
             "type": "vmess",
-            "server": "172.67.196.112",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "3e5cda0a-6122-4f54-9e3c-3f49e7a526f9",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷FR | vmess | @oneclickvpnkeys | 1",
+            "type": "vmess",
+            "server": "az05.beyondy.cfd",
             "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "uuid": "3f638f34-8dba-4186-bc43-2716a7ddd4be",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -531,7 +549,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
+                "server_name": "az05.beyondy.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -541,48 +559,14 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/link",
                 "headers": {
-                    "Host": "linde06.indiavideo.sbs"
+                    "Host": "az05.beyondy.cfd"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 17",
-            "type": "vmess",
-            "server": "188.114.97.210",
-            "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "linde06.indiavideo.sbs"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vmess | @oneclickvpnkeys | 0",
+            "tag": "🇩🇪DE | vmess | @oneclickvpnkeys | 2",
             "type": "vmess",
             "server": "23.158.56.49",
             "server_port": 22324,
@@ -599,7 +583,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 1",
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 3",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 443,
@@ -633,7 +617,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 2",
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 4",
             "type": "vmess",
             "server": "speed.cloudflare.com",
             "server_port": 80,
@@ -657,7 +641,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 3",
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 5",
             "type": "vmess",
             "server": "104.19.38.18",
             "server_port": 2052,
@@ -681,7 +665,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vmess | @oneclickvpnkeys | 4",
+            "tag": "🇳🇱NL | vmess | @oneclickvpnkeys | 6",
             "type": "vmess",
             "server": "45.14.244.133",
             "server_port": 2024,
@@ -701,40 +685,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vmess | @oneclickvpnkeys | 6",
-            "type": "vmess",
-            "server": "185.146.173.59",
-            "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "obdii.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "obdii.cfd"
                 }
             }
         },
@@ -882,40 +832,6 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vmess | @ShadowProxy66 | 31",
-            "type": "vmess",
-            "server": "az05.beyondy.cfd",
-            "server_port": 443,
-            "uuid": "3f638f34-8dba-4186-bc43-2716a7ddd4be",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "az05.beyondy.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/link",
-                "headers": {
-                    "Host": "az05.beyondy.cfd"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | vmess | @ShadowProxy66 | 32",
             "type": "vmess",
             "server": "23.154.136.47",
@@ -1050,30 +966,6 @@
             "transport": {
                 "type": "ws",
                 "path": "\/RACEVPN",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @DailyV2RY | 195",
-            "type": "vmess",
-            "server": "172.66.213.38",
-            "server_port": 80,
-            "uuid": "f533e37c-9da5-4955-a218-a7886e5719b6",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/NkXnI0l6LGkotMyATWmx5f6MblN",
                 "headers": {
                     "Host": ""
                 }
