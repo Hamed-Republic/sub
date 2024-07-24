@@ -157,7 +157,7 @@ proxies:
   - {"name":"🇺🇸US | trojan | @FAKEOFTVC | 0","type":"trojan","server":"www.speedtest.net","port":443,"udp":false,"password":"Watashi_VPN","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"t-watashi-r-jacket-o-people-jan.watashi-java.ir"}
   - {"name":"🇺🇸US | trojan | @FAKEOFTVC | 1","type":"trojan","server":"www.visa.com.sg","port":2053,"udp":false,"password":"Watashi_VPN","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"t-watashi-r-jacket-o-people-jan.watashi-java.ir"}
   - {"name":"🇺🇸US | trojan | @FAKEOFTVC | 2","type":"trojan","server":"www.visa.com.sg","port":8443,"udp":false,"password":"Watashi_VPN","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"t-watashi-r-jacket-o-people-jan.watashi-java.ir"}
-  - {"name":"🇨🇦CA | trojan | @FAKEOFTVC | 3","type":"trojan","server":"162.159.138.232","port":8443,"udp":false,"password":"auto","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"🇺🇸US | trojan | @FAKEOFTVC | 3","type":"trojan","server":"162.159.138.232","port":8443,"udp":false,"password":"auto","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -201,7 +201,7 @@ proxy-groups:
       - '🇺🇸US | trojan | @FAKEOFTVC | 0'
       - '🇺🇸US | trojan | @FAKEOFTVC | 1'
       - '🇺🇸US | trojan | @FAKEOFTVC | 2'
-      - '🇨🇦CA | trojan | @FAKEOFTVC | 3'
+      - '🇺🇸US | trojan | @FAKEOFTVC | 3'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -245,7 +245,7 @@ proxy-groups:
       - '🇺🇸US | trojan | @FAKEOFTVC | 0'
       - '🇺🇸US | trojan | @FAKEOFTVC | 1'
       - '🇺🇸US | trojan | @FAKEOFTVC | 2'
-      - '🇨🇦CA | trojan | @FAKEOFTVC | 3'
+      - '🇺🇸US | trojan | @FAKEOFTVC | 3'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -288,7 +288,7 @@ proxy-groups:
       - '🇺🇸US | trojan | @FAKEOFTVC | 0'
       - '🇺🇸US | trojan | @FAKEOFTVC | 1'
       - '🇺🇸US | trojan | @FAKEOFTVC | 2'
-      - '🇨🇦CA | trojan | @FAKEOFTVC | 3'
+      - '🇺🇸US | trojan | @FAKEOFTVC | 3'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
